@@ -1,0 +1,13 @@
+services:
+  - type: web
+    runtime: static
+    name: tutchgrass-terminal
+    buildCommand: echo static
+    staticPublishPath: public
+    routes:
+      - type: redirect
+        source: /
+        destination: /terminal/
+    domains:
+      - tutchgrass.com
+      - www.tutchgrass.com
