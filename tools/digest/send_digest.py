@@ -4,7 +4,7 @@ DRY RUN BY DEFAULT: builds the emails and writes previews to tools/digest/out/ a
 Real sending needs BOTH env vars plus the --send flag:
   BREVO_API_KEY              Brevo v3 API key (account Arkitekt@myyahoo.com), sent as the 'api-key' header
   SUPABASE_SERVICE_ROLE_KEY  server-side key used to read opted-in users (never ship it to the browser)
-Optional: SUPABASE_URL (default the project URL), DIGEST_FROM (default research@tutchgrass.com), DIGEST_FROM_NAME.
+Optional: SUPABASE_URL (default the project URL), DIGEST_FROM (default tutchgrass@mail.grokbot.com), DIGEST_FROM_NAME.
 
   python3 tools/digest/send_digest.py --demo            # preview with a sample user, no keys needed
   python3 tools/digest/send_digest.py                   # dry run against real opted-in users (needs service key)
@@ -16,7 +16,7 @@ import argparse,datetime as dt,html,json,os,sys,urllib.request,urllib.error
 HERE=os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0,os.path.join(HERE,"..","terminal"))
 import newstudies as NS
 SB_URL=os.environ.get("SUPABASE_URL","https://ckauuurdpltrqjimjgbt.supabase.co")
-SITE="https://tutchgrass.com"; STATE=os.path.join(HERE,"state.json"); OUT=os.path.join(HERE,"out")
+SITE="https://tutchgrass-terminal.onrender.com"; STATE=os.path.join(HERE,"state.json"); OUT=os.path.join(HERE,"out")
 BREVO="https://api.brevo.com/v3/smtp/email"
 def _req(url,key,method="GET",body=None,extra=None):
     h={"apikey":key,"Authorization":f"Bearer {key}","Content-Type":"application/json"}; h.update(extra or {})
@@ -68,7 +68,7 @@ def build(u,by,papers,mode,since):
     text=f"Cannabis Agent Terminal. {kind} since {since}.\n"+"".join(txt)+f"\n\nResearch summary, not medical advice.\nSettings: {SITE}/terminal/account/\nUnsubscribe: {unsub}\n"
     return dict(subject=subj,html=body,text=text,unsub=unsub,count=n)
 def send(brevo_key,to,m):
-    body={"sender":{"email":os.environ.get("DIGEST_FROM","research@tutchgrass.com"),"name":os.environ.get("DIGEST_FROM_NAME","Cannabis Agent Terminal")},
+    body={"sender":{"email":os.environ.get("DIGEST_FROM","tutchgrass@mail.grokbot.com"),"name":os.environ.get("DIGEST_FROM_NAME","Cannabis Agent Terminal")},
           "to":[{"email":to}],"subject":m["subject"],"htmlContent":m["html"],"textContent":m["text"],
           "headers":{"List-Unsubscribe":f"<{m['unsub']}>"},"tags":["tutchgrass-digest"]}
     r=urllib.request.Request(BREVO,data=json.dumps(body).encode(),method="POST",headers={"api-key":brevo_key,"accept":"application/json","content-type":"application/json"})

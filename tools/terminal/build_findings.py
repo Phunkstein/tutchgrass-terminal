@@ -1,7 +1,7 @@
 """Static permalink pages for 'Latest findings' (public/terminal/findings/<slug>.html) with OG/Twitter cards."""
 import json,os,html,urllib.parse
 HERE=os.path.dirname(os.path.abspath(__file__)); PUB=os.path.join(HERE,"..","..","public","terminal")
-SITE="https://tutchgrass.com"; E=lambda s: html.escape(str(s),quote=True)
+SITE="https://tutchgrass-terminal.onrender.com"; E=lambda s: html.escape(str(s),quote=True)
 LOGO='<svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#14532d"/><g color="#fff" transform="translate(6 5) scale(.82)"><path d="M32 8c3 7 4 14 2 22 5-6 11-9 18-10-4 7-9 12-16 14 6 0 11 2 15 5-7 2-13 1-17-2 1 4 1 8-2 13-3-5-3-9-2-13-4 3-10 4-17 2 4-3 9-5 15-5-7-2-12-7-16-14 7 1 13 4 18 10-2-8-1-15 2-22z" fill="currentColor"/><path d="M32 40v16" stroke="currentColor" stroke-width="2.5"/></g></svg>'
 def load(): return json.load(open(os.path.join(HERE,"data","findings.json")))["findings"]
 def enrich(f):
