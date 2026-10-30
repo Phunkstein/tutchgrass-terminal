@@ -1,4 +1,4 @@
-// Tutchgrass Labs: My Condition, saved favorites and email prefs. Uses the existing Supabase client from app.js (app.js/account.js unchanged).
+// Cannabis Agent Terminal: My Condition, saved favorites and email prefs. Uses the existing Supabase client from app.js (app.js/account.js unchanged).
 import {sb,signedIn} from './app.js';
 const $=s=>document.querySelector(s),E=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const LS='tg_conditions_pending',SAVES='tg_saves_pending';
@@ -23,7 +23,7 @@ async function toggleSave(key){
     toast('Saved for when you join. <a href="/terminal/account/#signup">Sign up free</a> to keep favorites and get new-study alerts.');return}
   const c=await sb(),[kind,...r]=key.split(':'),item_id=r.join(':');
   if(st.saves.has(key)){await c.from('user_saves').delete().match({kind,item_id});st.saves.delete(key);toast('Removed from saved.')}
-  else{const {error}=await c.from('user_saves').insert({kind,item_id});if(error){toast('Could not save: '+E(error.message));return}st.saves.add(key);toast('Saved. See it under <a href="/terminal/my/">My Condition</a>.')}
+  else{const {error}=await c.from('user_saves').insert({kind,item_id});if(error){toast('Could not save: '+E(error.message));return}st.saves.add(key);toast('Saved. See it under <a class="mylink" href="/terminal/my/"><svg class="hx" viewBox="0 0 16 16" aria-hidden="true"><path d="M5.5 1h5v4.5H15v5h-4.5V15h-5v-4.5H1v-5h4.5z"/></svg>My Condition</a>.')}
   mark(); if(window.TGMY_refresh) window.TGMY_refresh();
 }
 async function toggleCond(id){

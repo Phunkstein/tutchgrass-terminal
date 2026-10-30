@@ -40,7 +40,7 @@ def run(live=True):
              pubmed_records_cached=len(a),dropped_unverified=dropped,conditions=out)
     json.dump(res,open(os.path.join(ROOT,"data/scientist.json"),"w"),indent=1)
     lab=json.load(open(os.path.join(ROOT,"data/lab.json"))) if os.path.exists(os.path.join(ROOT,"data/lab.json")) else None
-    L=[f"# Tutchgrass Labs: Scientist report","",f"Generated {res['generated']}. {DISCLAIMER}","",f"_{STRAIN_NOTE}_","",
+    L=[f"# Cannabis Agent Terminal: Scientist report","",f"Generated {res['generated']}. {DISCLAIMER}","",f"_{STRAIN_NOTE}_","",
        "Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized trial, HUMAN-OBS = human observational, PRECLINICAL = animal/cell only, GUIDELINE, REPORT, COMMENTARY, REVIEW, CASE, HORT = horticultural study, ANECDOTAL = grower practice (not a study).",""]
     for e in out:
         L+=[f"## {e['name']}",f"- **Evidence strength:** {e['evidence']} — {e['evidence_note']}",f"- **Most promising chemotype:** {e['chemotype']}",

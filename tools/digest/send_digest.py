@@ -1,4 +1,4 @@
-"""Tutchgrass Labs: new-study alerts + weekly digest (Brevo transactional email API).
+"""Cannabis Agent Terminal: new-study alerts + weekly digest (Brevo transactional email API).
 
 DRY RUN BY DEFAULT: builds the emails and writes previews to tools/digest/out/ and sends nothing.
 Real sending needs BOTH env vars plus the --send flag:
@@ -61,14 +61,14 @@ def build(u,by,papers,mode,since):
     kind="New studies" if mode=="alerts" else "Your weekly research digest"
     subj=f"{kind}: {n} new {'study' if n==1 else 'studies'} for your conditions"
     foot=(f'<p style="font:12px Inter,Arial;color:#777;margin-top:24px">Research summary, not medical advice. Studies suggest; they do not prove. Talk to a doctor, especially if you take other medicines. '
-          f'You get this because you picked these conditions on Tutchgrass Labs. <a href="{SITE}/terminal/account/">Email settings</a> · <a href="{unsub}">Unsubscribe in one click</a></p>')
-    body=(f'<div style="max-width:620px;margin:auto;font:15px Inter,Arial;color:#111"><div style="font:700 18px Inter,Arial;color:#1d5c3a">Tutchgrass Labs</div>'
+          f'You get this because you picked these conditions on Cannabis Agent Terminal. <a href="{SITE}/terminal/account/">Email settings</a> · <a href="{unsub}">Unsubscribe in one click</a></p>')
+    body=(f'<div style="max-width:620px;margin:auto;font:15px Inter,Arial;color:#111"><div style="font:700 18px Inter,Arial;color:#1d5c3a">Cannabis Agent Terminal</div>'
           f'<p>{kind} since {since}. Each paper links to PubMed and carries an honest grade.</p>{"".join(secs)}'
           f'<p><a href="{SITE}/terminal/my/" style="color:#1d5c3a">Open My Condition →</a></p>{foot}</div>')
-    text=f"Tutchgrass Labs. {kind} since {since}.\n"+"".join(txt)+f"\n\nResearch summary, not medical advice.\nSettings: {SITE}/terminal/account/\nUnsubscribe: {unsub}\n"
+    text=f"Cannabis Agent Terminal. {kind} since {since}.\n"+"".join(txt)+f"\n\nResearch summary, not medical advice.\nSettings: {SITE}/terminal/account/\nUnsubscribe: {unsub}\n"
     return dict(subject=subj,html=body,text=text,unsub=unsub,count=n)
 def send(brevo_key,to,m):
-    body={"sender":{"email":os.environ.get("DIGEST_FROM","research@tutchgrass.com"),"name":os.environ.get("DIGEST_FROM_NAME","Tutchgrass Labs")},
+    body={"sender":{"email":os.environ.get("DIGEST_FROM","research@tutchgrass.com"),"name":os.environ.get("DIGEST_FROM_NAME","Cannabis Agent Terminal")},
           "to":[{"email":to}],"subject":m["subject"],"htmlContent":m["html"],"textContent":m["text"],
           "headers":{"List-Unsubscribe":f"<{m['unsub']}>"},"tags":["tutchgrass-digest"]}
     r=urllib.request.Request(BREVO,data=json.dumps(body).encode(),method="POST",headers={"api-key":brevo_key,"accept":"application/json","content-type":"application/json"})

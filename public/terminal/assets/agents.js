@@ -1,4 +1,4 @@
-/* Tutchgrass Labs "agents are live" bar + agent header cards + All agents grid.
+/* Cannabis Agent Terminal "agents are live" bar + agent header cards + All agents grid.
    Every status, time and count comes from the published data files (terminal.json, meta.json, breaking.json).
    Green = ran recently, amber = data is stale, grey = source unavailable. Nothing here is simulated. */
 (function(){
@@ -78,19 +78,25 @@ function build(d,x){
 }
 // exactly one aria-current. Home = true tabs: only the selected agent's sections are shown; scrolling never changes the tab.
 let cur;const sc=()=>nav.querySelector('.ascroll');
-function set(id){cur=id;nav.querySelectorAll('[aria-current]').forEach(x=>x.removeAttribute('aria-current'));const a=id&&nav.querySelector(`[data-ag="${id}"]`);if(!a)return;
-  a.setAttribute('aria-current','page');const s=sc();if(s&&s.scrollWidth>s.clientWidth+2){const r=a.getBoundingClientRect(),n=s.getBoundingClientRect();
-    if(r.left<n.left+8||r.right>n.right-8)s.scrollTo({left:s.scrollLeft+r.left-n.left-(n.width-r.width)/2,behavior:'auto'})}}
+// center the selected tab in the scrolling bar (clamped at the ends); smooth on tap, instant on load / deep link
+function center(a,smooth){const s=sc();if(!s||s.scrollWidth<=s.clientWidth+1)return;const r=a.getBoundingClientRect(),n=s.getBoundingClientRect();
+  const max=s.scrollWidth-s.clientWidth,left=Math.max(0,Math.min(max,s.scrollLeft+(r.left-n.left)-(n.width-r.width)/2));
+  s.scrollTo({left,behavior:smooth&&!matchMedia('(prefers-reduced-motion: reduce)').matches?'smooth':'auto'});if(!smooth)edge(s)}
+function set(id,smooth){cur=id;nav.querySelectorAll('[aria-current]').forEach(x=>x.removeAttribute('aria-current'));const a=id&&nav.querySelector(`[data-ag="${id}"]`);if(!a)return;
+  a.setAttribute('aria-current','page');center(a,smooth)}
+const edge=s=>s.classList.toggle('atend',s.scrollLeft>=s.scrollWidth-s.clientWidth-2);
+document.addEventListener('scroll',e=>{const t=e.target;if(t&&t.classList&&t.classList.contains('ascroll'))edge(t)},true);
+addEventListener('resize',()=>{const a=nav.querySelector('[aria-current]');if(a)center(a,false)});
 const OV=['.hero','#all','.mcband','#thisweek','.content>.cta','#log'];   // overview-only blocks
 function tagHome(){OV.forEach(q=>document.querySelectorAll(q).forEach(el=>el.dataset.view='all'));
   R.forEach(a=>(a.secs||[]).forEach(id=>{const el=document.getElementById(id);if(el)el.dataset.agent=a.id}));document.body.classList.add('agtabs')}
 function agentOf(id){if(!id||id==='all')return null;const el=document.getElementById(id);if(!el)return R.find(a=>a.id===id)?id:null;
   const h=el.closest('[data-agent]');return h?h.dataset.agent:null}
 let lastTab;
-function route(force){if(!HOME)return;const id=decodeURIComponent(location.hash.slice(1)),ag=agentOf(id)||(R.find(a=>a.id===id)||{}).id||null,tab=ag||'all';
+function route(force,smooth){if(!HOME)return;const id=decodeURIComponent(location.hash.slice(1)),ag=agentOf(id)||(R.find(a=>a.id===id)||{}).id||null,tab=ag||'all';
   document.querySelectorAll('[data-view="all"]').forEach(el=>el.hidden=tab!=='all');
   document.querySelectorAll('[data-agent]').forEach(el=>el.hidden=el.dataset.agent!==tab);
-  document.body.dataset.tab=tab;set(tab);
+  document.body.dataset.tab=tab;set(tab,smooth===true);
   const a=ag&&R.find(x=>x.id===ag),target=id&&document.getElementById(id);
   // tab switch scrolls to the top; a deep link to something inside a tab (a condition, a paper) scrolls to that item
   if(target&&a&&id!==a.secs[0])setTimeout(()=>target.scrollIntoView({block:'start'}),30);else if(force===true||tab!==lastTab)scrollTo(0,0);
@@ -100,7 +106,7 @@ if(HOME){
   // in-page links (#…, /terminal/#…) switch tabs through history so Back/Forward work
   document.addEventListener('click',e=>{const a=e.target.closest('a[href]');if(!a||e.defaultPrevented||e.metaKey||e.ctrlKey||e.shiftKey||a.target==='_blank')return;
     const u=new URL(a.getAttribute('href'),location.href);if(u.origin!==location.origin||u.pathname.replace(/index\.html$/,'')!=='/terminal/')return;
-    e.preventDefault();const h=u.hash||'#all';if(h!==location.hash)history.pushState(null,'',h);route(true)});
+    e.preventDefault();const h=u.hash||'#all';if(h!==location.hash)history.pushState(null,'',h);route(true,true)});
   addEventListener('popstate',route);addEventListener('hashchange',route)}
 if(HOME){if('scrollRestoration' in history)history.scrollRestoration='manual';tagHome();route(true)}
 const J=u=>fetch(u,{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null);

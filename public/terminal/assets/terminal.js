@@ -1,4 +1,4 @@
-/* Tutchgrass Labs research terminal: renders /terminal/data/terminal.json. Missing sources show "unavailable". */
+/* Cannabis Agent Terminal: renders /terminal/data/terminal.json. Missing sources show "unavailable". */
 (function(){
 const $=s=>document.querySelector(s);
 const E=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
