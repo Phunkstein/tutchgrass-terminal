@@ -1,0 +1,935 @@
+{
+ "generated": "2026-10-29 22:19 EDT",
+ "window": {
+  "start": "2026-09-29",
+  "end": "2026-10-29",
+  "days": 30
+ },
+ "source": "NCBI PubMed E-utilities (Entrez date)",
+ "grades": {
+  "meta": {
+   "label": "Meta-analysis / systematic review",
+   "caveat": "Pools earlier studies. Only as strong as the studies it includes."
+  },
+  "rct": {
+   "label": "Human RCT (placebo)",
+   "caveat": "Randomized against placebo: the strongest single-study design. Check the size and dose."
+  },
+  "noplacebo": {
+   "label": "Human trial, no placebo",
+   "caveat": "No placebo group, so expectation alone can explain part of the effect."
+  },
+  "obs": {
+   "label": "Observational",
+   "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+  },
+  "mice": {
+   "label": "Mice / rats only",
+   "caveat": "Animal results often do not carry over to people."
+  },
+  "cells": {
+   "label": "Cells only (lab dish)",
+   "caveat": "Lab-dish results are an early lead, not evidence of a health effect."
+  },
+  "review": {
+   "label": "Narrative review",
+   "caveat": "An expert overview, not a systematic search. No new data."
+  },
+  "case": {
+   "label": "Case report",
+   "caveat": "One or a few patients. Useful for safety signals, not for effect."
+  }
+ },
+ "labels": {
+  "sleep": "Sleep",
+  "pain": "Chronic pain",
+  "anxiety": "Anxiety",
+  "mood": "Mood & depression",
+  "ptsd": "PTSD",
+  "arthritis": "Arthritis / inflammation",
+  "inflammation": "Inflammation",
+  "nausea": "Nausea & vomiting",
+  "appetite": "Appetite & weight loss",
+  "focus": "Focus & memory",
+  "fibromyalgia": "Fibromyalgia",
+  "ms": "MS spasticity",
+  "epilepsy": "Epilepsy",
+  "migraine": "Migraine",
+  "ibd": "Crohn's & IBD"
+ },
+ "by_condition": {
+  "sleep": [
+   "42935025",
+   "42878934",
+   "42863850",
+   "42885647",
+   "42853566"
+  ],
+  "pain": [
+   "42950713",
+   "42929306",
+   "42927589",
+   "42893197",
+   "42867385",
+   "42864800",
+   "42831900",
+   "42885647",
+   "42867128",
+   "42816121",
+   "42806224",
+   "42874273"
+  ],
+  "anxiety": [
+   "42950713",
+   "42864498"
+  ],
+  "mood": [
+   "42929306",
+   "42905736",
+   "42864498",
+   "42862946"
+  ],
+  "ptsd": [
+   "42891034",
+   "42945746",
+   "42855684"
+  ],
+  "arthritis": [
+   "42831900"
+  ],
+  "inflammation": [
+   "42943346",
+   "42939750",
+   "42875876",
+   "42818626"
+  ],
+  "nausea": [
+   "42899270"
+  ],
+  "appetite": [
+   "42826789"
+  ],
+  "focus": [
+   "42854303",
+   "42818673",
+   "42859461"
+  ],
+  "fibromyalgia": [
+   "42946199"
+  ],
+  "ms": [
+   "42953813"
+  ],
+  "epilepsy": [
+   "42810163",
+   "42918565",
+   "42914761",
+   "42869231",
+   "42838421"
+  ],
+  "migraine": [],
+  "ibd": []
+ },
+ "pubmed_counts": {
+  "sleep": 25,
+  "pain": 29,
+  "anxiety": 46,
+  "mood": 44,
+  "ptsd": 10,
+  "arthritis": 6,
+  "inflammation": 8,
+  "nausea": 8,
+  "appetite": 5,
+  "focus": 9,
+  "fibromyalgia": 2,
+  "ms": 3,
+  "epilepsy": 15,
+  "migraine": 5,
+  "ibd": 0
+ },
+ "newest": {
+  "sleep": "2026-10-27",
+  "pain": "2026-10-28",
+  "anxiety": "2026-10-28",
+  "mood": "2026-10-26",
+  "ptsd": "2026-10-27",
+  "arthritis": "2026-10-05",
+  "inflammation": "2026-10-27",
+  "nausea": "2026-10-20",
+  "appetite": "2026-10-02",
+  "focus": "2026-10-11",
+  "fibromyalgia": "2026-10-27",
+  "ms": "2026-10-29",
+  "epilepsy": "2026-10-23",
+  "migraine": null,
+  "ibd": null
+ },
+ "papers": [
+  {
+   "pmid": "42953813",
+   "title": "Unequal Burden: Sex Differences in Cannabis Withdrawal Symptom Severity in People With Multiple Sclerosis-A Short Report.",
+   "journal": "Int J MS Care",
+   "date": "2026-10-29",
+   "pubdate": "2026-09-07",
+   "first_author": "Meza et al.",
+   "doi": "10.7224/1537-2073.2025-116",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at data on 11 people (nobody was assigned a treatment).",
+    "found": "Women with MS demonstrated a more pronounced and sustained increase in CWQ symptom burden over the abstinence period than men. These findings likely reflect both withdrawal-related effects and the unmasking of underlying MS-related symptoms.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42953813/",
+   "conditions": [
+    "ms"
+   ]
+  },
+  {
+   "pmid": "42950713",
+   "title": "The orexinergic-endocannabinoid interface: mechanistic and therapeutic perspectives in Alzheimer's disease, anxiety, and visceral pain.",
+   "journal": "Neuropeptides",
+   "date": "2026-10-28",
+   "pubdate": "2026-10-26",
+   "first_author": "Bodke et al.",
+   "doi": "10.1016/j.npep.2026.102665",
+   "grade": "review",
+   "grade_label": "Narrative review",
+   "plain": {
+    "did": "An expert overview of existing research.",
+    "found": "In rodent models of visceral pain, CB1 and CB2 antagonists block the visceral hyposensitivity induced by centrally administered orexin, indicating that endocannabinoid signalling is required for this effect.",
+    "caveat": "An expert overview, not a systematic search. No new data."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42950713/",
+   "conditions": [
+    "pain",
+    "anxiety"
+   ]
+  },
+  {
+   "pmid": "42935025",
+   "title": "UK Medical Cannabis Registry: A Two-Year Prospective Observational Cohort Study of Clinical Outcomes in Insomnia.",
+   "journal": "Neuropsychopharmacol Rep",
+   "date": "2026-10-27",
+   "pubdate": "2026-12-01",
+   "first_author": "Koye et al.",
+   "doi": "10.1002/npr2.70180",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at existing data on people (nobody was assigned a treatment).",
+    "found": "Initiation of CBMPs was associated with improvements in self-reported sleep quality across 2 years, with the largest associations observed in those with the most severe impairment.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42935025/",
+   "conditions": [
+    "sleep"
+   ]
+  },
+  {
+   "pmid": "42945746",
+   "title": "The blunt truth: The role of marijuana in PTSD after intentional traumatic injury.",
+   "journal": "Injury",
+   "date": "2026-10-27",
+   "pubdate": "2026-10-23",
+   "first_author": "Kern et al.",
+   "doi": "10.1016/j.injury.2026.113789",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at data on 105 people (nobody was assigned a treatment).",
+    "found": "PTSD and marijuana use were closely associated in survivors of interpersonal violence. Screening efforts should account for marijuana use specifically.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42945746/",
+   "conditions": [
+    "ptsd"
+   ]
+  },
+  {
+   "pmid": "42943346",
+   "title": "Dose-Related Effects of Cannabidiol on Inflammatory and Redox Responses, Bacterial Dissemination, and Multiorgan Injury in CLP-Induced Septic Rats.",
+   "journal": "Pharmaceuticals (Basel)",
+   "date": "2026-10-27",
+   "pubdate": "2026-10-19",
+   "first_author": "\u00dclker et al.",
+   "doi": "10.3390/ph19101649",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "The microbial summaries suggested lower recoverable burdens, but require animal-level verification of non-detect handling. These findings support pharmacokinetic, safety, mechanistic, survival, and prospectively powered confirmatory studies;",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42943346/",
+   "conditions": [
+    "inflammation"
+   ]
+  },
+  {
+   "pmid": "42939750",
+   "title": "Enhancement of Endocannabinoid Signaling by Dual MAGL/ABHD6 Inhibition Reduces Neurodegeneration and Neuro-Inflammation Following AMPA-Mediated Excitotoxicity.",
+   "journal": "Biomolecules",
+   "date": "2026-10-27",
+   "pubdate": "2026-10-14",
+   "first_author": "Spyridakos et al.",
+   "doi": "10.3390/biom16101496",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "In vitro, AM11920 suppressed microglial activation by reducing CD68 expression and attenuated interleukin-6 (IL-6) expression, while also protecting primary neurons and OPCs from AMPA-induced cell death via a CB1R-dependent mechanism.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42939750/",
+   "conditions": [
+    "inflammation"
+   ]
+  },
+  {
+   "pmid": "42946199",
+   "title": "Are Cannabis and Cannabinoids a Valid Treatment Option in Patients with Rheumatic Diseases? A narrative review.",
+   "journal": "Joint Bone Spine",
+   "date": "2026-10-27",
+   "pubdate": "2026-10-27",
+   "first_author": "Perrot",
+   "doi": "10.1016/j.jbspin.2026.106154",
+   "grade": "review",
+   "grade_label": "Narrative review",
+   "plain": {
+    "did": "An expert overview of existing research.",
+    "found": "Some studies suggest short-term symptomatic benefits of cannabinoid-based therapies, particularly in fibromyalgia, but the findings are inconsistent and limited by small samples, heterogeneous formulations, and risk of bias.",
+    "caveat": "An expert overview, not a systematic search. No new data."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42946199/",
+   "conditions": [
+    "fibromyalgia"
+   ]
+  },
+  {
+   "pmid": "42929306",
+   "title": "Polygenic prediction of cannabis-related outcomes: Evidence from the Avon Longitudinal Study of Parents and Children longitudinal cohort and the European gene-environment interaction case-control study.",
+   "journal": "Addiction",
+   "date": "2026-10-26",
+   "pubdate": "2026-10-26",
+   "first_author": "Spinazzola et al.",
+   "doi": "10.1111/add.70628",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at existing data on people (nobody was assigned a treatment).",
+    "found": "SUMMARY: Genetic liability, measured by polygenic risk scores, to cannabis use disorder, major depressive disorder, and chronic pain appears to be associated with heavier and more problematic cannabis use.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42929306/",
+   "conditions": [
+    "pain",
+    "mood"
+   ]
+  },
+  {
+   "pmid": "42927589",
+   "title": "The role of hope and its association with quality of life in individuals with chronic pain - insights from a daily diary study.",
+   "journal": "Qual Life Res",
+   "date": "2026-10-25",
+   "pubdate": "2026-10-25",
+   "first_author": "Joo et al.",
+   "doi": "10.1007/s11136-026-04413-7",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at existing data on people (nobody was assigned a treatment).",
+    "found": "Our daily diary study found that previous-day hope frequency - both stable individual differences and day-to-day fluctuations - was associated with next-day QoL in individuals with chronic pain who were co-using cannabis and opioids.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42927589/",
+   "conditions": [
+    "pain"
+   ]
+  },
+  {
+   "pmid": "42918565",
+   "title": "Modulation of postictal hypoxia: Sex- and route-specific effects of acute and chronic cannabidiol and Delta9-tetrahydrocannabinol.",
+   "journal": "Neuropharmacology",
+   "date": "2026-10-23",
+   "pubdate": "2026-10-23",
+   "first_author": "Rha et al.",
+   "doi": "10.1016/j.neuropharm.2026.111235",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "These results demonstrate that acutely and chronically administered phytocannabinoids attenuate postictal hypoxia in a route-, sex-, and time-dependent manner.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42918565/",
+   "conditions": [
+    "epilepsy"
+   ]
+  },
+  {
+   "pmid": "42914761",
+   "title": "Cannabidiol in pediatric drug-resistant epilepsies: A systematic review and meta-analysis of seizure responder rates and neurobehavioral outcome reporting.",
+   "journal": "Epilepsy Res",
+   "date": "2026-10-23",
+   "pubdate": "2026-10-15",
+   "first_author": "Pratic\u00f2",
+   "doi": "10.1016/j.eplepsyres.2026.107935",
+   "grade": "meta",
+   "grade_label": "Meta-analysis / systematic review",
+   "plain": {
+    "did": "Researchers searched for and pooled the results of earlier studies.",
+    "found": "Approximately half of children with drug-resistant epilepsies treated with adjunctive cannabidiol achieve a \u2265 50% seizure reduction in the available, predominantly observational literature;",
+    "caveat": "Pools earlier studies. Only as strong as the studies it includes."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42914761/",
+   "conditions": [
+    "epilepsy"
+   ]
+  },
+  {
+   "pmid": "42905736",
+   "title": "Prevalence and correlates of depressive symptoms among Ethiopian and Ethiopian-Descent adults in the Seattle metropolitan area: A cross-sectional study.",
+   "journal": "PLOS Ment Health",
+   "date": "2026-10-22",
+   "pubdate": "2026-10-21",
+   "first_author": "Weldemariam et al.",
+   "doi": "10.1371/journal.pmen.0000736",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at data on 2024 people (nobody was assigned a treatment).",
+    "found": "Clinically significant depressive symptoms were common in this sample and were associated with poorer physical health, recreational marijuana or other drug use, firearm-related exposure, and prior postpartum depression.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42905736/",
+   "conditions": [
+    "mood"
+   ]
+  },
+  {
+   "pmid": "42899270",
+   "title": "Concurrent Management of Adolescent Cannabinoid Hyperemesis Syndrome and Delirium With Haloperidol.",
+   "journal": "Innov Clin Neurosci",
+   "date": "2026-10-20",
+   "pubdate": "2026-09-01",
+   "first_author": "Hsu et al.",
+   "doi": null,
+   "grade": "case",
+   "grade_label": "Case report",
+   "plain": {
+    "did": "A report on one or a few patients.",
+    "found": "Although minimal literature exists on the management of CHS, there is almost no evidence examining CHS comorbid with delirium and/or agitation.",
+    "caveat": "One or a few patients. Useful for safety signals, not for effect."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42899270/",
+   "conditions": [
+    "nausea"
+   ]
+  },
+  {
+   "pmid": "42893197",
+   "title": "Cannabidiol (CBD) for Pain: A Narrative Review of Evidence to Date.",
+   "journal": "Cureus",
+   "date": "2026-10-18",
+   "pubdate": "2026-10-17",
+   "first_author": "Raffa et al.",
+   "doi": "10.7759/cureus.118057",
+   "grade": "review",
+   "grade_label": "Narrative review",
+   "plain": {
+    "did": "An expert overview of existing research.",
+    "found": "Despite strong biological plausibility and considerable consumer use, current high-quality evidence does not support CBD monotherapy as an effective analgesic across most pain conditions studied to date. Safety monitoring, particularly of liver enzymes at higher doses, is warranted.",
+    "caveat": "An expert overview, not a systematic search. No new data."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42893197/",
+   "conditions": [
+    "pain"
+   ]
+  },
+  {
+   "pmid": "42891034",
+   "title": "In situ delivery of cannabidiol-loaded GelMA sponge attenuates cerebral edema and neuroinflammation in traumatic brain injury.",
+   "journal": "Mater Today Bio",
+   "date": "2026-10-17",
+   "pubdate": "2026-10-01",
+   "first_author": "Li et al.",
+   "doi": "10.1016/j.mtbio.2026.103721",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "Transcriptomic sequencing further showed that GM-CBD-associated differentially expressed genes were mainly involved in immune, stress, and inflammatory responses, with significant enrichment of the NF-\u03baB, PI3K-Akt, and TNF signaling pathways.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42891034/",
+   "conditions": [
+    "ptsd"
+   ]
+  },
+  {
+   "pmid": "42885647",
+   "title": "Pain Severity Trajectories and Patient Profiles in Chronic Pain Patients Treated with Cannabis-Based Medicinal Products: A k-Means Clustering Analysis of the UK Medical Cannabis Registry.",
+   "journal": "J Clin Pharmacol",
+   "date": "2026-10-16",
+   "pubdate": "2026-10-01",
+   "first_author": "Erridge et al.",
+   "doi": "10.1002/jcph.70313",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at data on 3744 people (nobody was assigned a treatment).",
+    "found": "Adverse events were reported by 14.37% (n = 538) of patients, predominantly mild or moderate. Baseline sleep quality, anxiety, and treatment indication were more strongly associated with response than product- or dose-related factors.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42885647/",
+   "conditions": [
+    "sleep",
+    "pain"
+   ]
+  },
+  {
+   "pmid": "42878934",
+   "title": "Cannabinoids and sleep bruxism: mechanistic rationale, polysomnographic evidence, and future research directions.",
+   "journal": "Sleep Breath",
+   "date": "2026-10-15",
+   "pubdate": "2026-10-15",
+   "first_author": "Metello Neves et al.",
+   "doi": "10.1007/s11325-026-03827-4",
+   "grade": "review",
+   "grade_label": "Narrative review",
+   "plain": {
+    "did": "An expert overview of existing research.",
+    "found": "Two distinct pathways could link cannabinoids to SB, one peripheral and one central, and neither has been demonstrated in patients with SB.",
+    "caveat": "An expert overview, not a systematic search. No new data."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42878934/",
+   "conditions": [
+    "sleep"
+   ]
+  },
+  {
+   "pmid": "42875876",
+   "title": "Targeting Cannabinoid 1 Receptor in Macrophages Alleviates Psoriatic Skin Inflammation Through the AUF1-NLRP3 Axis.",
+   "journal": "Adv Sci (Weinh)",
+   "date": "2026-10-15",
+   "pubdate": "2026-10-14",
+   "first_author": "Choi et al.",
+   "doi": "10.1002/advs.78313",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "Collectively, these findings define a CB1R-AUF1-NLRP3 signaling axis that links metabolic signaling to inflammasome-driven skin inflammation in macrophages.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42875876/",
+   "conditions": [
+    "inflammation"
+   ]
+  },
+  {
+   "pmid": "42874273",
+   "title": "Antinociceptive interaction of \u03949-tetrahydrocannabinol and cannabidiol in a humanized mouse model of sickle cell disease.",
+   "journal": "J Pharmacol Exp Ther",
+   "date": "2026-10-14",
+   "pubdate": "2026-09-24",
+   "first_author": "Mabou Tagne et al.",
+   "doi": "10.1016/j.jpet.2026.105037",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "SIGNIFICANCE STATEMENT: Chronic pain in sickle cell disease remains difficult to treat, and many patients use cannabis despite limited understanding of how its constituents interact to produce analgesia.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42874273/",
+   "conditions": [
+    "pain"
+   ]
+  },
+  {
+   "pmid": "42863850",
+   "title": "Medical cannabis for the treatment of insomnia.",
+   "journal": "Cochrane Database Syst Rev",
+   "date": "2026-10-13",
+   "pubdate": "2026-10-13",
+   "first_author": "Varela et al.",
+   "doi": "10.1002/14651858.CD016216.pub2",
+   "grade": "meta",
+   "grade_label": "Meta-analysis / systematic review",
+   "plain": {
+    "did": "Researchers searched for and pooled the results of earlier studies.",
+    "found": "Medical cannabis may have little to no clinically meaningful effect on quality of sleep/satisfaction with sleep, total sleep time, or daytime functioning. It may lead to an improvement in quality of life, although the evidence is very uncertain.",
+    "caveat": "Pools earlier studies. Only as strong as the studies it includes."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42863850/",
+   "conditions": [
+    "sleep"
+   ]
+  },
+  {
+   "pmid": "42867385",
+   "title": "Association of Cannabis Use With Cigarette Use in People Certified for Medical Cannabis for Chronic Pain: A Secondary Analysis of a Prospective Cohort Study.",
+   "journal": "Subst Use Addctn J",
+   "date": "2026-10-13",
+   "pubdate": "2026-10-13",
+   "first_author": "Slawek et al.",
+   "doi": "10.1177/29767342261489466",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at data on 223 people (nobody was assigned a treatment).",
+    "found": "Unregulated and non-inhaled cannabis use were implicated in the association between cannabis use and cigarette use, and pain severity moderated the effect of cannabis use on CPD. Further studies are needed to fully understand this relationship.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42867385/",
+   "conditions": [
+    "pain"
+   ]
+  },
+  {
+   "pmid": "42864800",
+   "title": "Cannabinoids for Acute Pain Management: A Contemporary Scoping Review of Evidence, Mechanisms, and Clinical Implications.",
+   "journal": "Curr Pharm Des",
+   "date": "2026-10-13",
+   "pubdate": "2026-10-05",
+   "first_author": "Akman et al.",
+   "doi": "10.2174/0113816128510427260927100857",
+   "grade": "review",
+   "grade_label": "Narrative review",
+   "plain": {
+    "did": "An expert overview of existing research.",
+    "found": "While the biological rationale for cannabinoid analgesia is compelling, the clinical evidence base for acute pain remains insufficient to support routine use. Cannabinoids may serve as adjuncts in specific populations, but require careful patient selection, dose titration, and safety monitoring.",
+    "caveat": "An expert overview, not a systematic search. No new data."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42864800/",
+   "conditions": [
+    "pain"
+   ]
+  },
+  {
+   "pmid": "42867128",
+   "title": "Cannabinoid CB1 Receptor Regulates Spinal Dorsal Horn Synaptic Plasticity in a Mouse Model of Neuropathic Pain through the CB1R/SREBP1/NAMPT/SIRT1 Metabolic Regulatory Framework.",
+   "journal": "Brain Behav",
+   "date": "2026-10-13",
+   "pubdate": "2026-10-01",
+   "first_author": "Liu et al.",
+   "doi": "10.1002/brb3.71837",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "CB1R activation is associated with pain relief, suppression of spinal synaptic potentiation, and coordinated regulation of the SREBP1/NAMPT/SIRT1 metabolic axis.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42867128/",
+   "conditions": [
+    "pain"
+   ]
+  },
+  {
+   "pmid": "42864498",
+   "title": "Acute Ultra Low Dose THC Attenuates Anxiety-Like Behavior in a Mouse Model for Major-Depressive Disorder.",
+   "journal": "J Mol Neurosci",
+   "date": "2026-10-13",
+   "pubdate": "2026-10-12",
+   "first_author": "Grad et al.",
+   "doi": "10.1007/s12031-026-02597-8",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "We utilize next generation sequencing techniques to show the treatment's effect on neuronal differentiation and synaptic plasticity-related mRNAs, and specify Elmo domain containing 1 (Elmod1) as a molecular mediator of the observed anxiolytic effects.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42864498/",
+   "conditions": [
+    "anxiety",
+    "mood"
+   ]
+  },
+  {
+   "pmid": "42869231",
+   "title": "D2 dopamine and CB2 cannabinoid receptor cooperation restores striatal LTP in an epilepsy model.",
+   "journal": "Neurobiol Dis",
+   "date": "2026-10-13",
+   "pubdate": "2026-10-13",
+   "first_author": "Sciaccaluga et al.",
+   "doi": "10.1016/j.nbd.2026.107648",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "Exposure to a dopamine D2 receptor agonist and to cannabidiol restored long-term plasticity in LD mice, suggesting a D2R- and CB2R-dependent synergic action on striatal LTP.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42869231/",
+   "conditions": [
+    "epilepsy"
+   ]
+  },
+  {
+   "pmid": "42862946",
+   "title": "Endocannabinoid Signaling and Mood Regulation.",
+   "journal": "Annu Rev Pharmacol Toxicol",
+   "date": "2026-10-12",
+   "pubdate": "2026-10-12",
+   "first_author": "Rayasam et al.",
+   "doi": "10.1146/annurev-pharmtox-052825-085837",
+   "grade": "review",
+   "grade_label": "Narrative review",
+   "plain": {
+    "did": "An expert overview of existing research.",
+    "found": "However, FAAH inhibitors have largely failed to demonstrate efficacy, and CB1R agonists have only modest effects in individuals with mood disorders.",
+    "caveat": "An expert overview, not a systematic search. No new data."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42862946/",
+   "conditions": [
+    "mood"
+   ]
+  },
+  {
+   "pmid": "42859461",
+   "title": "A Fine-Grained Longitudinal Study of Adolescent Cannabis Use and Its Relation to Cognitive Performance in Young Adulthood.",
+   "journal": "Int J Ment Health Addict",
+   "date": "2026-10-11",
+   "pubdate": "2025-12-16",
+   "first_author": "Janousch et al.",
+   "doi": "10.1007/s11469-025-01604-0",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at existing data on people (nobody was assigned a treatment).",
+    "found": "Findings highlight nuanced associations, with early and frequent use linked to poorer cognitive performance. SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at https://doi.org/10.1007/s11469-025-01604-0.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42859461/",
+   "conditions": [
+    "focus"
+   ]
+  },
+  {
+   "pmid": "42855684",
+   "title": "Association between viewing more media war content and higher intention to use cannabis in adolescents: the indirect effect of post-traumatic stress.",
+   "journal": "Subst Abuse Treat Prev Policy",
+   "date": "2026-10-10",
+   "pubdate": "2026-07-29",
+   "first_author": "Milane et al.",
+   "doi": "10.1186/s13011-026-00754-1",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at existing data on people (nobody was assigned a treatment).",
+    "found": "Watching disturbing war images can increase the risk of mental health morbidities like PTSD, which could lead, in turn, to intention to use cannabis to alleviate this mental burden. This suggests that assessing and treating PTSD could help prevent cannabis use among adolescents during war times.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42855684/",
+   "conditions": [
+    "ptsd"
+   ]
+  },
+  {
+   "pmid": "42853566",
+   "title": "Recent and Cumulative Cannabis Use and Sleep in Middle-Aged Adults.",
+   "journal": "JAMA Netw Open",
+   "date": "2026-10-09",
+   "pubdate": "2026-10-01",
+   "first_author": "Vu et al.",
+   "doi": "10.1001/jamanetworkopen.2026.38303",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at data on 1266 people (nobody was assigned a treatment).",
+    "found": "In this cohort study, both cumulative use and recent cannabis use were associated with poorer objective sleep quality, although no association with self-reported sleep quality was found.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42853566/",
+   "conditions": [
+    "sleep"
+   ]
+  },
+  {
+   "pmid": "42854303",
+   "title": "Tobacco use moderates associations between cannabis use, psychiatric symptoms, and cognitive performance in psychosis spectrum disorders.",
+   "journal": "Schizophr Res",
+   "date": "2026-10-09",
+   "pubdate": "2026-10-09",
+   "first_author": "Nelson et al.",
+   "doi": "10.1016/j.schres.2026.09.046",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at data on 884 people (nobody was assigned a treatment).",
+    "found": "More adult cannabis use was linked to better cognitive performance for current tobacco users but was not linked to working memory among past tobacco users.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42854303/",
+   "conditions": [
+    "focus"
+   ]
+  },
+  {
+   "pmid": "42838421",
+   "title": "Comparative analysis of the effects of \u03949-tetrahydrocannabinol and cannabidiol on pilocarpine-induced status epilepticus in mice.",
+   "journal": "Neuroscience",
+   "date": "2026-10-06",
+   "pubdate": "2026-10-06",
+   "first_author": "Gatica et al.",
+   "doi": "10.1016/j.neuroscience.2026.10.008",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "Finally, we found that acute THC treatment prevented the seizure-induced homeostatic downregulation of neuroLSD1, maintaining it at physiological levels despite the insult.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42838421/",
+   "conditions": [
+    "epilepsy"
+   ]
+  },
+  {
+   "pmid": "42831900",
+   "title": "Cannabinoids for pain management in rheumatoid arthritis: a scoping review of clinical evidence and mechanisms.",
+   "journal": "Rheumatol Int",
+   "date": "2026-10-05",
+   "pubdate": "2026-10-05",
+   "first_author": "Zintziovas et al.",
+   "doi": "10.1007/s00296-026-06314-x",
+   "grade": "review",
+   "grade_label": "Narrative review",
+   "plain": {
+    "did": "An expert overview of existing research.",
+    "found": "Current clinical evidence remains insufficient to establish the efficacy or long-term safety of cannabinoids for RA-related pain. Larger, rigorously designed trials using standardized cannabinoid formulations and pain-relevant outcomes are needed.",
+    "caveat": "An expert overview, not a systematic search. No new data."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42831900/",
+   "conditions": [
+    "pain",
+    "arthritis"
+   ]
+  },
+  {
+   "pmid": "42826789",
+   "title": "Cracking the Code of Cravings: Endocannabinoids and the Hypothalamic Appetite Nexus.",
+   "journal": "Prostaglandins Other Lipid Mediat",
+   "date": "2026-10-02",
+   "pubdate": "2026-10-02",
+   "first_author": "Bagri et al.",
+   "doi": "10.1016/j.prostaglandins.2026.107116",
+   "grade": "review",
+   "grade_label": "Narrative review",
+   "plain": {
+    "did": "An expert overview of existing research.",
+    "found": "This review focuses on the role of ECS control on hypothalamic regulation of appetite, & hedonic or reward feeding patterns. A deeper understanding of these pathways is essential for addressing the growing prevalence of obesity and its associated health risks.",
+    "caveat": "An expert overview, not a systematic search. No new data."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42826789/",
+   "conditions": [
+    "appetite"
+   ]
+  },
+  {
+   "pmid": "42818626",
+   "title": "Delta-9-tetrahydrocannabinol alleviates inflammation by modulating immune responses in LPS-induced murine inflammation model.",
+   "journal": "Front Immunol",
+   "date": "2026-10-01",
+   "pubdate": "2026-09-16",
+   "first_author": "Tomer et al.",
+   "doi": "10.3389/fimmu.2026.1856131",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "These effects were observed across human monocytic cells, primary monocytes, and peripheral immune populations in vivo, and were accompanied by reduced neuroinflammatory signaling and increased neuronal plasticity-associated pathways in the brain.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42818626/",
+   "conditions": [
+    "inflammation"
+   ]
+  },
+  {
+   "pmid": "42818673",
+   "title": "Lipid Activation of a Thalamic GPCR Extends Working Memory Time-scales.",
+   "journal": "bioRxiv",
+   "date": "2026-10-01",
+   "pubdate": "2026-09-08",
+   "first_author": "Brandt et al.",
+   "doi": "10.64898/2026.09.03.749183",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "Thus, while cannabinoids often impair memory, here we identify an AEA-Gpr12 signaling axis in thalamus that enhances memory, including in primates. These findings identify a lipidic signaling mechanism in thalamus that is sufficient to control and extend working memory duration.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42818673/",
+   "conditions": [
+    "focus"
+   ]
+  },
+  {
+   "pmid": "42816121",
+   "title": "Dronabinol for Neuropathic Pain in Palliative Care.",
+   "journal": "J Pain Palliat Care Pharmacother",
+   "date": "2026-09-30",
+   "pubdate": "2026-09-30",
+   "first_author": "Boogaerts et al.",
+   "doi": "10.1080/15360288.2026.2718824",
+   "grade": "review",
+   "grade_label": "Narrative review",
+   "plain": {
+    "did": "An expert overview of existing research.",
+    "found": "Its reported multimodal effects, generally favorable safety profile, and possible role in reducing opioid requirements should be considered potential advantages; however, these findings are supported by limited and heterogeneous evidence.",
+    "caveat": "An expert overview, not a systematic search. No new data."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42816121/",
+   "conditions": [
+    "pain"
+   ]
+  },
+  {
+   "pmid": "42806224",
+   "title": "Cannabis Legalization and Opioid Prescribing in Veterans Health Administration Patients: 2013-2022.",
+   "journal": "J Gen Intern Med",
+   "date": "2026-09-29",
+   "pubdate": "2026-09-28",
+   "first_author": "Mannes et al.",
+   "doi": "10.1007/s11606-026-10733-8",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at existing data on people (nobody was assigned a treatment).",
+    "found": "Findings suggest that greater legal cannabis access may be associated with modest reductions in opioid prescriptions among patients with chronic pain, potentially reflecting changes in patient and clinician treatment decisions related to pain management.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42806224/",
+   "conditions": [
+    "pain"
+   ]
+  },
+  {
+   "pmid": "42810163",
+   "title": "Use of purified cannabidiol as add-on therapy in children with non-self-limited focal epilepsies of childhood: A multicenter study.",
+   "journal": "Epilepsy Behav",
+   "date": "2026-09-29",
+   "pubdate": "2026-09-29",
+   "first_author": "Reyes Valenzuela et al.",
+   "doi": "10.1016/j.yebeh.2026.111323",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at data on 79 people (nobody was assigned a treatment).",
+    "found": "Adjunctive purified CBD was associated with sustained seizure reduction and good long-term tolerability in children with treatment-resistant non-SeLFEs. Responses were observed across different focal epilepsy etiologies, supporting further evaluation of CBD in this population.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42810163/",
+   "conditions": [
+    "epilepsy"
+   ]
+  }
+ ],
+ "week_start": "2026-10-22"
+}

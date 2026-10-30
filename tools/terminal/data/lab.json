@@ -1,0 +1,1677 @@
+{
+ "agent": "lab",
+ "generated": "2026-10-29 22:05 EDT",
+ "spotlight_id": "cbn",
+ "spotlight_rule": "rotates daily (day-of-year mod 8)",
+ "compounds": [
+  {
+   "id": "beta_caryophyllene",
+   "name": "Beta-caryophyllene (BCP)",
+   "kind": "terpene (sesquiterpene)",
+   "aroma": "peppery, spicy, woody",
+   "health": "Binds and activates the CB2 receptor (Ki \u2248155 nM). Oral BCP at 5 mg/kg cut inflammation in mice, but not in mice lacking CB2. Reviews describe anti-inflammatory and neuroprotective effects, mostly from animal studies.",
+   "evidence": "preclinical",
+   "also_in": "A common constituent of the essential oils of numerous spice and food plants; a major component in cannabis; used as a food additive.",
+   "grow": "As a sesquiterpene it is heavier and less volatile than monoterpenes, so it tends to survive drying better. That's chemistry reasoning, not a tested cannabis result. Spectrum and cultivar shift terpene output. Keep curing cool and in glass.",
+   "factors": [
+    "spectrum",
+    "storage",
+    "genetics"
+   ],
+   "citations": [
+    {
+     "pmid": "18574142",
+     "type": "PRECLINICAL",
+     "title": "Beta-caryophyllene is a dietary cannabinoid.",
+     "journal": "Proc Natl Acad Sci U S A",
+     "year": "2008",
+     "first_author": "Gertsch et al.",
+     "doi": "10.1073/pnas.0803601105",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/18574142/",
+     "doi_url": "https://doi.org/10.1073/pnas.0803601105"
+    },
+    {
+     "pmid": "34091179",
+     "type": "REVIEW",
+     "title": "A focused review on CB2 receptor-selective pharmacological properties and therapeutic potential of \u03b2-caryophyllene, a dietary cannabinoid.",
+     "journal": "Biomed Pharmacother",
+     "year": "2021",
+     "first_author": "Hashiesh et al.",
+     "doi": "10.1016/j.biopha.2021.111639",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34091179/",
+     "doi_url": "https://doi.org/10.1016/j.biopha.2021.111639"
+    },
+    {
+     "pmid": "30281175",
+     "type": "SR",
+     "title": "A systematic review on the neuroprotective perspectives of beta-caryophyllene.",
+     "journal": "Phytother Res",
+     "year": "2018",
+     "first_author": "Machado et al.",
+     "doi": "10.1002/ptr.6199",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30281175/",
+     "doi_url": "https://doi.org/10.1002/ptr.6199"
+    },
+    {
+     "pmid": "36173065",
+     "type": "PRECLINICAL",
+     "title": "Effects of \u03b2 -caryophyllene, A Dietary Cannabinoid, in Animal Models of Drug Addiction.",
+     "journal": "Curr Neuropharmacol",
+     "year": "2023",
+     "first_author": "Asth et al.",
+     "doi": "10.2174/1570159X20666220927115811",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36173065/",
+     "doi_url": "https://doi.org/10.2174/1570159X20666220927115811"
+    }
+   ]
+  },
+  {
+   "id": "myrcene",
+   "name": "Beta-myrcene",
+   "kind": "terpene (monoterpene)",
+   "aroma": "earthy, musky, herbal",
+   "health": "Animal studies report anxiolytic, anti-inflammatory and analgesic effects; human studies are lacking. Locally applied myrcene reduced arthritis pain and inflammation in rats via cannabinoid receptors, with no added benefit from CBD.",
+   "evidence": "preclinical",
+   "also_in": "Hops, lemongrass, verbena, cannabis; used as a food/beverage flavouring.",
+   "grow": "Myrcene is a volatile monoterpene. In storage, nitrogen packaging kept myrcene stable while it fell under normal air. Glass jars kept the volatile profile best. Avoid hot, fast drying.",
+   "factors": [
+    "drying",
+    "storage"
+   ],
+   "citations": [
+    {
+     "pmid": "34350208",
+     "type": "REVIEW",
+     "title": "Myrcene-What Are the Potential Health Benefits of This Flavouring and Aroma Agent?",
+     "journal": "Front Nutr",
+     "year": "2021",
+     "first_author": "Surendran et al.",
+     "doi": "10.3389/fnut.2021.699666",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34350208/",
+     "doi_url": "https://doi.org/10.3389/fnut.2021.699666"
+    },
+    {
+     "pmid": "35887239",
+     "type": "PRECLINICAL",
+     "title": "Anti-Inflammatory and Analgesic Properties of the Cannabis Terpene Myrcene in Rat Adjuvant Monoarthritis.",
+     "journal": "Int J Mol Sci",
+     "year": "2022",
+     "first_author": "McDougall et al.",
+     "doi": "10.3390/ijms23147891",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35887239/",
+     "doi_url": "https://doi.org/10.3390/ijms23147891"
+    },
+    {
+     "pmid": "37764505",
+     "type": "PRECLINICAL",
+     "title": "Myrcene: A Natural Compound Showing Anticancer Activity in HeLa Cells.",
+     "journal": "Molecules",
+     "year": "2023",
+     "first_author": "Pincigher et al.",
+     "doi": "10.3390/molecules28186728",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37764505/",
+     "doi_url": "https://doi.org/10.3390/molecules28186728"
+    }
+   ]
+  },
+  {
+   "id": "linalool",
+   "name": "Linalool",
+   "kind": "terpene (monoterpene alcohol)",
+   "aroma": "floral, lavender",
+   "health": "Inhaling linalool odor reduced anxiety-like behavior in mice through the sense of smell (GABA-A, benzodiazepine site). In a small RCT in postherpetic neuralgia (58 analyzed), inhaling 1% linalool reduced pain vs almond-oil control.",
+   "evidence": "limited (small human RCT + animal)",
+   "also_in": "Lavender (a major component of lavender extracts).",
+   "grow": "A light, volatile monoterpene that is easily lost in hot or open-air drying. Slow, cool drying and sealed glass help keep it (study-backed for volatiles in general).",
+   "factors": [
+    "drying",
+    "storage"
+   ],
+   "citations": [
+    {
+     "pmid": "30405369",
+     "type": "PRECLINICAL",
+     "title": "Linalool Odor-Induced Anxiolytic Effects in Mice.",
+     "journal": "Front Behav Neurosci",
+     "year": "2018",
+     "first_author": "Harada et al.",
+     "doi": "10.3389/fnbeh.2018.00241",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30405369/",
+     "doi_url": "https://doi.org/10.3389/fnbeh.2018.00241"
+    },
+    {
+     "pmid": "38267936",
+     "type": "RCT",
+     "title": "Alleviating effect of lavender (Lavandula angustifolia) and its major components on postherpetic pain: a randomized blinded controlled trial.",
+     "journal": "BMC Complement Med Ther",
+     "year": "2024",
+     "first_author": "You et al.",
+     "doi": "10.1186/s12906-024-04362-z",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38267936/",
+     "doi_url": "https://doi.org/10.1186/s12906-024-04362-z"
+    },
+    {
+     "pmid": "32304038",
+     "type": "REVIEW",
+     "title": "Anxiolytic Terpenoids and Aromatherapy for Anxiety and Depression.",
+     "journal": "Adv Exp Med Biol",
+     "year": "2020",
+     "first_author": "Agatonovic-Kustrin et al.",
+     "doi": "10.1007/978-3-030-42667-5_11",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32304038/",
+     "doi_url": "https://doi.org/10.1007/978-3-030-42667-5_11"
+    }
+   ]
+  },
+  {
+   "id": "limonene",
+   "name": "D-limonene",
+   "kind": "terpene (monoterpene)",
+   "aroma": "citrus",
+   "health": "In a double-blind human study (n=20), vaporized 30 mg THC plus 15 mg d-limonene reduced 'anxious/nervous' and 'paranoid' ratings vs THC alone. Limonene alone did nothing.",
+   "evidence": "limited (one controlled human study)",
+   "also_in": "Citrus (Rutaceae family) peels and oils.",
+   "grow": "Volatile. In nitrogen storage, limonene fell even as myrcene held, so packaging trades one terpene for another. Glass, cool and dark is the safest bet.",
+   "factors": [
+    "storage",
+    "drying"
+   ],
+   "citations": [
+    {
+     "pmid": "38498958",
+     "type": "RCT",
+     "title": "Vaporized D-limonene selectively mitigates the acute anxiogenic effects of \u03949-tetrahydrocannabinol in healthy adults who intermittently use cannabis.",
+     "journal": "Drug Alcohol Depend",
+     "year": "2024",
+     "first_author": "Spindle et al.",
+     "doi": "10.1016/j.drugalcdep.2024.111267",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38498958/",
+     "doi_url": "https://doi.org/10.1016/j.drugalcdep.2024.111267"
+    },
+    {
+     "pmid": "34361686",
+     "type": "REVIEW",
+     "title": "Neuroprotective Potential of Limonene and Limonene Containing Natural Products.",
+     "journal": "Molecules",
+     "year": "2021",
+     "first_author": "Eddin et al.",
+     "doi": "10.3390/molecules26154535",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34361686/",
+     "doi_url": "https://doi.org/10.3390/molecules26154535"
+    },
+    {
+     "pmid": "39707520",
+     "type": "HORT",
+     "title": "Is nitrogen-modified atmosphere packaging a tool for retention of volatile terpenes and cannabinoids in stored Cannabis sativa inflorescence?",
+     "journal": "J Cannabis Res",
+     "year": "2024",
+     "first_author": "MacLaughlin et al.",
+     "doi": "10.1186/s42238-024-00253-9",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39707520/",
+     "doi_url": "https://doi.org/10.1186/s42238-024-00253-9"
+    }
+   ]
+  },
+  {
+   "id": "alpha_pinene",
+   "name": "Alpha-pinene",
+   "kind": "terpene (monoterpene)",
+   "aroma": "pine, fresh",
+   "health": "Used for centuries for respiratory infections. Lab studies show anti-inflammatory and cartilage-protective (anti-osteoarthritic) activity in human chondrocytes. Human clinical data are thin.",
+   "evidence": "preclinical",
+   "also_in": "Conifers, juniper, cannabis.",
+   "grow": "Volatile monoterpene. Same rules as other monoterpenes: cool drying and glass storage.",
+   "factors": [
+    "drying",
+    "storage"
+   ],
+   "citations": [
+    {
+     "pmid": "34365295",
+     "type": "REVIEW",
+     "title": "\u03b1-Pinene: A never-ending story.",
+     "journal": "Phytochemistry",
+     "year": "2021",
+     "first_author": "Allenspach et al.",
+     "doi": "10.1016/j.phytochem.2021.112857",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34365295/",
+     "doi_url": "https://doi.org/10.1016/j.phytochem.2021.112857"
+    },
+    {
+     "pmid": "24455984",
+     "type": "PRECLINICAL",
+     "title": "Anti-inflammatory and chondroprotective activity of (+)-\u03b1-pinene: structural and enantiomeric selectivity.",
+     "journal": "J Nat Prod",
+     "year": "2014",
+     "first_author": "Rufino et al.",
+     "doi": "10.1021/np400828x",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/24455984/",
+     "doi_url": "https://doi.org/10.1021/np400828x"
+    },
+    {
+     "pmid": "34512404",
+     "type": "REVIEW",
+     "title": "A Review of the Potential Use of Pinene and Linalool as Terpene-Based Medicines for Brain Health: Discovering Novel Therapeutics in the Flavours and Fragrances of Cannabis.",
+     "journal": "Front Psychiatry",
+     "year": "2021",
+     "first_author": "Weston-Green et al.",
+     "doi": "10.3389/fpsyt.2021.583211",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34512404/",
+     "doi_url": "https://doi.org/10.3389/fpsyt.2021.583211"
+    }
+   ]
+  },
+  {
+   "id": "cbg",
+   "name": "CBG (cannabigerol)",
+   "kind": "minor cannabinoid",
+   "aroma": "(non-aromatic)",
+   "health": "In the first human RCT (34 healthy adults, crossover), 20 mg CBG reduced anxiety and stress vs placebo and improved verbal memory, with no intoxication. Animal studies show anti-inflammatory effects in colitis.",
+   "evidence": "limited (one small human RCT)",
+   "also_in": "Precursor of THC/CBD in cannabis. High levels occur in 'B0' genotype plants.",
+   "grow": "CBG dominance is a single recessive trait tied to a non-functional THCA-synthase allele, so it's a genetics job: breed true CBG lines. Blue light and some LED spectra raised CBG concentration in trials.",
+   "factors": [
+    "genetics",
+    "spectrum"
+   ],
+   "citations": [
+    {
+     "pmid": "39003387",
+     "type": "RCT",
+     "title": "Acute effects of cannabigerol on anxiety, stress, and mood: a double-blind, placebo-controlled, crossover, field trial.",
+     "journal": "Sci Rep",
+     "year": "2024",
+     "first_author": "Cuttler et al.",
+     "doi": "10.1038/s41598-024-66879-0",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39003387/",
+     "doi_url": "https://doi.org/10.1038/s41598-024-66879-0"
+    },
+    {
+     "pmid": "36654096",
+     "type": "REVIEW",
+     "title": "Cannabigerol and cannabichromene in Cannabis sativa L.",
+     "journal": "Acta Pharm",
+     "year": "2021",
+     "first_author": "Zago\u017een et al.",
+     "doi": "10.2478/acph-2021-0021",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36654096/",
+     "doi_url": "https://doi.org/10.2478/acph-2021-0021"
+    },
+    {
+     "pmid": "33557333",
+     "type": "HORT",
+     "title": "SNP in Potentially Defunct Tetrahydrocannabinolic Acid Synthase Is a Marker for Cannabigerolic Acid Dominance in Cannabis sativa L.",
+     "journal": "Genes (Basel)",
+     "year": "2021",
+     "first_author": "Garfinkel et al.",
+     "doi": "10.3390/genes12020228",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33557333/",
+     "doi_url": "https://doi.org/10.3390/genes12020228"
+    },
+    {
+     "pmid": "36365435",
+     "type": "HORT",
+     "title": "Light Quality Impacts Vertical Growth Rate, Phytochemical Yield and Cannabinoid Production Efficiency in Cannabis sativa.",
+     "journal": "Plants (Basel)",
+     "year": "2022",
+     "first_author": "Morello et al.",
+     "doi": "10.3390/plants11212982",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36365435/",
+     "doi_url": "https://doi.org/10.3390/plants11212982"
+    }
+   ]
+  },
+  {
+   "id": "cbn",
+   "name": "CBN (cannabinol)",
+   "kind": "minor cannabinoid (THC breakdown product)",
+   "aroma": "(non-aromatic)",
+   "health": "Marketed for sleep, but a 2021 review found no trials using validated sleep measures. A 2026 crossover RCT in 20 adults with insomnia found single 30 or 300 mg doses did not change the primary outcome (wake after sleep onset). 300 mg did shorten sleep onset and improve subjective sleep quality. Larger trials are needed.",
+   "evidence": "limited / unproven",
+   "also_in": "Forms as THC ages and oxidizes; rises with plant age and storage conditions.",
+   "grow": "You don't grow CBN, you age into it. Heat and time convert THC to CBN, and water stress also raised CBN. If you want to preserve THC, store cold. If you want CBN, it comes at the cost of THC.",
+   "factors": [
+    "storage",
+    "stress"
+   ],
+   "citations": [
+    {
+     "pmid": "34468204",
+     "type": "REVIEW",
+     "title": "Cannabinol and Sleep: Separating Fact from Fiction.",
+     "journal": "Cannabis Cannabinoid Res",
+     "year": "2021",
+     "first_author": "Corroon",
+     "doi": "10.1089/can.2021.0006",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34468204/",
+     "doi_url": "https://doi.org/10.1089/can.2021.0006"
+    },
+    {
+     "pmid": "41698831",
+     "type": "RCT",
+     "title": "Cannabinol for Acute Treatment of Insomnia Disorder in a Randomized Placebo-Controlled Crossover Trial.",
+     "journal": "J Sleep Res",
+     "year": "2026",
+     "first_author": "Lavender et al.",
+     "doi": "10.1111/jsr.70284",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41698831/",
+     "doi_url": "https://doi.org/10.1111/jsr.70284"
+    },
+    {
+     "pmid": "34096805",
+     "type": "HORT",
+     "title": "Kinetics of CBD, \u03949-THC Degradation and Cannabinol Formation in Cannabis Resin at Various Temperature and pH Conditions.",
+     "journal": "Cannabis Cannabinoid Res",
+     "year": "2022",
+     "first_author": "Jaidee et al.",
+     "doi": "10.1089/can.2021.0004",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34096805/",
+     "doi_url": "https://doi.org/10.1089/can.2021.0004"
+    },
+    {
+     "pmid": "32200177",
+     "type": "PRECLINICAL",
+     "title": "Cannabinol in the spotlight: Toxicometabolomic study and behavioral analysis of zebrafish embryos exposed to the unknown cannabinoid.",
+     "journal": "Chemosphere",
+     "year": "2020",
+     "first_author": "Chousidis et al.",
+     "doi": "10.1016/j.chemosphere.2020.126417",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32200177/",
+     "doi_url": "https://doi.org/10.1016/j.chemosphere.2020.126417"
+    },
+    {
+     "pmid": "40284155",
+     "type": "HORT",
+     "title": "Water Stress Effects on Biomass Allocation and Secondary Metabolism in CBD-Dominant Cannabis sativa L.",
+     "journal": "Plants (Basel)",
+     "year": "2025",
+     "first_author": "Cappello Fusaro et al.",
+     "doi": "10.3390/plants14081267",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40284155/",
+     "doi_url": "https://doi.org/10.3390/plants14081267"
+    }
+   ]
+  },
+  {
+   "id": "thcv",
+   "name": "THCV (tetrahydrocannabivarin)",
+   "kind": "minor cannabinoid (propyl/varin)",
+   "aroma": "(non-aromatic)",
+   "health": "Preclinical studies report lower blood sugar and reduced appetite ('diet weed'), but there are few human studies. Pharmacologically it is not just weaker THC.",
+   "evidence": "preclinical",
+   "also_in": "Cannabis only; propyl-cannabinoid chemotypes.",
+   "grow": "Varin (propyl) side-chain inheritance is complex and non-Mendelian, so selection takes testing across generations. THCV rose slightly during storage in one packaging study.",
+   "factors": [
+    "genetics",
+    "storage"
+   ],
+   "citations": [
+    {
+     "pmid": "38995871",
+     "type": "REVIEW",
+     "title": "Tetrahydrocannabivarin is Not Tetrahydrocannabinol.",
+     "journal": "Cannabis Cannabinoid Res",
+     "year": "2025",
+     "first_author": "Haghdoost et al.",
+     "doi": "10.1089/can.2024.0051",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38995871/",
+     "doi_url": "https://doi.org/10.1089/can.2024.0051"
+    },
+    {
+     "pmid": "31388099",
+     "type": "HORT",
+     "title": "Complex Patterns of Cannabinoid Alkyl Side-Chain Inheritance in Cannabis.",
+     "journal": "Sci Rep",
+     "year": "2019",
+     "first_author": "Welling et al.",
+     "doi": "10.1038/s41598-019-47812-2",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31388099/",
+     "doi_url": "https://doi.org/10.1038/s41598-019-47812-2"
+    },
+    {
+     "pmid": "39707520",
+     "type": "HORT",
+     "title": "Is nitrogen-modified atmosphere packaging a tool for retention of volatile terpenes and cannabinoids in stored Cannabis sativa inflorescence?",
+     "journal": "J Cannabis Res",
+     "year": "2024",
+     "first_author": "MacLaughlin et al.",
+     "doi": "10.1186/s42238-024-00253-9",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39707520/",
+     "doi_url": "https://doi.org/10.1186/s42238-024-00253-9"
+    }
+   ]
+  }
+ ],
+ "entourage": {
+  "text": "The 'entourage effect' (terpenes and minors changing cannabinoid effects) is widely marketed. A 2024 scoping review found limited evidence that it is a stable, predictable effect. The limonene-plus-THC anxiety study is one of the few direct human tests.",
+  "citations": [
+   {
+    "pmid": "37535820",
+    "type": "REVIEW",
+    "title": "Does the \"Entourage Effect\" in Cannabinoids Exist? A Narrative Scoping Review.",
+    "journal": "Cannabis Cannabinoid Res",
+    "year": "2024",
+    "first_author": "Simei et al.",
+    "doi": "10.1089/can.2023.0052",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37535820/",
+    "doi_url": "https://doi.org/10.1089/can.2023.0052"
+   },
+   {
+    "pmid": "21749363",
+    "type": "REVIEW",
+    "title": "Taming THC: potential cannabis synergy and phytocannabinoid-terpenoid entourage effects.",
+    "journal": "Br J Pharmacol",
+    "year": "2011",
+    "first_author": "Russo",
+    "doi": "10.1111/j.1476-5381.2011.01238.x",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21749363/",
+    "doi_url": "https://doi.org/10.1111/j.1476-5381.2011.01238.x"
+   },
+   {
+    "pmid": "32116073",
+    "type": "REVIEW",
+    "title": "The 'entourage effect' or 'hodge-podge hashish': the questionable rebranding, marketing, and expectations of cannabis polypharmacy.",
+    "journal": "Expert Rev Clin Pharmacol",
+    "year": "2020",
+    "first_author": "Cogan",
+    "doi": "10.1080/17512433.2020.1721281",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32116073/",
+    "doi_url": "https://doi.org/10.1080/17512433.2020.1721281"
+   },
+   {
+    "pmid": "38498958",
+    "type": "RCT",
+    "title": "Vaporized D-limonene selectively mitigates the acute anxiogenic effects of \u03949-tetrahydrocannabinol in healthy adults who intermittently use cannabis.",
+    "journal": "Drug Alcohol Depend",
+    "year": "2024",
+    "first_author": "Spindle et al.",
+    "doi": "10.1016/j.drugalcdep.2024.111267",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38498958/",
+    "doi_url": "https://doi.org/10.1016/j.drugalcdep.2024.111267"
+   }
+  ]
+ },
+ "factors": {
+  "harvest": {
+   "id": "harvest",
+   "name": "Harvest timing",
+   "finding": "In 25 genotypes, 22 hit peak cannabinoid concentration between 'mostly amber' and 'fully amber' stigma (pistil) color; a few peaked earlier. The amber rule of thumb is a useful approximation, but test your own cultivar. Trichome maturation is asynchronous and varies by genotype and plant age.",
+   "citations": [
+    {
+     "pmid": "40431097",
+     "type": "HORT",
+     "title": "Determination of Optimal Harvest Time in Cannabis sativa L. Based upon Stigma Color Transition.",
+     "journal": "Plants (Basel)",
+     "year": "2025",
+     "first_author": "Tran et al.",
+     "doi": "10.3390/plants14101532",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40431097/",
+     "doi_url": "https://doi.org/10.3390/plants14101532"
+    },
+    {
+     "pmid": "37016398",
+     "type": "HORT",
+     "title": "Glandular trichome development, morphology, and maturation are influenced by plant age and genotype in high THC-containing cannabis (Cannabis sativa L.) inflorescences.",
+     "journal": "J Cannabis Res",
+     "year": "2023",
+     "first_author": "Punja et al.",
+     "doi": "10.1186/s42238-023-00178-9",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37016398/",
+     "doi_url": "https://doi.org/10.1186/s42238-023-00178-9"
+    }
+   ],
+   "anecdotal": false,
+   "source": null
+  },
+  "uvb": {
+   "id": "uvb",
+   "name": "UV-B supplementation",
+   "finding": "UV-B exposure did not raise yield or THC/CBD; total terpene content fell as UV dose rose, and THC/CBD fell in one cultivar. Evidence does not support UV-B as a potency/terpene booster.",
+   "citations": [
+    {
+     "pmid": "34795683",
+     "type": "HORT",
+     "title": "Cannabis Inflorescence Yield and Cannabinoid Concentration Are Not Increased With Exposure to Short-Wavelength Ultraviolet-B Radiation.",
+     "journal": "Front Plant Sci",
+     "year": "2021",
+     "first_author": "Rodriguez-Morrison et al.",
+     "doi": "10.3389/fpls.2021.725078",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34795683/",
+     "doi_url": "https://doi.org/10.3389/fpls.2021.725078"
+    }
+   ],
+   "anecdotal": false,
+   "source": null
+  },
+  "spectrum": {
+   "id": "spectrum",
+   "name": "Light spectrum",
+   "finding": "LED spectra changed cannabinoid concentrations vs HPS (one LED gave the highest CBG) without changing total cannabinoid yield; monochromatic blue gave the highest THC % and raised CBG and terpene concentration but the lowest flower mass. Spectrum, flower position, and cultivar all shift CBDA and terpenes.",
+   "citations": [
+    {
+     "pmid": "34676318",
+     "type": "HORT",
+     "title": "The Effect of Light Spectrum on the Morphology and Cannabinoid Content of Cannabis sativa L.",
+     "journal": "Med Cannabis Cannabinoids",
+     "year": "2018",
+     "first_author": "Magagnini et al.",
+     "doi": "10.1159/000489030",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34676318/",
+     "doi_url": "https://doi.org/10.1159/000489030"
+    },
+    {
+     "pmid": "36365435",
+     "type": "HORT",
+     "title": "Light Quality Impacts Vertical Growth Rate, Phytochemical Yield and Cannabinoid Production Efficiency in Cannabis sativa.",
+     "journal": "Plants (Basel)",
+     "year": "2022",
+     "first_author": "Morello et al.",
+     "doi": "10.3390/plants11212982",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36365435/",
+     "doi_url": "https://doi.org/10.3390/plants11212982"
+    },
+    {
+     "pmid": "36297719",
+     "type": "HORT",
+     "title": "Impacts of Different Light Spectra on CBD, CBDA and Terpene Concentrations in Relation to the Flower Positions of Different Cannabis Sativa L. Strains.",
+     "journal": "Plants (Basel)",
+     "year": "2022",
+     "first_author": "Reichel et al.",
+     "doi": "10.3390/plants11202695",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36297719/",
+     "doi_url": "https://doi.org/10.3390/plants11202695"
+    }
+   ],
+   "anecdotal": false,
+   "source": null
+  },
+  "intensity": {
+   "id": "intensity",
+   "name": "Light intensity",
+   "finding": "Indoors, flower yield rose linearly with canopy light up to 1,800 \u00b5mol\u00b7m\u207b\u00b2\u00b7s\u207b\u00b9 with no change in cannabinoid potency and only minor terpene effects. In hemp, 600 vs 200 \u00b5mol\u00b7m\u207b\u00b2\u00b7s\u207b\u00b9 raised total CBD by ~37%.",
+   "citations": [
+    {
+     "pmid": "34046049",
+     "type": "HORT",
+     "title": "Cannabis Yield, Potency, and Leaf Photosynthesis Respond Differently to Increasing Light Levels in an Indoor Environment.",
+     "journal": "Front Plant Sci",
+     "year": "2021",
+     "first_author": "Rodriguez-Morrison et al.",
+     "doi": "10.3389/fpls.2021.646020",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34046049/",
+     "doi_url": "https://doi.org/10.3389/fpls.2021.646020"
+    },
+    {
+     "pmid": "41195145",
+     "type": "HORT",
+     "title": "High light intensity enhances cannabinoid biosynthesis through concerted gene expression in hemp (Cannabis sativa) flowers.",
+     "journal": "Front Plant Sci",
+     "year": "2025",
+     "first_author": "Hahm et al.",
+     "doi": "10.3389/fpls.2025.1687794",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41195145/",
+     "doi_url": "https://doi.org/10.3389/fpls.2025.1687794"
+    }
+   ],
+   "anecdotal": false,
+   "source": null
+  },
+  "drying": {
+   "id": "drying",
+   "name": "Drying",
+   "finding": "Drying temperature, rate and storage all affect what survives. In a microwave-drying study across 40\u201380 \u00b0C, 50 \u00b0C best kept the original cannabinoid and terpene profile. Freeze-drying preserved acid cannabinoids but lost volatile aroma compounds.",
+   "citations": [
+    {
+     "pmid": "35944268",
+     "type": "HORT",
+     "title": "Solid-State Microwave Drying for Medical Cannabis Inflorescences: A Rapid and Controlled Alternative to Traditional Drying.",
+     "journal": "Cannabis Cannabinoid Res",
+     "year": "2024",
+     "first_author": "Uziel et al.",
+     "doi": "10.1089/can.2022.0051",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35944268/",
+     "doi_url": "https://doi.org/10.1089/can.2022.0051"
+    },
+    {
+     "pmid": "38702447",
+     "type": "HORT",
+     "title": "The influence of drying and storage conditions on the volatilome and cannabinoid content of Cannabis sativa L. inflorescences.",
+     "journal": "Anal Bioanal Chem",
+     "year": "2024",
+     "first_author": "Spadafora et al.",
+     "doi": "10.1007/s00216-024-05321-w",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38702447/",
+     "doi_url": "https://doi.org/10.1007/s00216-024-05321-w"
+    },
+    {
+     "pmid": "35268820",
+     "type": "SR",
+     "title": "Post-Harvest Operations to Generate High-Quality Medicinal Cannabis Products: A Systemic Review.",
+     "journal": "Molecules",
+     "year": "2022",
+     "first_author": "Al Ubeed et al.",
+     "doi": "10.3390/molecules27051719",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35268820/",
+     "doi_url": "https://doi.org/10.3390/molecules27051719"
+    }
+   ],
+   "anecdotal": false,
+   "source": null
+  },
+  "storage": {
+   "id": "storage",
+   "name": "Curing & storage",
+   "finding": "Glass jars retained the starting volatile profile better than open trays or plastic boxes, though acid cannabinoids slowly convert to neutral forms. Heat speeds THCA\u2192THC; CBN builds as THC ages. Nitrogen packaging kept beta-myrcene stable over 74 days but did not change total terpenes. THC-rich material keeps best cold.",
+   "citations": [
+    {
+     "pmid": "38702447",
+     "type": "HORT",
+     "title": "The influence of drying and storage conditions on the volatilome and cannabinoid content of Cannabis sativa L. inflorescences.",
+     "journal": "Anal Bioanal Chem",
+     "year": "2024",
+     "first_author": "Spadafora et al.",
+     "doi": "10.1007/s00216-024-05321-w",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38702447/",
+     "doi_url": "https://doi.org/10.1007/s00216-024-05321-w"
+    },
+    {
+     "pmid": "26247127",
+     "type": "HORT",
+     "title": "Determination of the relative percentage distribution of THCA and \u0394(9)-THC in herbal cannabis seized in Austria - Impact of different storage temperatures on stability.",
+     "journal": "Forensic Sci Int",
+     "year": "2015",
+     "first_author": "Taschwer et al.",
+     "doi": "10.1016/j.forsciint.2015.07.019",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/26247127/",
+     "doi_url": "https://doi.org/10.1016/j.forsciint.2015.07.019"
+    },
+    {
+     "pmid": "39707520",
+     "type": "HORT",
+     "title": "Is nitrogen-modified atmosphere packaging a tool for retention of volatile terpenes and cannabinoids in stored Cannabis sativa inflorescence?",
+     "journal": "J Cannabis Res",
+     "year": "2024",
+     "first_author": "MacLaughlin et al.",
+     "doi": "10.1186/s42238-024-00253-9",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39707520/",
+     "doi_url": "https://doi.org/10.1186/s42238-024-00253-9"
+    },
+    {
+     "pmid": "42576671",
+     "type": "HORT",
+     "title": "Stability of Cannabinoids in Cannabis: Plant Material, Extracts, Oil Formulations, and Isolates (CBD and \u03949-THC) Under Different Storage Conditions.",
+     "journal": "Cannabis Cannabinoid Res",
+     "year": "2026",
+     "first_author": "Majumdar et al.",
+     "doi": "10.1177/25785125261478275",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42576671/",
+     "doi_url": "https://doi.org/10.1177/25785125261478275"
+    },
+    {
+     "pmid": "32200177",
+     "type": "PRECLINICAL",
+     "title": "Cannabinol in the spotlight: Toxicometabolomic study and behavioral analysis of zebrafish embryos exposed to the unknown cannabinoid.",
+     "journal": "Chemosphere",
+     "year": "2020",
+     "first_author": "Chousidis et al.",
+     "doi": "10.1016/j.chemosphere.2020.126417",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32200177/",
+     "doi_url": "https://doi.org/10.1016/j.chemosphere.2020.126417"
+    }
+   ],
+   "anecdotal": false,
+   "source": null
+  },
+  "stress": {
+   "id": "stress",
+   "name": "Water, nutrients & stress",
+   "finding": "Water stress in CBD-type plants lowered CBD, raised THC under veg-stage stress and raised CBN; main terpenes stayed genotype-driven. Higher nitrogen raised the CBD:THC ratio, but clone source mattered more. A lower-nutrient regime with beneficial bacteria raised trichome density and key cannabinoids. Methyl jasmonate promoted glandular trichome formation in lab work.",
+   "citations": [
+    {
+     "pmid": "40284155",
+     "type": "HORT",
+     "title": "Water Stress Effects on Biomass Allocation and Secondary Metabolism in CBD-Dominant Cannabis sativa L.",
+     "journal": "Plants (Basel)",
+     "year": "2025",
+     "first_author": "Cappello Fusaro et al.",
+     "doi": "10.3390/plants14081267",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40284155/",
+     "doi_url": "https://doi.org/10.3390/plants14081267"
+    },
+    {
+     "pmid": "40210892",
+     "type": "HORT",
+     "title": "Optimal nitrogen rates and clonal effects on cannabinoid yields of medicinal cannabis.",
+     "journal": "Sci Rep",
+     "year": "2025",
+     "first_author": "Dilena et al.",
+     "doi": "10.1038/s41598-025-96761-6",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40210892/",
+     "doi_url": "https://doi.org/10.1038/s41598-025-96761-6"
+    },
+    {
+     "pmid": "37275248",
+     "type": "HORT",
+     "title": "Sub-optimal nutrient regime coupled with Bacillus and Pseudomonas sp. inoculation influences trichome density and cannabinoid profiles in drug-type Cannabis sativa.",
+     "journal": "Front Plant Sci",
+     "year": "2023",
+     "first_author": "Tanney et al.",
+     "doi": "10.3389/fpls.2023.1131346",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37275248/",
+     "doi_url": "https://doi.org/10.3389/fpls.2023.1131346"
+    },
+    {
+     "pmid": "38332528",
+     "type": "HORT",
+     "title": "Deep learning-based quantification and transcriptomic profiling reveal a methyl jasmonate-mediated glandular trichome formation pathway in Cannabis sativa.",
+     "journal": "Plant J",
+     "year": "2024",
+     "first_author": "Huang et al.",
+     "doi": "10.1111/tpj.16663",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38332528/",
+     "doi_url": "https://doi.org/10.1111/tpj.16663"
+    }
+   ],
+   "anecdotal": false,
+   "source": null
+  },
+  "genetics": {
+   "id": "genetics",
+   "name": "Genetics beat everything",
+   "finding": "The THC:CBD ratio follows CBDAS genotype (predictable codominant inheritance). CBG dominance is a single recessive trait tied to a non-functional THCA-synthase variant. Strain names poorly track chemistry: 396 names in one market collapsed to 3 chemovars.",
+   "citations": [
+    {
+     "pmid": "33103246",
+     "type": "HORT",
+     "title": "Validating a predictive model of cannabinoid inheritance with feral, clinical, and industrial Cannabis sativa.",
+     "journal": "Am J Bot",
+     "year": "2020",
+     "first_author": "Wenger et al.",
+     "doi": "10.1002/ajb2.1550",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33103246/",
+     "doi_url": "https://doi.org/10.1002/ajb2.1550"
+    },
+    {
+     "pmid": "33557333",
+     "type": "HORT",
+     "title": "SNP in Potentially Defunct Tetrahydrocannabinolic Acid Synthase Is a Marker for Cannabigerolic Acid Dominance in Cannabis sativa L.",
+     "journal": "Genes (Basel)",
+     "year": "2021",
+     "first_author": "Garfinkel et al.",
+     "doi": "10.3390/genes12020228",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33557333/",
+     "doi_url": "https://doi.org/10.3390/genes12020228"
+    },
+    {
+     "pmid": "32923659",
+     "type": "HORT",
+     "title": "Cannabis Chemovar Nomenclature Misrepresents Chemical and Genetic Diversity; Survey of Variations in Chemical Profiles and Genetic Markers in Nevada Medical Cannabis Samples.",
+     "journal": "Cannabis Cannabinoid Res",
+     "year": "2020",
+     "first_author": "Reimann-Philipp et al.",
+     "doi": "10.1089/can.2018.0063",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32923659/",
+     "doi_url": "https://doi.org/10.1089/can.2018.0063"
+    },
+    {
+     "pmid": "32591428",
+     "type": "HORT",
+     "title": "Terpene Synthases and Terpene Variation in Cannabis sativa.",
+     "journal": "Plant Physiol",
+     "year": "2020",
+     "first_author": "Booth et al.",
+     "doi": "10.1104/pp.20.00593",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32591428/",
+     "doi_url": "https://doi.org/10.1104/pp.20.00593"
+    }
+   ],
+   "anecdotal": false,
+   "source": null
+  },
+  "anecdotal_cure": {
+   "id": "anecdotal_cure",
+   "name": "Jar humidity (grower practice)",
+   "finding": "Common grower practice: cure in jars with a hygrometer, settling around 58\u201362% RH, burping when high. This is ANECDOTAL grower practice; no retrieved study tested these numbers.",
+   "citations": [],
+   "anecdotal": true,
+   "source": {
+    "label": "X post, @MrGrowIt, Oct 7 2026",
+    "url": "https://x.com/MrGrowIt/status/2107879217128001917"
+   }
+  }
+ },
+ "holistic": {
+  "chronic_neuropathic_pain": {
+   "pairs": [
+    "Exercise and physical activity: few adverse events, may improve pain severity and function (Cochrane overview).",
+    "Psychological and rehab therapies reduced neuropathic pain intensity and disability (meta-analysis).",
+    "Acceptance- and mindfulness-based therapies are reasonable alternatives to CBT for chronic pain."
+   ],
+   "citations": [
+    {
+     "pmid": "28436583",
+     "type": "SR",
+     "title": "Physical activity and exercise for chronic pain in adults: an overview of Cochrane Reviews.",
+     "journal": "Cochrane Database Syst Rev",
+     "year": "2017",
+     "first_author": "Geneen et al.",
+     "doi": "10.1002/14651858.CD011279.pub3",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28436583/",
+     "doi_url": "https://doi.org/10.1002/14651858.CD011279.pub3"
+    },
+    {
+     "pmid": "39101676",
+     "type": "SR",
+     "title": "Rehabilitation interventions for neuropathic pain: a systematic review and meta-analysis of randomized controlled trials.",
+     "journal": "J Rehabil Med",
+     "year": "2024",
+     "first_author": "B\u00e4ckryd et al.",
+     "doi": "10.2340/jrm.v56.40188",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39101676/",
+     "doi_url": "https://doi.org/10.2340/jrm.v56.40188"
+    },
+    {
+     "pmid": "26818413",
+     "type": "SR",
+     "title": "Acceptance- and mindfulness-based interventions for the treatment of chronic pain: a meta-analytic review.",
+     "journal": "Cogn Behav Ther",
+     "year": "2016",
+     "first_author": "Veehof et al.",
+     "doi": "10.1080/16506073.2015.1098724",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/26818413/",
+     "doi_url": "https://doi.org/10.1080/16506073.2015.1098724"
+    }
+   ]
+  },
+  "fibromyalgia": {
+   "pairs": [
+    "EULAR: exercise was the only 'strong for' therapy recommendation. Drugs are reserved for severe pain or sleep problems.",
+    "Aerobic exercise about 3\u00d7/week, 25\u201340 min per session (more than 100 min/week), starting low and building over 6\u201312 weeks.",
+    "Exercise training looks most likely to improve sleep quality in FM (network meta-analysis, low certainty)."
+   ],
+   "citations": [
+    {
+     "pmid": "27377815",
+     "type": "GUIDELINE",
+     "title": "EULAR revised recommendations for the management of fibromyalgia.",
+     "journal": "Ann Rheum Dis",
+     "year": "2017",
+     "first_author": "Macfarlane et al.",
+     "doi": "10.1136/annrheumdis-2016-209724",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27377815/",
+     "doi_url": "https://doi.org/10.1136/annrheumdis-2016-209724"
+    },
+    {
+     "pmid": "39805734",
+     "type": "SR",
+     "title": "Aerobic Exercise Prescription for Pain Reduction in Fibromyalgia: A Systematic Review and Meta-Analysis.",
+     "journal": "Eur J Pain",
+     "year": "2025",
+     "first_author": "Casanova-Rodr\u00edguez et al.",
+     "doi": "10.1002/ejp.4783",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39805734/",
+     "doi_url": "https://doi.org/10.1002/ejp.4783"
+    },
+    {
+     "pmid": "39930945",
+     "type": "SR",
+     "title": "Effects of Pharmacologic and Nonpharmacologic Interventions for the Management of Sleep Problems in People With Fibromyalgia: Systematic Review and Network Meta-Analysis of Randomized Controlled Trials.",
+     "journal": "Arthritis Care Res (Hoboken)",
+     "year": "2025",
+     "first_author": "Hudson et al.",
+     "doi": "10.1002/acr.25505",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39930945/",
+     "doi_url": "https://doi.org/10.1002/acr.25505"
+    }
+   ]
+  },
+  "ms_spasticity": {
+   "pairs": [
+    "Physiotherapy is a safe, beneficial option for MS spasticity (meta-analysis, heterogeneous studies).",
+    "Rehabilitation and exercise improve mobility, strength and quality of life (Cochrane overview)."
+   ],
+   "citations": [
+    {
+     "pmid": "29794531",
+     "type": "SR",
+     "title": "Effectiveness of Physiotherapy Interventions on Spasticity in People With Multiple Sclerosis: A Systematic Review and Meta-Analysis.",
+     "journal": "Am J Phys Med Rehabil",
+     "year": "2018",
+     "first_author": "Etoom et al.",
+     "doi": "10.1097/PHM.0000000000000970",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29794531/",
+     "doi_url": "https://doi.org/10.1097/PHM.0000000000000970"
+    },
+    {
+     "pmid": "30637728",
+     "type": "SR",
+     "title": "Rehabilitation for people with multiple sclerosis: an overview of Cochrane Reviews.",
+     "journal": "Cochrane Database Syst Rev",
+     "year": "2019",
+     "first_author": "Amatya et al.",
+     "doi": "10.1002/14651858.CD012732.pub2",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30637728/",
+     "doi_url": "https://doi.org/10.1002/14651858.CD012732.pub2"
+    }
+   ]
+  },
+  "epilepsy": {
+   "pairs": [
+    "Protect sleep: sleep deprivation is a recognized seizure trigger.",
+    "Ketogenic diet therapy cuts seizure frequency in drug-resistant epilepsy, especially in children. Do it only with a specialist team.",
+    "CBD interacts with clobazam and valproate (sedation, liver enzymes). Medication changes go through the neurologist."
+   ],
+   "citations": [
+    {
+     "pmid": "35755914",
+     "type": "REVIEW",
+     "title": "Sleep deprivation: a risk for epileptic seizures.",
+     "journal": "Sleep Sci",
+     "year": "2022",
+     "first_author": "Dell'Aquila et al.",
+     "doi": "10.5935/1984-0063.20220046",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35755914/",
+     "doi_url": "https://doi.org/10.5935/1984-0063.20220046"
+    },
+    {
+     "pmid": "32588435",
+     "type": "SR",
+     "title": "Ketogenic diets for drug-resistant epilepsy.",
+     "journal": "Cochrane Database Syst Rev",
+     "year": "2020",
+     "first_author": "Martin-McGill et al.",
+     "doi": "10.1002/14651858.CD001903.pub5",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32588435/",
+     "doi_url": "https://doi.org/10.1002/14651858.CD001903.pub5"
+    },
+    {
+     "pmid": "35144527",
+     "type": "SR",
+     "title": "Ketogenic diet in pediatric seizures: a randomized controlled trial review and meta-analysis.",
+     "journal": "Expert Rev Neurother",
+     "year": "2022",
+     "first_author": "Pizzo et al.",
+     "doi": "10.1080/14737175.2022.2030220",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35144527/",
+     "doi_url": "https://doi.org/10.1080/14737175.2022.2030220"
+    },
+    {
+     "pmid": "35156171",
+     "type": "REVIEW",
+     "title": "A Practical Guide to the Treatment of Dravet Syndrome with Anti-Seizure Medication.",
+     "journal": "CNS Drugs",
+     "year": "2022",
+     "first_author": "Strzelczyk et al.",
+     "doi": "10.1007/s40263-022-00898-1",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35156171/",
+     "doi_url": "https://doi.org/10.1007/s40263-022-00898-1"
+    }
+   ]
+  },
+  "insomnia": {
+   "pairs": [
+    "CBT-I is the first-line insomnia treatment, with clinically meaningful effects (meta-analysis; European guideline).",
+    "Light therapy and exercise may help as add-ons to CBT-I (European guideline, grade B).",
+    "Cochrane 2026 review on medical cannabis for insomnia calls for better long-term safety data."
+   ],
+   "citations": [
+    {
+     "pmid": "26054060",
+     "type": "SR",
+     "title": "Cognitive Behavioral Therapy for Chronic Insomnia: A Systematic Review and Meta-analysis.",
+     "journal": "Ann Intern Med",
+     "year": "2015",
+     "first_author": "Trauer et al.",
+     "doi": "10.7326/M14-2841",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/26054060/",
+     "doi_url": "https://doi.org/10.7326/M14-2841"
+    },
+    {
+     "pmid": "38016484",
+     "type": "GUIDELINE",
+     "title": "The European Insomnia Guideline: An update on the diagnosis and treatment of insomnia 2023.",
+     "journal": "J Sleep Res",
+     "year": "2023",
+     "first_author": "Riemann et al.",
+     "doi": "10.1111/jsr.14035",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38016484/",
+     "doi_url": "https://doi.org/10.1111/jsr.14035"
+    },
+    {
+     "pmid": "42863850",
+     "type": "SR",
+     "title": "Medical cannabis for the treatment of insomnia.",
+     "journal": "Cochrane Database Syst Rev",
+     "year": "2026",
+     "first_author": "Varela et al.",
+     "doi": "10.1002/14651858.CD016216.pub2",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42863850/",
+     "doi_url": "https://doi.org/10.1002/14651858.CD016216.pub2"
+    }
+   ]
+  },
+  "anxiety": {
+   "pairs": [
+    "MBSR (8-week mindfulness) was non-inferior to escitalopram for anxiety disorders in an RCT, with far fewer side effects.",
+    "Aerobic and/or resistance exercise had a moderate effect on anxiety and depression (meta-analysis).",
+    "THC can raise anxiety at higher doses; go low on THC."
+   ],
+   "citations": [
+    {
+     "pmid": "36350591",
+     "type": "RCT",
+     "title": "Mindfulness-Based Stress Reduction vs Escitalopram for the Treatment of Adults With Anxiety Disorders: A Randomized Clinical Trial.",
+     "journal": "JAMA Psychiatry",
+     "year": "2023",
+     "first_author": "Hoge et al.",
+     "doi": "10.1001/jamapsychiatry.2022.3679",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36350591/",
+     "doi_url": "https://doi.org/10.1001/jamapsychiatry.2022.3679"
+    },
+    {
+     "pmid": "40432290",
+     "type": "SR",
+     "title": "The Effects of Aerobic and Resistance Exercise on Depression and Anxiety: Systematic Review With Meta-Analysis.",
+     "journal": "Int J Ment Health Nurs",
+     "year": "2025",
+     "first_author": "Banyard et al.",
+     "doi": "10.1111/inm.70054",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40432290/",
+     "doi_url": "https://doi.org/10.1111/inm.70054"
+    }
+   ]
+  },
+  "ptsd": {
+   "pairs": [
+    "Exercise is an effective add-on to PTSD treatment, and more exercise may help more (meta-analysis).",
+    "CBT-I helps insomnia in PTSD and improves mental-health outcomes (meta-analysis)."
+   ],
+   "citations": [
+    {
+     "pmid": "34850063",
+     "type": "SR",
+     "title": "Physical Exercise as Treatment for PTSD: A Systematic Review and Meta-Analysis.",
+     "journal": "Mil Med",
+     "year": "2022",
+     "first_author": "Bj\u00f6rkman et al.",
+     "doi": "10.1093/milmed/usab497",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34850063/",
+     "doi_url": "https://doi.org/10.1093/milmed/usab497"
+    },
+    {
+     "pmid": "35240417",
+     "type": "SR",
+     "title": "Cognitive behavioral therapy for insomnia in patients with mental disorders and comorbid insomnia: A systematic review and meta-analysis.",
+     "journal": "Sleep Med Rev",
+     "year": "2022",
+     "first_author": "Hertenstein et al.",
+     "doi": "10.1016/j.smrv.2022.101597",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35240417/",
+     "doi_url": "https://doi.org/10.1016/j.smrv.2022.101597"
+    }
+   ]
+  },
+  "ibd_crohns": {
+   "pairs": [
+    "In a Crohn's RCT, a Mediterranean diet did as well as the stricter Specific Carbohydrate Diet for symptom remission and is easier to follow.",
+    "Low-FODMAP improves gut symptoms in IBD but does not change inflammation, so it isn't an IBD treatment.",
+    "Moderate exercise is generally well tolerated for GI health. Watch high-intensity sessions."
+   ],
+   "citations": [
+    {
+     "pmid": "34052278",
+     "type": "RCT",
+     "title": "A Randomized Trial Comparing the Specific Carbohydrate Diet to a Mediterranean Diet in Adults With Crohn's Disease.",
+     "journal": "Gastroenterology",
+     "year": "2021",
+     "first_author": "Lewis et al.",
+     "doi": "10.1053/j.gastro.2021.05.047",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34052278/",
+     "doi_url": "https://doi.org/10.1053/j.gastro.2021.05.047"
+    },
+    {
+     "pmid": "40765115",
+     "type": "SR",
+     "title": "Effects of a Low FODMAP Diet in Inflammatory Bowel Disease and Patient Experiences: A Mixed Methods Systematic Literature Review and Meta-Analysis.",
+     "journal": "J Hum Nutr Diet",
+     "year": "2025",
+     "first_author": "Ville et al.",
+     "doi": "10.1111/jhn.70106",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40765115/",
+     "doi_url": "https://doi.org/10.1111/jhn.70106"
+    },
+    {
+     "pmid": "40539198",
+     "type": "SR",
+     "title": "Exploring the gut-exercise link: A systematic review of gastrointestinal disorders in physical activity.",
+     "journal": "World J Gastroenterol",
+     "year": "2025",
+     "first_author": "Al-Beltagi et al.",
+     "doi": "10.3748/wjg.v31.i22.106835",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40539198/",
+     "doi_url": "https://doi.org/10.3748/wjg.v31.i22.106835"
+    }
+   ]
+  },
+  "migraine": {
+   "pairs": [
+    "Aerobic exercise about 3\u00d730 min/week for 10\u201311 weeks reduced migraine frequency and intensity (dose-response meta-analysis).",
+    "Strength training and high-intensity aerobic exercise ranked highest in a network meta-analysis.",
+    "Caution: cannabis use was linked to medication-overuse headache in chronic migraine (case-referent study; animal data agree)."
+   ],
+   "citations": [
+    {
+     "pmid": "41085000",
+     "type": "SR",
+     "title": "How much aerobic exercise is needed to reduce migraine? A\u00a0dose-response meta-analysis of pain intensity and frequency.",
+     "journal": "Headache",
+     "year": "2026",
+     "first_author": "Ogrezeanu et al.",
+     "doi": "10.1111/head.15070",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41085000/",
+     "doi_url": "https://doi.org/10.1111/head.15070"
+    },
+    {
+     "pmid": "36229774",
+     "type": "SR",
+     "title": "What is the efficacy of aerobic exercise versus strength training in the treatment of migraine? A systematic review and network meta-analysis of clinical trials.",
+     "journal": "J Headache Pain",
+     "year": "2022",
+     "first_author": "Woldeamanuel et al.",
+     "doi": "10.1186/s10194-022-01503-y",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36229774/",
+     "doi_url": "https://doi.org/10.1186/s10194-022-01503-y"
+    },
+    {
+     "pmid": "34370866",
+     "type": "HUMAN-OBS",
+     "title": "Medication overuse headache in patients with chronic migraine using cannabis: A case-referent study.",
+     "journal": "Headache",
+     "year": "2021",
+     "first_author": "Zhang et al.",
+     "doi": "10.1111/head.14195",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34370866/",
+     "doi_url": "https://doi.org/10.1111/head.14195"
+    },
+    {
+     "pmid": "31311288",
+     "type": "PRECLINICAL",
+     "title": "Cannabinoids induce latent sensitization in a preclinical model of medication overuse headache.",
+     "journal": "Cephalalgia",
+     "year": "2020",
+     "first_author": "Kopruszinski et al.",
+     "doi": "10.1177/0333102419865252",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31311288/",
+     "doi_url": "https://doi.org/10.1177/0333102419865252"
+    }
+   ]
+  },
+  "arthritis": {
+   "pairs": [
+    "Knee OA: aerobic exercise is likely the best exercise for pain and function (network meta-analysis, moderate certainty). EULAR 2023 makes exercise and weight management core care.",
+    "RA: ACR 2022 integrative guideline covers exercise, rehab and diet alongside DMARDs. A Mediterranean diet improved some RA activity measures."
+   ],
+   "citations": [
+    {
+     "pmid": "41093618",
+     "type": "SR",
+     "title": "Comparative efficacy and safety of exercise modalities in knee osteoarthritis: systematic review and network meta-analysis.",
+     "journal": "BMJ",
+     "year": "2025",
+     "first_author": "Yan et al.",
+     "doi": "10.1136/bmj-2025-085242",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41093618/",
+     "doi_url": "https://doi.org/10.1136/bmj-2025-085242"
+    },
+    {
+     "pmid": "38212040",
+     "type": "GUIDELINE",
+     "title": "EULAR recommendations for the non-pharmacological core management of hip and knee osteoarthritis: 2023 update.",
+     "journal": "Ann Rheum Dis",
+     "year": "2024",
+     "first_author": "Moseng et al.",
+     "doi": "10.1136/ard-2023-225041",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38212040/",
+     "doi_url": "https://doi.org/10.1136/ard-2023-225041"
+    },
+    {
+     "pmid": "37227116",
+     "type": "GUIDELINE",
+     "title": "2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis.",
+     "journal": "Arthritis Care Res (Hoboken)",
+     "year": "2023",
+     "first_author": "England et al.",
+     "doi": "10.1002/acr.25117",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37227116/",
+     "doi_url": "https://doi.org/10.1002/acr.25117"
+    },
+    {
+     "pmid": "32585000",
+     "type": "SR",
+     "title": "Rheumatoid arthritis and dietary interventions: systematic review of clinical trials.",
+     "journal": "Nutr Rev",
+     "year": "2021",
+     "first_author": "Philippou et al.",
+     "doi": "10.1093/nutrit/nuaa033",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32585000/",
+     "doi_url": "https://doi.org/10.1093/nutrit/nuaa033"
+    }
+   ]
+  },
+  "cinv": {
+   "pairs": [
+    "Ginger alongside standard antiemetics may reduce CINV severity (meta-analyses). The effect is modest, and a large RCT found it not clinically meaningful.",
+    "P6 acupressure improved several nausea outcomes in an RCT."
+   ],
+   "citations": [
+    {
+     "pmid": "38625733",
+     "type": "SR",
+     "title": "Efficacy and Safety of Ginger on Chemotherapy-Induced Nausea and Vomiting: A Systematic Review and Meta-analysis of Randomized Controlled Trials.",
+     "journal": "Cancer Nurs",
+     "year": "2025",
+     "first_author": "Lin et al.",
+     "doi": "10.1097/NCC.0000000000001355",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38625733/",
+     "doi_url": "https://doi.org/10.1097/NCC.0000000000001355"
+    },
+    {
+     "pmid": "37699474",
+     "type": "RCT",
+     "title": "Effect of a Standardized Ginger Root Powder Regimen on Chemotherapy-Induced Nausea and Vomiting: A Multicenter, Double-Blind, Placebo-Controlled Randomized Trial.",
+     "journal": "J Acad Nutr Diet",
+     "year": "2024",
+     "first_author": "Crichton et al.",
+     "doi": "10.1016/j.jand.2023.09.003",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37699474/",
+     "doi_url": "https://doi.org/10.1016/j.jand.2023.09.003"
+    },
+    {
+     "pmid": "38461442",
+     "type": "RCT",
+     "title": "Effect of ginger and P6 acupressure on chemotherapy-induced nausea and vomiting: a randomized controlled study.",
+     "journal": "Rev Esc Enferm USP",
+     "year": "2024",
+     "first_author": "Chenbing et al.",
+     "doi": "10.1590/1980-220X-REEUSP-2023-0104en",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38461442/",
+     "doi_url": "https://doi.org/10.1590/1980-220X-REEUSP-2023-0104en"
+    }
+   ]
+  },
+  "appetite_cachexia": {
+   "pairs": [
+    "ESPEN: nutrition care in cancer should always come with exercise training.",
+    "ASCO: no medicine is standard care for cachexia. Short courses of progesterone analogs or corticosteroids may be tried."
+   ],
+   "citations": [
+    {
+     "pmid": "27637832",
+     "type": "GUIDELINE",
+     "title": "ESPEN guidelines on nutrition in cancer patients.",
+     "journal": "Clin Nutr",
+     "year": "2017",
+     "first_author": "Arends et al.",
+     "doi": "10.1016/j.clnu.2016.07.015",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27637832/",
+     "doi_url": "https://doi.org/10.1016/j.clnu.2016.07.015"
+    },
+    {
+     "pmid": "32432946",
+     "type": "GUIDELINE",
+     "title": "Management of Cancer Cachexia: ASCO Guideline.",
+     "journal": "J Clin Oncol",
+     "year": "2020",
+     "first_author": "Roeland et al.",
+     "doi": "10.1200/JCO.20.00611",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32432946/",
+     "doi_url": "https://doi.org/10.1200/JCO.20.00611"
+    }
+   ]
+  }
+ },
+ "interactions": [
+  {
+   "title": "CBD + warfarin (blood thinner)",
+   "text": "Case reports: starting CBD required about a 30% cut in warfarin dose to keep INR in range. Very low-quality data suggest both THC and CBD can raise INR. Get INR monitored.",
+   "citations": [
+    {
+     "pmid": "30326170",
+     "type": "CASE",
+     "title": "Interaction between warfarin and cannabis.",
+     "journal": "Basic Clin Pharmacol Toxicol",
+     "year": "2019",
+     "first_author": "Damkier et al.",
+     "doi": "10.1111/bcpt.13152",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30326170/",
+     "doi_url": "https://doi.org/10.1111/bcpt.13152"
+    },
+    {
+     "pmid": "33016308",
+     "type": "CASE",
+     "title": "Warfarin dose adjustment required after cannabidiol initiation and titration.",
+     "journal": "Am J Health Syst Pharm",
+     "year": "2020",
+     "first_author": "Cortopassi",
+     "doi": "10.1093/ajhp/zxaa268",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33016308/",
+     "doi_url": "https://doi.org/10.1093/ajhp/zxaa268"
+    },
+    {
+     "pmid": "37740600",
+     "type": "SR",
+     "title": "Anticoagulant drug-drug interactions with cannabinoids: A\u00a0systematic review.",
+     "journal": "Pharmacotherapy",
+     "year": "2023",
+     "first_author": "Smythe et al.",
+     "doi": "10.1002/phar.2881",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37740600/",
+     "doi_url": "https://doi.org/10.1002/phar.2881"
+    }
+   ]
+  },
+  {
+   "title": "CYP450 interactions",
+   "text": "THC and CBD interact with drugs using common CYP450 pathways; Penn State's free CANN-DIR checker (cann-dir.psu.edu) screens them. Interactions matter mainly above ~30 mg/day THC or ~300 mg/day CBD.",
+   "citations": [
+    {
+     "pmid": "38868665",
+     "type": "SR",
+     "title": "Systematic review of drug-drug interactions of delta-9-tetrahydrocannabinol, cannabidiol, and Cannabis.",
+     "journal": "Front Pharmacol",
+     "year": "2024",
+     "first_author": "Nachnani et al.",
+     "doi": "10.3389/fphar.2024.1282831",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38868665/",
+     "doi_url": "https://doi.org/10.3389/fphar.2024.1282831"
+    },
+    {
+     "pmid": "37874128",
+     "type": "REVIEW",
+     "title": "Drug Interactions of Tetrahydrocannabinol and Cannabidiol in Cannabinoid Drugs.",
+     "journal": "Dtsch Arztebl Int",
+     "year": "2023",
+     "first_author": "Herdegen et al.",
+     "doi": "10.3238/arztebl.m2023.0223",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37874128/",
+     "doi_url": "https://doi.org/10.3238/arztebl.m2023.0223"
+    },
+    {
+     "pmid": "37541924",
+     "type": "REVIEW",
+     "title": "Cannabidiol's impact on drug-metabolization.",
+     "journal": "Eur J Intern Med",
+     "year": "2023",
+     "first_author": "St\u00f6llberger et al.",
+     "doi": "10.1016/j.ejim.2023.07.029",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37541924/",
+     "doi_url": "https://doi.org/10.1016/j.ejim.2023.07.029"
+    }
+   ]
+  },
+  {
+   "title": "CBD + clobazam / valproate",
+   "text": "CBD raises clobazam levels and adds sedation. With valproate it is linked to liver-enzyme rises.",
+   "citations": [
+    {
+     "pmid": "31625159",
+     "type": "PRECLINICAL",
+     "title": "Coadministered cannabidiol and clobazam: Preclinical evidence for both pharmacodynamic and pharmacokinetic interactions.",
+     "journal": "Epilepsia",
+     "year": "2019",
+     "first_author": "Anderson et al.",
+     "doi": "10.1111/epi.16355",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31625159/",
+     "doi_url": "https://doi.org/10.1111/epi.16355"
+    },
+    {
+     "pmid": "35156171",
+     "type": "REVIEW",
+     "title": "A Practical Guide to the Treatment of Dravet Syndrome with Anti-Seizure Medication.",
+     "journal": "CNS Drugs",
+     "year": "2022",
+     "first_author": "Strzelczyk et al.",
+     "doi": "10.1007/s40263-022-00898-1",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35156171/",
+     "doi_url": "https://doi.org/10.1007/s40263-022-00898-1"
+    }
+   ]
+  },
+  {
+   "title": "Heart risk",
+   "text": "Meta-analysis of real-world data: cannabis use associated with major adverse cardiovascular events (cohort RR 1.32). Use more than 4\u00d7/month was associated with MI history in young adults.",
+   "citations": [
+    {
+     "pmid": "40527600",
+     "type": "SR",
+     "title": "Cardiovascular risk associated with the use of cannabis and cannabinoids: a systematic review and meta-analysis.",
+     "journal": "Heart",
+     "year": "2025",
+     "first_author": "Storck et al.",
+     "doi": "10.1136/heartjnl-2024-325429",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40527600/",
+     "doi_url": "https://doi.org/10.1136/heartjnl-2024-325429"
+    },
+    {
+     "pmid": "34493564",
+     "type": "HUMAN-OBS",
+     "title": "Recent cannabis use and myocardial infarction in young adults: a cross-sectional study.",
+     "journal": "CMAJ",
+     "year": "2021",
+     "first_author": "Ladha et al.",
+     "doi": "10.1503/cmaj.202392",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34493564/",
+     "doi_url": "https://doi.org/10.1503/cmaj.202392"
+    }
+   ]
+  },
+  {
+   "title": "Cannabinoid hyperemesis",
+   "text": "Cyclic vomiting with heavy, frequent use that eases with hot showers. Stopping cannabis is the best treatment.",
+   "citations": [
+    {
+     "pmid": "28000146",
+     "type": "SR",
+     "title": "Cannabinoid Hyperemesis Syndrome: Diagnosis, Pathophysiology, and Treatment-a Systematic Review.",
+     "journal": "J Med Toxicol",
+     "year": "2017",
+     "first_author": "Sorensen et al.",
+     "doi": "10.1007/s13181-016-0595-z",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28000146/",
+     "doi_url": "https://doi.org/10.1007/s13181-016-0595-z"
+    },
+    {
+     "pmid": "34724666",
+     "type": "SR",
+     "title": "A Systematic Review on Cannabis Hyperemesis Syndrome and Its Management Options.",
+     "journal": "Med Princ Pract",
+     "year": "2022",
+     "first_author": "Senderovich et al.",
+     "doi": "10.1159/000520417",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34724666/",
+     "doi_url": "https://doi.org/10.1159/000520417"
+    }
+   ]
+  },
+  {
+   "title": "Start low, go slow",
+   "text": "Sparse pharmacology data support a 'start low and go slow' approach to cannabis medicines.",
+   "citations": [
+    {
+     "pmid": "30001569",
+     "type": "REVIEW",
+     "title": "The pharmacokinetics and the pharmacodynamics of cannabinoids.",
+     "journal": "Br J Clin Pharmacol",
+     "year": "2018",
+     "first_author": "Lucas et al.",
+     "doi": "10.1111/bcp.13710",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30001569/",
+     "doi_url": "https://doi.org/10.1111/bcp.13710"
+    }
+   ]
+  }
+ ],
+ "grower": {
+  "chronic_neuropathic_pain": {
+   "target": "Low-to-moderate THC or 1:1 THC:CBD; beta-caryophyllene",
+   "genetics": "Balanced Type II lines are typical (e.g. Harlequin, Pennywise, Cannatonic crosses). CBDAS genotype predicts the THC:CBD ratio, so seed-test.",
+   "factors": [
+    "genetics",
+    "spectrum",
+    "storage"
+   ],
+   "factor_names": [
+    "Genetics beat everything",
+    "Light spectrum",
+    "Curing & storage"
+   ]
+  },
+  "fibromyalgia": {
+   "target": "~1:1 THC:CBD (Bediol-type)",
+   "genetics": "Type II balanced chemovars. Bediol is a pharmacy product; grow from tested balanced seed lines.",
+   "factors": [
+    "genetics",
+    "harvest",
+    "drying"
+   ],
+   "factor_names": [
+    "Genetics beat everything",
+    "Harvest timing",
+    "Drying"
+   ]
+  },
+  "ms_spasticity": {
+   "target": "1:1 THC:CBD (nabiximols-type)",
+   "genetics": "Balanced Type II (typically Harlequin- and Cannatonic-family). Clone source drove cannabinoid levels more than nitrogen did.",
+   "factors": [
+    "genetics",
+    "stress",
+    "harvest"
+   ],
+   "factor_names": [
+    "Genetics beat everything",
+    "Water, nutrients & stress",
+    "Harvest timing"
+   ]
+  },
+  "epilepsy": {
+   "target": "High CBD, near-zero THC",
+   "genetics": "Type III CBD lines (typically Charlotte's Web, ACDC). Hemp CBD lines can drift on THC, so test every batch.",
+   "factors": [
+    "genetics",
+    "storage"
+   ],
+   "factor_names": [
+    "Genetics beat everything",
+    "Curing & storage"
+   ]
+  },
+  "insomnia": {
+   "target": "Evening THC+CBD (2:3) with myrcene; CBN only via aging",
+   "genetics": "Myrcene-forward lines (typically Kush/Afghan-heritage); balanced oil chemistry.",
+   "factors": [
+    "drying",
+    "storage",
+    "harvest"
+   ],
+   "factor_names": [
+    "Drying",
+    "Curing & storage",
+    "Harvest timing"
+   ]
+  },
+  "anxiety": {
+   "target": "CBD-dominant, low THC; limonene/linalool",
+   "genetics": "Type III or high-CBD Type II with citrus/floral terpenes (typically Sour Tsunami, Cannatonic, Lemon-forward CBD crosses).",
+   "factors": [
+    "genetics",
+    "drying",
+    "storage"
+   ],
+   "factor_names": [
+    "Genetics beat everything",
+    "Drying",
+    "Curing & storage"
+   ]
+  },
+  "ptsd": {
+   "target": "Balanced or CBD-leaning",
+   "genetics": "Balanced Type II or Type III lines; verify THC % on the COA.",
+   "factors": [
+    "genetics",
+    "harvest"
+   ],
+   "factor_names": [
+    "Genetics beat everything",
+    "Harvest timing"
+   ]
+  },
+  "ibd_crohns": {
+   "target": "CBD-rich oil (4:1 CBD:THC); caryophyllene",
+   "genetics": "CBD-dominant lines with peppery/spicy terpene profiles.",
+   "factors": [
+    "genetics",
+    "storage"
+   ],
+   "factor_names": [
+    "Genetics beat everything",
+    "Curing & storage"
+   ]
+  },
+  "migraine": {
+   "target": "~1:2 THC:CBD flower",
+   "genetics": "CBD-leaning Type II lines; the trial used 6% THC / 11% CBD flower.",
+   "factors": [
+    "genetics",
+    "harvest",
+    "drying"
+   ],
+   "factor_names": [
+    "Genetics beat everything",
+    "Harvest timing",
+    "Drying"
+   ]
+  },
+  "arthritis": {
+   "target": "1:1 THC:CBD; myrcene, pinene, BCP (preclinical)",
+   "genetics": "Balanced Type II with earthy/pine terpenes (typical grower picks, anecdotal).",
+   "factors": [
+    "genetics",
+    "spectrum",
+    "storage"
+   ],
+   "factor_names": [
+    "Genetics beat everything",
+    "Light spectrum",
+    "Curing & storage"
+   ]
+  },
+  "cinv": {
+   "target": "Low-dose 1:1 THC:CBD",
+   "genetics": "Balanced Type II; the dose matters more than the cultivar.",
+   "factors": [
+    "genetics",
+    "harvest"
+   ],
+   "factor_names": [
+    "Genetics beat everything",
+    "Harvest timing"
+   ]
+  },
+  "appetite_cachexia": {
+   "target": "THC-dominant, low/no THCV",
+   "genetics": "Type I THC lines. Avoid propyl/varin-heavy (THCV) lines, which are preclinically linked to appetite suppression.",
+   "factors": [
+    "genetics",
+    "harvest",
+    "storage"
+   ],
+   "factor_names": [
+    "Genetics beat everything",
+    "Harvest timing",
+    "Curing & storage"
+   ]
+  }
+ },
+ "dropped_unverified": []
+}
