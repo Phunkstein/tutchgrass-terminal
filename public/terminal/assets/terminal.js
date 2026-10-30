@@ -129,6 +129,22 @@ function render(d){
       const it=N.by_category[k]||[];$('#news-body').innerHTML=it.length?it.map(n=>`<div class="item"><a class="t" href="${E(n.link)}" target="_blank" rel="noopener">${E(n.title)}</a><div class="m">${E(n.source)} · ${E(n.date)}</div><div class="small dim">${E(n.summary)}</div></div>`).join(''):'<p class="mute">Nothing new in this category.</p>'};
     $('#news-tabs').innerHTML=cats.map(k=>`<button role="tab" data-k="${E(k)}">${E(k)} <span class="mono small">${N.by_category[k].length}</span></button>`).join('');
     $('#news-tabs').onclick=e=>{const b=e.target.closest('button');if(b)show(b.dataset.k)};show(cats[0]);}
+  // ---- recall & safety (official regulator + FDA notices; every row links to its official source)
+  const RC=d.recalls;if($('#rc-body')){if(!RC||!RC.items||!RC.items.length){$('#rc-body').innerHTML=NA('Recall sources');}else{
+    const okS=RC.sources.filter(s=>s.status==='ok'),bad=RC.sources.filter(s=>s.status!=='ok');
+    $('#rc-meta').textContent=`${RC.count} notices · ${okS.length}/${RC.sources.length} official sources ok · checked ${RC.checked||RC.generated}`;
+    const G={'State regulators':RC.items.filter(i=>i.tier==='thc'&&!/^FDA/.test(i.src)),'FDA & hemp':RC.items.filter(i=>i.tier!=='thc'||/^FDA/.test(i.src))};
+    const cats=Object.keys(G).filter(k=>G[k].length);let lim=30;
+    const row=i=>`<div class="item rc"><a class="t" href="${E(i.url)}" target="_blank" rel="noopener">${E(i.product||i.brand)}</a><div class="m"><span class="mono">${E(i.date)}</span> · <b>${E(i.state||'US')}</b> · ${E(i.agency)} · ${E(i.kind)}</div>
+      <div class="small">${i.brand&&i.brand!==i.product?`<b>${E(i.brand)}</b>: `:''}${E(i.issue)}</div>${i.lot?`<div class="small mute">Batch/lot: <span class="mono">${E(i.lot)}</span></div>`:''}</div>`;
+    const show=(k,keep)=>{if(!keep)lim=30;document.querySelectorAll('#rc-tabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.k===k));const it=G[k]||[];
+      $('#rc-body').innerHTML=it.slice(0,lim).map(row).join('')+(it.length>lim?`<p><button class="btn sm ghost" type="button" id="rc-more" data-k="${E(k)}">Show ${it.length-lim} more</button></p>`:'')};
+    $('#rc-tabs').innerHTML=cats.map(k=>`<button role="tab" data-k="${E(k)}">${E(k)} <span class="mono small">${G[k].length}</span></button>`).join('');
+    $('#rc-tabs').onclick=e=>{const b=e.target.closest('button');if(b)show(b.dataset.k)};
+    $('#rc-body').onclick=e=>{const b=e.target.closest('#rc-more');if(b){lim+=40;show(b.dataset.k,true)}};show(cats[0]);
+    $('#rc-foot').innerHTML=`<b>If you have one of these products:</b> ${E(RC.what_to_do)} Not medical advice; if you feel unwell, contact a health professional.`+
+      `<br>Sources: ${okS.map(s=>`<a href="${E(s.url)}" target="_blank" rel="noopener">${E(s.source)}</a>`).join(' · ')}${bad.length?` · unavailable now: ${bad.map(s=>E(s.source)).join(', ')}`:''}`+
+      (RC.not_covered&&RC.not_covered.length?`<br><span class="mute">Not covered yet (no parseable official list): ${RC.not_covered.map(x=>E(x.state)).join(', ')}.</span>`:'');}}
   // ---- market
   if(!M||!M.rows)$('#mk-body').innerHTML=NA('Yahoo Finance');else{$('#mk-meta').textContent='Yahoo Finance · '+M.generated;
     $('#mk-body').innerHTML='<table><thead><tr><th>Ticker</th><th class="num">Price</th><th class="num">Day</th><th class="num">1 mo</th><th class="mk-hide">30 d</th></tr></thead><tbody>'+M.rows.map(r=>r.status!=='ok'?`<tr><td><b class="mono">${E(r.ticker)}</b></td><td colspan="4" class="na">unavailable</td></tr>`:`<tr><td><b class="mono">${E(r.ticker)}</b><div class="small mute">${E(r.name)}</div></td><td class="num mono">$${num(r.price,r.price<1?3:2)}</td><td class="num mono">${pct(r.chg_pct)}</td><td class="num mono">${pct(r.chg_1mo_pct)}</td><td class="mk-hide">${spark(r.spark)}</td></tr>`).join('')+'</tbody></table><p class="small mute">Close as of '+E((M.rows.find(r=>r.as_of)||{}).as_of||'')+' ET. Information only, not investment advice.</p>';}

@@ -30,6 +30,11 @@ const R=[
    const nb=b&&b.items?b.items.filter(i=>now()-i.first_seen_ts<6*H).length:0;
    return{ts,state:st(ts,26*H,ok>0),doing:nb?`${nb} new stories in 6 h`:`Sorted ${N.total} stories`,src:`${ok}/${N.sources.length} RSS feeds ok + Cannabis Health News (UK)`,
     log:[`${N.total} stories from ${ok}/${N.sources.length} feeds`,Object.entries(N.by_category).map(([k,v])=>k+' '+v.length).join(' · ')+' shown',...(b&&b.items?b.items.slice(0,2).map(i=>`New ${clock(i.first_seen_ts)}: ${i.title.slice(0,80)}`):[])]}}},
+ {id:'recalls',nm:'Recall & Safety',ic:'🚨',secs:['recalls'],job:'Collects official cannabis product recalls, health & safety advisories and failed-lab-test notices from state regulators and the FDA, each linked to the official notice.',
+  // its own standard: runs hourly with a heartbeat commit at most every 6 h, so live = re-checked within 8 h and at least one official source answered
+  f:(d)=>{const C=d.recalls;if(!C||!C.items)return null;const ts=T(C.generated),ok=(C.sources||[]).filter(s=>s.status==='ok'),bad=(C.sources||[]).filter(s=>s.status!=='ok'),n=C.items[0];
+   return{ts,state:st(ts,8*H,ok.length>0),doing:`${C.count} official notices`,src:`${ok.length}/${(C.sources||[]).length} official sources ok: ${ok.map(s=>s.source).join(', ')}`,
+    log:[n?`Newest: ${n.date} ${n.state} · ${(n.brand||n.product).slice(0,60)}`:'No notices',`${C.count} notices from ${ok.length} regulators/FDA lists, newest first, de-duplicated`,bad.length?`Unavailable now: ${bad.map(s=>s.source+' ('+(s.error||'error')+')').join(', ')}`:'Every source answered on the last check']}}},
  {id:'market',nm:'Market Watcher',ic:'📈',secs:['market','prices'],job:'Tracks cannabis stocks (Yahoo Finance), US wholesale flower prices (Cannabis Benchmarks, weekly) and Canadian retail cannabis prices (Statistics Canada CPI, monthly).',
   f:(d)=>{const M=d.market,P=d.prices;if(!M&&!P)return null;const ok=M&&M.rows?M.rows.filter(r=>r.status==='ok'):[],
    // each price series is judged by its own publishing cadence: age of its latest point vs max_age_days (fallback: the old 45-day rule)

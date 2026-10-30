@@ -4,6 +4,7 @@
   python3 tools/terminal/agents_run.py hourly   # Scientist, Terpene Lab, Grower Notes, Research Wire (refresh.py),
                                                 #   Study Grader (newstudies.py, skips when PubMed is unchanged),
                                                 #   recent-studies harvest (harvest_conditions.py, at most once a day)
+  python3 tools/terminal/agents_run.py recalls  # Recall & Safety (agents/recalls.py): state regulator recalls + FDA, own workflow
 Each step runs on its own: one failing source never stops the others and never writes placeholder data
 (a failed step keeps the last good file, and the site shows that agent as stale/unavailable). Always exits 0;
 publish.py then decides whether anything really changed. News Desk is NOT here: news-wire.yml owns news.json."""
@@ -33,5 +34,7 @@ def main(group):
         run("study grader",["newstudies.py"],600)
         if conditions_due(): run("recent studies harvest",["harvest_conditions.py"],900)
         else: print("[recent studies harvest] skipped: already ran today")
-    else: sys.exit("usage: agents_run.py fast|hourly")
+    elif group=="recalls":
+        run("recall & safety",["agents/recalls.py"],600)
+    else: sys.exit("usage: agents_run.py fast|hourly|recalls")
 if __name__=="__main__": main(sys.argv[1] if len(sys.argv)>1 else "")
