@@ -136,7 +136,7 @@ function render(d){
   if(!P||!P.series)$('#pr-body').innerHTML=NA('Price feeds');else{$('#pr-meta').textContent=P.generated||'';
     $('#pr-body').innerHTML=P.series.map(s=>{if((s.status!=='ok'&&s.status!=='discontinued')||!s.points||!s.points.length)return`<div class="item"><b>${E(s.label)}</b><p class="na" style="margin:4px 0 0">● Unavailable: ${E(s.note||'no source')}</p></div>`;
       const l=s.points[s.points.length-1],cur=s.currency!=null?s.currency:(s.region==='US'?'$':'C$'),unit=s.unit!=null?s.unit:(s.region==='US'?'/lb':'/g'),dec=s.decimals!=null?s.decimals:(s.region==='US'?0:2),
-        per=s.period||'week',a=sAge(s),old=sStale(s),gone=s.status==='discontinued',
+        per=s.period||(s.cadence==='monthly'||/canada cannabis spot/i.test(s.label||'')?'month':'week'),a=sAge(s),old=sStale(s),gone=s.status==='discontinued',
         badge=gone?`<span class="badge b-stale">HISTORICAL · last report ${E(s.latest_date||l.date)}</span>`:old?`<span class="badge b-stale">OVERDUE · ${a} d old</span>`:'<span class="badge b-ok">LIVE</span>',
         when=l.ref_period?`${E(l.ref_period)} · released <span class="mono">${E(l.date)}</span>`:`${per} of <span class="mono">${E(l.date)}</span>`;
       return`<div class="item"><div style="display:flex;justify-content:space-between;gap:10px;align-items:flex-start;flex-wrap:wrap"><div><b>${E(s.label)}</b> ${badge}<div class="big">${cur}${num(l.value,dec)}<span class="small dim" style="font-family:var(--sans)"> ${E(unit)}</span></div>

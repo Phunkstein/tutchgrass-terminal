@@ -37,7 +37,7 @@ const R=[
    sStale=s=>s.status==='ok'&&(sa(s)!=null?sa(s)>(s.max_age_days||45):!!s.stale),
    ps=P&&P.series?P.series.filter(s=>s.status==='ok'):[],cur=ps.filter(s=>!sStale(s)),hist=P&&P.series?P.series.filter(s=>s.status==='discontinued'):[];
    const ts=Math.max(T(M&&M.generated)||0,T(P&&P.generated)||0)||null,anyStale=ps.some(sStale)||!M||!ok.length;
-   return{ts,state:!ok.length&&!cur.length?'down':anyStale?'stale':st(ts,26*H),doing:`${ok.length} tickers · ${cur.length} of ${ps.length} price series current`+(hist.length?` · ${hist.length} historical`:''),src:'Yahoo Finance chart API · Cannabis Benchmarks public summaries · Statistics Canada CPI',
+   return{ts,state:!ok.length&&!cur.length?'down':anyStale?'stale':st(ts,26*H),doing:`${ok.length} stocks · ${cur.length}/${ps.length} prices`,src:'Yahoo Finance chart API · Cannabis Benchmarks public summaries · Statistics Canada CPI',
     log:[`${ok.length} of ${M&&M.rows?M.rows.length:0} tickers fetched${ok[0]&&ok[0].as_of?' · as of '+ok[0].as_of:''}`,...(P&&P.series?P.series.filter(s=>s.status!=='no source yet').map(s=>{const a=sa(s),c=s.cadence||'weekly';
      return `${s.label}: ${s.status==='discontinued'?`no longer published, last ${c} report ${s.latest_date} (history only)`:s.status!=='ok'?(s.status||'unavailable'):sStale(s)?`overdue: latest ${c} report ${s.latest_date}, ${a} days old`:`current: latest ${c} report ${s.latest_date} (${a} d old)`}`}):['Prices unavailable'])]}}},
  {id:'lab',nm:'Terpene Lab',ic:'🌿',secs:['lab'],job:'Spotlights one cannabinoid or terpene a day: what it is, health angle, how to grow and keep it.',
