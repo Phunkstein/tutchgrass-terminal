@@ -6,7 +6,7 @@ import json,os,re,sys,time,datetime as dt
 HERE=os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0,HERE)
 from pubmed_lib import esearch,efetch,ANIMAL
 from harvest_conditions import C,CANN,CANNT
-OUT=os.path.join(HERE,"data","new_studies.json")
+OUT=os.path.join(HERE,"data","new_studies.json"); LAST_FP=None
 LABELS={c[0]:c[1] for c in C}
 LABELS.update(arthritis="Arthritis / inflammation")  # picker label; 'inflammation' kept as its own id too
 TRIAL={"Randomized Controlled Trial","Clinical Trial","Clinical Trial, Phase I","Clinical Trial, Phase II","Clinical Trial, Phase III","Clinical Trial, Phase IV","Controlled Clinical Trial","Pragmatic Clinical Trial","Equivalence Trial"}
@@ -63,14 +63,20 @@ def plain(r,g):
     c=_clip(_concl(r))
     return dict(did=did+".",found=c,caveat=GRADES[g][1])
 def _edat(d): return f"{d:%Y/%m/%d}"
-def fetch(cids,since,until=None,per=25):
-    """newest papers (Entrez date in [since,until]) per condition id; returns {cid:[paper]} and pmid->paper."""
+def fetch(cids,since,until=None,per=25,prev_fp=None):
+    """newest papers (Entrez date in [since,until]) per condition id; returns {cid:[paper]} and pmid->paper.
+    The cheap esearch step gives a fingerprint (window + id lists + counts); if it equals prev_fp nothing changed on
+    PubMed, so the heavy efetch is skipped and (None,None,None) is returned. The fingerprint is kept in LAST_FP."""
     until=until or dt.date.today(); rng=f'("{_edat(since)}"[edat] : "{_edat(until)}"[edat])'
     ids={};counts={}
     for cid,lab,em,q,rx,goal,bg in C:
         if cid not in cids: continue
         n,l=esearch(f"{CANN} AND {q} AND {rng} AND english[la] NOT (letter[pt] OR comment[pt] OR editorial[pt] OR erratum[pt])",per,"pub_date")
         ids[cid]=l; counts[cid]=n
+    import hashlib
+    fp=hashlib.sha1(json.dumps([since.isoformat(),until.isoformat(),ids,counts],sort_keys=True).encode()).hexdigest()[:16]
+    global LAST_FP; LAST_FP=fp
+    if prev_fp and fp==prev_fp: return None,None,None
     allids=sorted({i for l in ids.values() for i in l}); recs={r["pmid"]:r for r in (efetch(allids) if allids else [])}
     out={};papers={}
     for cid,lab,em,q,rx,goal,bg in C:
@@ -108,12 +114,15 @@ def scoreboard(recent,sci,new_by_cond,papers):
     return rows
 def run(days=30):
     today=dt.date.today(); since=today-dt.timedelta(days=days)
-    by,papers,counts=fetch({c[0] for c in C},since,today)
+    try: prev=json.load(open(OUT))
+    except Exception: prev={}
+    by,papers,counts=fetch({c[0] for c in C},since,today,prev_fp=None if "--force" in sys.argv else prev.get("fingerprint"))
+    if by is None: print("new studies: PubMed unchanged since last run (fingerprint match); skipped efetch, kept file",file=sys.stderr); return prev
     wk=(today-dt.timedelta(days=7)).isoformat()
     newest={cid:max([papers[i]["date"] for i in l if papers[i]["date"]] or [None],key=lambda x:x or "") for cid,l in by.items()}
-    out=dict(generated=time.strftime("%Y-%m-%d %H:%M %Z"),window=dict(start=since.isoformat(),end=today.isoformat(),days=days),source="NCBI PubMed E-utilities (Entrez date)",
+    out=dict(generated=time.strftime("%Y-%m-%d %H:%M %Z"),window=dict(start=since.isoformat(),end=today.isoformat(),days=days),source="NCBI PubMed E-utilities (Entrez date)",fingerprint=LAST_FP,
         grades={k:dict(label=v[0],caveat=v[1]) for k,v in GRADES.items()},labels=LABELS,by_condition=by,pubmed_counts=counts,newest=newest,
         papers=sorted(papers.values(),key=lambda p:p["date"] or "",reverse=True),week_start=wk)
     if not papers: print("no papers; keeping previous file",file=sys.stderr); return None
     json.dump(out,open(OUT,"w"),indent=1); print("new studies:",len(papers),"papers;",{k:len(v) for k,v in by.items()},file=sys.stderr); return out
-if __name__=="__main__": run(int(sys.argv[1]) if len(sys.argv)>1 else 30)
+if __name__=="__main__": run(int(sys.argv[1]) if len(sys.argv)>1 and sys.argv[1].isdigit() else 30)

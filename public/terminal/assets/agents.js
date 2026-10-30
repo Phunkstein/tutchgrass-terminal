@@ -30,11 +30,16 @@ const R=[
    const nb=b&&b.items?b.items.filter(i=>now()-i.first_seen_ts<6*H).length:0;
    return{ts,state:st(ts,26*H,ok>0),doing:nb?`${nb} new stories in 6 h`:`Sorted ${N.total} stories`,src:`${ok}/${N.sources.length} RSS feeds ok + Cannabis Health News (UK)`,
     log:[`${N.total} stories from ${ok}/${N.sources.length} feeds`,Object.entries(N.by_category).map(([k,v])=>k+' '+v.length).join(' · ')+' shown',...(b&&b.items?b.items.slice(0,2).map(i=>`New ${clock(i.first_seen_ts)}: ${i.title.slice(0,80)}`):[])]}}},
- {id:'market',nm:'Market Watcher',ic:'📈',secs:['market','prices'],job:'Tracks cannabis stocks (Yahoo Finance) and national wholesale flower prices (Cannabis Benchmarks).',
-  f:(d)=>{const M=d.market,P=d.prices;if(!M&&!P)return null;const ok=M&&M.rows?M.rows.filter(r=>r.status==='ok'):[],ps=P&&P.series?P.series.filter(s=>s.status==='ok'):[],cur=ps.filter(s=>!s.stale);
-   const ts=Math.max(T(M&&M.generated)||0,T(P&&P.generated)||0)||null,anyStale=ps.some(s=>s.stale)||!M||!ok.length;
-   return{ts,state:!ok.length&&!cur.length?'down':anyStale?'stale':st(ts,26*H),doing:`${ok.length} tickers · ${cur.length} price index current`,src:'Yahoo Finance chart API · Cannabis Benchmarks public summaries',
-    log:[`${ok.length} of ${M&&M.rows?M.rows.length:0} tickers fetched${ok[0]&&ok[0].as_of?' · as of '+ok[0].as_of:''}`,...(P&&P.series?P.series.map(s=>`${s.region} price: ${s.status!=='ok'?(s.status||'unavailable'):s.stale?`stale, ${s.age_days} days old`:`current (${s.age_days} d old weekly report)`}`):['Prices unavailable'])]}}},
+ {id:'market',nm:'Market Watcher',ic:'📈',secs:['market','prices'],job:'Tracks cannabis stocks (Yahoo Finance), US wholesale flower prices (Cannabis Benchmarks, weekly) and Canadian retail cannabis prices (Statistics Canada CPI, monthly).',
+  f:(d)=>{const M=d.market,P=d.prices;if(!M&&!P)return null;const ok=M&&M.rows?M.rows.filter(r=>r.status==='ok'):[],
+   // each price series is judged by its own publishing cadence: age of its latest point vs max_age_days (fallback: the old 45-day rule)
+   sa=s=>{const t=T(s.latest_date||(s.points&&s.points.length?s.points[s.points.length-1].date:null));return t?Math.round((now()-t)/D):s.age_days},
+   sStale=s=>s.status==='ok'&&(sa(s)!=null?sa(s)>(s.max_age_days||45):!!s.stale),
+   ps=P&&P.series?P.series.filter(s=>s.status==='ok'):[],cur=ps.filter(s=>!sStale(s)),hist=P&&P.series?P.series.filter(s=>s.status==='discontinued'):[];
+   const ts=Math.max(T(M&&M.generated)||0,T(P&&P.generated)||0)||null,anyStale=ps.some(sStale)||!M||!ok.length;
+   return{ts,state:!ok.length&&!cur.length?'down':anyStale?'stale':st(ts,26*H),doing:`${ok.length} tickers · ${cur.length} of ${ps.length} price series current`+(hist.length?` · ${hist.length} historical`:''),src:'Yahoo Finance chart API · Cannabis Benchmarks public summaries · Statistics Canada CPI',
+    log:[`${ok.length} of ${M&&M.rows?M.rows.length:0} tickers fetched${ok[0]&&ok[0].as_of?' · as of '+ok[0].as_of:''}`,...(P&&P.series?P.series.filter(s=>s.status!=='no source yet').map(s=>{const a=sa(s),c=s.cadence||'weekly';
+     return `${s.label}: ${s.status==='discontinued'?`no longer published, last ${c} report ${s.latest_date} (history only)`:s.status!=='ok'?(s.status||'unavailable'):sStale(s)?`overdue: latest ${c} report ${s.latest_date}, ${a} days old`:`current: latest ${c} report ${s.latest_date} (${a} d old)`}`}):['Prices unavailable'])]}}},
  {id:'lab',nm:'Terpene Lab',ic:'🌿',secs:['lab'],job:'Spotlights one cannabinoid or terpene a day: what it is, health angle, how to grow and keep it.',
   f:(d)=>{const L=d.lab;if(!L)return null;const sp=L.compounds.find(c=>c.id===L.spotlight_id)||L.compounds[0],ts=T(L.generated);
    return{ts,state:st(ts,26*H),doing:`Spotlight: ${sp.name.split(' (')[0]}`,src:'PubMed-cited compound notes',log:[`Today's spotlight: ${sp.name}`,`${L.compounds.length} compounds in rotation (${L.spotlight_rule})`,`Entourage effect: ${L.entourage.citations.length} citations`]}}},

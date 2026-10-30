@@ -10,6 +10,9 @@ const ago=ts=>{if(!ts)return'';const m=Math.round((Date.now()/1000-ts)/60);retur
 const tag=t=>`<span class="tag t-${E(t)}">${E(t)}</span>`;
 const cl=(cs,max)=>!cs||!cs.length?'<p class="small mute">No citations.</p>':'<ul class="cites">'+cs.slice(0,max||99).map(c=>`<li>${tag(c.type)}<a href="${E(c.url||pm(c.pmid))}" target="_blank" rel="noopener">${E(c.title)}</a> <span class="mute small">${E(c.first_author||'')} · ${E(c.journal||'')} ${E(c.year||'')}</span></li>`).join('')+'</ul>';
 const ev=e=>`<span class="badge ev-${E(e)}">${E(String(e||'').toUpperCase())}</span>`;
+// price series freshness: age of the latest point (days) vs the series' own max_age_days (cadence-based)
+const sAge=s=>{const d=s.latest_date||(s.points&&s.points.length?s.points[s.points.length-1].date:null);if(!d)return s.age_days;const t=Date.parse(d+'T12:00:00-04:00');return isNaN(t)?s.age_days:Math.max(0,Math.round((Date.now()-t)/864e5))};
+const sStale=s=>s.status==='ok'&&(sAge(s)!=null?sAge(s)>(s.max_age_days||45):!!s.stale);
 const spark=(pts,w=96,h=28)=>{if(!pts||pts.length<2)return'';const mn=Math.min(...pts),mx=Math.max(...pts),r=mx-mn||1;
   const p=pts.map((v,i)=>`${(i/(pts.length-1)*w).toFixed(1)},${(h-2-(v-mn)/r*(h-4)).toFixed(1)}`).join(' ');
   const up=pts[pts.length-1]>=pts[0];return`<svg class="spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true"><polyline fill="none" stroke="${up?'#15803d':'#b42318'}" stroke-width="1.5" points="${p}"/></svg>`};
@@ -66,7 +69,7 @@ function render(d){
   const srcs=[];(d.source_status&&d.source_status.wire_sources||[]).forEach(s=>srcs.push({n:s.source,ok:s.status==='ok'}));
   (N&&N.sources||[]).forEach(s=>{if(!srcs.find(x=>x.n===s.source))srcs.push({n:s.source,ok:s.status==='ok'})});
   srcs.push({n:'Yahoo Finance (market)',ok:!!(M&&M.rows&&M.rows.some(r=>r.status==='ok'))});
-  (P&&P.series||[]).forEach(s=>srcs.push({n:s.label,ok:s.status==='ok'&&!s.stale,stale:s.stale,none:s.status!=='ok'}));
+  (P&&P.series||[]).filter(s=>s.status!=='discontinued').forEach(s=>{const x=sStale(s);srcs.push({n:s.label,ok:s.status==='ok'&&!x,stale:x,none:s.status!=='ok'})});
   srcs.push({n:'X posts + X News (social)',ok:!!(So&&So.posts&&So.posts.length)});
   const okN=srcs.filter(s=>s.ok).length;
   const K=[[conds.length||'—','Conditions tracked'],[cites||'—','Verified PubMed citations'],[new30||'—','New papers, last 30 d'],[F.length||'—','Latest findings'],
@@ -129,13 +132,16 @@ function render(d){
   // ---- market
   if(!M||!M.rows)$('#mk-body').innerHTML=NA('Yahoo Finance');else{$('#mk-meta').textContent='Yahoo Finance · '+M.generated;
     $('#mk-body').innerHTML='<table><thead><tr><th>Ticker</th><th class="num">Price</th><th class="num">Day</th><th class="num">1 mo</th><th class="mk-hide">30 d</th></tr></thead><tbody>'+M.rows.map(r=>r.status!=='ok'?`<tr><td><b class="mono">${E(r.ticker)}</b></td><td colspan="4" class="na">unavailable</td></tr>`:`<tr><td><b class="mono">${E(r.ticker)}</b><div class="small mute">${E(r.name)}</div></td><td class="num mono">$${num(r.price,r.price<1?3:2)}</td><td class="num mono">${pct(r.chg_pct)}</td><td class="num mono">${pct(r.chg_1mo_pct)}</td><td class="mk-hide">${spark(r.spark)}</td></tr>`).join('')+'</tbody></table><p class="small mute">Close as of '+E((M.rows.find(r=>r.as_of)||{}).as_of||'')+' ET. Information only, not investment advice.</p>';}
-  // ---- prices
+  // ---- prices (each series judged by its own cadence; age computed here from latest_date, never from build time)
   if(!P||!P.series)$('#pr-body').innerHTML=NA('Price feeds');else{$('#pr-meta').textContent=P.generated||'';
-    $('#pr-body').innerHTML=P.series.map(s=>{if(s.status!=='ok'||!s.points||!s.points.length)return`<div class="item"><b>${E(s.label)}</b><p class="na" style="margin:4px 0 0">● Unavailable: ${E(s.note||'no source')}</p></div>`;
-      const l=s.points[s.points.length-1],cur=s.region==='US'?'$':'C$',unit=s.region==='US'?'/lb':'/g';
-      return`<div class="item"><div style="display:flex;justify-content:space-between;gap:10px;align-items:flex-start;flex-wrap:wrap"><div><b>${E(s.label)}</b> ${s.stale?`<span class="badge b-stale">STALE · ${s.age_days} d old</span>`:'<span class="badge b-ok">LIVE</span>'}<div class="big">${cur}${num(l.value,s.region==='US'?0:2)}<span class="small dim" style="font-family:var(--sans)"> ${unit}</span></div>
-      <div class="small">${pct(l.chg_pct)} week · ${l.per_gram?'$'+num(l.per_gram)+'/g · ':''}week of <span class="mono">${E(l.date)}</span>${l.forward?` · fwd ${E(l.forward[0])} ${cur}${num(l.forward[1],0)}`:''}</div></div>${spark(s.points.map(p=>p.value),120,40)}</div>
-      <p class="small mute" style="margin:6px 0 0">${s.stale?'Latest free public report is old, so treat as historical. ':''}Source: <a href="${E(l.link||s.url)}" target="_blank" rel="noopener">${E(s.source)}</a></p></div>`}).join('');}
+    $('#pr-body').innerHTML=P.series.map(s=>{if((s.status!=='ok'&&s.status!=='discontinued')||!s.points||!s.points.length)return`<div class="item"><b>${E(s.label)}</b><p class="na" style="margin:4px 0 0">● Unavailable: ${E(s.note||'no source')}</p></div>`;
+      const l=s.points[s.points.length-1],cur=s.currency!=null?s.currency:(s.region==='US'?'$':'C$'),unit=s.unit!=null?s.unit:(s.region==='US'?'/lb':'/g'),dec=s.decimals!=null?s.decimals:(s.region==='US'?0:2),
+        per=s.period||'week',a=sAge(s),old=sStale(s),gone=s.status==='discontinued',
+        badge=gone?`<span class="badge b-stale">HISTORICAL · last report ${E(s.latest_date||l.date)}</span>`:old?`<span class="badge b-stale">OVERDUE · ${a} d old</span>`:'<span class="badge b-ok">LIVE</span>',
+        when=l.ref_period?`${E(l.ref_period)} · released <span class="mono">${E(l.date)}</span>`:`${per} of <span class="mono">${E(l.date)}</span>`;
+      return`<div class="item"><div style="display:flex;justify-content:space-between;gap:10px;align-items:flex-start;flex-wrap:wrap"><div><b>${E(s.label)}</b> ${badge}<div class="big">${cur}${num(l.value,dec)}<span class="small dim" style="font-family:var(--sans)"> ${E(unit)}</span></div>
+      <div class="small">${pct(l.chg_pct)} ${per} · ${l.per_gram?'$'+num(l.per_gram)+'/g · ':''}${when}${l.forward?` · fwd ${E(l.forward[0])} ${cur}${num(l.forward[1],0)}`:''}${s.cadence?` · published ${E(s.cadence)}`:''}</div></div>${spark(s.points.map(p=>p.value),120,40)}</div>
+      <p class="small mute" style="margin:6px 0 0">${gone?E(s.note||'No longer published; shown as history only.')+' ':old?`The next ${E(s.cadence||'')} report is overdue, so treat as historical. `:''}Source: <a href="${E(l.link||s.url)}" target="_blank" rel="noopener">${E(s.source)}</a></p></div>`}).join('');}
   // ---- social
   if(!So||!So.posts)$('#so-body').innerHTML=NA('X');else{$('#so-meta').textContent='X posts read '+(So.generated||'').slice(0,10)+' · X News '+(So.news_generated||'');
     const tc=So.topic_counts||{};const post=p=>`<div class="post ${E(p.audience)}"><div class="m small mute"><a href="${E(p.url)}" target="_blank" rel="noopener">@${E(p.handle)}</a> · ${E(p.date)} · ${E(p.topic)}${p.views?` · ${Number(p.views).toLocaleString()} views`:''}</div>${E(p.text.length>220?p.text.slice(0,217)+'…':p.text)}</div>`;

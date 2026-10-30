@@ -1,12 +1,8 @@
 """Harvest real PubMed records (esearch + efetch) for scientist agent. Caches to cache/pubmed.json."""
 import json, time, urllib.request, urllib.parse, xml.etree.ElementTree as ET, sys
 E="https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
-def get(u):
-    for i in range(3):
-        try:
-            return urllib.request.urlopen(urllib.request.Request(u,headers={"User-Agent":"cannabis-terminal/1 (research)"}),timeout=30).read()
-        except Exception as e: time.sleep(2)
-    raise RuntimeError(u)
+import os; sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
+from ncbi import fetch as get   # throttled (<3 req/s), adds tool/email, backs off on 429
 def esearch(term,n=6):
     q=urllib.parse.urlencode({"db":"pubmed","term":term,"retmode":"json","retmax":n,"sort":"relevance"})
     time.sleep(0.4); return json.loads(get(E+"esearch.fcgi?"+q))["esearchresult"]["idlist"]

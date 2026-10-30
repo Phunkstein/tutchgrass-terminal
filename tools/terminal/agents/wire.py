@@ -23,7 +23,7 @@ def run():
                     url=f"https://pubmed.ncbi.nlm.nih.gov/{r['pmid']}/"))
             pstat.append(dict(source=f"PubMed newest ({k}, 14 d)",status="ok",items=len(rs)))
         except Exception as e: pstat.append(dict(source=f"PubMed newest ({k})",status="unavailable",error=str(e)[:80]))
-    n=news.run()
+    n=news.run(save_file=False)   # read the feeds, but leave data/news.json to the News Wire workflow
     hn=[i for i in n["latest"] if HEALTH.search(i["title"]+" "+i["summary"])]
     allitems=[]
     for c,v in n["by_category"].items(): allitems+=v
