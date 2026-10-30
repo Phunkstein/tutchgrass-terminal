@@ -50,9 +50,9 @@ def heartbeat_due(spec):
     path,hours=spec.rsplit(":",1); old=head_bytes(path)
     if old is None: return True
     sys.path.insert(0,HERE)
-    try: g=json.loads(old).get("generated") or ""
+    try: d=json.loads(old); g=str(d.get("checked") or d.get("generated") or "")
     except Exception: return True
-    try: t=time.mktime(time.strptime(g[:16],"%Y-%m-%d %H:%M"))
+    try: t=time.mktime(time.strptime(g[:16].replace("T"," "),"%Y-%m-%d %H:%M"))
     except Exception: return True
     return time.time()-t>float(hours)*3600
 def assemble():

@@ -70,7 +70,7 @@ function render(d){
   (N&&N.sources||[]).forEach(s=>{if(!srcs.find(x=>x.n===s.source))srcs.push({n:s.source,ok:s.status==='ok'})});
   srcs.push({n:'Yahoo Finance (market)',ok:!!(M&&M.rows&&M.rows.some(r=>r.status==='ok'))});
   (P&&P.series||[]).filter(s=>s.status!=='discontinued').forEach(s=>{const x=sStale(s);srcs.push({n:s.label,ok:s.status==='ok'&&!x,stale:x,none:s.status!=='ok'})});
-  srcs.push({n:'X posts + X News (social)',ok:!!(So&&So.posts&&So.posts.length)});
+  srcs.push({n:(So&&So.mode==='free'?(So.platforms||['Bluesky']).join(' + ')+' posts':'X posts + X News')+' (social)',ok:!!(So&&So.posts&&So.posts.length)});
   const okN=srcs.filter(s=>s.ok).length;
   const K=[[conds.length||'—','Conditions tracked'],[cites||'—','Verified PubMed citations'],[new30||'—','New papers, last 30 d'],[F.length||'—','Latest findings'],
     [N?N.total:'—','News items read'],[msos?'$'+num(msos.price):'n/a',`MSOS ${msos?'<em class="'+(msos.chg_pct>=0?'pos':'neg')+'">'+(msos.chg_pct>=0?'+':'')+num(msos.chg_pct)+'%</em>':'unavailable'}`],
@@ -143,12 +143,13 @@ function render(d){
       <div class="small">${pct(l.chg_pct)} ${per} · ${l.per_gram?'$'+num(l.per_gram)+'/g · ':''}${when}${l.forward?` · fwd ${E(l.forward[0])} ${cur}${num(l.forward[1],0)}`:''}${s.cadence?` · published ${E(s.cadence)}`:''}</div></div>${spark(s.points.map(p=>p.value),120,40)}</div>
       <p class="small mute" style="margin:6px 0 0">${gone?E(s.note||'No longer published; shown as history only.')+' ':old?`The next ${E(s.cadence||'')} report is overdue, so treat as historical. `:''}Source: <a href="${E(l.link||s.url)}" target="_blank" rel="noopener">${E(s.source)}</a></p></div>`}).join('');}
   // ---- social
-  if(!So||!So.posts)$('#so-body').innerHTML=NA('X');else{$('#so-meta').textContent='X posts read '+(So.generated||'').slice(0,10)+' · X News '+(So.news_generated||'');
-    const tc=So.topic_counts||{};const post=p=>`<div class="post ${E(p.audience)}"><div class="m small mute"><a href="${E(p.url)}" target="_blank" rel="noopener">@${E(p.handle)}</a> · ${E(p.date)} · ${E(p.topic)}${p.views?` · ${Number(p.views).toLocaleString()} views`:''}</div>${E(p.text.length>220?p.text.slice(0,217)+'…':p.text)}</div>`;
+  if(!So||!So.posts)$('#so-body').innerHTML=NA('Social');else{const fr=So.mode==='free';$('#so-meta').textContent=(fr?(So.platforms||['Bluesky']).join(' + '):'X')+' read '+(So.generated||'').slice(0,16)+(So.news&&So.news.length?' · X News '+(So.news_generated||''):'');
+    const tc=So.topic_counts||{};const post=p=>`<div class="post ${E(p.audience)}"><div class="m small mute"><a href="${E(p.url)}" target="_blank" rel="noopener">${p.platform?E(p.platform)+' ':''}@${E(p.handle)}</a> · ${E(p.date)} · ${E(p.topic)}${p.views?` · ${Number(p.views).toLocaleString()} views`:''}</div>${E(p.text.length>220?p.text.slice(0,217)+'…':p.text)}</div>`;
     $('#so-body').innerHTML=`<p>${Object.entries(tc).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<span class="pill">${E(k)} <b class="mono">${v}</b></span>`).join('')}</p>
       <div class="lbl">Health posts <span class="mute">· claims people make, not evidence</span></div>${So.posts.filter(p=>p.audience==='health').slice(0,4).map(post).join('')}
       <div class="lbl">Grower posts</div>${So.posts.filter(p=>p.audience==='grow').slice(0,3).map(post).join('')}
-      <div class="lbl">Trending on X News</div>${(So.news||[]).map(n=>`<div class="item"><a class="t" href="${E(n.url)}" target="_blank" rel="noopener">${E(n.title)}</a><div class="small dim">${E(n.summary)}</div></div>`).join('')||'<p class="mute small">unavailable</p>'}`;}
+      ${(So.threads||[]).length?`<div class="lbl">Top Reddit threads today</div>${So.threads.slice(0,4).map(t=>`<div class="item"><a class="t" href="${E(t.url)}" target="_blank" rel="noopener">${E(t.title)}</a><div class="small dim">${E(t.sub)} · ${E(t.date)}</div></div>`).join('')}`:''}
+      ${fr&&!(So.news||[]).length?'':`<div class="lbl">Trending on X News</div>`+((So.news||[]).map(n=>`<div class="item"><a class="t" href="${E(n.url)}" target="_blank" rel="noopener">${E(n.title)}</a><div class="small dim">${E(n.summary)}</div></div>`).join('')||'<p class="mute small">unavailable</p>')}`;}
   // ---- former Research Wire (PubMed newest 14 d + health feed): only items not shown elsewhere, folded into Study Grader and Grower Notes
   const pl=(a,why)=>a.map(p=>`<div class="item"><a class="t" href="${E(p.url)}" target="_blank" rel="noopener">${E(p.title)}</a><div class="m">${E(p.first_author)} · ${E(p.journal)} ${E(p.year)} ${p.preclinical?tag('PRECLINICAL'):''} <span class="mute">${E(why)}</span></div></div>`).join('');
   const nsIds=new Set(((d.newstudies||{}).papers||[]).map(p=>p.pmid));

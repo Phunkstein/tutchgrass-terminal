@@ -1,7 +1,9 @@
 """Runs one group of Live Agents for the GitHub Actions workflows. Stdlib only (Python 3.12).
 
-  python3 tools/terminal/agents_run.py fast     # Market Watcher (stocks + price series), Trend Spotter (X, if X_BEARER_TOKEN is set)
-  python3 tools/terminal/agents_run.py hourly   # Scientist, Terpene Lab, Grower Notes, Research Wire (refresh.py),
+  python3 tools/terminal/agents_run.py fast     # Market Watcher (stocks + price series); Trend Spotter via X API only if X_BEARER_TOKEN is set
+  python3 tools/terminal/agents_run.py daily    # Brand Auditor (COA link check + new COAs on brands' lab pages, agents/brands.py)
+  python3 tools/terminal/agents_run.py hourly   # Trend Spotter free mode (Bluesky + Reddit, agents/social_free.py) when there is NO X token,
+                                                #   Scientist, Terpene Lab, Grower Notes, Research Wire (refresh.py),
                                                 #   Study Grader (newstudies.py, skips when PubMed is unchanged),
                                                 #   recent-studies harvest (harvest_conditions.py, at most once a day)
 Each step runs on its own: one failing source never stops the others and never writes placeholder data
@@ -27,11 +29,15 @@ def conditions_due(hours=20):
 def main(group):
     if group=="fast":
         run("market + prices",["-c","import sys;sys.path[:0]=['.','agents'];import market,prices;market.run();prices.run()"],240)
-        run("trend spotter (X)",["agents/social_x.py"],180)
+        if os.environ.get("X_BEARER_TOKEN"): run("trend spotter (X)",["agents/social_x.py"],180)
+        else: print("[trend spotter (X)] skipped: no X_BEARER_TOKEN (free mode runs in the hourly group)")
     elif group=="hourly":
+        if not os.environ.get("X_BEARER_TOKEN"): run("trend spotter (free: Bluesky + Reddit)",["agents/social_free.py"],240)
         run("scientist/lab/grower/wire",["refresh.py"],900)
         run("study grader",["newstudies.py"],600)
         if conditions_due(): run("recent studies harvest",["harvest_conditions.py"],900)
         else: print("[recent studies harvest] skipped: already ran today")
-    else: sys.exit("usage: agents_run.py fast|hourly")
+    elif group=="daily":
+        run("brand auditor",["agents/brands.py"],1500)
+    else: sys.exit("usage: agents_run.py fast|hourly|daily")
 if __name__=="__main__": main(sys.argv[1] if len(sys.argv)>1 else "")

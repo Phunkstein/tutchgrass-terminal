@@ -1,181 +1,248 @@
 {
  "agent": "social",
- "generated": "2026-10-28 21:41 EDT",
- "source": "X API: posts via search_posts_all (read 2026-10-28), X News via search_news 72h (read 2026-10-29)",
- "queries": [
-  "(cannabis OR CBD OR weed OR marijuana) (\"for sleep\" OR \"for pain\" OR \"for anxiety\" \u2026) -is:retweet -is:reply lang:en",
-  "(terpenes OR trichomes OR curing OR \"dry and cure\") (grow OR harvest OR growers)",
-  "search_news: cannabis health research"
+ "mode": "free",
+ "generated": "2026-10-30 07:00 EDT",
+ "platforms": [
+  "Bluesky",
+  "Reddit"
+ ],
+ "source": "Bluesky public search (top posts, 7-day window, 111 read this run) + Reddit top threads today",
+ "queries": 13,
+ "query_list": [
+  "cannabis sleep",
+  "cannabis insomnia",
+  "cannabis pain",
+  "cannabis anxiety",
+  "cannabis PTSD",
+  "cannabis migraine",
+  "CBD sleep",
+  "CBD anxiety",
+  "trichomes",
+  "cannabis curing",
+  "cannabis harvest",
+  "terpenes cannabis grow"
  ],
  "topic_counts": {
-  "sleep": 4,
-  "pain": 2,
-  "migraine": 1,
+  "anxiety": 5,
   "PTSD": 1,
-  "anxiety": 3,
-  "arthritis": 1,
-  "nausea": 1
+  "nightmares": 1,
+  "pain": 4,
+  "sleep": 1
  },
  "posts": [
   {
    "audience": "health",
-   "topic": "sleep / pain",
-   "handle": "marclanders",
-   "date": "Oct 27 11:00 AM",
-   "likes": 110,
-   "views": 11075,
-   "text": "THC may protect the aging brain! Pain: THC or CBD alone beat a 1:1 mix for pain relief; the mix was better for sleep. PEA (endocannabinoid-like compound) worked best. Terpenes: Certain plant terpenes may boost or refine cannabinoid pain effects (\u201centourage\u201d).",
-   "url": "https://x.com/marclanders/status/2115096191889289727"
-  },
-  {
-   "audience": "health",
-   "topic": "migraine",
-   "handle": "marclanders",
-   "date": "Oct 18 12:00 PM",
-   "likes": 95,
-   "views": 1240,
-   "text": "Medical cannabis may cut migraine length & frequency! Works on Cluster headaches too!",
-   "url": "https://x.com/marclanders/status/2111849798236344453"
+   "topic": "anxiety",
+   "handle": "rainbowregionmyles.bsky.social",
+   "platform": "Bluesky",
+   "date": "Oct 25 06:21 PM",
+   "likes": 13,
+   "views": 0,
+   "text": "I've used cannabis and I've struggled with mental health. I know firsthand how THC can worsen anxiety, so why the fuck are we prescribing high-strength cannabis for mental health conditions when there's evidence it can increase the risk of psychosis? Who's protecting patients? #auspol",
+   "url": "https://bsky.app/profile/rainbowregionmyles.bsky.social/post/3myqaktxzrk2q"
   },
   {
    "audience": "health",
    "topic": "PTSD / nightmares",
-   "handle": "CanneticsCBD",
-   "date": "Oct 16 10:42 AM",
-   "likes": 2,
-   "views": 10,
-   "text": "Trouble sleeping after trauma often has a name\u2026 Nightmares that replay the same scene are a hallmark of PTSD\u2026 Here is where the research actually stands.",
-   "url": "https://x.com/CanneticsCBD/status/2111105441233048061"
+   "handle": "everrouge.bsky.social",
+   "platform": "Bluesky",
+   "date": "Oct 26 04:27 AM",
+   "likes": 7,
+   "views": 0,
+   "text": "Umma No! We don\u2019t need vets with PTSD and depression on #Psychedelics. Federlize #Cannabis which actually helps us #Veterans. The research isn\u2019t there regarding this \u201ctreatment\u201d. We\u2019re experimental bodies. They don\u2019t give a shit about! #FuckTrump apple.news/AXz0YH80mSvu...",
+   "url": "https://bsky.app/profile/everrouge.bsky.social/post/3myrchkr5jk2l"
+  },
+  {
+   "audience": "health",
+   "topic": "pain",
+   "handle": "whoa-magic.lol",
+   "platform": "Bluesky",
+   "date": "Oct 25 03:13 PM",
+   "likes": 9,
+   "views": 0,
+   "text": "Clinical Trial: Single Dose of #Cannabis #Extract Significantly Reduces Need for Opioids in Acute #Pain Patients norml.org/news/2026/10... #research",
+   "url": "https://bsky.app/profile/whoa-magic.lol/post/3mypw3ry2ms2c"
+  },
+  {
+   "audience": "health",
+   "topic": "pain",
+   "handle": "hempedification.bsky.social",
+   "platform": "Bluesky",
+   "date": "Oct 25 05:13 AM",
+   "likes": 7,
+   "views": 0,
+   "text": "Aotearoa/NZ | Alliance Group gone to the Employment Court to challenge a ruling to reinstate long-serving worker, fired after testing positive for cannabis, prescribed for chronic pain. Brown worked for Alliance since 1987. He disclosed the prescription. www.stuff.co.nz/nz-news/3610...",
+   "url": "https://bsky.app/profile/hempedification.bsky.social/post/3myoujhxqls2y"
+  },
+  {
+   "audience": "health",
+   "topic": "pain",
+   "handle": "greathands4you.bsky.social",
+   "platform": "Bluesky",
+   "date": "Oct 27 10:19 AM",
+   "likes": 4,
+   "views": 0,
+   "text": "People need to be informed about how Cannabis reduces pain in the body.",
+   "url": "https://bsky.app/profile/greathands4you.bsky.social/post/3myugkl7tkc24"
   },
   {
    "audience": "health",
    "topic": "anxiety",
-   "handle": "CanneticsCBD",
-   "date": "Oct 19 12:00 PM",
-   "likes": 2,
-   "views": 31,
-   "text": "Anxiety is the most oversold use of CBD on the internet. The evidence is also more interesting than either the marketing or the sceptics admit.",
-   "url": "https://x.com/CanneticsCBD/status/2112212329160982764"
+   "handle": "psyinko.monster",
+   "platform": "Bluesky",
+   "date": "Oct 24 12:03 AM",
+   "likes": 6,
+   "views": 0,
+   "text": "me when the CBD gummy kicks in & knocks my stress/anxiety down some pegs",
+   "url": "https://bsky.app/profile/psyinko.monster/post/3mylsri2yfk2r"
   },
   {
    "audience": "health",
    "topic": "anxiety",
-   "handle": "joeroganhq",
-   "date": "Oct 25 05:33 AM",
-   "likes": 121,
-   "views": 39281,
-   "text": "Joe Rogan and Cameron Hanes explain why they swear by CBD for anxiety, stress, and muscle soreness\u2026 But is CBD really the game changer they claim it is?",
-   "url": "https://x.com/joeroganhq/status/2114289110726722041"
+   "handle": "pikablu.bsky.social",
+   "platform": "Bluesky",
+   "date": "Oct 26 08:26 AM",
+   "likes": 6,
+   "views": 0,
+   "text": "Some cats take years to come around too I think. If he has general anxiety, a low dose of gabapentin or even cbd could help? I'm sure you already know this, just sharing in general. My Luna is also a spicy purrito and can run hot and cold about whether she wants pets but she mellowed out over time",
+   "url": "https://bsky.app/profile/pikablu.bsky.social/post/3myrprtodhs2a"
   },
   {
    "audience": "health",
-   "topic": "sleep (older adults)",
-   "handle": "reefermedness",
-   "date": "Oct 14 04:01 PM",
-   "likes": 0,
-   "views": 20,
-   "text": "A Journal of Cannabis Research commentary finds cannabis use for sleep among older adults is rising faster than the evidence. Objective sleep benefits remain inconsistent, and CBD/CBN data are sparse.",
-   "url": "https://x.com/reefermedness/status/2110460952894230903"
+   "topic": "anxiety",
+   "handle": "snarkyplatypus.com",
+   "platform": "Bluesky",
+   "date": "Oct 26 03:22 AM",
+   "likes": 3,
+   "views": 0,
+   "text": "The idea of cannabis being prescribed to treat anxiety is amusing to me because of my personal experience with it (increases my feelings of anxiety significantly)",
+   "url": "https://bsky.app/profile/snarkyplatypus.com/post/3myr6s53m422y"
   },
   {
    "audience": "health",
-   "topic": "sleep myth",
-   "handle": "SeedBankME",
-   "date": "Oct 21 04:00 PM",
+   "topic": "sleep",
+   "handle": "omnimedical.bsky.social",
+   "platform": "Bluesky",
+   "date": "Oct 28 09:20 AM",
+   "likes": 4,
+   "views": 0,
+   "text": "\"Average sleep quality scores increased from 2.46 before treatment to 5.79 after one month, reaching 6.23 at 12 months and remaining significantly above baseline at 5.14 after two years.\" #MedicalMarijuana #MedicalCannabis #Marijuana #Cannabis #Insomnia #Sleep #SleepQuality #Study",
+   "url": "https://bsky.app/profile/omnimedical.bsky.social/post/3mywtpuocnc2g"
+  },
+  {
+   "audience": "health",
+   "topic": "anxiety",
+   "handle": "cshrb.bsky.social",
+   "platform": "Bluesky",
+   "date": "Oct 27 12:08 PM",
+   "likes": 5,
+   "views": 0,
+   "text": "#CSHRB co-authored study indicates experiences of microaggressions, using cannabis to cope, & anxiety & depression may contribute to perceptions of heavier cannabis use among lesbian, bisexual, & queer women & gender diverse individuals bit.ly/4e0OaS6",
+   "url": "https://bsky.app/profile/cshrb.bsky.social/post/3myumnemyak2d"
+  },
+  {
+   "audience": "health",
+   "topic": "pain",
+   "handle": "murtoz.bsky.social",
+   "platform": "Bluesky",
+   "date": "Oct 29 06:00 AM",
    "likes": 2,
-   "views": 59,
-   "text": "Light up, lights out? Study dispels myth that weed smokers sleep well",
-   "url": "https://x.com/SeedBankME/status/2112997579503870339"
-  },
-  {
-   "audience": "health",
-   "topic": "arthritis",
-   "handle": "divinetokecanna",
-   "date": "Oct 14 05:46 PM",
-   "likes": 0,
-   "views": 27,
-   "text": "There isn't enough research yet on how weed works for arthritis, and the people I know who smoke for it aren't waiting for the studies.",
-   "url": "https://x.com/divinetokecanna/status/2110487322416328812"
-  },
-  {
-   "audience": "health",
-   "topic": "nausea",
-   "handle": "L8NYTEjr",
-   "date": "Oct 15 11:48 AM",
-   "likes": 0,
-   "views": 44,
-   "text": "Anybody know a natural remedy for nausea besides weed",
-   "url": "https://x.com/L8NYTEjr/status/2110759772593041446"
-  },
-  {
-   "audience": "health",
-   "topic": "autism / anxiety / sleep",
-   "handle": "tomangell",
-   "date": "Oct 02 07:59 AM",
-   "likes": 40,
-   "views": 2079,
-   "text": "A new study conducted by the Minnesota Office of Cannabis Management found that people with autism who use medical marijuana \"were able to achieve and maintain symptom relief\" for anxiety, depression and sleep.",
-   "url": "https://x.com/tomangell/status/2105990953786073145"
-  },
-  {
-   "audience": "health",
-   "topic": "pain / athletes",
-   "handle": "MLFootball",
-   "date": "Oct 20 08:18 PM",
-   "likes": 1892,
-   "views": 59588,
-   "text": "Calvin Johnson has publicly advocated for cannabis as an alternative for pain, recovery \u2014 wellness for athletes & others.",
-   "url": "https://x.com/MLFootball/status/2112700012778119172"
-  },
-  {
-   "audience": "grow",
-   "topic": "dry & cure",
-   "handle": "ZaZaBinks91661",
-   "date": "Oct 19 03:50 PM",
-   "likes": 0,
-   "views": 54,
-   "text": "I know this harvest aint shit if i dont nail the dry and cure. Does anybody have any tips for drying and curing?",
-   "url": "https://x.com/ZaZaBinks91661/status/2112270062665306328"
+   "views": 0,
+   "text": "My son is on daily naproxen (similar but stronger than advil). GP prescribes omeprazole with it to protect his stomach. Also if cannabis is accessible to you, this helps a lot of us deal with the pain & I believe it is anti inflammatory too.",
+   "url": "https://bsky.app/profile/murtoz.bsky.social/post/3myyz2e5m3c2u"
   },
   {
    "audience": "grow",
    "topic": "cure length",
-   "handle": "TedSton87217079",
-   "date": "Oct 25 06:12 PM",
-   "likes": 1,
-   "views": 102,
-   "text": "Growers, let's settle this: how long do you cure? I say 4 weeks minimum.",
-   "url": "https://x.com/TedSton87217079/status/2114480233747534071"
-  },
-  {
-   "audience": "grow",
-   "topic": "jar humidity",
-   "handle": "MrGrowIt",
-   "date": "Oct 07 01:02 PM",
-   "likes": 44,
-   "views": 2912,
-   "text": "Put a small hygrometer in the jar so you're not guessing. I like to see them settle at 58 to 62% humidity.",
-   "url": "https://x.com/MrGrowIt/status/2107879217128001917"
+   "handle": "bradiscranky.bsky.social",
+   "platform": "Bluesky",
+   "date": "Oct 28 06:05 PM",
+   "likes": 7,
+   "views": 0,
+   "text": "first plant of a fresh crop down and curing. i do love growing pot",
+   "url": "https://bsky.app/profile/bradiscranky.bsky.social/post/3myxr4cic4k2q"
   },
   {
    "audience": "grow",
    "topic": "harvest timing",
-   "handle": "MrGrowIt",
-   "date": "Oct 26 01:05 PM",
-   "likes": 20,
-   "views": 1060,
-   "text": "Number three: harvesting too early\u2026 I've seen people chop one or two weeks early and the buds never densed up.",
-   "url": "https://x.com/MrGrowIt/status/2114765302302986373"
+   "handle": "igloochik.bsky.social",
+   "platform": "Bluesky",
+   "date": "Oct 29 09:16 PM",
+   "likes": 5,
+   "views": 0,
+   "text": "#harvest #cannabis #CannabisSky #cannabisgrowing #medicine \ud83e\udd66\ud83c\udf31\ud83d\udc9a",
+   "url": "https://bsky.app/profile/igloochik.bsky.social/post/3mz2ma3ifec22"
   },
   {
    "audience": "grow",
-   "topic": "trichomes",
-   "handle": "GoodHerbPodcast",
-   "date": "Oct 11 11:01 PM",
+   "topic": "harvest timing",
+   "handle": "mtnfreshgenetics.bsky.social",
+   "platform": "Bluesky",
+   "date": "Oct 27 05:04 AM",
+   "likes": 4,
+   "views": 0,
+   "text": "Hey \ud83d\udc4b Stoners Quick question How long does it take a cannabis plant to fully mature from seed to harvest? \ud83e\udd14",
+   "url": "https://bsky.app/profile/mtnfreshgenetics.bsky.social/post/3mytuyckzw42s"
+  },
+  {
+   "audience": "grow",
+   "topic": "harvest timing",
+   "handle": "freddystonetv.bsky.social",
+   "platform": "Bluesky",
+   "date": "Oct 23 09:20 PM",
+   "likes": 3,
+   "views": 0,
+   "text": "Cutting grass and kicking ass! Weed whacking gone wild! HARVEST TIME! MARBLES! GIVEAWAYS! LIVE NOW! [Tangia=ON] POKER TOURNEY 6:30p (PT) www.kick.com/FreddyStone www.twitch.tv/FreddyStone #stream #streamer #kick #twitch #games #laugh #music #poker #PokerStars #weed #cannabis #GIVEAWAYS",
+   "url": "https://bsky.app/profile/freddystonetv.bsky.social/post/3myljn3gha22n"
+  },
+  {
+   "audience": "grow",
+   "topic": "harvest timing / trichomes",
+   "handle": "cefk.bsky.social",
+   "platform": "Bluesky",
+   "date": "Oct 27 10:36 AM",
    "likes": 1,
-   "views": 38,
-   "text": "Croptober is real. Some of you just chopped. Some are watching trichomes daily.",
-   "url": "https://x.com/GoodHerbPodcast/status/2109479652448428413"
+   "views": 0,
+   "text": "I've given them (as per schedule) another serving of that 2-weekly booster .. (mostly for the one on the right and some for the one in the middle. According to the breeder's website, the one on the left should be harvest-ready, this week (we'll see .. thus far, no amber trichomes at all).",
+   "url": "https://bsky.app/profile/cefk.bsky.social/post/3myuhitosic2b"
+  }
+ ],
+ "threads": [
+  {
+   "title": "Anotha one (Fall edition)",
+   "url": "https://www.reddit.com/r/microgrowery/comments/1ximoe5/anotha_one_fall_edition/",
+   "sub": "r/microgrowery",
+   "date": "2026-10-29 15:12"
+  },
+  {
+   "title": "Watermelon Romulan - smelling like pine and watermelon over here.",
+   "url": "https://www.reddit.com/r/microgrowery/comments/1xipxdo/watermelon_romulan_smelling_like_pine_and/",
+   "sub": "r/microgrowery",
+   "date": "2026-10-29 17:10"
+  },
+  {
+   "title": "Throwback to my old garden!",
+   "url": "https://www.reddit.com/r/microgrowery/comments/1xj1kl2/throwback_to_my_old_garden/",
+   "sub": "r/microgrowery",
+   "date": "2026-10-30 00:52"
+  },
+  {
+   "title": "Fluffy Buds",
+   "url": "https://www.reddit.com/r/microgrowery/comments/1xin3m8/fluffy_buds/",
+   "sub": "r/microgrowery",
+   "date": "2026-10-29 15:27"
+  },
+  {
+   "title": "50 lb cattle dog for scale",
+   "url": "https://www.reddit.com/r/microgrowery/comments/1xj0zfp/50_lb_cattle_dog_for_scale/",
+   "sub": "r/microgrowery",
+   "date": "2026-10-30 00:23"
+  },
+  {
+   "title": "GG4 and RS11 finishing up in my 2x4",
+   "url": "https://www.reddit.com/r/microgrowery/comments/1xihwe8/gg4_and_rs11_finishing_up_in_my_2x4/",
+   "sub": "r/microgrowery",
+   "date": "2026-10-29 11:55"
   }
  ],
  "news": [
