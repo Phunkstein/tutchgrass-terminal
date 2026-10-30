@@ -1,0 +1,46 @@
+# Live Agents (hourly): Trend Spotter free mode (Bluesky public search + one Reddit RSS read, ~13 requests 1 s apart;
+# only when there is NO X_BEARER_TOKEN, otherwise agents-fast.yml reads X), Scientist, Terpene Lab, Grower Notes, Research Wire (refresh.py), Study Grader (newstudies.py,
+# skips the PubMed download when nothing changed) and the recent-studies harvest (at most once a day).
+# PubMed: < 3 requests/s with tool/email set (NCBI_API_KEY optional). Commits ONLY when the data really changed,
+# plus a heartbeat commit at most every 6 h. Policy Watch laws (agents/laws.py: Federal Register
+# + source link check) run here too; its in-effect / taking-effect-soon status is recomputed at every site build.
+# News Desk runs in news-wire.yml; Brand Auditor runs daily in agents-daily.yml.
+name: Live Agents (hourly)
+on:
+  schedule:
+    - cron: "41 * * * *"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: agents-hourly
+  cancel-in-progress: false
+jobs:
+  hourly:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TZ: America/Detroit
+      PYTHONUNBUFFERED: "1"
+      NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}   # optional; raises the PubMed limit from 3 to 10 requests/s
+      X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}   # optional; only used to decide who owns Trend Spotter (never called here)
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run the hourly agents
+        run: python3 tools/terminal/agents_run.py hourly
+      - name: Publish only if the data changed
+        id: publish
+        run: |
+          git config user.name "Tutchgrass Agents"
+          git config user.email "tutchgrass@mail.grokbot.com"
+          SOCIAL=""; if [ -z "$X_BEARER_TOKEN" ]; then SOCIAL="tools/terminal/data/social.json"; fi
+          python3 tools/terminal/publish.py --name "Agents Hourly" \
+            --heartbeat tools/terminal/web/stats.json:6 \
+            --owned tools/terminal/data/laws.json tools/terminal/data/lab.json tools/terminal/data/scientist.json tools/terminal/data/wire.json \
+                    tools/terminal/data/new_studies.json tools/terminal/data/conditions_recent.json \
+                    tools/terminal/cache tools/terminal/report.md tools/terminal/web/stats.json $SOCIAL

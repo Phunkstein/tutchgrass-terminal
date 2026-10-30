@@ -1,5 +1,8 @@
 # News Wire: check the cannabis news RSS feeds every 5 minutes (GitHub's minimum; GitHub may delay scheduled runs under load).
-# Commits ONLY when there are genuinely new items, so Render redeploys only for real news. Nothing is posted or emailed.
+# Commits ONLY when there is new news, so Render redeploys only for real news. Nothing is posted or emailed.
+# Push retry (replaces "git pull --rebase -X theirs", which could overwrite the other agents' blocks in terminal.json):
+# keep our 3 news files, reset to the newest main, put them back and re-patch only the news block of terminal.json.
+# Requires the agent-workflows branch to be merged (news_wire.py --repatch).
 name: News Wire
 on:
   schedule:
@@ -30,8 +33,20 @@ jobs:
         run: |
           git config user.name "Tutchgrass News Wire"
           git config user.email "tutchgrass@mail.grokbot.com"
-          git add tools/terminal/data/news.json tools/terminal/data/news_seen.json public/terminal/data/breaking.json public/terminal/data/terminal.json
+          FILES="tools/terminal/data/news.json tools/terminal/data/news_seen.json public/terminal/data/breaking.json"
+          git add $FILES public/terminal/data/terminal.json
           git diff --cached --quiet && exit 0
-          git commit -m "News Wire: ${{ steps.wire.outputs.new }} new item(s)"
-          for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && exit 0; sleep 5; done
+          git commit -q -m "News Wire: ${{ steps.wire.outputs.new }} new item(s)"
+          for i in 1 2 3 4 5; do
+            git push -q origin HEAD:main && exit 0
+            echo "push rejected (try $i); re-applying news on the newest main"
+            mkdir -p /tmp/keep && for f in $FILES; do mkdir -p /tmp/keep/$(dirname $f) && cp $f /tmp/keep/$f; done
+            sleep $((i * 3))
+            git fetch -q origin main && git reset -q --hard origin/main
+            for f in $FILES; do cp /tmp/keep/$f $f; done
+            python3 tools/terminal/news_wire.py --repatch
+            git add $FILES public/terminal/data/terminal.json
+            git diff --cached --quiet && exit 0
+            git commit -q -m "News Wire: ${{ steps.wire.outputs.new }} new item(s)"
+          done
           exit 1

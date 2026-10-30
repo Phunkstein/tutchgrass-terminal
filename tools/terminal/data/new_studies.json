@@ -1,11 +1,12 @@
 {
- "generated": "2026-10-29 22:19 EDT",
+ "generated": "2026-10-30 07:16 EDT",
  "window": {
-  "start": "2026-09-29",
-  "end": "2026-10-29",
+  "start": "2026-09-30",
+  "end": "2026-10-30",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
+ "fingerprint": "25b5389c6e5e82c3",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -66,6 +67,7 @@
    "42853566"
   ],
   "pain": [
+   "42956528",
    "42950713",
    "42929306",
    "42927589",
@@ -76,7 +78,6 @@
    "42885647",
    "42867128",
    "42816121",
-   "42806224",
    "42874273"
   ],
   "anxiety": [
@@ -121,7 +122,6 @@
    "42953813"
   ],
   "epilepsy": [
-   "42810163",
    "42918565",
    "42914761",
    "42869231",
@@ -132,7 +132,7 @@
  },
  "pubmed_counts": {
   "sleep": 25,
-  "pain": 29,
+  "pain": 30,
   "anxiety": 46,
   "mood": 44,
   "ptsd": 10,
@@ -143,13 +143,13 @@
   "focus": 9,
   "fibromyalgia": 2,
   "ms": 3,
-  "epilepsy": 15,
-  "migraine": 5,
+  "epilepsy": 14,
+  "migraine": 4,
   "ibd": 0
  },
  "newest": {
   "sleep": "2026-10-27",
-  "pain": "2026-10-28",
+  "pain": "2026-10-29",
   "anxiety": "2026-10-28",
   "mood": "2026-10-26",
   "ptsd": "2026-10-27",
@@ -165,6 +165,26 @@
   "ibd": null
  },
  "papers": [
+  {
+   "pmid": "42956528",
+   "title": "Lipid-based nanoencapsulation prolongs the antinociceptive effect of cannabidiol in experimental neuropathic pain.",
+   "journal": "Biomed Pharmacother",
+   "date": "2026-10-29",
+   "pubdate": "2026-10-29",
+   "first_author": "Monteiro Santana et al.",
+   "doi": "10.1016/j.biopha.2026.120019",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "Neither treatment induced hematological, biochemical, or body weight alterations following repeated administration. These findings support lipid-based nanoencapsulation as a strategy to extend the duration of CBD antinociception after oral administration.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42956528/",
+   "conditions": [
+    "pain"
+   ]
+  },
   {
    "pmid": "42953813",
    "title": "Unequal Burden: Sex Differences in Cannabis Withdrawal Symptom Severity in People With Multiple Sclerosis-A Short Report.",
@@ -889,47 +909,7 @@
    "conditions": [
     "pain"
    ]
-  },
-  {
-   "pmid": "42806224",
-   "title": "Cannabis Legalization and Opioid Prescribing in Veterans Health Administration Patients: 2013-2022.",
-   "journal": "J Gen Intern Med",
-   "date": "2026-09-29",
-   "pubdate": "2026-09-28",
-   "first_author": "Mannes et al.",
-   "doi": "10.1007/s11606-026-10733-8",
-   "grade": "obs",
-   "grade_label": "Observational",
-   "plain": {
-    "did": "Researchers looked at existing data on people (nobody was assigned a treatment).",
-    "found": "Findings suggest that greater legal cannabis access may be associated with modest reductions in opioid prescriptions among patients with chronic pain, potentially reflecting changes in patient and clinician treatment decisions related to pain management.",
-    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42806224/",
-   "conditions": [
-    "pain"
-   ]
-  },
-  {
-   "pmid": "42810163",
-   "title": "Use of purified cannabidiol as add-on therapy in children with non-self-limited focal epilepsies of childhood: A multicenter study.",
-   "journal": "Epilepsy Behav",
-   "date": "2026-09-29",
-   "pubdate": "2026-09-29",
-   "first_author": "Reyes Valenzuela et al.",
-   "doi": "10.1016/j.yebeh.2026.111323",
-   "grade": "obs",
-   "grade_label": "Observational",
-   "plain": {
-    "did": "Researchers looked at data on 79 people (nobody was assigned a treatment).",
-    "found": "Adjunctive purified CBD was associated with sustained seizure reduction and good long-term tolerability in children with treatment-resistant non-SeLFEs. Responses were observed across different focal epilepsy etiologies, supporting further evaluation of CBD in this population.",
-    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42810163/",
-   "conditions": [
-    "epilepsy"
-   ]
   }
  ],
- "week_start": "2026-10-22"
+ "week_start": "2026-10-23"
 }

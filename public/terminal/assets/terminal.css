@@ -250,7 +250,7 @@ textarea{width:100%;max-width:620px;border:1px solid var(--line);border-radius:8
 @media (max-width:760px){
  .top .wrap>.nav.agnav{gap:8px;padding:0 0 7px 16px}.alabel{font-size:11px;padding-right:8px;flex-direction:column;align-items:flex-start;gap:0;line-height:1.1}.alabel>i{display:none}.alabel b{font-size:14px}
  .nav a.ag{padding:4px 9px 4px 4px;gap:6px}.ag .av{width:22px;height:22px;font-size:12px}.ag .nm{font-size:12.5px}
- .ag .doing{display:none}.nav a.ag[aria-current] .doing{display:block;max-width:130px}
+ .ag .doing{display:none}.nav a.ag[aria-current] .doing{display:block;max-width:160px}
  .ahead{padding:10px 12px}.ahh{flex-wrap:wrap}.ahr{flex-basis:100%;text-align:left;flex-direction:row;flex-wrap:wrap;gap:2px 8px;align-items:baseline;padding-left:47px;font-size:11.5px}.ahr>span{white-space:nowrap}
  .agrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}.acard{padding:8px 9px}.ach b{font-size:12.5px}.acd{font-size:11.5px}.agall .card{padding:14px}
 }
@@ -268,6 +268,15 @@ a.mylink{white-space:nowrap}
 .brand small{text-transform:none;letter-spacing:.02em}
 @media (max-width:760px){.brand{font-size:15px;gap:8px}.brand svg{width:26px;height:26px}.brand small{display:block;font-size:10px;margin-top:2px}.auth .btn{white-space:nowrap}}
 .ascroll.atend{-webkit-mask-image:none;mask-image:none}
+
+/* Policy Watch: laws now in effect / taking effect soon */
+.lawh{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+.law .t{font-weight:600;margin:3px 0 2px}.law p{margin:0 0 4px}.lawst{color:var(--txt)}
+.lawnew{border-left:3px solid var(--red);padding-left:10px}
+.lawal{color:var(--red);font-weight:600}
+.lawbar{border-left:3px solid var(--red);padding:6px 10px;margin:0 0 8px;background:rgba(200,40,40,.05)}
+.lawft{margin:8px 0 0}
+
 /* Product Checker (#product) */
 .pc-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:18px;align-items:start}
 .pc-drop{position:relative;display:flex;flex-direction:column;align-items:center;gap:6px;padding:22px 14px;border:1.5px dashed var(--line2);border-radius:var(--r);background:var(--bg);text-align:center;cursor:pointer}

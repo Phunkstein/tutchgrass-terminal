@@ -22,14 +22,24 @@ const R=[
  {id:'grader',nm:'Study Grader',ic:'🧪',secs:['newstudies','scoreboard'],job:'AI-grades every new cannabis paper on PubMed and ranks conditions in the evidence scoreboard.',
   f:(d)=>{const n=d.newstudies;if(!n)return null;const ts=T(n.generated),wk=n.papers.filter(p=>(p.date||'')>=n.week_start).length;const g={};n.papers.forEach(p=>g[p.grade]=(g[p.grade]||0)+1);const r=d.scoreboard||[];
    return{ts,state:st(ts,26*H),doing:`AI-graded ${n.papers.length} new papers`,src:(n.source||'PubMed')+' + National Academies 2017',log:[`Window ${n.window.start} to ${n.window.end}: ${n.papers.length} papers, ${wk} since ${n.week_start}`,`Human trials/meta-analyses ${(g.rct||0)+(g.meta||0)+(g.noplacebo||0)} · observational ${g.obs||0} · mice/cells ${(g.mice||0)+(g.cells||0)}`,r.length?`Scoreboard: ${r.length} conditions ranked, #1 ${r[0].label}`:'Scoreboard unavailable']}}},
- {id:'policy',nm:'Policy Watch',ic:'⚖️',secs:['dec11','ag-policy'],job:'Counts down to the Dec 11, 2026 federal hemp THC rule, from Congressional Research Service sources.',
-  f:(d)=>{const x=d.dec11;if(!x)return null;const ts=d.built_ts,days=Math.max(0,Math.floor((T(x.deadline)-now())/D));
-   return{ts,state:st(ts,26*H),doing:`${days} days to the Dec 11 hemp rule`,src:x.sources.map(s=>s.label).join(' · '),log:[`Deadline ${x.deadline.slice(0,10)}: ${x.headline}`,`${x.dates.length} key dates on file`,'Checked at the latest site build']}}},
+ {id:'policy',nm:'Policy Watch',ic:'⚖️',secs:['dec11','laws','ag-policy'],job:'Counts down to the Dec 11, 2026 federal hemp THC rule and flags state and federal cannabis laws that just took effect or take effect soon, each linked to its official source.',
+  f:(d)=>{const x=d.dec11,L=d.laws;if(!x&&!L)return null;const ts=d.built_ts,days=x?Math.max(0,Math.floor((T(x.deadline)-now())/D)):null,c=L&&L.counts;
+   const doing=c&&c.alerts?`${c.alerts} law${c.alerts===1?'':'s'} just took effect`:c?`${c.in_effect} laws now in effect, ${c.upcoming} coming soon`:`${days} days to the Dec 11 hemp rule`;
+   const log=[];if(c){log.push(`${c.in_effect} in effect (last ${L.window.past_days} days), ${c.upcoming} taking effect in the next ${L.window.ahead_days} days`);
+     log.push(`Federal Register: ${L.fr_status==='ok'||!L.fr_status?c.federal_register+' cannabis rules in the window':'unavailable, kept last good'}`);
+     if(c.leads)log.push(`${c.leads} news lead${c.leads===1?'':'s'} on new laws, not shown until an official source confirms`)}
+   if(x)log.push(`${days} days to the Dec 11 hemp rule: ${x.headline}`);
+   return{ts,state:st(ts,26*H),doing,src:'Official statute, regulator and legislature pages · Federal Register · CRS',log}}},
  {id:'news',nm:'News Desk',ic:'📰',secs:['news'],job:'Reads cannabis news and law RSS feeds and sorts them US federal / states / international / health.',
   f:(d,x)=>{const N=d.news;if(!N)return null;const ok=N.sources.filter(s=>s.status==='ok').length,ts=T(N.generated),b=x.breaking;
    const nb=b&&b.items?b.items.filter(i=>now()-i.first_seen_ts<6*H).length:0;
    return{ts,state:st(ts,26*H,ok>0),doing:nb?`${nb} new stories in 6 h`:`Sorted ${N.total} stories`,src:`${ok}/${N.sources.length} RSS feeds ok + Cannabis Health News (UK)`,
     log:[`${N.total} stories from ${ok}/${N.sources.length} feeds`,Object.entries(N.by_category).map(([k,v])=>k+' '+v.length).join(' · ')+' shown',...(b&&b.items?b.items.slice(0,2).map(i=>`New ${clock(i.first_seen_ts)}: ${i.title.slice(0,80)}`):[])]}}},
+ {id:'recalls',nm:'Recall & Safety',ic:'🚨',secs:['recalls'],job:'Collects official cannabis product recalls, health & safety advisories and failed-lab-test notices from state regulators and the FDA, each linked to the official notice.',
+  // its own standard: runs hourly with a heartbeat commit at most every 6 h, so live = re-checked within 8 h and at least one official source answered
+  f:(d)=>{const C=d.recalls;if(!C||!C.items)return null;const ts=T(C.generated),ok=(C.sources||[]).filter(s=>s.status==='ok'),bad=(C.sources||[]).filter(s=>s.status!=='ok'),n=C.items[0];
+   return{ts,state:st(ts,8*H,ok.length>0),doing:`${C.count} official notices`,src:`${ok.length}/${(C.sources||[]).length} official sources ok: ${ok.map(s=>s.source).join(', ')}`,
+    log:[n?`Newest: ${n.date} ${n.state} · ${(n.brand||n.product).slice(0,60)}`:'No notices',`${C.count} notices from ${ok.length} regulators/FDA lists, newest first, de-duplicated`,bad.length?`Unavailable now: ${bad.map(s=>s.source+' ('+(s.error||'error')+')').join(', ')}`:'Every source answered on the last check']}}},
  {id:'market',nm:'Market Watcher',ic:'📈',secs:['market','prices'],job:'Tracks cannabis stocks (Yahoo Finance), US wholesale flower prices (Cannabis Benchmarks, weekly) and Canadian retail cannabis prices (Statistics Canada CPI, monthly).',
   f:(d)=>{const M=d.market,P=d.prices;if(!M&&!P)return null;const ok=M&&M.rows?M.rows.filter(r=>r.status==='ok'):[],
    // each price series is judged by its own publishing cadence: age of its latest point vs max_age_days (fallback: the old 45-day rule)
@@ -43,15 +53,15 @@ const R=[
  {id:'lab',nm:'Terpene Lab',ic:'🌿',secs:['lab'],job:'Spotlights one cannabinoid or terpene a day: what it is, health angle, how to grow and keep it.',
   f:(d)=>{const L=d.lab;if(!L)return null;const sp=L.compounds.find(c=>c.id===L.spotlight_id)||L.compounds[0],ts=T(L.generated);
    return{ts,state:st(ts,26*H),doing:`Spotlight: ${sp.name.split(' (')[0]}`,src:'PubMed-cited compound notes',log:[`Today's spotlight: ${sp.name}`,`${L.compounds.length} compounds in rotation (${L.spotlight_rule})`,`Entourage effect: ${L.entourage.citations.length} citations`]}}},
- {id:'trends',nm:'Trend Spotter',ic:'💬',secs:['social'],job:'Reads what people ask about cannabis on X, plus X News. Read-only; it never posts.',
-  f:(d)=>{const S=d.social;if(!S||!S.posts)return null;const ts=T(S.generated),tn=T(S.news_generated);
-   return{ts,state:st(ts,26*H),doing:`Read ${S.posts.length} posts`,src:'X API (read-only)',log:[`${S.posts.length} posts read across ${S.queries} searches`,`${(S.news||[]).length} X News stories${tn?' · read '+clock(tn):''}`,`Top topic: ${(Object.entries(S.topic_counts||{}).sort((a,b)=>b[1]-a[1])[0]||['none'])[0]}`]}}},
+ {id:'trends',nm:'Trend Spotter',ic:'💬',secs:['social'],job:'Reads what people say about cannabis for health and growing on public social media (Bluesky, Reddit; X when connected). Read-only; it never posts.',
+  f:(d)=>{const S=d.social;if(!S||!S.posts)return null;const ts=T(S.generated),tn=T(S.news_generated),fr=S.mode==='free',pl=fr?(S.platforms||['Bluesky']).join(' + '):'X';
+   return{ts,state:st(ts,fr?3*H:26*H),doing:`Read ${S.posts.length} posts`,src:fr?`${pl} public search (read-only)`:'X API (read-only)',log:[`${S.posts.length} posts kept from ${S.queries} searches on ${pl}`,fr?`${(S.threads||[]).length} top Reddit threads today`:`${(S.news||[]).length} X News stories${tn?' · read '+clock(tn):''}`,`Top topic: ${(Object.entries(S.topic_counts||{}).sort((a,b)=>b[1]-a[1])[0]||['none'])[0]}`]}}},
  {id:'grower',nm:'Grower Notes',ic:'🌱',secs:['grower'],job:'What changes cannabis chemistry when growing: genetics, light, harvest, drying, storage, plus new cultivation papers.',
   f:(d)=>{const L=d.lab,W=d.wire;if(!L)return null;const ts=T(L.generated),fs=Object.values(L.factors),an=fs.filter(x=>x.anecdotal).length;
    return{ts,state:st(ts,26*H),doing:`${fs.length-an} studied factors`,src:'Horticulture studies (PubMed)',log:[`${fs.length-an} factors backed by studies`,`${an} grower practice flagged anecdotal`,W?`${W.papers_cultivation.length} new cultivation papers (PubMed, 14 d)`:'New cultivation papers unavailable']}}},
  {id:'brands',nm:'Brand Auditor',ic:'🏷️',href:'/terminal/report-cards/',page:/^\/terminal\/report-cards\//,job:"Scores hemp brands' label claims against their own published lab reports (COAs).",
-  f:(d,x)=>{const m=x.meta;if(!m)return null;const ts=T(m.generated);
-   return{ts,state:st(ts,8*D),doing:`Audited ${m.coa_count} lab reports`,src:"Brands' own published COAs",log:[`${m.coa_count} COAs read from ${m.brand_count} brands`,`${m.scored} COAs scored against the label`,`${m.dec11_over} products over the Dec 11 THC limit`]}}},
+  f:(d,x)=>{const m=x.meta;if(!m)return null;const ts=T(m.checked||m.generated),ck=m.checked!=null;
+   return{ts,state:st(ts,ck?50*H:8*D),doing:ck?`Checked ${m.coas_checked} lab reports`:`Audited ${m.coa_count} lab reports`,src:"Brands' own published COAs",log:[`${m.coa_count} COAs read from ${m.brand_count} brands · ${m.scored} scored against the label`,ck?`Daily check: ${m.links_ok} COA links up, ${m.links_removed} removed, ${m.links_unreachable} unreachable`:`${m.dec11_over} products over the Dec 11 THC limit`,ck?`${Number(m.queued_coas).toLocaleString()} more COAs on brand lab pages, not yet scored (${m.new_coas_today} new today)`:`${m.dec11_over} products over the Dec 11 THC limit`]}}},
  {id:'product',nm:'Product Checker',ic:'🔎',secs:['product'],job:'Checks a COA or label photo inside your browser: potency vs the label, total THC math, contaminant panels, test age, batch match, and whether the lab is licensed or ISO 17025 accredited.',
   f:(d)=>{const L=d.labs;if(!L)return null;const ts=T(L.generated),ok=L.sources.filter(s=>s.status==='ok').length,c=L.counts;
    return{ts,state:st(ts,8*D,ok>0),doing:`${c.state_labs} licensed labs on file`,src:`${ok}/${L.sources.length} regulator and A2LA lists (weekly)`,

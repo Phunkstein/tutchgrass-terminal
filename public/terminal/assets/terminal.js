@@ -36,6 +36,23 @@ TG.dec11=D=>{const el=$('#dec11');if(!el)return;if(!D){el.innerHTML=NA('Dec 11 t
   const tick=()=>{let r=Math.max(0,t-Date.now())/1000;const dd=Math.floor(r/86400);r-=dd*86400;const hh=Math.floor(r/3600);r-=hh*3600;const mm=Math.floor(r/60),ss=Math.floor(r-mm*60);
     $('#cd-d').textContent=dd;$('#cd-h').textContent=String(hh).padStart(2,'0');$('#cd-m').textContent=String(mm).padStart(2,'0');$('#cd-s').textContent=String(ss).padStart(2,'0');
     $('#cd-syn').textContent=Math.max(0,Math.ceil((syn-Date.now())/864e5))};tick();setInterval(tick,1000)};
+TG.laws=L=>{const el=$('#laws');if(!el)return;if(!L){el.innerHTML=NA('Laws in effect');return}
+  const fmt=x=>new Date(x+'T12:00:00').toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}),
+    rel=d=>d===0?'today':d>0?`in ${d} day${d===1?'':'s'}`:`${-d} day${d===-1?'':'s'} ago`,
+    row=x=>`<div class="item law${x.alert?' lawnew':''}" id="law-${E(x.id)}"><div class="m"><b class="lawst">${E(x.where)}</b> · ${x.status==='upcoming'?'Takes effect':'Took effect'} ${E(fmt(x.effective))} <span class="mute">(${rel(x.days)})</span>${x.alert?' · <span class="lawal" role="note">Just took effect</span>':''} · ${E(x.kind)}</div>
+      <div class="t">${E(x.title)}</div><p class="small dim">${E(x.plain)}</p>
+      <div class="small">${x.sources.map(s=>`<a href="${E(s.url)}" target="_blank" rel="noopener">${E(s.label)} ↗</a>`).join(' · ')} <span class="mute">· ${E(x.cite)}${x.auto?' · found automatically':''}</span></div></div>`,
+    tabs={now:{n:'Now in effect',l:L.in_effect,e:`No cannabis laws took effect in the last ${L.window.past_days} days.`},soon:{n:'Taking effect soon',l:L.upcoming,e:`Nothing takes effect in the next ${L.window.ahead_days} days.`}};
+  el.innerHTML=`<div class="lawh"><span class="lbl" style="margin:0">Laws in effect · state &amp; federal</span><span class="mono small mute">last ${L.window.past_days} days · next ${L.window.ahead_days} days · as of ${E(fmt(L.as_of))}</span></div>
+   ${L.counts.alerts?`<p class="lawbar small" role="status"><b>${L.counts.alerts} law${L.counts.alerts===1?'':'s'} just took effect:</b> ${L.alerts.map(a=>`<a href="#law-${E(a.id)}">${E(a.where)}: ${E(a.title)}</a>`).join(' · ')}</p>`:''}
+   <div class="tabs" role="tablist" id="law-tabs" aria-label="Laws by status">${Object.entries(tabs).map(([k,v])=>`<button role="tab" type="button" id="lawtab-${k}" aria-controls="law-body" data-k="${k}">${v.n} <span class="mono small">${v.l.length}</span></button>`).join('')}</div>
+   <div class="list" id="law-body" role="tabpanel" aria-live="polite"></div>
+   <p class="small mute lawft">${E(L.method)} ${E(L.note)}</p>`;
+  const show=k=>{el.querySelectorAll('#law-tabs button').forEach(b=>{const on=b.dataset.k===k;b.setAttribute('aria-selected',on);b.tabIndex=on?0:-1});
+    $('#law-body').setAttribute('aria-labelledby','lawtab-'+k);const t=tabs[k];$('#law-body').innerHTML=t.l.length?t.l.map(row).join(''):`<p class="mute">${E(t.e)}</p>`};
+  const tl=$('#law-tabs');tl.onclick=e=>{const b=e.target.closest('button');if(b)show(b.dataset.k)};
+  tl.onkeydown=e=>{if(e.key!=='ArrowRight'&&e.key!=='ArrowLeft')return;const ks=Object.keys(tabs),c=ks.indexOf(tl.querySelector('[aria-selected=true]').dataset.k),n=ks[(c+(e.key==='ArrowRight'?1:ks.length-1))%ks.length];show(n);tl.querySelector(`[data-k="${n}"]`).focus()};
+  show(L.in_effect.length?'now':'soon')};
 TG.week=d=>{const el=$('#thisweek');if(!el)return;const n=d.newstudies;if(!n){el.innerHTML=NA('New this week (PubMed)');return}
   const wk=Object.entries(n.week).filter(x=>x[1]>0).sort((a,b)=>b[1]-a[1]),tot=n.papers.filter(p=>(p.date||'')>=n.week_start).length;
   el.innerHTML=`<div class="wk"><span class="lbl" style="margin:0">New this week</span><b class="mono">${tot}</b><span class="small dim">new studies since ${E(n.week_start)}</span>${wk.map(([k,v])=>`<a class="pill" href="/terminal/my/?c=${E(k)}">${E(n.labels[k]||k)} <b class="mono">${v}</b></a>`).join('')||'<span class="small mute">None in the last 7 days.</span>'}<a class="small" href="#newstudies">See them explained →</a></div>`};
@@ -70,7 +87,7 @@ function render(d){
   (N&&N.sources||[]).forEach(s=>{if(!srcs.find(x=>x.n===s.source))srcs.push({n:s.source,ok:s.status==='ok'})});
   srcs.push({n:'Yahoo Finance (market)',ok:!!(M&&M.rows&&M.rows.some(r=>r.status==='ok'))});
   (P&&P.series||[]).filter(s=>s.status!=='discontinued').forEach(s=>{const x=sStale(s);srcs.push({n:s.label,ok:s.status==='ok'&&!x,stale:x,none:s.status!=='ok'})});
-  srcs.push({n:'X posts + X News (social)',ok:!!(So&&So.posts&&So.posts.length)});
+  srcs.push({n:(So&&So.mode==='free'?(So.platforms||['Bluesky']).join(' + ')+' posts':'X posts + X News')+' (social)',ok:!!(So&&So.posts&&So.posts.length)});
   const okN=srcs.filter(s=>s.ok).length;
   const K=[[conds.length||'—','Conditions tracked'],[cites||'—','Verified PubMed citations'],[new30||'—','New papers, last 30 d'],[F.length||'—','Latest findings'],
     [N?N.total:'—','News items read'],[msos?'$'+num(msos.price):'n/a',`MSOS ${msos?'<em class="'+(msos.chg_pct>=0?'pos':'neg')+'">'+(msos.chg_pct>=0?'+':'')+num(msos.chg_pct)+'%</em>':'unavailable'}`],
@@ -109,7 +126,7 @@ function render(d){
   }
   // ---- latest findings
   $('#fgrid').innerHTML=F.length?F.map(f=>`<div class="fcard" id="finding-${E(f.slug)}"><a href="${E(f.path)}"><img src="${E(f.img)}" alt="${E(f.headline)}" loading="lazy" width="1600" height="900"></a><div class="fb"><div class="fc">${E(f.condition)}</div><a href="${E(f.path)}" style="color:inherit"><b>${E(f.headline)}</b></a><span class="badge grade g-${E(f.grade_cls)}">${E(f.grade)}</span> ${TG.aitag(TG.AI_FIND)}<p>${E(f.summary[0])}</p>${f.strains?`<p class="st"><b>Typical strains:</b> ${E(f.strains)}</p>`:''}<p class="small">${f.studies.map(s=>`<a href="${pm(s.pmid)}" target="_blank" rel="noopener">PubMed ${E(s.pmid)}</a>`).join(' · ')}</p><div class="ft"><a class="small" href="${E(f.path)}">Read the finding →</a><button class="btn sm ghost save" type="button" data-save="finding:${E(f.slug)}">☆ Save</button><a class="btn sm xbtn" href="${E(f.x_intent)}" target="_blank" rel="noopener">Share on X</a></div></div></div>`).join(''):NA('Findings');
-  TG.dec11(d.dec11);TG.week(d);TG.feed(d);TG.board(d);
+  TG.dec11(d.dec11);TG.laws(d.laws);TG.week(d);TG.feed(d);TG.board(d);
   // ---- lab
   if(!L)$('#lab-body').innerHTML=NA('Lab');else{const sp=L.compounds.find(c=>c.id===L.spotlight_id)||L.compounds[0];
     $('#lab-meta').textContent='spotlight '+L.spotlight_rule;
@@ -129,6 +146,22 @@ function render(d){
       const it=N.by_category[k]||[];$('#news-body').innerHTML=it.length?it.map(n=>`<div class="item"><a class="t" href="${E(n.link)}" target="_blank" rel="noopener">${E(n.title)}</a><div class="m">${E(n.source)} · ${E(n.date)}</div><div class="small dim">${E(n.summary)}</div></div>`).join(''):'<p class="mute">Nothing new in this category.</p>'};
     $('#news-tabs').innerHTML=cats.map(k=>`<button role="tab" data-k="${E(k)}">${E(k)} <span class="mono small">${N.by_category[k].length}</span></button>`).join('');
     $('#news-tabs').onclick=e=>{const b=e.target.closest('button');if(b)show(b.dataset.k)};show(cats[0]);}
+  // ---- recall & safety (official regulator + FDA notices; every row links to its official source)
+  const RC=d.recalls;if($('#rc-body')){if(!RC||!RC.items||!RC.items.length){$('#rc-body').innerHTML=NA('Recall sources');}else{
+    const okS=RC.sources.filter(s=>s.status==='ok'),bad=RC.sources.filter(s=>s.status!=='ok');
+    $('#rc-meta').textContent=`${RC.count} notices · ${okS.length}/${RC.sources.length} official sources ok · checked ${RC.checked||RC.generated}`;
+    const G={'State regulators':RC.items.filter(i=>i.tier==='thc'&&!/^FDA/.test(i.src)),'FDA & hemp':RC.items.filter(i=>i.tier!=='thc'||/^FDA/.test(i.src))};
+    const cats=Object.keys(G).filter(k=>G[k].length);let lim=30;
+    const row=i=>`<div class="item rc"><a class="t" href="${E(i.url)}" target="_blank" rel="noopener">${E(i.product||i.brand)}</a><div class="m"><span class="mono">${E(i.date)}</span> · <b>${E(i.state||'US')}</b> · ${E(i.agency)} · ${E(i.kind)}</div>
+      <div class="small">${i.brand&&i.brand!==i.product?`<b>${E(i.brand)}</b>: `:''}${E(i.issue)}</div>${i.lot?`<div class="small mute">Batch/lot: <span class="mono">${E(i.lot)}</span></div>`:''}</div>`;
+    const show=(k,keep)=>{if(!keep)lim=30;document.querySelectorAll('#rc-tabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.k===k));const it=G[k]||[];
+      $('#rc-body').innerHTML=it.slice(0,lim).map(row).join('')+(it.length>lim?`<p><button class="btn sm ghost" type="button" id="rc-more" data-k="${E(k)}">Show ${it.length-lim} more</button></p>`:'')};
+    $('#rc-tabs').innerHTML=cats.map(k=>`<button role="tab" data-k="${E(k)}">${E(k)} <span class="mono small">${G[k].length}</span></button>`).join('');
+    $('#rc-tabs').onclick=e=>{const b=e.target.closest('button');if(b)show(b.dataset.k)};
+    $('#rc-body').onclick=e=>{const b=e.target.closest('#rc-more');if(b){lim+=40;show(b.dataset.k,true)}};show(cats[0]);
+    $('#rc-foot').innerHTML=`<b>If you have one of these products:</b> ${E(RC.what_to_do)} Not medical advice; if you feel unwell, contact a health professional.`+
+      `<br>Sources: ${okS.map(s=>`<a href="${E(s.url)}" target="_blank" rel="noopener">${E(s.source)}</a>`).join(' · ')}${bad.length?` · unavailable now: ${bad.map(s=>E(s.source)).join(', ')}`:''}`+
+      (RC.not_covered&&RC.not_covered.length?`<br><span class="mute">Not covered yet (no parseable official list): ${RC.not_covered.map(x=>E(x.state)).join(', ')}.</span>`:'');}}
   // ---- market
   if(!M||!M.rows)$('#mk-body').innerHTML=NA('Yahoo Finance');else{$('#mk-meta').textContent='Yahoo Finance · '+M.generated;
     $('#mk-body').innerHTML='<table><thead><tr><th>Ticker</th><th class="num">Price</th><th class="num">Day</th><th class="num">1 mo</th><th class="mk-hide">30 d</th></tr></thead><tbody>'+M.rows.map(r=>r.status!=='ok'?`<tr><td><b class="mono">${E(r.ticker)}</b></td><td colspan="4" class="na">unavailable</td></tr>`:`<tr><td><b class="mono">${E(r.ticker)}</b><div class="small mute">${E(r.name)}</div></td><td class="num mono">$${num(r.price,r.price<1?3:2)}</td><td class="num mono">${pct(r.chg_pct)}</td><td class="num mono">${pct(r.chg_1mo_pct)}</td><td class="mk-hide">${spark(r.spark)}</td></tr>`).join('')+'</tbody></table><p class="small mute">Close as of '+E((M.rows.find(r=>r.as_of)||{}).as_of||'')+' ET. Information only, not investment advice.</p>';}
@@ -143,12 +176,13 @@ function render(d){
       <div class="small">${pct(l.chg_pct)} ${per} · ${l.per_gram?'$'+num(l.per_gram)+'/g · ':''}${when}${l.forward?` · fwd ${E(l.forward[0])} ${cur}${num(l.forward[1],0)}`:''}${s.cadence?` · published ${E(s.cadence)}`:''}</div></div>${spark(s.points.map(p=>p.value),120,40)}</div>
       <p class="small mute" style="margin:6px 0 0">${gone?E(s.note||'No longer published; shown as history only.')+' ':old?`The next ${E(s.cadence||'')} report is overdue, so treat as historical. `:''}Source: <a href="${E(l.link||s.url)}" target="_blank" rel="noopener">${E(s.source)}</a></p></div>`}).join('');}
   // ---- social
-  if(!So||!So.posts)$('#so-body').innerHTML=NA('X');else{$('#so-meta').textContent='X posts read '+(So.generated||'').slice(0,10)+' · X News '+(So.news_generated||'');
-    const tc=So.topic_counts||{};const post=p=>`<div class="post ${E(p.audience)}"><div class="m small mute"><a href="${E(p.url)}" target="_blank" rel="noopener">@${E(p.handle)}</a> · ${E(p.date)} · ${E(p.topic)}${p.views?` · ${Number(p.views).toLocaleString()} views`:''}</div>${E(p.text.length>220?p.text.slice(0,217)+'…':p.text)}</div>`;
+  if(!So||!So.posts)$('#so-body').innerHTML=NA('Social');else{const fr=So.mode==='free';$('#so-meta').textContent=(fr?(So.platforms||['Bluesky']).join(' + '):'X')+' read '+(So.generated||'').slice(0,16)+(So.news&&So.news.length?' · X News '+(So.news_generated||''):'');
+    const tc=So.topic_counts||{};const post=p=>`<div class="post ${E(p.audience)}"><div class="m small mute"><a href="${E(p.url)}" target="_blank" rel="noopener">${p.platform?E(p.platform)+' ':''}@${E(p.handle)}</a> · ${E(p.date)} · ${E(p.topic)}${p.views?` · ${Number(p.views).toLocaleString()} views`:''}</div>${E(p.text.length>220?p.text.slice(0,217)+'…':p.text)}</div>`;
     $('#so-body').innerHTML=`<p>${Object.entries(tc).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<span class="pill">${E(k)} <b class="mono">${v}</b></span>`).join('')}</p>
       <div class="lbl">Health posts <span class="mute">· claims people make, not evidence</span></div>${So.posts.filter(p=>p.audience==='health').slice(0,4).map(post).join('')}
       <div class="lbl">Grower posts</div>${So.posts.filter(p=>p.audience==='grow').slice(0,3).map(post).join('')}
-      <div class="lbl">Trending on X News</div>${(So.news||[]).map(n=>`<div class="item"><a class="t" href="${E(n.url)}" target="_blank" rel="noopener">${E(n.title)}</a><div class="small dim">${E(n.summary)}</div></div>`).join('')||'<p class="mute small">unavailable</p>'}`;}
+      ${(So.threads||[]).length?`<div class="lbl">Top Reddit threads today</div>${So.threads.slice(0,4).map(t=>`<div class="item"><a class="t" href="${E(t.url)}" target="_blank" rel="noopener">${E(t.title)}</a><div class="small dim">${E(t.sub)} · ${E(t.date)}</div></div>`).join('')}`:''}
+      ${fr&&!(So.news||[]).length?'':`<div class="lbl">Trending on X News</div>`+((So.news||[]).map(n=>`<div class="item"><a class="t" href="${E(n.url)}" target="_blank" rel="noopener">${E(n.title)}</a><div class="small dim">${E(n.summary)}</div></div>`).join('')||'<p class="mute small">unavailable</p>')}`;}
   // ---- former Research Wire (PubMed newest 14 d + health feed): only items not shown elsewhere, folded into Study Grader and Grower Notes
   const pl=(a,why)=>a.map(p=>`<div class="item"><a class="t" href="${E(p.url)}" target="_blank" rel="noopener">${E(p.title)}</a><div class="m">${E(p.first_author)} · ${E(p.journal)} ${E(p.year)} ${p.preclinical?tag('PRECLINICAL'):''} <span class="mute">${E(why)}</span></div></div>`).join('');
   const nsIds=new Set(((d.newstudies||{}).papers||[]).map(p=>p.pmid));
