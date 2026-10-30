@@ -4,6 +4,7 @@ public/terminal/data/terminal.json for the static site. A failing source is writ
 import json,os,subprocess,sys,time,traceback
 HERE=os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0,HERE); sys.path.insert(0,os.path.join(HERE,"agents"))
 OUT=os.path.join(HERE,"..","..","public","terminal","data","terminal.json")
+os.makedirs(os.path.join(HERE,"logs"),exist_ok=True)   # logs/ is gitignored, so a clean checkout has none
 def safe(fn,name):
     try: return fn()
     except Exception as e:
@@ -13,7 +14,7 @@ if "--no-refresh" not in sys.argv:
     import market,prices
     safe(market.run,"market"); safe(prices.run,"prices")
 J=lambda p: safe(lambda: json.load(open(os.path.join(HERE,p))),p)
-S=J("web/stats.json") or {}; M=J("data/market.json"); P=J("data/prices.json"); N=J("data/news.json"); R=J("data/conditions_recent.json")
+S=J("web/stats.json") or {}; SO=J("data/social.json") or S.get("social"); M=J("data/market.json"); P=J("data/prices.json"); N=J("data/news.json"); R=J("data/conditions_recent.json")
 # attach recent (2025-2026) PubMed studies to each Scientist condition via the hub's background mapping
 recent={}
 if R:
@@ -28,7 +29,7 @@ def news_block(N):
 def mstat(M): return None if not M else M
 out=dict(product="Cannabis Agent Terminal",built=time.strftime("%Y-%m-%d %H:%M:%S %Z"),built_ts=time.time(),
     disclaimer="Research summary, not medical advice. Studies suggest; they do not prove. Talk to a doctor.",
-    agents=S.get("agents"),scientist=S.get("scientist"),lab=S.get("lab"),wire=S.get("wire"),social=S.get("social"),feed=(S.get("feed") or [])[:40],
+    agents=S.get("agents"),scientist=S.get("scientist"),lab=S.get("lab"),wire=S.get("wire"),social=SO,feed=(S.get("feed") or [])[:40],
     source_status=S.get("source_status"),market=M,prices=P,news=news_block(N))
 import build_findings
 out['findings']=safe(build_findings.build,'findings')

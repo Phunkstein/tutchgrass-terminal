@@ -1,10 +1,11 @@
 """Conditions harvest: for each condition, recent (last 18 months) PubMed cannabinoid trials/reviews and recent
-holistic (exercise, diet, mind-body, CBT...) systematic reviews/guidelines. Writes data/hub/conditions.json.
+holistic (exercise, diet, mind-body, CBT...) systematic reviews/guidelines. Writes tools/terminal/data/conditions_recent.json (was data/hub/conditions.json in the original box layout).
 Background evidence (older, dated) comes from the Cannabis Market Terminal scientist/lab data copied to
 data/hub/background.json (originally PubMed-verified, generated 2026-10-28)."""
 import json,os,re,sys,time
 from pubmed_lib import esearch,efetch,dp,window,evidence
-ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT=os.path.dirname(os.path.abspath(__file__))   # tools/terminal
+SKIP=os.path.join(ROOT,'data','conditions_skip.json'); OUTF=os.path.join(ROOT,'data','conditions_recent.json')
 CANN='(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab])'
 CANNT=re.compile(r'cannab|THC|tetrahydrocannab|marijuana|dronabinol|nabiximol|nabilone|CBD|CBG|hemp',re.I)
 TYPES='(randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt])'
@@ -57,7 +58,7 @@ def pick(recs,rx,a,need_cann,n,skip=()):
     return out[:n]
 def run():
     a,b=window(18); A=a.isoformat(); W=dp(18); res={}
-    SK=json.load(open(ROOT+'/data/hub/conditions_skip.json')) if os.path.exists(ROOT+'/data/hub/conditions_skip.json') else {}
+    SK=json.load(open(SKIP)) if os.path.exists(SKIP) else {}
     for cid,lab,em,q,rx,goal,bg in C:
         cq=f"{CANN} AND {q} AND {TYPES} AND {W} AND english[la] NOT (animals[mh] NOT humans[mh])"
         cn,ids=esearch(cq,40,"relevance")
@@ -69,6 +70,6 @@ def run():
         res[cid]=dict(label=lab,emoji=em,goal=goal,background=bg,cann_matches=cn,hol_matches=hn,cannabinoid=cann,holistic=hol,cann_query=cq,hol_query=hq)
         print(f"{cid}: cann {cn}->{len(cann)}  holistic {hn}->{len(hol)}",file=sys.stderr)
     out=dict(window=dict(start=A,end=b.isoformat()),generated=time.strftime("%Y-%m-%d %H:%M %Z"),source="NCBI PubMed E-utilities",conditions=res)
-    if sum(len(v["cannabinoid"]) for v in res.values())<10: print("too few results; keeping previous conditions.json",file=sys.stderr); sys.exit(2)
-    json.dump(out,open(ROOT+"/data/hub/conditions.json","w"),indent=1); return out
+    if sum(len(v["cannabinoid"]) for v in res.values())<10: print("too few results; keeping previous conditions_recent.json",file=sys.stderr); sys.exit(2)
+    json.dump(out,open(OUTF,"w"),indent=1); return out
 if __name__=="__main__": run()

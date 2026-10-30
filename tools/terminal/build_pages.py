@@ -76,7 +76,12 @@ def sitemap():
         for f in files:
             if f=="index.html": urls.append(f"{SITE}/terminal/{rel}")
             elif f.endswith(".html") and rel.startswith("findings"): urls.append(f"{SITE}/terminal/{rel}{f}")
-    urls=sorted(set(urls)); open(os.path.join(PUB,"..","sitemap.xml"),"w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+"".join(f"<url><loc>{u}</loc><lastmod>{today}</lastmod></url>\n" for u in urls)+"</urlset>\n"); return len(urls)
+    # keep each URL's previous <lastmod> so an unchanged site does not produce a new sitemap (and a redeploy) every day;
+    # only URLs that are new get today's date
+    import re as _re; sm=os.path.join(PUB,"..","sitemap.xml")
+    try: prev=dict(_re.findall(r"<loc>([^<]+)</loc><lastmod>([^<]+)</lastmod>",open(sm).read()))
+    except Exception: prev={}
+    urls=sorted(set(urls)); open(sm,"w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+"".join(f"<url><loc>{u}</loc><lastmod>{prev.get(u,today)}</lastmod></url>\n" for u in urls)+"</urlset>\n"); return len(urls)
 def build():
     my(); unsub(); legal(); g=report_cards(); n=sitemap(); return dict(report_cards=len(g),sitemap=n)
 if __name__=="__main__":

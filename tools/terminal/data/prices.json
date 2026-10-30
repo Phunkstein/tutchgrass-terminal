@@ -1,12 +1,21 @@
 {
  "agent": "prices",
+ "freshness_rule": "each series is judged by its own publishing cadence (max_age_days); discontinued series are history only",
  "series": [
   {
    "region": "US",
    "label": "U.S. Cannabis Spot Index (wholesale flower, $/lb)",
-   "source": "Cannabis Benchmarks (free public weekly summaries)",
+   "source": "Cannabis Benchmarks (free public summaries)",
    "url": "https://www.cannabisbenchmarks.com/reports/feed/",
    "status": "ok",
+   "cadence": "weekly",
+   "cadence_days": 7,
+   "max_age_days": 14,
+   "latest_date": "2026-10-23",
+   "period": "week",
+   "currency": "$",
+   "unit": "/lb",
+   "decimals": 0,
    "stale": false,
    "age_days": 7,
    "points": [
@@ -144,11 +153,182 @@
   },
   {
    "region": "Canada",
-   "label": "Canada Cannabis Spot Index (wholesale, C$/g)",
-   "source": "Cannabis Benchmarks (free public weekly summaries)",
-   "url": "https://www.cannabisbenchmarks.com/canada-reports/feed/",
+   "label": "Canada retail: CPI, recreational cannabis (index, Dec 2018=100)",
+   "source": "Statistics Canada, table 18-10-0004-01 (free, monthly)",
+   "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000401",
+   "vector": 1043024072,
    "status": "ok",
-   "stale": true,
+   "cadence": "monthly",
+   "cadence_days": 31,
+   "max_age_days": 45,
+   "latest_date": "2026-10-19",
+   "period": "month",
+   "currency": "",
+   "unit": " index",
+   "decimals": 1,
+   "stale": false,
+   "age_days": 11,
+   "points": [
+    {
+     "date": "2025-10-21",
+     "ref_period": "Sep 2025",
+     "value": 70.1,
+     "chg_pct": null,
+     "per_gram": null,
+     "forward": null,
+     "title": "CPI recreational cannabis, September 2025 (released 2025-10-21)",
+     "link": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000401",
+     "summary": ""
+    },
+    {
+     "date": "2025-11-17",
+     "ref_period": "Oct 2025",
+     "value": 70.1,
+     "chg_pct": 0.0,
+     "per_gram": null,
+     "forward": null,
+     "title": "CPI recreational cannabis, October 2025 (released 2025-11-17)",
+     "link": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000401",
+     "summary": ""
+    },
+    {
+     "date": "2025-12-15",
+     "ref_period": "Nov 2025",
+     "value": 70.1,
+     "chg_pct": 0.0,
+     "per_gram": null,
+     "forward": null,
+     "title": "CPI recreational cannabis, November 2025 (released 2025-12-15)",
+     "link": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000401",
+     "summary": ""
+    },
+    {
+     "date": "2026-01-19",
+     "ref_period": "Dec 2025",
+     "value": 70.0,
+     "chg_pct": -0.14,
+     "per_gram": null,
+     "forward": null,
+     "title": "CPI recreational cannabis, December 2025 (released 2026-01-19)",
+     "link": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000401",
+     "summary": ""
+    },
+    {
+     "date": "2026-02-17",
+     "ref_period": "Jan 2026",
+     "value": 68.8,
+     "chg_pct": -1.71,
+     "per_gram": null,
+     "forward": null,
+     "title": "CPI recreational cannabis, January 2026 (released 2026-02-17)",
+     "link": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000401",
+     "summary": ""
+    },
+    {
+     "date": "2026-03-16",
+     "ref_period": "Feb 2026",
+     "value": 69.0,
+     "chg_pct": 0.29,
+     "per_gram": null,
+     "forward": null,
+     "title": "CPI recreational cannabis, February 2026 (released 2026-03-16)",
+     "link": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000401",
+     "summary": ""
+    },
+    {
+     "date": "2026-04-20",
+     "ref_period": "Mar 2026",
+     "value": 68.8,
+     "chg_pct": -0.29,
+     "per_gram": null,
+     "forward": null,
+     "title": "CPI recreational cannabis, March 2026 (released 2026-04-20)",
+     "link": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000401",
+     "summary": ""
+    },
+    {
+     "date": "2026-05-19",
+     "ref_period": "Apr 2026",
+     "value": 69.3,
+     "chg_pct": 0.73,
+     "per_gram": null,
+     "forward": null,
+     "title": "CPI recreational cannabis, April 2026 (released 2026-05-19)",
+     "link": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000401",
+     "summary": ""
+    },
+    {
+     "date": "2026-06-22",
+     "ref_period": "May 2026",
+     "value": 69.3,
+     "chg_pct": 0.0,
+     "per_gram": null,
+     "forward": null,
+     "title": "CPI recreational cannabis, May 2026 (released 2026-06-22)",
+     "link": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000401",
+     "summary": ""
+    },
+    {
+     "date": "2026-07-20",
+     "ref_period": "Jun 2026",
+     "value": 68.6,
+     "chg_pct": -1.01,
+     "per_gram": null,
+     "forward": null,
+     "title": "CPI recreational cannabis, June 2026 (released 2026-07-20)",
+     "link": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000401",
+     "summary": ""
+    },
+    {
+     "date": "2026-08-17",
+     "ref_period": "Jul 2026",
+     "value": 69.5,
+     "chg_pct": 1.31,
+     "per_gram": null,
+     "forward": null,
+     "title": "CPI recreational cannabis, July 2026 (released 2026-08-17)",
+     "link": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000401",
+     "summary": ""
+    },
+    {
+     "date": "2026-09-14",
+     "ref_period": "Aug 2026",
+     "value": 69.1,
+     "chg_pct": -0.58,
+     "per_gram": null,
+     "forward": null,
+     "title": "CPI recreational cannabis, August 2026 (released 2026-09-14)",
+     "link": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000401",
+     "summary": ""
+    },
+    {
+     "date": "2026-10-19",
+     "ref_period": "Sep 2026",
+     "value": 69.4,
+     "chg_pct": 0.43,
+     "per_gram": null,
+     "forward": null,
+     "title": "CPI recreational cannabis, September 2026 (released 2026-10-19)",
+     "link": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000401",
+     "summary": ""
+    }
+   ]
+  },
+  {
+   "region": "Canada",
+   "label": "Canada Cannabis Spot Index (wholesale, C$/g)",
+   "source": "Cannabis Benchmarks (free public summaries)",
+   "url": "https://www.cannabisbenchmarks.com/canada-reports/feed/",
+   "status": "discontinued",
+   "cadence": "monthly",
+   "cadence_days": 31,
+   "max_age_days": 45,
+   "latest_date": "2025-10-31",
+   "period": "month",
+   "currency": "C$",
+   "unit": "/g",
+   "decimals": 2,
+   "stale": false,
    "age_days": 364,
    "points": [
     {
@@ -231,7 +411,8 @@
      "link": "https://www.cannabisbenchmarks.com/canada-reports/canada-cannabis-spot-index-october-31-2025/",
      "summary": "The CCSI was assessed at C$3.95 per gram this month, down from last month\u2019s C$4.01 per gram. This week\u2019s price equates to US$1,281 per pound at the current exchange rate. *The provincial excise taxes vary."
     }
-   ]
+   ],
+   "note": "No new free monthly summary since 2025-10-31; shown as history only."
   },
   {
    "region": "Multi-state retail",
@@ -241,5 +422,5 @@
    "note": "No machine-readable multi-state retail price feed wired yet."
   }
  ],
- "generated": "2026-10-29 22:05 EDT"
+ "generated": "2026-10-30 06:55 EDT"
 }

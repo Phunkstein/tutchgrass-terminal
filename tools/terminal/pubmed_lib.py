@@ -3,12 +3,8 @@ import json,time,urllib.request,urllib.parse,xml.etree.ElementTree as ET,re,date
 EU="https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
 UA={"User-Agent":"tutchgrass-terminal/1 (public research hub; contact via x.com/Tutchgrass)"}
 MON={m:i+1 for i,m in enumerate(['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'])}
-def _get(u):
-    for i in range(4):
-        try:
-            time.sleep(0.38); return urllib.request.urlopen(urllib.request.Request(u,headers=UA),timeout=40).read()
-        except Exception as e: err=e; time.sleep(2+2*i)
-    raise RuntimeError(f"{u}: {err}")
+import os,sys; sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
+from ncbi import fetch as _get   # throttled (<3 req/s), adds tool/email, backs off on 429
 def window(months=18,today=None):
     t=today or dt.date.today(); y,m=t.year,t.month-months
     while m<=0: m+=12;y-=1
