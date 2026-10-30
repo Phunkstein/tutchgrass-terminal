@@ -38,4 +38,4 @@ jobs:
           git config user.email "tutchgrass@mail.grokbot.com"
           python3 tools/terminal/publish.py --name "Deals" \
             --heartbeat tools/terminal/data/deals.json:6 \
-            --owned tools/terminal/data/deals.json public/terminal/data/deals.json
+            --owned tools/terminal/data/deals.json public/terminal/data/deals.json tools/terminal/data/deals_geo.json

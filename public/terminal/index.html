@@ -28,12 +28,18 @@
 <div id="sci"></div><p class="small mute" id="strain-note" style="margin:12px 0 0"></p>
 <div class="findings-h" id="findings"><h3>Latest findings</h3><a class="small" href="/terminal/findings/">All findings →</a></div><div class="fgrid" id="fgrid"></div></section>
 <section class="card span2" id="holistic"><div class="ph"><h2><span class="n">02</span>Scientist: lifestyle pairings &amp; interaction cautions</h2><span class="meta">guidelines · SRs · RCTs</span></div><div id="hol-body"></div></section>
-<section class="card span2" id="deals"><div class="ph"><h2><span class="n">03</span>Deals: dispensary deals in every legal state</h2><span class="meta" id="dl-meta"></span></div>
-<div class="dl-filters" id="dl-filters" role="group" aria-label="Filter deals"><label><span>State</span><select id="dl-state"><option value="">All states</option></select></label><label><span>City</span><select id="dl-city"><option value="">All cities</option></select></label><label><span>Chain</span><select id="dl-chain"><option value="">All chains</option></select></label></div>
+<section class="card span2" id="deals"><div class="ph"><h2><span class="n">03</span>Deals: dispensary deals near you</h2><span class="meta" id="dl-meta"></span></div>
+<div class="dl-loc" id="dl-loc"><div class="dl-lrow"><button class="btn sm" type="button" id="dl-near"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/><circle cx="12" cy="12" r="7.5"/></svg>Near me</button>
+<form class="dl-search" id="dl-search" role="search"><input id="dl-q" type="search" inputmode="search" autocomplete="postal-code" placeholder="ZIP or city, state" aria-label="ZIP code or city and state"><button class="btn sm ghost" type="submit">Go</button></form></div>
+<div class="dl-lrow"><div class="dl-cur" id="dl-cur" hidden></div><div class="dl-rad" id="dl-rad" role="group" aria-label="Distance" hidden><span>Within</span><button type="button" data-r="5">5 mi</button><button type="button" data-r="10">10 mi</button><button type="button" data-r="25">25 mi</button><button type="button" data-r="50">50 mi</button></div></div>
+<p class="dl-locmsg small dim" id="dl-locmsg" aria-live="polite"></p>
+<label class="dl-kwl"><span>Filter</span><input id="dl-kw" type="search" placeholder="gummies, vape, BOGO, chain…" aria-label="Filter deals by keyword"></label></div>
+<div class="dl-prompt" id="dl-prompt"><b>Pick a location to see deals near you.</b> Tap <i>Near me</i> or type a ZIP or city. Or browse by state:</div>
+<div class="dl-filters" id="dl-filters" role="group" aria-label="Browse deals by state"><label><span>State</span><select id="dl-state"><option value="">Choose a state</option></select></label><label><span>City</span><select id="dl-city"><option value="">All cities</option></select></label><label><span>Chain</span><select id="dl-chain"><option value="">All chains</option></select></label></div>
 <p class="dl-count small dim" id="dl-count" aria-live="polite"></p>
 <div class="dl-grid"><div class="dl-free"><div id="dl-body"><div id="dl-list" class="list"></div></div></div>
 <aside class="dl-sponsored" id="dl-sponsored" aria-label="Sponsored (example layout)"></aside></div>
-<div class="dl-foot small dim" id="dl-foot"><p><b>21+ only.</b> Deals change often: always confirm with the store before you go.</p></div></section>
+<div class="dl-foot small dim" id="dl-foot"><p><b>21+ only.</b> Deals change often: always confirm with the store before you go.</p><p><b>Your location stays on your device.</b></p></div></section>
 <section class="card span2" id="newstudies"><div class="ph"><h2><span class="n">04</span>Study Grader: new studies, explained</h2><span class="meta" id="ns-meta"></span></div>
 <p class="sub">New PubMed papers on cannabis for each condition, in plain words, with an honest grade: human RCT, meta-analysis, observational, mice only, or no placebo.</p>
 <div class="tabs" id="ns-tabs" role="tablist"></div><div id="ns-body" class="nsgrid"></div><p class="small mute" id="ns-foot"></p></section>

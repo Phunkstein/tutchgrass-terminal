@@ -1,0 +1,2081 @@
+{
+ "about": "Store addresses for the Deals tab, read from each chain's own public pages (robots.txt checked) on 2026-10-30. Key = 'STATE|Chain' as used in deals.json. Add a line here when a new chain/store is added to deals.py SOURCES; deals_geo.py geocodes any address not yet in deals_geo.json (US Census geocoder) and never re-geocodes cached ones.",
+ "stores": {
+  "AK|Catalyst Cannabis Co.": [
+   {
+    "street": "317 Muldoon Rd",
+    "city": "Anchorage",
+    "state": "AK",
+    "zip": "99504",
+    "src": "https://www.catalystcannabisco.com/dailydeals"
+   },
+   {
+    "street": "4707 Spenard Rd",
+    "city": "Anchorage",
+    "state": "AK",
+    "zip": "99517",
+    "src": "https://www.catalystcannabisco.com/dailydeals"
+   },
+   {
+    "street": "5305 E Northern Lights Blvd",
+    "city": "Anchorage",
+    "state": "AK",
+    "zip": "99508",
+    "src": "https://www.catalystcannabisco.com/dailydeals"
+   },
+   {
+    "street": "9900 Old Seward Hwy #4",
+    "city": "Anchorage",
+    "state": "AK",
+    "zip": "99515",
+    "src": "https://www.catalystcannabisco.com/locations"
+   }
+  ],
+  "AR|Good Day Farm": [
+   {
+    "street": "2008 Richardson Rd",
+    "city": "Arnold",
+    "state": "MO",
+    "zip": "63010",
+    "src": "https://gooddayfarmdispensary.com/dispensaries"
+   },
+   {
+    "street": "319 E Ashley Rd",
+    "city": "Boonville",
+    "state": "MO",
+    "zip": "65233",
+    "src": "https://gooddayfarmdispensary.com/dispensaries"
+   },
+   {
+    "street": "513 S Ash St",
+    "city": "Buffalo",
+    "state": "MO",
+    "zip": "65622",
+    "src": "https://gooddayfarmdispensary.com/dispensaries"
+   },
+   {
+    "street": "1330 Broadway St, Ste 101",
+    "city": "Cape Girardeau",
+    "state": "MO",
+    "zip": "63701",
+    "src": "https://gooddayfarmdispensary.com/dispensaries"
+   },
+   {
+    "street": "118 S Hanley Rd",
+    "city": "Clayton",
+    "state": "MO",
+    "zip": "63105",
+    "src": "https://gooddayfarmdispensary.com/dispensaries"
+   },
+   {
+    "street": "812 Vandiver Dr",
+    "city": "Columbia",
+    "state": "MO",
+    "zip": "65202",
+    "src": "https://gooddayfarmdispensary.com/dispensaries"
+   },
+   {
+    "street": "20021 State Hwy N",
+    "city": "Eagleville",
+    "state": "MO",
+    "zip": "64442",
+    "src": "https://gooddayfarmdispensary.com/dispensaries"
+   },
+   {
+    "street": "16051 Manchester Rd",
+    "city": "Ellisville",
+    "state": "MO",
+    "zip": "63011",
+    "src": "https://gooddayfarmdispensary.com/dispensaries"
+   },
+   {
+    "street": "2918 E 20th St.",
+    "city": "Joplin",
+    "state": "MO",
+    "zip": "64804",
+    "src": "https://gooddayfarmdispensary.com/dispensaries"
+   },
+   {
+    "street": "647 W 39th St",
+    "city": "Kansas City",
+    "state": "MO",
+    "zip": "64111",
+    "src": "https://gooddayfarmdispensary.com/dispensaries"
+   },
+   {
+    "street": "812 Lester St",
+    "city": "Kennett",
+    "state": "MO",
+    "zip": "63857",
+    "src": "https://gooddayfarmdispensary.com/dispensaries"
+   },
+   {
+    "street": "11600 Chenal Pkwy",
+    "city": "Little Rock",
+    "state": "AR",
+    "zip": "72211",
+    "src": "https://gooddayfarmdispensary.com/dispensaries"
+   },
+   {
+    "street": "3600 Cantrell Rd",
+    "city": "Little Rock",
+    "state": "AR",
+    "zip": "72202",
+    "src": "https://gooddayfarmdispensary.com/dispensaries"
+   },
+   {
+    "street": "1510 E Sunshine St",
+    "city": "Springfield",
+    "state": "MO",
+    "zip": "65804",
+    "src": "https://gooddayfarmdispensary.com/dispensaries"
+   },
+   {
+    "street": "3800 W Sunshine St, Suite 100",
+    "city": "Springfield",
+    "state": "MO",
+    "zip": "65807",
+    "src": "https://gooddayfarmdispensary.com/dispensaries"
+   },
+   {
+    "street": "3903 S Campbell Ave",
+    "city": "Springfield",
+    "state": "MO",
+    "zip": "65807",
+    "src": "https://gooddayfarmdispensary.com/dispensaries"
+   },
+   {
+    "street": "301 Little Hills Industrial Blvd",
+    "city": "St Charles",
+    "state": "MO",
+    "zip": "63301",
+    "src": "https://gooddayfarmdispensary.com/dispensaries"
+   },
+   {
+    "street": "1400 N Main St",
+    "city": "St Clair",
+    "state": "MO",
+    "zip": "63077",
+    "src": "https://gooddayfarmdispensary.com/dispensaries"
+   },
+   {
+    "street": "20 S Euclid Ave",
+    "city": "St. Louis",
+    "state": "MO",
+    "zip": "63108",
+    "src": "https://gooddayfarmdispensary.com/dispensaries"
+   },
+   {
+    "street": "410 Realtor Ave",
+    "city": "Texarkana",
+    "state": "AR",
+    "zip": "71854",
+    "src": "https://gooddayfarmdispensary.com/dispensaries"
+   },
+   {
+    "street": "1705 Fayetteville Road",
+    "city": "Van Buren",
+    "state": "AR",
+    "zip": "72956",
+    "src": "https://gooddayfarmdispensary.com/dispensaries"
+   }
+  ],
+  "AZ|Nirvana Cannabis": [
+   {
+    "street": "700 N Pinal Pkwy Ave",
+    "city": "Florence",
+    "state": "AZ",
+    "zip": "85132",
+    "src": "https://nirvanacannabis.com/stores"
+   },
+   {
+    "street": "2 North 35th Ave",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip": "85009",
+    "src": "https://nirvanacannabis.com/stores"
+   },
+   {
+    "street": "2330 N 75th Ave",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip": "85035",
+    "src": "https://nirvanacannabis.com/stores"
+   },
+   {
+    "street": "701 W Union Hills Dr",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip": "85027",
+    "src": "https://nirvanacannabis.com/stores"
+   },
+   {
+    "street": "6287 E Copper Hill Dr",
+    "city": "Prescott Valley",
+    "state": "AZ",
+    "zip": "86314",
+    "src": "https://nirvanacannabis.com/stores"
+   },
+   {
+    "street": "2715 S Hardy Dr",
+    "city": "Tempe",
+    "state": "AZ",
+    "zip": "85282",
+    "src": "https://nirvanacannabis.com/stores"
+   },
+   {
+    "street": "2209 S 6th Ave",
+    "city": "Tucson",
+    "state": "AZ",
+    "zip": "85713",
+    "src": "https://nirvanacannabis.com/stores"
+   }
+  ],
+  "AZ|Sticky Saguaro": [
+   {
+    "street": "12338 East Riggs Road",
+    "city": "Chandler",
+    "state": "AZ",
+    "zip": "85249",
+    "src": "https://stickysaguaro.com/deals/"
+   }
+  ],
+  "AZ|The Superior Dispensary": [
+   {
+    "street": "211 South 57th Drive",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip": "85043",
+    "src": "https://thesuperiordispensary.com/shop-deals/"
+   }
+  ],
+  "AZ|YiLo": [
+   {
+    "street": "2841 W Thunderbird Rd Ste B",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip": "85053",
+    "src": "https://yilo.com/specials"
+   },
+   {
+    "street": "4456 E Thomas Rd",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip": "85018",
+    "src": "https://yilo.com/specials"
+   }
+  ],
+  "CA|From the Earth": [
+   {
+    "street": "1600 E. Main St.",
+    "city": "Barstow",
+    "state": "CA",
+    "zip": "92311",
+    "src": "https://fromtheearth.com"
+   },
+   {
+    "street": "2790 Harbor Blvd",
+    "city": "Costa Mesa",
+    "state": "CA",
+    "zip": "92626",
+    "src": "https://fromtheearth.com"
+   },
+   {
+    "street": "18462 Skywalker Ct.",
+    "city": "Desert Hot Springs",
+    "state": "CA",
+    "zip": "92240",
+    "src": "https://fromtheearth.com/locations"
+   },
+   {
+    "street": "10250 Constellation Blvd Ste 2300a",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zip": "90067",
+    "src": "https://fromtheearth.com"
+   },
+   {
+    "street": "5408 W Adams Blvd",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zip": "90016",
+    "src": "https://fromtheearth.com"
+   },
+   {
+    "street": "3580 Fruitland Ave",
+    "city": "Maywood",
+    "state": "CA",
+    "zip": "90270",
+    "src": "https://fromtheearth.com/locations"
+   },
+   {
+    "street": "24341 Sunnymead Blvd",
+    "city": "Moreno Valley",
+    "state": "CA",
+    "zip": "92553",
+    "src": "https://fromtheearth.com"
+   },
+   {
+    "street": "2675 N. Ventura Rd., #107",
+    "city": "Port Hueneme",
+    "state": "CA",
+    "zip": "93041",
+    "src": "https://fromtheearth.com"
+   },
+   {
+    "street": "2084 S. Marina Dr.",
+    "city": "Salton City",
+    "state": "CA",
+    "zip": "92274",
+    "src": "https://fromtheearth.com"
+   },
+   {
+    "street": "3023 S Orange Ave",
+    "city": "Santa Ana",
+    "state": "CA",
+    "zip": "92707",
+    "src": "https://fromtheearth.com/contact"
+   }
+  ],
+  "CA|Gemme Verdi": [
+   {
+    "street": "899 Columbus Ave",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip": "94133",
+    "src": "https://www.gemmeverdi.com/san-francisco-cannabis-deals/"
+   }
+  ],
+  "CA|The Artist Tree": [
+   {
+    "street": "420 F Street",
+    "city": "Davis",
+    "state": "CA",
+    "zip": "95616",
+    "src": "https://theartisttree.com"
+   },
+   {
+    "street": "240 Dorset Ct.",
+    "city": "Dixon",
+    "state": "CA",
+    "zip": "95620",
+    "src": "https://theartisttree.com"
+   },
+   {
+    "street": "4100 San Pablo Dam Rd.",
+    "city": "El Sobrante",
+    "state": "CA",
+    "zip": "94803",
+    "src": "https://theartisttree.com"
+   },
+   {
+    "street": "3257 West Shaw Ave.",
+    "city": "Fresno",
+    "state": "CA",
+    "zip": "93711",
+    "src": "https://theartisttree.com"
+   },
+   {
+    "street": "7835 N. Palm Ave.",
+    "city": "Fresno",
+    "state": "CA",
+    "zip": "93711",
+    "src": "https://theartisttree.com"
+   },
+   {
+    "street": "4756 W. Imperial Highway",
+    "city": "Hawthorne",
+    "state": "CA",
+    "zip": "90304",
+    "src": "https://theartisttree.com"
+   },
+   {
+    "street": "24902 Moulton Parkway",
+    "city": "Laguna Woods",
+    "state": "CA",
+    "zip": "92637",
+    "src": "https://theartisttree.com"
+   },
+   {
+    "street": "520 S. Western Ave.",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zip": "90020",
+    "src": "https://theartisttree.com"
+   },
+   {
+    "street": "8311 Beverly Blvd.",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zip": "90048",
+    "src": "https://theartisttree.com"
+   },
+   {
+    "street": "600 N. A Street",
+    "city": "Oxnard",
+    "state": "CA",
+    "zip": "93030",
+    "src": "https://theartisttree.com"
+   },
+   {
+    "street": "8625 Santa Monica Blvd",
+    "city": "West Hollywood",
+    "state": "CA",
+    "zip": "90069",
+    "src": "https://theartisttree.com"
+   }
+  ],
+  "CA|Urbn Leaf": [
+   {
+    "street": "239 South 3rd St",
+    "city": "Grover Beach",
+    "state": "CA",
+    "zip": "93433",
+    "src": "https://www.urbnleaf.com/stores"
+   },
+   {
+    "street": "7339 El Cajon Blvd",
+    "city": "La Mesa",
+    "state": "CA",
+    "zip": "91942",
+    "src": "https://www.urbnleaf.com/stores"
+   },
+   {
+    "street": "1028 Buenos Ave.",
+    "city": "San Diego",
+    "state": "CA",
+    "zip": "92110",
+    "src": "https://www.urbnleaf.com/contact"
+   },
+   {
+    "street": "658 E San Ysidro Blvd.",
+    "city": "San Diego",
+    "state": "CA",
+    "zip": "92173",
+    "src": "https://www.urbnleaf.com/contact"
+   },
+   {
+    "street": "2943 Daylight Way",
+    "city": "San Jose",
+    "state": "CA",
+    "zip": "95111",
+    "src": "https://www.urbnleaf.com/stores"
+   },
+   {
+    "street": "909 W Vista Way",
+    "city": "Vista",
+    "state": "CA",
+    "zip": "92083",
+    "src": "https://www.urbnleaf.com/contact"
+   },
+   {
+    "street": "8477 W Sunset Blvd",
+    "city": "West Hollywood",
+    "state": "CA",
+    "zip": "90069",
+    "src": "https://www.urbnleaf.com/stores"
+   }
+  ],
+  "CO|Colorado Harvest Company": [
+   {
+    "street": "11002 E Yale Ave",
+    "city": "Aurora",
+    "state": "CO",
+    "zip": "80014",
+    "src": "https://coloradoharvestcompany.com/locations"
+   }
+  ],
+  "CO|Del Mundo": [
+   {
+    "street": "2394 S Broadway",
+    "city": "Denver",
+    "state": "CO",
+    "zip": "80210",
+    "src": "https://www.delmundocannabis.com/deals/"
+   },
+   {
+    "street": "6302 E Colfax Ave",
+    "city": "Denver",
+    "state": "CO",
+    "zip": "80220",
+    "src": "https://www.delmundocannabis.com/deals/"
+   }
+  ],
+  "CO|Simply Pure": [
+   {
+    "street": "2000 W 32nd Ave",
+    "city": "Denver",
+    "state": "CO",
+    "zip": "80211",
+    "src": "https://simplypure.com/discounts/"
+   }
+  ],
+  "CT|Shangri-La": [
+   {
+    "street": "430 Main Ave Ste 102",
+    "city": "Norwalk",
+    "state": "CT",
+    "zip": "06851",
+    "src": "https://shangriladispensaries.com/dispensaries"
+   }
+  ],
+  "DE|First State Compassion": [
+   {
+    "street": "12000 Old Vine Blvd. Unit 102",
+    "city": "Lewes",
+    "state": "DE",
+    "zip": "19958",
+    "src": "https://firststatecompassion.com/"
+   },
+   {
+    "street": "37 Germay Dr",
+    "city": "Wilmington",
+    "state": "DE",
+    "zip": "19804",
+    "src": "https://firststatecompassion.com/"
+   }
+  ],
+  "IL|Bud & Rita's": [
+   {
+    "street": "105 W Madison St",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60602",
+    "src": "https://budandritas.com/specials/"
+   },
+   {
+    "street": "1914 W Chicago Ave",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60622",
+    "src": "https://budandritas.com/specials/"
+   },
+   {
+    "street": "3425 West Belmont Avenue",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60618",
+    "src": "https://budandritas.com/specials/"
+   },
+   {
+    "street": "1401 Hickory Point Dr",
+    "city": "Forsyth",
+    "state": "IL",
+    "zip": "62535",
+    "src": "https://budandritas.com/specials/"
+   },
+   {
+    "street": "5960 W Touhy Ave",
+    "city": "Niles",
+    "state": "IL",
+    "zip": "60714",
+    "src": "https://budandritas.com/specials/"
+   },
+   {
+    "street": "1598 Dekalb Ave",
+    "city": "Sycamore",
+    "state": "IL",
+    "zip": "60178",
+    "src": "https://budandritas.com/specials/"
+   }
+  ],
+  "MA|Bask": [
+   {
+    "street": "2 Pequod Rd",
+    "city": "Fairhaven",
+    "state": "MA",
+    "zip": "02719",
+    "src": "https://cometobask.com/specials/"
+   },
+   {
+    "street": "400 Winthrop Street",
+    "city": "Taunton",
+    "state": "MA",
+    "zip": "02780",
+    "src": "https://cometobask.com/specials/"
+   }
+  ],
+  "MA|Caroline's Cannabis": [
+   {
+    "street": "4 Charlesview Rd",
+    "city": "Hopedale",
+    "state": "MA",
+    "zip": "01747",
+    "src": "https://carolinescannabis.com/contact"
+   },
+   {
+    "street": "640 Douglas St",
+    "city": "Uxbridge",
+    "state": "MA",
+    "zip": "01569",
+    "src": "https://carolinescannabis.com/contact"
+   }
+  ],
+  "MA|CommCan": [
+   {
+    "street": "611 West St",
+    "city": "Mansfield",
+    "state": "MA",
+    "zip": "02048",
+    "src": "https://commcan.com/weekly-deals-news/"
+   },
+   {
+    "street": "1525 Main St",
+    "city": "Millis",
+    "state": "MA",
+    "zip": "02054",
+    "src": "https://commcan.com/weekly-deals-news/"
+   },
+   {
+    "street": "150 Barney Ave",
+    "city": "Rehoboth",
+    "state": "MA",
+    "zip": "02769",
+    "src": "https://commcan.com/weekly-deals-news/"
+   }
+  ],
+  "MA|Massachusetts Green Retail": [
+   {
+    "street": "829 Boston St",
+    "city": "Lynn",
+    "state": "MA",
+    "zip": "01905",
+    "src": "https://massgreenretail.com/recreational-cannabis-dispensary-lynn-ma/mgr-halloween-2026-costumes-cannabis-deals-vendors-good-energy-in-lynn/"
+   }
+  ],
+  "MA|NETA": [
+   {
+    "street": "160 Washington St",
+    "city": "Brookline",
+    "state": "MA",
+    "zip": "02445",
+    "src": "https://www.netacare.org/dispensary-locations"
+   },
+   {
+    "street": "162 Grove St",
+    "city": "Franklin",
+    "state": "MA",
+    "zip": "02038",
+    "src": "https://www.netacare.org/dispensary-locations"
+   },
+   {
+    "street": "118 Conz Street",
+    "city": "Northampton",
+    "state": "MA",
+    "zip": "01060",
+    "src": "https://www.netacare.org/dispensary-locations"
+   }
+  ],
+  "MA|Pettals": [
+   {
+    "street": "40 Forest St",
+    "city": "Attleboro",
+    "state": "MA",
+    "zip": "02703",
+    "src": "https://www.pettalscannabis.com/blog/pettals-halloweek-halloween-cannabis-deals-bundles-more/"
+   },
+   {
+    "street": "144 Sturbridge Rd",
+    "city": "Charlton",
+    "state": "MA",
+    "zip": "01507",
+    "src": "https://www.pettalscannabis.com/blog/pettals-halloweek-halloween-cannabis-deals-bundles-more/"
+   }
+  ],
+  "MA|Temescal Wellness": [
+   {
+    "street": "665 Cochituate Rd. Suite B",
+    "city": "Framingham",
+    "state": "MA",
+    "zip": "01701",
+    "src": "https://temescalwellness.com/"
+   },
+   {
+    "street": "252 Coolidge St.",
+    "city": "Hudson",
+    "state": "MA",
+    "zip": "01749",
+    "src": "https://temescalwellness.com/"
+   },
+   {
+    "street": "10 Callahan Dr.",
+    "city": "Pittsfield",
+    "state": "MA",
+    "zip": "01201",
+    "src": "https://temescalwellness.com/"
+   }
+  ],
+  "MD|Haven": [
+   {
+    "street": "15300 Crain Hwy",
+    "city": "Brandywine",
+    "state": "MD",
+    "zip": "20613",
+    "src": "https://www.findinghaven.com/specials/halloween-weekend-5-off-all-edibles-happy-halloween-d/"
+   }
+  ],
+  "MD|Jenny's": [
+   {
+    "street": "9354 Lanham Severn Rd",
+    "city": "Lanham",
+    "state": "MD",
+    "zip": "20706",
+    "src": "https://jennysmaryland.com"
+   }
+  ],
+  "ME|Beach Boys Cannabis": [
+   {
+    "street": "11 Ocean Park Rd",
+    "city": "Old Orchard Beach",
+    "state": "ME",
+    "zip": "04064",
+    "src": "https://www.beachboyscannabis.com/surfreport/stoner-october-2026-deals"
+   },
+   {
+    "street": "818 Main St, Unit 2",
+    "city": "South Portland",
+    "state": "ME",
+    "zip": "04106",
+    "src": "https://www.beachboyscannabis.com/surfreport/stoner-october-2026-deals"
+   }
+  ],
+  "ME|Green Truck Farm": [
+   {
+    "street": "19 Buffum Rd, Unit 6",
+    "city": "North Berwick",
+    "state": "ME",
+    "zip": "03906",
+    "src": "https://greentruckfarm.com/specials/"
+   },
+   {
+    "street": "27 Hancock Lane",
+    "city": "Sanford",
+    "state": "ME",
+    "zip": "04073",
+    "src": "https://greentruckfarm.com/specials/"
+   }
+  ],
+  "MI|Bloom City Club": [
+   {
+    "street": "423 Miller Ave",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "zip": "48103",
+    "src": "https://www.bloomcityclub.com"
+   },
+   {
+    "street": "4120 W Stadium Dr.",
+    "city": "Kalamazoo",
+    "state": "MI",
+    "zip": "49008",
+    "src": "https://www.bloomcityclub.com"
+   },
+   {
+    "street": "37445 W Red Arrow Hwy",
+    "city": "Paw Paw",
+    "state": "MI",
+    "zip": "49079",
+    "src": "https://www.bloomcityclub.com"
+   },
+   {
+    "street": "2773 S Centerville Rd.",
+    "city": "Sturgis",
+    "state": "MI",
+    "zip": "49091",
+    "src": "https://www.bloomcityclub.com"
+   },
+   {
+    "street": "121 E. Michigan Ave",
+    "city": "Ypsilanti",
+    "state": "MI",
+    "zip": "48198",
+    "src": "https://www.bloomcityclub.com"
+   }
+  ],
+  "MI|Exclusive": [
+   {
+    "street": "3820 Varsity Dr",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "zip": "48108",
+    "src": "https://exclusivemi.com/dispensaries/locations/ann-arbor/"
+   },
+   {
+    "street": "599 E Chicago St",
+    "city": "Coldwater",
+    "state": "MI",
+    "zip": "49036",
+    "src": "https://exclusivemi.com/dispensaries/locations/ann-arbor/"
+   },
+   {
+    "street": "1385 West Main Street",
+    "city": "Gaylord",
+    "state": "MI",
+    "zip": "49735",
+    "src": "https://exclusivemi.com/dispensaries/locations/ann-arbor/"
+   },
+   {
+    "street": "2350 29th St SE",
+    "city": "Grand Rapids",
+    "state": "MI",
+    "zip": "49508",
+    "src": "https://exclusivemi.com/dispensaries/locations/ann-arbor/"
+   },
+   {
+    "street": "11941 Joseph Campau Avenue",
+    "city": "Hamtramck",
+    "state": "MI",
+    "zip": "48212",
+    "src": "https://exclusivemi.com/dispensaries/locations/ann-arbor/"
+   },
+   {
+    "street": "937 Foster Ave",
+    "city": "Kalamazoo",
+    "state": "MI",
+    "zip": "49048",
+    "src": "https://exclusivemi.com/dispensaries/locations/ann-arbor/"
+   },
+   {
+    "street": "111 W Genesee St",
+    "city": "Lapeer",
+    "state": "MI",
+    "zip": "48446",
+    "src": "https://exclusivemi.com/dispensaries/locations/ann-arbor/"
+   },
+   {
+    "street": "2384 W. Main St.",
+    "city": "Lowell",
+    "state": "MI",
+    "zip": "49331",
+    "src": "https://exclusivemi.com/dispensaries/locations/ann-arbor/"
+   },
+   {
+    "street": "14750 Laplaisance Road",
+    "city": "Monroe",
+    "state": "MI",
+    "zip": "48161",
+    "src": "https://exclusivemi.com/dispensaries/locations/ann-arbor/"
+   },
+   {
+    "street": "4515 E Apple Ave",
+    "city": "Muskegon",
+    "state": "MI",
+    "zip": "49442",
+    "src": "https://exclusivemi.com/dispensaries/locations/ann-arbor/"
+   }
+  ],
+  "MI|Flavors Detroit": [
+   {
+    "street": "5730 E 8 Mile Rd",
+    "city": "Detroit",
+    "state": "MI",
+    "zip": "48234",
+    "src": "https://www.flavorsdetroit.com/post/halloween-at-flavors-detroit-new-flower-10-eighths-5-concentrates-85-ounces"
+   }
+  ],
+  "MI|Fluresh": [
+   {
+    "street": "1213 Philips Avenue SW",
+    "city": "Grand Rapids",
+    "state": "MI",
+    "zip": "49507",
+    "src": "https://fluresh.com/contact"
+   }
+  ],
+  "MI|House of Dank": [
+   {
+    "street": "2730 Jackson Ave",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "zip": "48103",
+    "src": "https://shophod.com"
+   },
+   {
+    "street": "28557 Woodward Ave.",
+    "city": "Berkley",
+    "state": "MI",
+    "zip": "48072",
+    "src": "https://shophod.com"
+   },
+   {
+    "street": "26829 Lawrence Ave",
+    "city": "Center Line",
+    "state": "MI",
+    "zip": "48015",
+    "src": "https://shophod.com"
+   },
+   {
+    "street": "3340 E 8 Mile Rd",
+    "city": "Detroit",
+    "state": "MI",
+    "zip": "48234",
+    "src": "https://shophod.com"
+   },
+   {
+    "street": "3394 S. Fort Street",
+    "city": "Detroit",
+    "state": "MI",
+    "zip": "48217",
+    "src": "https://shophod.com"
+   },
+   {
+    "street": "32330 Ford Rd Suite C",
+    "city": "Garden City",
+    "state": "MI",
+    "zip": "48135",
+    "src": "https://shophod.com"
+   },
+   {
+    "street": "1986 S Sprinkle Rd",
+    "city": "Kalamazoo",
+    "state": "MI",
+    "zip": "49048",
+    "src": "https://shophod.com"
+   },
+   {
+    "street": "2905 N East St.",
+    "city": "Lansing",
+    "state": "MI",
+    "zip": "48906",
+    "src": "https://shophod.com"
+   },
+   {
+    "street": "200 E Genesee St.",
+    "city": "Lapeer",
+    "state": "MI",
+    "zip": "48446",
+    "src": "https://shophod.com"
+   },
+   {
+    "street": "30335 Stephenson Hwy",
+    "city": "Madison Heights",
+    "state": "MI",
+    "zip": "48071",
+    "src": "https://shophod.com/contact"
+   },
+   {
+    "street": "3054 E Holland Rd.",
+    "city": "Saginaw",
+    "state": "MI",
+    "zip": "48601",
+    "src": "https://shophod.com"
+   },
+   {
+    "street": "514 Munson Ave",
+    "city": "Traverse City",
+    "state": "MI",
+    "zip": "49686",
+    "src": "https://shophod.com"
+   },
+   {
+    "street": "80 Ecorse Rd.",
+    "city": "Ypsilanti",
+    "state": "MI",
+    "zip": "48198",
+    "src": "https://shophod.com"
+   }
+  ],
+  "MI|King of Budz": [
+   {
+    "street": "10457 Gratiot Ave",
+    "city": "Detroit",
+    "state": "MI",
+    "zip": "48213",
+    "src": "https://www.kingofbudz.com"
+   },
+   {
+    "street": "1300 E 9 Mile Rd",
+    "city": "Ferndale",
+    "state": "MI",
+    "zip": "48220",
+    "src": "https://www.kingofbudz.com/michigan/detroit/deals"
+   },
+   {
+    "street": "29245 Michigan Ave",
+    "city": "Inkster",
+    "state": "MI",
+    "zip": "48141",
+    "src": "https://www.kingofbudz.com/michigan/detroit/deals"
+   },
+   {
+    "street": "19253 Harbor Country Dr",
+    "city": "New Buffalo",
+    "state": "MI",
+    "zip": "49117",
+    "src": "https://www.kingofbudz.com/michigan/detroit/deals"
+   },
+   {
+    "street": "29999 Groesbeck Hwy",
+    "city": "Roseville",
+    "state": "MI",
+    "zip": "48066",
+    "src": "https://www.kingofbudz.com/michigan/detroit/deals"
+   },
+   {
+    "street": "20720 Eureka Rd",
+    "city": "Taylor",
+    "state": "MI",
+    "zip": "48180",
+    "src": "https://www.kingofbudz.com/michigan/detroit/deals"
+   }
+  ],
+  "MI|LIV Cannabis": [
+   {
+    "street": "12604 East Jefferson Avenue",
+    "city": "Detroit",
+    "state": "MI",
+    "zip": "48215",
+    "src": "https://livcannabis.com/locations"
+   },
+   {
+    "street": "2625 Hilton Road",
+    "city": "Ferndale",
+    "state": "MI",
+    "zip": "48220",
+    "src": "https://livcannabis.com/locations"
+   },
+   {
+    "street": "453 S Broadway St",
+    "city": "Lake Orion",
+    "state": "MI",
+    "zip": "48362",
+    "src": "https://livcannabis.com/locations"
+   },
+   {
+    "street": "6285 South Martin Luther King Jr Boulevard",
+    "city": "Lansing",
+    "state": "MI",
+    "zip": "48911",
+    "src": "https://livcannabis.com/locations"
+   },
+   {
+    "street": "45671 Woodward Avenue",
+    "city": "Pontiac",
+    "state": "MI",
+    "zip": "48341",
+    "src": "https://livcannabis.com/locations"
+   },
+   {
+    "street": "37655 Ford Road",
+    "city": "Westland",
+    "state": "MI",
+    "zip": "48185",
+    "src": "https://livcannabis.com/locations"
+   }
+  ],
+  "MI|Lume Cannabis Co.": [
+   {
+    "street": "738 S Main St",
+    "city": "Adrian",
+    "state": "MI",
+    "zip": "49221",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "2247 W Liberty St",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "zip": "48103",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "1949 W 12 Mile Rd",
+    "city": "Berkley",
+    "state": "MI",
+    "zip": "48072",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "910 S State St",
+    "city": "Big Rapids",
+    "state": "MI",
+    "zip": "49307",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "9426 Birch Run Rd.",
+    "city": "Birch Run",
+    "state": "MI",
+    "zip": "48415",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "1250 S Mitchell St",
+    "city": "Cadillac",
+    "state": "MI",
+    "zip": "49601",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "16 N Main St NE",
+    "city": "Cedar Springs",
+    "state": "MI",
+    "zip": "49319",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "351 S Willowbrook Rd",
+    "city": "Coldwater",
+    "state": "MI",
+    "zip": "49036",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "3405 Spruce Street",
+    "city": "Escanaba",
+    "state": "MI",
+    "zip": "49829",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "600 W 7th St",
+    "city": "Evart",
+    "state": "MI",
+    "zip": "49631",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "499 Dickerson Road",
+    "city": "Gaylord",
+    "state": "MI",
+    "zip": "49735",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "3075 Peregrine Dr NE",
+    "city": "Grand Rapids",
+    "state": "MI",
+    "zip": "49505",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "4162 Eastern Ave SE",
+    "city": "Grand Rapids",
+    "state": "MI",
+    "zip": "49508",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "3518 Grange Hall Rd.",
+    "city": "Holly",
+    "state": "MI",
+    "zip": "48442",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "9899 Honor Hwy",
+    "city": "Honor",
+    "state": "MI",
+    "zip": "49640",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "910 Razorback Dr",
+    "city": "Houghton",
+    "state": "MI",
+    "zip": "49931",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "119 S Stephenson Ave",
+    "city": "Iron Mountain",
+    "state": "MI",
+    "zip": "49801",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "1512 N W Ave",
+    "city": "Jackson",
+    "state": "MI",
+    "zip": "49202",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "3406 Stadium Dr",
+    "city": "Kalamazoo",
+    "state": "MI",
+    "zip": "49008",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "1425 W Main St",
+    "city": "Lowell",
+    "state": "MI",
+    "zip": "49331",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "1020 S Nicolet St",
+    "city": "Mackinaw City",
+    "state": "MI",
+    "zip": "49701",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "2812 10th St",
+    "city": "Menominee",
+    "state": "MI",
+    "zip": "49858",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "15391 South Dixie Highway",
+    "city": "Monroe",
+    "state": "MI",
+    "zip": "48161",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "850 East Main Street",
+    "city": "Morenci",
+    "state": "MI",
+    "zip": "49256",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "907 E Broomfield St",
+    "city": "Mt Pleasant",
+    "state": "MI",
+    "zip": "48858",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "116 N Washington St",
+    "city": "Owosso",
+    "state": "MI",
+    "zip": "48867",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "595 South Glaspie St",
+    "city": "Oxford",
+    "state": "MI",
+    "zip": "48371",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "15205 Tandem Court",
+    "city": "Petersburg",
+    "state": "MI",
+    "zip": "49270",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "5324 Meredith St",
+    "city": "Portage",
+    "state": "MI",
+    "zip": "49002",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "3446 State Street",
+    "city": "Saginaw",
+    "state": "MI",
+    "zip": "48602",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "246 3 Mile Rd",
+    "city": "Sault Ste. Marie",
+    "state": "MI",
+    "zip": "49783",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "26760 Lahser Rd",
+    "city": "Southfield",
+    "state": "MI",
+    "zip": "48033",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "401 West Front Street",
+    "city": "Traverse City",
+    "state": "MI",
+    "zip": "49684",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "752 Munson Ave",
+    "city": "Traverse City",
+    "state": "MI",
+    "zip": "49686",
+    "src": "https://www.lume.com/locations"
+   },
+   {
+    "street": "861 N Pontiac Trail",
+    "city": "Walled Lake",
+    "state": "MI",
+    "zip": "48390",
+    "src": "https://www.lume.com/locations"
+   }
+  ],
+  "MO|Codes": [
+   {
+    "street": "350 N Kingshighway St",
+    "city": "Cape Girardeau",
+    "state": "MO",
+    "zip": "63701",
+    "src": "https://codesdispensary.com/locations"
+   },
+   {
+    "street": "941 Washington St",
+    "city": "Chillicothe",
+    "state": "MO",
+    "zip": "64601",
+    "src": "https://codesdispensary.com/locations"
+   },
+   {
+    "street": "2421 E Jackson Blvd",
+    "city": "Jackson",
+    "state": "MO",
+    "zip": "63755",
+    "src": "https://codesdispensary.com/locations"
+   },
+   {
+    "street": "3205 Missouri Blvd",
+    "city": "Jefferson City",
+    "state": "MO",
+    "zip": "65109",
+    "src": "https://codesdispensary.com/locations"
+   },
+   {
+    "street": "6411 NW Barry Rd",
+    "city": "Kansas City",
+    "state": "MO",
+    "zip": "64154",
+    "src": "https://codesdispensary.com/locations"
+   },
+   {
+    "street": "668 E Red Bridge Rd",
+    "city": "Kansas City",
+    "state": "MO",
+    "zip": "64131",
+    "src": "https://codesdispensary.com/locations"
+   },
+   {
+    "street": "859 Robert Raymond Dr",
+    "city": "Lake Saint Louis",
+    "state": "MO",
+    "zip": "63367",
+    "src": "https://codesdispensary.com/locations"
+   },
+   {
+    "street": "321 State Hwy O",
+    "city": "Steele",
+    "state": "MO",
+    "zip": "63877",
+    "src": "https://codesdispensary.com/locations"
+   },
+   {
+    "street": "4805 Osage Beach Pkwy",
+    "city": "Osage Beach",
+    "state": "MO",
+    "zip": "65065",
+    "src": "https://codesdispensary.com/locations"
+   },
+   {
+    "street": "1201 Vincent Dr",
+    "city": "Perryville",
+    "state": "MO",
+    "zip": "63775",
+    "src": "https://codesdispensary.com/locations"
+   },
+   {
+    "street": "1905 W Foxwood Dr",
+    "city": "Raymore",
+    "state": "MO",
+    "zip": "64083",
+    "src": "https://codesdispensary.com/locations"
+   },
+   {
+    "street": "2004 W Broadway Blvd",
+    "city": "Sedalia",
+    "state": "MO",
+    "zip": "65301",
+    "src": "https://codesdispensary.com/locations"
+   },
+   {
+    "street": "1115 Hampton Ave",
+    "city": "St. Louis",
+    "state": "MO",
+    "zip": "63139",
+    "src": "https://codesdispensary.com/locations"
+   },
+   {
+    "street": "5600 S Lindbergh Blvd",
+    "city": "St. Louis",
+    "state": "MO",
+    "zip": "63123",
+    "src": "https://codesdispensary.com/locations"
+   },
+   {
+    "street": "8760 Champions Dr",
+    "city": "Taylor",
+    "state": "MO",
+    "zip": "63473",
+    "src": "https://codesdispensary.com/locations"
+   },
+   {
+    "street": "124 Richard Dr",
+    "city": "West Alton",
+    "state": "MO",
+    "zip": "63386",
+    "src": "https://codesdispensary.com/locations"
+   },
+   {
+    "street": "1636 Bruce Smith Pkwy",
+    "city": "West Plains",
+    "state": "MO",
+    "zip": "65775",
+    "src": "https://codesdispensary.com/locations"
+   }
+  ],
+  "MO|Greenlight": [
+   {
+    "street": "4451 Brown Rd",
+    "city": "Berkeley",
+    "state": "MO",
+    "zip": "63134",
+    "src": "https://greenlightdispensary.com"
+   },
+   {
+    "street": "201 S Wildwood Dr",
+    "city": "Branson",
+    "state": "MO",
+    "zip": "65616",
+    "src": "https://greenlightdispensary.com"
+   },
+   {
+    "street": "4003 Ponderosa St",
+    "city": "Columbia",
+    "state": "MO",
+    "zip": "65201",
+    "src": "https://greenlightdispensary.com"
+   },
+   {
+    "street": "517 S Florissant Rd",
+    "city": "Ferguson",
+    "state": "MO",
+    "zip": "63135",
+    "src": "https://greenlightdispensary.com"
+   },
+   {
+    "street": "11088 New Halls Ferry Road",
+    "city": "Florissant",
+    "state": "MO",
+    "zip": "63033",
+    "src": "https://greenlightdispensary.com"
+   },
+   {
+    "street": "903 E. Washington Street",
+    "city": "Hayti",
+    "state": "MO",
+    "zip": "63851",
+    "src": "https://greenlightdispensary.com"
+   },
+   {
+    "street": "3721-A S Noland Rd",
+    "city": "Independence",
+    "state": "MO",
+    "zip": "64055",
+    "src": "https://greenlightdispensary.com"
+   },
+   {
+    "street": "1729 E 7th St",
+    "city": "Joplin",
+    "state": "MO",
+    "zip": "64801",
+    "src": "https://greenlightdispensary.com"
+   },
+   {
+    "street": "13531 Madison Ave",
+    "city": "Kansas City",
+    "state": "MO",
+    "zip": "64145",
+    "src": "https://greenlightdispensary.com"
+   },
+   {
+    "street": "4900 East Bannister Rd.",
+    "city": "Kansas City",
+    "state": "MO",
+    "zip": "64137",
+    "src": "https://greenlightdispensary.com"
+   },
+   {
+    "street": "8500 Ward Parkway",
+    "city": "Kansas City",
+    "state": "MO",
+    "zip": "64114",
+    "src": "https://greenlightdispensary.com"
+   },
+   {
+    "street": "1435 N. Westwood Blvd",
+    "city": "Poplar Bluff",
+    "state": "MO",
+    "zip": "63901",
+    "src": "https://greenlightdispensary.com"
+   },
+   {
+    "street": "218 N National Ave",
+    "city": "Springfield",
+    "state": "MO",
+    "zip": "65802",
+    "src": "https://greenlightdispensary.com"
+   },
+   {
+    "street": "1001 Broadway St",
+    "city": "Cape Girardeau",
+    "state": "MO",
+    "zip": "63701",
+    "src": "https://greenlightdispensary.com"
+   },
+   {
+    "street": "6497 Chippewa St.",
+    "city": "St. Louis",
+    "state": "MO",
+    "zip": "63109",
+    "src": "https://greenlightdispensary.com"
+   },
+   {
+    "street": "9800 Manchester Rd, Suite C",
+    "city": "St. Louis",
+    "state": "MO",
+    "zip": "63119",
+    "src": "https://greenlightdispensary.com"
+   }
+  ],
+  "MT|Mission Mountain Organics": [
+   {
+    "street": "633 N Montana Ave, Unit C",
+    "city": "Helena",
+    "state": "MT",
+    "zip": "59601",
+    "src": "https://www.missionmountainorganics.com/deals"
+   },
+   {
+    "street": "600 E 8th St",
+    "city": "Whitefish",
+    "state": "MT",
+    "zip": "59937",
+    "src": "https://www.missionmountainorganics.com/deals"
+   }
+  ],
+  "MT|Spark1": [
+   {
+    "street": "400 E Broadway St",
+    "city": "Missoula",
+    "state": "MT",
+    "zip": "59802",
+    "src": "https://www.spark1mt.com/deals"
+   }
+  ],
+  "MT|The Hi-Line Co.": [
+   {
+    "street": "120 Big Pine Dr #5",
+    "city": "Big Sky",
+    "state": "MT",
+    "zip": "59716",
+    "src": "https://www.hi-line.co/locations"
+   },
+   {
+    "street": "1009 W College St",
+    "city": "Bozeman",
+    "state": "MT",
+    "zip": "59715",
+    "src": "https://www.hi-line.co/locations"
+   },
+   {
+    "street": "712 W Main St",
+    "city": "Bozeman",
+    "state": "MT",
+    "zip": "59715",
+    "src": "https://www.hi-line.co/locations"
+   },
+   {
+    "street": "7580 Pioneer Way",
+    "city": "Bozeman",
+    "state": "MT",
+    "zip": "59718",
+    "src": "https://www.hi-line.co/locations"
+   },
+   {
+    "street": "317 Railroad St",
+    "city": "Cut Bank",
+    "state": "MT",
+    "zip": "59427",
+    "src": "https://www.hi-line.co/locations"
+   },
+   {
+    "street": "1417 11th Ave",
+    "city": "Helena",
+    "state": "MT",
+    "zip": "59601",
+    "src": "https://www.hi-line.co/locations"
+   },
+   {
+    "street": "1023 E Idaho St",
+    "city": "Kalispell",
+    "state": "MT",
+    "zip": "59901",
+    "src": "https://www.hi-line.co/locations"
+   },
+   {
+    "street": "1256 W Broadway St",
+    "city": "Missoula",
+    "state": "MT",
+    "zip": "59802",
+    "src": "https://www.hi-line.co/locations"
+   },
+   {
+    "street": "624 E Broadway St",
+    "city": "Missoula",
+    "state": "MT",
+    "zip": "59802",
+    "src": "https://www.hi-line.co/locations"
+   },
+   {
+    "street": "900 Strand Ave",
+    "city": "Missoula",
+    "state": "MT",
+    "zip": "59801",
+    "src": "https://www.hi-line.co/locations"
+   }
+  ],
+  "NJ|Earth & Ivy": [
+   {
+    "street": "29 Union Ave",
+    "city": "Lakehurst",
+    "state": "NJ",
+    "zip": "08733",
+    "src": "https://earthandivy.co"
+   },
+   {
+    "street": "355 George St",
+    "city": "New Brunswick",
+    "state": "NJ",
+    "zip": "08901",
+    "src": "https://earthandivy.co"
+   }
+  ],
+  "NM|1UP Dispensary": [
+   {
+    "street": "301 Central Ave NW",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87102",
+    "src": "https://1upabq.com/deals-/-specials"
+   }
+  ],
+  "NV|Planet 13": [
+   {
+    "street": "2548 W Desert Inn Rd",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89109",
+    "src": "https://planet13.com/deals"
+   }
+  ],
+  "NY|Buzzy": [
+   {
+    "street": "137 Court St.",
+    "city": "Brooklyn",
+    "state": "NY",
+    "zip": "11201",
+    "src": "https://getbuzzy.com/event/flower-friday-10-off-tks-sensei-lead-farmer-oct-30/"
+   }
+  ],
+  "NY|Green Genius": [
+   {
+    "street": "214 3rd Ave",
+    "city": "New York",
+    "state": "NY",
+    "zip": "10003",
+    "src": "https://greengeniusnyc.com/deals/"
+   }
+  ],
+  "NY|The Daily Green": [
+   {
+    "street": "719 7th Ave",
+    "city": "New York",
+    "state": "NY",
+    "zip": "10036",
+    "src": "https://thedailygreennyc.com"
+   }
+  ],
+  "OH|Greenlight": [
+   {
+    "street": "1243 N Cassady Ave",
+    "city": "Columbus",
+    "state": "OH",
+    "zip": "43219",
+    "src": "https://ohio.greenlightdispensary.com/locations"
+   },
+   {
+    "street": "611 Campbell Ave",
+    "city": "Ironton",
+    "state": "OH",
+    "zip": "45638",
+    "src": "https://ohio.greenlightdispensary.com/locations"
+   },
+   {
+    "street": "903 Pike St",
+    "city": "Marietta",
+    "state": "OH",
+    "zip": "45750",
+    "src": "https://ohio.greenlightdispensary.com/locations"
+   },
+   {
+    "street": "5020 Milan Rd",
+    "city": "Sandusky",
+    "state": "OH",
+    "zip": "44870",
+    "src": "https://ohio.greenlightdispensary.com/locations"
+   },
+   {
+    "street": "2140 E Main St",
+    "city": "Springfield",
+    "state": "OH",
+    "zip": "45503",
+    "src": "https://ohio.greenlightdispensary.com/locations"
+   },
+   {
+    "street": "840 Canton Road",
+    "city": "Wintersville",
+    "state": "OH",
+    "zip": "43953",
+    "src": "https://ohio.greenlightdispensary.com/locations"
+   }
+  ],
+  "OH|Pure Ohio Wellness": [
+   {
+    "street": "1875 Needmore Rd",
+    "city": "Dayton",
+    "state": "OH",
+    "zip": "45414",
+    "src": "https://pureohiowellness.com/"
+   },
+   {
+    "street": "594 South Ave",
+    "city": "Tallmadge",
+    "state": "OH",
+    "zip": "44278",
+    "src": "https://pureohiowellness.com/"
+   }
+  ],
+  "OR|Bridge City Collective": [
+   {
+    "street": "215 SE Grand Ave",
+    "city": "Portland",
+    "state": "OR",
+    "zip": "97214",
+    "src": "https://bridgecitycollective.com/deals"
+   },
+   {
+    "street": "4312 N. Williams Ave",
+    "city": "Portland",
+    "state": "OR",
+    "zip": "97217",
+    "src": "https://bridgecitycollective.com/deals"
+   }
+  ],
+  "OR|Chalice": [
+   {
+    "street": "921 SE 9th Ave",
+    "city": "Albany",
+    "state": "OR",
+    "zip": "97322",
+    "src": "https://www.chalicecannabis.com/deals"
+   },
+   {
+    "street": "2205 NE Division St",
+    "city": "Bend",
+    "state": "OR",
+    "zip": "97701",
+    "src": "https://www.chalicecannabis.com/deals"
+   },
+   {
+    "street": "415 SE 3rd St",
+    "city": "Bend",
+    "state": "OR",
+    "zip": "97702",
+    "src": "https://www.chalicecannabis.com/deals"
+   },
+   {
+    "street": "588 E 11th Ave",
+    "city": "Eugene",
+    "state": "OR",
+    "zip": "97401",
+    "src": "https://www.chalicecannabis.com/deals"
+   },
+   {
+    "street": "921 7th St",
+    "city": "Oregon City",
+    "state": "OR",
+    "zip": "97045",
+    "src": "https://www.chalicecannabis.com/deals"
+   },
+   {
+    "street": "16735 SW Pacific Hwy",
+    "city": "Portland",
+    "state": "OR",
+    "zip": "97224",
+    "src": "https://www.chalicecannabis.com/deals"
+   },
+   {
+    "street": "2160 W Burnside St",
+    "city": "Portland",
+    "state": "OR",
+    "zip": "97210",
+    "src": "https://www.chalicecannabis.com/deals"
+   },
+   {
+    "street": "5333 SE Powell Blvd",
+    "city": "Portland",
+    "state": "OR",
+    "zip": "97206",
+    "src": "https://www.chalicecannabis.com/deals"
+   },
+   {
+    "street": "7170 SW Beaverton Hillsdale Hwy",
+    "city": "Portland",
+    "state": "OR",
+    "zip": "97225",
+    "src": "https://www.chalicecannabis.com/deals"
+   },
+   {
+    "street": "7625 SW Oleson Rd",
+    "city": "Portland",
+    "state": "OR",
+    "zip": "97223",
+    "src": "https://www.chalicecannabis.com/deals"
+   },
+   {
+    "street": "823 SW Naito Pkwy",
+    "city": "Portland",
+    "state": "OR",
+    "zip": "97204",
+    "src": "https://www.chalicecannabis.com/deals"
+   },
+   {
+    "street": "1077 Edgewater St NW",
+    "city": "Salem",
+    "state": "OR",
+    "zip": "97304",
+    "src": "https://www.chalicecannabis.com/deals"
+   },
+   {
+    "street": "1803 Lansing Ave NE",
+    "city": "Salem",
+    "state": "OR",
+    "zip": "97301",
+    "src": "https://www.chalicecannabis.com/deals"
+   }
+  ],
+  "PA|Vytal Options": [
+   {
+    "street": "7720 Main St",
+    "city": "Fogelsville",
+    "state": "PA",
+    "zip": "18051",
+    "src": "https://vytaloptions.com/weekly-deals/"
+   },
+   {
+    "street": "4711 Queen Ave, #101",
+    "city": "Harrisburg",
+    "state": "PA",
+    "zip": "17109",
+    "src": "https://vytaloptions.com/weekly-deals/"
+   },
+   {
+    "street": "716 W Baltimore Pike",
+    "city": "Kennett Square",
+    "state": "PA",
+    "zip": "19348",
+    "src": "https://vytaloptions.com/weekly-deals/"
+   },
+   {
+    "street": "39 E Chestnut St",
+    "city": "Lancaster",
+    "state": "PA",
+    "zip": "17602",
+    "src": "https://vytaloptions.com/weekly-deals/"
+   },
+   {
+    "street": "850 S Valley Forge Rd, Ste P",
+    "city": "Lansdale",
+    "state": "PA",
+    "zip": "19446",
+    "src": "https://vytaloptions.com/weekly-deals/"
+   },
+   {
+    "street": "1653 N Atherton St",
+    "city": "State College",
+    "state": "PA",
+    "zip": "16803",
+    "src": "https://vytaloptions.com/weekly-deals/"
+   }
+  ],
+  "RI|Slater Center": [
+   {
+    "street": "1 Corliss Street",
+    "city": "Providence",
+    "state": "RI",
+    "zip": "02904",
+    "src": "https://slatercenter.com/"
+   }
+  ],
+  "VA|Zen Leaf": [
+   {
+    "street": "2400 Cunningham Drive",
+    "city": "Hampton",
+    "state": "VA",
+    "zip": "23666",
+    "src": "https://zenleafdispensaries.com/locations"
+   },
+   {
+    "street": "7635 Granby Street",
+    "city": "Norfolk",
+    "state": "VA",
+    "zip": "23505",
+    "src": "https://zenleafdispensaries.com/locations"
+   },
+   {
+    "street": "4012 Seaboard Court",
+    "city": "Portsmouth",
+    "state": "VA",
+    "zip": "23701",
+    "src": "https://zenleafdispensaries.com/locations"
+   },
+   {
+    "street": "1238 Holland Road",
+    "city": "Suffolk",
+    "state": "VA",
+    "zip": "23434",
+    "src": "https://zenleafdispensaries.com/locations"
+   },
+   {
+    "street": "535 N Birdneck Road",
+    "city": "Virginia Beach",
+    "state": "VA",
+    "zip": "23451",
+    "src": "https://zenleafdispensaries.com/locations"
+   },
+   {
+    "street": "409 Bypass Road",
+    "city": "Williamsburg",
+    "state": "VA",
+    "zip": "23185",
+    "src": "https://zenleafdispensaries.com/locations"
+   }
+  ],
+  "WA|Clear Choice": [
+   {
+    "street": "317 S 72nd St",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip": "98408",
+    "src": "https://findclearchoice.com/tacoma-deals/"
+   },
+   {
+    "street": "8001 S Hosmer St",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip": "98408",
+    "src": "https://findclearchoice.com/tacoma-deals/"
+   }
+  ],
+  "WA|Craft Cannabis": [
+   {
+    "street": "2128 S 37th St",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip": "98409",
+    "src": "https://www.craftcannabis.com/deals"
+   },
+   {
+    "street": "6515 E Mill Plain Blvd",
+    "city": "Vancouver",
+    "state": "WA",
+    "zip": "98661",
+    "src": "https://www.craftcannabis.com/deals"
+   },
+   {
+    "street": "8603 Ne Andresen Rd",
+    "city": "Vancouver",
+    "state": "WA",
+    "zip": "98665",
+    "src": "https://www.craftcannabis.com/deals"
+   },
+   {
+    "street": "1510 N Wenatchee Ave",
+    "city": "Wenatchee",
+    "state": "WA",
+    "zip": "98801",
+    "src": "https://www.craftcannabis.com/deals"
+   },
+   {
+    "street": "907 B North Wenatchee Avenue",
+    "city": "Wenatchee",
+    "state": "WA",
+    "zip": "98801",
+    "src": "https://www.craftcannabis.com/deals"
+   }
+  ],
+  "WA|Kaleafa": [
+   {
+    "street": "401 S. Boone St. #8508",
+    "city": "Aberdeen",
+    "state": "WA",
+    "zip": "98520",
+    "src": "https://kaleafa.com"
+   }
+  ],
+  "WA|Mary Mart": [
+   {
+    "street": "3002 6th Ave",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip": "98406",
+    "src": "https://marymart.com/deals"
+   }
+  ],
+  "WV|Zen Leaf": [
+   {
+    "street": "117 Summers Street",
+    "city": "Charleston",
+    "state": "WV",
+    "zip": "25301",
+    "src": "https://zenleafdispensaries.com/locations"
+   },
+   {
+    "street": "254 Emily Dr",
+    "city": "Clarksburg",
+    "state": "WV",
+    "zip": "26301",
+    "src": "https://zenleafdispensaries.com/locations"
+   },
+   {
+    "street": "205 Venture Dr",
+    "city": "Morgantown",
+    "state": "WV",
+    "zip": "26508",
+    "src": "https://zenleafdispensaries.com/locations"
+   },
+   {
+    "street": "871 Fairmont Rd",
+    "city": "Westover",
+    "state": "WV",
+    "zip": "26501",
+    "src": "https://zenleafdispensaries.com/locations"
+   },
+   {
+    "street": "235 Warwood Ave",
+    "city": "Wheeling",
+    "state": "WV",
+    "zip": "26003",
+    "src": "https://zenleafdispensaries.com/locations"
+   }
+  ]
+ }
+}

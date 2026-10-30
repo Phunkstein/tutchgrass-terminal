@@ -164,6 +164,7 @@ def exclusive(url):
     return out
 
 from deals_page import extract as read_page
+from deals_geo import attach as locate
 def site(state,chain,store,city,url,note="",**cfg):
     """One dispensary's own deals page. city: shown text ('A · B' for several); every deal from it gets this state/city."""
     cfg.setdefault("chain_word",re.escape(re.sub(r'^The ','',chain)))
@@ -318,12 +319,16 @@ def run():
         by_state[d["state"]]=by_state.get(d["state"],0)+1
         for c in (d["cities"] or [""]):
             if c: by_city[f'{c}, {d["state"]}']=by_city.get(f'{c}, {d["state"]}',0)+1
+    try: locations,geo=locate(deals)                    # store coordinates for the distance search (cached; see deals_geo.py)
+    except Exception as e: locations,geo=[],{"error":str(e)}; [d.update(loc=[],geo="statewide") for d in deals]
     states=[{"code":k,"name":NAMES.get(k,k),"market":"adult-use + medical" if k in ADULT_USE else "medical only","deals":by_state.get(k,0),
              "sources":sum(1 for s in sources if s["state"]==k)} for k in sorted(by_state,key=lambda k:NAMES.get(k,k))]
-    obj={"schema":"deals/2","test":True,"region":"United States (all legal markets)","checked":time.strftime("%Y-%m-%d %H:%M %Z"),
+    obj={"schema":"deals/3","test":True,"region":"United States (all legal markets)","checked":time.strftime("%Y-%m-%d %H:%M %Z"),
          "count":len(deals),"chains":len(by_chain),"states_with_deals":sum(1 for v in by_state.values() if v),
          "by_state":by_state,"by_chain":by_chain,"by_city":by_city,"states":states,"sources":sources,
          "not_used":[{"name":n,"url":u,"why":w} for n,u,w in NOT_USED],"deals":deals,
+         "locations":locations,"geo":geo,
+         "geo_note":"Store addresses come from each chain's own site and were geocoded with the US Census Bureau geocoder (OpenStreetMap Nominatim as a fallback). 'city' locations are the city centre where the exact store address isn't known. Distances are worked out in your browser; your location stays on your device.",
          "state_note":"Nebraska has a medical law but no operating dispensaries yet, so it is not listed. Georgia (low-THC oil) and Texas (TCUP) are limited medical programs.",
          "sponsored":{"example":True,"label":"EXAMPLE LAYOUT","items":[],
                       "note":"Paid placement slot (not live). Sponsored deals will always be labeled and kept separate from, never ranked above, the free list."},

@@ -333,4 +333,24 @@ a.mylink{white-space:nowrap}
 #deals .dl-skel{display:grid;gap:7px;margin:10px 0}
 #deals .dl-skel i{display:block;height:12px;border-radius:4px;background:var(--line)}
 #deals .dl-skel i.s{width:60%}
-@media (max-width:760px){#deals .dl-grid{grid-template-columns:1fr}#deals .dl-sponsored{position:static}}
+#deals .dl-loc{display:grid;gap:8px;margin:2px 0 8px;max-width:720px}
+#deals .dl-lrow{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+#deals .dl-search{display:flex;gap:6px;flex:1;min-width:200px}
+#deals .dl-search input,#deals .dl-kwl input{flex:1;min-width:0;width:100%;font:inherit;font-size:15px;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--txt)}
+#deals .dl-kwl{display:flex;align-items:center;gap:8px}
+#deals .dl-kwl span,#deals .dl-rad span{font:700 10.5px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--mute)}
+#deals .dl-rad{display:flex;align-items:center;gap:4px;flex-wrap:wrap}
+#deals .dl-rad button{font:600 12.5px var(--mono);min-height:32px;padding:0 10px;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--dim);cursor:pointer}
+#deals .dl-rad button[aria-pressed=true]{background:var(--g);border-color:var(--g);color:#fff}
+#deals .dl-cur{font-size:13.5px;margin-right:6px}
+#deals .dl-x,#deals .dl-alt{font:inherit;font-size:12.5px;border:0;background:none;color:var(--g2);text-decoration:underline;cursor:pointer;padding:2px 4px}
+#deals .dl-locmsg{margin:0;min-height:0}#deals .dl-locmsg:empty{display:none}#deals .dl-locmsg.bad{color:var(--red)}
+#deals .dl-prompt{margin:4px 0 8px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--gl);font-size:14px;max-width:720px}
+#deals .dl-prompt[hidden],#deals .dl-filters[hidden]{display:none}
+#deals .dl-where{margin:0 0 2px}
+#deals .dl-mi{font:700 12px var(--mono);color:var(--teal);background:var(--tl);border-radius:5px;padding:1px 6px;margin-right:2px;white-space:nowrap}
+#deals .dl-mi.sw{color:var(--amb);background:var(--al)}
+#deals .dl-sub{font-size:14px;margin:16px 0 4px}
+#deals .dl-empty{border:1px dashed var(--line);border-radius:8px;padding:12px;background:#fff}#deals .dl-empty p{margin:0 0 8px}
+@media (max-width:760px){#deals .dl-grid{grid-template-columns:1fr}#deals .dl-filters{grid-template-columns:1fr 1fr}#deals .dl-filters label:first-child{grid-column:1/-1}#deals .dl-sponsored{position:static}}
+#deals [hidden]{display:none!important}
