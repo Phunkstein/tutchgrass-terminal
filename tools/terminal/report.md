@@ -1,4 +1,4 @@
-# Tutchgrass Labs: Scientist report
+# Cannabis Agent Terminal: Scientist report
 
 Generated 2026-10-29 22:05 EDT. Research summary, not medical advice. Talk to a doctor.
 

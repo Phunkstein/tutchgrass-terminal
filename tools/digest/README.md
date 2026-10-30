@@ -1,4 +1,4 @@
-# Tutchgrass digest / alerts
+# Cannabis Agent Terminal digest / alerts
 
 `send_digest.py` emails opted-in users the new PubMed studies for the conditions they picked (My Condition), using the Brevo transactional API (`POST https://api.brevo.com/v3/smtp/email`, header `api-key`).
 

@@ -1,4 +1,4 @@
-"""Tutchgrass Labs terminal build: runs the original Cannabis Market Terminal agents and writes
+"""Cannabis Agent Terminal terminal build: runs the original Cannabis Market Terminal agents and writes
 public/terminal/data/terminal.json for the static site. A failing source is written as 'unavailable'
 (never filled with placeholder numbers). Usage: python3 tools/terminal/build_terminal.py [--no-refresh]"""
 import json,os,subprocess,sys,time,traceback
@@ -26,7 +26,7 @@ def news_block(N):
     cats={k:[dict(title=i["title"],link=i["link"],source=i["source"],date=i["date"],summary=i["summary"][:220]) for i in v[:6]] for k,v in N["by_category"].items()}
     return dict(generated=N["generated"],total=N["total"],sources=N["sources"],by_category=cats)
 def mstat(M): return None if not M else M
-out=dict(product="Tutchgrass Labs",built=time.strftime("%Y-%m-%d %H:%M:%S %Z"),built_ts=time.time(),
+out=dict(product="Cannabis Agent Terminal",built=time.strftime("%Y-%m-%d %H:%M:%S %Z"),built_ts=time.time(),
     disclaimer="Research summary, not medical advice. Studies suggest; they do not prove. Talk to a doctor.",
     agents=S.get("agents"),scientist=S.get("scientist"),lab=S.get("lab"),wire=S.get("wire"),social=S.get("social"),feed=(S.get("feed") or [])[:40],
     source_status=S.get("source_status"),market=M,prices=P,news=news_block(N))

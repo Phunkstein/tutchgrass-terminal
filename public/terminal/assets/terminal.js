@@ -1,4 +1,4 @@
-/* Tutchgrass Labs research terminal: renders /terminal/data/terminal.json. Missing sources show "unavailable". */
+/* Cannabis Agent Terminal: renders /terminal/data/terminal.json. Missing sources show "unavailable". */
 (function(){
 const $=s=>document.querySelector(s);
 const E=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -73,16 +73,9 @@ function render(d){
     [N?N.total:'—','News items read'],[msos?'$'+num(msos.price):'n/a',`MSOS ${msos?'<em class="'+(msos.chg_pct>=0?'pos':'neg')+'">'+(msos.chg_pct>=0?'+':'')+num(msos.chg_pct)+'%</em>':'unavailable'}`],
     [usl?'$'+num(usl.value,0):'n/a',`US wholesale /lb ${usl?'<em class="'+(usl.chg_pct>=0?'pos':'neg')+'">'+(usl.chg_pct>=0?'+':'')+num(usl.chg_pct,1)+'%</em>':'unavailable'}`],[okN+'/'+srcs.length,'Sources live']];
   $('#kpis').innerHTML=K.map(k=>`<div class="kpi"><b>${k[0]}</b><span>${k[1]}</span></div>`).join('');
-  // ---- agents
-  const A=d.agents||{};const col={scientist:'#14532d',lab:'#5b3fa3',holistic:'#0e6b7a',wire:'#1f4f99',social:'#b4470f',grower:'#4d7c0f'};
-  const ag=Object.keys(A).map(k=>({k,...A[k]}));
-  ag.splice(4,0,{k:'news',name:'News & Law',status:N?`${N.total} items · ${N.sources.filter(s=>s.status==='ok').length}/${N.sources.length} feeds ok`:'unavailable',gen:N&&N.generated},
-    {k:'market',name:'Market',status:M?`${M.rows.filter(r=>r.status==='ok').length}/${M.rows.length} tickers live (Yahoo Finance)`:'unavailable',gen:M&&M.generated},
-    {k:'prices',name:'Prices',status:P?P.series.map(s=>s.region+': '+(s.status!=='ok'?'no source':s.stale?'stale':'ok')).join(' · '):'unavailable',gen:P&&P.generated});
-  const acol={news:'#8a5a00',market:'#0f766e',prices:'#334155'};
-  const anchor={scientist:'#scientist',lab:'#lab',holistic:'#holistic',wire:'#wire',social:'#social',grower:'#grower',news:'#news',market:'#market',prices:'#prices'};
-  $('#agents').innerHTML='<h3><span>Agents</span><span>'+ag.length+' running</span></h3>'+ag.map(a=>{const bad=/unavailable/.test(a.status||'');
-    return`<a class="agent" href="${anchor[a.k]||'#'}" style="--ac:${col[a.k]||acol[a.k]||'#64748b'}"><div class="t"><span class="nm">${E(a.name)}</span><span class="badge ${bad?'b-down':'b-ok'}">${bad?'DOWN':'LIVE'}</span></div><div class="st">${E(a.status||'')}</div><div class="age">${a.ts?ago(a.ts):E(a.gen||'')}</div></a>`}).join('')+
+  // ---- sidebar legend (agent statuses now live in the agents bar, agents.js)
+  const col={scientist:'#14532d',lab:'#5b3fa3',holistic:'#0e6b7a',wire:'#1f4f99',social:'#b4470f',grower:'#4d7c0f'};
+  $('#agents').innerHTML=
     '<div class="card legendcard" style="padding:12px 14px"><div class="lbl" style="margin-top:0">Evidence tags</div><div class="legend">'+['RCT','SR','GUIDELINE','REPORT','HUMAN-OBS','PRECLINICAL','HORT','CASE','REVIEW','ANECDOTAL'].map(tag).join('')+'</div><p class="small mute" style="margin:8px 0 0">RCT = randomized trial · SR = systematic review · PRECLINICAL = animal/cell only · ANECDOTAL = not evidence.</p></div>';
   // ---- scientist
   if(!S){$('#sci').innerHTML=NA('Scientist');}else{
@@ -125,7 +118,9 @@ function render(d){
   // ---- holistic / interactions
   if(!L)$('#hol-body').innerHTML=NA('Holistic');else $('#hol-body').innerHTML='<p class="small dim" style="margin-top:0">Cautions to raise with a doctor or pharmacist. Per-condition lifestyle pairings are inside each Scientist condition.</p>'+L.interactions.map(i=>`<div class="item"><b>${E(i.title)}</b><p class="small" style="margin:3px 0">${E(i.text)}</p>${cl(i.citations,2)}</div>`).join('');
   // ---- news & law
-  if(!N){$('#news-body').innerHTML=NA('News feeds');}else{const cats=Object.keys(N.by_category);
+  if(!N){$('#news-body').innerHTML=NA('News feeds');}else{const have=new Set(Object.values(N.by_category).flat().map(i=>i.title));
+    const hx=W?[...(W.news_us||[]),...(W.news_intl||[])].filter(i=>i.source==='Cannabis Health News (UK)'&&!have.has(i.title)).map(i=>({title:i.title,link:i.link,source:i.source,date:i.date,summary:(i.summary||'').slice(0,220)})):[];
+    if(hx.length)N.by_category=Object.assign({},N.by_category,{'Health (UK)':hx});const cats=Object.keys(N.by_category);
     $('#news-meta').textContent=`${N.total} items · ${N.sources.filter(s=>s.status==='ok').length}/${N.sources.length} feeds ok · ${N.generated}`;
     const show=k=>{document.querySelectorAll('#news-tabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.k===k));
       const it=N.by_category[k]||[];$('#news-body').innerHTML=it.length?it.map(n=>`<div class="item"><a class="t" href="${E(n.link)}" target="_blank" rel="noopener">${E(n.title)}</a><div class="m">${E(n.source)} · ${E(n.date)}</div><div class="small dim">${E(n.summary)}</div></div>`).join(''):'<p class="mute">Nothing new in this category.</p>'};
@@ -148,34 +143,17 @@ function render(d){
       <div class="lbl">Health posts <span class="mute">· claims people make, not evidence</span></div>${So.posts.filter(p=>p.audience==='health').slice(0,4).map(post).join('')}
       <div class="lbl">Grower posts</div>${So.posts.filter(p=>p.audience==='grow').slice(0,3).map(post).join('')}
       <div class="lbl">Trending on X News</div>${(So.news||[]).map(n=>`<div class="item"><a class="t" href="${E(n.url)}" target="_blank" rel="noopener">${E(n.title)}</a><div class="small dim">${E(n.summary)}</div></div>`).join('')||'<p class="mute small">unavailable</p>'}`;}
-  // ---- wire
-  if(!W)$('#wi-body').innerHTML=NA('PubMed');else{$('#wi-meta').textContent='PubMed newest 14 d · '+W.generated;
-    const pl=(a)=>a&&a.length?a.map(p=>`<div class="item"><a class="t" href="${E(p.url)}" target="_blank" rel="noopener">${E(p.title)}</a><div class="m">${E(p.first_author)} · ${E(p.journal)} ${E(p.year)} ${p.preclinical?tag('PRECLINICAL'):''} ${(p.pubtypes||[]).filter(t=>/Trial|Review|Meta|Observational/.test(t)).map(t=>`<span class="mute">${E(t)}</span>`).join(' ')}</div></div>`).join(''):'<p class="mute small">No new papers in the window.</p>';
-    $('#wi-body').innerHTML=`<div class="lbl" style="margin-top:0">Medical · ${W.papers_medical.length}</div><div class="scroll" style="max-height:300px">${pl(W.papers_medical)}</div><div class="lbl">Cultivation · ${W.papers_cultivation.length}</div><div class="scroll" style="max-height:240px">${pl(W.papers_cultivation)}</div>`;}
+  // ---- former Research Wire (PubMed newest 14 d + health feed): only items not shown elsewhere, folded into Study Grader and Grower Notes
+  const pl=(a,why)=>a.map(p=>`<div class="item"><a class="t" href="${E(p.url)}" target="_blank" rel="noopener">${E(p.title)}</a><div class="m">${E(p.first_author)} · ${E(p.journal)} ${E(p.year)} ${p.preclinical?tag('PRECLINICAL'):''} <span class="mute">${E(why)}</span></div></div>`).join('');
+  const nsIds=new Set(((d.newstudies||{}).papers||[]).map(p=>p.pmid));
+  if(W&&!$('#ns-extra')){const med=W.papers_medical.filter(p=>!nsIds.has(p.pmid));if(med.length)$('#ns-foot').insertAdjacentHTML('afterend',`<details class="extra" id="ns-extra"><summary class="small"><b>${med.length} more new medical papers</b> <span class="mute">· PubMed newest 14 d, not matched to a tracked condition, so not graded · ${E(W.generated)}</span></summary><div class="list">${pl(med,'not graded')}</div></details>`)}
   // ---- grower
   if(!L)$('#gr-body').innerHTML=NA('Grower notes');else $('#gr-body').innerHTML=Object.values(L.factors).map(f=>`<div class="note" style="background:#fff">${f.anecdotal?tag('ANECDOTAL')+' ':''}<b>${E(f.name)}</b><p class="small" style="margin:4px 0">${E(f.finding)}</p>${f.citations&&f.citations.length?cl(f.citations,1):`<p class="small mute">${E(f.source||'No study; grower lore only.')}</p>`}</div>`).join('');
+  if(W&&!$('#gr-papers')&&W.papers_cultivation.length)$('#gr-body').insertAdjacentHTML('afterend',`<div id="gr-papers"><div class="lbl">New cultivation papers · PubMed newest 14 d · ${W.papers_cultivation.length}</div><div class="list">${pl(W.papers_cultivation,'cultivation')}</div></div>`);
   // ---- feed + sources
   $('#feed').innerHTML=(d.feed||[]).map(f=>`<tr><td class="mono small" style="white-space:nowrap">${E(f.ts.slice(5,16))}</td><td><span class="badge" style="color:${col[f.agent]||'#475569'}">${E(f.agent.toUpperCase())}</span></td><td><b>${E(f.kind)}</b> ${E(f.what)}<div class="why">${E(f.reason)}</div></td></tr>`).join('');
   $('#src-meta').textContent=okN+'/'+srcs.length+' sources live';
   document.dispatchEvent(new CustomEvent('tg:rendered'));
   $('#sources').innerHTML=srcs.map(s=>`<span class="pill">${s.ok?'<span class="pos">●</span>':s.stale?'<span style="color:#8a5a00">●</span>':'<span class="neg">●</span>'} ${E(s.n)}${s.stale?' (stale)':s.none?' (unavailable)':''}</span>`).join('');
 }
-})();
-/* Nav state: exactly one item carries aria-current. Home at the top of /terminal/, the section in view while scrolling (scroll-spy), its own page elsewhere. */
-(function(){
-  const nav=document.querySelector('.top .nav');if(!nav)return;
-  const p=location.pathname.replace(/index\.html$/,'');if(p!=='/terminal/')return;
-  const home=nav.querySelector('a.home'),secs=[...nav.querySelectorAll('a[href^="/terminal/#"]')].map(a=>({a,el:document.getElementById(a.getAttribute('href').split('#')[1])})).filter(s=>s.el);
-  let cur;
-  function set(a){if(a===cur)return;cur=a;nav.querySelectorAll('a[aria-current]').forEach(x=>x.removeAttribute('aria-current'));
-    a.setAttribute('aria-current',a===home?'page':'location');
-    if(nav.scrollWidth>nav.clientWidth+2){const r=a.getBoundingClientRect(),n=nav.getBoundingClientRect();if(r.left<n.left||r.right>n.right)nav.scrollTo({left:nav.scrollLeft+r.left-n.left-16,behavior:'smooth'});}}
-  function spy(){const off=(document.querySelector('.top')||{offsetHeight:0}).offsetHeight+24;let best=null,bt=-1e9;
-    const atEnd=innerHeight+scrollY>=document.documentElement.scrollHeight-4;
-    for(const s of secs){const t=s.el.getBoundingClientRect().top-off;if(t<=0&&t>bt){bt=t;best=s;}}
-    if(atEnd){const vis=secs.filter(s=>s.el.getBoundingClientRect().top<innerHeight);vis.sort((x,y)=>x.el.getBoundingClientRect().top-y.el.getBoundingClientRect().top);if(vis.length)best=vis[vis.length-1];}
-    set(best?best.a:(home||nav.querySelector('a')));}
-  let q=0;const tick=()=>{if(q)return;q=requestAnimationFrame(()=>{q=0;spy();});};
-  addEventListener('scroll',tick,{passive:true});addEventListener('resize',tick);addEventListener('hashchange',()=>setTimeout(spy,60));
-  document.addEventListener('tg:rendered',()=>setTimeout(spy,60));spy();
 })();

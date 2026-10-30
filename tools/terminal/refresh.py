@@ -1,4 +1,4 @@
-"""Tutchgrass Labs refresh: runs agents, builds web/stats.json. No posting, no drafts."""
+"""Cannabis Agent Terminal refresh: runs agents, builds web/stats.json. No posting, no drafts."""
 import json,os,sys,time,traceback
 ROOT=os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0,ROOT); sys.path.insert(0,os.path.join(ROOT,"agents"))
 LOG=os.path.join(ROOT,"logs/refresh.log"); os.makedirs(os.path.dirname(LOG),exist_ok=True)
@@ -48,7 +48,7 @@ if SO:
     ev("social","READ","X search (cached)",f"{SO['source']}; topics: "+", ".join(f"{k} {v}" for k,v in sorted(SO['topic_counts'].items(),key=lambda x:-x[1])))
 else: A["social"]=dict(name="Social",job="",badge="DOWN",rule="",status="unavailable",ts=None)
 order=["scientist","lab","holistic","wire","social","grower"]
-stats=dict(product="Tutchgrass Labs",generated=time.strftime("%Y-%m-%d %H:%M:%S %Z"),generated_ts=now,disclaimer=scientist.DISCLAIMER,
+stats=dict(product="Cannabis Agent Terminal",generated=time.strftime("%Y-%m-%d %H:%M:%S %Z"),generated_ts=now,disclaimer=scientist.DISCLAIMER,
     agents={k:A[k] for k in order},scientist=S,lab=L,wire=W,social=SO,feed=feed,
     source_status=dict(pubmed=ss,lab=ls,wire=ws,social=sos,wire_sources=(W or {}).get("sources",[])))
 json.dump(stats,open(os.path.join(ROOT,"web/stats.json"),"w"),indent=1)

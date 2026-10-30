@@ -12,7 +12,7 @@ def enrich(f):
 from tgsite import header,DISC,foot as _foot,LOGO,aitag,AI_FIND
 HEAD='''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>{t}</title><meta name="description" content="{d}"><link rel="canonical" href="{u}">
-<meta property="og:type" content="article"><meta property="og:site_name" content="Tutchgrass Labs"><meta property="og:title" content="{t}"><meta property="og:description" content="{d}"><meta property="og:url" content="{u}">
+<meta property="og:type" content="article"><meta property="og:site_name" content="Cannabis Agent Terminal"><meta property="og:title" content="{t}"><meta property="og:description" content="{d}"><meta property="og:url" content="{u}">
 <meta property="og:image" content="{img}"><meta property="og:image:width" content="1600"><meta property="og:image:height" content="900"><meta property="og:image:alt" content="{t}">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{t}"><meta name="twitter:description" content="{d}"><meta name="twitter:image" content="{img}"><meta name="twitter:image:alt" content="{t}">
 <meta name="theme-color" content="#ffffff"><link rel="icon" href="/terminal/assets/logo.svg"><link rel="stylesheet" href="/terminal/assets/terminal.css"></head><body>
@@ -32,13 +32,13 @@ def page(f,allf):
 <p class="small mute" style="margin-top:14px">Studies suggest; they do not prove. Animal results may not apply to people. Not medical advice; talk to a doctor.</p></div>
 <div class="card" style="margin-top:16px"><div class="lbl" style="margin-top:0">More findings</div><ul class="small">{others}</ul><a class="btn sm" href="/terminal/account/#signup">Sign up free for new findings</a></div></main>'''
     d=f["share"]
-    return HEAD.format(t=E(f["headline"])+" | Tutchgrass Labs",d=E(d),u=E(f["url"]),img=E(SITE+f["img"]))+body+FOOT
+    return HEAD.format(t=E(f["headline"])+" | Cannabis Agent Terminal",d=E(d),u=E(f["url"]),img=E(SITE+f["img"]))+body+FOOT
 def build():
     allf=[enrich(f) for f in load()]
     os.makedirs(os.path.join(PUB,"findings"),exist_ok=True)
     for f in allf: open(os.path.join(PUB,"findings",f["slug"]+".html"),"w").write(page(f,allf))
     lst="".join(f'<a class="fcard" href="{E(f["path"])}"><img src="{E(f["img"])}" alt="" loading="lazy" width="1600" height="900"><div class="fb"><div class="fc">{E(f["condition"])}</div><b>{E(f["headline"])}</b><span class="badge grade g-{E(f["grade_cls"])}">{E(f["grade"])}</span> {aitag(AI_FIND)}</div></a>' for f in allf)
-    idx=HEAD.format(t="Latest findings | Tutchgrass Labs",d="New cannabis studies in plain words, graded honestly, with PubMed links.",u=SITE+"/terminal/findings/",img=SITE+allf[0]["img"])+f'<main class="wrap fpage"><h1>Latest findings</h1><p class="lede">New studies in plain words, graded honestly. Every finding links to PubMed.</p><div class="fgrid" style="margin-top:18px">{lst}</div><p class="ainote">{E(AI_FIND)}</p></main>'+FOOT
+    idx=HEAD.format(t="Latest findings | Cannabis Agent Terminal",d="New cannabis studies in plain words, graded honestly, with PubMed links.",u=SITE+"/terminal/findings/",img=SITE+allf[0]["img"])+f'<main class="wrap fpage"><h1>Latest findings</h1><p class="lede">New studies in plain words, graded honestly. Every finding links to PubMed.</p><div class="fgrid" style="margin-top:18px">{lst}</div><p class="ainote">{E(AI_FIND)}</p></main>'+FOOT
     open(os.path.join(PUB,"findings","index.html"),"w").write(idx)
     return allf
 if __name__=="__main__": print(len(build()),"finding pages")
