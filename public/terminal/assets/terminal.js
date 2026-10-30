@@ -161,3 +161,21 @@ function render(d){
   $('#sources').innerHTML=srcs.map(s=>`<span class="pill">${s.ok?'<span class="pos">●</span>':s.stale?'<span style="color:#8a5a00">●</span>':'<span class="neg">●</span>'} ${E(s.n)}${s.stale?' (stale)':s.none?' (unavailable)':''}</span>`).join('');
 }
 })();
+/* Nav state: exactly one item carries aria-current. Home at the top of /terminal/, the section in view while scrolling (scroll-spy), its own page elsewhere. */
+(function(){
+  const nav=document.querySelector('.top .nav');if(!nav)return;
+  const p=location.pathname.replace(/index\.html$/,'');if(p!=='/terminal/')return;
+  const home=nav.querySelector('a.home'),secs=[...nav.querySelectorAll('a[href^="/terminal/#"]')].map(a=>({a,el:document.getElementById(a.getAttribute('href').split('#')[1])})).filter(s=>s.el);
+  let cur;
+  function set(a){if(a===cur)return;cur=a;nav.querySelectorAll('a[aria-current]').forEach(x=>x.removeAttribute('aria-current'));
+    a.setAttribute('aria-current',a===home?'page':'location');
+    if(nav.scrollWidth>nav.clientWidth+2){const r=a.getBoundingClientRect(),n=nav.getBoundingClientRect();if(r.left<n.left||r.right>n.right)nav.scrollTo({left:nav.scrollLeft+r.left-n.left-16,behavior:'smooth'});}}
+  function spy(){const off=(document.querySelector('.top')||{offsetHeight:0}).offsetHeight+24;let best=null,bt=-1e9;
+    const atEnd=innerHeight+scrollY>=document.documentElement.scrollHeight-4;
+    for(const s of secs){const t=s.el.getBoundingClientRect().top-off;if(t<=0&&t>bt){bt=t;best=s;}}
+    if(atEnd){const vis=secs.filter(s=>s.el.getBoundingClientRect().top<innerHeight);vis.sort((x,y)=>x.el.getBoundingClientRect().top-y.el.getBoundingClientRect().top);if(vis.length)best=vis[vis.length-1];}
+    set(best?best.a:(home||nav.querySelector('a')));}
+  let q=0;const tick=()=>{if(q)return;q=requestAnimationFrame(()=>{q=0;spy();});};
+  addEventListener('scroll',tick,{passive:true});addEventListener('resize',tick);addEventListener('hashchange',()=>setTimeout(spy,60));
+  document.addEventListener('tg:rendered',()=>setTimeout(spy,60));spy();
+})();
