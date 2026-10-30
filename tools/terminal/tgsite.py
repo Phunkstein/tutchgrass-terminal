@@ -4,7 +4,7 @@ SITE="https://tutchgrass-terminal.onrender.com"; E=lambda s: html.escape(str(s),
 LOGO='<svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#14532d"/><g color="#fff" transform="translate(6 5) scale(.82)"><path d="M32 8c3 7 4 14 2 22 5-6 11-9 18-10-4 7-9 12-16 14 6 0 11 2 15 5-7 2-13 1-17-2 1 4 1 8-2 13-3-5-3-9-2-13-4 3-10 4-17 2 4-3 9-5 15-5-7-2-12-7-16-14 7 1 13 4 18 10-2-8-1-15 2-22z" fill="currentColor"/><path d="M32 40v16" stroke="currentColor" stroke-width="2.5"/></g></svg>'
 # Agents bar. agents.js rebuilds it from the live data (status dots, "now doing", N agents are live); this static copy is the no-JS fallback.
 # Trimmed to 5 agents (Study Grader, Market Watcher, Terpene Lab, Trend Spotter, Grower Notes, Brand Auditor, Product Checker removed from the site).
-AGENTS=[("scientist","🔬","Scientist","/terminal/#scientist"),("deals","💸","Deals","/terminal/#deals"),("news","📰","News Desk","/terminal/#news"),
+AGENTS=[("scientist","🔬","Scientist","/terminal/#scientist"),("deals","💸","Dispo Deals","/terminal/#deals"),("news","📰","News Desk","/terminal/#news"),
      ("policy","⚖️","Policy Watch","/terminal/#dec11"),("recalls","🚨","Recall &amp; Safety","/terminal/#recalls")]
 PAGE_AGENT={"home":"all","my":"scientist","findings":"scientist"}
 def _chip(k,ic,t,h,cur):
