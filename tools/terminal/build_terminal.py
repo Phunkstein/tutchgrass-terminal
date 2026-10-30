@@ -63,6 +63,9 @@ out["dec11"]=dict(deadline="2026-12-11T00:00:00-05:00",synthetic="2026-11-12T00:
     sources=[dict(label="CRS IF13136",url="https://www.congress.gov/crs-product/IF13136"),dict(label="CRS IN12620",url="https://www.congress.gov/crs-product/IN12620"),
              dict(label="7 U.S.C. 1639o",url="https://uscode.house.gov/us/usc/119-136/t7/s1639o/")],
     note="Not legal advice. Dates from the Congressional Research Service; state rules differ.")
+# ---- Policy Watch: laws now in effect / taking effect soon (status recomputed from dates at every build)
+import laws
+out["laws"]=safe(laws.assemble,"laws")
 import build_pages
 safe(build_pages.build,'pages')
 # social.json is read by refresh.py; make sure the newest copy (with refreshed X News) is used

@@ -1,7 +1,7 @@
 """Runs one group of Live Agents for the GitHub Actions workflows. Stdlib only (Python 3.12).
 
   python3 tools/terminal/agents_run.py fast     # Market Watcher (stocks + price series), Trend Spotter (X, if X_BEARER_TOKEN is set)
-  python3 tools/terminal/agents_run.py hourly   # Scientist, Terpene Lab, Grower Notes, Research Wire (refresh.py),
+  python3 tools/terminal/agents_run.py hourly   # Scientist, Terpene Lab, Grower Notes, Research Wire (refresh.py), Policy Watch laws (agents/laws.py),
                                                 #   Study Grader (newstudies.py, skips when PubMed is unchanged),
                                                 #   recent-studies harvest (harvest_conditions.py, at most once a day)
 Each step runs on its own: one failing source never stops the others and never writes placeholder data
@@ -31,6 +31,7 @@ def main(group):
     elif group=="hourly":
         run("scientist/lab/grower/wire",["refresh.py"],900)
         run("study grader",["newstudies.py"],600)
+        run("policy watch (laws in effect)",["agents/laws.py"],420)
         if conditions_due(): run("recent studies harvest",["harvest_conditions.py"],900)
         else: print("[recent studies harvest] skipped: already ran today")
     else: sys.exit("usage: agents_run.py fast|hourly")

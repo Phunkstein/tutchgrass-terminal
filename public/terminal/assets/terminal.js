@@ -36,6 +36,23 @@ TG.dec11=D=>{const el=$('#dec11');if(!el)return;if(!D){el.innerHTML=NA('Dec 11 t
   const tick=()=>{let r=Math.max(0,t-Date.now())/1000;const dd=Math.floor(r/86400);r-=dd*86400;const hh=Math.floor(r/3600);r-=hh*3600;const mm=Math.floor(r/60),ss=Math.floor(r-mm*60);
     $('#cd-d').textContent=dd;$('#cd-h').textContent=String(hh).padStart(2,'0');$('#cd-m').textContent=String(mm).padStart(2,'0');$('#cd-s').textContent=String(ss).padStart(2,'0');
     $('#cd-syn').textContent=Math.max(0,Math.ceil((syn-Date.now())/864e5))};tick();setInterval(tick,1000)};
+TG.laws=L=>{const el=$('#laws');if(!el)return;if(!L){el.innerHTML=NA('Laws in effect');return}
+  const fmt=x=>new Date(x+'T12:00:00').toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}),
+    rel=d=>d===0?'today':d>0?`in ${d} day${d===1?'':'s'}`:`${-d} day${d===-1?'':'s'} ago`,
+    row=x=>`<div class="item law${x.alert?' lawnew':''}" id="law-${E(x.id)}"><div class="m"><b class="lawst">${E(x.where)}</b> · ${x.status==='upcoming'?'Takes effect':'Took effect'} ${E(fmt(x.effective))} <span class="mute">(${rel(x.days)})</span>${x.alert?' · <span class="lawal" role="note">Just took effect</span>':''} · ${E(x.kind)}</div>
+      <div class="t">${E(x.title)}</div><p class="small dim">${E(x.plain)}</p>
+      <div class="small">${x.sources.map(s=>`<a href="${E(s.url)}" target="_blank" rel="noopener">${E(s.label)} ↗</a>`).join(' · ')} <span class="mute">· ${E(x.cite)}${x.auto?' · found automatically':''}</span></div></div>`,
+    tabs={now:{n:'Now in effect',l:L.in_effect,e:`No cannabis laws took effect in the last ${L.window.past_days} days.`},soon:{n:'Taking effect soon',l:L.upcoming,e:`Nothing takes effect in the next ${L.window.ahead_days} days.`}};
+  el.innerHTML=`<div class="lawh"><span class="lbl" style="margin:0">Laws in effect · state &amp; federal</span><span class="mono small mute">last ${L.window.past_days} days · next ${L.window.ahead_days} days · as of ${E(fmt(L.as_of))}</span></div>
+   ${L.counts.alerts?`<p class="lawbar small" role="status"><b>${L.counts.alerts} law${L.counts.alerts===1?'':'s'} just took effect:</b> ${L.alerts.map(a=>`<a href="#law-${E(a.id)}">${E(a.where)}: ${E(a.title)}</a>`).join(' · ')}</p>`:''}
+   <div class="tabs" role="tablist" id="law-tabs" aria-label="Laws by status">${Object.entries(tabs).map(([k,v])=>`<button role="tab" type="button" id="lawtab-${k}" aria-controls="law-body" data-k="${k}">${v.n} <span class="mono small">${v.l.length}</span></button>`).join('')}</div>
+   <div class="list" id="law-body" role="tabpanel" aria-live="polite"></div>
+   <p class="small mute lawft">${E(L.method)} ${E(L.note)}</p>`;
+  const show=k=>{el.querySelectorAll('#law-tabs button').forEach(b=>{const on=b.dataset.k===k;b.setAttribute('aria-selected',on);b.tabIndex=on?0:-1});
+    $('#law-body').setAttribute('aria-labelledby','lawtab-'+k);const t=tabs[k];$('#law-body').innerHTML=t.l.length?t.l.map(row).join(''):`<p class="mute">${E(t.e)}</p>`};
+  const tl=$('#law-tabs');tl.onclick=e=>{const b=e.target.closest('button');if(b)show(b.dataset.k)};
+  tl.onkeydown=e=>{if(e.key!=='ArrowRight'&&e.key!=='ArrowLeft')return;const ks=Object.keys(tabs),c=ks.indexOf(tl.querySelector('[aria-selected=true]').dataset.k),n=ks[(c+(e.key==='ArrowRight'?1:ks.length-1))%ks.length];show(n);tl.querySelector(`[data-k="${n}"]`).focus()};
+  show(L.in_effect.length?'now':'soon')};
 TG.week=d=>{const el=$('#thisweek');if(!el)return;const n=d.newstudies;if(!n){el.innerHTML=NA('New this week (PubMed)');return}
   const wk=Object.entries(n.week).filter(x=>x[1]>0).sort((a,b)=>b[1]-a[1]),tot=n.papers.filter(p=>(p.date||'')>=n.week_start).length;
   el.innerHTML=`<div class="wk"><span class="lbl" style="margin:0">New this week</span><b class="mono">${tot}</b><span class="small dim">new studies since ${E(n.week_start)}</span>${wk.map(([k,v])=>`<a class="pill" href="/terminal/my/?c=${E(k)}">${E(n.labels[k]||k)} <b class="mono">${v}</b></a>`).join('')||'<span class="small mute">None in the last 7 days.</span>'}<a class="small" href="#newstudies">See them explained →</a></div>`};
@@ -109,7 +126,7 @@ function render(d){
   }
   // ---- latest findings
   $('#fgrid').innerHTML=F.length?F.map(f=>`<div class="fcard" id="finding-${E(f.slug)}"><a href="${E(f.path)}"><img src="${E(f.img)}" alt="${E(f.headline)}" loading="lazy" width="1600" height="900"></a><div class="fb"><div class="fc">${E(f.condition)}</div><a href="${E(f.path)}" style="color:inherit"><b>${E(f.headline)}</b></a><span class="badge grade g-${E(f.grade_cls)}">${E(f.grade)}</span> ${TG.aitag(TG.AI_FIND)}<p>${E(f.summary[0])}</p>${f.strains?`<p class="st"><b>Typical strains:</b> ${E(f.strains)}</p>`:''}<p class="small">${f.studies.map(s=>`<a href="${pm(s.pmid)}" target="_blank" rel="noopener">PubMed ${E(s.pmid)}</a>`).join(' · ')}</p><div class="ft"><a class="small" href="${E(f.path)}">Read the finding →</a><button class="btn sm ghost save" type="button" data-save="finding:${E(f.slug)}">☆ Save</button><a class="btn sm xbtn" href="${E(f.x_intent)}" target="_blank" rel="noopener">Share on X</a></div></div></div>`).join(''):NA('Findings');
-  TG.dec11(d.dec11);TG.week(d);TG.feed(d);TG.board(d);
+  TG.dec11(d.dec11);TG.laws(d.laws);TG.week(d);TG.feed(d);TG.board(d);
   // ---- lab
   if(!L)$('#lab-body').innerHTML=NA('Lab');else{const sp=L.compounds.find(c=>c.id===L.spotlight_id)||L.compounds[0];
     $('#lab-meta').textContent='spotlight '+L.spotlight_rule;

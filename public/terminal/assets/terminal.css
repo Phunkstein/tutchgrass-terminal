@@ -268,3 +268,11 @@ a.mylink{white-space:nowrap}
 .brand small{text-transform:none;letter-spacing:.02em}
 @media (max-width:760px){.brand{font-size:15px;gap:8px}.brand svg{width:26px;height:26px}.brand small{display:block;font-size:10px;margin-top:2px}.auth .btn{white-space:nowrap}}
 .ascroll.atend{-webkit-mask-image:none;mask-image:none}
+
+/* Policy Watch: laws now in effect / taking effect soon */
+.lawh{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+.law .t{font-weight:600;margin:3px 0 2px}.law p{margin:0 0 4px}.lawst{color:var(--txt)}
+.lawnew{border-left:3px solid var(--red);padding-left:10px}
+.lawal{color:var(--red);font-weight:600}
+.lawbar{border-left:3px solid var(--red);padding:6px 10px;margin:0 0 8px;background:rgba(200,40,40,.05)}
+.lawft{margin:8px 0 0}

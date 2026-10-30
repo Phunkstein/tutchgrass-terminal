@@ -22,9 +22,14 @@ const R=[
  {id:'grader',nm:'Study Grader',ic:'🧪',secs:['newstudies','scoreboard'],job:'AI-grades every new cannabis paper on PubMed and ranks conditions in the evidence scoreboard.',
   f:(d)=>{const n=d.newstudies;if(!n)return null;const ts=T(n.generated),wk=n.papers.filter(p=>(p.date||'')>=n.week_start).length;const g={};n.papers.forEach(p=>g[p.grade]=(g[p.grade]||0)+1);const r=d.scoreboard||[];
    return{ts,state:st(ts,26*H),doing:`AI-graded ${n.papers.length} new papers`,src:(n.source||'PubMed')+' + National Academies 2017',log:[`Window ${n.window.start} to ${n.window.end}: ${n.papers.length} papers, ${wk} since ${n.week_start}`,`Human trials/meta-analyses ${(g.rct||0)+(g.meta||0)+(g.noplacebo||0)} · observational ${g.obs||0} · mice/cells ${(g.mice||0)+(g.cells||0)}`,r.length?`Scoreboard: ${r.length} conditions ranked, #1 ${r[0].label}`:'Scoreboard unavailable']}}},
- {id:'policy',nm:'Policy Watch',ic:'⚖️',secs:['dec11','ag-policy'],job:'Counts down to the Dec 11, 2026 federal hemp THC rule, from Congressional Research Service sources.',
-  f:(d)=>{const x=d.dec11;if(!x)return null;const ts=d.built_ts,days=Math.max(0,Math.floor((T(x.deadline)-now())/D));
-   return{ts,state:st(ts,26*H),doing:`${days} days to the Dec 11 hemp rule`,src:x.sources.map(s=>s.label).join(' · '),log:[`Deadline ${x.deadline.slice(0,10)}: ${x.headline}`,`${x.dates.length} key dates on file`,'Checked at the latest site build']}}},
+ {id:'policy',nm:'Policy Watch',ic:'⚖️',secs:['dec11','laws','ag-policy'],job:'Counts down to the Dec 11, 2026 federal hemp THC rule and flags state and federal cannabis laws that just took effect or take effect soon, each linked to its official source.',
+  f:(d)=>{const x=d.dec11,L=d.laws;if(!x&&!L)return null;const ts=d.built_ts,days=x?Math.max(0,Math.floor((T(x.deadline)-now())/D)):null,c=L&&L.counts;
+   const doing=c&&c.alerts?`${c.alerts} law${c.alerts===1?'':'s'} just took effect`:c?`${c.in_effect} laws now in effect, ${c.upcoming} coming soon`:`${days} days to the Dec 11 hemp rule`;
+   const log=[];if(c){log.push(`${c.in_effect} in effect (last ${L.window.past_days} days), ${c.upcoming} taking effect in the next ${L.window.ahead_days} days`);
+     log.push(`Federal Register: ${L.fr_status==='ok'||!L.fr_status?c.federal_register+' cannabis rules in the window':'unavailable, kept last good'}`);
+     if(c.leads)log.push(`${c.leads} news lead${c.leads===1?'':'s'} on new laws, not shown until an official source confirms`)}
+   if(x)log.push(`${days} days to the Dec 11 hemp rule: ${x.headline}`);
+   return{ts,state:st(ts,26*H),doing,src:'Official statute, regulator and legislature pages · Federal Register · CRS',log}}},
  {id:'news',nm:'News Desk',ic:'📰',secs:['news'],job:'Reads cannabis news and law RSS feeds and sorts them US federal / states / international / health.',
   f:(d,x)=>{const N=d.news;if(!N)return null;const ok=N.sources.filter(s=>s.status==='ok').length,ts=T(N.generated),b=x.breaking;
    const nb=b&&b.items?b.items.filter(i=>now()-i.first_seen_ts<6*H).length:0;
