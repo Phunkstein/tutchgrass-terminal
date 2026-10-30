@@ -1,4 +1,8 @@
-"""Deals agent (TEST): current dispensary deals and specials, Michigan first, licensed THC dispensaries only (no hemp shops).
+"""Deals agent (TEST): current dispensary deals and specials across US legal cannabis markets (every state + DC with
+licensed adult-use or medical dispensaries), licensed THC dispensaries only (no hemp shops).
+
+Adding a state = adding sources: append a site(...) line to SOURCES below with its state, city and page URL.
+The generic page reader (deals_page.py) keeps only lines that state a concrete deal, in the page's own words.
 
 Free, public sources only: each dispensary's OWN deals page or homepage, read as server-rendered HTML with one GET.
 Before fetching a page, the agent reads that site's robots.txt and skips the page if robots disallows it. Nothing
@@ -21,11 +25,15 @@ TODAY=dt.date.today()
 PER_STORE=10          # keep the tab readable; the rest stay on the store's own page ("more" link)
 ROBOTS={}
 
+def _dom(u): return ".".join(urlparse(u).netloc.lower().split(".")[-2:])
 def get(url,timeout=30):
-    r=subprocess.run(["curl","-sL","-m",str(timeout),"-A",UA,"-w","\n%{http_code}",url],capture_output=True)
+    r=subprocess.run(["curl","-sL","-m",str(timeout),"-A",UA,"-w","\n%{http_code} %{url_effective}",url],capture_output=True)
     if r.returncode: raise RuntimeError(f"network error (curl {r.returncode})")
-    body,_,code=r.stdout.decode("utf-8","replace").rpartition("\n")
+    body,_,tail=r.stdout.decode("utf-8","replace").rpartition("\n"); code,_,eff=tail.partition(" ")
     if code!="200": raise RuntimeError(f"HTTP {code}")
+    if eff and _dom(eff)!=_dom(url) and not url.endswith("/robots.txt"):
+        raise RuntimeError(f"page redirects to another site ({urlparse(eff).netloc}, e.g. a menu platform); not used")
+    if re.search(r'cf-chl|Just a moment\.\.\.|Attention Required|px-captcha',body[:8000]): raise RuntimeError("bot-check page instead of content")
     return body
 def robots_ok(url):
     p=urlparse(url); base=f"{p.scheme}://{p.netloc}"
@@ -45,8 +53,8 @@ def md(s,year=None):
     if y<100: y+=2000
     try: return dt.date(y,int(m.group(1)),int(m.group(2)))
     except ValueError: return None
-def D(chain,store,city,text,url,valid="",until=None,kind="limited",note=""):
-    return {"chain":chain,"store":store,"city":city,"state":"MI","deal":re.sub(r'\s+',' ',text).strip(),
+def D(chain,store,city,text,url,valid="",until=None,kind="limited",note="",state="MI",cities=None):
+    return {"chain":chain,"store":store,"city":city,"cities":cities or [c.strip() for c in re.split(r'\s*[·,]\s*',city) if c.strip() and not re.search(r'statewide|multiple|locations|peninsula|stores',c,re.I)],"state":state,"deal":re.sub(r'\s+',' ',text).strip(),
             "valid":valid,"until":until.isoformat() if until else "","kind":kind,"note":note,
             "collected":TODAY.isoformat(),"url":url}
 
@@ -155,30 +163,143 @@ def exclusive(url):
     m=re.search(r"(you(?:&#8217;|’|')ll earn \$25 in store credit when you refer a friend)",h)
     return out
 
+from deals_page import extract as read_page
+def site(state,chain,store,city,url,note="",**cfg):
+    """One dispensary's own deals page. city: shown text ('A · B' for several); every deal from it gets this state/city."""
+    cfg.setdefault("chain_word",re.escape(re.sub(r'^The ','',chain)))
+    def fn(u):
+        out=[]
+        for x in read_page(get(u),cfg):
+            st,c,sto=(x["region"] or (state,city,store))
+            out.append(D(chain,sto or store,c or city,x["deal"],u,x["valid"],dt.date.fromisoformat(x["until"]) if x["until"] else None,x["kind"],note,st or state))
+        return out
+    return (state,f"{chain}" + (f" – {store}" if store and store!=chain else ""),url,fn)
+
+# Every US state + DC with licensed dispensaries (adult-use or medical). Counts are reported for all of them, zeros included.
+ADULT_USE=["AK","AZ","CA","CO","CT","DE","DC","IL","ME","MD","MA","MI","MN","MO","MT","NV","NJ","NM","NY","OH","OR","RI","VT","VA","WA"]
+MEDICAL=["AL","AR","FL","GA","HI","IA","KY","LA","MS","NH","ND","OK","PA","SD","TX","UT","WV"]
+NAMES={"AK":"Alaska","AL":"Alabama","AR":"Arkansas","AZ":"Arizona","CA":"California","CO":"Colorado","CT":"Connecticut","DC":"District of Columbia","DE":"Delaware",
+ "FL":"Florida","GA":"Georgia","HI":"Hawaii","IA":"Iowa","IL":"Illinois","KY":"Kentucky","LA":"Louisiana","MA":"Massachusetts","MD":"Maryland","ME":"Maine",
+ "MI":"Michigan","MN":"Minnesota","MO":"Missouri","MS":"Mississippi","MT":"Montana","ND":"North Dakota","NH":"New Hampshire","NJ":"New Jersey","NM":"New Mexico",
+ "NV":"Nevada","NY":"New York","OH":"Ohio","OK":"Oklahoma","OR":"Oregon","PA":"Pennsylvania","RI":"Rhode Island","SD":"South Dakota","TX":"Texas","UT":"Utah",
+ "VA":"Virginia","VT":"Vermont","WA":"Washington","WV":"West Virginia"}
+HOD={"gratiot":"Detroit","recreational-cannabis-8-mile":"Detroit","woodward":"Detroit","recreational-cannabis-fort-st":"Detroit","lansing":"Lansing",
+     "grand-rapids":"Grand Rapids","kalamazoo-rec":"Kalamazoo","ann-arbor-rec":"Ann Arbor","ypsilanti":"Ypsilanti","centerline":"Center Line",
+     "garden-city":"Garden City","saginaw":"Saginaw","traverse-city-rec":"Traverse City","lapeer":"Lapeer","monroe-laplaisance":"Monroe","new-buffalo":"New Buffalo"}
+HOD_NAME={"recreational-cannabis-8-mile":"8 Mile","recreational-cannabis-fort-st":"Fort St","gratiot":"Gratiot","woodward":"Woodward"}
 SOURCES=[
- ("The Fire Station (Upper Peninsula)","https://thefirestation.com/deals/",fire_station),
- ("Bloom City Club","https://www.bloomcityclub.com/cannabis-deals-promotions/",bloom_city),
- *[(f"King of Budz {c}",f"https://www.kingofbudz.com/michigan/{s}/deals",king_of_budz) for s,c in KOB_CITY.items()],
- ("Cannabis Club New Buffalo","https://www.cannabisclubmi.com/deals/",cannabis_club),
- ("Lume Cannabis Co.","https://www.lume.com/",lume),
- ("LIV Cannabis","https://livcannabis.com/",liv),
- ("Fluresh","https://fluresh.com/deals/",fluresh),
- ("Exclusive Ann Arbor","https://exclusivemi.com/dispensaries/locations/ann-arbor/",exclusive),
+ # ---- Michigan (hand-written readers first, then generic pages)
+ ("MI","The Fire Station (Upper Peninsula)","https://thefirestation.com/deals/",fire_station),
+ ("MI","Bloom City Club","https://www.bloomcityclub.com/cannabis-deals-promotions/",bloom_city),
+ *[("MI",f"King of Budz {c}",f"https://www.kingofbudz.com/michigan/{s}/deals",king_of_budz) for s,c in KOB_CITY.items()],
+ ("MI","Cannabis Club New Buffalo","https://www.cannabisclubmi.com/deals/",cannabis_club),
+ ("MI","Lume Cannabis Co.","https://www.lume.com/",lume),
+ ("MI","LIV Cannabis","https://livcannabis.com/",liv),
+ ("MI","Fluresh","https://fluresh.com/deals/",fluresh),
+ ("MI","Exclusive Ann Arbor","https://exclusivemi.com/dispensaries/locations/ann-arbor/",exclusive),
+ *[site("MI","House of Dank",f"House of Dank {HOD_NAME.get(k,c)}",c,f"https://shophod.com/stores/house-of-dank-{k}",start=r'DELI HAPPY HOUR|HAPPY HOUR|% OFF',
+      skip=r'(?:SECOND|THIRD|FOURTH|FIFTH|2ND|3RD|4TH|5TH) VISIT|^\W*\d0% OFF ONE (?:FULL PRICED |REGULAR PRICED )?ITEM\W*$') for k,c in HOD.items()],
+ site("MI","Wayne Releaf","Wayne Releaf","Detroit","https://waynereleaf.com/specials/"),
+ site("MI","Flavors Detroit","Flavors Detroit","Detroit","https://www.flavorsdetroit.com/post/halloween-at-flavors-detroit-new-flower-10-eighths-5-concentrates-85-ounces",
+      "Store blog post; no end date stated."),
+ # ---- other states (one line per dispensary page)
+ site("AK","Catalyst Cannabis Co.","Catalyst Cannabis Co.","Anchorage","https://www.catalystcannabisco.com/dailydeals"),
+ site("AR","Good Day Farm","Good Day Farm (Arkansas & Missouri stores)","Little Rock · Hensley · Monticello · Texarkana · Van Buren","https://gooddayfarmdispensary.com/specials/",
+      "One page covers Good Day Farm's Arkansas and Missouri stores; check your store.",prefix_prev=True),
+ site("AZ","Nirvana Cannabis","Nirvana West Phoenix","Phoenix","https://nirvanacannabis.com/deals/west-phoenix-az/"),
+ site("AZ","Nirvana Cannabis","Nirvana North Phoenix","Phoenix","https://nirvanacannabis.com/deals/north-phoenix-az/"),
+ site("AZ","The Superior Dispensary","The Superior Dispensary","Phoenix","https://thesuperiordispensary.com/shop-deals/"),
+ site("AZ","Sticky Saguaro","Sticky Saguaro","Chandler","https://stickysaguaro.com/deals/"),
+ site("AZ","YiLo","YiLo Superstore","Phoenix","https://yilo.com/specials"),
+ site("CA","The Artist Tree","The Artist Tree (California stores)","El Sobrante · Fresno · Hawthorne · Beverly Hills · Koreatown · Laguna Woods · Oxnard · West Hollywood",
+      "https://theartisttree.com/daily-deals","Page says daily deals run through the end of the calendar month unless noted; pick your store on their site.",prefix_prev=True),
+ site("CA","From the Earth","From the Earth","Santa Ana · Port Hueneme","https://fromtheearth.com/deals"),
+ site("CA","Gemme Verdi","Gemme Verdi","San Francisco","https://www.gemmeverdi.com/san-francisco-cannabis-deals/"),
+ site("CA","Urbn Leaf","Urbn Leaf","San Diego","https://www.urbnleaf.com/deals",skip=r'^Urbn Leaf Deals'),
+ site("CO","Lightshade","Lightshade","Denver · Aurora · Federal Heights","https://lightshade.com/",prefix_prev=True,start=r'WEEKLY DEALS',end=r'DISPENSARY LOCATIONS'),
+ site("CO","Del Mundo","Del Mundo Cannabis","Denver","https://www.delmundocannabis.com/deals/"),
+ site("CO","Simply Pure","Simply Pure","Denver","https://simplypure.com/discounts/"),
+ site("CO","Colorado Harvest Company","Colorado Harvest Company","Denver · Aurora","https://coloradoharvestcompany.com/event/october-vendor-of-the-month-2026/",
+      range=r'(?:Oct(?:ober)?\.?\s*\d{1,2}|\d{1,2}/\d{1,2})(?:/\d{2,4})?\s*(?:[-–—]|to|through)\s*(?:Oct(?:ober)?\.?\s*\d{1,2}|\d{1,2}/\d{1,2})(?:/\d{2,4})?'),
+ site("CT","Fine Fettle","Fine Fettle (Connecticut stores)","","https://www.finefettle.com/ct-daily-deals/"),
+ site("CT","Shangri-La","Shangri-La Waterbury","Waterbury","https://shangriladispensaries.com/stores/shangri-la-waterbury"),
+ site("DC","Firehouse DC","Firehouse DC","Washington","https://www.firehousedc.com/daily-deals/"),
+ site("DC","Cookies D.C.","Cookies D.C.","Washington","https://dc.cookies.co/specials/"),
+ site("DE","First State Compassion","First State Compassion","Lewes · Wilmington","https://firststatecompassion.com/"),
+ site("FL","Trulieve","Trulieve (Florida stores)","","https://www.trulieve.com/discover/promotions/florida","Statewide promotions page; check your store."),
+ site("IL","Bud & Rita's","Bud & Rita's","Chicago · Niles · Wadsworth · Sycamore · Forsyth","https://budandritas.com/specials/"),
+ site("IL","Planet 13","Planet 13 Illinois","Waukegan","https://planet13.com/stores/planet-13-illinois-llc/specials"),
+ site("IL","Altius","Altius Round Lake Beach","Round Lake Beach","https://shop.altiusdispensary.com/locations/IL/round-lake-beach/menu/discounts"),
+ site("MA","Caroline's Cannabis","Caroline's Cannabis","Uxbridge · Hopedale","https://carolinescannabis.com/specials"),
+ site("MA","Temescal Wellness","Temescal Wellness (Massachusetts)","Framingham · Hudson · Pittsfield","https://temescalwellness.com/"),
+ site("MA","Bask","Bask","Taunton · Fairhaven","https://cometobask.com/specials/"),
+ site("MA","Fine Fettle","Fine Fettle (Massachusetts stores)","","https://www.finefettle.com/ma-daily-deals/"),
+ site("MA","Pettals","Pettals Cannabis","Attleboro · Charlton","https://www.pettalscannabis.com/blog/pettals-halloweek-halloween-cannabis-deals-bundles-more/",dated_only=True),
+ site("MA","Massachusetts Green Retail","Massachusetts Green Retail","Lynn","https://massgreenretail.com/recreational-cannabis-dispensary-lynn-ma/mgr-halloween-2026-costumes-cannabis-deals-vendors-good-energy-in-lynn/",
+      range=r'(?:Friday,\s*)?October 30.{0,40}October 31'),
+ site("MA","CommCan","CommCan","Millis · Mansfield · Rehoboth","https://commcan.com/weekly-deals-news/"),
+ site("MA","NETA","NETA","Brookline · Northampton","https://www.netacare.org/specials"),
+ site("MD","Jenny's","Jenny's Maryland","","https://jennysmaryland.com/specials"),
+ site("MD","Haven","Haven Brandywine","Brandywine","https://www.findinghaven.com/specials/halloween-weekend-5-off-all-edibles-happy-halloween-d/","Halloween weekend offer; exact dates not stated."),
+ site("MD","Trulieve","Trulieve (Maryland stores)","","https://www.trulieve.com/discover/promotions/maryland","Statewide promotions page; check your store."),
+ site("ME","Green Truck Farm","Green Truck Farm","North Berwick · Sanford · Kittery","https://greentruckfarm.com/specials/",prefix_prev=True),
+ site("ME","Beach Boys Cannabis","Beach Boys Cannabis Co.","South Portland · Old Orchard Beach","https://www.beachboyscannabis.com/surfreport/stoner-october-2026-deals"),
+ site("MO","Greenlight","Greenlight (Missouri stores)","","https://greenlightdispensary.com/greenlight-marijuana-specials/",
+      regions=[(r'^MO WEST\b',"MO","Western Missouri stores",""),(r'^MO COLUMBIA',"MO","Columbia · St. Louis","")]),
+ site("MO","Codes","Codes (Missouri stores)","Kansas City","https://codesdispensary.com/specials/",prefix_prev=True),
+ site("MO","Proper Cannabis","Proper Cannabis (all locations)","","https://propercannabis.com/specials"),
+ site("MS","Star Buds","Star Buds Oxford","Oxford","https://www.starbuds.us/oxford"),
+ site("MT","The Hi-Line Co.","The Hi-Line Co. (Montana stores)","","https://www.hi-line.co/daily-deals/",prefix_prev=True),
+ site("MT","Lone Peak Cannabis","Lone Peak Cannabis Co. (all MT stores)","Bozeman","https://lonepeakcannabiscompany.com/"),
+ site("MT","Mission Mountain Organics","Mission Mountain Organics","Whitefish · Helena","https://www.missionmountainorganics.com/deals"),
+ site("MT","Spark1","Spark1","Missoula","https://www.spark1mt.com/deals"),
+ site("MT","Top Shelf Botanicals","Top Shelf Botanicals","Bozeman · Great Falls · Helena","https://topshelfbotanicals.com/daily-deals/"),
+ site("NJ","Earth & Ivy","Earth & Ivy","New Brunswick · Lakehurst","https://earthandivy.co/discounts/"),
+ site("NJ","Valley Wellness","Valley Wellness","Raritan","https://valleywellnessnj.com/"),
+ site("NM","1UP Dispensary","1UP Dispensary","Albuquerque","https://1upabq.com/deals-/-specials"),
+ site("NV","Planet 13","Planet 13 Las Vegas","Las Vegas","https://planet13.com/deals"),
+ site("NV","Inyo","Inyo Fine Cannabis","Las Vegas","https://inyolasvegas.com/deals"),
+ site("NY","Green Genius","Green Genius","New York (Manhattan)","https://greengeniusnyc.com/deals/",prefix_prev=True),
+ site("NY","Housing Works Cannabis Co.","Housing Works Cannabis Co. (Broadway)","New York (Manhattan)","https://hwcannabis.co/deals/broadway/",prefix_prev=True),
+ site("NY","Buzzy","Buzzy","Brooklyn","https://getbuzzy.com/event/flower-friday-10-off-tks-sensei-lead-farmer-oct-30/",range=r'Oct(?:ober)?\.?\s*30\b(?:,?\s*2026)?'),
+ site("NY","The Daily Green","The Daily Green","New York","https://thedailygreennyc.com/specials/halloween-b2g1-mix-n-match-edibles/"),
+ site("OH","Greenlight","Greenlight (Ohio stores)","","https://ohio.greenlightdispensary.com/greenlight-marijuana-specials/"),
+ site("OH","Pure Ohio Wellness","Pure Ohio Wellness","Dayton · London · Tallmadge","https://pureohiowellness.com/"),
+ site("OR","Bridge City Collective","Bridge City Collective","Portland","https://bridgecitycollective.com/deals"),
+ site("OR","Chalice","Chalice (Oregon stores)","","https://www.chalicecannabis.com/deals"),
+ site("PA","Vytal Options","Vytal Options","Harrisburg · Kennett Square · State College · Lancaster · Lansdale · Fogelsville","https://vytaloptions.com/weekly-deals/",
+      range=r'Monday,?\s*October\s*\d{1,2}\s*[-–]\s*\w+,?\s*(?:October|November)\s*\d{1,2}',range_required=False),
+ site("RI","Slater Center","Slater Center","Providence","https://slatercenter.com/"),
+ site("SD","Good Company Cannabis","Good Company Cannabis","Sioux Falls","https://shop.cannacaresf.com/stores/cannacare-sioux-falls"),
+ site("VA","Zen Leaf","Zen Leaf Norfolk","Norfolk","https://zenleafdispensaries.com/locations/norfolk/menu/medical/menu",prefix_prev=True),
+ site("WA","Craft Cannabis","Craft Cannabis Andresen","Vancouver","https://www.craftcannabis.com/deals"),
+ site("WA","Kaleafa","Kaleafa (Washington stores)","Aberdeen · Des Moines · Oak Harbor","https://kaleafa.com/deals",
+      regions=[(r'^Aberdeen Deals',"WA","Aberdeen","Kaleafa Aberdeen"),(r'^Des Moines Deals',"WA","Des Moines","Kaleafa Des Moines"),(r'^Oak Harbor Deals',"WA","Oak Harbor","Kaleafa Oak Harbor")]),
+ site("WA","Mary Mart","Mary Mart","Tacoma","https://marymart.com/deals"),
+ site("WA","Clear Choice","Clear Choice Tacoma","Tacoma","https://findclearchoice.com/tacoma-deals/"),
+ site("WV","Zen Leaf","Zen Leaf Morgantown","Morgantown","https://zenleafdispensaries.com/locations/morgantown/medical-menu/menu/discounts",prefix_prev=True),
 ]
 # Checked by hand while building the test and NOT used (reason kept so the gap is visible on the tab):
 NOT_USED=[
- ("Nirvana Center","https://nirvanacenter.com/specials/","Page is public, but every Michigan deal on it is dated 2025 (expired)."),
- ("JARS, Zen Leaf, High Profile, Ascend, Gage, Common Citizen, Dunegrass, Pure Options, Joyology","","Deals load in the browser from a menu platform (no server-side deal text); not scraped."),
- ("House of Dank, Cloud, Greenhouse, Pinnacle, Stash, Pleasantrees, Herbana, Skymint","","Site timed out or returned an error to our fetch."),
- ("Puff, Breeze, Nature's Remedy, Quality Roots","","Site returned a bot-check page instead of content."),
- ("Dutchie, Jane, Weedmaps, Leafly","","Not used: partner/API access only or their terms bar scraping."),
- ("Deals inbox","","Newsletters received so far had no Michigan deal text (out-of-state stores / a sign-up confirmation)."),
+ ("Nirvana Center (Michigan)","https://nirvanacenter.com/specials/","Every Michigan deal on it is dated 2025 (expired)."),
+ ("JARS, Zen Leaf MI, High Profile, Ascend, Gage, Common Citizen, Dunegrass, Pure Options, Joyology (MI); Curaleaf, RISE, Zen Leaf PA (multi-state)","","Deals load in the browser from a menu platform, or the site blocked our fetch; not scraped."),
+ ("Cloud, Greenhouse, Pinnacle, Stash, Pleasantrees, Herbana, Skymint (MI)","","Site timed out or returned an error to our fetch."),
+ ("Puff, Breeze, Nature's Remedy, Quality Roots (MI)","","Site returned a bot-check page instead of content."),
+ ("Airfield Supply (CA), STIIIZY, Sweet Flower, MediThrive","","Deals page redirects to a menu platform (stiiizy.dispensary.shop / flowercompany.com) or is a pop-up only."),
+ ("The Source, NuLeaf (NV); Wholesome, Dragonfly (UT); Apothecarium (NJ); Frostbite (MN)","","Product menu (prices per item from a menu platform), not a deals page."),
+ ("Cultivate (NV)","https://cultivatelv.com/deals","Posts mix several days' deals in one block, so current vs expired can't be told apart reliably."),
+ ("Thrive (DE/IL/MD/MA/OH), RISE (PA), Star Buds IL, Ritual (OK)","","Site returned 403 / no response to our fetch."),
+ ("Rebud, SPARC, Moe Greens, LAX Cannabis Club (CA); Green Legacy, Don Fuego (DC); Waabigwan (MN); No Worries (SD); ANC (AZ)","","No deal text in the page's server HTML (loads in the browser) or only rewards text."),
+ ("Aggregators: Weedmaps, Leafly, Dutchie, Jane, Calm Effect, PuffPrice, Leefii, Leafbuyer, findweedny, terptaxi","","Not used: partner/API only, terms bar scraping, or not the dispensary's own page."),
+ ("Scarlet Reserve Room (NJ)","https://scarletreserveroom.com/35-off-cannabis-nj-fall-sale/","A sale blog post with no stated end date, so it can't be confirmed as current."),
+ ("Planet 13 Illinois","","Old deals page now redirects to a separate site (planet13illinois.com); not checked yet."),
+ ("Deals inbox","","Newsletters received so far had no usable deal text (sign-up confirmations)."),
 ]
 
 def run():
     deals=[]; sources=[]
-    for name,url,fn in SOURCES:
-        s={"name":name,"url":url,"robots":"","status":"","deals":0}
+    for state,name,url,fn in SOURCES:
+        s={"state":state,"name":name,"url":url,"robots":"","status":"","deals":0}
         try:
             if not robots_ok(url): s.update(robots="disallowed",status="skipped: robots.txt disallows this page"); sources.append(s); continue
             s["robots"]="allowed"; got=fn(url); kept=[]; per={}
@@ -187,21 +308,28 @@ def run():
                 if per[d["store"]]<=PER_STORE: kept.append(d)
             if len(kept)<len(got): s["more"]=len(got)-len(kept)
             got=kept
-            s["deals"]=len(got); s["status"]="ok" if got else "ok, but no deals parsed (layout may have changed)"
+            s["deals"]=len(got); s["status"]="ok" if got else "ok, but no current deals parsed (none stated, or layout changed)"
             deals+=got
         except Exception as e: s["status"]=f"error: {e}"
-        sources.append(s); time.sleep(1)
-    by_chain={}; by_city={}
+        sources.append(s); time.sleep(0.7)
+    by_chain={}; by_city={}; by_state={k:0 for k in sorted(ADULT_USE+MEDICAL)}
     for d in deals:
-        by_chain[d["chain"]]=by_chain.get(d["chain"],0)+1; by_city[d["city"]]=by_city.get(d["city"],0)+1
-    obj={"schema":"deals/1","test":True,"region":"Michigan","checked":time.strftime("%Y-%m-%d %H:%M %Z"),
-         "count":len(deals),"by_chain":by_chain,"by_city":by_city,"sources":sources,
+        by_chain[d["chain"]]=by_chain.get(d["chain"],0)+1
+        by_state[d["state"]]=by_state.get(d["state"],0)+1
+        for c in (d["cities"] or [""]):
+            if c: by_city[f'{c}, {d["state"]}']=by_city.get(f'{c}, {d["state"]}',0)+1
+    states=[{"code":k,"name":NAMES.get(k,k),"market":"adult-use + medical" if k in ADULT_USE else "medical only","deals":by_state.get(k,0),
+             "sources":sum(1 for s in sources if s["state"]==k)} for k in sorted(by_state,key=lambda k:NAMES.get(k,k))]
+    obj={"schema":"deals/2","test":True,"region":"United States (all legal markets)","checked":time.strftime("%Y-%m-%d %H:%M %Z"),
+         "count":len(deals),"chains":len(by_chain),"states_with_deals":sum(1 for v in by_state.values() if v),
+         "by_state":by_state,"by_chain":by_chain,"by_city":by_city,"states":states,"sources":sources,
          "not_used":[{"name":n,"url":u,"why":w} for n,u,w in NOT_USED],"deals":deals,
+         "state_note":"Nebraska has a medical law but no operating dispensaries yet, so it is not listed. Georgia (low-THC oil) and Texas (TCUP) are limited medical programs.",
          "sponsored":{"example":True,"label":"EXAMPLE LAYOUT","items":[],
                       "note":"Paid placement slot (not live). Sponsored deals will always be labeled and kept separate from, never ranked above, the free list."},
          "disclaimer":"21+ only. For adults 21 and older (or registered medical patients). Deals change often and can differ by store: always confirm with the store before you go. Listed from each dispensary's own public page; not an endorsement."}
     save("deals.json",obj)
     os.makedirs(os.path.dirname(PUB),exist_ok=True); json.dump(obj,open(PUB,"w"),indent=1)
-    print(f"deals: {len(deals)} deals from {sum(1 for s in sources if s['deals'])}/{len(sources)} sources; "+", ".join(f"{k} {v}" for k,v in by_chain.items()))
+    print(f"deals: {len(deals)} deals in {obj['states_with_deals']} states from {sum(1 for s in sources if s['deals'])}/{len(sources)} sources")
     return obj
 if __name__=="__main__": run()

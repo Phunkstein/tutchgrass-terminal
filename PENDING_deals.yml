@@ -1,5 +1,6 @@
-# Deals agent (TEST) (tools/terminal/agents/deals.py): current Michigan licensed-dispensary deals, read only from each
-# chain's own public deals page (robots.txt checked first), each deal linked to its source. Expired deals are dropped.
+# Deals agent (TEST) (tools/terminal/agents/deals.py): current licensed-dispensary deals in every US state (plus DC) with
+# legal dispensaries, read only from each chain's own public deals page (robots.txt checked first), each deal linked to its source.
+# About 100 store pages across 40+ markets, so allow up to 15 minutes. Expired deals are dropped.
 # Three times a day. Commits ONLY when the deals really changed, plus a heartbeat commit at most every 6 h so the
 # tab's "live" status (re-checked within 26 h) stays true.
 # NOT INSTALLED. Copy to .github/workflows/agents-deals.yml (needs a token with workflow scope) only after the
