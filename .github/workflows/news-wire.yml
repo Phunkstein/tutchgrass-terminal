@@ -1,0 +1,37 @@
+# News Wire: check the cannabis news RSS feeds every 5 minutes (GitHub's minimum; GitHub may delay scheduled runs under load).
+# Commits ONLY when there are genuinely new items, so Render redeploys only for real news. Nothing is posted or emailed.
+name: News Wire
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: news-wire
+  cancel-in-progress: false
+jobs:
+  wire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    env:
+      TZ: America/Detroit
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - id: wire
+        run: python3 tools/terminal/news_wire.py
+      - name: Commit only when there is new news
+        if: steps.wire.outputs.new != '0'
+        run: |
+          git config user.name "Tutchgrass News Wire"
+          git config user.email "tutchgrass@mail.grokbot.com"
+          git add tools/terminal/data/news.json tools/terminal/data/news_seen.json public/terminal/data/breaking.json public/terminal/data/terminal.json
+          git diff --cached --quiet && exit 0
+          git commit -m "News Wire: ${{ steps.wire.outputs.new }} new item(s)"
+          for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && exit 0; sleep 5; done
+          exit 1
