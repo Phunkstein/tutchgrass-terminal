@@ -51,7 +51,11 @@ const R=[
    return{ts,state:st(ts,26*H),doing:`${fs.length-an} studied factors`,src:'Horticulture studies (PubMed)',log:[`${fs.length-an} factors backed by studies`,`${an} grower practice flagged anecdotal`,W?`${W.papers_cultivation.length} new cultivation papers (PubMed, 14 d)`:'New cultivation papers unavailable']}}},
  {id:'brands',nm:'Brand Auditor',ic:'🏷️',href:'/terminal/report-cards/',page:/^\/terminal\/report-cards\//,job:"Scores hemp brands' label claims against their own published lab reports (COAs).",
   f:(d,x)=>{const m=x.meta;if(!m)return null;const ts=T(m.generated);
-   return{ts,state:st(ts,8*D),doing:`Audited ${m.coa_count} lab reports`,src:"Brands' own published COAs",log:[`${m.coa_count} COAs read from ${m.brand_count} brands`,`${m.scored} COAs scored against the label`,`${m.dec11_over} products over the Dec 11 THC limit`]}}}];
+   return{ts,state:st(ts,8*D),doing:`Audited ${m.coa_count} lab reports`,src:"Brands' own published COAs",log:[`${m.coa_count} COAs read from ${m.brand_count} brands`,`${m.scored} COAs scored against the label`,`${m.dec11_over} products over the Dec 11 THC limit`]}}},
+ {id:'product',nm:'Product Checker',ic:'🔎',secs:['product'],job:'Checks a COA or label photo inside your browser: potency vs the label, total THC math, contaminant panels, test age, batch match, and whether the lab is licensed or ISO 17025 accredited.',
+  f:(d)=>{const L=d.labs;if(!L)return null;const ts=T(L.generated),ok=L.sources.filter(s=>s.status==='ok').length,c=L.counts;
+   return{ts,state:st(ts,8*D,ok>0),doing:`${c.state_labs} licensed labs on file`,src:`${ok}/${L.sources.length} regulator and A2LA lists (weekly)`,
+    log:[`${c.state_labs} state-licensed or certified labs from ${c.states.join(', ')} regulators`,`${c.accredited} ISO/IEC 17025 labs with cannabis or hemp scope (A2LA)`,`${c.limits_verified}/${c.limits} action limits re-checked against the regulation text`,'Your files are read in your browser and never uploaded or stored']}}}];
 R.forEach(a=>{a.href=a.href||'/terminal/#'+a.secs[0]});
 function feed(d,a,n){return(d.feed||[]).filter(f=>f.agent===a).slice(0,n).map(f=>`${f.kind}: ${f.what}`)}
 const nav=document.querySelector('.top .nav');if(!nav)return;

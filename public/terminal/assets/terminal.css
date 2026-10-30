@@ -268,3 +268,37 @@ a.mylink{white-space:nowrap}
 .brand small{text-transform:none;letter-spacing:.02em}
 @media (max-width:760px){.brand{font-size:15px;gap:8px}.brand svg{width:26px;height:26px}.brand small{display:block;font-size:10px;margin-top:2px}.auth .btn{white-space:nowrap}}
 .ascroll.atend{-webkit-mask-image:none;mask-image:none}
+/* Product Checker (#product) */
+.pc-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:18px;align-items:start}
+.pc-drop{position:relative;display:flex;flex-direction:column;align-items:center;gap:6px;padding:22px 14px;border:1.5px dashed var(--line2);border-radius:var(--r);background:var(--bg);text-align:center;cursor:pointer}
+.pc-drop.on,.pc-drop:hover{border-color:var(--g);background:var(--gl)}
+.pc-drop span{font-size:13px;color:var(--dim)}
+.pc-drop .pc-btn{margin-top:4px;padding:7px 14px;border-radius:8px;border:1px solid var(--g);color:var(--g);background:#fff;font-weight:600}
+.pc-drop input{position:absolute;inset:0;opacity:0;cursor:pointer}
+.pc-files{list-style:none;margin:10px 0 0;padding:0;font-size:13.5px}
+.pc-files li{display:flex;justify-content:space-between;gap:8px;padding:6px 0;border-bottom:1px solid var(--line)}
+.pc-files li span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pc-files button{border:0;background:none;color:var(--red);font:600 12.5px var(--sans);cursor:pointer;min-height:32px}
+.pc-more{margin-top:12px;font-size:13.5px}.pc-more summary{cursor:pointer;font-weight:600;color:var(--g);min-height:32px;display:flex;align-items:center}
+.pc-f{display:grid;gap:10px;margin-top:8px}.pc-f label{display:grid;gap:4px;color:var(--dim);font-size:12.5px}
+.pc-f input,.pc-f select{min-height:38px;border:1px solid var(--line2);border-radius:8px;padding:0 10px;font:14px var(--sans);background:#fff;color:var(--txt);min-width:0}
+.pc-row{display:grid;grid-template-columns:1fr 1.3fr 1.2fr;gap:6px}
+.pc-act{display:flex;gap:8px;margin-top:14px}.pc-act .btn{flex:1}.pc-act .btn:disabled{opacity:.5;cursor:default}
+.pc-priv{font-size:12.5px;color:var(--mute);margin:10px 0 0}.pc-say{font:12.5px var(--mono);color:var(--g);min-height:1.2em;margin:6px 0 0}
+.pc-empty{border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;font-size:13.5px}.pc-empty ol{margin:8px 0;padding-left:20px;display:grid;gap:4px}
+.pc-verdict{display:flex;gap:12px;align-items:center;padding:14px 16px;border-radius:var(--r);border:1px solid}
+.pc-verdict b{display:block;font-size:17px}.pc-verdict small{color:var(--dim);font-size:13px}
+.pc-vi{flex:none;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:800;font-size:17px}
+.v-red{background:var(--rl);border-color:#f3c3bd}.v-red .pc-vi{background:var(--red)}.v-red b{color:var(--red)}
+.v-amber{background:var(--al);border-color:#ecd9a8}.v-amber .pc-vi{background:var(--amb)}.v-amber b{color:var(--amb)}
+.v-green{background:var(--gl);border-color:#bcd9c5}.v-green .pc-vi{background:var(--g)}.v-green b{color:var(--g)}
+.pc-checks{list-style:none;margin:12px 0 0;padding:0}
+.pc-checks li{display:flex;gap:10px;padding:10px 0;border-bottom:1px solid var(--line)}
+.pc-checks .ci{flex:none;width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font:800 12px var(--sans);margin-top:1px}
+.c-fail .ci{background:var(--red);color:#fff}.c-warn .ci{background:var(--amb);color:#fff}.c-ok .ci{background:var(--gl);color:var(--g)}.c-info .ci{background:var(--bg);color:var(--mute);border:1px solid var(--line2)}
+.pc-checks b{font-size:14px}.pc-checks p{margin:2px 0 0;font-size:13px;color:var(--dim);overflow-wrap:anywhere}
+.pc-readout,.pc-lim{margin-top:12px;font-size:13.5px}.pc-readout summary,.pc-lim summary{cursor:pointer;font-weight:600;color:var(--g);min-height:32px;display:flex;align-items:center}
+.pc-readout .kv{margin-top:6px}.pc-readout dd{overflow-wrap:anywhere}
+.pc-tb{border-collapse:collapse;margin:6px 0;font-size:13px}.pc-tb th,.pc-tb td{padding:4px 10px 4px 0;text-align:left;border-bottom:1px solid var(--line)}.pc-tb .num{font-family:var(--mono)}
+.pc-src{font-size:12px}.pc-disc{margin:14px 0 0;padding:10px 12px;border-radius:8px;background:var(--bg);font-size:12.5px;color:var(--dim)}
+@media (max-width:760px){.pc-grid{grid-template-columns:1fr}.pc-row{grid-template-columns:1fr 1fr}.pc-row input{grid-column:1/-1}}

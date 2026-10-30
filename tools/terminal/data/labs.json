@@ -1,0 +1,5315 @@
+{
+ "agent": "Product Checker",
+ "sources": [
+  {
+   "id": "ca_dcc",
+   "name": "California Department of Cannabis Control (license search)",
+   "url": "https://search.cannabis.ca.gov/",
+   "status": "ok",
+   "count": 18,
+   "checked": "2026-10-30 07:12 EDT",
+   "list_updated": null
+  },
+  {
+   "id": "ma_ccc",
+   "name": "Massachusetts Cannabis Control Commission (open data)",
+   "url": "https://masscannabiscontrol.com/open-data/data-catalog/",
+   "status": "ok",
+   "count": 10,
+   "checked": "2026-10-30 07:12 EDT",
+   "list_updated": null
+  },
+  {
+   "id": "co_med",
+   "name": "Colorado Marijuana Enforcement Division (testing facility certifications)",
+   "url": "https://med.colorado.gov/licensee-information-and-lookup-tool",
+   "status": "ok",
+   "count": 7,
+   "checked": "2026-10-30 07:12 EDT",
+   "list_updated": null
+  },
+  {
+   "id": "or_olcc",
+   "name": "Oregon Liquor and Cannabis Commission (license list)",
+   "url": "https://data.oregon.gov/d/q32u-cmam",
+   "status": "ok",
+   "count": 9,
+   "checked": "2026-10-30 07:12 EDT",
+   "list_updated": null
+  },
+  {
+   "id": "or_orelap",
+   "name": "Oregon ORELAP cannabis laboratory accreditation list",
+   "url": "https://www.oregon.gov/oha/PH/LABORATORYSERVICES/ENVIRONMENTALLABORATORYACCREDITATION/Pages/cannabis.aspx",
+   "status": "ok",
+   "count": 9,
+   "checked": "2026-10-30 07:12 EDT",
+   "list_updated": "2026-06-04"
+  },
+  {
+   "id": "fl_ommu",
+   "name": "Florida Office of Medical Marijuana Use (certified testing labs)",
+   "url": "https://knowthefactsmmj.com/cmtl/",
+   "status": "ok",
+   "count": 6,
+   "checked": "2026-10-30 07:12 EDT",
+   "list_updated": null
+  },
+  {
+   "id": "wa_wsda",
+   "name": "Washington State Dept. of Agriculture (cannabis lab accreditation)",
+   "url": "https://agr.wa.gov/departments/cannabis",
+   "status": "ok",
+   "count": 4,
+   "checked": "2026-10-30 07:12 EDT",
+   "list_updated": "2026-06-03"
+  },
+  {
+   "id": "a2la",
+   "name": "A2LA directory (ISO/IEC 17025 scopes mentioning cannabis or hemp)",
+   "url": "https://customer.a2la.org/index.cfm?event=directory.index",
+   "status": "ok",
+   "count": 254,
+   "checked": "2026-10-30 07:12 EDT"
+  }
+ ],
+ "manual": [
+  {
+   "body": "ANAB",
+   "url": "https://search.anab.org/public/",
+   "note": "ANAB directory blocks automated reads; check the certificate number by hand."
+  },
+  {
+   "body": "PJLA",
+   "url": "https://www.pjlabs.com/search-accredited-organizations",
+   "note": "PJLA directory blocks automated reads; check the certificate number by hand."
+  }
+ ],
+ "labs": [
+  {
+   "name": "Anresco, Incorporated",
+   "dba": "Anresco Laboratories",
+   "state": "CA",
+   "license": "C8-0000052-LIC",
+   "status": "Active",
+   "city": null,
+   "expires": "2027-07-08",
+   "panels": null,
+   "source": "ca_dcc",
+   "url": "https://search.cannabis.ca.gov/",
+   "keys": [
+    "anresco",
+    "anresco laboratories"
+   ]
+  },
+  {
+   "name": "Bay Point Laboratories, Inc.",
+   "dba": "BAY POINT LABORATORIES, INC.",
+   "state": "CA",
+   "license": "C8-0000183-LIC",
+   "status": "Active",
+   "city": null,
+   "expires": "2027-09-26",
+   "panels": null,
+   "source": "ca_dcc",
+   "url": "https://search.cannabis.ca.gov/",
+   "keys": [
+    "bay point laboratories"
+   ]
+  },
+  {
+   "name": "Brightside Scientific, Inc.",
+   "dba": "Cannabis Testing Laboratory",
+   "state": "CA",
+   "license": "C8-0000038-LIC",
+   "status": "Active",
+   "city": null,
+   "expires": "2027-06-24",
+   "panels": null,
+   "source": "ca_dcc",
+   "url": "https://search.cannabis.ca.gov/",
+   "keys": [
+    "brightside scientific",
+    "cannabis testing laboratory"
+   ]
+  },
+  {
+   "name": "Encore Labs LLC",
+   "dba": "Encore Labs",
+   "state": "CA",
+   "license": "C8-0000179-LIC",
+   "status": "Active",
+   "city": null,
+   "expires": "2027-10-28",
+   "panels": null,
+   "source": "ca_dcc",
+   "url": "https://search.cannabis.ca.gov/",
+   "keys": [
+    "encore labs"
+   ]
+  },
+  {
+   "name": "Epic Solutions And Analytics LLC",
+   "dba": "Epic Solutions and Analytics LLC",
+   "state": "CA",
+   "license": "C8-0000178-LIC",
+   "status": "Active",
+   "city": null,
+   "expires": "2027-10-11",
+   "panels": null,
+   "source": "ca_dcc",
+   "url": "https://search.cannabis.ca.gov/",
+   "keys": [
+    "epic solutions and analytics"
+   ]
+  },
+  {
+   "name": "Excelbis Labs LLC",
+   "dba": "Excelbis Labs",
+   "state": "CA",
+   "license": "C8-0000059-LIC",
+   "status": "Active",
+   "city": null,
+   "expires": "2027-06-22",
+   "panels": null,
+   "source": "ca_dcc",
+   "url": "https://search.cannabis.ca.gov/",
+   "keys": [
+    "excelbis labs"
+   ]
+  },
+  {
+   "name": "Green Forest Labs, LLC",
+   "dba": "Green Forest Laboratories",
+   "state": "CA",
+   "license": "C8-0000177-LIC",
+   "status": "Active",
+   "city": null,
+   "expires": "2027-06-04",
+   "panels": null,
+   "source": "ca_dcc",
+   "url": "https://search.cannabis.ca.gov/",
+   "keys": [
+    "green forest laboratories",
+    "green forest labs"
+   ]
+  },
+  {
+   "name": "Harrens Lab Inc.",
+   "dba": "Harrens Lab Inc.",
+   "state": "CA",
+   "license": "C8-0000021-LIC",
+   "status": "Active",
+   "city": null,
+   "expires": "2027-05-28",
+   "panels": null,
+   "source": "ca_dcc",
+   "url": "https://search.cannabis.ca.gov/",
+   "keys": [
+    "harrens lab"
+   ]
+  },
+  {
+   "name": "Hk Holding, LLC",
+   "dba": "SQRD Lab",
+   "state": "CA",
+   "license": "C8-0000122-LIC",
+   "status": "Active",
+   "city": null,
+   "expires": "2027-10-06",
+   "panels": null,
+   "source": "ca_dcc",
+   "url": "https://search.cannabis.ca.gov/",
+   "keys": [
+    "hk holding",
+    "sqrd lab"
+   ]
+  },
+  {
+   "name": "Ils Labs, Inc.",
+   "dba": "Quality Cannabis Laboratory",
+   "state": "CA",
+   "license": "C8-0000133-LIC",
+   "status": "Active",
+   "city": null,
+   "expires": "2027-04-14",
+   "panels": null,
+   "source": "ca_dcc",
+   "url": "https://search.cannabis.ca.gov/",
+   "keys": [
+    "ils labs",
+    "quality cannabis laboratory"
+   ]
+  },
+  {
+   "name": "Infinite Chemical Analysis Labs LLC",
+   "dba": "INFINITE CHEMICAL ANALYSIS LABS",
+   "state": "CA",
+   "license": "C8-0000047-LIC",
+   "status": "Active",
+   "city": null,
+   "expires": "2027-01-21",
+   "panels": null,
+   "source": "ca_dcc",
+   "url": "https://search.cannabis.ca.gov/",
+   "keys": [
+    "infinite chemical analysis labs"
+   ]
+  },
+  {
+   "name": "Landau Laboratories, Inc",
+   "dba": "LANDAU LABORATORIES, INC",
+   "state": "CA",
+   "license": "C8-0000016-LIC",
+   "status": "Active",
+   "city": null,
+   "expires": "2027-05-21",
+   "panels": null,
+   "source": "ca_dcc",
+   "url": "https://search.cannabis.ca.gov/",
+   "keys": [
+    "landau laboratories"
+   ]
+  },
+  {
+   "name": "Ph Solutions, LLC",
+   "dba": "pH Solutions",
+   "state": "CA",
+   "license": "C8-0000022-LIC",
+   "status": "Active",
+   "city": null,
+   "expires": "2027-06-25",
+   "panels": null,
+   "source": "ca_dcc",
+   "url": "https://search.cannabis.ca.gov/",
+   "keys": [
+    "ph solutions"
+   ]
+  },
+  {
+   "name": "Pure Cannalyst Lab, Inc",
+   "dba": "Pure Cannalyst Labs",
+   "state": "CA",
+   "license": "C8-0000175-LIC",
+   "status": "Active",
+   "city": null,
+   "expires": "2027-08-16",
+   "panels": null,
+   "source": "ca_dcc",
+   "url": "https://search.cannabis.ca.gov/",
+   "keys": [
+    "pure cannalyst lab",
+    "pure cannalyst labs"
+   ]
+  },
+  {
+   "name": "Purity Medical Laboratories LLC",
+   "dba": "Purity Medical Laboratories",
+   "state": "CA",
+   "license": "C8-0000143-LIC",
+   "status": "Active",
+   "city": null,
+   "expires": "2027-06-21",
+   "panels": null,
+   "source": "ca_dcc",
+   "url": "https://search.cannabis.ca.gov/",
+   "keys": [
+    "purity medical laboratories"
+   ]
+  },
+  {
+   "name": "Quant Leaf Labs, Inc.",
+   "dba": "QUANT LEAF LABS, INC.",
+   "state": "CA",
+   "license": "C8-0000182-LIC",
+   "status": "Active",
+   "city": null,
+   "expires": "2027-01-08",
+   "panels": null,
+   "source": "ca_dcc",
+   "url": "https://search.cannabis.ca.gov/",
+   "keys": [
+    "quant leaf labs"
+   ]
+  },
+  {
+   "name": "Sc Laboratories California, LLC",
+   "dba": "SC Laboratories, SC Labs",
+   "state": "CA",
+   "license": "C8-0000013-LIC",
+   "status": "Active",
+   "city": null,
+   "expires": "2027-05-09",
+   "panels": null,
+   "source": "ca_dcc",
+   "url": "https://search.cannabis.ca.gov/",
+   "keys": [
+    "sc laboratories california",
+    "sc laboratories sc labs"
+   ]
+  },
+  {
+   "name": "Vk Labs LLC",
+   "dba": "Decano Analytical Laboratories",
+   "state": "CA",
+   "license": "C8-0000138-LIC",
+   "status": "Active",
+   "city": null,
+   "expires": "2027-05-27",
+   "panels": null,
+   "source": "ca_dcc",
+   "url": "https://search.cannabis.ca.gov/",
+   "keys": [
+    "decano analytical laboratories",
+    "vk labs"
+   ]
+  },
+  {
+   "name": "Agricor Laboratories De Llc",
+   "dba": "Sc Labs",
+   "state": "CO",
+   "license": "405-00004",
+   "status": "Certified",
+   "city": "Denver",
+   "expires": null,
+   "panels": {
+    "heavy_metals": "2026-10-31",
+    "microbials": "2026-10-31",
+    "mycotoxins": "2026-10-31",
+    "pesticides": "2026-10-31",
+    "potency": "2026-10-31",
+    "residual_solvents": "2026-10-31",
+    "water_activity": "2026-10-31"
+   },
+   "source": "co_med",
+   "url": "https://med.colorado.gov/licensee-information-and-lookup-tool",
+   "keys": [
+    "agricor laboratories de",
+    "sc labs"
+   ]
+  },
+  {
+   "name": "Agriscience Labs Inc",
+   "dba": null,
+   "state": "CO",
+   "license": "405-00002",
+   "status": "Certified",
+   "city": "Denver",
+   "expires": null,
+   "panels": {
+    "heavy_metals": "2027-05-31",
+    "microbials": "2027-05-31",
+    "mycotoxins": "2027-05-31",
+    "pesticides": "Not Certified",
+    "potency": "2027-05-31",
+    "residual_solvents": "Not Certified",
+    "water_activity": "2027-05-31"
+   },
+   "source": "co_med",
+   "url": "https://med.colorado.gov/licensee-information-and-lookup-tool",
+   "keys": [
+    "agriscience labs"
+   ]
+  },
+  {
+   "name": "Bona Fides Medical",
+   "dba": "Bona Fides Laboratory Inc",
+   "state": "CO",
+   "license": "405-00011",
+   "status": "Certified",
+   "city": "Denver",
+   "expires": null,
+   "panels": {
+    "heavy_metals": "2027-05-31",
+    "microbials": "2027-05-31",
+    "mycotoxins": "2027-05-31",
+    "pesticides": "2027-05-31",
+    "potency": "2027-05-31",
+    "residual_solvents": "2027-05-31",
+    "water_activity": "2027-05-31"
+   },
+   "source": "co_med",
+   "url": "https://med.colorado.gov/licensee-information-and-lookup-tool",
+   "keys": [
+    "bona fides laboratory",
+    "bona fides medical"
+   ]
+  },
+  {
+   "name": "Gobi Analytical Inc",
+   "dba": "Gobi Labs",
+   "state": "CO",
+   "license": "405-00006",
+   "status": "Certified",
+   "city": "Wheat Ridge",
+   "expires": null,
+   "panels": {
+    "heavy_metals": "2027-10-31",
+    "microbials": "2027-02-28",
+    "mycotoxins": "2027-10-31",
+    "pesticides": "2027-10-31",
+    "potency": "2027-02-28",
+    "residual_solvents": "2027-02-28",
+    "water_activity": "2027-02-28"
+   },
+   "source": "co_med",
+   "url": "https://med.colorado.gov/licensee-information-and-lookup-tool",
+   "keys": [
+    "gobi analytical",
+    "gobi labs"
+   ]
+  },
+  {
+   "name": "Kaycha Co Llc",
+   "dba": null,
+   "state": "CO",
+   "license": "405-00022",
+   "status": "Certified",
+   "city": "Denver",
+   "expires": null,
+   "panels": {
+    "heavy_metals": "2027-03-31",
+    "microbials": "2027-03-31",
+    "mycotoxins": "2027-03-31",
+    "pesticides": "2027-03-31",
+    "potency": "2027-03-31",
+    "residual_solvents": "2027-03-31",
+    "water_activity": "2027-03-31"
+   },
+   "source": "co_med",
+   "url": "https://med.colorado.gov/licensee-information-and-lookup-tool",
+   "keys": [
+    "kaycha"
+   ]
+  },
+  {
+   "name": "Nordic Analytical Laboratories Llc",
+   "dba": null,
+   "state": "CO",
+   "license": "405-00003",
+   "status": "Certified",
+   "city": "Denver",
+   "expires": null,
+   "panels": {
+    "heavy_metals": "2026-11-30",
+    "microbials": "2026-11-30",
+    "mycotoxins": "2026-11-30",
+    "pesticides": "2026-11-30",
+    "potency": "2026-11-30",
+    "residual_solvents": "2026-11-30",
+    "water_activity": "2026-11-30"
+   },
+   "source": "co_med",
+   "url": "https://med.colorado.gov/licensee-information-and-lookup-tool",
+   "keys": [
+    "nordic analytical laboratories"
+   ]
+  },
+  {
+   "name": "Nordic Analytical Laboratories Llc",
+   "dba": null,
+   "state": "CO",
+   "license": "405-00019",
+   "status": "Certified",
+   "city": "Pueblo",
+   "expires": null,
+   "panels": {
+    "heavy_metals": "Not Certified",
+    "microbials": "2027-09-30",
+    "mycotoxins": "2027-09-30",
+    "pesticides": "Suspended",
+    "potency": "2027-09-30",
+    "residual_solvents": "2027-09-30",
+    "water_activity": "2027-09-30"
+   },
+   "source": "co_med",
+   "url": "https://med.colorado.gov/licensee-information-and-lookup-tool",
+   "keys": [
+    "nordic analytical laboratories"
+   ]
+  },
+  {
+   "name": "ACS Laboratory",
+   "dba": null,
+   "state": "FL",
+   "license": null,
+   "status": "Certified",
+   "city": "Cortaro Dr Sun City Center",
+   "expires": null,
+   "panels": null,
+   "source": "fl_ommu",
+   "url": "https://knowthefactsmmj.com/cmtl/",
+   "certified": "2020-06-24",
+   "keys": [
+    "acs laboratory"
+   ]
+  },
+  {
+   "name": "ACT Laboratories of Florida",
+   "dba": null,
+   "state": "FL",
+   "license": null,
+   "status": "Certified",
+   "city": "Davie",
+   "expires": null,
+   "panels": null,
+   "source": "fl_ommu",
+   "url": "https://knowthefactsmmj.com/cmtl/",
+   "certified": "2020-07-15",
+   "keys": [
+    "act laboratories of florida"
+   ]
+  },
+  {
+   "name": "Kaycha Labs Miramar",
+   "dba": null,
+   "state": "FL",
+   "license": null,
+   "status": "Certified",
+   "city": "Commerce Parkway Miramar",
+   "expires": null,
+   "panels": null,
+   "source": "fl_ommu",
+   "url": "https://knowthefactsmmj.com/cmtl/",
+   "certified": "2025-10-29",
+   "keys": [
+    "kaycha labs miramar"
+   ]
+  },
+  {
+   "name": "Method Testing Labs",
+   "dba": null,
+   "state": "FL",
+   "license": null,
+   "status": "Certified",
+   "city": "Broadway Center Blvd Brandon",
+   "expires": null,
+   "panels": null,
+   "source": "fl_ommu",
+   "url": "https://knowthefactsmmj.com/cmtl/",
+   "certified": "2023-03-06",
+   "keys": [
+    "method testing labs"
+   ]
+  },
+  {
+   "name": "Modern Canna Science",
+   "dba": null,
+   "state": "FL",
+   "license": null,
+   "status": "Certified",
+   "city": "Lakeland",
+   "expires": null,
+   "panels": null,
+   "source": "fl_ommu",
+   "url": "https://knowthefactsmmj.com/cmtl/",
+   "certified": "2020-06-30",
+   "keys": [
+    "modern canna science"
+   ]
+  },
+  {
+   "name": "TerpLife Labs",
+   "dba": null,
+   "state": "FL",
+   "license": null,
+   "status": "Certified",
+   "city": "Fisher Ave Tampa",
+   "expires": null,
+   "panels": null,
+   "source": "fl_ommu",
+   "url": "https://knowthefactsmmj.com/cmtl/",
+   "certified": "2022-01-21",
+   "keys": [
+    "terplife labs"
+   ]
+  },
+  {
+   "name": "Analytics Labs, LLC.",
+   "dba": null,
+   "state": "MA",
+   "license": "IL281280",
+   "status": "Active",
+   "city": "Holyoke",
+   "expires": "2027-01-15",
+   "panels": null,
+   "source": "ma_ccc",
+   "url": "https://masscannabiscontrol.com/licensing-tracker/",
+   "keys": [
+    "analytics labs"
+   ]
+  },
+  {
+   "name": "Assured Testing Laboratories LLC",
+   "dba": null,
+   "state": "MA",
+   "license": "IL281360",
+   "status": "Active",
+   "city": "Tyngsborough",
+   "expires": "2027-10-10",
+   "panels": null,
+   "source": "ma_ccc",
+   "url": "https://masscannabiscontrol.com/licensing-tracker/",
+   "keys": [
+    "assured testing laboratories"
+   ]
+  },
+  {
+   "name": "G7 Lab LLC",
+   "dba": null,
+   "state": "MA",
+   "license": "IL281334",
+   "status": "Active",
+   "city": "Littleton",
+   "expires": "2027-08-20",
+   "panels": null,
+   "source": "ma_ccc",
+   "url": "https://masscannabiscontrol.com/licensing-tracker/",
+   "keys": [
+    "g7 lab"
+   ]
+  },
+  {
+   "name": "Green Analytics Massachusetts LLC",
+   "dba": null,
+   "state": "MA",
+   "license": "IL281277",
+   "status": "Active",
+   "city": "Framingham",
+   "expires": "2027-04-10",
+   "panels": null,
+   "source": "ma_ccc",
+   "url": "https://masscannabiscontrol.com/licensing-tracker/",
+   "keys": [
+    "green analytics massachusetts"
+   ]
+  },
+  {
+   "name": "Green Valley Analytics LLC",
+   "dba": null,
+   "state": "MA",
+   "license": "IL281359",
+   "status": "Active",
+   "city": "Holyoke",
+   "expires": "2027-09-13",
+   "panels": null,
+   "source": "ma_ccc",
+   "url": "https://masscannabiscontrol.com/licensing-tracker/",
+   "keys": [
+    "green valley analytics"
+   ]
+  },
+  {
+   "name": "Kaycha MA, LLC",
+   "dba": null,
+   "state": "MA",
+   "license": "IL281349",
+   "status": "Active",
+   "city": "Natick",
+   "expires": "2027-05-23",
+   "panels": null,
+   "source": "ma_ccc",
+   "url": "https://masscannabiscontrol.com/licensing-tracker/",
+   "keys": [
+    "kaycha ma"
+   ]
+  },
+  {
+   "name": "MCR Labs, LLC",
+   "dba": null,
+   "state": "MA",
+   "license": "IL281278",
+   "status": "Active",
+   "city": "Framingham",
+   "expires": "2027-03-19",
+   "panels": null,
+   "source": "ma_ccc",
+   "url": "https://masscannabiscontrol.com/licensing-tracker/",
+   "keys": [
+    "mcr labs"
+   ]
+  },
+  {
+   "name": "ProVerde Laboratories, Inc.",
+   "dba": null,
+   "state": "MA",
+   "license": "IL281279",
+   "status": "Active",
+   "city": "Milford",
+   "expires": "2027-04-19",
+   "panels": null,
+   "source": "ma_ccc",
+   "url": "https://masscannabiscontrol.com/licensing-tracker/",
+   "keys": [
+    "proverde laboratories"
+   ]
+  },
+  {
+   "name": "SafeTiva Labs LLC",
+   "dba": null,
+   "state": "MA",
+   "license": "IL281354",
+   "status": "Active",
+   "city": "Westfield",
+   "expires": "2027-04-26",
+   "panels": null,
+   "source": "ma_ccc",
+   "url": "https://masscannabiscontrol.com/licensing-tracker/",
+   "keys": [
+    "safetiva labs"
+   ]
+  },
+  {
+   "name": "Smithers AMS LLC",
+   "dba": null,
+   "state": "MA",
+   "license": "IL281355",
+   "status": "Active",
+   "city": "Wareham",
+   "expires": "2027-11-13",
+   "panels": null,
+   "source": "ma_ccc",
+   "url": "https://masscannabiscontrol.com/licensing-tracker/",
+   "keys": [
+    "smithers ams"
+   ]
+  },
+  {
+   "name": "2 River Labs Oregon",
+   "dba": "LIGHTSCALE, INC.",
+   "state": "OR",
+   "license": "010-1003340D344",
+   "status": "Active",
+   "city": "Multnomah County",
+   "expires": "2027-01-29",
+   "panels": null,
+   "source": "or_olcc",
+   "url": "https://www.oregon.gov/olcc/marijuana/pages/default.aspx",
+   "keys": [
+    "2 river labs oregon",
+    "lightscale"
+   ]
+  },
+  {
+   "name": "3B Analytical",
+   "dba": "3B ANALYTICAL, LLC",
+   "state": "OR",
+   "license": "010-100536507C4",
+   "status": "Active",
+   "city": "Multnomah County",
+   "expires": "2027-10-30",
+   "panels": null,
+   "source": "or_olcc",
+   "url": "https://www.oregon.gov/olcc/marijuana/pages/default.aspx",
+   "keys": [
+    "3b analytical"
+   ]
+  },
+  {
+   "name": "3B Analytical",
+   "dba": null,
+   "state": "OR",
+   "license": null,
+   "status": "ORELAP accredited",
+   "city": null,
+   "expires": null,
+   "panels": null,
+   "source": "or_orelap",
+   "url": "https://www.oregon.gov/oha/PH/LABORATORYSERVICES/ENVIRONMENTALLABORATORYACCREDITATION/Documents/canna-list.pdf",
+   "codes": [
+    "P",
+    "P",
+    "O",
+    "O",
+    "O",
+    "P",
+    "P",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "P",
+    "P"
+   ],
+   "keys": [
+    "3b analytical"
+   ]
+  },
+  {
+   "name": "Britebox Labs",
+   "dba": "BRITEBOX LABS, INC.",
+   "state": "OR",
+   "license": "010-10233216933",
+   "status": "Active",
+   "city": "Deschutes County",
+   "expires": "2027-04-04",
+   "panels": null,
+   "source": "or_olcc",
+   "url": "https://www.oregon.gov/olcc/marijuana/pages/default.aspx",
+   "keys": [
+    "britebox labs"
+   ]
+  },
+  {
+   "name": "Britebox Labs, Inc.",
+   "dba": null,
+   "state": "OR",
+   "license": null,
+   "status": "ORELAP accredited",
+   "city": null,
+   "expires": null,
+   "panels": null,
+   "source": "or_orelap",
+   "url": "https://www.oregon.gov/oha/PH/LABORATORYSERVICES/ENVIRONMENTALLABORATORYACCREDITATION/Documents/canna-list.pdf",
+   "codes": [
+    "P",
+    "P",
+    "O",
+    "O",
+    "O",
+    "P",
+    "P",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "P",
+    "P"
+   ],
+   "keys": [
+    "britebox labs"
+   ]
+  },
+  {
+   "name": "ChemHistory",
+   "dba": null,
+   "state": "OR",
+   "license": null,
+   "status": "ORELAP accredited",
+   "city": null,
+   "expires": null,
+   "panels": null,
+   "source": "or_orelap",
+   "url": "https://www.oregon.gov/oha/PH/LABORATORYSERVICES/ENVIRONMENTALLABORATORYACCREDITATION/Documents/canna-list.pdf",
+   "codes": [
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P"
+   ],
+   "keys": [
+    "chemhistory"
+   ]
+  },
+  {
+   "name": "Chemhistory",
+   "dba": "CHEMHISTORY LLC/ ALEX HOGGAN",
+   "state": "OR",
+   "license": "010-1002015CA5E",
+   "status": "Active",
+   "city": "Clackamas County",
+   "expires": "2026-10-03",
+   "panels": null,
+   "source": "or_olcc",
+   "url": "https://www.oregon.gov/olcc/marijuana/pages/default.aspx",
+   "keys": [
+    "chemhistory",
+    "chemhistory alex hoggan"
+   ]
+  },
+  {
+   "name": "Columbia Laboratories, Inc",
+   "dba": "COLUMBIA LABORATORIES INC.",
+   "state": "OR",
+   "license": "010-1003224D558",
+   "status": "Active",
+   "city": "Multnomah County",
+   "expires": "2027-08-25",
+   "panels": null,
+   "source": "or_olcc",
+   "url": "https://www.oregon.gov/olcc/marijuana/pages/default.aspx",
+   "keys": [
+    "columbia laboratories"
+   ]
+  },
+  {
+   "name": "Columbia Laboratories, Inc.",
+   "dba": null,
+   "state": "OR",
+   "license": null,
+   "status": "ORELAP accredited",
+   "city": null,
+   "expires": null,
+   "panels": null,
+   "source": "or_orelap",
+   "url": "https://www.oregon.gov/oha/PH/LABORATORYSERVICES/ENVIRONMENTALLABORATORYACCREDITATION/Documents/canna-list.pdf",
+   "codes": [
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P"
+   ],
+   "keys": [
+    "columbia laboratories"
+   ]
+  },
+  {
+   "name": "Lightscale Labs",
+   "dba": null,
+   "state": "OR",
+   "license": null,
+   "status": "ORELAP accredited",
+   "city": null,
+   "expires": null,
+   "panels": null,
+   "source": "or_orelap",
+   "url": "https://www.oregon.gov/oha/PH/LABORATORYSERVICES/ENVIRONMENTALLABORATORYACCREDITATION/Documents/canna-list.pdf",
+   "codes": [
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "O",
+    "O",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P"
+   ],
+   "keys": [
+    "lightscale labs"
+   ]
+  },
+  {
+   "name": "Pinnacle Analytics",
+   "dba": "PINNACLE ANALYTICS LLC",
+   "state": "OR",
+   "license": "010-101599328A3",
+   "status": "Active",
+   "city": "Jackson County",
+   "expires": "2027-08-03",
+   "panels": null,
+   "source": "or_olcc",
+   "url": "https://www.oregon.gov/olcc/marijuana/pages/default.aspx",
+   "keys": [
+    "pinnacle analytics"
+   ]
+  },
+  {
+   "name": "Pinnacle Analytics",
+   "dba": null,
+   "state": "OR",
+   "license": null,
+   "status": "ORELAP accredited",
+   "city": null,
+   "expires": null,
+   "panels": null,
+   "source": "or_orelap",
+   "url": "https://www.oregon.gov/oha/PH/LABORATORYSERVICES/ENVIRONMENTALLABORATORYACCREDITATION/Documents/canna-list.pdf",
+   "codes": [
+    "P",
+    "P",
+    "O",
+    "O",
+    "O",
+    "P",
+    "P",
+    "O",
+    "O",
+    "P",
+    "P",
+    "P",
+    "P",
+    "O",
+    "O",
+    "O",
+    "O",
+    "P",
+    "P"
+   ],
+   "keys": [
+    "pinnacle analytics"
+   ]
+  },
+  {
+   "name": "Reference Labs LLC",
+   "dba": "REFERENCE LABS LLC",
+   "state": "OR",
+   "license": "010-10076340B22",
+   "status": "Active",
+   "city": "Washington County",
+   "expires": "2026-12-21",
+   "panels": null,
+   "source": "or_olcc",
+   "url": "https://www.oregon.gov/olcc/marijuana/pages/default.aspx",
+   "keys": [
+    "reference labs"
+   ]
+  },
+  {
+   "name": "Reference Labs LLC",
+   "dba": null,
+   "state": "OR",
+   "license": null,
+   "status": "ORELAP accredited",
+   "city": null,
+   "expires": null,
+   "panels": null,
+   "source": "or_orelap",
+   "url": "https://www.oregon.gov/oha/PH/LABORATORYSERVICES/ENVIRONMENTALLABORATORYACCREDITATION/Documents/canna-list.pdf",
+   "codes": [
+    "P",
+    "P",
+    "O",
+    "O",
+    "O",
+    "P",
+    "P",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "P",
+    "P"
+   ],
+   "keys": [
+    "reference labs"
+   ]
+  },
+  {
+   "name": "Rose City Laboratories",
+   "dba": null,
+   "state": "OR",
+   "license": null,
+   "status": "ORELAP accredited",
+   "city": null,
+   "expires": null,
+   "panels": null,
+   "source": "or_orelap",
+   "url": "https://www.oregon.gov/oha/PH/LABORATORYSERVICES/ENVIRONMENTALLABORATORYACCREDITATION/Documents/canna-list.pdf",
+   "codes": [
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "O",
+    "O",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P"
+   ],
+   "keys": [
+    "rose city laboratories"
+   ]
+  },
+  {
+   "name": "Rose City Labs",
+   "dba": "ROSE CITY LABORATORIES LLC",
+   "state": "OR",
+   "license": "010-1002112892C",
+   "status": "Active",
+   "city": "Multnomah County",
+   "expires": "2026-12-15",
+   "panels": null,
+   "source": "or_olcc",
+   "url": "https://www.oregon.gov/olcc/marijuana/pages/default.aspx",
+   "keys": [
+    "rose city laboratories",
+    "rose city labs"
+   ]
+  },
+  {
+   "name": "SC Laboratories Oregon LLC",
+   "dba": null,
+   "state": "OR",
+   "license": null,
+   "status": "ORELAP accredited",
+   "city": null,
+   "expires": null,
+   "panels": null,
+   "source": "or_orelap",
+   "url": "https://www.oregon.gov/oha/PH/LABORATORYSERVICES/ENVIRONMENTALLABORATORYACCREDITATION/Documents/canna-list.pdf",
+   "codes": [
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "O",
+    "O",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P",
+    "P"
+   ],
+   "keys": [
+    "sc laboratories oregon"
+   ]
+  },
+  {
+   "name": "SC Labs",
+   "dba": "SC LABORATORIES OREGON LLC",
+   "state": "OR",
+   "license": "010-1018619A26E",
+   "status": "Active",
+   "city": "Washington County",
+   "expires": "2027-02-14",
+   "panels": null,
+   "source": "or_olcc",
+   "url": "https://www.oregon.gov/olcc/marijuana/pages/default.aspx",
+   "keys": [
+    "sc laboratories oregon",
+    "sc labs"
+   ]
+  },
+  {
+   "name": "Confidence Analytics",
+   "dba": null,
+   "state": "WA",
+   "license": null,
+   "status": "Accredited",
+   "city": null,
+   "expires": null,
+   "panels": {
+    "potency": "Approved",
+    "heavy_metals": "Approved",
+    "pesticides": "Approved",
+    "residual_solvents": "Approved"
+   },
+   "source": "wa_wsda",
+   "url": "https://agr.wa.gov/departments/cannabis",
+   "keys": [
+    "confidence analytics"
+   ]
+  },
+  {
+   "name": "Green Growers",
+   "dba": null,
+   "state": "WA",
+   "license": null,
+   "status": "Accredited",
+   "city": null,
+   "expires": null,
+   "panels": {
+    "potency": "Approved",
+    "heavy_metals": "Approved",
+    "pesticides": "Approved",
+    "residual_solvents": "Approved"
+   },
+   "source": "wa_wsda",
+   "url": "https://agr.wa.gov/departments/cannabis",
+   "keys": [
+    "green growers"
+   ]
+  },
+  {
+   "name": "Integrity Labs",
+   "dba": null,
+   "state": "WA",
+   "license": null,
+   "status": "Accredited",
+   "city": null,
+   "expires": null,
+   "panels": {
+    "potency": "Approved",
+    "heavy_metals": "Approved",
+    "pesticides": "Approved",
+    "residual_solvents": "Approved"
+   },
+   "source": "wa_wsda",
+   "url": "https://agr.wa.gov/departments/cannabis",
+   "keys": [
+    "integrity labs"
+   ]
+  },
+  {
+   "name": "Medicine Creek Analytics",
+   "dba": null,
+   "state": "WA",
+   "license": null,
+   "status": "Accredited",
+   "city": null,
+   "expires": null,
+   "panels": {
+    "potency": "Approved",
+    "heavy_metals": "Approved",
+    "pesticides": "Approved",
+    "residual_solvents": "Approved"
+   },
+   "source": "wa_wsda",
+   "url": "https://agr.wa.gov/departments/cannabis",
+   "keys": [
+    "medicine creek analytics"
+   ]
+  }
+ ],
+ "accredited": [
+  {
+   "name": "ACS Laboratory, LLC",
+   "location": "Sun City Center, FL",
+   "country": "United States",
+   "cert": "6786.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2026-12-31",
+   "body": "A2LA",
+   "keys": [
+    "acs laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=EA5683BE-BD4B-418F-9938-BD66F71F5C3F"
+  },
+  {
+   "name": "ACT Laboratories",
+   "location": "Halfmoon, NY",
+   "country": "United States",
+   "cert": "7425.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-05-31",
+   "body": "A2LA",
+   "keys": [
+    "act laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=894B8BA7-E378-40B4-8DA6-32BA541CBBC8"
+  },
+  {
+   "name": "ACT Laboratories",
+   "location": "Trafford, PA",
+   "country": "United States",
+   "cert": "7425.02",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-02-28",
+   "body": "A2LA",
+   "keys": [
+    "act laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=109C9109-4204-4C9A-9325-8A07C68FB5A4"
+  },
+  {
+   "name": "ACT Laboratories",
+   "location": "Lansing, MI",
+   "country": "United States",
+   "cert": "7425.03",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-02-28",
+   "body": "A2LA",
+   "keys": [
+    "act laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=4CCA6582-A3A5-4A4B-A744-89E1E5A29AF5"
+  },
+  {
+   "name": "ACT Laboratories",
+   "location": "Morton, IL",
+   "country": "United States",
+   "cert": "7425.04",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-02-28",
+   "body": "A2LA",
+   "keys": [
+    "act laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=97FCFEF1-29F4-4BF9-A1B6-A44AD9F1DF2E"
+  },
+  {
+   "name": "ACT Laboratories",
+   "location": "Davie, FL",
+   "country": "United States",
+   "cert": "7425.05",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-06-30",
+   "body": "A2LA",
+   "keys": [
+    "act laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=431F29D7-24DE-4504-808F-25E795ECA14B"
+  },
+  {
+   "name": "ACT Laboratories",
+   "location": "Columbus, OH",
+   "country": "United States",
+   "cert": "7425.06",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-02-28",
+   "body": "A2LA",
+   "keys": [
+    "act laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=7290C60F-CCD3-4A76-ADEF-6AFFC762C1A6"
+  },
+  {
+   "name": "ACT Laboratories",
+   "location": "Harrisburg, PA",
+   "country": "United States",
+   "cert": "7425.07",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-08-31",
+   "body": "A2LA",
+   "keys": [
+    "act laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=4C6EC0D3-26EA-432B-B366-40AB5810AB44"
+  },
+  {
+   "name": "AFB International",
+   "location": "Saint Charles, MO",
+   "country": "United States",
+   "cert": "5379.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-01-31",
+   "body": "A2LA",
+   "keys": [
+    "afb international"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=A4B13DBD-B793-4F54-A8FE-5E9483A66820"
+  },
+  {
+   "name": "ALS Food Safety, LLC - Leipsic, OH Division",
+   "location": "Leipsic, OH",
+   "country": "United States",
+   "cert": "2598.12",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-12-31",
+   "body": "A2LA",
+   "keys": [
+    "als food safety leipsic oh division"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=15103BC3-4C88-4164-85B8-B21DFC2409D5"
+  },
+  {
+   "name": "ALS Food Safety, LLC - Marshfield, WI Division",
+   "location": "Marshfield, WI",
+   "country": "United States",
+   "cert": "2598.09",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-09-30",
+   "body": "A2LA",
+   "keys": [
+    "als food safety marshfield wi division"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=45358DFD-5267-4191-96DD-3A88C12C0042"
+  },
+  {
+   "name": "ALS Food Safety, LLC - Willmar, MN Division",
+   "location": "Willmar, MN",
+   "country": "United States",
+   "cert": "2598.07",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-10-31",
+   "body": "A2LA",
+   "keys": [
+    "als food safety willmar mn division"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=14F930E4-4BC8-44B6-9F1C-EAEE4B58DC6C"
+  },
+  {
+   "name": "ATC Scientific also dba ATC Microbiology",
+   "location": "North Little Rock, AR",
+   "country": "United States",
+   "cert": "3363.02",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-09-30",
+   "body": "A2LA",
+   "keys": [
+    "atc scientific also atc microbiology"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=FD7F5BC4-5E33-4B94-A666-2B31E2136249"
+  },
+  {
+   "name": "ATC Scientific also dba ATC Microbiology",
+   "location": "North Little Rock , AR",
+   "country": "United States",
+   "cert": "3363.03",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-09-30",
+   "body": "A2LA",
+   "keys": [
+    "atc scientific also atc microbiology"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=3C06B753-C47C-4633-850C-9CFC14E4BAC2"
+  },
+  {
+   "name": "Ajwa Analytical Laboratories, LLC",
+   "location": "Gilroy, CA",
+   "country": "United States",
+   "cert": "5078.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-05-31",
+   "body": "A2LA",
+   "keys": [
+    "ajwa analytical laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=A0CE7FCF-CA49-4E2D-BDAF-01D03E714AC9"
+  },
+  {
+   "name": "Alamance Foods, Inc.",
+   "location": "Burlington, NC",
+   "country": "United States",
+   "cert": "7384.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-06-30",
+   "body": "A2LA",
+   "keys": [
+    "alamance foods"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=A5DA0AFE-B58D-42CA-87EF-02358AE654E5"
+  },
+  {
+   "name": "Alkemist Labs",
+   "location": "Garden Grove, CA",
+   "country": "United States",
+   "cert": "3851.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-02-29",
+   "body": "A2LA",
+   "keys": [
+    "alkemist labs"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=6CFE70EC-7718-416C-B611-A6636E9B856F"
+  },
+  {
+   "name": "AnalytiChem USA, Inc.",
+   "location": "Westbrook, ME",
+   "country": "United States",
+   "cert": "2371.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-10-31",
+   "body": "A2LA",
+   "keys": [
+    "analytichem usa"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=6E8C6424-AAE1-4995-9797-D13020D571DA"
+  },
+  {
+   "name": "Analytical Testing Center of Central New York, d/b/a MCR Labs - NY",
+   "location": "Utica, NY",
+   "country": "United States",
+   "cert": "6562.04",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-11-30",
+   "body": "A2LA",
+   "keys": [
+    "analytical testing center of central new york d b a mcr labs ny"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=1C6B46A6-6525-407C-BE3B-9C9974CBA411"
+  },
+  {
+   "name": "BCN Research Laboratories, Inc.",
+   "location": "Rockford, TN",
+   "country": "United States",
+   "cert": "3813.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-02-29",
+   "body": "A2LA",
+   "keys": [
+    "bcn research laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=D3A4A7F9-B312-412C-82A7-D32B564B9525"
+  },
+  {
+   "name": "Bar-S Foods Co. Laboratory",
+   "location": "Elk City, OK",
+   "country": "United States",
+   "cert": "2466.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-06-30",
+   "body": "A2LA",
+   "keys": [
+    "bar s foods laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=000A9795-C368-46A2-ABB8-A2625BDEC55D"
+  },
+  {
+   "name": "Beech Nut Nutrition",
+   "location": "Amsterdam, NY",
+   "country": "United States",
+   "cert": "6527.02",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-03-31",
+   "body": "A2LA",
+   "keys": [
+    "beech nut nutrition"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=4F498753-56FB-4974-BB3A-5F09DAF14D24"
+  },
+  {
+   "name": "Bia Diagnostics, LLC",
+   "location": "Colchester, VT",
+   "country": "United States",
+   "cert": "3594.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-04-30",
+   "body": "A2LA",
+   "keys": [
+    "bia diagnostics"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=E8E523A1-F8E6-4158-B3CE-C8070A357D31"
+  },
+  {
+   "name": "CARGILL MICROBIOLOGY LAB",
+   "location": "Mt. Crawford, VA",
+   "country": "United States",
+   "cert": "6840.04",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-12-31",
+   "body": "A2LA",
+   "keys": [
+    "cargill microbiology lab"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=2F1AE2E8-CADA-4690-BD86-7F2117F2AB88"
+  },
+  {
+   "name": "CMCR Reference Laboratory",
+   "location": "La Jolla, CA",
+   "country": "United States",
+   "cert": "7183.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-01-31",
+   "body": "A2LA",
+   "keys": [
+    "cmcr reference laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=609A5C77-EAF2-48C2-A00C-139588B3BC0F"
+  },
+  {
+   "name": "CRLPA",
+   "location": "Jonestown, PA",
+   "country": "United States",
+   "cert": "5954.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-09-30",
+   "body": "A2LA",
+   "keys": [
+    "crlpa"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=4B99A262-8411-4BC4-9CF7-6E720C764707"
+  },
+  {
+   "name": "Cannalytics, LLC.",
+   "location": "San Juan",
+   "country": "Puerto Rico",
+   "cert": "5094.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2026-12-31",
+   "body": "A2LA",
+   "keys": [
+    "cannalytics"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=64CE0466-6BF9-499C-B19F-191A17CF440E"
+  },
+  {
+   "name": "Capstone Nutrition LLC",
+   "location": "Ogden, UT",
+   "country": "United States",
+   "cert": "5682.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-03-31",
+   "body": "A2LA",
+   "keys": [
+    "capstone nutrition"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=F8FC7555-119C-4695-B033-65FDF0B2F5B8"
+  },
+  {
+   "name": "Cargill Kitchen Solutions",
+   "location": "Lake Odessa, MI",
+   "country": "United States",
+   "cert": "6840.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-07-31",
+   "body": "A2LA",
+   "keys": [
+    "cargill kitchen solutions"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=7096B731-AA53-49A0-919D-8178478496AE"
+  },
+  {
+   "name": "Center For Analytical Chemistry California Department of Food and Agriculture",
+   "location": "Sacramento, CA",
+   "country": "United States",
+   "cert": "2181.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2026-11-30",
+   "body": "A2LA",
+   "keys": [
+    "center for analytical chemistry california department of food and agriculture"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=6825C9FB-D106-46EC-AF9E-8F3B7DB48EDD"
+  },
+  {
+   "name": "Center of Analytical Testing Standard Service for Medical Cannabis and Narcotic Plants",
+   "location": "Bangkok",
+   "country": "Thailand",
+   "cert": "6752.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2026-12-31",
+   "body": "A2LA",
+   "keys": [
+    "center of analytical testing standard service for medical cannabis and narcotic plants"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=70D0B491-F3DA-4346-92D9-4C4FED6C1785"
+  },
+  {
+   "name": "Ceres Scientific",
+   "location": "Baton Rouge, LA",
+   "country": "United States",
+   "cert": "7016.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-10-31",
+   "body": "A2LA",
+   "keys": [
+    "ceres scientific"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=DA1E9AF8-BB3D-46EE-AD10-CBC926087F90"
+  },
+  {
+   "name": "Certified Laboratories",
+   "location": "Melville, NY",
+   "country": "United States",
+   "cert": "1698.28",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-12-31",
+   "body": "A2LA",
+   "keys": [
+    "certified laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=D79F0382-AE6C-4562-82DB-BEF174F43DA7"
+  },
+  {
+   "name": "Certified Laboratories",
+   "location": "Turlock, CA",
+   "country": "United States",
+   "cert": "1698.33",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-10-31",
+   "body": "A2LA",
+   "keys": [
+    "certified laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=5804D19F-B3E5-4356-B444-DFA0608182E5"
+  },
+  {
+   "name": "Circle H Headquarters, LLC",
+   "location": "Dalhart, TX",
+   "country": "United States",
+   "cert": "3565.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-02-29",
+   "body": "A2LA",
+   "keys": [
+    "circle h headquarters"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=3425A062-6A9D-47FF-89E3-6871AABC18F5"
+  },
+  {
+   "name": "Cloud TEN",
+   "location": "Fenton, MO",
+   "country": "United States",
+   "cert": "6743.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2026-12-31",
+   "body": "A2LA",
+   "keys": [
+    "cloud ten"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=931BC70A-B953-4DCE-8996-0DD3F6785542"
+  },
+  {
+   "name": "Colorado Department of Agriculture",
+   "location": "Broomfield, CO",
+   "country": "United States",
+   "cert": "2851.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-06-30",
+   "body": "A2LA",
+   "keys": [
+    "colorado department of agriculture"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=702435F4-F0F5-4680-80EE-A3A8A4A790E7"
+  },
+  {
+   "name": "Colorado Department of Public Health and Environment",
+   "location": "Denver, CO",
+   "country": "United States",
+   "cert": "5888.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-03-31",
+   "body": "A2LA",
+   "keys": [
+    "colorado department of public health and environment"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=076837D6-C984-4347-8175-A435C978B461"
+  },
+  {
+   "name": "Complete Phytochemical Solutions, LLC",
+   "location": "Cambridge, WI",
+   "country": "United States",
+   "cert": "6776.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-09-30",
+   "body": "A2LA",
+   "keys": [
+    "complete phytochemical solutions"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=FFB743D0-B0EA-4243-8C39-EDFCAF4B9B41"
+  },
+  {
+   "name": "Confidence Analytics",
+   "location": "Redmond, WA",
+   "country": "United States",
+   "cert": "5382.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-08-31",
+   "body": "A2LA",
+   "keys": [
+    "confidence analytics"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=A2EBB4A5-18C5-4FF8-83D9-C5AE75F759AD"
+  },
+  {
+   "name": "DEMETER LABORATORY DBA METIS QA LABORATORY",
+   "location": "Oklahoma City, OK",
+   "country": "United States",
+   "cert": "5306.04",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-04-30",
+   "body": "A2LA",
+   "keys": [
+    "demeter laboratory metis qa laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=4DD399CF-4B1E-4563-A78F-5178954703BE"
+  },
+  {
+   "name": "DHHS/FDA/HFP/OLOAS/IRVHAFL",
+   "location": "Irvine, CA",
+   "country": "United States",
+   "cert": "5807.04",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-03-31",
+   "body": "A2LA",
+   "keys": [
+    "dhhs fda hfp oloas irvhafl"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=1E1DA884-4787-476F-97E2-7F958E768A75"
+  },
+  {
+   "name": "DHHS/FDA/HFP/OLOAS/ORTS/Denver Human and Animal Food Laboratory",
+   "location": "Denver, CO",
+   "country": "United States",
+   "cert": "5807.07",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-03-31",
+   "body": "A2LA",
+   "keys": [
+    "dhhs fda hfp oloas orts denver human and animal food laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=F9F2D613-E6DA-439F-8FCF-B8E5E196B52E"
+  },
+  {
+   "name": "DHHS/FDA/HFP/OLOAS/ORTS/Kansas City Human and Animal Food Laboratory",
+   "location": "Lenexa, KS",
+   "country": "United States",
+   "cert": "5807.10",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-10-31",
+   "body": "A2LA",
+   "keys": [
+    "dhhs fda hfp oloas orts kansas city human and animal food laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=0D4293F5-22A7-421E-8B25-8BF70D2A7339"
+  },
+  {
+   "name": "DHHS/FDA/HFP/OLOAS/ORTS/NYHAFL",
+   "location": "Jamaica, NY",
+   "country": "United States",
+   "cert": "5807.11",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-06-30",
+   "body": "A2LA",
+   "keys": [
+    "dhhs fda hfp oloas orts nyhafl"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=75B6A33C-A6CB-4821-AD36-FEF8B40098E5"
+  },
+  {
+   "name": "DHHS/FDA/HFP/OLOAS/ORTS/San Francisco Human and Animal Food Laboratory",
+   "location": "Alameda, CA",
+   "country": "United States",
+   "cert": "5807.17",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-12-31",
+   "body": "A2LA",
+   "keys": [
+    "dhhs fda hfp oloas orts san francisco human and animal food laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=B5EA7247-1DF5-4FD1-A520-E08EC6606084"
+  },
+  {
+   "name": "DHHS/FDA/OC/OCS/OARL Irvine Medical Products Laboratory",
+   "location": "Irvine, CA",
+   "country": "United States",
+   "cert": "5807.22",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-03-31",
+   "body": "A2LA",
+   "keys": [
+    "dhhs fda oc ocs oarl irvine medical products laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=7C29680C-B5F0-41A0-9E0B-D3415ECC0F53"
+  },
+  {
+   "name": "DHHS/FDA/OC/OCS/OARL New York Medical Products Laboratory",
+   "location": "Jamaica, NY",
+   "country": "United States",
+   "cert": "5807.24",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-06-30",
+   "body": "A2LA",
+   "keys": [
+    "dhhs fda oc ocs oarl new york medical products laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=83A85EDA-A9E3-4F3E-9F44-F7F1D16C0DE5"
+  },
+  {
+   "name": "DHHS/FDA/OC/OCS/OARL San Juan Medical Products Laboratory",
+   "location": "San Juan, PR",
+   "country": "United States",
+   "cert": "5807.18",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-06-30",
+   "body": "A2LA",
+   "keys": [
+    "dhhs fda oc ocs oarl san juan medical products laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=8417EEAC-359C-4BF3-A6A0-20F4350722ED"
+  },
+  {
+   "name": "DHHS/FDA/OCS/OARL/Detroit Medical Products Laboratory",
+   "location": "Detroit, MI",
+   "country": "United States",
+   "cert": "5807.09",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-06-30",
+   "body": "A2LA",
+   "keys": [
+    "dhhs fda ocs oarl detroit medical products laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=C9196BC0-6B25-4FF9-807B-033708A08270"
+  },
+  {
+   "name": "DHHS/FDA/OCS/OSLES Winchester Engineering and Analytical Center (WEAC)",
+   "location": "Winchester, MA",
+   "country": "United States",
+   "cert": "5807.20",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-03-31",
+   "body": "A2LA",
+   "keys": [
+    "dhhs fda ocs osles winchester engineering and analytical center weac"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=AE6DAB0B-369E-451B-8789-6122B958DFDD"
+  },
+  {
+   "name": "Daane Labs",
+   "location": "Naples, FL",
+   "country": "United States",
+   "cert": "3562.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-03-31",
+   "body": "A2LA",
+   "keys": [
+    "daane labs"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=C11990C5-2B29-41FF-BF3F-715D8E9C4920"
+  },
+  {
+   "name": "Danone North America",
+   "location": "Louisville, CO",
+   "country": "United States",
+   "cert": "2985.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-05-31",
+   "body": "A2LA",
+   "keys": [
+    "danone north america"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=B3513532-1880-4E6A-98CC-ECDB6E6A28FD"
+  },
+  {
+   "name": "Defense Food Analysis & Diagnostic Laboratory (FADL)",
+   "location": "JBSA Fort Sam Houston, TX",
+   "country": "United States",
+   "cert": "1839.02",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-09-30",
+   "body": "A2LA",
+   "keys": [
+    "defense food analysis and diagnostic laboratory fadl"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=6070E583-E498-4603-BA64-CBC51ABC822F"
+  },
+  {
+   "name": "Deibel Laboratories Inc",
+   "location": "Waco, TX",
+   "country": "United States",
+   "cert": "2833.22",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-07-31",
+   "body": "A2LA",
+   "keys": [
+    "deibel laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=E5F1B822-F26D-484D-A6DE-897F35AA4C63"
+  },
+  {
+   "name": "Deibel Laboratories of Idaho, Inc.",
+   "location": "Twin Falls, ID",
+   "country": "United States",
+   "cert": "2833.10",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-07-31",
+   "body": "A2LA",
+   "keys": [
+    "deibel laboratories of idaho"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=3D221284-B67A-4350-9308-F3EC37CA2BAA"
+  },
+  {
+   "name": "Deibel Laboratories of Illinois, Inc.",
+   "location": "Niles, IL",
+   "country": "United States",
+   "cert": "2833.05",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-09-30",
+   "body": "A2LA",
+   "keys": [
+    "deibel laboratories of illinois"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=344E5CA6-2C25-47B0-9323-090D22FF1467"
+  },
+  {
+   "name": "Deibel Laboratories of Lakeland, Florida",
+   "location": "Lakeland, FL",
+   "country": "United States",
+   "cert": "2833.02",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-09-30",
+   "body": "A2LA",
+   "keys": [
+    "deibel laboratories of lakeland florida"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=FDEDA610-9D95-4703-BCDF-EA170A89C83A"
+  },
+  {
+   "name": "Deibel Laboratories of Missouri Inc.",
+   "location": "St. Louis, MO",
+   "country": "United States",
+   "cert": "2833.03",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-01-31",
+   "body": "A2LA",
+   "keys": [
+    "deibel laboratories of missouri"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=46A11E72-D1E2-4B2F-BE1A-0E13DBDC41E9"
+  },
+  {
+   "name": "Deibel Laboratories of Pennsylvania",
+   "location": "Allentown, PA",
+   "country": "United States",
+   "cert": "2833.07",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-01-31",
+   "body": "A2LA",
+   "keys": [
+    "deibel laboratories of pennsylvania"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=82BD061B-2EC4-41FE-B1BE-7B39A460EB55"
+  },
+  {
+   "name": "Deibel Laboratories of Virginia",
+   "location": "Chester, VA",
+   "country": "United States",
+   "cert": "2833.24",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-01-31",
+   "body": "A2LA",
+   "keys": [
+    "deibel laboratories of virginia"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=5FE90F4E-B132-4AF8-A9E5-CBDB5C4E749E"
+  },
+  {
+   "name": "Deibel Laboratories, Inc.",
+   "location": "Madison, WI",
+   "country": "United States",
+   "cert": "2833.12",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-09-30",
+   "body": "A2LA",
+   "keys": [
+    "deibel laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=B53E0562-5FBF-4E4C-88CE-D6509CC22AB1"
+  },
+  {
+   "name": "Department of Toxic Substances Control (DTSC) Environmental Chemistry Laboratory (ECL) - Pasadena",
+   "location": "Pasadena , CA",
+   "country": "United States",
+   "cert": "5006.02",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-10-31",
+   "body": "A2LA",
+   "keys": [
+    "department of toxic substances control dtsc environmental chemistry laboratory ecl pasadena"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=81DC20C6-C311-459D-B19B-162183546D26"
+  },
+  {
+   "name": "Dope Diagnostics",
+   "location": "Pearl River, NY",
+   "country": "United States",
+   "cert": "7120.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-10-31",
+   "body": "A2LA",
+   "keys": [
+    "dope diagnostics"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=56BF5BA8-CCF3-4B11-9865-5D611CB20F78"
+  },
+  {
+   "name": "ELISA Technologies, Inc.",
+   "location": "Gainesville, FL",
+   "country": "United States",
+   "cert": "2793.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-02-28",
+   "body": "A2LA",
+   "keys": [
+    "elisa technologies"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=1236B2D8-AE39-4752-A703-3AF550B55F8D"
+  },
+  {
+   "name": "EMSL Analytical, Inc.",
+   "location": "Saint Louis, MO",
+   "country": "United States",
+   "cert": "2845.10",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-04-30",
+   "body": "A2LA",
+   "keys": [
+    "emsl analytical"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=ED5521E5-7DAE-43DA-BD21-01E5DE0F4119"
+  },
+  {
+   "name": "EMSL Analytical, Inc.",
+   "location": "Indianapolis, IN",
+   "country": "United States",
+   "cert": "2845.11",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-01-31",
+   "body": "A2LA",
+   "keys": [
+    "emsl analytical"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=1690E149-9F9B-45FA-9F93-032DBE8E5C4B"
+  },
+  {
+   "name": "EMSL Analytical, Inc.",
+   "location": "Houston, TX",
+   "country": "United States",
+   "cert": "2845.12",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-08-31",
+   "body": "A2LA",
+   "keys": [
+    "emsl analytical"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=00A8EC30-1BE6-45B5-B683-4341FEC0B859"
+  },
+  {
+   "name": "EMSL Analytical, Inc.",
+   "location": "Morrisville, NC",
+   "country": "United States",
+   "cert": "2845.13",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-08-31",
+   "body": "A2LA",
+   "keys": [
+    "emsl analytical"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=8A2C1444-FD06-4C79-A38C-6222EDFEB9F5"
+  },
+  {
+   "name": "EMSL Analytical, Inc.",
+   "location": "Cinnaminson, NJ",
+   "country": "United States",
+   "cert": "2845.14",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-07-31",
+   "body": "A2LA",
+   "keys": [
+    "emsl analytical"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=69053081-3799-4189-9F1B-19A3D04B82BC"
+  },
+  {
+   "name": "EMSL Analytical, Inc. - Orlando",
+   "location": "Orlando, FL",
+   "country": "United States",
+   "cert": "2845.49",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-06-30",
+   "body": "A2LA",
+   "keys": [
+    "emsl analytical orlando"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=6E85CC02-6582-4E81-ABF4-FD53B27DE6A6"
+  },
+  {
+   "name": "Element Materials Technology - Fort Wayne",
+   "location": "Fort Wayne, IN",
+   "country": "United States",
+   "cert": "6190.06",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-08-31",
+   "body": "A2LA",
+   "keys": [
+    "element materials technology fort wayne"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=4B22CB8E-16AC-4A17-A259-0BACFA72425C"
+  },
+  {
+   "name": "Eurofins Analytical Laboratories, Inc. dba Eurofins Central Analytical Laboratories and dba Eurofins GeneScan",
+   "location": "New Orleans, LA",
+   "country": "United States",
+   "cert": "2993.02",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-05-31",
+   "body": "A2LA",
+   "keys": [
+    "eurofins analytical laboratories eurofins central analytical laboratories and eurofins genescan"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=1C1A47C3-A6F2-4BE7-BCF5-45DAC9D146AB"
+  },
+  {
+   "name": "Eurofins DQCI",
+   "location": "Mounds View, MN",
+   "country": "United States",
+   "cert": "3500.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-09-30",
+   "body": "A2LA",
+   "keys": [
+    "eurofins dqci"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=0D7481D3-9546-44F6-9FBD-139EC632199F"
+  },
+  {
+   "name": "Eurofins DQCI, LLC",
+   "location": "Fresno, CA",
+   "country": "United States",
+   "cert": "3500.04",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-01-31",
+   "body": "A2LA",
+   "keys": [
+    "eurofins dqci"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=1E12B612-15B4-4490-B197-4B34D1B069AE"
+  },
+  {
+   "name": "Eurofins Food Chemistry Testing Des Moines, Inc.",
+   "location": "Des Moines, IA",
+   "country": "United States",
+   "cert": "2927.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-02-29",
+   "body": "A2LA",
+   "keys": [
+    "eurofins food chemistry testing des moines"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=C3690901-37A9-4020-BA8F-A1DE12D25D65"
+  },
+  {
+   "name": "Eurofins Food Chemistry Testing Madison, Inc.",
+   "location": "Madison, WI",
+   "country": "United States",
+   "cert": "2918.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-10-31",
+   "body": "A2LA",
+   "keys": [
+    "eurofins food chemistry testing madison"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=0E289514-A65B-43F0-9D0A-DC7E7F3DF661"
+  },
+  {
+   "name": "Eurofins Microbiology Laboratories, Inc. - Atlanta",
+   "location": "Atlanta, GA",
+   "country": "United States",
+   "cert": "3329.06",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-07-31",
+   "body": "A2LA",
+   "keys": [
+    "eurofins microbiology laboratories atlanta"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=0936870E-EE61-4511-B228-7447AE5EB258"
+  },
+  {
+   "name": "Eurofins Microbiology Laboratories, Inc. - Clayton",
+   "location": "Clayton, NC",
+   "country": "United States",
+   "cert": "3329.15",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-08-31",
+   "body": "A2LA",
+   "keys": [
+    "eurofins microbiology laboratories clayton"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=55228627-4D34-47B7-8A14-64DD63400158"
+  },
+  {
+   "name": "Eurofins Microbiology Laboratories, Inc. - Lancaster",
+   "location": "Lancaster, PA",
+   "country": "United States",
+   "cert": "3329.03",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-08-31",
+   "body": "A2LA",
+   "keys": [
+    "eurofins microbiology laboratories lancaster"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=F7C574EB-AAF9-44D7-90A0-7F2085D8FFB7"
+  },
+  {
+   "name": "Eurofins Microbiology Laboratories, Inc. - Mounds View",
+   "location": "Mounds View, MN",
+   "country": "United States",
+   "cert": "3329.02",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-01-31",
+   "body": "A2LA",
+   "keys": [
+    "eurofins microbiology laboratories mounds view"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=F6A64130-3072-4DCD-971D-01FF8F6104CF"
+  },
+  {
+   "name": "Eurofins Microbiology Laboratories, Inc. \u2013 Battle Creek",
+   "location": "Battle Creek, MI",
+   "country": "United States",
+   "cert": "2918.04",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-08-31",
+   "body": "A2LA",
+   "keys": [
+    "eurofins microbiology laboratories battle creek"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=CF41CE8A-2A39-4442-9F1F-24539610F9EF"
+  },
+  {
+   "name": "Eurofins Microbiology Laboratories, Inc. \u2013 Madison",
+   "location": "Madison, WI",
+   "country": "United States",
+   "cert": "2918.05",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-10-31",
+   "body": "A2LA",
+   "keys": [
+    "eurofins microbiology laboratories madison"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=56D553AA-198C-454D-A98B-14C181832418"
+  },
+  {
+   "name": "Eurofins Microbiology Laboratories, Inc. \u2013 New England",
+   "location": "North Kingstown, RI",
+   "country": "United States",
+   "cert": "3329.08",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-03-31",
+   "body": "A2LA",
+   "keys": [
+    "eurofins microbiology laboratories new england"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=5539173D-5B8D-4507-B5E9-5EB0E13C59CE"
+  },
+  {
+   "name": "Eurofins Rapid Microbiology Laboratories, Inc - North Platte",
+   "location": "North Platte, NE",
+   "country": "United States",
+   "cert": "3329.19",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-06-30",
+   "body": "A2LA",
+   "keys": [
+    "eurofins rapid microbiology laboratories north platte"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=2A4F87E9-B94A-4F39-8D91-91C42C744B0A"
+  },
+  {
+   "name": "Eurofins Rapid Microbiology Laboratories, LLC - Cascade",
+   "location": "UNION GAP, WA",
+   "country": "United States",
+   "cert": "3329.18",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-03-31",
+   "body": "A2LA",
+   "keys": [
+    "eurofins rapid microbiology laboratories cascade"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=BA2AFB8E-8AF9-4B68-BD76-227F2A3A61BB"
+  },
+  {
+   "name": "Eurofins Rapid Microbiology Laboratories, LLC - Des Moines",
+   "location": "Des Moines, IA",
+   "country": "United States",
+   "cert": "3329.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-10-31",
+   "body": "A2LA",
+   "keys": [
+    "eurofins rapid microbiology laboratories des moines"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=356B775B-D554-45B0-9419-36CA3AD8CBDA"
+  },
+  {
+   "name": "Eurofins Rapid Microbiology Laboratories, LLC - Lafayette",
+   "location": "Lafayette, CO",
+   "country": "United States",
+   "cert": "3329.11",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-01-31",
+   "body": "A2LA",
+   "keys": [
+    "eurofins rapid microbiology laboratories lafayette"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=DCE18E2D-1180-4E86-82E3-9E03DFA66EF6"
+  },
+  {
+   "name": "Eurofins Rapid Microbiology Laboratories, LLC - Omaha",
+   "location": "Omaha, NE",
+   "country": "United States",
+   "cert": "3329.17",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-11-30",
+   "body": "A2LA",
+   "keys": [
+    "eurofins rapid microbiology laboratories omaha"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=C970B99C-B5BB-449A-AC44-3F2B728E7789"
+  },
+  {
+   "name": "Eurofins Rapid Microbiology Laboratories, LLC \u2013 DeSoto",
+   "location": "DeSoto, TX",
+   "country": "United States",
+   "cert": "3329.09",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-04-30",
+   "body": "A2LA",
+   "keys": [
+    "eurofins rapid microbiology laboratories desoto"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=08F21ADD-BF4D-4D30-BC25-BCBDA9607041"
+  },
+  {
+   "name": "Eurofins Rapid Microbiology Laboratories, LLC- Columbia",
+   "location": "Columbia, MO",
+   "country": "United States",
+   "cert": "3329.14",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-05-31",
+   "body": "A2LA",
+   "keys": [
+    "eurofins rapid microbiology laboratories columbia"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=DAAB2FF5-77CF-4765-9907-B8963F2305BC"
+  },
+  {
+   "name": "Felling Analytical Services and Technology (F.A.S.T.), LLC",
+   "location": "Greenbrier, AR",
+   "country": "United States",
+   "cert": "4473.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-04-30",
+   "body": "A2LA",
+   "keys": [
+    "felling analytical services and technology f a s t"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=DF508519-EF1F-41F1-ADC5-400B04FCDCE7"
+  },
+  {
+   "name": "Fieldale Farms Corporation",
+   "location": "Baldwin, GA",
+   "country": "United States",
+   "cert": "3050.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-10-31",
+   "body": "A2LA",
+   "keys": [
+    "fieldale farms"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=2547A019-A80B-497C-9DBF-B79830FD055C"
+  },
+  {
+   "name": "Fina Analytics",
+   "location": "Waseca, MN",
+   "country": "United States",
+   "cert": "6985.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-10-31",
+   "body": "A2LA",
+   "keys": [
+    "fina analytics"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=B18646A7-18B7-49B7-B9C8-1A8298A5007F"
+  },
+  {
+   "name": "Florida Department of Agriculture and Consumer Services",
+   "location": "Tallahassee, FL",
+   "country": "United States",
+   "cert": "2534.02",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-03-31",
+   "body": "A2LA",
+   "keys": [
+    "florida department of agriculture and consumer services"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=61B3CA27-4FD4-41B8-8FCE-E0A9C0958958"
+  },
+  {
+   "name": "Food Allergy Research and Resource Program Analytical Laboratory, University of Nebraska",
+   "location": "Lincoln, NE",
+   "country": "United States",
+   "cert": "3303.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-03-31",
+   "body": "A2LA",
+   "keys": [
+    "food allergy research and resource program analytical laboratory university of nebraska"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=2FFCEB6B-68A3-4FB0-A98D-1644C39E2897"
+  },
+  {
+   "name": "Food Safety Net Services",
+   "location": "Allentown, PA",
+   "country": "United States",
+   "cert": "1698.20",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-04-30",
+   "body": "A2LA",
+   "keys": [
+    "food safety net services"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=B0BD5FFC-D2E6-41B9-BE71-7777A93317C0"
+  },
+  {
+   "name": "Food Safety Net Services",
+   "location": "Dodge City, KS",
+   "country": "United States",
+   "cert": "1698.21",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-10-31",
+   "body": "A2LA",
+   "keys": [
+    "food safety net services"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=F243375F-1330-4D6E-A50F-24DDB6349908"
+  },
+  {
+   "name": "Food Safety Net Services",
+   "location": "Logan, UT",
+   "country": "United States",
+   "cert": "1698.22",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-12-31",
+   "body": "A2LA",
+   "keys": [
+    "food safety net services"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=8DF31358-B797-45FF-9A62-B6908F21B84E"
+  },
+  {
+   "name": "Food Safety Net Services",
+   "location": "Plymouth, MN",
+   "country": "United States",
+   "cert": "1698.26",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-04-30",
+   "body": "A2LA",
+   "keys": [
+    "food safety net services"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=81AB8C2D-E46A-40D0-89E9-94F618701A5F"
+  },
+  {
+   "name": "Food Safety Net Services",
+   "location": "Kitchener",
+   "country": "Canada",
+   "cert": "1698.36",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-05-30",
+   "body": "A2LA",
+   "keys": [
+    "food safety net services"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=9AAFE94F-0857-49C0-B134-23CCFA9F67FE"
+  },
+  {
+   "name": "Food Safety Net Services",
+   "location": "St. Louis, MO",
+   "country": "United States",
+   "cert": "1698.38",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-06-30",
+   "body": "A2LA",
+   "keys": [
+    "food safety net services"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=92B001D5-5BFB-44FE-9129-575B30E28026"
+  },
+  {
+   "name": "Food Safety Net Services",
+   "location": "Calgary",
+   "country": "Canada",
+   "cert": "1698.39",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-12-31",
+   "body": "A2LA",
+   "keys": [
+    "food safety net services"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=CE78497A-C77C-489F-A571-E4422B604379"
+  },
+  {
+   "name": "Food Safety Net Services - Michigan, LLC.",
+   "location": "Plainwell, MI",
+   "country": "United States",
+   "cert": "1698.09",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-04-30",
+   "body": "A2LA",
+   "keys": [
+    "food safety net services michigan"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=2E00274A-F0A7-41AE-B22B-53093B71AE7D"
+  },
+  {
+   "name": "Food Safety Net Services LLC",
+   "location": "Springdale, AR",
+   "country": "United States",
+   "cert": "1698.13",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-12-31",
+   "body": "A2LA",
+   "keys": [
+    "food safety net services"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=9C0330C8-4624-468B-92B7-D5E4D2B8A667"
+  },
+  {
+   "name": "Food Safety Net Services LLC",
+   "location": "Omaha, NE",
+   "country": "United States",
+   "cert": "1698.16",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-01-31",
+   "body": "A2LA",
+   "keys": [
+    "food safety net services"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=9A9C50DA-7676-4EF7-A042-1A20A2E7BA12"
+  },
+  {
+   "name": "Food Safety Net Services, L.P.",
+   "location": "Fresno, CA",
+   "country": "United States",
+   "cert": "1698.06",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-07-31",
+   "body": "A2LA",
+   "keys": [
+    "food safety net services l p"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=BDC5E666-1655-45B3-B18D-CF8CA656A043"
+  },
+  {
+   "name": "Food Safety Net Services, LLC",
+   "location": "Columbus, OH",
+   "country": "United States",
+   "cert": "1698.27",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-07-31",
+   "body": "A2LA",
+   "keys": [
+    "food safety net services"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=E4EFE064-3BA4-4511-8C77-658A361DEA40"
+  },
+  {
+   "name": "Food Safety Net Services, LLC.",
+   "location": "Phoenix, AZ",
+   "country": "United States",
+   "cert": "1698.03",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-12-31",
+   "body": "A2LA",
+   "keys": [
+    "food safety net services"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=7FDA538F-004A-4FE7-B9A9-DA91CB78C345"
+  },
+  {
+   "name": "Food Safety Net Services, LTD.",
+   "location": "San Antonio, TX",
+   "country": "United States",
+   "cert": "1698.07",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-09-30",
+   "body": "A2LA",
+   "keys": [
+    "food safety net services"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=6EDFD1D8-EA66-4184-99BE-EB7E8B1AEA2D"
+  },
+  {
+   "name": "Food Safety Net Services, LTD.",
+   "location": "Amarillo, TX",
+   "country": "United States",
+   "cert": "1698.12",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-02-29",
+   "body": "A2LA",
+   "keys": [
+    "food safety net services"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=6C2760B1-7C65-412F-A51D-271A96CE6F24"
+  },
+  {
+   "name": "Food Safety Net Services, Wisconsin, LLC.",
+   "location": "De Pere, WI",
+   "country": "United States",
+   "cert": "1698.04",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-09-30",
+   "body": "A2LA",
+   "keys": [
+    "food safety net services wisconsin"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=C9A655A6-EF8A-4BFE-969B-3C983B2DE0D2"
+  },
+  {
+   "name": "Foundation Analytical Laboratory, Inc.",
+   "location": "Cherokee, IA",
+   "country": "United States",
+   "cert": "4733.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-02-29",
+   "body": "A2LA",
+   "keys": [
+    "foundation analytical laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=128A8CBA-8E90-47D3-A36A-AA3AD0988628"
+  },
+  {
+   "name": "GCA Labs/GCA, Inc.",
+   "location": "Herculaneum, MO",
+   "country": "United States",
+   "cert": "5611.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-09-30",
+   "body": "A2LA",
+   "keys": [
+    "gca labs gca"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=79ABDB6C-445C-4606-B00B-65774C27A508"
+  },
+  {
+   "name": "GEL Laboratories, LLC",
+   "location": "Charleston, SC",
+   "country": "United States",
+   "cert": "2567.01",
+   "programs": [
+    "ISO/IEC 17025 : Environmental"
+   ],
+   "expires": "2027-06-30",
+   "body": "A2LA",
+   "keys": [
+    "gel laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=223E16F6-67DB-450F-B736-1EC6C627AC93"
+  },
+  {
+   "name": "Gateway Labs",
+   "location": "Tonkawa, OK",
+   "country": "United States",
+   "cert": "6694.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-11-30",
+   "body": "A2LA",
+   "keys": [
+    "gateway labs"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=C0C5A770-14E8-4D1D-924D-AB0A2417F3EA"
+  },
+  {
+   "name": "George's Inc.",
+   "location": "Springdale, AR",
+   "country": "United States",
+   "cert": "4158.02",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-06-30",
+   "body": "A2LA",
+   "keys": [
+    "george s"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=F6755846-AEE8-4999-B80E-61108506FD73"
+  },
+  {
+   "name": "George's Inc.",
+   "location": "Edinburg, VA",
+   "country": "United States",
+   "cert": "4158.03",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-07-31",
+   "body": "A2LA",
+   "keys": [
+    "george s"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=188D1B80-3C48-4CF6-8179-6BA0296FDBC2"
+  },
+  {
+   "name": "George's Inc. Food Safety and Quality Laboratory",
+   "location": "Batesville, AR",
+   "country": "United States",
+   "cert": "4158.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-04-30",
+   "body": "A2LA",
+   "keys": [
+    "george s food safety and quality laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=3D5CABBC-E613-415E-9C63-6FB71848598C"
+  },
+  {
+   "name": "Givaudan Flavors Corp.",
+   "location": "Cincinnati, OH",
+   "country": "United States",
+   "cert": "7672.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-04-30",
+   "body": "A2LA",
+   "keys": [
+    "givaudan flavors"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=E17F83E1-E805-41D9-88A9-D842B3935DB2"
+  },
+  {
+   "name": "Glanbia Foods Inc.",
+   "location": "Twin Falls, ID",
+   "country": "United States",
+   "cert": "7577.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-08-31",
+   "body": "A2LA",
+   "keys": [
+    "glanbia foods"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=BE6B6AFD-5FFA-4341-BC57-AA96E98A87B2"
+  },
+  {
+   "name": "Green Analytics",
+   "location": "Bridgeport, WV",
+   "country": "United States",
+   "cert": "4356.07",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-03-31",
+   "body": "A2LA",
+   "keys": [
+    "green analytics"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=43501528-1A14-4270-BA03-83EADC2218BF"
+  },
+  {
+   "name": "Green Analytics East LLC",
+   "location": "Hamilton Township, NJ",
+   "country": "United States",
+   "cert": "4356.03",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-11-30",
+   "body": "A2LA",
+   "keys": [
+    "green analytics east"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=3A92460A-399A-42AA-ACB1-966E21173FBE"
+  },
+  {
+   "name": "Green Analytics MD LLC",
+   "location": "Columbia, MD",
+   "country": "United States",
+   "cert": "4356.06",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-04-30",
+   "body": "A2LA",
+   "keys": [
+    "green analytics md"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=FD38F238-2A88-493D-ABA3-E0F2F1C16943"
+  },
+  {
+   "name": "Green Analytics Massachusetts, LLC",
+   "location": "Framingham, MA",
+   "country": "United States",
+   "cert": "4356.11",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-06-30",
+   "body": "A2LA",
+   "keys": [
+    "green analytics massachusetts"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=8BF79656-C06A-4C8C-BB26-CD2B08C58642"
+  },
+  {
+   "name": "Green Analytics NY, LLC",
+   "location": "Pearl River, NY",
+   "country": "United States",
+   "cert": "4356.09",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-05-31",
+   "body": "A2LA",
+   "keys": [
+    "green analytics ny"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=FF3C64F2-C8CF-44B4-9DCA-6E7269C30975"
+  },
+  {
+   "name": "Green Analytics North",
+   "location": "Harrisburg, PA",
+   "country": "United States",
+   "cert": "4356.02",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-04-30",
+   "body": "A2LA",
+   "keys": [
+    "green analytics north"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=30D402AF-1A6F-4C37-83DE-E74BC5D36E53"
+  },
+  {
+   "name": "Green Analytics Ohio",
+   "location": "Toledo, OH",
+   "country": "United States",
+   "cert": "4356.12",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-08-31",
+   "body": "A2LA",
+   "keys": [
+    "green analytics ohio"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=31FDC47D-88BA-4B1E-A866-17CAC17702E8"
+  },
+  {
+   "name": "Green Analytics Virginia, LLC",
+   "location": "Ashland, VA",
+   "country": "United States",
+   "cert": "5748.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-10-31",
+   "body": "A2LA",
+   "keys": [
+    "green analytics virginia"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=F97D06EC-8852-420E-B4A2-1463E462D9CA"
+  },
+  {
+   "name": "Green Hills Analytical Labs LLC",
+   "location": "Catano",
+   "country": "Puerto Rico",
+   "cert": "5364.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-05-31",
+   "body": "A2LA",
+   "keys": [
+    "green hills analytical labs"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=B6D26462-0D26-42CF-B0E3-D514483C143A"
+  },
+  {
+   "name": "Green Precision Analytics",
+   "location": "Kansas City, MO",
+   "country": "United States",
+   "cert": "6318.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-11-30",
+   "body": "A2LA",
+   "keys": [
+    "green precision analytics"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=AF3F4067-F7F3-48D7-B512-A69588D52533"
+  },
+  {
+   "name": "HACCP Assurance Services, Inc.",
+   "location": "Bloomsburg, PA",
+   "country": "United States",
+   "cert": "3325.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-08-31",
+   "body": "A2LA",
+   "keys": [
+    "haccp assurance services"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=135BB30C-2E63-4CA0-B84D-FF5505CA80AF"
+  },
+  {
+   "name": "Harrens Lab Inc.",
+   "location": "Hayward, CA",
+   "country": "United States",
+   "cert": "4074.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-09-30",
+   "body": "A2LA",
+   "keys": [
+    "harrens lab"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=D23390AA-1092-47F2-A69C-F9991A014CCE"
+  },
+  {
+   "name": "Havard Industries, LLC",
+   "location": "Oklahoma City, OK",
+   "country": "United States",
+   "cert": "5719.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2026-11-30",
+   "body": "A2LA",
+   "keys": [
+    "havard industries"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=FB2A9F4B-EACF-4F58-88FE-F15ECA2437E0"
+  },
+  {
+   "name": "Heartland Assays, LLC",
+   "location": "Ames, IA",
+   "country": "United States",
+   "cert": "3969.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-01-31",
+   "body": "A2LA",
+   "keys": [
+    "heartland assays"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=D676F66C-3497-4844-8E93-F580CBA89E8B"
+  },
+  {
+   "name": "High Tide Lab Company",
+   "location": "Camden, DE",
+   "country": "United States",
+   "cert": "5973.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2026-11-30",
+   "body": "A2LA",
+   "keys": [
+    "high tide lab company"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=C22AD844-62CC-4098-8631-8F0C45835DBA"
+  },
+  {
+   "name": "Hormel Foods Corporate Services",
+   "location": "Austin, MN",
+   "country": "United States",
+   "cert": "4355.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-07-31",
+   "body": "A2LA",
+   "keys": [
+    "hormel foods corporate services"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=FC6107C3-339B-4907-B5A7-8FB71FAB0DAE"
+  },
+  {
+   "name": "IFF - International Flavors & Fragrances (Health Wright Products)",
+   "location": "Clackamas, OR",
+   "country": "United States",
+   "cert": "7442.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-12-31",
+   "body": "A2LA",
+   "keys": [
+    "iff international flavors and fragrances health wright products"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=F43DCA13-2EAD-493D-9635-BCF890BC24C7"
+  },
+  {
+   "name": "Innovatical Laboratories, LLC",
+   "location": "Montclair, CA",
+   "country": "United States",
+   "cert": "3982.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-09-30",
+   "body": "A2LA",
+   "keys": [
+    "innovatical laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=28E8AC21-B6CE-40D2-947D-4FF4DC759D2C"
+  },
+  {
+   "name": "Jones Dairy Farm",
+   "location": "Fort Atkinson, WI",
+   "country": "United States",
+   "cert": "1895.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-07-31",
+   "body": "A2LA",
+   "keys": [
+    "jones dairy farm"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=51770CD0-F19C-48D5-823C-292F99F6CFCF"
+  },
+  {
+   "name": "KAYCHA COLORADO LLC",
+   "location": "Denver , CO",
+   "country": "United States",
+   "cert": "4331.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-12-31",
+   "body": "A2LA",
+   "keys": [
+    "kaycha colorado"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=FB30B427-4C07-4696-81A8-0616023F2C35"
+  },
+  {
+   "name": "Kaytee Products, Inc.",
+   "location": "Chilton, WI",
+   "country": "United States",
+   "cert": "3833.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-08-31",
+   "body": "A2LA",
+   "keys": [
+    "kaytee products"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=AE2C5B5A-AFE5-4C38-831B-D72AC8902684"
+  },
+  {
+   "name": "Kwik Trip, Inc. Food Protection Laboratory Services",
+   "location": "La Crosse, WI",
+   "country": "United States",
+   "cert": "4984.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-07-31",
+   "body": "A2LA",
+   "keys": [
+    "kwik trip food protection laboratory services"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=2739DA15-446D-437F-8A98-6C0CED64F41B"
+  },
+  {
+   "name": "Laboratories Administration, MDH",
+   "location": "Baltimore, MD",
+   "country": "United States",
+   "cert": "3525.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-06-30",
+   "body": "A2LA",
+   "keys": [
+    "laboratories administration mdh"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=634C0921-B255-459D-A0C1-EE16BBD0A6A2"
+  },
+  {
+   "name": "Landau Laboratories, Inc.",
+   "location": "Cathedral City, CA",
+   "country": "United States",
+   "cert": "5236.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2026-11-30",
+   "body": "A2LA",
+   "keys": [
+    "landau laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=F0A070B7-6BAE-4AB1-A6AC-7618D2119DC9"
+  },
+  {
+   "name": "Legend Technical Services, Inc.",
+   "location": "St. Paul, MN",
+   "country": "United States",
+   "cert": "2950.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-02-29",
+   "body": "A2LA",
+   "keys": [
+    "legend technical services"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=21599AA4-BC17-4740-99CD-07E850C3D7B4"
+  },
+  {
+   "name": "Leprino Foods Company",
+   "location": "Denver, CO",
+   "country": "United States",
+   "cert": "4168.02",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-09-30",
+   "body": "A2LA",
+   "keys": [
+    "leprino foods company"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=5F3BD228-C562-4882-9085-616F47D13400"
+  },
+  {
+   "name": "MA Analytics",
+   "location": "Las Vegas, NV",
+   "country": "United States",
+   "cert": "5209.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-08-31",
+   "body": "A2LA",
+   "keys": [
+    "ma analytics"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=F803C233-5FF8-441B-80DE-6C7C035981CB"
+  },
+  {
+   "name": "MARYLAND CANNALYTICS, LLC.",
+   "location": "WESTMINSTER, MD",
+   "country": "United States",
+   "cert": "5470.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-08-31",
+   "body": "A2LA",
+   "keys": [
+    "maryland cannalytics"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=2881EEC5-B4C0-40B1-B585-B27BB5F9CF7A"
+  },
+  {
+   "name": "MCR Labs, ME",
+   "location": "Gardiner, ME",
+   "country": "United States",
+   "cert": "6562.05",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-05-31",
+   "body": "A2LA",
+   "keys": [
+    "mcr labs me"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=B32594B6-4006-420F-81BF-B1BE4169A4B7"
+  },
+  {
+   "name": "MICHIGAN CANNALYTICS, LLC",
+   "location": "Warren, MI",
+   "country": "United States",
+   "cert": "5470.08",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-02-29",
+   "body": "A2LA",
+   "keys": [
+    "michigan cannalytics"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=5A6655C5-D395-4391-9150-C5B7F6389B4E"
+  },
+  {
+   "name": "Marsil Laboratories LLC",
+   "location": "Oklahoma City, OK",
+   "country": "United States",
+   "cert": "4304.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-08-31",
+   "body": "A2LA",
+   "keys": [
+    "marsil laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=23840D08-73F7-4598-8D03-26DE3D5447BA"
+  },
+  {
+   "name": "Medallion Labs",
+   "location": "Golden Valley, MN",
+   "country": "United States",
+   "cert": "2769.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-06-30",
+   "body": "A2LA",
+   "keys": [
+    "medallion labs"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=521A3EBA-9F8C-4291-8E02-4DAF958B1ADD"
+  },
+  {
+   "name": "Metrix360 LaboratoriesTM",
+   "location": "San Antonio, TX",
+   "country": "United States",
+   "cert": "3015.02",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-07-31",
+   "body": "A2LA",
+   "keys": [
+    "metrix360 laboratoriestm"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=7497BBB9-8966-4DE0-A3FC-AA38E425AA5D"
+  },
+  {
+   "name": "Michael Foods Inc.",
+   "location": "Norwalk, IA",
+   "country": "United States",
+   "cert": "5792.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-08-31",
+   "body": "A2LA",
+   "keys": [
+    "michael foods"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=C4D6E70B-FD9A-4AB1-8179-F33FA84F3828"
+  },
+  {
+   "name": "Michael Foods Inc.",
+   "location": "Klingerstown, PA",
+   "country": "United States",
+   "cert": "5792.03",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-06-30",
+   "body": "A2LA",
+   "keys": [
+    "michael foods"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=F957BEDE-18D2-40AB-875B-918A9D8F10AB"
+  },
+  {
+   "name": "Michelson Laboratories of Northern California",
+   "location": "Manteca, CA",
+   "country": "United States",
+   "cert": "2074.03",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-02-29",
+   "body": "A2LA",
+   "keys": [
+    "michelson laboratories of northern california"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=4B03C41F-080C-46BB-9149-225BADF292D4"
+  },
+  {
+   "name": "Michelson Laboratories, Inc.",
+   "location": "Commerce, CA",
+   "country": "United States",
+   "cert": "2074.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-05-31",
+   "body": "A2LA",
+   "keys": [
+    "michelson laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=6CA61218-0B4E-44EC-8662-830B751A04E0"
+  },
+  {
+   "name": "Microbac Laboratories - Wilson-Food & Nutrition",
+   "location": "Wilson, NC",
+   "country": "United States",
+   "cert": "18.08",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-02-29",
+   "body": "A2LA",
+   "keys": [
+    "microbac laboratories wilson food and nutrition"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=18A8717C-86C9-460D-8629-E39A15B45F9D"
+  },
+  {
+   "name": "Microbac Laboratories, Inc Boulder Division",
+   "location": "Boulder, CO",
+   "country": "United States",
+   "cert": "18.03",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-04-30",
+   "body": "A2LA",
+   "keys": [
+    "microbac laboratories boulder division"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=1C55ECF0-3405-4B67-9833-4F5CD3D2D89B"
+  },
+  {
+   "name": "Microbac Laboratories, Inc. - Oak Ridge",
+   "location": "Oak Ridge, TN",
+   "country": "United States",
+   "cert": "18.07",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-01-31",
+   "body": "A2LA",
+   "keys": [
+    "microbac laboratories oak ridge"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=AAEE7F22-302F-4949-8382-7A9F7F633BE5"
+  },
+  {
+   "name": "Microbac Laboratories, Inc. Chicagoland Division",
+   "location": "Merrillville, IN",
+   "country": "United States",
+   "cert": "18.09",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-09-30",
+   "body": "A2LA",
+   "keys": [
+    "microbac laboratories chicagoland division"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=134B4FF4-2558-429B-BB77-4175A08F402C"
+  },
+  {
+   "name": "Microbac Laboratories, Inc., Baltimore Division",
+   "location": "Baltimore, MD",
+   "country": "United States",
+   "cert": "18.02",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-04-30",
+   "body": "A2LA",
+   "keys": [
+    "microbac laboratories baltimore division"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=92217186-3884-4C0F-B649-D05A83D75B32"
+  },
+  {
+   "name": "Midwest Laboratories, Inc.",
+   "location": "Omaha, NE",
+   "country": "United States",
+   "cert": "2853.02",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-06-30",
+   "body": "A2LA",
+   "keys": [
+    "midwest laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=BDA68937-57E4-4E98-9079-1EB3363A82B4"
+  },
+  {
+   "name": "Minnesota Department of Agriculture",
+   "location": "Saint Paul, MN",
+   "country": "United States",
+   "cert": "3171.02",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-08-31",
+   "body": "A2LA",
+   "keys": [
+    "minnesota department of agriculture"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=348A6E86-23F9-4F38-8734-6065EBE3F9F1"
+  },
+  {
+   "name": "Minnesota Valley Testing Laboratories Inc.",
+   "location": "New Ulm, MN",
+   "country": "United States",
+   "cert": "2459.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-07-31",
+   "body": "A2LA",
+   "keys": [
+    "minnesota valley testing laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=4D5CE02A-179E-467A-AFE3-E0A518E75184"
+  },
+  {
+   "name": "Montana Analytical Laboratories, L.L.C.",
+   "location": "Kalispell, MT",
+   "country": "United States",
+   "cert": "4961.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-09-30",
+   "body": "A2LA",
+   "keys": [
+    "montana analytical laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=423635B2-5128-4C6F-871A-419DCF43B0D7"
+  },
+  {
+   "name": "Montana Department of Agriculture and MSU Agricultural Experiment Station Analytical Laboratory",
+   "location": "Bozeman, MT",
+   "country": "United States",
+   "cert": "2694.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2029-01-31",
+   "body": "A2LA",
+   "keys": [
+    "montana department of agriculture and msu agricultural experiment station analytical laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=0C3E5446-5FAC-4945-BB97-55D865C4122C"
+  },
+  {
+   "name": "National Beef Packing Co., LLC - Dodge City",
+   "location": "Dodge City, KS",
+   "country": "United States",
+   "cert": "3153.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-05-31",
+   "body": "A2LA",
+   "keys": [
+    "national beef packing dodge city"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=BB48B119-78D7-4D6F-BC70-5ABFB28967BD"
+  },
+  {
+   "name": "National Beef Packing Company, LLC",
+   "location": "Liberal, KS",
+   "country": "United States",
+   "cert": "2693.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-06-30",
+   "body": "A2LA",
+   "keys": [
+    "national beef packing company"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=85F767A7-A9C4-47F3-A0CE-2CB5705A4253"
+  },
+  {
+   "name": "Nebraska Department of Agriculture Laboratories",
+   "location": "Lincoln, NE",
+   "country": "United States",
+   "cert": "3888.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-12-31",
+   "body": "A2LA",
+   "keys": [
+    "nebraska department of agriculture laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=286DA290-7186-400D-B201-41F6D646E07E"
+  },
+  {
+   "name": "Nevada State Public Health Laboratory",
+   "location": "Reno, NV",
+   "country": "United States",
+   "cert": "5870.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-09-30",
+   "body": "A2LA",
+   "keys": [
+    "nevada state public health laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=DDE06C2F-83B2-445D-A3C2-227BAEB0C2D7"
+  },
+  {
+   "name": "New Jersey Cannalytics dba US Cannalytics NJ",
+   "location": "East Hanover, NJ",
+   "country": "United States",
+   "cert": "5470.04",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-09-30",
+   "body": "A2LA",
+   "keys": [
+    "new jersey cannalytics us cannalytics nj"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=C5F676E4-5394-4A09-A700-B3B28BF3FEBA"
+  },
+  {
+   "name": "New Mexico State University Food Safety Laboratory",
+   "location": "Las Cruces, NM",
+   "country": "United States",
+   "cert": "7423.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-01-31",
+   "body": "A2LA",
+   "keys": [
+    "new mexico state university food safety laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=5E57CB53-021B-4AE3-8188-E2B8746E4727"
+  },
+  {
+   "name": "New York State Department of Agriculture and Markets Food Laboratory Division",
+   "location": "Albany, NY",
+   "country": "United States",
+   "cert": "2749.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-04-30",
+   "body": "A2LA",
+   "keys": [
+    "new york state department of agriculture and markets food laboratory division"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=E3EAFE1A-D1AF-43A9-A7CF-FE15D61513F2"
+  },
+  {
+   "name": "New York State Department of Health Wadsworth Center",
+   "location": "Albany, NY",
+   "country": "United States",
+   "cert": "1785.02",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2026-11-30",
+   "body": "A2LA",
+   "keys": [
+    "new york state department of health wadsworth center"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=3E6FE191-07E3-4DEC-81E8-E7C2B24A2742"
+  },
+  {
+   "name": "Nordic Analytical Laboratories, LLC",
+   "location": "Denver, CO",
+   "country": "United States",
+   "cert": "4728.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-02-29",
+   "body": "A2LA",
+   "keys": [
+    "nordic analytical laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=56C89661-C793-4618-8902-76746542EBC8"
+  },
+  {
+   "name": "Nordic Analytical Labs",
+   "location": "Pueblo, CO",
+   "country": "United States",
+   "cert": "4728.02",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-02-29",
+   "body": "A2LA",
+   "keys": [
+    "nordic analytical labs"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=53F96CBD-7CD9-4427-8E0A-B016CCCB8CD4"
+  },
+  {
+   "name": "North Carolina Department of Agriculture and Consumer Services - Food and Drug Protection Division Laboratory",
+   "location": "Raleigh, NC",
+   "country": "United States",
+   "cert": "2967.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-03-31",
+   "body": "A2LA",
+   "keys": [
+    "north carolina department of agriculture and consumer services food and drug protection division laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=007FFB9B-AF12-4F93-9E6D-45C8631808B0"
+  },
+  {
+   "name": "Nutramax Laboratories, Inc.",
+   "location": "Lancaster, SC",
+   "country": "United States",
+   "cert": "5623.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-08-31",
+   "body": "A2LA",
+   "keys": [
+    "nutramax laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=0A6271F3-F604-4EE0-B478-1DFDCC1C97BF"
+  },
+  {
+   "name": "Ohio Department of Agriculture",
+   "location": "Reynoldsburg, OH",
+   "country": "United States",
+   "cert": "2841.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-07-31",
+   "body": "A2LA",
+   "keys": [
+    "ohio department of agriculture"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=8E16080F-340D-4BE1-B999-84B390F0D949"
+  },
+  {
+   "name": "Oregon Department of Agriculture Laboratory Services",
+   "location": "Wilsonville, OR",
+   "country": "United States",
+   "cert": "4141.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2026-12-31",
+   "body": "A2LA",
+   "keys": [
+    "oregon department of agriculture laboratory services"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=347ED3FE-E243-453F-9B1B-D48AAE60BB21"
+  },
+  {
+   "name": "PA Department Of Agriculture - Bureau of Food Safety and Laboratory Services, Laboratory Division",
+   "location": "Harrisburg, PA",
+   "country": "United States",
+   "cert": "5523.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-08-31",
+   "body": "A2LA",
+   "keys": [
+    "pa department of agriculture bureau of food safety and laboratory services laboratory division"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=D9845037-17A1-4DCF-9568-B99AAC171385"
+  },
+  {
+   "name": "Pace Analytical Services, LLC \u2013 Oklahoma City",
+   "location": "Oklahoma City, OK",
+   "country": "United States",
+   "cert": "3778.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-06-30",
+   "body": "A2LA",
+   "keys": [
+    "pace analytical services oklahoma city"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=48EAD5EF-8EE8-45EE-A639-CFB4507F6BAA"
+  },
+  {
+   "name": "Pathogenia Inc",
+   "location": "Dorval",
+   "country": "Canada",
+   "cert": "4873.03",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-01-31",
+   "body": "A2LA",
+   "keys": [
+    "pathogenia"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=A9AEDD65-5476-41C0-BBCC-39DD4F8A65A3"
+  },
+  {
+   "name": "Pinnacle Testing & Specialty Labs, LLC.",
+   "location": "Akron, OH",
+   "country": "United States",
+   "cert": "7085.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-08-31",
+   "body": "A2LA",
+   "keys": [
+    "pinnacle testing and specialty labs"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=5C9D2BE2-2DDB-45A4-958B-E0B0E973FDDB"
+  },
+  {
+   "name": "ProQuality Lab, LLC",
+   "location": "Cartersville, GA",
+   "country": "United States",
+   "cert": "3510.02",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-11-30",
+   "body": "A2LA",
+   "keys": [
+    "proquality lab"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=C14C5018-1EF9-4D2F-80D4-8C7D1A536BCD"
+  },
+  {
+   "name": "Purity Medical Laboratories LLC",
+   "location": "IRVINE, CA",
+   "country": "United States",
+   "cert": "6625.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-04-30",
+   "body": "A2LA",
+   "keys": [
+    "purity medical laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=0A0E23BB-5769-4CA3-B5EC-3860FADEFCAD"
+  },
+  {
+   "name": "Q Labs LLC",
+   "location": "Cincinnati, OH",
+   "country": "United States",
+   "cert": "3026.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-07-31",
+   "body": "A2LA",
+   "keys": [
+    "q labs"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=919DBB37-40A4-4700-B6FE-0A63A42AA211"
+  },
+  {
+   "name": "REPCO",
+   "location": "Salina, KS",
+   "country": "United States",
+   "cert": "3757.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-05-31",
+   "body": "A2LA",
+   "keys": [
+    "repco"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=168E8C45-4075-4C86-8368-C13F5D5BD842"
+  },
+  {
+   "name": "Regional Center for Food and Feed (RCFF)",
+   "location": "Giza",
+   "country": "Egypt",
+   "cert": "2143.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-02-29",
+   "body": "A2LA",
+   "keys": [
+    "regional center for food and feed rcff"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=F5EDD5E8-489B-42E8-8217-582F409B1B06"
+  },
+  {
+   "name": "Romer Labs, Inc.",
+   "location": "Union, MO",
+   "country": "United States",
+   "cert": "3116.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-04-30",
+   "body": "A2LA",
+   "keys": [
+    "romer labs"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=CB886FC8-344E-4A21-A02A-32EAD5596984"
+  },
+  {
+   "name": "SEIDLABORATORY CIA. LTDA.",
+   "location": "Quito",
+   "country": "Ecuador",
+   "cert": "2102.02",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-10-31",
+   "body": "A2LA",
+   "keys": [
+    "seidlaboratory cia ltda"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=5201E449-A0E1-47F5-A703-389B707D9070"
+  },
+  {
+   "name": "SGS DEL PERU S.A.C.",
+   "location": "Lima",
+   "country": "Peru",
+   "cert": "6000.02",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-09-30",
+   "body": "A2LA",
+   "keys": [
+    "sgs del peru s a c"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=9173817C-03B8-40AC-AAB0-A987FF369066"
+  },
+  {
+   "name": "SGS NA Oklahoma",
+   "location": "Oklahoma City, OK",
+   "country": "United States",
+   "cert": "2869.03",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-08-31",
+   "body": "A2LA",
+   "keys": [
+    "sgs na oklahoma"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=B0452E9C-B84D-4347-B216-C7B4A6FFE16E"
+  },
+  {
+   "name": "SGS North America Inc.",
+   "location": "Greenville, SC",
+   "country": "United States",
+   "cert": "5725.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-09-30",
+   "body": "A2LA",
+   "keys": [
+    "sgs north america"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=83214255-621D-485B-860A-CD67BCC1F1E0"
+  },
+  {
+   "name": "SGS North America, Inc Fairfield",
+   "location": "Fairfield, NJ",
+   "country": "United States",
+   "cert": "2869.05",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-10-31",
+   "body": "A2LA",
+   "keys": [
+    "sgs north america fairfield"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=55CE479E-D968-4972-8B53-489638BAFEF8"
+  },
+  {
+   "name": "SafeTiva Labs, LLC",
+   "location": "Westfield, MA",
+   "country": "United States",
+   "cert": "6730.02",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-07-31",
+   "body": "A2LA",
+   "keys": [
+    "safetiva labs"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=51C8929C-1FED-4EF7-A3E1-48A0AC32646F"
+  },
+  {
+   "name": "Sarasota County Sheriff's Office Drug Lab",
+   "location": "Sarasota, FL",
+   "country": "United States",
+   "cert": "6347.01",
+   "programs": [
+    "ISO/IEC 17025 : Forensic Examination"
+   ],
+   "expires": "2027-11-30",
+   "body": "A2LA",
+   "keys": [
+    "sarasota county sheriff s office drug lab"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=799F32F0-3D21-4909-A98D-4EE08B80CB93"
+  },
+  {
+   "name": "Scissortail Laboratory, LLC",
+   "location": "Oklahoma City, OK",
+   "country": "United States",
+   "cert": "6340.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2026-10-31",
+   "body": "A2LA",
+   "keys": [
+    "scissortail laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=8E3E2132-1549-459F-9946-B05010325084"
+  },
+  {
+   "name": "Setton Pistachio of Terra Bella",
+   "location": "Terra Bella, CA",
+   "country": "United States",
+   "cert": "4830.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-03-31",
+   "body": "A2LA",
+   "keys": [
+    "setton pistachio of terra bella"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=AA5B6823-2FD0-4B2D-BE48-69D26ACC629A"
+  },
+  {
+   "name": "Silliker Inc. (dba Merieux NutriSciences), Salt Lake City",
+   "location": "Salt Lake City, UT",
+   "country": "United States",
+   "cert": "1105.35",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-10-31",
+   "body": "A2LA",
+   "keys": [
+    "silliker merieux nutrisciences salt lake city"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=8AA7C714-8B0B-46A2-AD69-77F64AB33D62"
+  },
+  {
+   "name": "Silliker Inc. dba Merieux NutriSciences Springfield Laboratory",
+   "location": "Springfield, MO",
+   "country": "United States",
+   "cert": "2552.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-06-30",
+   "body": "A2LA",
+   "keys": [
+    "silliker merieux nutrisciences springfield laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=B021C1BE-110F-4785-9F69-521DEED7D779"
+  },
+  {
+   "name": "Silliker Mexico, S.A. de C.V. dba Merieux NutriSciences",
+   "location": "Queretaro, Qro.",
+   "country": "Mexico",
+   "cert": "3004.04",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-06-30",
+   "body": "A2LA",
+   "keys": [
+    "silliker mexico s a de c v merieux nutrisciences"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=639F18FA-1A92-4A5D-882D-B0B7A48A2054"
+  },
+  {
+   "name": "Silliker M\u00e9xico, S.A. de C.V. DBA Merieux NutriSciences",
+   "location": "El Salto, Jalisco",
+   "country": "Mexico",
+   "cert": "3004.05",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-02-29",
+   "body": "A2LA",
+   "keys": [
+    "silliker m xico s a de c v merieux nutrisciences"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=30127E51-9CF0-47B7-A321-7826AF1CED3E"
+  },
+  {
+   "name": "Silliker, Inc. dba Merieux NutriSciences Allentown Laboratory",
+   "location": "Allentown, PA",
+   "country": "United States",
+   "cert": "1105.07",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-04-30",
+   "body": "A2LA",
+   "keys": [
+    "silliker merieux nutrisciences allentown laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=C11AE825-BE97-4A66-95C9-82D8710B87EF"
+  },
+  {
+   "name": "Silliker, Inc. dba Merieux NutriSciences Amarillo, Texas Laboratory",
+   "location": "Amarillo, TX",
+   "country": "United States",
+   "cert": "1105.26",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-02-29",
+   "body": "A2LA",
+   "keys": [
+    "silliker merieux nutrisciences amarillo texas laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=DE95EB2E-437A-429E-A0EC-822500095FEA"
+  },
+  {
+   "name": "Silliker, Inc. dba Merieux NutriSciences Crete - Analytical Laboratory",
+   "location": "Crete, IL",
+   "country": "United States",
+   "cert": "1105.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-03-31",
+   "body": "A2LA",
+   "keys": [
+    "silliker merieux nutrisciences crete analytical laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=285E352D-5A98-4D6C-AC9D-E47648860A29"
+  },
+  {
+   "name": "Silliker, Inc. dba Merieux NutriSciences Cypress Laboratory",
+   "location": "Cypress, CA",
+   "country": "United States",
+   "cert": "1105.08",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-01-31",
+   "body": "A2LA",
+   "keys": [
+    "silliker merieux nutrisciences cypress laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=8579FF83-5F4F-4694-B7B9-888A3A438FCB"
+  },
+  {
+   "name": "Silliker, Inc. dba Merieux NutriSciences Food Science Center",
+   "location": "Crete, IL",
+   "country": "United States",
+   "cert": "1105.25",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-03-31",
+   "body": "A2LA",
+   "keys": [
+    "silliker merieux nutrisciences food science center"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=FA1B462D-E405-402A-A210-3477528D0C6F"
+  },
+  {
+   "name": "Silliker, Inc. dba Merieux NutriSciences Gainesville Laboratory",
+   "location": "Gainesville, FL",
+   "country": "United States",
+   "cert": "1307.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-04-30",
+   "body": "A2LA",
+   "keys": [
+    "silliker merieux nutrisciences gainesville laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=D004E9D5-7CD8-44C4-8378-BAA92E6B184E"
+  },
+  {
+   "name": "Silliker, Inc. dba Merieux NutriSciences Georgia Laboratory",
+   "location": "Stone Mountain, GA",
+   "country": "United States",
+   "cert": "1105.03",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-02-29",
+   "body": "A2LA",
+   "keys": [
+    "silliker merieux nutrisciences georgia laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=5533CD7D-6EA8-4774-8654-337AC2C51F7E"
+  },
+  {
+   "name": "Silliker, Inc. dba Merieux NutriSciences Minnesota Laboratory",
+   "location": "Minnetonka, MN",
+   "country": "United States",
+   "cert": "1105.12",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-03-31",
+   "body": "A2LA",
+   "keys": [
+    "silliker merieux nutrisciences minnesota laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=33A27C50-8F17-41D8-89B5-26F2F1774BF2"
+  },
+  {
+   "name": "Silliker, Inc. dba Merieux NutriSciences Ohio Laboratory",
+   "location": "Columbus, OH",
+   "country": "United States",
+   "cert": "1105.06",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-04-30",
+   "body": "A2LA",
+   "keys": [
+    "silliker merieux nutrisciences ohio laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=34B4F46E-7579-4D4C-8FFF-1A477A57A063"
+  },
+  {
+   "name": "Silliker, Inc. dba Merieux NutriSciences Salida Laboratory",
+   "location": "Salida, CA",
+   "country": "United States",
+   "cert": "1105.14",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-01-31",
+   "body": "A2LA",
+   "keys": [
+    "silliker merieux nutrisciences salida laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=BCF7AAE0-1397-4161-8C7A-1BE3D8310058"
+  },
+  {
+   "name": "Silliker, Inc. dba Merieux NutriSciences Sunrise Laboratories, LLC.",
+   "location": "Visalia, CA",
+   "country": "United States",
+   "cert": "1105.28",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-01-31",
+   "body": "A2LA",
+   "keys": [
+    "silliker merieux nutrisciences sunrise laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=EC3DFB04-162E-4EE5-AE8D-752FBBC00496"
+  },
+  {
+   "name": "Silliker, Inc. dba Merieux NutriSciences Texas Laboratory",
+   "location": "Arlington, TX",
+   "country": "United States",
+   "cert": "1105.04",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-03-31",
+   "body": "A2LA",
+   "keys": [
+    "silliker merieux nutrisciences texas laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=312FFD0B-664C-42DC-8673-CF5CD928F081"
+  },
+  {
+   "name": "Silliker, Inc. dba Merieux NutriSciences Wisconsin Laboratory",
+   "location": "Madison, WI",
+   "country": "United States",
+   "cert": "1105.02",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-03-31",
+   "body": "A2LA",
+   "keys": [
+    "silliker merieux nutrisciences wisconsin laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=6AA2F134-0867-4C34-9933-C9888C1A0372"
+  },
+  {
+   "name": "Simplot Global Food, LLC",
+   "location": "Caldwell, ID",
+   "country": "United States",
+   "cert": "3542.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-01-31",
+   "body": "A2LA",
+   "keys": [
+    "simplot global food"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=9ACF84EB-3154-4C64-A849-0A5F83AD8B45"
+  },
+  {
+   "name": "Sky Analytical Laboratories",
+   "location": "Phoenix, AZ",
+   "country": "United States",
+   "cert": "6482.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-09-30",
+   "body": "A2LA",
+   "keys": [
+    "sky analytical laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=6BDD7DF7-0BE2-4AC6-8319-C7FE6FAEBD8B"
+  },
+  {
+   "name": "Smithfield Packaged Meats Corporation",
+   "location": "Springdale, OH",
+   "country": "United States",
+   "cert": "3001.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-04-30",
+   "body": "A2LA",
+   "keys": [
+    "smithfield packaged meats"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=9C4BEC01-29E0-4F87-8793-AA8B4071B88A"
+  },
+  {
+   "name": "South Carolina Department of Agriculture Consumer Protection Division - Laboratory Services",
+   "location": "West Columbia, SC",
+   "country": "United States",
+   "cert": "4941.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-09-30",
+   "body": "A2LA",
+   "keys": [
+    "south carolina department of agriculture consumer protection division laboratory services"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=333B9F0E-A5F3-40BC-887A-215EA4F3906D"
+  },
+  {
+   "name": "South Carolina Department of Public Health",
+   "location": "Columbia, SC",
+   "country": "United States",
+   "cert": "4001.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-06-30",
+   "body": "A2LA",
+   "keys": [
+    "south carolina department of public health"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=B7222D42-2DBF-4D6F-A3F8-9C30108BE6F1"
+  },
+  {
+   "name": "State of Wisconsin Department of Agriculture, Trade and Consumer Protection Bureau of Laboratory Services",
+   "location": "Madison, WI",
+   "country": "United States",
+   "cert": "2623.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-12-31",
+   "body": "A2LA",
+   "keys": [
+    "state of wisconsin department of agriculture trade and consumer protection bureau of laboratory services"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=48A9824B-E81A-46DA-A00B-6DF63A2366A4"
+  },
+  {
+   "name": "Summit Laboratory LLC",
+   "location": "Kentwood, MI",
+   "country": "United States",
+   "cert": "3136.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-05-31",
+   "body": "A2LA",
+   "keys": [
+    "summit laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=DA7F08D0-A9FA-4DC6-B38D-E3287ED68FFE"
+  },
+  {
+   "name": "Sunrise Clinical Lab",
+   "location": "Irvington, NJ",
+   "country": "United States",
+   "cert": "6919.02",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-06-30",
+   "body": "A2LA",
+   "keys": [
+    "sunrise clinical lab"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=82DD53BF-3497-4399-88B6-746E1328F8A5"
+  },
+  {
+   "name": "Sunrise Labs LLC",
+   "location": "Edmond, OK",
+   "country": "United States",
+   "cert": "6459.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-11-30",
+   "body": "A2LA",
+   "keys": [
+    "sunrise labs"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=EBAC0AB4-1623-4488-B436-0B316FB8B99E"
+  },
+  {
+   "name": "Tentamus North America",
+   "location": "Fredericksburg, VA",
+   "country": "United States",
+   "cert": "4815.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-07-31",
+   "body": "A2LA",
+   "keys": [
+    "tentamus north america"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=957E5F79-F2C0-4081-8A6B-9254681A683E"
+  },
+  {
+   "name": "Texas Department of State Health Services - Public Health Laboratory Division",
+   "location": "Austin, TX",
+   "country": "United States",
+   "cert": "4031.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-07-31",
+   "body": "A2LA",
+   "keys": [
+    "texas department of state health services public health laboratory division"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=99D7BDCA-9069-43F0-9F9A-9353158921DC"
+  },
+  {
+   "name": "The Connecticut Agricultural Experiment Station, Department of Analytical Chemistry",
+   "location": "New Haven, CT",
+   "country": "United States",
+   "cert": "4133.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-02-28",
+   "body": "A2LA",
+   "keys": [
+    "connecticut agricultural experiment station department of analytical chemistry"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=FD1ACBE9-DCA4-49AE-8AB3-93783BF2B089"
+  },
+  {
+   "name": "The J.M. Smucker Company Quality Services Laboratory",
+   "location": "Orrville, OH",
+   "country": "United States",
+   "cert": "3627.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-02-28",
+   "body": "A2LA",
+   "keys": [
+    "j m smucker company quality services laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=7E6C2C11-4D5F-4FCC-96CE-E569F0BCC474"
+  },
+  {
+   "name": "Trichome Analytical",
+   "location": "Mount Laurel, NJ",
+   "country": "United States",
+   "cert": "5913.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-09-30",
+   "body": "A2LA",
+   "keys": [
+    "trichome analytical"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=C2F76740-F5AF-4FEB-B953-760FB2E99943"
+  },
+  {
+   "name": "Tyson Food Safety & Laboratory Services Regional Laboratory - River Valley also doing business as WBA Analytical Laboratories",
+   "location": "Scranton, AR",
+   "country": "United States",
+   "cert": "2843.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2027-06-30",
+   "body": "A2LA",
+   "keys": [
+    "tyson food safety and laboratory services regional laboratory river valley also doing business as wba analytical laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=D2CE04FA-E2DE-4E0B-8037-07337AADD84E"
+  },
+  {
+   "name": "Tyson Food Safety & Research Laboratory also doing business as WBA Analytical Laboratories",
+   "location": "Springdale, AR",
+   "country": "United States",
+   "cert": "1970.02",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-07-31",
+   "body": "A2LA",
+   "keys": [
+    "tyson food safety and research laboratory also doing business as wba analytical laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=01ACEE54-007B-4378-9285-861FBE7ADA28"
+  },
+  {
+   "name": "Tyson Food Safety and Laboratory Services DBA WBA Analytical Laboratories",
+   "location": "Holcomb, KS",
+   "country": "United States",
+   "cert": "476.11",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-06-30",
+   "body": "A2LA",
+   "keys": [
+    "tyson food safety and laboratory services wba analytical laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=03493716-6A7D-4B0E-8E1F-4735AF85A71F"
+  },
+  {
+   "name": "Tyson Food Safety and Laboratory Services Regional Laboratory also doing business as WBA Analytical Laboratories",
+   "location": "North Richland Hills, TX",
+   "country": "United States",
+   "cert": "2224.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-10-31",
+   "body": "A2LA",
+   "keys": [
+    "tyson food safety and laboratory services regional laboratory also doing business as wba analytical laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=E59AFD12-17F7-4A4D-A301-24AB711FCF51"
+  },
+  {
+   "name": "Tyson Food Safety and Laboratory Services also doing business as WBA Analytical Laboratories",
+   "location": "Wilkesboro, NC",
+   "country": "United States",
+   "cert": "2128.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-01-31",
+   "body": "A2LA",
+   "keys": [
+    "tyson food safety and laboratory services also doing business as wba analytical laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=264F8E3F-FB14-43C5-A573-5528E684DD3F"
+  },
+  {
+   "name": "Tyson Foods South Regional Laboratory also doing business as WBA Analytical Laboratories",
+   "location": "Pearl, MS",
+   "country": "United States",
+   "cert": "2646.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-12-31",
+   "body": "A2LA",
+   "keys": [
+    "tyson foods south regional laboratory also doing business as wba analytical laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=BA7CD086-EACE-4EFB-AB44-4A1E0847C511"
+  },
+  {
+   "name": "Tyson Foods, Inc",
+   "location": "Dakota City, NE",
+   "country": "United States",
+   "cert": "476.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-06-30",
+   "body": "A2LA",
+   "keys": [
+    "tyson foods"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=F73E82DE-851A-421A-ABE8-698208FB0170"
+  },
+  {
+   "name": "Tyson Foods, Inc.",
+   "location": "Waterloo, IA",
+   "country": "United States",
+   "cert": "476.05",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-06-30",
+   "body": "A2LA",
+   "keys": [
+    "tyson foods"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=ADD604D9-233A-4C0F-A29B-F041185DA835"
+  },
+  {
+   "name": "Tyson Foods, Inc.",
+   "location": "Amarillo, TX",
+   "country": "United States",
+   "cert": "476.06",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-06-30",
+   "body": "A2LA",
+   "keys": [
+    "tyson foods"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=D3AB5A20-9671-41CE-944F-A30D792630BF"
+  },
+  {
+   "name": "UDDER HEALTH SYSTEMS IDAHO PC DBA UHS LABORATORIES",
+   "location": "Jerome, ID",
+   "country": "United States",
+   "cert": "3027.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-09-30",
+   "body": "A2LA",
+   "keys": [
+    "udder health systems idaho pc uhs laboratories"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=20D912C9-B1BE-48B1-BEFA-9028024BDD69"
+  },
+  {
+   "name": "US Cannalytics LLC",
+   "location": "Bethlehem, PA",
+   "country": "United States",
+   "cert": "5470.06",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-02-29",
+   "body": "A2LA",
+   "keys": [
+    "us cannalytics"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=1971350E-2BA5-4FB1-9118-13342980F007"
+  },
+  {
+   "name": "USDA, FSIS, Eastern Laboratory",
+   "location": "Athens, GA",
+   "country": "United States",
+   "cert": "1898.02",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-07-31",
+   "body": "A2LA",
+   "keys": [
+    "usda fsis eastern laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=1A02B5E3-2963-4824-BF41-534954C2C1D3"
+  },
+  {
+   "name": "USDA, FSIS, Midwestern Laboratory",
+   "location": "Normandy, MO",
+   "country": "United States",
+   "cert": "1898.05",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-07-31",
+   "body": "A2LA",
+   "keys": [
+    "usda fsis midwestern laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=543C1AFB-B96D-41DE-BEB5-AB7F20BC0C42"
+  },
+  {
+   "name": "USDA, FSIS, Western Laboratory",
+   "location": "Albany, CA",
+   "country": "United States",
+   "cert": "1898.06",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-07-31",
+   "body": "A2LA",
+   "keys": [
+    "usda fsis western laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=221613C9-EED7-4EB8-8416-DB5E57D7471A"
+  },
+  {
+   "name": "USDA-AMS, SCIENCE & TECHNOLOGY",
+   "location": "Blakely, GA",
+   "country": "United States",
+   "cert": "1769.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-08-31",
+   "body": "A2LA",
+   "keys": [
+    "usda ams science and technology"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=DD1409B3-B1DC-4B4E-B146-AB5CDAA94B86"
+  },
+  {
+   "name": "United Dairymen of Arizona",
+   "location": "Tempe, AZ",
+   "country": "United States",
+   "cert": "5578.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-01-31",
+   "body": "A2LA",
+   "keys": [
+    "united dairymen of arizona"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=FB1FFCAE-D811-4364-B28F-1C1866DB21D2"
+  },
+  {
+   "name": "Utah Department of Agriculture and Food, Division of Laboratory Services",
+   "location": "Taylorsville, UT",
+   "country": "United States",
+   "cert": "2884.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-02-28",
+   "body": "A2LA",
+   "keys": [
+    "utah department of agriculture and food division of laboratory services"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=87438625-EBCB-4253-AA7B-C572EB9F3E70"
+  },
+  {
+   "name": "Washington State Department of Agriculture",
+   "location": "Yakima, WA",
+   "country": "United States",
+   "cert": "2665.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-03-31",
+   "body": "A2LA",
+   "keys": [
+    "washington state department of agriculture"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=167B853C-AA98-4C27-8755-1003F7F56822"
+  },
+  {
+   "name": "Washington State Department of Agriculture Microbiology Laboratory Food Safety and Consumer Services Laboratory",
+   "location": "Tumwater, WA",
+   "country": "United States",
+   "cert": "3245.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-02-29",
+   "body": "A2LA",
+   "keys": [
+    "washington state department of agriculture microbiology laboratory food safety and consumer services laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=7124CC72-C49A-4FFE-9805-D29969B1DAB5"
+  },
+  {
+   "name": "Wells Enterprises Inc.",
+   "location": "Le Mars, IA",
+   "country": "United States",
+   "cert": "4226.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2027-06-30",
+   "body": "A2LA",
+   "keys": [
+    "wells enterprises"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=5221EF90-8182-4F90-A22C-0193DC393372"
+  },
+  {
+   "name": "Wyoming Department of Agriculture, Analytical Services Laboratory",
+   "location": "Laramie, WY",
+   "country": "United States",
+   "cert": "4833.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-09-30",
+   "body": "A2LA",
+   "keys": [
+    "wyoming department of agriculture analytical services laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=28D9C1F6-D5E0-4215-AC76-379CBC4BCE4B"
+  },
+  {
+   "name": "Wyoming Police Department Forensic Science Unit",
+   "location": "Wyoming, MI",
+   "country": "United States",
+   "cert": "7196.01",
+   "programs": [
+    "ISO/IEC 17025 : Forensic Examination"
+   ],
+   "expires": "2028-01-31",
+   "body": "A2LA",
+   "keys": [
+    "wyoming police department forensic science unit"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=C2633AE9-A179-4498-BB75-B473EAA2373D"
+  }
+ ],
+ "limits": [
+  {
+   "id": "ca_metals",
+   "state": "CA",
+   "panel": "heavy_metals",
+   "title": "California heavy metals action levels",
+   "cite": "Cal. Code Regs. tit. 4, \u00a7 15723(c)",
+   "url": "https://www.law.cornell.edu/regulations/california/4-CCR-15723",
+   "unit": "\u00b5g/g",
+   "inhalable": {
+    "cadmium": 0.2,
+    "lead": 0.5,
+    "arsenic": 0.2,
+    "mercury": 0.1
+   },
+   "non_inhalable": {
+    "cadmium": 0.5,
+    "lead": 0.5,
+    "arsenic": 1.5,
+    "mercury": 3.0
+   },
+   "status": "verified",
+   "missing": null,
+   "verified": "2026-10-30"
+  },
+  {
+   "id": "ca_myco",
+   "state": "CA",
+   "panel": "mycotoxins",
+   "title": "California mycotoxin limits",
+   "cite": "Cal. Code Regs. tit. 4, \u00a7 15721(c)",
+   "url": "https://www.law.cornell.edu/regulations/california/4-CCR-15721",
+   "unit": "\u00b5g/kg",
+   "all": {
+    "total_aflatoxins": 20,
+    "ochratoxin_a": 20
+   },
+   "status": "verified",
+   "missing": null,
+   "verified": "2026-10-30"
+  },
+  {
+   "id": "ca_micro",
+   "state": "CA",
+   "panel": "microbials",
+   "title": "California microbial limits",
+   "cite": "Cal. Code Regs. tit. 4, \u00a7 15720(c)-(d)",
+   "url": "https://www.law.cornell.edu/regulations/california/4-CCR-15720",
+   "text": "Not detected in 1 g: STEC E. coli and Salmonella (all products); pathogenic Aspergillus fumigatus, flavus, niger, terreus (inhalable products).",
+   "status": "verified",
+   "missing": null,
+   "verified": "2026-10-30"
+  },
+  {
+   "id": "ca_drywt",
+   "state": "CA",
+   "panel": "potency",
+   "title": "California dry-weight formula",
+   "cite": "Cal. Code Regs. tit. 4, \u00a7 15724(c)(1)(A)",
+   "url": "https://www.law.cornell.edu/regulations/california/4-CCR-15724",
+   "text": "Dry-weight % = wet-weight % / (1 - moisture % / 100).",
+   "status": "verified",
+   "missing": null,
+   "verified": "2026-10-30"
+  },
+  {
+   "id": "us_total_thc",
+   "state": "US",
+   "panel": "potency",
+   "title": "USDA hemp total THC formula and 0.3% dry-weight limit",
+   "cite": "7 CFR \u00a7 990.1",
+   "url": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-7?part=990&section=990.1",
+   "all": {
+    "total_thc_pct_dry": 0.3
+   },
+   "text": "Total THC = 0.877 \u00d7 THCA + \u03949-THC; hemp must test at or under 0.3% on a dry-weight basis (after measurement uncertainty).",
+   "status": "verified",
+   "missing": null,
+   "verified": "2026-10-30"
+  },
+  {
+   "id": "us_dec11",
+   "state": "US",
+   "panel": "potency",
+   "title": "New federal hemp definition (Dec 11, 2026)",
+   "cite": "P.L. 119-37 Div. B \u00a7 781, as delayed by P.L. 119-103 (CRS IF13136)",
+   "url": "https://www.congress.gov/crs-product/IF13136",
+   "all": {
+    "mg_total_thc_per_container": 0.4,
+    "total_thc_pct_dry": 0.3
+   },
+   "effective": "2026-12-11",
+   "hand_checked": "2026-10-30",
+   "text": "From Dec 11, 2026: final hemp products over 0.4 mg combined total THC (and similar cannabinoids) per container are no longer hemp; total THC including THCA must be 0.3% or less by dry weight. From Nov 12, 2026: cannabinoids that the plant cannot naturally make are excluded.",
+   "error": "source refused a scripted read",
+   "status": "hand-checked",
+   "verified": "2026-10-30"
+  }
+ ],
+ "counts": {
+  "state_labs": 63,
+  "states": [
+   "CA",
+   "CO",
+   "FL",
+   "MA",
+   "OR",
+   "WA"
+  ],
+  "accredited": 254,
+  "limits_verified": 6,
+  "limits": 6
+ },
+ "note": "Lists come straight from the regulators and accreditation bodies named in sources. A lab missing here may be licensed in a state we do not read yet.",
+ "generated": "2026-10-30 07:12 EDT"
+}

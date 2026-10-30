@@ -63,6 +63,9 @@ out["dec11"]=dict(deadline="2026-12-11T00:00:00-05:00",synthetic="2026-11-12T00:
     sources=[dict(label="CRS IF13136",url="https://www.congress.gov/crs-product/IF13136"),dict(label="CRS IN12620",url="https://www.congress.gov/crs-product/IN12620"),
              dict(label="7 U.S.C. 1639o",url="https://uscode.house.gov/us/usc/119-136/t7/s1639o/")],
     note="Not legal advice. Dates from the Congressional Research Service; state rules differ.")
+# ---- Product Checker: small summary only; the browser loads the full data/labs.json when the tab opens
+LB=J("data/labs.json")
+if LB: out["labs"]=dict(generated=LB["generated"],counts=LB["counts"],sources=[{k:s.get(k) for k in ("id","name","url","status","count","checked")} for s in LB["sources"]])
 import build_pages
 safe(build_pages.build,'pages')
 # social.json is read by refresh.py; make sure the newest copy (with refreshed X News) is used

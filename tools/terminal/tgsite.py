@@ -5,7 +5,8 @@ LOGO='<svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30"
 # Agents bar. agents.js rebuilds it from the live data (status dots, "now doing", N agents are live); this static copy is the no-JS fallback.
 AGENTS=[("scientist","🔬","Scientist","/terminal/#scientist"),("grader","🧪","Study Grader","/terminal/#newstudies"),("policy","⚖️","Policy Watch","/terminal/#dec11"),
      ("news","📰","News Desk","/terminal/#news"),("market","📈","Market Watcher","/terminal/#market"),("lab","🌿","Terpene Lab","/terminal/#lab"),
-     ("trends","💬","Trend Spotter","/terminal/#social"),("grower","🌱","Grower Notes","/terminal/#grower"),("brands","🏷️","Brand Auditor","/terminal/report-cards/")]
+     ("trends","💬","Trend Spotter","/terminal/#social"),("grower","🌱","Grower Notes","/terminal/#grower"),("brands","🏷️","Brand Auditor","/terminal/report-cards/"),
+     ("product","🔎","Product Checker","/terminal/#product")]
 PAGE_AGENT={"home":"all","my":"scientist","findings":"scientist","rc":"brands"}
 def _chip(k,ic,t,h,cur):
     return (f'<a class="ag{" all" if k=="all" else ""}" data-ag="{k}" href="{h}"{" aria-current=page" if k==cur else ""}><span class="av" aria-hidden="true">{ic}</span>'
