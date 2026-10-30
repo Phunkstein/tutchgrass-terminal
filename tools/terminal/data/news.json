@@ -22,8 +22,8 @@
   {
    "source": "Business of Cannabis (intl)",
    "url": "https://businessofcannabis.com/feed/",
-   "status": "ok",
-   "items": 10
+   "status": "unavailable",
+   "error": "mismatched tag: line 93, column 2"
   },
   {
    "source": "StratCann (Canada)",
@@ -38,7 +38,7 @@
    "items": 12
   }
  ],
- "total": 83,
+ "total": 73,
  "by_category": {
   "US federal": [
    {
@@ -309,23 +309,23 @@
     "states": []
    },
    {
-    "source": "Business of Cannabis (intl)",
-    "title": "Whole Hemp Plant Could Soon Be Recognised as Agricultural Crop in the EU, but States Will Keep Power to Criminalise",
-    "link": "https://businessofcannabis.com/whole-hemp-plant-could-soon-be-recognised-as-agricultural-crop-in-the-eu-but-states-will-keep-power-to-criminalise/",
-    "summary": "The Council of the European Union has adopted proposals that would see the whole hemp plant, including inflorescences and leaves, recognised as an ordinary agricultural product. On October 19, the Council approved document ST 14647/26 as its \u2018negotiating manda",
-    "ts": 1793268901.0,
-    "date": "2026-10-29 06:15",
-    "category": "International",
-    "is_law": false,
-    "states": []
-   },
-   {
     "source": "StratCann (Canada)",
     "title": "Vanquish Brands Announces 2026 Financial Results",
     "link": "https://stratcann.com/financials/vanquish-brands-2026-financial-pistol-and-paris/",
     "summary": "Vanquish Holdings Inc., operating as Vanquish Brands and the company behind Pistol and Paris, today announced 2026 financial results, with revenue growth estimated at 152%... The post Vanquish Brands Announces 2026 Financial Results appeared first on StratCann",
     "ts": 1793233240.0,
     "date": "2026-10-28 20:20",
+    "category": "International",
+    "is_law": false,
+    "states": []
+   },
+   {
+    "source": "Google News: intl cannabis",
+    "title": "Record amounts of Canadian cannabis seized as smuggling to Europe soars - CBC",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaXkxNU1JRV9uczQ5YWpKblBSNW0yNHRRdVY1WUE2c2Foal9MUzFtNldYRXZCT1RqUzMxTE9DNk5vZGt0QjYyOE9EeldiWWFIM2JtYlJXS2JVUzBtVlJ4S0tYSWFwVHZva2RnNDlobTFFeWl4bmdLUGk4RWwxdXo1OHRqdUVDTERtMVFuU2JuZVZrQkJxdDR3c3VrSHZaRVJFWW54LTlR?oc=5",
+    "summary": "",
+    "ts": 1793222769.0,
+    "date": "2026-10-28 17:26",
     "category": "International",
     "is_law": false,
     "states": []
@@ -698,17 +698,6 @@
    "states": []
   },
   {
-   "source": "Business of Cannabis (intl)",
-   "title": "Whole Hemp Plant Could Soon Be Recognised as Agricultural Crop in the EU, but States Will Keep Power to Criminalise",
-   "link": "https://businessofcannabis.com/whole-hemp-plant-could-soon-be-recognised-as-agricultural-crop-in-the-eu-but-states-will-keep-power-to-criminalise/",
-   "summary": "The Council of the European Union has adopted proposals that would see the whole hemp plant, including inflorescences and leaves, recognised as an ordinary agricultural product. On October 19, the Council approved document ST 14647/26 as its \u2018negotiating manda",
-   "ts": 1793268901.0,
-   "date": "2026-10-29 06:15",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "StratCann (Canada)",
    "title": "Vanquish Brands Announces 2026 Financial Results",
    "link": "https://stratcann.com/financials/vanquish-brands-2026-financial-pistol-and-paris/",
@@ -774,6 +763,17 @@
    "date": "2026-10-28 08:02",
    "category": "International",
    "is_law": false,
+   "states": []
+  },
+  {
+   "source": "MJBizDaily",
+   "title": "Ahead of Farm Bill loophole closure, signs a hemp THC crackdown is already underway",
+   "link": "https://mjbizdaily.com/news/ahead-of-farm-bill-loophole-closure-signs-a-hemp-thc-crackdown-is-already-underway/618899/",
+   "summary": "Law enforcement officials have raided and charged dozens of hemp operators across the country, more than six weeks before a new federal ban takes effect. Ahead of Farm Bill loophole closure, signs a hemp THC crackdown is already underway is a post from: MJBizD",
+   "ts": 1793183436.0,
+   "date": "2026-10-28 06:30",
+   "category": "US federal",
+   "is_law": true,
    "states": []
   }
  ],
@@ -1030,16 +1030,6 @@
    "states": []
   },
   {
-   "source": "Business of Cannabis (intl)",
-   "title": "Whole Hemp Plant Could Soon Be Recognised as Agricultural Crop in the EU, but States Will Keep Power to Criminalise",
-   "link": "https://businessofcannabis.com/whole-hemp-plant-could-soon-be-recognised-as-agricultural-crop-in-the-eu-but-states-will-keep-power-to-criminalise/",
-   "ts": 1793268901.0,
-   "date": "2026-10-29 06:15",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "StratCann (Canada)",
    "title": "Vanquish Brands Announces 2026 Financial Results",
    "link": "https://stratcann.com/financials/vanquish-brands-2026-financial-pistol-and-paris/",
@@ -1109,16 +1099,6 @@
    "date": "2026-10-28 06:30",
    "category": "US federal",
    "is_law": true,
-   "states": []
-  },
-  {
-   "source": "Business of Cannabis (intl)",
-   "title": "German Cannabis Pioneer SynBiotic SE Files For Insolvency",
-   "link": "https://businessofcannabis.com/german-cannabis-pioneer-synbiotic-se-files-for-insolvency/",
-   "ts": 1793182123.0,
-   "date": "2026-10-28 06:08",
-   "category": "International",
-   "is_law": false,
    "states": []
   },
   {
@@ -1207,16 +1187,6 @@
    "states": []
   },
   {
-   "source": "Business of Cannabis (intl)",
-   "title": "Does Your Cannabis Prescription Match the Name on the Label?",
-   "link": "https://businessofcannabis.com/does-your-cannabis-prescription-match-the-name-on-the-label/",
-   "ts": 1793095420.0,
-   "date": "2026-10-27 06:03",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "MJBizDaily",
    "title": "California social equity cannabis licenses top nonequity active rates",
    "link": "https://mjbizdaily.com/news/california-social-equity-cannabis-licenses-top-nonequity-active-rates/618858/",
@@ -1268,16 +1238,6 @@
    "date": "2026-10-26 07:16",
    "category": "International",
    "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Business of Cannabis (intl)",
-   "title": "Legal Medical Cannabis Means Better, Not Weaker, Health Protection",
-   "link": "https://businessofcannabis.com/legal-medical-cannabis-means-better-not-weaker-health-protection/",
-   "ts": 1793013145.0,
-   "date": "2026-10-26 07:12",
-   "category": "US federal",
-   "is_law": true,
    "states": []
   },
   {
@@ -1357,16 +1317,6 @@
    ]
   },
   {
-   "source": "Business of Cannabis (intl)",
-   "title": "Six-Month Bedrolite Supply Secured for UK Patients But Long-Term Access Remains Uncertain",
-   "link": "https://businessofcannabis.com/six-month-bedrolite-supply-secured-for-uk-patients-but-long-term-access-remains-uncertain/",
-   "ts": 1792768556.0,
-   "date": "2026-10-23 11:15",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "StratCann (Canada)",
    "title": "SNDL Agrees to Pay $200,000 Fine and Restructure Franchise Operations under AGCO Deal",
    "link": "https://stratcann.com/news/sndl-agrees-to-pay-200k-fine-restructure-franchise-operations-agco/",
@@ -1431,18 +1381,6 @@
    "states": []
   },
   {
-   "source": "Business of Cannabis (intl)",
-   "title": "Fight Over US Cannabis Contract Enforcement Rights Could Come Back to Court",
-   "link": "https://businessofcannabis.com/fight-over-us-cannabis-contract-enforcement-rights-could-come-back-to-court/",
-   "ts": 1792673050.0,
-   "date": "2026-10-22 08:44",
-   "category": "US states",
-   "is_law": true,
-   "states": [
-    "Michigan"
-   ]
-  },
-  {
    "source": "MJBizDaily",
    "title": "Design mistakes cannabis operators can\u2019t afford to retrofit",
    "link": "https://mjbizdaily.com/news/design-mistakes-cannabis-operators-cant-afford-to-retrofit/618130/",
@@ -1497,26 +1435,6 @@
    "states": []
   },
   {
-   "source": "Business of Cannabis (intl)",
-   "title": "Releaf and Glass Pharms to Offer THCV Range Aimed at Weight Management",
-   "link": "https://businessofcannabis.com/releaf-and-glass-pharms-to-offer-thcv-range-aimed-at-weight-management/",
-   "ts": 1792581912.0,
-   "date": "2026-10-21 07:25",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Business of Cannabis (intl)",
-   "title": "Spain\u2019s Medical Cannabis Framework Finally Reaches Patients, But Rollout is \u2018Not the Finish Line\u2019",
-   "link": "https://businessofcannabis.com/spains-medical-cannabis-framework-finally-reaches-patients-but-rollout-is-not-the-finish-line/",
-   "ts": 1792577995.0,
-   "date": "2026-10-21 06:19",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "MJBizDaily",
    "title": "Poor state oversight let potentially contaminated cannabis reach Colorado consumers, audit finds",
    "link": "https://mjbizdaily.com/news/lax-oversight-and-slow-enforcement-allowed-let-colorado-cannabis-products-reach-consumers-state-audit-finds/618759/",
@@ -1551,28 +1469,6 @@
    "states": [
     "Michigan"
    ]
-  },
-  {
-   "source": "Business of Cannabis (intl)",
-   "title": "Helius Therapeutics to Supply New Phase 2 Cannabis Sleep Trial",
-   "link": "https://businessofcannabis.com/helius-therapeutics-to-supply-new-phase-2-cannabis-sleep-trial/",
-   "ts": 1792500532.0,
-   "date": "2026-10-20 08:48",
-   "category": "US states",
-   "is_law": false,
-   "states": [
-    "New"
-   ]
-  },
-  {
-   "source": "Business of Cannabis (intl)",
-   "title": "As the EU Moves to Protect Hemp, Ireland Still Treats It as a Drug",
-   "link": "https://businessofcannabis.com/as-the-eu-moves-to-protect-hemp-ireland-still-treats-it-as-a-drug/",
-   "ts": 1792493990.0,
-   "date": "2026-10-20 06:59",
-   "category": "International",
-   "is_law": true,
-   "states": []
   },
   {
    "source": "New Cannabis Ventures",
