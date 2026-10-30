@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-10-30T08:58:31-0400",
- "generated_ts": 1793365112,
+ "generated": "2026-10-30T09:33:18-0400",
+ "generated_ts": 1793367198,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "unavailable",
-   "items": 0
+   "status": "ok",
+   "items": 12
   },
   {
    "source": "Google News: intl cannabis",
@@ -37,8 +37,36 @@
    "items": 12
   }
  ],
- "new_this_run": 1,
+ "new_this_run": 2,
  "items": [
+  {
+   "id": "alabamamedicalcannabismarketcontinuesslowrolloutwithmoreopen",
+   "title": "Alabama medical cannabis market continues slow rollout with more openings",
+   "link": "https://mjbizdaily.com/news/alabama-medical-cannabis-market-continues-slow-rollout-with-more-openings/618960/",
+   "source": "MJBizDaily",
+   "category": "US states",
+   "is_law": false,
+   "states": [
+    "Alabama"
+   ],
+   "published": "2026-10-30T09:30:55-0400",
+   "published_ts": 1793367055.0,
+   "first_seen": "2026-10-30T09:33:18-0400",
+   "first_seen_ts": 1793367198
+  },
+  {
+   "id": "tobagrownacquiresgreatgardenerfarms",
+   "title": "TobaGrown Acquires Great Gardener Farms",
+   "link": "https://stratcann.com/news/tobagrown-acquires-great-gardener-farms/",
+   "source": "StratCann (Canada)",
+   "category": "International",
+   "is_law": false,
+   "states": [],
+   "published": "2026-10-30T09:24:00-0400",
+   "published_ts": 1793366640.0,
+   "first_seen": "2026-10-30T09:33:18-0400",
+   "first_seen_ts": 1793367198
+  },
   {
    "id": "trumpsfederalmarijuanareschedulingmovemakesiteasiertolegaliz",
    "title": "Trump\u2019s Federal Marijuana Rescheduling Move Makes It Easier To Legalize Medical Access In Kansas, Democratic Governor Candidate Says",
