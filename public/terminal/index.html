@@ -5,7 +5,7 @@
 <link rel="preload" href="/terminal/assets/fonts/Inter-var.woff2" as="font" type="font/woff2" crossorigin><link rel="icon" href="/terminal/assets/logo.svg"><link rel="stylesheet" href="/terminal/assets/terminal.css"></head><body>
 <header class="top"><div class="wrap">
 <a class="brand" href="/terminal/"><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#14532d"/><g color="#fff" transform="translate(6 5) scale(.82)"><path d="M32 8c3 7 4 14 2 22 5-6 11-9 18-10-4 7-9 12-16 14 6 0 11 2 15 5-7 2-13 1-17-2 1 4 1 8-2 13-3-5-3-9-2-13-4 3-10 4-17 2 4-3 9-5 15-5-7-2-12-7-16-14 7 1 13 4 18 10-2-8-1-15 2-22z" fill="currentColor"/><path d="M32 40v16" stroke="currentColor" stroke-width="2.5"/></g></svg><span>Tutchgrass Labs<small>Cannabis research terminal</small></span></a>
-<nav class="nav" aria-label="Sections"><a href="#scientist">Scientist</a><a href="#findings">Latest findings</a><a href="#lab">Lab</a><a href="#news">News &amp; Law</a><a href="#market">Market</a><a href="#prices">Prices</a><a href="#social">Social</a><a href="#wire">Wire</a></nav>
+<nav class="nav" aria-label="Sections"><a href="/terminal/my/" class=mc>My Condition</a><a href="/terminal/#scientist">Scientist</a><a href="/terminal/#newstudies">New studies</a><a href="/terminal/#scoreboard">Scoreboard</a><a href="/terminal/findings/">Findings</a><a href="/terminal/#dec11">Dec 11</a><a href="/terminal/#news">News &amp; Law</a><a href="/terminal/#market">Market</a><a href="/terminal/#prices">Prices</a><a href="/terminal/#social">Social</a><a href="/terminal/#wire">Wire</a><a href="/terminal/report-cards/" class=lo>Brand Report Cards</a></nav>
 <div class="auth"><a id="acct" class="btn ghost sm" href="/terminal/account/">Sign in</a><a class="btn sm" href="/terminal/account/#signup">Sign up free</a></div>
 </div></header>
 <section class="hero"><div class="wrap">
@@ -15,6 +15,8 @@
 <div class="kpis" id="kpis" aria-label="Live counters"></div>
 </div></section>
 <div class="disc"><div class="wrap"><b>Research summary, not medical advice.</b> Studies suggest; they do not prove. Strain names vary by batch, so check the lab COA. Talk to a doctor, especially if you take other medicines. 21+.</div></div>
+<div class="wrap strips"><a class="mcband" href="/terminal/my/"><b>🩺 My Condition</b><span>Pick a condition. See its newest studies, graded honestly. Free alerts when new ones drop.</span><i>Open →</i></a>
+<div class="strip" id="dec11" aria-label="Dec 11 hemp THC rule tracker"></div><div class="strip" id="thisweek" aria-label="New this week"></div></div>
 <div class="wrap main">
 <aside class="side" id="agents" aria-label="Agents"></aside>
 <main class="content">
@@ -23,6 +25,11 @@
 <div class="sci-head" aria-hidden="true"><span>Condition</span><span>Evidence</span><span>Top pick</span><span>Terpenes</span><span style="text-align:right">New 30 d</span><span style="text-align:right">Cites</span><span></span></div>
 <div id="sci"></div><p class="small mute" id="strain-note" style="margin:12px 0 0"></p>
 <div class="findings-h" id="findings"><h3>Latest findings</h3><a class="small" href="/terminal/findings/">All findings →</a></div><div class="fgrid" id="fgrid"></div></section>
+<section class="card span2" id="newstudies"><div class="ph"><h2><span class="n">01b</span>New studies, explained</h2><span class="meta" id="ns-meta"></span></div>
+<p class="sub">New PubMed papers on cannabis for each condition, in plain words, with an honest grade: human RCT, meta-analysis, observational, mice only, or no placebo.</p>
+<div class="tabs" id="ns-tabs" role="tablist"></div><div id="ns-body" class="nsgrid"></div><p class="small mute" id="ns-foot"></p></section>
+<section class="card span2" id="scoreboard"><div class="ph"><h2><span class="n">01c</span>Evidence scoreboard</h2><span class="meta" id="sb-meta"></span></div>
+<p class="sub">Conditions ranked by how strong the human evidence is, then by recent meta-analyses and trials. "What changed" is the newest high-grade paper.</p><div id="sb-body"></div></section>
 <section class="card" id="lab"><div class="ph"><h2><span class="n">02</span>Terpene &amp; Cannabinoid Lab</h2><span class="meta" id="lab-meta"></span></div><div id="lab-body"></div></section>
 <section class="card" id="holistic"><div class="ph"><h2><span class="n">03</span>Holistic pairings &amp; interactions</h2><span class="meta">guidelines · SRs · RCTs</span></div><div id="hol-body"></div></section>
 <section class="card span2" id="news"><div class="ph"><h2><span class="n">04</span>News &amp; Law</h2><span class="meta" id="news-meta"></span></div><div class="tabs" id="news-tabs" role="tablist"></div><div id="news-body" class="list"></div></section>
@@ -34,7 +41,8 @@
 <section class="card cta span2"><div class="ph"><h2>Get the research brief, free</h2></div><p class="dim" style="margin:-4px 0 14px">Sign up with your email (magic link, no password) to save conditions and get new studies when they land. No selling, no spam.</p><a class="btn" href="/terminal/account/#signup">Sign up free</a> <a class="btn ghost" href="/terminal/account/">Sign in</a></section>
 <section class="card span2" id="log"><div class="ph"><h2><span class="n">10</span>Activity log</h2><span class="meta" id="src-meta"></span></div><div class="scroll" style="max-height:340px"><table class="feed"><thead><tr><th>Time</th><th>Agent</th><th>Event</th></tr></thead><tbody id="feed"></tbody></table></div><div class="lbl">Sources</div><div id="sources" class="small"></div></section>
 </main></div>
-<footer class="foot"><div class="wrap"><b>Tutchgrass Labs</b> · Research summaries from PubMed (NCBI E-utilities), National Academies 2017, Yahoo Finance, Cannabis Benchmarks, news RSS feeds and public X posts. Studies suggest; they do not prove. Not medical advice. 21+.<br><a href="/terminal/privacy/">Privacy</a> · <a href="/terminal/disclaimer/">Disclaimer</a> · <a href="/terminal/account/">Account</a></div></footer>
+<footer class="foot"><div class="wrap"><b>Tutchgrass Labs</b> · Research summaries from PubMed (NCBI E-utilities), National Academies 2017, Yahoo Finance, Cannabis Benchmarks, news RSS feeds and public X posts. Studies suggest; they do not prove. Not medical advice. 21+.<br><a href="/terminal/my/">My Condition</a> · <a href="/terminal/account/">Account</a> · <a href="/terminal/privacy/">Privacy</a> · <a href="/terminal/disclaimer/">Disclaimer</a> · <a href="/terminal/report-cards/">Brand Report Cards</a> · <a href="/terminal/corrections/">Corrections</a></div></footer>
 <script type="module" src="/terminal/assets/app.js"></script>
 <script src="/terminal/assets/terminal.js" defer></script>
+<script type="module" src="/terminal/assets/my.js"></script>
 </body></html>

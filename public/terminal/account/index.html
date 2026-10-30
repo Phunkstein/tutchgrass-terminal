@@ -3,14 +3,14 @@
 <link rel="canonical" href="https://tutchgrass.com/terminal/account/"><meta property="og:url" content="https://tutchgrass.com/terminal/account/"><meta property="og:title" content="Sign up free | Tutchgrass Labs"><meta name="twitter:card" content="summary"><meta name="theme-color" content="#ffffff"><meta name="robots" content="noindex">
 <link rel="preload" href="/terminal/assets/fonts/Inter-var.woff2" as="font" type="font/woff2" crossorigin><link rel="icon" href="/terminal/assets/logo.svg"><link rel="stylesheet" href="/terminal/assets/terminal.css"></head><body>
 <header class="top"><div class="wrap"><a class="brand" href="/terminal/"><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#14532d"/><g color="#fff" transform="translate(6 5) scale(.82)"><path d="M32 8c3 7 4 14 2 22 5-6 11-9 18-10-4 7-9 12-16 14 6 0 11 2 15 5-7 2-13 1-17-2 1 4 1 8-2 13-3-5-3-9-2-13-4 3-10 4-17 2 4-3 9-5 15-5-7-2-12-7-16-14 7 1 13 4 18 10-2-8-1-15 2-22z" fill="currentColor"/><path d="M32 40v16" stroke="currentColor" stroke-width="2.5"/></g></svg><span>Tutchgrass Labs<small>Cannabis research terminal</small></span></a>
-<nav class="nav"><a href="/terminal/#scientist">Scientist</a><a href="/terminal/#findings">Latest findings</a><a href="/terminal/#news">News &amp; Law</a><a href="/terminal/#market">Market</a></nav>
+<nav class="nav" aria-label="Sections"><a href="/terminal/my/" class=mc>My Condition</a><a href="/terminal/#scientist">Scientist</a><a href="/terminal/#newstudies">New studies</a><a href="/terminal/#scoreboard">Scoreboard</a><a href="/terminal/findings/">Findings</a><a href="/terminal/#dec11">Dec 11</a><a href="/terminal/#news">News &amp; Law</a><a href="/terminal/#market">Market</a><a href="/terminal/#prices">Prices</a><a href="/terminal/#social">Social</a><a href="/terminal/#wire">Wire</a><a href="/terminal/report-cards/" class=lo>Brand Report Cards</a></nav>
 <div class="auth"><a id="acct" class="btn ghost sm" href="/terminal/account/">Sign in</a></div></div></header>
 <main class="wrap"><div class="acct-grid">
 <div><p class="eyebrow">Tutchgrass Labs account</p><h1>Sign up free, or sign in</h1><p class="lede">One email, no password: we send a magic link. Free, no selling, no spam.</p></div>
 <section id="out" class="card">
 <form id="signup"><label for="em">Email</label><input id="em" type="email" name="email" required autocomplete="email" placeholder="you@example.com"><label for="un">Username (public, optional)</label><input id="un" type="text" name="username" placeholder="terp_reader" maxlength="20">
 <label class="chk"><input id="age" type="checkbox" name="age" value="1"><span><b>I am 21 or older.</b> (Required: this site covers cannabis research.)</span></label>
-<button class="btn" type="submit" style="margin-top:14px">Email me a magic link</button><div id="m1" class="msg" role="status"></div></form>
+<p class="small dim" style="margin:10px 0 0">New-study alerts and a weekly plain-words digest are on by default for the conditions you pick. One-click unsubscribe in every email.</p><button class="btn" type="submit" style="margin-top:14px">Email me a magic link</button><div id="m1" class="msg" role="status"></div></form>
 <p class="small dim" style="margin-top:14px">Already have an account? Use the same form: the link signs you in. We never see or store a password. Read <a href="/terminal/privacy/">Privacy</a>.</p></section>
 <section id="in" class="hide acct-grid" style="padding:0"><div class="card"><div class="small dim">Signed in as</div><b id="who"></b> · <span id="handle" class="mono"></span>
 <div id="age-late" class="hide note" style="margin-top:10px">Please confirm you are 21+: <button id="agebtn" class="btn sm">I am 21 or older</button></div>
@@ -20,7 +20,7 @@
 <div class="lbl">Best game streak</div><p><b id="best" class="mono">0</b></p>
 <div class="lbl">Submitter badges</div><div id="badges"></div><div class="lbl">Your submissions</div><ul id="subs"></ul>
 <div class="lbl">Watched brands</div><ul id="watches"></ul></details>
-<div class="card"><button id="signout" class="btn ghost">Sign out</button> <button id="delete" class="btn ghost" style="color:var(--red);border-color:var(--red)">Delete my account</button><div id="m3" class="msg"></div></div></section>
+<div class="card" id="myresearch"></div><div class="card"><button id="signout" class="btn ghost">Sign out</button> <button id="delete" class="btn ghost" style="color:var(--red);border-color:var(--red)">Delete my account</button><div id="m3" class="msg"></div></div></section>
 </div></main>
 <footer class="foot"><div class="wrap"><b>Tutchgrass Labs</b> · Research summaries, not medical advice. 21+. <a href="/terminal/">Terminal</a> · <a href="/terminal/privacy/">Privacy</a> · <a href="/terminal/disclaimer/">Disclaimer</a></div></footer>
-<script type="module" src="/terminal/assets/app.js"></script><script type="module" src="/terminal/assets/account.js"></script></body></html>
+<script type="module" src="/terminal/assets/app.js"></script><script type="module" src="/terminal/assets/account.js"></script><script type="module" src="/terminal/assets/my.js"></script></body></html>

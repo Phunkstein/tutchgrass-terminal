@@ -14,7 +14,41 @@ const spark=(pts,w=96,h=28)=>{if(!pts||pts.length<2)return'';const mn=Math.min(.
   const p=pts.map((v,i)=>`${(i/(pts.length-1)*w).toFixed(1)},${(h-2-(v-mn)/r*(h-4)).toFixed(1)}`).join(' ');
   const up=pts[pts.length-1]>=pts[0];return`<svg class="spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true"><polyline fill="none" stroke="${up?'#15803d':'#b42318'}" stroke-width="1.5" points="${p}"/></svg>`};
 
-fetch('/terminal/data/terminal.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw r.status;return r.json()}).then(render).catch(e=>{
+const TG=window.TG=window.TG||{};
+const GC={meta:'g-meta',rct:'g-rct',noplacebo:'g-nop',obs:'g-obs',mice:'g-mice',cells:'g-mice',review:'g-rev',case:'g-rev'};
+TG.E=E;TG.gchip=(p,G)=>`<span class="badge gchip ${GC[p.grade]||''}">${E((G&&G[p.grade]&&G[p.grade].label)||p.grade_label||p.grade)}</span>`;
+TG.paper=(p,G,L)=>`<article class="ns" id="pmid-${E(p.pmid)}"><div class="nst">${TG.gchip(p,G)}<span class="mono small mute">${E(p.date||'')}</span>${(p.conditions||[]).map(c=>`<a class="pill sm" href="/terminal/my/?c=${E(c)}">${E((L&&L[c])||c)}</a>`).join('')}</div>
+  <a class="t" href="${E(p.url)}" target="_blank" rel="noopener">${E(p.title)}</a><div class="small mute">${E(p.first_author||'')} · ${E(p.journal||'')} · PMID ${E(p.pmid)}</div>
+  <dl><dt>What they did</dt><dd>${E(p.plain&&p.plain.did)}</dd>${p.plain&&p.plain.found?`<dt>What the authors concluded</dt><dd>${E(p.plain.found)}</dd>`:''}<dt>Grade caveat</dt><dd class="cav">${E(p.plain&&p.plain.caveat)}</dd></dl>
+  <div class="ft"><a class="small" href="${E(p.url)}" target="_blank" rel="noopener">Read on PubMed →</a><button class="btn sm ghost save" type="button" data-save="paper:${E(p.pmid)}">☆ Save</button></div></article>`;
+TG.dec11=D=>{const el=$('#dec11');if(!el)return;if(!D){el.innerHTML=NA('Dec 11 tracker');return}
+  const t=new Date(D.deadline).getTime(),syn=new Date(D.synthetic).getTime();
+  el.innerHTML=`<div class="d11"><div class="d11h"><span class="lbl" style="margin:0">Dec 11, 2026 · federal hemp THC rule</span><div class="cd" aria-live="off"><b id="cd-d">–</b><small>days</small><b id="cd-h">–</b><small>hrs</small><b id="cd-m">–</b><small>min</small><b id="cd-s">–</b><small>sec</small></div></div>
+  <p class="d11t"><b>${E(D.headline)}</b> <span class="dim">Synthetic-cannabinoid exclusion starts Nov 12 (<span id="cd-syn">–</span> days).</span></p>
+  <details class="d11d"><summary class="small">Key dates &amp; sources</summary><ul class="small">${D.dates.map(x=>`<li><span class="mono">${E(x.date)}</span> ${E(x.text)}</li>`).join('')}</ul><p class="small">${D.sources.map(x=>`<a href="${E(x.url)}" target="_blank" rel="noopener">${E(x.label)}</a>`).join(' · ')} · <span class="mute">${E(D.note)}</span></p></details></div>`;
+  const tick=()=>{let r=Math.max(0,t-Date.now())/1000;const dd=Math.floor(r/86400);r-=dd*86400;const hh=Math.floor(r/3600);r-=hh*3600;const mm=Math.floor(r/60),ss=Math.floor(r-mm*60);
+    $('#cd-d').textContent=dd;$('#cd-h').textContent=String(hh).padStart(2,'0');$('#cd-m').textContent=String(mm).padStart(2,'0');$('#cd-s').textContent=String(ss).padStart(2,'0');
+    $('#cd-syn').textContent=Math.max(0,Math.ceil((syn-Date.now())/864e5))};tick();setInterval(tick,1000)};
+TG.week=d=>{const el=$('#thisweek');if(!el)return;const n=d.newstudies;if(!n){el.innerHTML=NA('New this week (PubMed)');return}
+  const wk=Object.entries(n.week).filter(x=>x[1]>0).sort((a,b)=>b[1]-a[1]),tot=n.papers.filter(p=>(p.date||'')>=n.week_start).length;
+  el.innerHTML=`<div class="wk"><span class="lbl" style="margin:0">New this week</span><b class="mono">${tot}</b><span class="small dim">new studies since ${E(n.week_start)}</span>${wk.map(([k,v])=>`<a class="pill" href="/terminal/my/?c=${E(k)}">${E(n.labels[k]||k)} <b class="mono">${v}</b></a>`).join('')||'<span class="small mute">None in the last 7 days.</span>'}<a class="small" href="#newstudies">See them explained →</a></div>`};
+TG.feed=d=>{const n=d.newstudies,b=$('#ns-body');if(!b)return;if(!n){b.innerHTML=NA('PubMed new studies');return}
+  $('#ns-meta').textContent=`${n.papers.length} papers · ${n.window.start} to ${n.window.end} · ${n.source}`;
+  const gc={};n.papers.forEach(p=>gc[p.grade]=(gc[p.grade]||0)+1);
+  const tabs=[['all','All',n.papers.length],['hi','Human RCT / meta-analysis',(gc.rct||0)+(gc.meta||0)+(gc.noplacebo||0)],['obs','Observational',gc.obs||0],['mice','Mice / cells only',(gc.mice||0)+(gc.cells||0)],['review','Reviews & cases',(gc.review||0)+(gc.case||0)]];
+  const f={all:()=>true,hi:p=>['rct','meta','noplacebo'].includes(p.grade),obs:p=>p.grade==='obs',mice:p=>['mice','cells'].includes(p.grade),review:p=>['review','case'].includes(p.grade)};
+  let lim=8;const show=k=>{document.querySelectorAll('#ns-tabs button').forEach(x=>x.setAttribute('aria-selected',x.dataset.k===k));const l=n.papers.filter(f[k]);
+    b.innerHTML=l.length?l.slice(0,lim).map(p=>TG.paper(p,n.grades,n.labels)).join('')+(l.length>lim?`<button class="btn ghost more" type="button" data-more="${k}">Show all ${l.length}</button>`:''):'<p class="mute">None in this window. That is the honest answer.</p>';document.dispatchEvent(new CustomEvent('tg:rendered'))};
+  $('#ns-tabs').innerHTML=tabs.map(t=>`<button role="tab" data-k="${t[0]}">${E(t[1])} <span class="mono small">${t[2]}</span></button>`).join('');
+  $('#ns-tabs').onclick=e=>{const x=e.target.closest('button');if(x){lim=8;show(x.dataset.k)}};b.onclick=e=>{const m=e.target.closest('[data-more]');if(m){lim=999;show(m.dataset.more)}};show('all');
+  $('#ns-foot').innerHTML='Grades come from PubMed publication types and the abstract. Mice and cell results often do not hold in people. "Concluded" is the authors’ own wording, shortened. Research, not medical advice.'};
+TG.board=d=>{const r=d.scoreboard,b=$('#sb-body');if(!b)return;if(!r||!r.length){b.innerHTML=NA('Scoreboard');return}
+  $('#sb-meta').textContent='National Academies grade + PubMed 2025–26';
+  b.innerHTML='<div class="scroll-x"><table class="sb"><thead><tr><th>#</th><th>Condition</th><th>Evidence</th><th class="num" title="Meta-analyses / reviews and RCTs among 2025–26 matches">High-grade 25–26</th><th class="num">New 30 d</th><th class="hide-m">What changed recently</th><th class="hide-m"></th></tr></thead><tbody>'+r.map(x=>`<tr><td class="mono">${x.rank}</td><td><a href="/terminal/my/?c=${E(x.id)}"><b>${E(x.emoji)} ${E(x.label)}</b></a></td><td>${ev(x.evidence==='not graded'?'not graded':x.evidence)}</td>
+   <td class="num mono">${x.recent_high.meta} SR/MA <wbr>· ${x.recent_high.rct} RCT</td><td class="num mono">${x.new_30d}${x.new_mice_30d?`<div class="small mute">${x.new_mice_30d} animal</div>`:''}</td>
+   <td class="small hide-m">${x.latest?`${tag(x.latest.tag)}<a href="${E(x.latest.url)}" target="_blank" rel="noopener">${E(x.latest.title)}</a> <span class="mute mono">${E(x.latest.date)}</span>`:'<span class="mute">No new meta-analysis or RCT in 2025–26.</span>'}</td>
+   <td class="hide-m"><button class="btn sm ghost save" type="button" data-save="condition:${E(x.id)}" title="Save condition">☆</button></td></tr>`).join('')+'</tbody></table></div><p class="small mute">Evidence = National Academies 2017 grade for the closest condition (strong / moderate / limited). Conditions with no formal grade are listed last. Rank is a reading aid, not a recommendation.</p>'};
+if(document.getElementById('kpis'))fetch('/terminal/data/terminal.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw r.status;return r.json()}).then(render).catch(e=>{
   $('#built').textContent='data unavailable';document.querySelectorAll('.content .card [id$="-body"],#sci').forEach(el=>el.innerHTML=NA('Data'));});
 
 function render(d){
@@ -52,7 +86,7 @@ function render(d){
     $('#strain-note').textContent=S.strain_note+' Method: '+S.method;
     const FB={};F.forEach(f=>FB[f.sci]=f);
     $('#sci').innerHTML=conds.map(c=>{const g=L&&L.grower&&L.grower[c.id],h=L&&L.holistic&&L.holistic[c.id],r=c.recent,f=FB[c.id];
-      return`<details class="cond" id="cond-${E(c.id)}"><summary><span class="cn">${E(c.name)}</span><span>${ev(c.evidence)}</span><span class="tp">${E(c.top_pick)}</span><span class="tr">${E((c.terpenes||[]).join(', '))}</span><span class="num">${c.new_papers_30d??'—'}</span><span class="num">${(c.citations||[]).length}</span><span class="chev">▶</span></summary>
+      return`<details class="cond" id="cond-${E(c.id)}"><summary><span class="cn">${E(c.name)}${c.last_updated?`<span class="upd" title="Newest new study on PubMed (checked ${E(c.checked||'')})">Updated ${E(c.last_updated.slice(5))}</span>`:''}</span><span>${ev(c.evidence)}</span><span class="tp">${E(c.top_pick)}</span><span class="tr">${E((c.terpenes||[]).join(', '))}</span><span class="num">${c.new_papers_30d??'—'}</span><span class="num">${(c.citations||[]).length}</span><span class="chev">▶</span></summary>
       <div class="det"><div>
         <div class="lbl">Top pick</div><div class="pick">${E(c.top_pick)}</div><p class="small dim" style="margin-top:4px">${E(c.chemotype)} · THC:CBD ${E(c.thc_cbd)}</p>
         <div class="lbl">Evidence</div><p>${ev(c.evidence)} <span class="small">${E(c.evidence_note)}</span></p>
@@ -74,7 +108,8 @@ function render(d){
     addEventListener('hashchange',open);
   }
   // ---- latest findings
-  $('#fgrid').innerHTML=F.length?F.map(f=>`<div class="fcard" id="finding-${E(f.slug)}"><a href="${E(f.path)}"><img src="${E(f.img)}" alt="${E(f.headline)}" loading="lazy" width="1600" height="900"></a><div class="fb"><div class="fc">${E(f.condition)}</div><a href="${E(f.path)}" style="color:inherit"><b>${E(f.headline)}</b></a><span class="badge grade g-${E(f.grade_cls)}">${E(f.grade)}</span><p>${E(f.summary[0])}</p>${f.strains?`<p class="st"><b>Typical strains:</b> ${E(f.strains)}</p>`:''}<p class="small">${f.studies.map(s=>`<a href="${pm(s.pmid)}" target="_blank" rel="noopener">PubMed ${E(s.pmid)}</a>`).join(' · ')}</p><div class="ft"><a class="small" href="${E(f.path)}">Read the finding →</a><a class="btn sm xbtn" href="${E(f.x_intent)}" target="_blank" rel="noopener">Share on X</a></div></div></div>`).join(''):NA('Findings');
+  $('#fgrid').innerHTML=F.length?F.map(f=>`<div class="fcard" id="finding-${E(f.slug)}"><a href="${E(f.path)}"><img src="${E(f.img)}" alt="${E(f.headline)}" loading="lazy" width="1600" height="900"></a><div class="fb"><div class="fc">${E(f.condition)}</div><a href="${E(f.path)}" style="color:inherit"><b>${E(f.headline)}</b></a><span class="badge grade g-${E(f.grade_cls)}">${E(f.grade)}</span><p>${E(f.summary[0])}</p>${f.strains?`<p class="st"><b>Typical strains:</b> ${E(f.strains)}</p>`:''}<p class="small">${f.studies.map(s=>`<a href="${pm(s.pmid)}" target="_blank" rel="noopener">PubMed ${E(s.pmid)}</a>`).join(' · ')}</p><div class="ft"><a class="small" href="${E(f.path)}">Read the finding →</a><button class="btn sm ghost save" type="button" data-save="finding:${E(f.slug)}">☆ Save</button><a class="btn sm xbtn" href="${E(f.x_intent)}" target="_blank" rel="noopener">Share on X</a></div></div></div>`).join(''):NA('Findings');
+  TG.dec11(d.dec11);TG.week(d);TG.feed(d);TG.board(d);
   // ---- lab
   if(!L)$('#lab-body').innerHTML=NA('Lab');else{const sp=L.compounds.find(c=>c.id===L.spotlight_id)||L.compounds[0];
     $('#lab-meta').textContent='spotlight '+L.spotlight_rule;
@@ -118,6 +153,7 @@ function render(d){
   // ---- feed + sources
   $('#feed').innerHTML=(d.feed||[]).map(f=>`<tr><td class="mono small" style="white-space:nowrap">${E(f.ts.slice(5,16))}</td><td><span class="badge" style="color:${col[f.agent]||'#475569'}">${E(f.agent.toUpperCase())}</span></td><td><b>${E(f.kind)}</b> ${E(f.what)}<div class="why">${E(f.reason)}</div></td></tr>`).join('');
   $('#src-meta').textContent=okN+'/'+srcs.length+' sources live';
+  document.dispatchEvent(new CustomEvent('tg:rendered'));
   $('#sources').innerHTML=srcs.map(s=>`<span class="pill">${s.ok?'<span class="pos">●</span>':s.stale?'<span style="color:#8a5a00">●</span>':'<span class="neg">●</span>'} ${E(s.n)}${s.stale?' (stale)':s.none?' (unavailable)':''}</span>`).join('');
 }
 })();

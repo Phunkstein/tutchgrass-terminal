@@ -9,18 +9,15 @@ def enrich(f):
     f["img"]=f"/terminal/findings/img/{f['slug']}.png"
     f["x_intent"]="https://x.com/intent/post?"+urllib.parse.urlencode({"text":f["share"],"url":f["url"]},quote_via=urllib.parse.quote)
     return f
+from tgsite import header,DISC,foot as _foot,LOGO
 HEAD='''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>{t}</title><meta name="description" content="{d}"><link rel="canonical" href="{u}">
 <meta property="og:type" content="article"><meta property="og:site_name" content="Tutchgrass Labs"><meta property="og:title" content="{t}"><meta property="og:description" content="{d}"><meta property="og:url" content="{u}">
 <meta property="og:image" content="{img}"><meta property="og:image:width" content="1600"><meta property="og:image:height" content="900"><meta property="og:image:alt" content="{t}">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{t}"><meta name="twitter:description" content="{d}"><meta name="twitter:image" content="{img}"><meta name="twitter:image:alt" content="{t}">
 <meta name="theme-color" content="#ffffff"><link rel="icon" href="/terminal/assets/logo.svg"><link rel="stylesheet" href="/terminal/assets/terminal.css"></head><body>
-<header class="top"><div class="wrap"><a class="brand" href="/terminal/">'''+LOGO+'''<span>Tutchgrass Labs<small>Cannabis research terminal</small></span></a>
-<nav class="nav"><a href="/terminal/#scientist">Scientist</a><a href="/terminal/#findings">Latest findings</a><a href="/terminal/#news">News &amp; Law</a><a href="/terminal/#market">Market</a></nav>
-<div class="auth"><a id="acct" class="btn ghost sm" href="/terminal/account/">Sign in</a><a class="btn sm" href="/terminal/account/#signup">Sign up free</a></div></div></header>
-<div class="disc"><div class="wrap"><b>Research summary, not medical advice.</b> Studies suggest; they do not prove. Talk to a doctor. 21+.</div></div>'''
-FOOT='''<footer class="foot"><div class="wrap"><b>Tutchgrass Labs</b> · Every study links to PubMed. Not medical advice. 21+. <a href="/terminal/">Back to the terminal</a> · <a href="/terminal/privacy/">Privacy</a> · <a href="/terminal/disclaimer/">Disclaimer</a></div></footer>
-<script type="module" src="/terminal/assets/app.js"></script></body></html>'''
+'''+header("findings").replace("{","{{").replace("}","}}")+DISC
+FOOT=_foot('<script type="module" src="/terminal/assets/my.js"></script>')
 def studies_html(f):
     return "".join(f'<li><span class="tag t-{E(s["type"])}">{E(s["type"])}</span><a href="https://pubmed.ncbi.nlm.nih.gov/{E(s["pmid"])}/" target="_blank" rel="noopener">{E(s["cite"])}</a> <span class="mute mono small">PMID {E(s["pmid"])}</span> · <a class="small" href="https://doi.org/{E(s["doi"])}" target="_blank" rel="noopener">DOI</a><span class="cc dim small" style="display:block">{E(s["note"])}</span></li>' for s in f["studies"])
 def page(f,allf):
@@ -28,7 +25,7 @@ def page(f,allf):
     body=f'''<main class="wrap fpage"><p class="eyebrow"><a href="/terminal/#findings">Latest findings</a> · {E(f["condition"])} · <time>{E(f["date"])}</time></p>
 <h1>{E(f["headline"])}</h1><p><span class="badge grade g-{E(f["grade_cls"])}">{E(f["grade"])}</span></p>
 <img class="fimg" src="{E(f["img"])}" width="1600" height="900" alt="{E(f["headline"])}">
-<div class="factions"><a class="btn xbtn" href="{E(f["x_intent"])}" target="_blank" rel="noopener">Share on X</a><a class="btn ghost" href="/terminal/#cond-{E(f["sci"])}">See {E(f["condition"])} in the Scientist</a></div>
+<div class="factions"><button class="btn ghost save" data-save="finding:{E(f["slug"])}" type="button">☆ Save</button><a class="btn xbtn" href="{E(f["x_intent"])}" target="_blank" rel="noopener">Share on X</a><a class="btn ghost" href="/terminal/#cond-{E(f["sci"])}">See {E(f["condition"])} in the Scientist</a></div>
 <div class="card"><div class="lbl" style="margin-top:0">In plain words</div>{"".join(f"<p>{E(p)}</p>" for p in f["summary"])}
 {f'<div class="lbl">Typical strains</div><p class="note">{E(f["strains"])}</p>' if f["strains"] else ''}
 <div class="lbl">Studies (PubMed)</div><ul class="cites">{studies_html(f)}</ul>

@@ -41,7 +41,9 @@ def efetch(ids):
             doi=next((i.text for i in a.findall("./PubmedData/ArticleIdList/ArticleId") if i.get("IdType")=="doi"),None)
             au=art.findall(".//AuthorList/Author"); first=(au[0].findtext("LastName") or au[0].findtext("CollectiveName") or "") if au else ""
             mesh=[m.findtext("DescriptorName") for m in a.findall(".//MeshHeading")]
-            out.append(dict(pmid=pmid,title=title,abstract_sections=secs,abstract=" ".join(((l+": ") if l else "")+s for l,s in secs),date=_date(a),
+            ed=next((h for h in a.findall("./PubmedData/History/PubMedPubDate") if h.get("PubStatus") in("pubmed","entrez")),None)
+            edat=f'{ed.findtext("Year")}-{int(ed.findtext("Month") or 1):02d}-{int(ed.findtext("Day") or 1):02d}' if ed is not None and ed.findtext("Year") else ""
+            out.append(dict(edat=edat,pmid=pmid,title=title,abstract_sections=secs,abstract=" ".join(((l+": ") if l else "")+s for l,s in secs),date=_date(a),
               journal=a.findtext(".//Journal/ISOAbbreviation") or a.findtext(".//Journal/Title"),doi=doi,
               pubtypes=[p.text for p in art.findall(".//PublicationTypeList/PublicationType")],mesh=mesh,
               first_author=first+(" et al." if len(au)>1 else "")))
