@@ -20,5 +20,10 @@ def head(title,desc,url,img=None,w=1200,h=675,kind="website"):
 <meta name="theme-color" content="#ffffff"><link rel="preload" href="/terminal/assets/fonts/Inter-var.woff2" as="font" type="font/woff2" crossorigin><link rel="icon" href="/terminal/assets/logo.svg"><link rel="stylesheet" href="/terminal/assets/terminal.css"></head><body>'''
 DISC='<div class="disc"><div class="wrap"><b>Research summary, not medical advice.</b> Studies suggest; they do not prove. Talk to a doctor. 21+.</div></div>'
 def foot(extra=""):
-    return f'''<footer class="foot"><div class="wrap"><b>Tutchgrass Labs</b> · Every study links to PubMed. Not medical advice. 21+. <a href="/terminal/">Terminal</a> · <a href="/terminal/my/">My Condition</a> · <a href="/terminal/report-cards/">Brand Report Cards</a> · <a href="/terminal/privacy/">Privacy</a> · <a href="/terminal/disclaimer/">Disclaimer</a> · <a href="/terminal/corrections/">Corrections</a></div></footer>
+    return f'''<footer class="foot"><div class="wrap"><b>Tutchgrass Labs</b> · Every study links to PubMed. Not medical advice. 21+. Grades are AI-generated or scored automatically by AI tools from the published source. Always check the source. <a href="/terminal/">Terminal</a> · <a href="/terminal/my/">My Condition</a> · <a href="/terminal/report-cards/">Brand Report Cards</a> · <a href="/terminal/privacy/">Privacy</a> · <a href="/terminal/disclaimer/">Disclaimer</a> · <a href="/terminal/corrections/">Corrections</a></div></footer>
 <script type="module" src="/terminal/assets/app.js"></script>{extra}</body></html>'''
+
+AI_FIND="AI-graded: the grade and plain-words summary were written by AI from the cited studies; PubMed and DOI links were checked automatically. Not reviewed by a doctor. Always check the source."
+AI_BRAND="Scored automatically by AI tools from the brand's own published lab reports (COAs): AI read each label claim and lab result, then a fixed formula sets the grade. Not reviewed by a person. Check the COA."
+def aitag(tip,label="AI-graded"):
+    return f'<span class="aitag" tabindex="0" role="note" title="{E(tip)}" data-tip="{E(tip)}">{E(label)} <i aria-hidden="true">ⓘ</i></span>'

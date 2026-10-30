@@ -9,7 +9,7 @@ def enrich(f):
     f["img"]=f"/terminal/findings/img/{f['slug']}.png"
     f["x_intent"]="https://x.com/intent/post?"+urllib.parse.urlencode({"text":f["share"],"url":f["url"]},quote_via=urllib.parse.quote)
     return f
-from tgsite import header,DISC,foot as _foot,LOGO
+from tgsite import header,DISC,foot as _foot,LOGO,aitag,AI_FIND
 HEAD='''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>{t}</title><meta name="description" content="{d}"><link rel="canonical" href="{u}">
 <meta property="og:type" content="article"><meta property="og:site_name" content="Tutchgrass Labs"><meta property="og:title" content="{t}"><meta property="og:description" content="{d}"><meta property="og:url" content="{u}">
@@ -23,7 +23,7 @@ def studies_html(f):
 def page(f,allf):
     others="".join(f'<li><a href="{E(o["path"])}">{E(o["condition"])}: {E(o["headline"])}</a></li>' for o in allf if o["slug"]!=f["slug"])
     body=f'''<main class="wrap fpage"><p class="eyebrow"><a href="/terminal/#findings">Latest findings</a> · {E(f["condition"])} · <time>{E(f["date"])}</time></p>
-<h1>{E(f["headline"])}</h1><p><span class="badge grade g-{E(f["grade_cls"])}">{E(f["grade"])}</span></p>
+<h1>{E(f["headline"])}</h1><p><span class="badge grade g-{E(f["grade_cls"])}">{E(f["grade"])}</span> {aitag(AI_FIND)}</p><p class="ainote">{E(AI_FIND)}</p>
 <img class="fimg" src="{E(f["img"])}" width="1600" height="900" alt="{E(f["headline"])}">
 <div class="factions"><button class="btn ghost save" data-save="finding:{E(f["slug"])}" type="button">☆ Save</button><a class="btn xbtn" href="{E(f["x_intent"])}" target="_blank" rel="noopener">Share on X</a><a class="btn ghost" href="/terminal/#cond-{E(f["sci"])}">See {E(f["condition"])} in the Scientist</a></div>
 <div class="card"><div class="lbl" style="margin-top:0">In plain words</div>{"".join(f"<p>{E(p)}</p>" for p in f["summary"])}
@@ -37,8 +37,8 @@ def build():
     allf=[enrich(f) for f in load()]
     os.makedirs(os.path.join(PUB,"findings"),exist_ok=True)
     for f in allf: open(os.path.join(PUB,"findings",f["slug"]+".html"),"w").write(page(f,allf))
-    lst="".join(f'<a class="fcard" href="{E(f["path"])}"><img src="{E(f["img"])}" alt="" loading="lazy" width="1600" height="900"><div class="fb"><div class="fc">{E(f["condition"])}</div><b>{E(f["headline"])}</b><span class="badge grade g-{E(f["grade_cls"])}">{E(f["grade"])}</span></div></a>' for f in allf)
-    idx=HEAD.format(t="Latest findings | Tutchgrass Labs",d="New cannabis studies in plain words, graded honestly, with PubMed links.",u=SITE+"/terminal/findings/",img=SITE+allf[0]["img"])+f'<main class="wrap fpage"><h1>Latest findings</h1><p class="lede">New studies in plain words, graded honestly. Every finding links to PubMed.</p><div class="fgrid" style="margin-top:18px">{lst}</div></main>'+FOOT
+    lst="".join(f'<a class="fcard" href="{E(f["path"])}"><img src="{E(f["img"])}" alt="" loading="lazy" width="1600" height="900"><div class="fb"><div class="fc">{E(f["condition"])}</div><b>{E(f["headline"])}</b><span class="badge grade g-{E(f["grade_cls"])}">{E(f["grade"])}</span> {aitag(AI_FIND)}</div></a>' for f in allf)
+    idx=HEAD.format(t="Latest findings | Tutchgrass Labs",d="New cannabis studies in plain words, graded honestly, with PubMed links.",u=SITE+"/terminal/findings/",img=SITE+allf[0]["img"])+f'<main class="wrap fpage"><h1>Latest findings</h1><p class="lede">New studies in plain words, graded honestly. Every finding links to PubMed.</p><div class="fgrid" style="margin-top:18px">{lst}</div><p class="ainote">{E(AI_FIND)}</p></main>'+FOOT
     open(os.path.join(PUB,"findings","index.html"),"w").write(idx)
     return allf
 if __name__=="__main__": print(len(build()),"finding pages")
