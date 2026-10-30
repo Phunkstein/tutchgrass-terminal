@@ -1,0 +1,1234 @@
+{
+ "window": {
+  "start": "2025-04-29",
+  "end": "2026-10-29"
+ },
+ "generated": "2026-10-29 21:55 EDT",
+ "source": "NCBI PubMed E-utilities",
+ "conditions": {
+  "sleep": {
+   "label": "Sleep",
+   "emoji": "\ud83d\ude34",
+   "goal": "sleep",
+   "background": [
+    "insomnia"
+   ],
+   "cann_matches": 51,
+   "hol_matches": 339,
+   "cannabinoid": [
+    {
+     "pmid": "40967124",
+     "title": "Cannabis and sleep architecture: A systematic review and meta-analysis.",
+     "journal": "Sleep Med Rev",
+     "date": "2025-09-12",
+     "tag": "META-ANALYSIS",
+     "first_author": "Velzeboer et al.",
+     "doi": "10.1016/j.smrv.2025.102164",
+     "conclusion": "Variability in study outcomes highlights the influence of factors such as dosage, cannabinoid composition, prior cannabis use, and health conditions. Further research using standardised protocols and larger samples is needed to clarify the relationship between cannabis and sleep architecture and to address the discrepancies between subjective sleep improvements and objective sleep metrics."
+    },
+    {
+     "pmid": "42863850",
+     "title": "Medical cannabis for the treatment of insomnia.",
+     "journal": "Cochrane Database Syst Rev",
+     "date": "2026-10-13",
+     "tag": "META-ANALYSIS",
+     "first_author": "Varela et al.",
+     "doi": "10.1002/14651858.CD016216.pub2",
+     "conclusion": "Medical cannabis may have little to no clinically meaningful effect on quality of sleep/satisfaction with sleep, total sleep time, or daytime functioning. It may lead to an improvement in quality of life, although the evidence is very uncertain. Medical cannabis may result in a slight increase in adverse events, but the certainty of this evidence is low. Future research must address the substantial uncertainty in the"
+    },
+    {
+     "pmid": "41187699",
+     "title": "Recreational cannabis use and sleep in the general population: a systematic review and meta-analysis.",
+     "journal": "Sleep Med Rev",
+     "date": "2025-10-30",
+     "tag": "META-ANALYSIS",
+     "first_author": "Mao et al.",
+     "doi": "10.1016/j.smrv.2025.102189",
+     "conclusion": "Overall, recreational cannabis use was linked to poorer sleep across multiple components in observational studies although these findings may be affected by bias. Given the ethical and practical limitations of long-term trials, integrating well-designed observational and experimental research is essential to fully understand how cannabis use links to sleep."
+    },
+    {
+     "pmid": "40929927",
+     "title": "Effectiveness of cannabinoids on subjective sleep quality in people with and without insomnia or poor sleep: A systematic review and meta-analysis of randomised studies.",
+     "journal": "Sleep Med Rev",
+     "date": "2025-08-29",
+     "tag": "META-ANALYSIS",
+     "first_author": "da Silva et al.",
+     "doi": "10.1016/j.smrv.2025.102156",
+     "conclusion": "Cannabinoids, particularly non-CBD formulations, improve sleep quality, justifying further investigation as therapeutic options for insomnia or poor sleep."
+    },
+    {
+     "pmid": "40542913",
+     "title": "Same-Day Sedative and Night-Time Sleep Effects Following Combined Cannabinoid Formulations: A Randomised-Controlled Trial.",
+     "journal": "Clin Drug Investig",
+     "date": "2025-06-21",
+     "tag": "RCT",
+     "first_author": "Narayan et al.",
+     "doi": "10.1007/s40261-025-01455-6",
+     "conclusion": "Daytime consumption of low-dose cannabinoid oils did not induce direct sleepiness or indirect night-time effects post-dosing among adults. Future studies would benefit from exploring pharmacokinetics and the possibility of treatment amplification of daytime fatigue, mood and cognitive changes to assist the development of therapeutic guidelines for safe daytime medical cannabis use."
+    }
+   ],
+   "holistic": [
+    {
+     "pmid": "40449065",
+     "title": "Effects of sleep hygiene education for insomnia: A systematic review and meta-analysis.",
+     "journal": "Sleep Med Rev",
+     "date": "2025-05-24",
+     "tag": "META-ANALYSIS",
+     "first_author": "Ruan et al.",
+     "doi": "10.1016/j.smrv.2025.102109",
+     "conclusion": "However, SHE was inferior as a cognitive behavioral therapy for insomnia (CBT-I) (MD = 3.8, 95 % CI [2.92, 4.76]), partial CBT-I (MD = 4.5, 95 % CI [3.33, 5.60]), exercises (MD = 2.9, 95 % CI [0.81, 5.04]), and acupressure (MD = 1.9, 95 % CI [0.82, 3.00]) regarding the ISI score. The majority of included trials (85.71 %) had a high overall risk of bias, and the remaining had \"some concerns.\" Future work is encouraged"
+    },
+    {
+     "pmid": "40664502",
+     "title": "Effects of various exercise interventions in insomnia patients: a systematic review and network meta-analysis.",
+     "journal": "BMJ Evid Based Med",
+     "date": "2026-03-20",
+     "tag": "META-ANALYSIS",
+     "first_author": "Bu et al.",
+     "doi": "10.1136/bmjebm-2024-113512",
+     "conclusion": "Exercise is an effective treatment for improving sleep in patients with insomnia. Among the various exercise interventions, yoga, Tai Chi and walking or jogging are more effective than other exercises. To further validate and strengthen these conclusions, large-scale, high-quality and well-designed RCTs are needed."
+    },
+    {
+     "pmid": "40982264",
+     "title": "Cognitive Behavioral Therapy for Insomnia in People With Chronic Disease: A Systematic Review and Meta-Analysis.",
+     "journal": "JAMA Intern Med",
+     "date": "2025-11-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Scott et al.",
+     "doi": "10.1001/jamainternmed.2025.4610",
+     "conclusion": "This systematic review and meta-analysis showed that CBT-I demonstrated strong efficacy and acceptability in chronic disease populations, with moderate to large effect sizes that appear comparable to those in non-chronic disease populations. Efficacy of CBT-I was similar across a range of disease subgroups. Future research should explore the role and nature of treatment adaptations for specific populations and increa"
+    }
+   ],
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (sleep[tiab] OR insomnia[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(sleep[tiab] OR insomnia[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+  },
+  "pain": {
+   "label": "Chronic pain",
+   "emoji": "\ud83e\ude79",
+   "goal": "pain",
+   "background": [
+    "chronic_neuropathic_pain"
+   ],
+   "cann_matches": 31,
+   "hol_matches": 232,
+   "cannabinoid": [
+    {
+     "pmid": "41548880",
+     "title": "Cannabis-based medicines for chronic neuropathic pain in adults.",
+     "journal": "Cochrane Database Syst Rev",
+     "date": "2026-01-19",
+     "tag": "META-ANALYSIS",
+     "first_author": "Ate\u015f et al.",
+     "doi": "10.1002/14651858.CD012182.pub3",
+     "conclusion": "There is no clear evidence for an effect of THC-dominant medicines on pain relief of 50% or greater, PGIC ratings of 'much' or 'very much' improved, withdrawals due to adverse events, and serious adverse events (very low-certainty evidence). There is no clear evidence for an effect of THC/CBD-balanced medicines on pain relief of 50% or greater and serious adverse events (very low-certainty evidence). They may increas"
+    },
+    {
+     "pmid": "42262611",
+     "title": "Cannabinoids and opioid consumption in cancer pain: a systematic review and meta-analysis.",
+     "journal": "Support Care Cancer",
+     "date": "2026-06-09",
+     "tag": "META-ANALYSIS",
+     "first_author": "Creang\u0103-Murariu et al.",
+     "doi": "10.1007/s00520-026-10856-y",
+     "conclusion": "Cannabinoids are not associated with consistent or clinically meaningful opioid-sparing effects in cancer pain under controlled conditions. Observed benefits in uncontrolled analyses are variable and not reliably reproduced. Cannabinoids should not be considered a dependable opioid-sparing strategy in cancer pain management."
+    },
+    {
+     "pmid": "41429020",
+     "title": "Cannabis-Based Products for Chronic Pain : An Updated Systematic Review.",
+     "journal": "Ann Intern Med",
+     "date": "2025-12-23",
+     "tag": "SR",
+     "first_author": "Chou et al.",
+     "doi": "10.7326/ANNALS-25-03152",
+     "conclusion": "Comparable and high THC-to-CBD ratio cannabinoid products may result in small improvements in pain and increased common adverse events during short-term treatment of primarily neuropathic pain; among high-ratio THC-only products, nabilone (but not dronabinol) reduced pain. Low THC-to-CBD products may not improve outcomes. Studies are needed on long-term outcomes and other cannabis product types."
+    },
+    {
+     "pmid": "40563456",
+     "title": "Are Cannabis-Based Medicines a Useful Treatment for Neuropathic Pain? A Systematic Review.",
+     "journal": "Biomolecules",
+     "date": "2025-06-04",
+     "tag": "SR",
+     "first_author": "Almuntashiri et al.",
+     "doi": "10.3390/biom15060816",
+     "conclusion": "Hence, future RCTs will need to have larger numbers and be more extended studies that explore optimal dosing and delivery methods and identify patient subgroups that are most likely to benefit. While CBMs show potential, their current use balances modest benefits against possible adverse effects and variable outcomes."
+    },
+    {
+     "pmid": "41406677",
+     "title": "Preoperative cannabinoid exposure and postoperative pain: A narrative review.",
+     "journal": "J Clin Anesth",
+     "date": "2025-12-16",
+     "tag": "SR",
+     "first_author": "King et al.",
+     "doi": "10.1016/j.jclinane.2025.112097",
+     "conclusion": "Preoperative cannabis exposure is associated with increased postoperative pain and opioid requirements in some, but not all, surgical contexts. Outcomes vary by specialty, and residual confounding and nonstandardized exposure measurement constrain inference, underscoring the need for standardized exposure definitions, prospective designs, and individualized perioperative pain strategies."
+    }
+   ],
+   "holistic": [
+    {
+     "pmid": "40705433",
+     "title": "Physiotherapy for endometriosis-associated pelvic pain: a systematic review and meta-analysis.",
+     "journal": "Pain Med",
+     "date": "2026-01-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Can et al.",
+     "doi": "10.1093/pm/pnaf083",
+     "conclusion": "Physiotherapy techniques are effective in reducing pain in women with endometriosis, especially when applied locally."
+    },
+    {
+     "pmid": "40747709",
+     "title": "Exercise Therapy Versus Manual Therapy for the Management of Pain Intensity, Disability, and Physical Function in People With Chronic Low Back Pain: A Systematic Review With Meta-Analysis and Meta-Regression.",
+     "journal": "Eur J Pain",
+     "date": "2025-09-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Gonz\u00e1lez-G\u00f3mez et al.",
+     "doi": "10.1002/ejp.70090",
+     "conclusion": "ET had a small beneficial effect on long-term disability in people with CLBP. Nevertheless, evidence does not provide conclusive differences between both the treatments overall, influenced by heterogeneity and the number of studies included. Biopsychosocial factors may moderate the differences in outcomes. The GRADE assessment revealed very low certainty across all outcomes, highlighting the lack of high-quality rese"
+    },
+    {
+     "pmid": "41363159",
+     "title": "Manual therapy with exercise for neck pain.",
+     "journal": "Cochrane Database Syst Rev",
+     "date": "2025-12-09",
+     "tag": "META-ANALYSIS",
+     "first_author": "Chacko et al.",
+     "doi": "10.1002/14651858.CD011225.pub2",
+     "conclusion": "The combination of manual therapy with exercise may result in a moderate increase in function but no reduction in pain when compared with placebo for primarily chronic neck pain. A large reduction in pain and moderate increase in function may result when comparing manual therapy with exercise with no treatment. Only non-serious adverse events were reported. Other outcomes had varied certainty. Data on participant-rep"
+    }
+   ],
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (\"chronic pain\"[tiab] OR \"neuropathic pain\"[tiab] OR neuropath*[tiab] OR \"pain\"[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(\"chronic pain\"[tiab] OR \"neuropathic pain\"[tiab] OR neuropath*[tiab] OR \"pain\"[ti]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+  },
+  "anxiety": {
+   "label": "Anxiety",
+   "emoji": "\ud83e\udee7",
+   "goal": "anxiety",
+   "background": [
+    "anxiety"
+   ],
+   "cann_matches": 68,
+   "hol_matches": 416,
+   "cannabinoid": [
+    {
+     "pmid": "40956670",
+     "title": "Effects of Different Cannabinoid Formulations on Anxiety-Related Disorders, and Tourette Syndrome: A Systematic Review and Meta-Analysis.",
+     "journal": "Cannabis Cannabinoid Res",
+     "date": "2025-09-16",
+     "tag": "META-ANALYSIS",
+     "first_author": "Raminelli et al.",
+     "doi": "10.1177/25785125251378242",
+     "conclusion": "In addition, low-quality evidence supports \u03949-THC's efficacy for the reduction of nightmares in PTSD and tic severity in TS. Further double-blind, randomized, placebo-controlled trials with larger and heterogeneous samples are required to investigate the clinical outcomes of pharmaceutical-grade cannabinoids and standardized cannabis extracts in the treatment of ADs."
+    },
+    {
+     "pmid": "40413923",
+     "title": "Medicinal cannabis in the management of anxiety disorders: A systematic review.",
+     "journal": "Psychiatry Res",
+     "date": "2025-05-17",
+     "tag": "SR",
+     "first_author": "Roberts et al.",
+     "doi": "10.1016/j.psychres.2025.116552",
+     "conclusion": "Medicinal cannabis demonstrates potential in reducing anxiety symptoms, but the long-term benefits and overall impact on quality of life remain unclear. Further high-quality, longitudinal research with standardised dosing is needed."
+    },
+    {
+     "pmid": "42494831",
+     "title": "Functional neuroimaging of Cannabidiol in stress and anxiety: a systematic review.",
+     "journal": "Front Neuroimaging",
+     "date": "2026-07-09",
+     "tag": "SR",
+     "first_author": "Rutledge et al.",
+     "doi": "10.3389/fnimg.2026.1860919",
+     "conclusion": "The current literature on the putative anxiolytic effects of CBD is constrained by methodological variability and limited statistical power. Future studies should employ standardized paradigms, improve reporting practices, and include more diverse and adequately powered samples to clarify the neural correlates of CBD-related effects on stress and anxiety."
+    },
+    {
+     "pmid": "41452412",
+     "title": "Effects of Cannabidiol on Social Relating, Anxiety, and Parental Stress in Autistic Children: A Randomized Controlled Crossover Trial.",
+     "journal": "Autism Res",
+     "date": "2025-12-26",
+     "tag": "RCT",
+     "first_author": "Parrella et al.",
+     "doi": "10.1002/aur.70159",
+     "conclusion": "Findings from this pilot trial suggest that while CBD combined with terpenes did not improve the primary outcome of social responsiveness, it may hold potential in addressing certain autism-related difficulties, particularly anxiety and social relating. Further research with larger sample sizes is needed to fully evaluate the efficacy and safety of CBD for autistic children."
+    },
+    {
+     "pmid": "41752306",
+     "title": "Therapeutically Motivated Cannabis Use for Anxiety: Daily and Longitudinal Reductions Vary Between Flower and Edible Products.",
+     "journal": "Int J Environ Res Public Health",
+     "date": "2026-02-10",
+     "tag": "RCT",
+     "first_author": "Rosa et al.",
+     "doi": "10.3390/ijerph23020224",
+     "conclusion": "In the edibles group, when participants used CBD products, this was associated with a 24.9% reduction in anxiety over the 30 days. Findings underscore the importance of distinguishing cannabis effects by product type and cannabinoid composition and suggest that CBD-dominant edibles were associated with less anxiety over time in this naturalistic study."
+    }
+   ],
+   "holistic": [
+    {
+     "pmid": "40432290",
+     "title": "The Effects of Aerobic and Resistance Exercise on Depression and Anxiety: Systematic Review With Meta-Analysis.",
+     "journal": "Int J Ment Health Nurs",
+     "date": "2025-06-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Banyard et al.",
+     "doi": "10.1111/inm.70054",
+     "conclusion": "Aerobic, resistance, or a mixture of aerobic and resistance exercise is beneficial for improving symptoms of depression and anxiety. Protocol Registration: PROSPERO registration number: CRD42019119341 (date of registration: 5/2/2019)."
+    },
+    {
+     "pmid": "41667154",
+     "title": "Effect of exercise on depression and anxiety symptoms: systematic umbrella review with meta-meta-analysis.",
+     "journal": "Br J Sports Med",
+     "date": "2026-03-31",
+     "tag": "META-ANALYSIS",
+     "first_author": "Munro et al.",
+     "doi": "10.1136/bjsports-2025-110301",
+     "conclusion": "The findings of the study support that exercise based interventions, in all formats and parameters, can help mitigate depression and anxiety symptoms across all population categories. These results can help health professionals provide targeted, cost effective, evidence based support that aligns with individual profiles and preferences."
+    },
+    {
+     "pmid": "41191382",
+     "title": "Ketogenic Diets and Depression and Anxiety: A Systematic Review and Meta-Analysis.",
+     "journal": "JAMA Psychiatry",
+     "date": "2026-01-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Janssen-Aguilar et al.",
+     "doi": "10.1001/jamapsychiatry.2025.3261",
+     "conclusion": "In this systematic review and meta-analysis, KDs were associated with modest improvements in depressive symptoms, particularly with biochemical ketosis verification, while anxiety evidence was inconclusive. Given heterogeneity, comparators, and short follow-up, well-powered trials with standardized, verified protocols, structured support, and prespecified outcomes are needed to confirm efficacy and durability."
+    }
+   ],
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (anxiety[tiab] OR anxious[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(anxiety[tiab] OR anxious[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+  },
+  "mood": {
+   "label": "Mood & depression",
+   "emoji": "\ud83c\udf24\ufe0f",
+   "goal": "mood",
+   "background": [],
+   "cann_matches": 47,
+   "hol_matches": 547,
+   "cannabinoid": [
+    {
+     "pmid": "41793962",
+     "title": "The association between major depressive disorder and cannabis use disorder: A meta-analysis and meta-regression analysis.",
+     "journal": "J Psychiatr Res",
+     "date": "2026-02-26",
+     "tag": "META-ANALYSIS",
+     "first_author": "Pini Alemar et al.",
+     "doi": "10.1016/j.jpsychires.2026.02.047",
+     "conclusion": "Current-diagnosis estimates highlight a strong and clinically meaningful bidirectional association between MDD and CUD. Differences between psychiatric and community samples-especially the markedly higher current CUD prevalence in patients with MDD-underscore the need for systematic screening across treatment settings. Future work should improve diagnostic differentiation, particularly regarding the overlap between d"
+    },
+    {
+     "pmid": "40424695",
+     "title": "The role of depression in the relationship between cannabis use and suicidal behaviours: A systematic review and meta-analysis.",
+     "journal": "Drug Alcohol Depend",
+     "date": "2025-05-16",
+     "tag": "META-ANALYSIS",
+     "first_author": "Maffre Maviel et al.",
+     "doi": "10.1016/j.drugalcdep.2025.112714",
+     "conclusion": "Studies investigating a moderating role of depression did not agree about the direction of moderation. Further research using methodologies that consider the chronology of events is needed."
+    }
+   ],
+   "holistic": [
+    {
+     "pmid": "40432290",
+     "title": "The Effects of Aerobic and Resistance Exercise on Depression and Anxiety: Systematic Review With Meta-Analysis.",
+     "journal": "Int J Ment Health Nurs",
+     "date": "2025-06-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Banyard et al.",
+     "doi": "10.1111/inm.70054",
+     "conclusion": "Aerobic, resistance, or a mixture of aerobic and resistance exercise is beneficial for improving symptoms of depression and anxiety. Protocol Registration: PROSPERO registration number: CRD42019119341 (date of registration: 5/2/2019)."
+    },
+    {
+     "pmid": "41667154",
+     "title": "Effect of exercise on depression and anxiety symptoms: systematic umbrella review with meta-meta-analysis.",
+     "journal": "Br J Sports Med",
+     "date": "2026-03-31",
+     "tag": "META-ANALYSIS",
+     "first_author": "Munro et al.",
+     "doi": "10.1136/bjsports-2025-110301",
+     "conclusion": "The findings of the study support that exercise based interventions, in all formats and parameters, can help mitigate depression and anxiety symptoms across all population categories. These results can help health professionals provide targeted, cost effective, evidence based support that aligns with individual profiles and preferences."
+    },
+    {
+     "pmid": "41500513",
+     "title": "Exercise for depression.",
+     "journal": "Cochrane Database Syst Rev",
+     "date": "2026-01-08",
+     "tag": "META-ANALYSIS",
+     "first_author": "Clegg et al.",
+     "doi": "10.1002/14651858.CD004366.pub7",
+     "conclusion": "Exercise may be moderately more effective than a control intervention for reducing symptoms of depression. Exercise appears to be no more or less effective than psychological or pharmacological treatments, though this conclusion is based on a few small trials. Long-term follow-up was rare. The addition of 35 RCTs (at least 2526 participants) to this update has had very little effect on the estimate of the benefit of "
+    }
+   ],
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (depression[tiab] OR depressive[tiab] OR mood[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(depression[tiab] OR depressive[tiab] OR mood[ti]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+  },
+  "ptsd": {
+   "label": "PTSD",
+   "emoji": "\ud83d\udd4a\ufe0f",
+   "goal": "",
+   "background": [
+    "ptsd"
+   ],
+   "cann_matches": 18,
+   "hol_matches": 33,
+   "cannabinoid": [
+    {
+     "pmid": "42210342",
+     "title": "Efficacy, effectiveness and safety of medical cannabis in PTSD: a scoping review.",
+     "journal": "J Cannabis Res",
+     "date": "2026-05-29",
+     "tag": "SR",
+     "first_author": "Aviram et al.",
+     "doi": "10.1186/s42238-026-00451-7",
+     "conclusion": "The current evidence from high-quality RCTs remains insufficient to support clinical use of cannabinoids in treating PTSD. The therapeutic role of cannabinoids in PTSD should be further evaluated through rigorous RCTs."
+    },
+    {
+     "pmid": "42557458",
+     "title": "Dronabinol for nightmares in post-traumatic stress disorder: a randomized controlled trial.",
+     "journal": "Nat Med",
+     "date": "2026-08-05",
+     "tag": "RCT",
+     "first_author": "Roepke et al.",
+     "doi": "10.1038/s41591-026-04546-9",
+     "conclusion": "This trial provides evidence that dronabinol reduces the frequency and intensity of PTSD-related nightmares, although long-term efficacy and safety require further evaluation. ClinicalTrials.gov: NCT04448808 ."
+    },
+    {
+     "pmid": "42463794",
+     "title": "Dose-related reductions in prefrontal recruitment during cognitive reappraisal following oral delta-9-tetrahydrocannabinol in posttraumatic stress disorder.",
+     "journal": "Neuropsychopharmacology",
+     "date": "2026-07-16",
+     "tag": "RCT",
+     "first_author": "Haggarty et al.",
+     "doi": "10.1038/s41386-026-02502-2",
+     "conclusion": "Exploratory analyses revealed limited correspondence between regional activation and subjective affect. These findings indicate that acute oral THC is associated with dose-dependent reductions in recruitment of prefrontal control circuitry during cognitive reappraisal in PTSD without detectable changes in self-reported affect, consistent with a potential neural-subjective dissociation, although smaller behavioral eff"
+    },
+    {
+     "pmid": "41734366",
+     "title": "The Effects of Extended Cannabis Abstinence in Comorbid Posttraumatic Stress Disorder and Cannabis Use Disorder.",
+     "journal": "J Clin Psychiatry",
+     "date": "2026-02-18",
+     "tag": "RCT",
+     "first_author": "Rodas et al.",
+     "doi": "10.4088/JCP.25m16099",
+     "conclusion": "Larger randomized trials are warranted to replicate and extend these findings and to investigate mechanisms through which abstinence may relate to symptom changes in PTSD with CUD. Trial Registration: ClinicalTrials.gov identifier: NCT05162651."
+    },
+    {
+     "pmid": "41312717",
+     "title": "Effects of cannabidiol in alcohol use disorder patients with and without co-occurring post-traumatic stress disorder: Tolerability but no evidence for efficacy in two randomized proof-of-concept trials.",
+     "journal": "Alcohol Clin Exp Res (Hoboken)",
+     "date": "2025-11-28",
+     "tag": "RCT",
+     "first_author": "Bogenschutz et al.",
+     "doi": "10.1111/acer.70212",
+     "conclusion": "These findings support the feasibility and tolerability of twice-daily oral CBD up to 1200 mg/day in actively drinking individuals but do not demonstrate efficacy at the CBD levels that were achieved in this study. Further dose finding and larger, well-powered trials are needed to clarify CBD's therapeutic potential in AUD and comorbid PTSD."
+    }
+   ],
+   "holistic": [
+    {
+     "pmid": "41380098",
+     "title": "Systematic review and meta-analyses of nonpharmacological interventions for co-occurring chronic pain and posttraumatic stress disorder.",
+     "journal": "Pain",
+     "date": "2025-12-03",
+     "tag": "META-ANALYSIS",
+     "first_author": "O'Donnell et al.",
+     "doi": "10.1097/j.pain.0000000000003880",
+     "conclusion": "Our findings suggest that treatments targeting chronic pain and PTSD should, at minimum, include a trauma-focused therapy component. However, further research is required to develop effective treatments for co-occurring chronic pain and PTSD."
+    },
+    {
+     "pmid": "42342084",
+     "title": "Impact of physical exercise interventions on post-traumatic stress disorder symptoms: A systematic review and meta-analysis.",
+     "journal": "Complement Ther Med",
+     "date": "2026-06-24",
+     "tag": "META-ANALYSIS",
+     "first_author": "Wang et al.",
+     "doi": "10.1016/j.ctim.2026.103400",
+     "conclusion": "This review provides evidence that physical exercise can effectively reduce PTSD symptoms. Beneficial effects were observed across different exercise modalities and populations, although no statistically significant subgroup differences were identified. These findings support structured exercise as a promising and scalable component of PTSD treatment strategies."
+    },
+    {
+     "pmid": "40737648",
+     "title": "COGNITIVE-BEHAVIORAL THERAPY METHODS IN THE TREATMENT OF POST-TRAUMATIC STRESS DISORDER AND THEIR ROLE IN MENTAL HEALTH RECOVERY.",
+     "journal": "Georgian Med News",
+     "date": "2025-05-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Korovynskyi et al.",
+     "doi": null,
+     "conclusion": "CBT methods are the priority choice in treating PTSD, affecting symptom reduction and improving quality of life. Their integration with other approaches increases the effectiveness of treating complex cases. Promising directions include research on neurobiological mechanisms, personalization of approaches, and the study of innovative technologies."
+    }
+   ],
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (PTSD[tiab] OR posttraumatic[tiab] OR \"post-traumatic\"[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(PTSD[tiab] OR posttraumatic[tiab] OR \"post-traumatic\"[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+  },
+  "arthritis": {
+   "label": "Arthritis",
+   "emoji": "\ud83e\uddb4",
+   "goal": "inflammation",
+   "background": [
+    "arthritis"
+   ],
+   "cann_matches": 9,
+   "hol_matches": 92,
+   "cannabinoid": [
+    {
+     "pmid": "42515994",
+     "title": "Efficacy and Safety of Cannabis Extracts for the Treatment of Osteoarthritis: A Systematic Review and Meta-Analysis of Preclinical and Human Studies.",
+     "journal": "Pain Res Manag",
+     "date": "2026-01-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Abafita et al.",
+     "doi": "10.1155/prm/3998239",
+     "conclusion": "Preclinical evidence provides preliminary, low-certainty support for the anti-inflammatory, analgesic, and chondroprotective properties of cannabinoid-based therapies in OA. Current clinical evidence remains insufficient to establish efficacy for pain or function. Further high-quality, large-scale RCTs are necessary to confirm the efficacy and clarify the safety profile of cannabis extracts in OA management."
+    },
+    {
+     "pmid": "41481837",
+     "title": "Evaluating the Acute Effects of the Cannabinoid Dronabinol and the Opioid Hydromorphone Alone and in Combination: A Double-blind, Randomized, Placebo-controlled Trial in Knee Osteoarthritis.",
+     "journal": "Anesthesiology",
+     "date": "2025-12-31",
+     "tag": "RCT",
+     "first_author": "Hamilton et al.",
+     "doi": "10.1097/ALN.0000000000005925",
+     "conclusion": "Opioid and cannabinoid medications failed to produce robust analgesia in experimentally induced pain among patients with knee osteoarthritis. In contrast to preclinical studies, there was no evidence of synergistic analgesic effects by combining hydromorphone and dronabinol."
+    },
+    {
+     "pmid": "41487518",
+     "title": "Effects and safety of a CBD-rich Cannabis sativa oil in knee osteoarthritis: a double-blind, randomized, placebo-controlled trial - CANOA - cannabis for osteoarthritis.",
+     "journal": "Front Pharmacol",
+     "date": "2025-12-19",
+     "tag": "TRIAL",
+     "first_author": "Mojoli et al.",
+     "doi": "10.3389/fphar.2025.1657065",
+     "conclusion": "CBD-rich cannabis oil treatment was well tolerated, with no serious adverse effects observed. However, this treatment did not demonstrate superiority over placebo in alleviating pain or improving secondary outcomes in osteoarthritis patients. Further multicentrical and larger trials are warranted to explore the efficacy of alternative dosages and/or formulations containing CBD, THC and other cannabinoids."
+    }
+   ],
+   "holistic": [
+    {
+     "pmid": "42036268",
+     "title": "EULAR recommendations for physical activity in people with inflammatory arthritis and osteoarthritis: 2025 update.",
+     "journal": "Ann Rheum Dis",
+     "date": "2026-04-26",
+     "tag": "GUIDELINE",
+     "first_author": "Rausch Osthoff et al.",
+     "doi": "10.1016/j.ard.2026.03.006",
+     "conclusion": "The updated EULAR recommendations for PA should guide the development, conduct and evaluation of PA interventions and promotion, including the reduction of SB, in people with IA and OA. These recommendations should be implemented with consideration of individual needs, environmental conditions, and the broader national health care context."
+    },
+    {
+     "pmid": "40335749",
+     "title": "Mediterranean diet and rheumatoid arthritis: A nine-year cohort study and systematic review with meta-analysis.",
+     "journal": "Eur J Clin Nutr",
+     "date": "2025-05-07",
+     "tag": "META-ANALYSIS",
+     "first_author": "Hu et al.",
+     "doi": "10.1038/s41430-025-01628-8",
+     "conclusion": "Higher adherence to MD was associated with a lower risk of RA. Our finding provides updated evidence on the importance of diet in RA development and novel directions for RA prevention."
+    },
+    {
+     "pmid": "40890564",
+     "title": "The Efficacy of Closed Versus Open Kinetic Chain Exercise in Knee Osteoarthritis-A Systematic Review and Meta-Analysis.",
+     "journal": "Physiother Res Int",
+     "date": "2025-10-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Michael et al.",
+     "doi": "10.1002/pri.70105",
+     "conclusion": "To reduce pain and improve physical function in individuals with knee osteoarthritis in the short term, physiotherapists should prescribe CKC exercises. However, there is a paucity of information outlining the effects of these CKC versus OKC in the medium to long term."
+    }
+   ],
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (arthritis[tiab] OR osteoarthritis[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(arthritis[tiab] OR osteoarthritis[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+  },
+  "inflammation": {
+   "label": "Inflammation",
+   "emoji": "\ud83d\udd25",
+   "goal": "inflammation",
+   "background": [],
+   "cann_matches": 7,
+   "hol_matches": 171,
+   "cannabinoid": [
+    {
+     "pmid": "41740869",
+     "title": "Regular cannabinoid use and inflammatory biomarkers: Systematic review and hierarchical meta-analysis.",
+     "journal": "Brain Behav Immun",
+     "date": "2026-02-23",
+     "tag": "META-ANALYSIS",
+     "first_author": "Belvederi Murri et al.",
+     "doi": "10.1016/j.bbi.2026.106517",
+     "conclusion": "Cannabinoid use is associated with concurrent pro- and anti-inflammatory modulation in non-medical populations, consistent with immunomodulatory effects rather than a uniform pro- or anti-inflammatory shift. Understanding the immunological impact of cannabinoids remains critical to anticipate long-term health consequences and guide therapeutic development."
+    },
+    {
+     "pmid": "41373770",
+     "title": "The Pleiotropic Influence of Cannabidiol and Tetrahydrocannabinol on Inflammatory Biomarkers: A Systematic Review and Meta-Analytical Synthesis.",
+     "journal": "Int J Mol Sci",
+     "date": "2025-11-30",
+     "tag": "META-ANALYSIS",
+     "first_author": "Candeloro et al.",
+     "doi": "10.3390/ijms262311618",
+     "conclusion": "GRADE ratings were as follows: IL-6 very low, IL-8 moderate, IL-10 low, and TNF-\u03b1 moderate. Current RCT evidence demonstrates inconsistent, often trivial effects of phytocannabinoid interventions on circulating inflammatory biomarkers."
+    },
+    {
+     "pmid": "42231518",
+     "title": "Effectiveness of THC-containing cannabis for inflammatory bowel disease: a systematic review.",
+     "journal": "J Cannabis Res",
+     "date": "2026-06-03",
+     "tag": "SR",
+     "first_author": "Jugl et al.",
+     "doi": "10.1186/s42238-026-00456-2",
+     "conclusion": "Current evidence is inconclusive as to whether THC-containing cannabis products might have a positive effect in IBD, given heterogenous findings and mostly low-to-moderate evidence quality. Higher quality cannabis research is needed given widespread utilization."
+    },
+    {
+     "pmid": "42357416",
+     "title": "CBD-Containing Hemp Extracts and Isolated CBD for Acne: A Systematic Review of Anti-Inflammatory Mechanisms, Clinical Signals and Sustainability.",
+     "journal": "Molecules",
+     "date": "2026-06-09",
+     "tag": "SR",
+     "first_author": "Komane et al.",
+     "doi": "10.3390/molecules31122017",
+     "conclusion": "Overall, CBD-containing hemp extracts show biologically plausible and clinically promising adjunctive potential for mild-to-moderate inflammatory acne, but current evidence remains preliminary. This review highlights the need for methodologically rigorous and transparent clinical studies, standardised formulations, validated outcome measures and the integration of sustainability metrics to strengthen evidence synthes"
+    },
+    {
+     "pmid": "41604381",
+     "title": "Investigating the effects of cannabinoids for the reduction of inflammation and sickle cell disease pain (CRISP); A protocol for a randomized double-blind placebo-controlled study.",
+     "journal": "PLoS One",
+     "date": "2026-01-28",
+     "tag": "RCT",
+     "first_author": "Bellis et al.",
+     "doi": "10.1371/journal.pone.0340917",
+     "conclusion": "The study will also track biomarkers of inflammation as THC has demonstrated anti-inflammatory properties, and inflammation is a driver of SCD pain and disease severity. Results from this study have the potential to further clinical understanding of cannabinoids for pain management in Sickle Cell Disease treatment and spark new questions for research."
+    }
+   ],
+   "holistic": [
+    {
+     "pmid": "40692184",
+     "title": "North American Society for Pediatric Gastroenterology, Hepatology, and Nutrition position paper on the therapeutic drug monitoring in pediatric inflammatory bowel disease.",
+     "journal": "J Pediatr Gastroenterol Nutr",
+     "date": "2025-07-21",
+     "tag": "GUIDELINE",
+     "first_author": "Felipez et al.",
+     "doi": "10.1002/jpn3.70158",
+     "conclusion": "This report has been compiled by pediatric gastroenterologists on behalf of the North American Society for Pediatric Gastroenterology, Hepatology, and Nutrition IBD committee after extensive review of the current literature. The purpose of this clinical position statement is to provide guidance to clinicians in the use of TDM to optimize the treatment of children with IBD."
+    },
+    {
+     "pmid": "42036268",
+     "title": "EULAR recommendations for physical activity in people with inflammatory arthritis and osteoarthritis: 2025 update.",
+     "journal": "Ann Rheum Dis",
+     "date": "2026-04-26",
+     "tag": "GUIDELINE",
+     "first_author": "Rausch Osthoff et al.",
+     "doi": "10.1016/j.ard.2026.03.006",
+     "conclusion": "The updated EULAR recommendations for PA should guide the development, conduct and evaluation of PA interventions and promotion, including the reduction of SB, in people with IA and OA. These recommendations should be implemented with consideration of individual needs, environmental conditions, and the broader national health care context."
+    },
+    {
+     "pmid": "41211687",
+     "title": "Mediterranean Diet Reduces Inflammation in Adults: A Systematic Review and Meta-analysis of Randomized Controlled Trials.",
+     "journal": "Nutr Rev",
+     "date": "2026-09-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Keshani et al.",
+     "doi": "10.1093/nutrit/nuaf213",
+     "conclusion": "The MD can significantly improve certain inflammation biomarkers, particularly hs-CRP, IL-6, and IL-17, supporting its potential role in reducing inflammation-related risks. However, further high-quality studies will be essential to confirm these findings."
+    }
+   ],
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (inflammation[ti] OR inflammatory[ti] OR \"C-reactive\"[tiab] OR cytokine*[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(inflammation[ti] OR inflammatory[ti] OR \"C-reactive\"[tiab] OR cytokine*[ti]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+  },
+  "nausea": {
+   "label": "Nausea & vomiting",
+   "emoji": "\ud83c\udf0a",
+   "goal": "nausea",
+   "background": [
+    "cinv"
+   ],
+   "cann_matches": 18,
+   "hol_matches": 37,
+   "cannabinoid": [
+    {
+     "pmid": "41129865",
+     "title": "Treatment of cannabinoid hyperemesis syndrome: A systematic review and treatment algorithm for consultation-liaison psychiatrists.",
+     "journal": "Gen Hosp Psychiatry",
+     "date": "2025-10-17",
+     "tag": "SR",
+     "first_author": "Hsu et al.",
+     "doi": "10.1016/j.genhosppsych.2025.10.012",
+     "conclusion": "An examination of treatment strategies for CHS can allow for more effective care while providing a foundation for further research in treatment. This proposed algorithm is designed to aid in establishing treatment strategies for C-L psychiatrists who assist with managing CHS for patients in general medical settings. The goal of this research is to establish evidence-based treatment guidelines for C-L psychiatrists wh"
+    },
+    {
+     "pmid": "40797063",
+     "title": "Cannabinoids for the prevention of chemotherapy-induced nausea and vomiting in oncological therapy: a systematic review.",
+     "journal": "J Cancer Surviv",
+     "date": "2025-08-12",
+     "tag": "SR",
+     "first_author": "Kemmner et al.",
+     "doi": "10.1007/s11764-025-01876-4",
+     "conclusion": "With only one study complying with modern antiemetic standards and considering the risks of side effects, clinical evidence to recommend cannabinoids for the management of CINV is deemed insufficient."
+    }
+   ],
+   "holistic": [
+    {
+     "pmid": "40731916",
+     "title": "Effectiveness and Safety of Acupuncture for Nausea and Vomiting in Cancer Patients: A Systematic Review and Meta-Analysis.",
+     "journal": "Medicina (Kaunas)",
+     "date": "2025-07-17",
+     "tag": "META-ANALYSIS",
+     "first_author": "Kim et al.",
+     "doi": "10.3390/medicina61071287",
+     "conclusion": "Clinicians can anticipate optimal benefits from at least five days of treatment, particularly using acupoints PC6, ST36, CV12, LI4, LR3, and ST25. Further high-quality studies are needed to establish standardized treatment regimens and explore its comprehensive effects on NV."
+    },
+    {
+     "pmid": "42075106",
+     "title": "Comparative Effectiveness of Pharmacological and Non-Pharmacological Interventions for Nausea and Vomiting in Pregnancy: A Systematic Review and Network Meta-Analysis.",
+     "journal": "Nutrients",
+     "date": "2026-04-20",
+     "tag": "SR",
+     "first_author": "Frivaldszky et al.",
+     "doi": "10.3390/nu18081293",
+     "conclusion": "However, high heterogeneity and sparse reporting of adverse effects warrant caution when translating these results into clinical practice. Conclusions: This study indicates that both pharmacological (vitamin B6, metoclopramide, dimenhydrinate) and non-pharmacological (ginger, quince, acupressure, acupuncture) interventions might be effective in reducing symptoms of nausea and vomiting in pregnancy."
+    },
+    {
+     "pmid": "42772702",
+     "title": "Acupuncture for chemotherapy-induced nausea and vomiting: An umbrella review of systematic reviews.",
+     "journal": "Complement Ther Med",
+     "date": "2026-09-23",
+     "tag": "SR",
+     "first_author": "Cao et al.",
+     "doi": "10.1016/j.ctim.2026.103438",
+     "conclusion": "Invasive acupuncture may be beneficial for delayed CINV. However, the certainty of the current evidence is limited by the methodological limitations of the available studies. Further large-scale, rigorously designed RCTs with adequate sample sizes are needed to confirm its efficacy for CINV."
+    }
+   ],
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (nausea[tiab] OR vomiting[tiab] OR emesis[tiab] OR antiemetic[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(nausea[tiab] OR vomiting[tiab] OR emesis[tiab] OR antiemetic[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+  },
+  "appetite": {
+   "label": "Appetite & weight loss",
+   "emoji": "\ud83c\udf7d\ufe0f",
+   "goal": "appetite",
+   "background": [
+    "appetite_cachexia"
+   ],
+   "cann_matches": 19,
+   "hol_matches": 37,
+   "cannabinoid": [
+    {
+     "pmid": "41906184",
+     "title": "Cannabidiol in Anorexia Nervosa: A Double-Blind Randomized Placebo Controlled Pilot Study to Test Safety, Pharmacokinetics, and Symptom Change.",
+     "journal": "Int J Eat Disord",
+     "date": "2026-03-29",
+     "tag": "RCT",
+     "first_author": "Sahota et al.",
+     "doi": "10.1002/eat.70034",
+     "conclusion": "Furthermore, indication of better weight recovery and improvement of eating disorder specific symptoms in the CBD group suggest treatment effects of CBD in AN. The study was, however, constrained by its small sample size and limited duration and requires replication in a larger sample."
+    },
+    {
+     "pmid": "40865547",
+     "title": "Benefits and Burdens of Vaporized Botanical Cannabis Flower Bud for Cancer-Related Anorexia: A Qualitative Study of the Experiences of People with Advanced Cancer Enrolled as Inpatients in a Phase I/IIb Clinical Trial and Their Family Carers.",
+     "journal": "J Palliat Med",
+     "date": "2025-08-28",
+     "tag": "TRIAL",
+     "first_author": "Luckett et al.",
+     "doi": "10.1177/10966218251372439",
+     "conclusion": "Burdens included throat irritation and adverse smell and taste, but these were transient. Conclusions: Vaporized flower bud warrants comparison with other formulations/modes of medicinal cannabis for cancer-related anorexia."
+    }
+   ],
+   "holistic": [
+    {
+     "pmid": "42476307",
+     "title": "Nutritional support for cancer cachexia: A systematic review and meta-analysis of randomized controlled trials.",
+     "journal": "Clin Nutr ESPEN",
+     "date": "2026-07-20",
+     "tag": "META-ANALYSIS",
+     "first_author": "Santos et al.",
+     "doi": "10.1016/j.clnesp.2026.103602",
+     "conclusion": "Nutritional support in patients with cancer cachexia provides small body composition improvements. However, most body composition measures were performed through bioimpedance assessments, which limits their robustness. Additionally, this approach seem insufficient to reverse metabolic alterations or improve function alone. The certainty of this evidence highlights the need for higher quality, rigorously conducted tri"
+    },
+    {
+     "pmid": "40411797",
+     "title": "Contextualising Physical Activity Levels in Patients With Anorexia Nervosa: A Systematic Review and Meta-Analysis.",
+     "journal": "Eur Eat Disord Rev",
+     "date": "2025-05-24",
+     "tag": "META-ANALYSIS",
+     "first_author": "Pagador et al.",
+     "doi": "10.1002/erv.3205",
+     "conclusion": "This is the first systematic review and meta-analysis assessing objectively measured PALs in AN patients. Findings reveal different PALs patterns by age-group, and insufficient data by treatment stage. These results identified a critical research gap essential for future development of targeted interventions and informed strategies to support recovery."
+    },
+    {
+     "pmid": "41057858",
+     "title": "The impact of physical activity interventions on body composition and quality of life in adolescents with anorexia nervosa: a meta-analysis of randomized controlled trials.",
+     "journal": "BMC Pediatr",
+     "date": "2025-10-07",
+     "tag": "META-ANALYSIS",
+     "first_author": "Fangquan et al.",
+     "doi": "10.1186/s12887-025-06077-7",
+     "conclusion": "Exercise interventions benefit adolescents with AN, particularly by supporting weight recovery, increasing thigh muscle circumference, improving skinfold thickness, and enhancing quality of life. An 8-week programme combining aerobic and anaerobic exercise (three sessions per week, 50 min per session) significantly promoted weight recovery and improved BMI. These findings underscore the importance of personalized exe"
+    }
+   ],
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (appetite[tiab] OR cachexia[tiab] OR anorexia[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(appetite[tiab] OR cachexia[tiab] OR anorexia[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+  },
+  "focus": {
+   "label": "Focus & memory",
+   "emoji": "\ud83c\udfaf",
+   "goal": "focus",
+   "background": [],
+   "cann_matches": 22,
+   "hol_matches": 401,
+   "cannabinoid": [
+    {
+     "pmid": "40675034",
+     "title": "The effects of cannabis use disorder on cognitive functions: A meta-analysis.",
+     "journal": "Addict Behav",
+     "date": "2025-07-14",
+     "tag": "META-ANALYSIS",
+     "first_author": "Pilon et al.",
+     "doi": "10.1016/j.addbeh.2025.108434",
+     "conclusion": "This meta-analysis shows that cannabis use disorder is associated with moderate deficits in verbal learning/memory, speed of processing and working memory. Despite the limitation of the studies in the field, our results should serve as a reminder that the residual cognitive impairments associated with cannabis should not be under-estimated prematurely."
+    },
+    {
+     "pmid": "42704497",
+     "title": "Efficacy and safety of cannabinoid-based interventions for behavioral and cognitive symptoms in dementia: systematic review and meta-analysis.",
+     "journal": "Neurol Sci",
+     "date": "2026-09-07",
+     "tag": "META-ANALYSIS",
+     "first_author": "Tudella et al.",
+     "doi": "10.1007/s10072-026-09347-z",
+     "conclusion": "Cannabinoid-based therapies do not improve agitation, neuropsychiatric symptoms, or cognition in Alzheimer's disease and increase somnolence."
+    },
+    {
+     "pmid": "40819776",
+     "title": "Sex differences in the acute effects of cannabis on human cognition: A systematic review.",
+     "journal": "Front Neuroendocrinol",
+     "date": "2025-08-15",
+     "tag": "SR",
+     "first_author": "Matheson et al.",
+     "doi": "10.1016/j.yfrne.2025.101215",
+     "conclusion": "Overall, we found limited evidence that sex significantly influences the acute cognitive effects of cannabis, though methodological heterogeneity precludes any firm conclusions. Future studies should prioritize the measurement of sex-related factors, such as hormonal modulation of cannabinoid pharmacokinetics and pharmacodynamics."
+    },
+    {
+     "pmid": "41265541",
+     "title": "Cannabis and nicotine/tobacco co-use and its association with cognitive and neural outcomes: A systematic review.",
+     "journal": "Neurosci Biobehav Rev",
+     "date": "2025-11-19",
+     "tag": "SR",
+     "first_author": "Yeap et al.",
+     "doi": "10.1016/j.neubiorev.2025.106480",
+     "conclusion": "Although findings were heterogenous, converging evidence suggests that cannabis and NTP use may offset each other in cognitive and brain functional outcomes, mitigating impairments linked to single-substance use. These results offer novel insight into the cognitive and neurobiological factors that may underlie co-use and may help inform treatment. Rather than extrapolating cannabis and NTP co-use treatment from singl"
+    },
+    {
+     "pmid": "40368229",
+     "title": "Effects of different methods of cannabis use on cognition and blood THC: A systematic review.",
+     "journal": "Prog Neuropsychopharmacol Biol Psychiatry",
+     "date": "2025-05-12",
+     "tag": "SR",
+     "first_author": "Behzad et al.",
+     "doi": "10.1016/j.pnpbp.2025.111399",
+     "conclusion": "Given that THC levels are used to detect impairment, this suggests that the ability to detect impairment may vary by method, with edibles presenting more of a challenge. More studies are needed to understand the effects of these newer methods of cannabis administration on performance and blood THC."
+    }
+   ],
+   "holistic": [
+    {
+     "pmid": "40049759",
+     "title": "Effectiveness of exercise for improving cognition, memory and executive function: a systematic umbrella review and meta-meta-analysis.",
+     "journal": "Br J Sports Med",
+     "date": "2025-06-03",
+     "tag": "META-ANALYSIS",
+     "first_author": "Singh et al.",
+     "doi": "10.1136/bjsports-2024-108589",
+     "conclusion": "These findings provide strong evidence that exercise, even light intensity, benefits general cognition, memory and executive function across all populations, reinforcing exercise as an essential, inclusive recommendation for optimising cognitive health."
+    },
+    {
+     "pmid": "40958241",
+     "title": "Mindfulness-based interventions for adults with ADHD: A systematic review and meta-analysis.",
+     "journal": "Medicine (Baltimore)",
+     "date": "2025-09-12",
+     "tag": "META-ANALYSIS",
+     "first_author": "Kim et al.",
+     "doi": "10.1097/MD.0000000000044308",
+     "conclusion": "MBIs may be effective in improving core ADHD symptoms and overall functioning in adults with ADHD. However, their effects on emotional well-being and mindfulness skills remain inconclusive. These findings support the utility of MBIs as complementary interventions for ADHD while highlighting the need for further high-quality studies to clarify their long-term effects and mechanisms of action."
+    },
+    {
+     "pmid": "40982264",
+     "title": "Cognitive Behavioral Therapy for Insomnia in People With Chronic Disease: A Systematic Review and Meta-Analysis.",
+     "journal": "JAMA Intern Med",
+     "date": "2025-11-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Scott et al.",
+     "doi": "10.1001/jamainternmed.2025.4610",
+     "conclusion": "This systematic review and meta-analysis showed that CBT-I demonstrated strong efficacy and acceptability in chronic disease populations, with moderate to large effect sizes that appear comparable to those in non-chronic disease populations. Efficacy of CBT-I was similar across a range of disease subgroups. Future research should explore the role and nature of treatment adaptations for specific populations and increa"
+    }
+   ],
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (cognition[ti] OR cognitive[ti] OR memory[ti] OR attention[ti] OR ADHD[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(cognition[ti] OR cognitive[ti] OR memory[ti] OR attention[ti] OR ADHD[ti]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+  },
+  "fibromyalgia": {
+   "label": "Fibromyalgia",
+   "emoji": "\ud83e\uddf6",
+   "goal": "",
+   "background": [
+    "fibromyalgia"
+   ],
+   "cann_matches": 5,
+   "hol_matches": 30,
+   "cannabinoid": [
+    {
+     "pmid": "42013320",
+     "title": "Analgesic Effect of Cannabinoids for Fibromyalgia: A Systematic Review and Meta-Analysis.",
+     "journal": "Pain Physician",
+     "date": "2026-04-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Lam et al.",
+     "doi": null,
+     "conclusion": "Cannabinoids may provide analgesic benefits for patients with fibromyalgia. Cannabinoid use was also associated with improvements in sleep, anxiety, depression and quality of life. However, the findings should be interpreted with caution due to the quality of the evidence, heterogeneity, and small amount of available data from randomized controlled trials."
+    },
+    {
+     "pmid": "40846590",
+     "title": "Cannabidiol versus placebo in patients with fibromyalgia: a randomised, double-blind, placebo-controlled, parallel-group, single-centre trial.",
+     "journal": "Ann Rheum Dis",
+     "date": "2025-08-22",
+     "tag": "RCT",
+     "first_author": "Rasmussen et al.",
+     "doi": "10.1016/j.ard.2025.07.008",
+     "conclusion": "The findings do not support CBD 50 mg daily as an analgesic supplement for patients with fibromyalgia."
+    },
+    {
+     "pmid": "42142029",
+     "title": "Feasibility, Safety and Preliminary Efficacy of 1:1 THC:CBD Cannabis Oil for Fibromyalgia Symptoms: Results From a Randomised, Double-Blind, Placebo-Controlled Pilot Trial.",
+     "journal": "Pain Res Manag",
+     "date": "2026-01-01",
+     "tag": "RCT",
+     "first_author": "Kurlyandchik et al.",
+     "doi": "10.1155/prm/7311235",
+     "conclusion": "Preliminary safety and efficacy signals warrant confirmation in larger, adequately powered trials. Trial Registration: Australian New Zealand Clinical Trials Registry: ACTRN12623000345684."
+    }
+   ],
+   "holistic": [
+    {
+     "pmid": "40500865",
+     "title": "Guidelines on Treating Fibromyalgia With Nonpharmacological Therapies in China.",
+     "journal": "J Evid Based Med",
+     "date": "2025-06-01",
+     "tag": "GUIDELINE",
+     "first_author": "Li et al.",
+     "doi": "10.1111/jebm.70044",
+     "conclusion": "Additionally, aerobic exercise and resistance training are recommended for their proven effectiveness in reducing pain, enhancing physical function, and providing long-term benefits. Emerging therapies, such as transcranial magnetic stimulation (TMS) and nutritional supplements, show promise but require further research due to low-certainty evidence."
+    },
+    {
+     "pmid": "41546125",
+     "title": "Brazilian Society of Rheumatology's fibromyalgia treatment guidelines - part I: monitoring and non-pharmacological management.",
+     "journal": "Adv Rheumatol",
+     "date": "2026-01-16",
+     "tag": "GUIDELINE",
+     "first_author": "Heymann et al.",
+     "doi": "10.1186/s42358-025-00507-x",
+     "conclusion": "Effective management requires a structured, interdisciplinary approach that emphasizes treatment adherence and patient education.This guidelines from the Brazilian Society of Rheumatology (SBR) provide an updated review of the 2010 recommendations, incorporating recent evidence to refine both pharmacological and non-pharmacological therapeutic strategies, and are presented in two separate articles, covering aspects o"
+    },
+    {
+     "pmid": "42264849",
+     "title": "A systematic review and meta-analysis on the benefits of resistance exercise in patients with fibromyalgia.",
+     "journal": "J Bodyw Mov Ther",
+     "date": "2026-05-14",
+     "tag": "META-ANALYSIS",
+     "first_author": "Rech et al.",
+     "doi": "10.1016/j.jbmt.2026.05.010",
+     "conclusion": "Resistance-based exercise programs provide modest but meaningful benefits for managing multiple symptoms of fibromyalgia. A low-dose, moderate-intensity protocol may be sufficient to yield improvements and should be recommended as part of a multidisciplinary treatment approach."
+    }
+   ],
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (fibromyalgia[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(fibromyalgia[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+  },
+  "ms": {
+   "label": "MS spasticity",
+   "emoji": "\ud83e\udde0",
+   "goal": "",
+   "background": [
+    "ms_spasticity"
+   ],
+   "cann_matches": 10,
+   "hol_matches": 55,
+   "cannabinoid": [
+    {
+     "pmid": "40753057",
+     "title": "Assessing the Role of Cannabis in Managing Spasticity in Multiple Sclerosis: A Systematic Review and Meta-Analysis.",
+     "journal": "Clin Ther",
+     "date": "2025-08-05",
+     "tag": "META-ANALYSIS",
+     "first_author": "AlHabil et al.",
+     "doi": "10.1016/j.clinthera.2025.07.009",
+     "conclusion": "Cannabis-based therapies are associated with clinically meaningful improvements in MS-related spasticity, particularly over longer durations. Despite the promising findings, high heterogeneity and suspected bias necessitate caution. Further high-quality randomized trials with standardized protocols and comprehensive safety assessments are warranted to validate efficacy and long-term outcomes."
+    },
+    {
+     "pmid": "42506315",
+     "title": "Nabiximols in Multiple Sclerosis: Beyond Spasticity-An Exploratory Systematic Review and Meta-Analysis of Symptomatic Outcomes.",
+     "journal": "Med Sci (Basel)",
+     "date": "2026-06-25",
+     "tag": "META-ANALYSIS",
+     "first_author": "Kleiner et al.",
+     "doi": "10.3390/medsci14030346",
+     "conclusion": "Conclusion: Beyond spasticity, nabiximols may represent a signal of benefit for bladder function, sleep disruption, spasm quality, and gait function in MS, in line with the \"spasticity-plus\" concept. However, the evidence certainty was low to very low, and these findings should be considered exploratory."
+    },
+    {
+     "pmid": "42543771",
+     "title": "Efficacy and safety of cannabinoids in the treatment of spasticity in multiple sclerosis: A systematic review of randomized clinical trials.",
+     "journal": "Br J Clin Pharmacol",
+     "date": "2026-08-02",
+     "tag": "SR",
+     "first_author": "Hamm-Buiar et al.",
+     "doi": "10.1002/bcp.70719",
+     "conclusion": "Cannabinoids provide modest improvements in patient-reported spasticity in MS, with more consistent effects for THC:CBD extracts. Given the low certainty of evidence and limited objective benefits, cannabinoids should be considered cautiously as adjunctive therapy with appropriate safety monitoring."
+    },
+    {
+     "pmid": "40498097",
+     "title": "A randomized trial on efficacy of purified cannabidiol on spasticity in multiple sclerosis patients with gait problems: first report in Iran.",
+     "journal": "Naunyn Schmiedebergs Arch Pharmacol",
+     "date": "2025-06-11",
+     "tag": "RCT",
+     "first_author": "Mousavi et al.",
+     "doi": "10.1007/s00210-025-04347-w",
+     "conclusion": "Results indicate that CBD does not significantly reduce spasticity severity in MS patients. However, the T25-FW test results showed a notable reduction in test duration."
+    },
+    {
+     "pmid": "40378662",
+     "title": "Telehealth tDCS to reduce cannabis use: A pilot RCT in multiple sclerosis as a framework for generalized use.",
+     "journal": "Drug Alcohol Depend",
+     "date": "2025-05-15",
+     "tag": "RCT",
+     "first_author": "Pilloni et al.",
+     "doi": "10.1016/j.drugalcdep.2025.112706",
+     "conclusion": "This pilot RCT supports the feasibility and preliminary efficacy of telehealth tDCS in a medical subpopulation. Studying women with MS highlights its potential for large-scale RCTs and clinical use."
+    }
+   ],
+   "holistic": [
+    {
+     "pmid": "40167216",
+     "title": "Meeting Physical Activity Guidelines for Persons With Multiple Sclerosis Reduces Fatigue Severity and Impact: A Systematic Review and Meta-Analysis of Randomized Clinical Trials.",
+     "journal": "Phys Ther",
+     "date": "2025-06-02",
+     "tag": "META-ANALYSIS",
+     "first_author": "Abou et al.",
+     "doi": "10.1093/ptj/pzaf046",
+     "conclusion": "Evidence suggests that engaging in physical activity for at least 150 minutes per week or 2 sessions of 10 to 30 minutes of moderate-intensity aerobic training plus 2 sessions of resistance training per week results in clinically significant reductions in fatigue severity and impact necessary to improve the quality of life of persons with multiple sclerosis."
+    },
+    {
+     "pmid": "41161577",
+     "title": "Clinical evidence on acupuncture for symptom improvement in multiple sclerosis.",
+     "journal": "Complement Ther Med",
+     "date": "2025-10-28",
+     "tag": "META-ANALYSIS",
+     "first_author": "Chen et al.",
+     "doi": "10.1016/j.ctim.2025.103276",
+     "conclusion": "Acupuncture therapies are potential treatment options for MS, and are relatively safe. However, owing to the limitations of this study, these conclusions should be interpreted with caution."
+    },
+    {
+     "pmid": "41067991",
+     "title": "The role and benefits of ketogenic diet in modulating inflammation in multiple sclerosis: A systematic review and meta-analysis.",
+     "journal": "Dis Mon",
+     "date": "2025-10-09",
+     "tag": "META-ANALYSIS",
+     "first_author": "Reddy et al.",
+     "doi": "10.1016/j.disamonth.2025.102013",
+     "conclusion": "The ketogenic diet shows promise in improving inflammation, fatigue, depression, and quality of life in MS patients. While neurodegenerative biomarkers like NfL remain stable, deeper ketosis may enhance neuroprotection. Further long-term studies are needed to confirm these effects."
+    }
+   ],
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (\"multiple sclerosis\"[tiab] OR spasticity[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(\"multiple sclerosis\"[tiab] OR spasticity[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+  },
+  "epilepsy": {
+   "label": "Epilepsy",
+   "emoji": "\u26a1",
+   "goal": "",
+   "background": [
+    "epilepsy"
+   ],
+   "cann_matches": 15,
+   "hol_matches": 26,
+   "cannabinoid": [
+    {
+     "pmid": "42185726",
+     "title": "Cannabidiol Use in Developmental and Epileptic Encephalopathies: A Syndrome- and Age-Stratified Systematic Review and Meta-analysis.",
+     "journal": "CNS Drugs",
+     "date": "2026-05-25",
+     "tag": "META-ANALYSIS",
+     "first_author": "de Oliveira et al.",
+     "doi": "10.1007/s40263-026-01301-z",
+     "conclusion": "Pharmaceutical-grade CBD is associated with clinically meaningful seizure reduction in roughly half of patients with DEE, mirroring pivotal RCT results in DS and LGS. Nevertheless, substantial between-study heterogeneity and low-credibility subgroup signals preclude confident attribution of superior efficacy to any specific subgroup. These findings should be interpreted cautiously given the imprecision and heterogene"
+    },
+    {
+     "pmid": "41135306",
+     "title": "Efficacy and safety of cannabidiol in children with developmental and epileptic encephalopathies: A systematic review.",
+     "journal": "Seizure",
+     "date": "2025-10-09",
+     "tag": "SR",
+     "first_author": "Saranti et al.",
+     "doi": "10.1016/j.seizure.2025.10.001",
+     "conclusion": "Cannabidiol is generally well tolerated and has been shown to effectively reduce seizure frequency in children with DEEs whose seizures are refractory to concomitant antiepileptic medications. Future research should explore the long-term effects of cannabidiol on seizure control, developmental outcomes, and quality of life in this population."
+    },
+    {
+     "pmid": "42520581",
+     "title": "A systematic review of highly purified cannabidiol in developmental and epileptic encephalopathies and complex treatment-resistant epilepsies: Nonseizure outcomes.",
+     "journal": "Epilepsy Res",
+     "date": "2026-07-14",
+     "tag": "SR",
+     "first_author": "Samanta et al.",
+     "doi": "10.1016/j.eplepsyres.2026.107873",
+     "conclusion": "This SLR mainly identified observational studies with moderate to high bias risk. The available evidence suggests CBD may improve various nonseizure outcomes in patients with DEEs and complex TREs, while underscoring the need for rigorous confirmatory studies."
+    },
+    {
+     "pmid": "41558068",
+     "title": "A systematic review of highly purified cannabidiol in developmental and epileptic encephalopathies and complex treatment-resistant epilepsies: Changes in seizure frequency and adverse events.",
+     "journal": "Epilepsy Res",
+     "date": "2026-01-12",
+     "tag": "SR",
+     "first_author": "Coppola et al.",
+     "doi": "10.1016/j.eplepsyres.2026.107731",
+     "conclusion": "CBD may reduce seizure frequency in patients with a range of DEEs and complex TREs. These findings support future studies in these populations."
+    },
+    {
+     "pmid": "40775196",
+     "title": "Clinically Meaningful Reduction in Drop Seizures in Patients with Lennox-Gastaut Syndrome Treated with Cannabidiol: Post Hoc Analysis of Phase 3 Clinical Trials.",
+     "journal": "CNS Drugs",
+     "date": "2025-08-07",
+     "tag": "RCT",
+     "first_author": "Specchio et al.",
+     "doi": "10.1007/s40263-025-01201-8",
+     "conclusion": "Anchoring to CGIC of \"slightly improved\" or better, the threshold for a clinically meaningful reduction in drop seizure frequency was 31%, suggesting that a 50% cutoff may overlook patients with meaningful improvements in their overall condition, as perceived by their caregivers. CGIC scores, although potentially less nuanced than other standardized clinical assessments, were appropriate anchors to determine threshol"
+    }
+   ],
+   "holistic": [
+    {
+     "pmid": "40328112",
+     "title": "The impact and adherence of ketogenic dietary therapies for Dravet syndrome: A systematic review and meta-analysis.",
+     "journal": "Seizure",
+     "date": "2025-05-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Li et al.",
+     "doi": "10.1016/j.seizure.2025.05.001",
+     "conclusion": "With the majority of side effects being minor and temporary, KDTs have a typically good safety profile. The study highlights the need for comprehensive support strategies to optimize treatment outcomes and suggests that future research should focus on well-designed randomized controlled trials and innovative approaches to enhance the efficacy and acceptability of KDTs in DS patients."
+    },
+    {
+     "pmid": "41205102",
+     "title": "Efficacy and safety of ketogenic diets in drug-resistant epilepsy: a systematic review and meta-analysis.",
+     "journal": "World J Pediatr",
+     "date": "2025-11-08",
+     "tag": "META-ANALYSIS",
+     "first_author": "Matairi et al.",
+     "doi": "10.1007/s12519-025-00981-9",
+     "conclusion": "KDs and MADs are effective in reducing seizures in patients with drug-resistant epilepsy, especially in children. However, claims of seizure freedom remain uncertain. Further high-quality trials are needed to compare diets and assess long-term safety."
+    },
+    {
+     "pmid": "40982721",
+     "title": "Efficacy of ketogenic diet therapy for pediatric drug-resistant epilepsy with monogenic etiology: A single-arm meta-analysis.",
+     "journal": "Nutr Rev",
+     "date": "2025-11-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Jiang et al.",
+     "doi": "10.1093/nutrit/nuaf140",
+     "conclusion": "The present meta-analysis revealed the efficacy of KDT in the treatment of genetic epilepsies, particularly in epilepsies associated with SLC2A1 and SCN1A mutations, but KDT had relatively poor efficacy in epilepsies related to CDKL5 and KCNT1 mutations. Notably, compared to other follow-up intervals, at the 6-month post-KDT follow-up interval patients showed the highest overall responder and seizure-free rates."
+    }
+   ],
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (epilep*[tiab] OR seizure*[tiab] OR Dravet[tiab] OR Lennox[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(epilep*[tiab] OR seizure*[tiab] OR Dravet[tiab] OR Lennox[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+  },
+  "migraine": {
+   "label": "Migraine",
+   "emoji": "\ud83c\udf00",
+   "goal": "",
+   "background": [
+    "migraine"
+   ],
+   "cann_matches": 2,
+   "hol_matches": 36,
+   "cannabinoid": [
+    {
+     "pmid": "41469488",
+     "title": "Vaporized cannabis versus placebo for acute migraine: A randomized, double-blind, placebo-controlled crossover trial.",
+     "journal": "Headache",
+     "date": "2025-12-30",
+     "tag": "RCT",
+     "first_author": "Schuster et al.",
+     "doi": "10.1111/head.70025",
+     "conclusion": "Acute migraine treatment with 6% THC + 11% CBD was superior to placebo at 2-h post-treatment with sustained benefits at 24 and 48 h."
+    }
+   ],
+   "holistic": [
+    {
+     "pmid": "41085000",
+     "title": "How much aerobic exercise is needed to reduce migraine? A dose-response meta-analysis of pain intensity and frequency.",
+     "journal": "Headache",
+     "date": "2025-10-14",
+     "tag": "META-ANALYSIS",
+     "first_author": "Ogrezeanu et al.",
+     "doi": "10.1111/head.15070",
+     "conclusion": "This meta-analysis suggests that aerobic exercise may be effective in reducing both pain intensity and migraine frequency in people with migraine. The greatest observed effect on both variables was observed at a cumulative dose of approximately 900-950 total minutes of aerobic exercise during the program, and higher doses may not present additional benefits. These findings support a preliminary recommendation of 3 we"
+    },
+    {
+     "pmid": "41465923",
+     "title": "The relationship between lifestyle behaviors and tension-type headache and migraine: A systematic review and meta-analysis.",
+     "journal": "Medicine (Baltimore)",
+     "date": "2025-12-26",
+     "tag": "META-ANALYSIS",
+     "first_author": "Gao et al.",
+     "doi": "10.1097/MD.0000000000046868",
+     "conclusion": "Consistent with these findings, the present study concludes that no significant association was observed between lifestyle behaviors (alcohol consumption, BMI, smoking, physical activity) and the risk of migraine or TTH. Further studies are warranted to explore this association. However, only 7 studies were included in this analysis, so the conclusion requires further verification through additional high-quality rese"
+    },
+    {
+     "pmid": "40876377",
+     "title": "Effectiveness and influence of mindfulness-based intervention on migraine patients: A systematic review and meta-analysis.",
+     "journal": "J Psychosom Res",
+     "date": "2025-08-22",
+     "tag": "META-ANALYSIS",
+     "first_author": "Liao et al.",
+     "doi": "10.1016/j.jpsychores.2025.112366",
+     "conclusion": "MBIs may serve as effective complements to pharmacological treatments for migraine. They significantly reduce pain intensity, attack frequency, and psychological symptoms, while modestly improving quality of life. These findings support integrating mindfulness practices into routine migraine care to promote psychological well-being and reduce symptom burden."
+    }
+   ],
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (migraine*[tiab] OR headache*[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(migraine*[tiab] OR headache*[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+  },
+  "ibd": {
+   "label": "Crohn's & IBD",
+   "emoji": "\ud83e\udec4",
+   "goal": "",
+   "background": [
+    "ibd_crohns"
+   ],
+   "cann_matches": 1,
+   "hol_matches": 44,
+   "cannabinoid": [
+    {
+     "pmid": "42231518",
+     "title": "Effectiveness of THC-containing cannabis for inflammatory bowel disease: a systematic review.",
+     "journal": "J Cannabis Res",
+     "date": "2026-06-03",
+     "tag": "SR",
+     "first_author": "Jugl et al.",
+     "doi": "10.1186/s42238-026-00456-2",
+     "conclusion": "Current evidence is inconclusive as to whether THC-containing cannabis products might have a positive effect in IBD, given heterogenous findings and mostly low-to-moderate evidence quality. Higher quality cannabis research is needed given widespread utilization."
+    }
+   ],
+   "holistic": [
+    {
+     "pmid": "40528309",
+     "title": "Management of paediatric ulcerative colitis, part 2: Acute severe colitis-An updated evidence-based consensus guideline from the European Society of Paediatric Gastroenterology, Hepatology and Nutrition and the European Crohn's and Colitis Organization.",
+     "journal": "J Pediatr Gastroenterol Nutr",
+     "date": "2025-06-17",
+     "tag": "GUIDELINE",
+     "first_author": "Assa et al.",
+     "doi": "10.1002/jpn3.70096",
+     "conclusion": "Several topics have been revised since the previous 2018 guidelines and differ from corresponding published adult guidelines. These guidelines present a comprehensive overview of the management of ASC in children, offering practical recommendations and practice points aiming to standardize clinical and surgical treatment and improve outcomes of this severe scenario."
+    },
+    {
+     "pmid": "40677018",
+     "title": "Management of paediatric ulcerative colitis, part 1: Ambulatory care-An updated evidence-based consensus guideline from the European Society of Paediatric Gastroenterology, Hepatology and Nutrition and the European Crohn's and Colitis Organisation.",
+     "journal": "J Pediatr Gastroenterol Nutr",
+     "date": "2025-07-18",
+     "tag": "GUIDELINE",
+     "first_author": "Wine et al.",
+     "doi": "10.1002/jpn3.70097",
+     "conclusion": "These guidelines serve as an aid in managing children with UC through a combination of evidence-based recommendations and more practical practice points in the ambulatory setting."
+    },
+    {
+     "pmid": "40692184",
+     "title": "North American Society for Pediatric Gastroenterology, Hepatology, and Nutrition position paper on the therapeutic drug monitoring in pediatric inflammatory bowel disease.",
+     "journal": "J Pediatr Gastroenterol Nutr",
+     "date": "2025-07-21",
+     "tag": "GUIDELINE",
+     "first_author": "Felipez et al.",
+     "doi": "10.1002/jpn3.70158",
+     "conclusion": "This report has been compiled by pediatric gastroenterologists on behalf of the North American Society for Pediatric Gastroenterology, Hepatology, and Nutrition IBD committee after extensive review of the current literature. The purpose of this clinical position statement is to provide guidance to clinicians in the use of TDM to optimize the treatment of children with IBD."
+    }
+   ],
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (Crohn*[tiab] OR colitis[tiab] OR \"inflammatory bowel\"[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(Crohn*[tiab] OR colitis[tiab] OR \"inflammatory bowel\"[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/04/29:2026/10/29[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+  }
+ }
+}

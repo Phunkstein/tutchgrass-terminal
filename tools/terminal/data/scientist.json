@@ -1,0 +1,954 @@
+{
+ "agent": "scientist",
+ "generated": "2026-10-29 22:05 EDT",
+ "disclaimer": "Research summary, not medical advice. Talk to a doctor.",
+ "strain_note": "Strain names are typical examples only; the same name can test very differently by grower and batch. Go by the lab COA (THC, CBD, minor cannabinoids, terpenes), not the name.",
+ "method": "PubMed E-utilities esearch+efetch (queries in cache/pubmed.json) plus National Academies 2017 report; syntheses written from retrieved abstracts only.",
+ "pubmed_records_cached": 214,
+ "dropped_unverified": [],
+ "conditions": [
+  {
+   "id": "chronic_neuropathic_pain",
+   "name": "Chronic pain / neuropathic pain",
+   "evidence": "moderate",
+   "evidence_note": "National Academies 2017: substantial evidence for chronic pain in adults. Newer reviews (Cochrane 2018, AHRQ/Annals 2026) find small improvements with real side-effect trade-offs.",
+   "chemotype": "THC-containing: balanced 1:1 or THC-dominant at LOW doses",
+   "thc_cbd": "1:1 to THC-dominant (low dose)",
+   "minors": [
+    "CBD (balances THC side effects)"
+   ],
+   "terpenes": [
+    "beta-caryophyllene (preclinical)",
+    "myrcene"
+   ],
+   "top_pick": "Low-dose THC or 1:1 THC:CBD; beta-caryophyllene-rich chemovars",
+   "mechanism": "THC acts on CB1 receptors in pain pathways of the spinal cord and brain, turning down pain signaling. The AHRQ review found comparable-ratio and high-THC products gave small pain gains while low-THC/high-CBD products may not help. Low-dose vaporized THC (1.29%) still beat placebo in neuropathic pain. Beta-caryophyllene is a terpene that binds CB2 (immune/inflammation) receptors and reduced neuropathic pain in mice without tolerance; that part is animal-only.",
+   "strains": [
+    "Harlequin (CBD-leaning balanced)",
+    "Cannatonic (balanced)",
+    "OG Kush / GSC-type cuts (THC-dominant, often caryophyllene-forward)"
+   ],
+   "cautions": [
+    "Benefits are modest; Cochrane notes harms may outweigh benefits for some people.",
+    "THC causes dizziness, sleepiness, impaired driving; start low.",
+    "Interactions with opioids, sedatives, and blood thinners; tell your doctor."
+   ],
+   "citations": [
+    {
+     "pmid": "41429020",
+     "type": "SR",
+     "title": "Cannabis-Based Products for Chronic Pain : An Updated Systematic Review.",
+     "journal": "Ann Intern Med",
+     "year": "2026",
+     "first_author": "Chou et al.",
+     "doi": "10.7326/ANNALS-25-03152",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41429020/",
+     "doi_url": "https://doi.org/10.7326/ANNALS-25-03152"
+    },
+    {
+     "pmid": "29513392",
+     "type": "SR",
+     "title": "Cannabis-based medicines for chronic neuropathic pain in adults.",
+     "journal": "Cochrane Database Syst Rev",
+     "year": "2018",
+     "first_author": "M\u00fccke et al.",
+     "doi": "10.1002/14651858.CD012182.pub2",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29513392/",
+     "doi_url": "https://doi.org/10.1002/14651858.CD012182.pub2"
+    },
+    {
+     "pmid": "23237736",
+     "type": "RCT",
+     "title": "Low-dose vaporized cannabis significantly improves neuropathic pain.",
+     "journal": "J Pain",
+     "year": "2013",
+     "first_author": "Wilsey et al.",
+     "doi": "10.1016/j.jpain.2012.10.009",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23237736/",
+     "doi_url": "https://doi.org/10.1016/j.jpain.2012.10.009"
+    },
+    {
+     "pmid": "20805210",
+     "type": "RCT",
+     "title": "Smoked cannabis for chronic neuropathic pain: a randomized controlled trial.",
+     "journal": "CMAJ",
+     "year": "2010",
+     "first_author": "Ware et al.",
+     "doi": "10.1503/cmaj.091414",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/20805210/",
+     "doi_url": "https://doi.org/10.1503/cmaj.091414"
+    },
+    {
+     "pmid": "24210682",
+     "type": "PRECLINICAL",
+     "title": "The cannabinoid CB\u2082 receptor-selective phytocannabinoid beta-caryophyllene exerts analgesic effects in mouse models of inflammatory and neuropathic pain.",
+     "journal": "Eur Neuropsychopharmacol",
+     "year": "2014",
+     "first_author": "Klauke et al.",
+     "doi": "10.1016/j.euroneuro.2013.10.008",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/24210682/",
+     "doi_url": "https://doi.org/10.1016/j.euroneuro.2013.10.008"
+    },
+    {
+     "pmid": null,
+     "type": "REPORT",
+     "title": "The Health Effects of Cannabis and Cannabinoids: The Current State of Evidence and Recommendations for Research (National Academies, 2017), Ch. 4 Therapeutic Effects",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK425767/",
+     "doi": "10.17226/24625",
+     "doi_url": "https://doi.org/10.17226/24625",
+     "year": "2017",
+     "journal": "National Academies Press",
+     "first_author": "NASEM"
+    }
+   ],
+   "new_papers_30d": 26
+  },
+  {
+   "id": "fibromyalgia",
+   "name": "Fibromyalgia",
+   "evidence": "limited",
+   "evidence_note": "Small trials only. Cochrane 2016 found no convincing high-quality evidence for nabilone; a 2023 systematic review calls the evidence low quality for short-term pain relief.",
+   "chemotype": "Balanced ~1:1 THC:CBD (Bediol-type)",
+   "thc_cbd": "~1:1",
+   "minors": [
+    "CBD"
+   ],
+   "terpenes": [
+    "myrcene",
+    "beta-caryophyllene"
+   ],
+   "top_pick": "Balanced ~1:1 THC:CBD flower (Bediol-type)",
+   "mechanism": "In a controlled vapor study of four pharmaceutical varieties, only the balanced one (Bediol: 13.4 mg THC / 17.8 mg CBD) gave more patients a 30% pain drop than placebo (90% vs 55%). Pure THC (Bedrocan) and pure CBD (Bedrolite) did not beat placebo on main outcomes, and CBD seemed to blunt some of THC's analgesia. Nabilone (synthetic THC) improved sleep in a small fibromyalgia trial.",
+   "strains": [
+    "Pennywise (~1:1)",
+    "Cannatonic (~1:1 to CBD-leaning)",
+    "Harle-Tsu (CBD-leaning)"
+   ],
+   "cautions": [
+    "Single-dose and short trials; long-term benefit unknown.",
+    "Nabilone tolerability was low in fibromyalgia patients.",
+    "Watch for daytime drowsiness and mixing with other sedating meds."
+   ],
+   "citations": [
+    {
+     "pmid": "30585986",
+     "type": "RCT",
+     "title": "An experimental randomized study on the analgesic effects of pharmaceutical-grade cannabis in chronic pain patients with fibromyalgia.",
+     "journal": "Pain",
+     "year": "2019",
+     "first_author": "van de Donk et al.",
+     "doi": "10.1097/j.pain.0000000000001464",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30585986/",
+     "doi_url": "https://doi.org/10.1097/j.pain.0000000000001464"
+    },
+    {
+     "pmid": "37371716",
+     "type": "SR",
+     "title": "Cannabis for the Treatment of Fibromyalgia: A Systematic Review.",
+     "journal": "Biomedicines",
+     "year": "2023",
+     "first_author": "Strand et al.",
+     "doi": "10.3390/biomedicines11061621",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37371716/",
+     "doi_url": "https://doi.org/10.3390/biomedicines11061621"
+    },
+    {
+     "pmid": "27428009",
+     "type": "SR",
+     "title": "Cannabinoids for fibromyalgia.",
+     "journal": "Cochrane Database Syst Rev",
+     "year": "2016",
+     "first_author": "Walitt et al.",
+     "doi": "10.1002/14651858.CD011694.pub2",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27428009/",
+     "doi_url": "https://doi.org/10.1002/14651858.CD011694.pub2"
+    },
+    {
+     "pmid": "20007734",
+     "type": "RCT",
+     "title": "The effects of nabilone on sleep in fibromyalgia: results of a randomized controlled trial.",
+     "journal": "Anesth Analg",
+     "year": "2010",
+     "first_author": "Ware et al.",
+     "doi": "10.1213/ANE.0b013e3181c76f70",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/20007734/",
+     "doi_url": "https://doi.org/10.1213/ANE.0b013e3181c76f70"
+    }
+   ],
+   "new_papers_30d": 2
+  },
+  {
+   "id": "ms_spasticity",
+   "name": "Multiple sclerosis spasticity",
+   "evidence": "strong",
+   "evidence_note": "Strong for patient-reported spasticity (National Academies: substantial; Cochrane 2022: nabiximols probably reduces spasticity short-term). Clinician-measured spasticity is weaker; a 2024 RCT missed its primary clinical endpoint.",
+   "chemotype": "Balanced ~1:1 THC:CBD whole-plant extract (nabiximols/Sativex-type)",
+   "thc_cbd": "~1:1",
+   "minors": [
+    "CBD"
+   ],
+   "terpenes": [
+    "myrcene",
+    "beta-caryophyllene"
+   ],
+   "top_pick": "1:1 THC:CBD (nabiximols-type)",
+   "mechanism": "THC reduces muscle over-activity through CB1 receptors in the spinal cord; CBD in equal amounts is thought to soften THC's psychoactive side effects. In an enriched-design phase 3 trial, people who responded in the first 4 weeks kept the benefit vs placebo over 12 weeks; a 2023 meta-analysis supports add-on use for treatment-resistant spasticity.",
+   "strains": [
+    "Pennywise (~1:1)",
+    "Harlequin (CBD-leaning balanced)",
+    "Cannatonic"
+   ],
+   "cautions": [
+    "Effects are modest (about 0.76 points on a 0-10 scale per National Academies).",
+    "Dizziness and falls risk; psychiatric and nervous-system side effects slightly more common.",
+    "Only about half of people respond in trials; stop if no benefit after a few weeks."
+   ],
+   "citations": [
+    {
+     "pmid": "35510826",
+     "type": "SR",
+     "title": "Cannabis and cannabinoids for symptomatic treatment for people with multiple sclerosis.",
+     "journal": "Cochrane Database Syst Rev",
+     "year": "2022",
+     "first_author": "Filippini et al.",
+     "doi": "10.1002/14651858.CD013444.pub2",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35510826/",
+     "doi_url": "https://doi.org/10.1002/14651858.CD013444.pub2"
+    },
+    {
+     "pmid": "21362108",
+     "type": "RCT",
+     "title": "A randomized, double-blind, placebo-controlled, parallel-group, enriched-design study of nabiximols* (Sativex(\u00ae) ), as add-on therapy, in subjects with refractory spasticity caused by multiple sclerosis.",
+     "journal": "Eur J Neurol",
+     "year": "2011",
+     "first_author": "Novotna et al.",
+     "doi": "10.1111/j.1468-1331.2010.03328.x",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21362108/",
+     "doi_url": "https://doi.org/10.1111/j.1468-1331.2010.03328.x"
+    },
+    {
+     "pmid": "37519000",
+     "type": "SR",
+     "title": "Nabiximols is Efficient as Add-On Treatment for Patients with Multiple Sclerosis Spasticity Refractory to Standard Treatment: A Systematic Review and Meta-Analysis of Randomised Clinical Trials.",
+     "journal": "Curr Neuropharmacol",
+     "year": "2023",
+     "first_author": "Kleiner et al.",
+     "doi": "10.2174/1570159X21666230727094431",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37519000/",
+     "doi_url": "https://doi.org/10.2174/1570159X21666230727094431"
+    },
+    {
+     "pmid": "39106541",
+     "type": "RCT",
+     "title": "A randomized, double-blind, placebo-controlled trial to evaluate the effect of nabiximols oromucosal spray on clinical measures of spasticity in patients with multiple sclerosis.",
+     "journal": "Mult Scler Relat Disord",
+     "year": "2024",
+     "first_author": "Bethoux et al.",
+     "doi": "10.1016/j.msard.2024.105740",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39106541/",
+     "doi_url": "https://doi.org/10.1016/j.msard.2024.105740"
+    },
+    {
+     "pmid": null,
+     "type": "REPORT",
+     "title": "The Health Effects of Cannabis and Cannabinoids: The Current State of Evidence and Recommendations for Research (National Academies, 2017), Ch. 4 Therapeutic Effects",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK425767/",
+     "doi": "10.17226/24625",
+     "doi_url": "https://doi.org/10.17226/24625",
+     "year": "2017",
+     "journal": "National Academies Press",
+     "first_author": "NASEM"
+    }
+   ],
+   "new_papers_30d": 3
+  },
+  {
+   "id": "epilepsy",
+   "name": "Epilepsy (Dravet, Lennox-Gastaut, TSC)",
+   "evidence": "strong",
+   "evidence_note": "Strong, from multiple phase 3 RCTs of purified pharmaceutical CBD (Epidiolex) in Dravet, Lennox-Gastaut and tuberous sclerosis. Evidence for flower or artisanal oils is much weaker.",
+   "chemotype": "CBD-dominant, essentially THC-free (pharmaceutical CBD 10-25 mg/kg/day in trials)",
+   "thc_cbd": "CBD-only / very high CBD:THC",
+   "minors": [],
+   "terpenes": [],
+   "top_pick": "High-CBD, near-zero THC (pharmaceutical CBD)",
+   "mechanism": "CBD does not work mainly through CB1; it calms over-excited neurons through several targets (e.g., GPR55, TRPV1, adenosine signaling). In trials, adding CBD cut convulsive seizures in Dravet and drop seizures in Lennox-Gastaut more than placebo, and reduced TSC-associated seizures (25 mg/kg had better safety than 50).",
+   "strains": [
+    "ACDC (very high CBD)",
+    "Charlotte's Web-type hemp (very high CBD)",
+    "Ringo's Gift (high CBD)"
+   ],
+   "cautions": [
+    "Do not swap a prescribed anti-seizure drug for dispensary products; doses in trials were far higher and pharmaceutical-grade.",
+    "Liver enzyme elevations seen with CBD, especially with valproate; drug interactions (e.g., clobazam).",
+    "Store CBD oils vary widely in actual content."
+   ],
+   "citations": [
+    {
+     "pmid": "28538134",
+     "type": "RCT",
+     "title": "Trial of Cannabidiol for Drug-Resistant Seizures in the Dravet Syndrome.",
+     "journal": "N Engl J Med",
+     "year": "2017",
+     "first_author": "Devinsky et al.",
+     "doi": "10.1056/NEJMoa1611618",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28538134/",
+     "doi_url": "https://doi.org/10.1056/NEJMoa1611618"
+    },
+    {
+     "pmid": "29768152",
+     "type": "RCT",
+     "title": "Effect of Cannabidiol on Drop Seizures in the Lennox-Gastaut Syndrome.",
+     "journal": "N Engl J Med",
+     "year": "2018",
+     "first_author": "Devinsky et al.",
+     "doi": "10.1056/NEJMoa1714631",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29768152/",
+     "doi_url": "https://doi.org/10.1056/NEJMoa1714631"
+    },
+    {
+     "pmid": "33346789",
+     "type": "RCT",
+     "title": "Add-on Cannabidiol Treatment for Drug-Resistant Seizures in Tuberous Sclerosis Complex: A Placebo-Controlled Randomized Clinical Trial.",
+     "journal": "JAMA Neurol",
+     "year": "2021",
+     "first_author": "Thiele et al.",
+     "doi": "10.1001/jamaneurol.2020.4607",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33346789/",
+     "doi_url": "https://doi.org/10.1001/jamaneurol.2020.4607"
+    },
+    {
+     "pmid": "30390221",
+     "type": "SR",
+     "title": "Efficacy and Safety of Cannabidiol in Epilepsy: A Systematic Review and Meta-Analysis.",
+     "journal": "Drugs",
+     "year": "2018",
+     "first_author": "Lattanzi et al.",
+     "doi": "10.1007/s40265-018-0992-5",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30390221/",
+     "doi_url": "https://doi.org/10.1007/s40265-018-0992-5"
+    }
+   ],
+   "new_papers_30d": 16
+  },
+  {
+   "id": "insomnia",
+   "name": "Insomnia",
+   "evidence": "limited",
+   "evidence_note": "A few small RCTs with mixed results. A THC+CBD oil helped; 150 mg CBD alone was about the same as placebo; CBN results are mixed.",
+   "chemotype": "Evening THC+CBD (about 2:3 THC:CBD in the positive trial); CBN as an add-on is unproven",
+   "thc_cbd": "~2:3 THC:CBD",
+   "minors": [
+    "CBN (mixed evidence)"
+   ],
+   "terpenes": [
+    "myrcene (preclinical sedation)"
+   ],
+   "top_pick": "Evening 2:3 THC:CBD oil; myrcene-forward chemovars",
+   "mechanism": "THC shortens time to fall asleep via CB1 receptors. In a crossover RCT, an oil with 10 mg/ml THC + 15 mg/ml CBD improved sleep time and quality, and 60% no longer met insomnia criteria at 2 weeks. CBN: 20 mg nightly reduced awakenings in one RCT; a single 300 mg dose improved subjective sleep and sleep onset but not wake time after sleep onset. Myrcene had sedative effects in mice only.",
+   "strains": [
+    "Granddaddy Purple (often myrcene-forward)",
+    "Northern Lights",
+    "Bubba Kush"
+   ],
+   "cautions": [
+    "Tolerance and rebound insomnia when stopping daily THC.",
+    "Next-day grogginess; do not drive.",
+    "CBD alone at 150 mg did not beat placebo on most sleep outcomes."
+   ],
+   "citations": [
+    {
+     "pmid": "36539991",
+     "type": "RCT",
+     "title": "Medicinal cannabis improves sleep in adults with insomnia: a randomised double-blind placebo-controlled crossover study.",
+     "journal": "J Sleep Res",
+     "year": "2023",
+     "first_author": "Ried et al.",
+     "doi": "10.1111/jsr.13793",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36539991/",
+     "doi_url": "https://doi.org/10.1111/jsr.13793"
+    },
+    {
+     "pmid": "38174873",
+     "type": "RCT",
+     "title": "Cannabidiol for moderate-severe insomnia: a randomized controlled pilot trial of 150 mg of nightly dosing.",
+     "journal": "J Clin Sleep Med",
+     "year": "2024",
+     "first_author": "Narayan et al.",
+     "doi": "10.5664/jcsm.10998",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38174873/",
+     "doi_url": "https://doi.org/10.5664/jcsm.10998"
+    },
+    {
+     "pmid": "37796540",
+     "type": "RCT",
+     "title": "A double-blind, randomized, placebo-controlled study of the safety and effects of CBN with and without CBD on sleep quality.",
+     "journal": "Exp Clin Psychopharmacol",
+     "year": "2024",
+     "first_author": "Bonn-Miller et al.",
+     "doi": "10.1037/pha0000682",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37796540/",
+     "doi_url": "https://doi.org/10.1037/pha0000682"
+    },
+    {
+     "pmid": "41698831",
+     "type": "RCT",
+     "title": "Cannabinol for Acute Treatment of Insomnia Disorder in a Randomized Placebo-Controlled Crossover Trial.",
+     "journal": "J Sleep Res",
+     "year": "2026",
+     "first_author": "Lavender et al.",
+     "doi": "10.1111/jsr.70284",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41698831/",
+     "doi_url": "https://doi.org/10.1111/jsr.70284"
+    },
+    {
+     "pmid": "42858151",
+     "type": "PRECLINICAL",
+     "title": "Inhaled \u03b2-myrcene alleviates insomnia in mice by modulating 5-HT1A/PKA signaling and the gut microbiota.",
+     "journal": "Nutr Neurosci",
+     "year": "2026",
+     "first_author": "Xu et al.",
+     "doi": "10.1080/1028415X.2026.2727956",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42858151/",
+     "doi_url": "https://doi.org/10.1080/1028415X.2026.2727956"
+    },
+    {
+     "pmid": null,
+     "type": "REPORT",
+     "title": "The Health Effects of Cannabis and Cannabinoids: The Current State of Evidence and Recommendations for Research (National Academies, 2017), Ch. 4 Therapeutic Effects",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK425767/",
+     "doi": "10.17226/24625",
+     "doi_url": "https://doi.org/10.17226/24625",
+     "year": "2017",
+     "journal": "National Academies Press",
+     "first_author": "NASEM"
+    }
+   ],
+   "new_papers_30d": 21
+  },
+  {
+   "id": "anxiety",
+   "name": "Anxiety",
+   "evidence": "limited",
+   "evidence_note": "CBD shows promise in small trials (social anxiety public-speaking test; a 2024 meta-analysis). THC is biphasic and can cause anxiety. Lancet Psychiatry 2019 found scarce evidence overall.",
+   "chemotype": "CBD-dominant, low THC",
+   "thc_cbd": "CBD-dominant (e.g., 10:1 or higher)",
+   "minors": [
+    "CBD"
+   ],
+   "terpenes": [
+    "limonene (human lab study)",
+    "linalool (animal studies)"
+   ],
+   "top_pick": "CBD-dominant, low THC; limonene-forward",
+   "mechanism": "CBD reduced anxiety from a simulated public-speaking test in people with social anxiety, toward healthy-control levels. In a 2024 human lab study, vaporized D-limonene added to THC selectively reduced THC-induced anxiety, so limonene-rich chemovars may make THC easier to tolerate. Linalool shows calming effects in mice only.",
+   "strains": [
+    "ACDC (very high CBD)",
+    "Ringo's Gift",
+    "Remedy (high CBD)"
+   ],
+   "cautions": [
+    "High THC can trigger or worsen anxiety and panic.",
+    "Heavy adolescent use is linked to later depression and suicidality.",
+    "CBD interacts with some antidepressants and benzodiazepines via liver enzymes."
+   ],
+   "citations": [
+    {
+     "pmid": "38924898",
+     "type": "SR",
+     "title": "Therapeutic potential of cannabidiol (CBD) in anxiety disorders: A systematic review and meta-analysis.",
+     "journal": "Psychiatry Res",
+     "year": "2024",
+     "first_author": "Han et al.",
+     "doi": "10.1016/j.psychres.2024.116049",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38924898/",
+     "doi_url": "https://doi.org/10.1016/j.psychres.2024.116049"
+    },
+    {
+     "pmid": "21307846",
+     "type": "RCT",
+     "title": "Cannabidiol reduces the anxiety induced by simulated public speaking in treatment-na\u00efve social phobia patients.",
+     "journal": "Neuropsychopharmacology",
+     "year": "2011",
+     "first_author": "Bergamaschi et al.",
+     "doi": "10.1038/npp.2011.6",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21307846/",
+     "doi_url": "https://doi.org/10.1038/npp.2011.6"
+    },
+    {
+     "pmid": "38498958",
+     "type": "RCT",
+     "title": "Vaporized D-limonene selectively mitigates the acute anxiogenic effects of \u03949-tetrahydrocannabinol in healthy adults who intermittently use cannabis.",
+     "journal": "Drug Alcohol Depend",
+     "year": "2024",
+     "first_author": "Spindle et al.",
+     "doi": "10.1016/j.drugalcdep.2024.111267",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38498958/",
+     "doi_url": "https://doi.org/10.1016/j.drugalcdep.2024.111267"
+    },
+    {
+     "pmid": "33008420",
+     "type": "SR",
+     "title": "Cannabis, a cause for anxiety? A critical appraisal of the anxiogenic and anxiolytic properties.",
+     "journal": "J Transl Med",
+     "year": "2020",
+     "first_author": "Sharpe et al.",
+     "doi": "10.1186/s12967-020-02518-2",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33008420/",
+     "doi_url": "https://doi.org/10.1186/s12967-020-02518-2"
+    },
+    {
+     "pmid": "31672337",
+     "type": "SR",
+     "title": "Cannabinoids for the treatment of mental disorders and symptoms of mental disorders: a systematic review and meta-analysis.",
+     "journal": "Lancet Psychiatry",
+     "year": "2019",
+     "first_author": "Black et al.",
+     "doi": "10.1016/S2215-0366(19)30401-8",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31672337/",
+     "doi_url": "https://doi.org/10.1016/S2215-0366(19)30401-8"
+    },
+    {
+     "pmid": null,
+     "type": "REPORT",
+     "title": "The Health Effects of Cannabis and Cannabinoids: The Current State of Evidence and Recommendations for Research (National Academies, 2017), Ch. 4 Therapeutic Effects",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK425767/",
+     "doi": "10.17226/24625",
+     "doi_url": "https://doi.org/10.17226/24625",
+     "year": "2017",
+     "journal": "National Academies Press",
+     "first_author": "NASEM"
+    }
+   ],
+   "new_papers_30d": 40
+  },
+  {
+   "id": "ptsd",
+   "name": "PTSD",
+   "evidence": "limited",
+   "evidence_note": "The first RCT of smoked cannabis in veterans found no active preparation beat placebo over 3 weeks. Nabilone for PTSD nightmares had a large effect in one small trial.",
+   "chemotype": "Balanced THC:CBD or CBD-dominant; avoid high-THC daily use",
+   "thc_cbd": "~1:1 or CBD-dominant",
+   "minors": [
+    "CBD"
+   ],
+   "terpenes": [
+    "limonene",
+    "linalool (animal data)"
+   ],
+   "top_pick": "Balanced or CBD-leaning; nabilone-type THC for nightmares (with a doctor)",
+   "mechanism": "THC may weaken the replay of fear memories and suppress REM-sleep nightmares; CBD may help fear extinction. But in the veterans RCT (high-THC ~12%, high-CBD 11%, and ~8:8 THC+CBD) everyone improved including placebo. Nabilone showed the largest effect size for nightmares in a meta-analysis, from a single small study.",
+   "strains": [
+    "Harlequin",
+    "Cannatonic",
+    "Pennywise"
+   ],
+   "cautions": [
+    "High THC can worsen anxiety, paranoia, and cannabis-use disorder risk, which is common in PTSD.",
+    "Not a replacement for trauma-focused therapy.",
+    "Psychosis risk with high-potency THC."
+   ],
+   "citations": [
+    {
+     "pmid": "33730032",
+     "type": "RCT",
+     "title": "The short-term impact of 3 smoked cannabis preparations versus placebo on PTSD symptoms: A randomized cross-over clinical trial.",
+     "journal": "PLoS One",
+     "year": "2021",
+     "first_author": "Bonn-Miller et al.",
+     "doi": "10.1371/journal.pone.0246990",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33730032/",
+     "doi_url": "https://doi.org/10.1371/journal.pone.0246990"
+    },
+    {
+     "pmid": "36613097",
+     "type": "SR",
+     "title": "The Effects of Pharmacological Treatment of Nightmares: A Systematic Literature Review and Meta-Analysis of Placebo-Controlled, Randomized Clinical Trials.",
+     "journal": "Int J Environ Res Public Health",
+     "year": "2022",
+     "first_author": "Skeie-Larsen et al.",
+     "doi": "10.3390/ijerph20010777",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36613097/",
+     "doi_url": "https://doi.org/10.3390/ijerph20010777"
+    },
+    {
+     "pmid": "31672337",
+     "type": "SR",
+     "title": "Cannabinoids for the treatment of mental disorders and symptoms of mental disorders: a systematic review and meta-analysis.",
+     "journal": "Lancet Psychiatry",
+     "year": "2019",
+     "first_author": "Black et al.",
+     "doi": "10.1016/S2215-0366(19)30401-8",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31672337/",
+     "doi_url": "https://doi.org/10.1016/S2215-0366(19)30401-8"
+    },
+    {
+     "pmid": null,
+     "type": "REPORT",
+     "title": "The Health Effects of Cannabis and Cannabinoids: The Current State of Evidence and Recommendations for Research (National Academies, 2017), Ch. 4 Therapeutic Effects",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK425767/",
+     "doi": "10.17226/24625",
+     "doi_url": "https://doi.org/10.17226/24625",
+     "year": "2017",
+     "journal": "National Academies Press",
+     "first_author": "NASEM"
+    }
+   ],
+   "new_papers_30d": 8
+  },
+  {
+   "id": "ibd_crohns",
+   "name": "Crohn's disease / IBD",
+   "evidence": "limited",
+   "evidence_note": "Small RCTs show symptom and quality-of-life improvement but no change in inflammation or endoscopic healing. Cochrane 2018: effects uncertain.",
+   "chemotype": "CBD-rich with some THC (4:1 CBD:THC oil in trial) or THC-rich flower for symptoms",
+   "thc_cbd": "4:1 CBD:THC or THC-rich",
+   "minors": [
+    "CBD"
+   ],
+   "terpenes": [
+    "beta-caryophyllene (preclinical colitis data)"
+   ],
+   "top_pick": "4:1 CBD:THC oral oil for symptoms; caryophyllene-rich",
+   "mechanism": "Cannabinoids slow gut movement and ease cramping and pain, and CB2 activation can calm immune cells. In RCTs, THC-rich cannabis (8 weeks) and a 160/40 mg/ml CBD/THC oil both improved symptom scores, but neither healed the gut lining. Beta-caryophyllene reduced colitis in mice through CB2 and PPAR-gamma; animal-only.",
+   "strains": [
+    "Harlequin (CBD-leaning)",
+    "Ringo's Gift (high CBD)",
+    "GSC-type (caryophyllene-forward, THC-dominant)"
+   ],
+   "cautions": [
+    "Symptom relief can mask active inflammation; keep up with your GI doctor and scopes.",
+    "Not shown to induce remission.",
+    "Heavy long-term use is linked to cannabinoid hyperemesis syndrome."
+   ],
+   "citations": [
+    {
+     "pmid": "33858011",
+     "type": "RCT",
+     "title": "Oral CBD-rich Cannabis Induces Clinical but Not Endoscopic Response in Patients with Crohn's Disease, a Randomised Controlled Trial.",
+     "journal": "J Crohns Colitis",
+     "year": "2021",
+     "first_author": "Naftali et al.",
+     "doi": "10.1093/ecco-jcc/jjab069",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33858011/",
+     "doi_url": "https://doi.org/10.1093/ecco-jcc/jjab069"
+    },
+    {
+     "pmid": "23648372",
+     "type": "RCT",
+     "title": "Cannabis induces a clinical response in patients with Crohn's disease: a prospective placebo-controlled study.",
+     "journal": "Clin Gastroenterol Hepatol",
+     "year": "2013",
+     "first_author": "Naftali et al.",
+     "doi": "10.1016/j.cgh.2013.04.034",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23648372/",
+     "doi_url": "https://doi.org/10.1016/j.cgh.2013.04.034"
+    },
+    {
+     "pmid": "30407616",
+     "type": "SR",
+     "title": "Cannabis for the treatment of Crohn's disease.",
+     "journal": "Cochrane Database Syst Rev",
+     "year": "2018",
+     "first_author": "Kafil et al.",
+     "doi": "10.1002/14651858.CD012853.pub2",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30407616/",
+     "doi_url": "https://doi.org/10.1002/14651858.CD012853.pub2"
+    },
+    {
+     "pmid": "21356367",
+     "type": "PRECLINICAL",
+     "title": "\u03b2-Caryophyllene inhibits dextran sulfate sodium-induced colitis in mice through CB2 receptor activation and PPAR\u03b3 pathway.",
+     "journal": "Am J Pathol",
+     "year": "2011",
+     "first_author": "Bento et al.",
+     "doi": "10.1016/j.ajpath.2010.11.052",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21356367/",
+     "doi_url": "https://doi.org/10.1016/j.ajpath.2010.11.052"
+    }
+   ],
+   "new_papers_30d": 0
+  },
+  {
+   "id": "migraine",
+   "name": "Migraine (acute attacks)",
+   "evidence": "limited",
+   "evidence_note": "One recent crossover RCT is positive for vaporized THC+CBD flower; the rest is surveys.",
+   "chemotype": "Balanced, CBD-leaning: about 6% THC + 11% CBD flower (roughly 1:2)",
+   "thc_cbd": "~1:2 THC:CBD",
+   "minors": [
+    "CBD"
+   ],
+   "terpenes": [
+    "beta-caryophyllene",
+    "myrcene (survey data)"
+   ],
+   "top_pick": "~1:2 THC:CBD vaporized flower at attack onset",
+   "mechanism": "In the RCT, 6% THC + 11% CBD beat placebo for pain relief (67.2% vs 46.6%), pain freedom, and most-bothersome-symptom freedom at 2 hours, with benefit lasting to 24-48 hours. THC alone helped pain relief but not pain freedom. In a patient survey, a high-THC strain with dominant caryophyllene and myrcene (OG Shark) was most preferred; survey data only.",
+   "strains": [
+    "Harlequin",
+    "Cannatonic",
+    "OG Shark (THC-dominant; survey favorite)"
+   ],
+   "cautions": [
+    "Frequent use of any acute headache treatment can drive more frequent headaches; discuss with your neurologist.",
+    "THC impairs driving.",
+    "Single trial; replication needed."
+   ],
+   "citations": [
+    {
+     "pmid": "41469488",
+     "type": "RCT",
+     "title": "Vaporized cannabis versus placebo for acute migraine: A randomized, double-blind, placebo-controlled crossover trial.",
+     "journal": "Headache",
+     "year": "2026",
+     "first_author": "Schuster et al.",
+     "doi": "10.1111/head.70025",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41469488/",
+     "doi_url": "https://doi.org/10.1111/head.70025"
+    },
+    {
+     "pmid": "29797104",
+     "type": "HUMAN-OBS",
+     "title": "Patterns of medicinal cannabis use, strain analysis, and substitution effect among patients with migraine, headache, arthritis, and chronic pain in a medicinal cannabis cohort.",
+     "journal": "J Headache Pain",
+     "year": "2018",
+     "first_author": "Baron et al.",
+     "doi": "10.1186/s10194-018-0862-2",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29797104/",
+     "doi_url": "https://doi.org/10.1186/s10194-018-0862-2"
+    }
+   ],
+   "new_papers_30d": 4
+  },
+  {
+   "id": "arthritis",
+   "name": "Arthritis (rheumatoid and osteoarthritis)",
+   "evidence": "limited",
+   "evidence_note": "One small RA trial with nabiximols was positive; an oral CBD RCT in hand OA was negative; OA reviews rate evidence low quality.",
+   "chemotype": "Balanced 1:1 THC:CBD by mouth; CBD alone by mouth did not help; topical CBD only shown in rats",
+   "thc_cbd": "~1:1",
+   "minors": [
+    "CBD (topical, preclinical)"
+   ],
+   "terpenes": [
+    "beta-caryophyllene"
+   ],
+   "top_pick": "1:1 THC:CBD (nabiximols-type); topical CBD unproven in humans",
+   "mechanism": "Sativex (THC:CBD) gave a significant analgesic effect and lowered disease activity in the first controlled RA trial (small effect). Oral CBD in hand OA and psoriatic arthritis was no better than placebo. In rats, local CBD calmed early joint inflammation and prevented later OA pain and nerve damage.",
+   "strains": [
+    "Pennywise (~1:1)",
+    "Harlequin",
+    "Cannatonic"
+   ],
+   "cautions": [
+    "Do not stop disease-modifying RA drugs.",
+    "Falls risk in older adults with THC.",
+    "Interactions with blood thinners and NSAIDs-adjacent meds; check with pharmacist."
+   ],
+   "citations": [
+    {
+     "pmid": "16282192",
+     "type": "RCT",
+     "title": "Preliminary assessment of the efficacy, tolerability and safety of a cannabis-based medicine (Sativex) in the treatment of pain caused by rheumatoid arthritis.",
+     "journal": "Rheumatology (Oxford)",
+     "year": "2006",
+     "first_author": "Blake et al.",
+     "doi": "10.1093/rheumatology/kei183",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/16282192/",
+     "doi_url": "https://doi.org/10.1093/rheumatology/kei183"
+    },
+    {
+     "pmid": "34510141",
+     "type": "RCT",
+     "title": "Cannabidiol treatment in hand osteoarthritis and psoriatic arthritis: a randomized, double-blind, placebo-controlled trial.",
+     "journal": "Pain",
+     "year": "2022",
+     "first_author": "Vela et al.",
+     "doi": "10.1097/j.pain.0000000000002466",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34510141/",
+     "doi_url": "https://doi.org/10.1097/j.pain.0000000000002466"
+    },
+    {
+     "pmid": "38832841",
+     "type": "SR",
+     "title": "Medical cannabis and its efficacy/effectiveness on the management of osteoarthritis pain and function.",
+     "journal": "Curr Med Res Opin",
+     "year": "2024",
+     "first_author": "Dubois et al.",
+     "doi": "10.1080/03007995.2024.2363945",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38832841/",
+     "doi_url": "https://doi.org/10.1080/03007995.2024.2363945"
+    },
+    {
+     "pmid": "28885454",
+     "type": "PRECLINICAL",
+     "title": "Attenuation of early phase inflammation by cannabidiol prevents pain and nerve damage in rat osteoarthritis.",
+     "journal": "Pain",
+     "year": "2017",
+     "first_author": "Philpott et al.",
+     "doi": "10.1097/j.pain.0000000000001052",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28885454/",
+     "doi_url": "https://doi.org/10.1097/j.pain.0000000000001052"
+    }
+   ],
+   "new_papers_30d": 3
+  },
+  {
+   "id": "cinv",
+   "name": "Chemotherapy-induced nausea and vomiting",
+   "evidence": "strong",
+   "evidence_note": "National Academies: conclusive for oral cannabinoids. ASCO 2024 guideline: may help refractory nausea added to standard antiemetics. A 2024 phase II/III RCT confirmed THC:CBD benefit.",
+   "chemotype": "Balanced 1:1 THC:CBD by mouth (2.5 mg + 2.5 mg, three times daily in trial)",
+   "thc_cbd": "1:1",
+   "minors": [
+    "CBD"
+   ],
+   "terpenes": [],
+   "top_pick": "1:1 THC:CBD low-dose capsules alongside standard antiemetics",
+   "mechanism": "THC acts on CB1 receptors in the brainstem vomiting center. Adding THC 2.5 mg + CBD 2.5 mg capsules to guideline antiemetics raised complete response from 8% to 24% in patients with refractory nausea.",
+   "strains": [
+    "Pennywise (~1:1)",
+    "Cannatonic",
+    "any lab-verified 1:1 cultivar"
+   ],
+   "cautions": [
+    "Only as an add-on, coordinated with the oncology team.",
+    "More side effects (sedation, dizziness) than placebo.",
+    "ASCO advises against cannabis as a cancer treatment outside trials."
+   ],
+   "citations": [
+    {
+     "pmid": "39151115",
+     "type": "RCT",
+     "title": "Oral Cannabis Extract for Secondary Prevention of Chemotherapy-Induced Nausea and Vomiting: Final Results of a Randomized, Placebo-Controlled, Phase II/III Trial.",
+     "journal": "J Clin Oncol",
+     "year": "2024",
+     "first_author": "Grimison et al.",
+     "doi": "10.1200/JCO.23.01836",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39151115/",
+     "doi_url": "https://doi.org/10.1200/JCO.23.01836"
+    },
+    {
+     "pmid": "38478773",
+     "type": "GUIDELINE",
+     "title": "Cannabis and Cannabinoids in Adults With Cancer: ASCO Guideline.",
+     "journal": "J Clin Oncol",
+     "year": "2024",
+     "first_author": "Braun et al.",
+     "doi": "10.1200/JCO.23.02596",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38478773/",
+     "doi_url": "https://doi.org/10.1200/JCO.23.02596"
+    },
+    {
+     "pmid": null,
+     "type": "REPORT",
+     "title": "The Health Effects of Cannabis and Cannabinoids: The Current State of Evidence and Recommendations for Research (National Academies, 2017), Ch. 4 Therapeutic Effects",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK425767/",
+     "doi": "10.17226/24625",
+     "doi_url": "https://doi.org/10.17226/24625",
+     "year": "2017",
+     "journal": "National Academies Press",
+     "first_author": "NASEM"
+    }
+   ],
+   "new_papers_30d": 2
+  },
+  {
+   "id": "appetite_cachexia",
+   "name": "Appetite loss / cachexia (cancer, HIV)",
+   "evidence": "limited",
+   "evidence_note": "National Academies: limited evidence for HIV/AIDS appetite and weight. Cancer cachexia meta-analysis: more appetite but worse quality of life from side effects.",
+   "chemotype": "THC-dominant (dronabinol-type); CBG appetite effect is animal-only; avoid THCV",
+   "thc_cbd": "THC-dominant",
+   "minors": [
+    "CBG (preclinical appetite)",
+    "avoid THCV (appetite suppressant)"
+   ],
+   "terpenes": [
+    "myrcene"
+   ],
+   "top_pick": "THC-dominant, low/no THCV",
+   "mechanism": "THC triggers hunger signals through CB1 in the hypothalamus and improves food taste and smell; a cancer RCT found THC improved chemosensory perception and food enjoyment. Dronabinol improved appetite and reversed weight loss in HIV/AIDS. A THC-free CBG-rich extract made rats eat more; animal-only. THCV goes the other way and suppresses appetite.",
+   "strains": [
+    "Bubba Kush",
+    "Granddaddy Purple",
+    "avoid THCV-noted cultivars like Durban Poison"
+   ],
+   "cautions": [
+    "Side effects can lower quality of life (cancer meta-analysis).",
+    "Sedation and confusion risk in frail or older patients.",
+    "Talk to the care team about interactions."
+   ],
+   "citations": [
+    {
+     "pmid": "31341892",
+     "type": "SR",
+     "title": "Medical Cannabinoids for Cancer Cachexia: A Systematic Review and Meta-Analysis.",
+     "journal": "Biomed Res Int",
+     "year": "2019",
+     "first_author": "Wang et al.",
+     "doi": "10.1155/2019/2864384",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31341892/",
+     "doi_url": "https://doi.org/10.1155/2019/2864384"
+    },
+    {
+     "pmid": "21343383",
+     "type": "RCT",
+     "title": "Delta-9-tetrahydrocannabinol may palliate altered chemosensory perception in cancer patients: results of a randomized, double-blind, placebo-controlled pilot trial.",
+     "journal": "Ann Oncol",
+     "year": "2011",
+     "first_author": "Brisbois et al.",
+     "doi": "10.1093/annonc/mdq727",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21343383/",
+     "doi_url": "https://doi.org/10.1093/annonc/mdq727"
+    },
+    {
+     "pmid": "17538000",
+     "type": "HUMAN-OBS",
+     "title": "Use of Dronabinol Improves Appetite and Reverses Weight Loss in HIV/AIDS-Infected Patients.",
+     "journal": "J Int Assoc Physicians AIDS Care (Chic)",
+     "year": "2007",
+     "first_author": "DeJesus et al.",
+     "doi": "10.1177/1545109707300157",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/17538000/",
+     "doi_url": "https://doi.org/10.1177/1545109707300157"
+    },
+    {
+     "pmid": "28125508",
+     "type": "PRECLINICAL",
+     "title": "A cannabigerol-rich Cannabis sativa extract, devoid of [INCREMENT]9-tetrahydrocannabinol, elicits hyperphagia in rats.",
+     "journal": "Behav Pharmacol",
+     "year": "2017",
+     "first_author": "Brierley et al.",
+     "doi": "10.1097/FBP.0000000000000285",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28125508/",
+     "doi_url": "https://doi.org/10.1097/FBP.0000000000000285"
+    },
+    {
+     "pmid": "33526143",
+     "type": "COMMENTARY",
+     "title": "\u03949-Tetrahydrocannabivarin (THCV): a commentary on potential therapeutic benefit for the management of obesity and diabetes.",
+     "journal": "J Cannabis Res",
+     "year": "2020",
+     "first_author": "Abioye et al.",
+     "doi": "10.1186/s42238-020-0016-7",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33526143/",
+     "doi_url": "https://doi.org/10.1186/s42238-020-0016-7"
+    },
+    {
+     "pmid": null,
+     "type": "REPORT",
+     "title": "The Health Effects of Cannabis and Cannabinoids: The Current State of Evidence and Recommendations for Research (National Academies, 2017), Ch. 4 Therapeutic Effects",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK425767/",
+     "doi": "10.17226/24625",
+     "doi_url": "https://doi.org/10.17226/24625",
+     "year": "2017",
+     "journal": "National Academies Press",
+     "first_author": "NASEM"
+    }
+   ],
+   "new_papers_30d": 5
+  }
+ ]
+}
