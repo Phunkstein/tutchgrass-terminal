@@ -60,7 +60,7 @@ function build(d,x){
   const S={};R.forEach(a=>{let r=null;try{r=d?a.f(d,x):null}catch(e){r=null}S[a.id]=r||{state:'down',ts:null,doing:'Source unavailable',src:'unavailable',log:['Source unavailable right now. No numbers are shown rather than guesses.']}});
   const N=R.filter(a=>S[a.id].state==='ok').length;
   nav.classList.add('agnav');
-  nav.innerHTML=`<span class="alabel"><i></i>${count(N)}</span><div class="ascroll">`+
+  nav.innerHTML=`<div class="ascroll">`+
     `<a class="ag all" data-ag="all" href="/terminal/"><span class="av" aria-hidden="true">◎</span><span class="tx"><span class="nm">All agents</span><small class="doing">${R.length} on the team</small></span></a>`+
     R.map(a=>chip(a,S[a.id])).join('')+`</div>`;
   document.querySelectorAll('[data-agcount]').forEach(el=>el.innerHTML=count(N));

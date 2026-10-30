@@ -12,7 +12,7 @@ def _chip(k,ic,t,h,cur):
             f'<span class="tx"><span class="nm">{t}{"" if k=="all" else "<i class=\"dot s-pend\"></i>"}</span><small class="doing">{f"{len(AGENTS)} on the team" if k=="all" else "checking…"}</small></span></a>')
 def nav(active=""):
     cur=PAGE_AGENT.get(active,"")
-    return ('<nav class="nav agnav" aria-label="Agents"><span class="alabel"><i></i><span data-agcount>Agents are live</span></span><div class="ascroll">'
+    return ('<nav class="nav agnav" aria-label="Agents"><div class="ascroll">'
             +_chip("all","◎","All agents","/terminal/",cur)+"".join(_chip(k,ic,t,h,cur) for k,ic,t,h in AGENTS)+'</div></nav>')
 def header(active=""):
     return f'''<header class="top"><div class="wrap"><a class="brand" href="/terminal/">{LOGO}<span>Cannabis Agent Terminal<small>by Tutchgrass</small></span></a>
