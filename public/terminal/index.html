@@ -8,16 +8,30 @@
 <nav class="nav agnav" aria-label="Agents"><div class="ascroll"><a class="ag all" data-ag="all" href="/terminal/" aria-current=page><span class="av" aria-hidden="true">◎</span><span class="tx"><span class="nm">All agents</span><small class="doing">5 on the team</small></span></a><a class="ag" data-ag="scientist" href="/terminal/#scientist"><span class="av" aria-hidden="true">🔬</span><span class="tx"><span class="nm">Scientist<i class="dot s-pend"></i></span><small class="doing">checking…</small></span></a><a class="ag" data-ag="deals" href="/terminal/#deals"><span class="av" aria-hidden="true">💸</span><span class="tx"><span class="nm">Dispo Deals<i class="dot s-pend"></i></span><small class="doing">checking…</small></span></a><a class="ag" data-ag="news" href="/terminal/#news"><span class="av" aria-hidden="true">📰</span><span class="tx"><span class="nm">News Desk<i class="dot s-pend"></i></span><small class="doing">checking…</small></span></a><a class="ag" data-ag="policy" href="/terminal/#dec11"><span class="av" aria-hidden="true">⚖️</span><span class="tx"><span class="nm">Policy Watch<i class="dot s-pend"></i></span><small class="doing">checking…</small></span></a><a class="ag" data-ag="recalls" href="/terminal/#recalls"><span class="av" aria-hidden="true">🚨</span><span class="tx"><span class="nm">Recall &amp; Safety<i class="dot s-pend"></i></span><small class="doing">checking…</small></span></a></div></nav>
 <div class="auth"><a id="acct" class="btn ghost sm" href="/terminal/account/">Sign in</a><a class="btn sm" href="/terminal/account/#signup">Sign up free</a></div>
 </div></header>
+<section class="tophero" aria-label="Start here"><div class="wrap thgrid">
+<div class="thcard thdeals"><div class="thh"><span class="av" aria-hidden="true">💸</span><h2>Dispo Deals: dispensary deals near you</h2></div>
+<p class="thsub">Current deals from dispensaries' own pages, sorted by distance from you.</p>
+<form class="thform" id="th-deals" action="/terminal/" method="get" role="search"><input id="th-q" name="loc" type="search" inputmode="search" autocomplete="postal-code" placeholder="ZIP or city, state" aria-label="ZIP code or city and state"><button class="btn" type="submit">See deals</button></form>
+<div class="throw"><button class="btn ghost" type="button" id="th-near"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/><circle cx="12" cy="12" r="7.5"/></svg>Near me</button><span class="thcount small dim" id="th-count" aria-live="polite">Counting deals…</span></div>
+<p class="small mute thnote">21+ only. Your location stays on your device. Confirm deals with the store before you go.</p></div>
+<div class="thcard thmy"><div class="thh"><svg class="hx" viewBox="0 0 16 16" aria-hidden="true"><path d="M5.5 1h5v4.5H15v5h-4.5V15h-5v-4.5H1v-5h4.5z"/></svg><h2>My Condition</h2></div>
+<p class="thsub">Pick a condition. See its newest cannabis studies in plain words, graded honestly. Free alerts when new ones drop.</p>
+<p class="thmeta small dim" id="th-my">Every study links to PubMed.</p>
+<div class="throw"><a class="btn" href="/terminal/my/">Open My Condition →</a></div>
+<p class="small mute thnote">Research summary, not medical advice. Talk to a doctor.</p></div>
+</div></section>
+<div class="disc"><div class="wrap"><b>Research summary, not medical advice.</b> Studies suggest; they do not prove. Strain names vary by batch, so check the lab COA. Talk to a doctor, especially if you take other medicines. 21+.</div></div>
+<section class="wrap stay" id="stay" aria-label="Stay informed"><h2 class="stayh">Stay informed</h2><div class="staygrid" id="staygrid"><a class="scard" data-ag="news" href="/terminal/#news"><div class="ach"><span class="av" aria-hidden="true">📰</span><b>News Desk</b></div><div class="acd">checking…</div></a><a class="scard" data-ag="policy" href="/terminal/#dec11"><div class="ach"><span class="av" aria-hidden="true">⚖️</span><b>Policy Watch</b></div><div class="acd">checking…</div></a><a class="scard" data-ag="recalls" href="/terminal/#recalls"><div class="ach"><span class="av" aria-hidden="true">🚨</span><b>Recall &amp; Safety</b></div><div class="acd">checking…</div></a></div></section>
 <section class="hero"><div class="wrap">
 <div><div class="eyebrow"><span class="live"><i></i><span data-agcount>Agents are live</span></span><span class="mute" id="built">loading…</span></div>
 <h1>What the studies suggest, condition by condition.</h1>
 <p class="lede"><span data-agtotal>5</span> research agents read PubMed, health and policy news, new laws, product recalls and dispensary deals in every legal US state. Every claim links to its source. Research, not medical advice.</p></div>
 <div class="kpis" id="kpis" aria-label="Live counters"></div>
 </div></section>
-<div class="disc"><div class="wrap"><b>Research summary, not medical advice.</b> Studies suggest; they do not prove. Strain names vary by batch, so check the lab COA. Talk to a doctor, especially if you take other medicines. 21+.</div></div>
+
 <section class="wrap agall" id="all" aria-label="All agents"><div class="card"><div class="ph"><h2>All agents</h2><span class="meta" id="agrid-meta">reading the data files…</span></div><div class="agrid" id="agrid"></div>
 <p class="small mute agkey"><span><i class="dot s-ok"></i> ran recently</span><span><i class="dot s-stale"></i> data is stale</span><span><i class="dot s-down"></i> source unavailable</span><span>Status and times come straight from each agent's published data file. Pick an agent to see what it did.</span></p></div></section>
-<div class="wrap strips"><a class="mcband" href="/terminal/my/"><b><svg class="hx" viewBox="0 0 16 16" aria-hidden="true"><path d="M5.5 1h5v4.5H15v5h-4.5V15h-5v-4.5H1v-5h4.5z"/></svg>My Condition</b><span>Pick a condition. See its newest studies, graded honestly. Free alerts when new ones drop.</span><i>Open →</i></a>
+<div class="wrap strips">
 <div class="strip" id="dec11" aria-label="Dec 11 hemp THC rule tracker"></div><div class="strip" id="laws" aria-label="Laws now in effect and taking effect soon"></div><div class="strip" id="thisweek" aria-label="New this week"></div></div>
 <div class="wrap main">
 <aside class="side" id="agents" aria-label="Agents"></aside>
