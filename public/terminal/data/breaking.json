@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-10-30T16:48:23-0400",
- "generated_ts": 1793393304,
+ "generated": "2026-10-30T18:18:15-0400",
+ "generated_ts": 1793398696,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "items": 0
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,21 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "michiganlawmakersproposepauseon24cannabiswholesaletax",
+   "title": "Michigan lawmakers propose pause on 24% cannabis wholesale tax",
+   "link": "https://mjbizdaily.com/news/michigan-lawmakers-propose-pause-on-24-cannabis-wholesale-tax/618965/",
+   "source": "MJBizDaily",
+   "category": "US states",
+   "is_law": true,
+   "states": [
+    "Michigan"
+   ],
+   "published": "2026-10-30T18:16:47-0400",
+   "published_ts": 1793398607.0,
+   "first_seen": "2026-10-30T18:18:15-0400",
+   "first_seen_ts": 1793398696
+  },
   {
    "id": "hamiltonpoliceshutdownillegalcannabisdispensary",
    "title": "Hamilton Police Shut Down Illegal Cannabis Dispensary",
