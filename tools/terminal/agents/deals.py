@@ -163,6 +163,79 @@ def exclusive(url):
     m=re.search(r"(you(?:&#8217;|’|')ll earn \$25 in store credit when you refer a friend)",h)
     return out
 
+from deals_page import lines as page_lines
+DAYS=r'(monday|tuesday|wednesday|thursday|friday|saturday|sunday)'
+def _blk(L,start,end):
+    i=next((k for k,l in enumerate(L) if re.search(start,l,re.I)),None)
+    if i is None: raise RuntimeError(f"section '{start}' not found (layout changed?)")
+    j=next((k for k in range(i+1,len(L)) if re.search(end,L[k],re.I)),len(L))
+    return L[i+1:j]
+def _first_deal_sents(t):
+    """keep sentences up to and including the first one that states the offer (drops the product blurb after it)"""
+    out=[]
+    for x in re.split(r'(?<=[.!])\s+',t):
+        out.append(x)
+        if re.search(r'\d+\s*%\s*off|BOGO|\$\d',x,re.I): break
+    return " ".join(out)
+def stay_lifted(url):
+    L=_blk(page_lines(get(url)),r'^Daily Specials$',r'^About Us$'); out=[]; seen=set()
+    for k,l in enumerate(L):
+        if not re.search(r'\d+\s*%\s*off|BOGO',l,re.I) or re.search(r'loyalty|points',l,re.I): continue
+        t=_first_deal_sents(l)
+        if t in seen: continue
+        seen.add(t)
+        day=re.search(DAYS,t,re.I)
+        head=L[k-1] if not day and k and len(L[k-1])<45 and re.search(DAYS,L[k-1],re.I) else ""   # only the heading right above it
+        days=re.findall(DAYS,head or t,re.I)
+        valid=("every "+" & ".join(dict.fromkeys(d.capitalize() for d in days))) if days else "ongoing (per page)"
+        out.append(D("Stay Lifted","Stay Lifted Jackson","Jackson",(f"{head}: " if head else "")+t,url,valid,None,"everyday",
+                     "From the store's “Daily Specials” section."))
+    return out
+def lettuce(url):
+    L=_blk(page_lines(get(url)),r"^This Week.s Specials$",r'^Must be 21|^What are you Shopping'); out=[]
+    for k,l in enumerate(L):
+        m=re.match(r'^\$\d+(?:\.\d\d)?\s*(?:/\s*\w+|EACH)$',l,re.I)
+        if not m: continue
+        name=next((L[x] for x in range(k+1,min(k+3,len(L))) if not L[x].startswith("★")),"")
+        mem=next((L[x] for x in range(k+1,min(k+5,len(L))) if L[x].startswith("Lettuce +:")),"")
+        sup=" While supplies last." if any("while supplies last" in L[x].lower() for x in range(k+1,min(k+4,len(L)))) else ""
+        out.append(D("Lettuce","Lettuce Jackson","Jackson",f"{name} — {l}"+(f" (Lettuce+ members: {mem.split(':',1)[1].strip()})" if mem else "")+sup,
+                     url,"this week (per page)",None,"limited","“This Week's Specials” on the store's homepage; limited, while they last. Lettuce+ is a paid membership."))
+    if not out: raise RuntimeError("no specials found in “This Week's Specials” (layout changed?)")
+    return out
+def dank420(url):
+    L=_blk(page_lines(get(url)),r'^Daily Deals$',r'^Our mission'); out=[]; head=[]
+    for l in L:
+        if l=="Detroit": continue
+        if re.match(r'^\d+\s*%',l):
+            h=" ".join(head).strip(" ,"); day=re.search(DAYS,h,re.I)
+            out.append(D("420 Dank","420 Dank Detroit","Detroit",f"{h}: {l}",url,"every "+day.group(1).capitalize() if day else "",None,"everyday",
+                         "Listed under the page's “Detroit” heading (420 Dank Detroit, E 8 Mile Rd)."))
+            head=[]
+        else: head.append(l)
+    return out
+def natures_remedy(url):
+    L=page_lines(get(url)); out=[]
+    for l in _blk(L,r'^REC & MED - Daily Specials$',r'^REC & MED Flower Specials$'):
+        l=l.lstrip("-").strip()
+        if re.search(r'medical patients',l,re.I): continue          # medical-only
+        if re.match(r'^\d+% off when you buys? \d+',l,re.I) and out: out[-1]["deal"]+=("; " if out[-1]["deal"].endswith(")") is False and ":" in out[-1]["deal"] else ": ")+l; continue
+        day=re.search(DAYS+r's?\b',l,re.I)
+        out.append(D("Nature's Remedy","Nature's Remedy Ferndale","Ferndale",l,url,("every "+day.group(1).capitalize()) if day else "recurring (per page)",None,"everyday",
+                     "From the store's “Full List of Deals” page; exclusions may apply (per page)."))
+    # (dated November promos on the same page start later; not listed until they start, like other not-yet-started deals)
+    for l in _blk(L,r'^REC & MED Flower Specials$',r'^REC - 7 Grams'):
+        out.append(D("Nature's Remedy","Nature's Remedy Ferndale","Ferndale",l,url,"current specials (per page)",None,"limited","Flower bundle; exclusions may apply (per page)."))
+    return out
+def planet_jane(url):
+    L=page_lines(get(url)); out=[]
+    for k,l in enumerate(L):
+        if re.match(r'^Hippy Hour\s*=\s*\d+% Off$',l,re.I):
+            out.append(D("Planet Jane","Planet Jane Ypsilanti","Ypsilanti",f"{l}, {L[k+1]}" if k+1<len(L) and re.search(r'\d\s*(?:-|–)\s*\d.*daily',L[k+1],re.I) else l,url,"daily (per page)",None,"everyday"))
+        if re.match(r'^\d+% off$',l,re.I) and k+1<len(L) and re.match(r'^for loyalty members$',L[k+1],re.I):
+            out.append(D("Planet Jane","Planet Jane Ypsilanti","Ypsilanti",f"{l} {L[k+1]}",url,"ongoing (per page)",None,"everyday","Loyalty (rewards) members only."))
+    return out
+
 from deals_page import extract as read_page
 from deals_geo import attach as locate
 def site(state,chain,store,city,url,note="",**cfg):
@@ -198,6 +271,11 @@ SOURCES=[
  ("MI","LIV Cannabis","https://livcannabis.com/",liv),
  ("MI","Fluresh","https://fluresh.com/deals/",fluresh),
  ("MI","Exclusive Ann Arbor","https://exclusivemi.com/dispensaries/locations/ann-arbor/",exclusive),
+ ("MI","Stay Lifted (Jackson)","https://staylifted420.com/",stay_lifted),
+ ("MI","Lettuce (Jackson)","https://lettucedispo.com/",lettuce),
+ ("MI","Planet Jane (Ypsilanti)","https://planet-jane.com/",planet_jane),
+ ("MI","420 Dank (Detroit)","https://shop420dank.com/daily-deals-about-us/",dank420),
+ ("MI","Nature's Remedy (Ferndale)","https://www.naturesremedycannabis.com/alldeals/",natures_remedy),
  *[site("MI","House of Dank",f"House of Dank {HOD_NAME.get(k,c)}",c,f"https://shophod.com/stores/house-of-dank-{k}",start=r'DELI HAPPY HOUR|HAPPY HOUR|% OFF',
       skip=r'(?:SECOND|THIRD|FOURTH|FIFTH|2ND|3RD|4TH|5TH) VISIT|^\W*\d0% OFF ONE (?:FULL PRICED |REGULAR PRICED )?ITEM\W*$') for k,c in HOD.items()],
  site("MI","Wayne Releaf","Wayne Releaf","Detroit","https://waynereleaf.com/specials/"),
@@ -283,9 +361,17 @@ SOURCES=[
 # Checked by hand while building the test and NOT used (reason kept so the gap is visible on the tab):
 NOT_USED=[
  ("Nirvana Center (Michigan)","https://nirvanacenter.com/specials/","Every Michigan deal on it is dated 2025 (expired)."),
- ("JARS, Zen Leaf MI, High Profile, Ascend, Gage, Common Citizen, Dunegrass, Pure Options, Joyology (MI); Curaleaf, RISE, Zen Leaf PA (multi-state)","","Deals load in the browser from a menu platform, or the site blocked our fetch; not scraped."),
- ("Cloud, Greenhouse, Pinnacle, Stash, Pleasantrees, Herbana, Skymint (MI)","","Site timed out or returned an error to our fetch."),
- ("Puff, Breeze, Nature's Remedy, Quality Roots (MI)","","Site returned a bot-check page instead of content."),
+ ("JARS (MI, incl. Jackson)","https://jarscannabis.com/mi-weekly-ads-2","Weekly ad is public text and robots.txt allows it, but JARS's terms forbid bots/scrapers “for any purpose whatsoever” and reproducing content without written consent; not used."),
+ ("Mood, Fuel 420, Boogiez Arcanna (Jackson); Herbal Solutions, Flower Bowl W. Warren, Gramz Hazel Park, Information Entropy (MI)","","Deals are only in a Dutchie (or Treez) menu embed loaded from the platform; Dutchie's terms bar scraping/data mining. Not used."),
+ ("20 Past 4, Pegasus (Jackson)","","Deals are a Treez storefront behind a browser-only age gate (per-product markdowns, or empty); promo banners are images or browser-rendered only. Not used."),
+ ("Choice Labs (Jackson)","","No deals text on its site; the menu redirects off-site to a menu platform (dispenseapp.com)."),
+ ("The Big Top Cannabis Co. (Hanover, near Jackson)","","No deals page; its menu (Carrot) renders nothing without a browser and deals go out by app/newsletter only."),
+ ("420 Dank Leoni (Jackson)","https://shop420dank.com/daily-deals-about-us/","The chain's daily-deals page lists Detroit only; nothing stated for the Jackson/Leoni store."),
+ ("Cloud Cannabis, A New Standard (MI)","","Deal text is public, but the site terms forbid scraping / data-mining tools; not used."),
+ ("North Coast Provisions (Arborside), Herbana, The Jungle House, Supergood (MI)","","No deal text found on the store's own pages (checked homepage and common deals paths)."),
+ ("Zen Leaf MI, High Profile, Ascend, Gage, Common Citizen, Dunegrass, Pure Options, Joyology (MI); Curaleaf, RISE, Zen Leaf PA (multi-state)","","Deals load in the browser from a menu platform, or the site blocked our fetch; not scraped."),
+ ("Greenhouse, Pinnacle, Stash, Pleasantrees, Herbana, Skymint (MI)","","Site timed out or returned an error to our fetch."),
+ ("Puff, Breeze, Quality Roots (MI)","","Site returned a bot-check page instead of content."),
  ("Airfield Supply (CA), STIIIZY, Sweet Flower, MediThrive","","Deals page redirects to a menu platform (stiiizy.dispensary.shop / flowercompany.com) or is a pop-up only."),
  ("The Source, NuLeaf (NV); Wholesome, Dragonfly (UT); Apothecarium (NJ); Frostbite (MN)","","Product menu (prices per item from a menu platform), not a deals page."),
  ("Cultivate (NV)","https://cultivatelv.com/deals","Posts mix several days' deals in one block, so current vs expired can't be told apart reliably."),
