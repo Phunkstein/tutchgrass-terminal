@@ -199,3 +199,7 @@ textarea{width:100%;max-width:620px;border:1px solid var(--line);border-radius:8
 @media (max-width:760px){.rctable{min-width:640px}.sb{font-size:13px}.sb td,.sb th{padding:7px 5px}}
 @media (max-width:760px){.sb td.num{white-space:normal;font-size:12px}}
 @media (max-width:760px){.sb td.num{font-size:11.5px;min-width:0}.sb .badge{font-size:9px;padding:0 4px}}
+/* layout fix: desktop nav on its own wrapping row, no sideways scroll */
+@media (min-width:761px){.top .wrap{flex-wrap:wrap;height:auto;min-height:62px;row-gap:0;padding-top:8px}.top .wrap>.nav{order:3;flex:1 0 100%;flex-wrap:wrap;overflow:visible;gap:2px 2px;padding:2px 0 8px}.auth{margin-left:auto}.nav a{padding:5px 9px}}
+/* layout fix: phone scoreboard fits 390px with no sideways scroll */
+@media (max-width:760px){#sb-body .scroll-x{overflow-x:visible}.sb{table-layout:auto;width:100%}.sb th{white-space:normal;font-size:9px;letter-spacing:.02em;padding:6px 3px}.sb th.num,.sb td.num{white-space:normal}.sb td{padding:7px 3px;font-size:12.5px}.sb td.num{font-size:11px}.sb td.num .small{font-size:10px}.sb .badge{font-size:8.5px;padding:0 3px;letter-spacing:0}}
