@@ -139,6 +139,10 @@ function render(D){const list=$('#dl-list');if(!list)return;
   el.ch.onchange=()=>{F.ch=el.ch.value;lim=30;show()};
   if(L&&L.src!=='gps')el.q.value=L.label.replace(/ \(.*\)$/,'');
   show();
+  // the home page's top Dispo Deals card hands its ZIP / city (or "Near me") to this same lookup
+  API.find=q=>{el.q.value=q;return find(q)};API.near=()=>$('#dl-near').click();API.ready=true;
+  const th=$('#th-count');if(th){const n=D.count||D.deals.length;th.innerHTML=`<b>${n.toLocaleString('en-US')}</b> current deal${n===1?'':'s'} in ${D.states_with_deals||Object.keys(sc).length} states · checked ${E(clock(ts))}`}
+  API.q.splice(0).forEach(f=>f());
   const S=D.sponsored||{};
   $('#dl-sponsored').innerHTML=`<div class="dl-sph"><span class="dl-splbl">Sponsored</span><span class="dl-ex">${E(S.label||'EXAMPLE LAYOUT')}</span></div>
     <p class="small dim">${E(S.note||'')}</p>${(S.items||[]).length?'':`<div class="dl-skel" aria-hidden="true"><i></i><i></i><i class="s"></i></div><p class="small mute">No sponsored deals. This empty box only shows where a paid, labeled listing would sit.</p>`}`;
@@ -154,5 +158,13 @@ function render(D){const list=$('#dl-list');if(!list)return;
     ${bad.length?`<details><summary>No deals this check (${bad.length})</summary><p>${bad.map(s=>`${E(s.state)} ${E(s.name)}: ${E(s.status)}`).join('<br>')}</p></details>`:''}
     ${D.not_used&&D.not_used.length?`<details><summary>Not used (${D.not_used.length})</summary><p>${D.not_used.map(n=>`<b>${E(n.name)}</b>: ${E(n.why)}`).join('<br>')}</p></details>`:''}`;
 }
-fetch('/terminal/data/deals.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null).then(render);
+// ---- home top card → Deals tab. Same page, so it reuses find() / "Near me" and the saved location (localStorage) above.
+// Also works as a plain link or no-JS form: /terminal/?loc=49201 opens the Deals tab with that ZIP or city applied.
+const API={q:[],ready:false},run=f=>API.ready?f():API.q.push(f);
+const toDeals=()=>{if(location.hash!=='#deals')location.hash='deals'};
+const tf=$('#th-deals');if(tf)tf.addEventListener('submit',e=>{e.preventDefault();const v=$('#th-q').value.trim();if(!v){$('#th-q').focus();return}toDeals();run(()=>API.find(v))});
+const tn=$('#th-near');if(tn)tn.onclick=()=>{toDeals();run(()=>API.near())};
+const u=new URL(location.href),lq=(u.searchParams.get('loc')||'').trim().slice(0,80);
+if(lq){u.searchParams.delete('loc');history.replaceState(null,'',u.pathname+u.search+'#deals');dispatchEvent(new HashChangeEvent('hashchange'));run(()=>API.find(lq))}
+fetch('/terminal/data/deals.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null).then(D=>{render(D);if(!(D&&D.deals)){const th=$('#th-count');if(th)th.textContent='Deal count unavailable right now.'}});
 })();

@@ -85,7 +85,7 @@ function render(d){
   (N&&N.sources||[]).forEach(s=>{if(!srcs.find(x=>x.n===s.source))srcs.push({n:s.source,ok:s.status==='ok'})});
   (d.recalls&&d.recalls.sources||[]).forEach(s=>srcs.push({n:s.source+' (recalls)',ok:s.status==='ok'}));
   const okN=srcs.filter(s=>s.ok).length;
-  const K=[[conds.length||'—','Conditions tracked'],[cites||'—','Verified PubMed citations'],[new30||'—','New papers, last 30 d'],[F.length||'—','Latest findings'],
+  const K=[[(window.TGConds&&window.TGConds(d))||'—','Conditions tracked'],[cites||'—','Verified PubMed citations'],[new30||'—','New papers, last 30 d'],[F.length||'—','Latest findings'],
     [N?N.total:'—','News items read'],[d.recalls&&d.recalls.count!=null?d.recalls.count:'—','Official recall notices'],
     [d.laws&&d.laws.counts?d.laws.counts.in_effect+d.laws.counts.upcoming:'—','Laws in effect or coming soon'],[okN+'/'+srcs.length,'Sources live']];
   $('#kpis').innerHTML=K.map(k=>`<div class="kpi"><b>${k[0]}</b><span>${k[1]}</span></div>`).join('');
