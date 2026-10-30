@@ -1,6 +1,6 @@
 {
  "agent": "Recall & Safety",
- "checked": "2026-10-30 07:07 EDT",
+ "checked": "2026-10-30 13:03 EDT",
  "sources_ok": 11,
  "sources_total": 11,
  "sources": [
@@ -73,7 +73,7 @@
    "name": "FDA enforcement reports (openFDA)",
    "url": "https://open.fda.gov/apis/food/enforcement/",
    "status": "ok",
-   "items": 19
+   "items": 7
   },
   {
    "source": "FDA-WL",
@@ -109,7 +109,7 @@
    "why": "DCP cannabis program URL returns 404"
   }
  ],
- "count": 163,
+ "count": 151,
  "items": [
   {
    "date": "2026-10-29",
@@ -908,50 +908,11 @@
    "date": "2025-10-01",
    "state": "CO",
    "agency": "FDA enforcement report (Class II, Terminated)",
-   "product": "Blue Razz 20mg Gummies Brand Name: None - unlabeled bulk (private-label consignee) Generic Name: Dietary Supplement   Strength: 20mg CBD and 20mg D9 THC per gu\u2026",
-   "brand": "Extract Labs, Inc.",
-   "issue": "Potential peanut protein cross-contact.",
-   "lot": "Lot: 25JD082307A  EXP: 07/2027 Printed on bulk bag identifier adhesive",
-   "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22H-0623-2025%22",
-   "tier": "thc",
-   "kind": "FDA recall",
-   "src": "FDA"
-  },
-  {
-   "date": "2025-10-01",
-   "state": "CO",
-   "agency": "FDA enforcement report (Class II, Terminated)",
-   "product": "Sugar-free Mixed Berry Gummies Brand Name: Extract Labs  Generic Name: Dietary Supplement  Strength: 10mg CBD and 10mg D9 THC per gummy  Dosage: 1 gummy  Form\u2026",
-   "brand": "Extract Labs, Inc.",
-   "issue": "Potential peanut protein cross-contact.",
-   "lot": "Lot: 25E5082907A (we call this a batch ID)  EXP: 07/2027 Printed on the bottom of the bottle",
-   "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22H-0621-2025%22",
-   "tier": "thc",
-   "kind": "FDA recall",
-   "src": "FDA"
-  },
-  {
-   "date": "2025-10-01",
-   "state": "CO",
-   "agency": "FDA enforcement report (Class II, Terminated)",
    "product": "Elderberry 20mg Gummies Brand Name: None - unlabeled bulk (private-label consignee) Generic Name: Dietary Supplement   Strength: 20mg CBD and 20mg D9 THC per g\u2026",
    "brand": "Extract Labs, Inc.",
    "issue": "Potential peanut protein cross-contact.",
    "lot": "Lot: 25JD072107A EXP: 07/2027 Printed on bulk bag identifier adhesive",
    "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22H-0622-2025%22",
-   "tier": "thc",
-   "kind": "FDA recall",
-   "src": "FDA"
-  },
-  {
-   "date": "2025-10-01",
-   "state": "CO",
-   "agency": "FDA enforcement report (Class II, Terminated)",
-   "product": "Mai Tai 20mg Gummies Brand Name: None - unlabeled bulk (private-label consignee) Generic Name: Dietary Supplement   Strength: 20mg CBD and 20mg D9 THC per gumm\u2026",
-   "brand": "Extract Labs, Inc.",
-   "issue": "Potential peanut protein cross-contact.",
-   "lot": "Lot: 25JD042507A  EXP: 07/2027 Printed on bulk bag identifier adhesive",
-   "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22H-0624-2025%22",
    "tier": "thc",
    "kind": "FDA recall",
    "src": "FDA"
@@ -2078,37 +2039,11 @@
    "date": "2023-11-22",
    "state": "IA",
    "agency": "FDA enforcement report (Class II, Completed)",
-   "product": "Full Spectrum Cold Pressed Hemp Oil Gummies, Peach,  1.41 oz (4-count) and 8oz (15-count).",
-   "brand": "Tay's Sales and Distribution",
-   "issue": "Sub-ingredients not declared for sunflower butter.",
-   "lot": "Lot:  081321 Best by date: 08/23",
-   "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0416-2024%22",
-   "tier": "hemp",
-   "kind": "FDA recall",
-   "src": "FDA"
-  },
-  {
-   "date": "2023-11-22",
-   "state": "IA",
-   "agency": "FDA enforcement report (Class II, Completed)",
    "product": "Full Spectrum Cold Pressed Hemp Oil Gummies, Blackberry, 1.41 oz (4-count) and 8oz (15-count).",
    "brand": "Tay's Sales and Distribution",
    "issue": "Sub-ingredients not declared for sunflower butter.",
    "lot": "Lot:  081321 Best by date: 08/23",
    "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0415-2024%22",
-   "tier": "hemp",
-   "kind": "FDA recall",
-   "src": "FDA"
-  },
-  {
-   "date": "2023-11-22",
-   "state": "IA",
-   "agency": "FDA enforcement report (Class II, Completed)",
-   "product": "Full Spectrum Cold Pressed Hemp Oil Gummies, Fruit Punch, 1.41 oz (4-count) and 8oz (15-count).",
-   "brand": "Tay's Sales and Distribution",
-   "issue": "Sub-ingredients not declared for sunflower butter.",
-   "lot": "Lot:  081321 Best by date: 08/23",
-   "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0414-2024%22",
    "tier": "hemp",
    "kind": "FDA recall",
    "src": "FDA"
@@ -2127,71 +2062,6 @@
    "src": "FDA"
   },
   {
-   "date": "2020-08-19",
-   "state": "MI",
-   "agency": "FDA enforcement report (Class II, Terminated)",
-   "product": "Strongbrew CBD Infused Cold Brew Coffee, 12oz can, KEEP REFRIGERATED, UPC: 71203869615",
-   "brand": "Uncommon Canning LLC",
-   "issue": "Product was not stored under refrigeration prior to initial shipment",
-   "lot": "All codes",
-   "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1157-2020%22",
-   "tier": "hemp",
-   "kind": "FDA recall",
-   "src": "FDA"
-  },
-  {
-   "date": "2019-10-30",
-   "state": "TX",
-   "agency": "FDA enforcement report (Class II, Terminated)",
-   "product": "Sugar Mill Farms Focused Energy 25 mg Hemp Extract Berry Flavor 7.25 g  5 blast cap count",
-   "brand": "Hall Global, LLC",
-   "issue": "Yellow #6  is not declared on ingredient label. The label lists Green Coffee Beans as an ingredient, but Guarana Seeds were used instead. The label lists the flavor as  berry boost , but orange flavor was used.",
-   "lot": "10096902",
-   "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0071-2020%22",
-   "tier": "hemp",
-   "kind": "FDA recall",
-   "src": "FDA"
-  },
-  {
-   "date": "2019-10-30",
-   "state": "TX",
-   "agency": "FDA enforcement report (Class II, Terminated)",
-   "product": "OXZGEN Performance 25 mg Hemp Derived CBD + Teacrine + BCAA Orange Flavored, 5 blast caps, 2.2 FL OZ",
-   "brand": "Hall Global, LLC",
-   "issue": "Yellow #6 is not declared on ingredient label. Label claim for B2 is incorrect (contains 5 mg not 10 mg as stated).",
-   "lot": "10097902, 10186904, 10235905, and 10278906",
-   "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0070-2020%22",
-   "tier": "hemp",
-   "kind": "FDA recall",
-   "src": "FDA"
-  },
-  {
-   "date": "2019-05-22",
-   "state": "WA",
-   "agency": "FDA enforcement report (Class III, Terminated)",
-   "product": "Item FG 10190, Barleans Full Spectrum Hemp Extract, 60 Softgels per bottle.  UPC 7 05875 80113 3.    Item FG 10193, Barleans Full Spectrum Hemp Extract, 30 Sof\u2026",
-   "brand": "Barlean's Llc",
-   "issue": "Barlean's dietary supplement product is recalled due to undeclared Sulfites.  Sulfite levels of finished goods does not exceed 10 ppm.",
-   "lot": "Best By of January 2021 and earlier",
-   "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1368-2019%22",
-   "tier": "hemp",
-   "kind": "FDA recall",
-   "src": "FDA"
-  },
-  {
-   "date": "2019-05-22",
-   "state": "WA",
-   "agency": "FDA enforcement report (Class III, Terminated)",
-   "product": "Item FG 10191, Barlean s Ideal CBD Hemp Oil Softgel, 900 mg CBD, Less than 0.3% THC, 60 Softgels per bottle. UPC 7 05875 80112 6.    Item FG 10194, Barlean s I\u2026",
-   "brand": "Barlean's Llc",
-   "issue": "Barlean's dietary supplement product is recalled due to undeclared Sulfites.  Sulfite levels of finished goods does not exceed 10 ppm.",
-   "lot": "Best By of January 2021 and earlier",
-   "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1369-2019%22",
-   "tier": "hemp",
-   "kind": "FDA recall",
-   "src": "FDA"
-  },
-  {
    "date": "2019-02-27",
    "state": "FL",
    "agency": "FDA enforcement report (Class II, Terminated)",
@@ -2203,34 +2073,8 @@
    "tier": "hemp",
    "kind": "FDA recall",
    "src": "FDA"
-  },
-  {
-   "date": "2019-02-27",
-   "state": "FL",
-   "agency": "FDA enforcement report (Class II, Terminated)",
-   "product": "CTFO Sleep Support Oral Spray with pure CBD Hemp Oil isolate Dietary Supplement, 1oz/30ml.",
-   "brand": "Nutrafuels, Inc.",
-   "issue": "Recalling firm's consignee conducted third party micro testing showing microbial contamination in specific lots of the following products: CTFO Sleep Support Oral Spray (Aspergillus), CTFO Pain Relief Oral Spray (total aerobic bacteria), and CTFO Weight Loss\u2026",
-   "lot": "Lot KA022, DOM 11/20/18",
-   "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1045-2019%22",
-   "tier": "hemp",
-   "kind": "FDA recall",
-   "src": "FDA"
-  },
-  {
-   "date": "2019-02-27",
-   "state": "FL",
-   "agency": "FDA enforcement report (Class II, Terminated)",
-   "product": "CTFO Weight Loss Oral Spray with pure CBD Hemp Oil isolate Dietary Supplement, 1oz/30ml.",
-   "brand": "Nutrafuels, Inc.",
-   "issue": "Recalling firm's consignee conducted third party micro testing showing microbial contamination in specific lots of the following products: CTFO Sleep Support Oral Spray (Aspergillus), CTFO Pain Relief Oral Spray (total aerobic bacteria), and CTFO Weight Loss\u2026",
-   "lot": "Lot KA021  DOM: 11/20/18",
-   "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1047-2019%22",
-   "tier": "hemp",
-   "kind": "FDA recall",
-   "src": "FDA"
   }
  ],
  "what_to_do": "If you have a product that matches a listed batch/lot, stop using it and follow the instructions in the official notice (usually return it to the retailer or dispose of it). Check the official link for exact batch numbers.",
- "generated": "2026-10-30 07:07 EDT"
+ "generated": "2026-10-30 13:03 EDT"
 }
