@@ -1,0 +1,44 @@
+# Agent Dispatcher: keeps every agent on its schedule even when GitHub drops or delays cron runs
+# (GitHub often skips or delays `schedule:` runs, especially in new repos and for frequent schedules).
+# One always-on job runs tools/terminal/agents/dispatcher.py for ~5h40m: once a minute it checks each workflow's
+# latest cron slot (read from the `cron:` lines of the other workflow files) and, when GitHub's own scheduler has not
+# started a run within 3 minutes of the slot, starts one with workflow_dispatch. At the end it re-dispatches itself, so
+# the chain never stops (to stop it: Actions > Agent Dispatcher > Disable workflow); the hourly schedule below and a manual "Run workflow" are only restarts if the chain breaks.
+# Public repo: GitHub-hosted runner minutes are free. Only GITHUB_TOKEN is used (actions: write to dispatch).
+# Copy to .github/workflows/agents-dispatcher.yml (needs a token with workflow scope, or upload in the browser).
+name: Agent Dispatcher
+on:
+  schedule:
+    - cron: "3 * * * *"        # watchdog only: if a dispatcher run is already going, this just waits as pending
+  workflow_dispatch: {}
+permissions:
+  actions: write
+  contents: read
+concurrency:
+  group: agents-dispatcher
+  cancel-in-progress: false
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - run: date +%s > /tmp/dispatcher_start
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Dispatch due agent runs (loops ~340 min)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_MINUTES: "340"
+          GRACE_MINUTES: "3"
+          PYTHONUNBUFFERED: "1"
+        run: python3 tools/terminal/agents/dispatcher.py
+      - name: Start the next dispatcher run
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # A run that died within 10 minutes is not chained (no fast crash loop); the hourly watchdog restarts it.
+        run: |
+          ran=$(( $(date +%s) - $(cat /tmp/dispatcher_start) ))
+          if [ "$ran" -lt 600 ]; then echo "ran only ${ran}s; leaving the restart to the hourly schedule"; exit 0; fi
+          gh workflow run agents-dispatcher.yml --repo "$GITHUB_REPOSITORY" --ref main
