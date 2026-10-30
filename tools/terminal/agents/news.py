@@ -40,7 +40,8 @@ def run():
         if k in seen: continue
         seen.add(k);u.append(i)
     cats={c:[i for i in u if i["category"]==c][:8] for c in("US federal","US states","International","Industry")}
-    return save("news.json",dict(agent="news",sources=status,total=len(u),by_category=cats,latest=u[:30]))
+    return save("news.json",dict(agent="news",sources=status,total=len(u),by_category=cats,latest=u[:30],
+        all=[dict(source=i["source"],title=i["title"],link=i["link"],ts=i["ts"],date=i["date"],category=i["category"],is_law=i["is_law"],states=i["states"]) for i in u]))
 if __name__=="__main__":
     r=run(); print(r["sources"])
     for c,v in r["by_category"].items(): print("==",c,len(v)); [print("  ",i["date"],i["source"][:10],i["title"][:100]) for i in v[:5]]
