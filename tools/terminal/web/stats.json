@@ -1,7 +1,7 @@
 {
  "product": "Cannabis Agent Terminal",
- "generated": "2026-10-29 22:05:38 EDT",
- "generated_ts": 1793325938.0682368,
+ "generated": "2026-10-30 07:16:08 EDT",
+ "generated_ts": 1793358968.3852117,
  "disclaimer": "Research summary, not medical advice. Talk to a doctor.",
  "agents": {
   "scientist": {
@@ -10,16 +10,16 @@
    "badge": "LIVE",
    "rule": "cite only retrieved PubMed records",
    "status": "12 conditions \u00b7 54 citations \u00b7 0 unverified dropped",
-   "ts": 1793325938.0682368,
-   "secs": 6.8
+   "ts": 1793358968.3852117,
+   "secs": 8.0
   },
   "lab": {
    "name": "Terpene & Cannabinoid Lab",
    "job": "daily compound spotlight",
    "badge": "UPDATE",
    "rule": "health angle + grow/preserve angle",
-   "status": "today: CBN (cannabinol) \u00b7 8 compounds in rotation",
-   "ts": 1793325938.0682368,
+   "status": "today: THCV (tetrahydrocannabivarin) \u00b7 8 compounds in rotation",
+   "ts": 1793358968.3852117,
    "secs": 0.0
   },
   "holistic": {
@@ -28,7 +28,7 @@
    "badge": "UPDATE",
    "rule": "guidelines, SRs, RCTs only",
    "status": "12 conditions \u00b7 6 interaction/caution notes",
-   "ts": 1793325938.0682368,
+   "ts": 1793358968.3852117,
    "secs": 0.0
   },
   "wire": {
@@ -36,17 +36,17 @@
    "job": "new papers + health/policy news",
    "badge": "LIVE",
    "rule": "US + international; health filter",
-   "status": "9 medical + 7 cultivation papers (14 d) \u00b7 13 news \u00b7 9/9 sources ok",
-   "ts": 1793325938.0682368,
-   "secs": 6.0
+   "status": "9 medical + 6 cultivation papers (14 d) \u00b7 16 news \u00b7 9/9 sources ok",
+   "ts": 1793358968.3852117,
+   "secs": 8.5
   },
   "social": {
    "name": "Social",
    "job": "what people ask on X",
    "badge": "READ",
    "rule": "read-only; nothing posted",
-   "status": "16 posts \u00b7 4 X News stories \u00b7 cached 2026-10-28 21:41 EDT",
-   "ts": 1793325938.0682368
+   "status": "16 posts \u00b7 4 X News stories \u00b7 cached 2026-10-30 07:15 EDT",
+   "ts": 1793358968.3852117
   },
   "grower": {
    "name": "Grower Notes",
@@ -54,13 +54,13 @@
    "badge": "UPDATE",
    "rule": "studies cited; anecdotal flagged",
    "status": "8 studied factors \u00b7 1 anecdotal practice flagged",
-   "ts": 1793325938.0682368,
+   "ts": 1793358968.3852117,
    "secs": 0.0
   }
  },
  "scientist": {
   "agent": "scientist",
-  "generated": "2026-10-29 22:05 EDT",
+  "generated": "2026-10-30 07:15 EDT",
   "disclaimer": "Research summary, not medical advice. Talk to a doctor.",
   "strain_note": "Strain names are typical examples only; the same name can test very differently by grower and batch. Go by the lab COA (THC, CBD, minor cannabinoids, terpenes), not the name.",
   "method": "PubMed E-utilities esearch+efetch (queries in cache/pubmed.json) plus National Academies 2017 report; syntheses written from retrieved abstracts only.",
@@ -161,7 +161,7 @@
       "first_author": "NASEM"
      }
     ],
-    "new_papers_30d": 26
+    "new_papers_30d": 25
    },
    {
     "id": "fibromyalgia",
@@ -389,7 +389,7 @@
       "doi_url": "https://doi.org/10.1007/s40265-018-0992-5"
      }
     ],
-    "new_papers_30d": 16
+    "new_papers_30d": 15
    },
    {
     "id": "insomnia",
@@ -779,7 +779,7 @@
       "doi_url": "https://doi.org/10.1186/s10194-018-0862-2"
      }
     ],
-    "new_papers_30d": 4
+    "new_papers_30d": 3
    },
    {
     "id": "arthritis",
@@ -1014,8 +1014,8 @@
  },
  "lab": {
   "agent": "lab",
-  "generated": "2026-10-29 22:05 EDT",
-  "spotlight_id": "cbn",
+  "generated": "2026-10-30 07:15 EDT",
+  "spotlight_id": "thcv",
   "spotlight_rule": "rotates daily (day-of-year mod 8)",
   "compounds": [
    {
@@ -2700,7 +2700,7 @@
    {
     "source": "PubMed newest (cultivation, 14 d)",
     "status": "ok",
-    "items": 7
+    "items": 6
    },
    {
     "source": "Marijuana Moment",
@@ -2853,17 +2853,16 @@
    },
    {
     "track": "medical",
-    "pmid": "42893080",
-    "title": "Cannabidiol oil therapy for function-limiting keloids associated with graft-versus-host disease: A case report.",
-    "journal": "JAAD Case Rep",
+    "pmid": "42901095",
+    "title": "Nanodispersible cannabidiol (150\u202fmg/mL) for generalized anxiety disorder: Comparative emerging clinical evidence with first-line anxiolytics and mechanistic insights from network pharmacology and pharmacogenomics.",
+    "journal": "Asian J Psychiatr",
     "year": "2026",
-    "first_author": "Kalra et al.",
+    "first_author": "Gundugurti et al.",
     "pubtypes": [
-     "Case Reports",
-     "Journal Article"
+     "Letter"
     ],
     "preclinical": false,
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42893080/"
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42901095/"
    }
   ],
   "papers_cultivation": [
@@ -2908,19 +2907,6 @@
    },
    {
     "track": "cultivation",
-    "pmid": "42879572",
-    "title": "Identification of bacteria present in the harvest and postharvest stages in medical cannabis (Cannabis sativa L.) grown in Colombia.",
-    "journal": "An Acad Bras Cienc",
-    "year": "2026",
-    "first_author": "Henao-L\u00f3pez et al.",
-    "pubtypes": [
-     "Journal Article"
-    ],
-    "preclinical": false,
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42879572/"
-   },
-   {
-    "track": "cultivation",
     "pmid": "42908748",
     "title": "Culture medium and plant growth regulator regimes influence the transcriptome and cannabisin accumulation in Cannabis sativa cell suspension cultures.",
     "journal": "Front Plant Sci",
@@ -2934,19 +2920,6 @@
    },
    {
     "track": "cultivation",
-    "pmid": "42875966",
-    "title": "An Integrated Transient Expression and UPLC-PDA Approach for Functional Genomics and Metabolic Analysis of Cannabis sativa.",
-    "journal": "Biotechnol J",
-    "year": "2026",
-    "first_author": "Pullano et al.",
-    "pubtypes": [
-     "Journal Article"
-    ],
-    "preclinical": false,
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42875966/"
-   },
-   {
-    "track": "cultivation",
     "pmid": "42883222",
     "title": "Hemp Seed-Derived Vesicle-like Nanoparticles Modulate Dermal Collagen Homeostasis and Attenuate UVB-Induced Photoaging-Related Responses.",
     "journal": "Molecules",
@@ -2957,9 +2930,46 @@
     ],
     "preclinical": false,
     "url": "https://pubmed.ncbi.nlm.nih.gov/42883222/"
+   },
+   {
+    "track": "cultivation",
+    "pmid": "42947120",
+    "title": "Cannabis sativa L. extract modulates UVB-induced oxidative stress and MITF transcriptional suppression in B16-F10 melanoma cell line.",
+    "journal": "BMC Complement Med Ther",
+    "year": "2026",
+    "first_author": "Mahaprom et al.",
+    "pubtypes": [
+     "Journal Article"
+    ],
+    "preclinical": true,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42947120/"
    }
   ],
   "news_us": [
+   {
+    "source": "MJBizDaily",
+    "title": "How cannabis employers are taking worker healthcare benefits into their own hands",
+    "link": "https://mjbizdaily.com/news/how-cannabis-employers-are-taking-worker-healthcare-benefits-into-their-own-hands/618948/",
+    "summary": "Cannabis employers may wish to consider healthcare captives when choosing employee benefits. How cannabis employers are taking worker healthcare benefits into their own hands is a post from: MJBizDaily: Financial, Legal & Cannabusiness news for cannabis entrep",
+    "ts": 1793356259.0,
+    "date": "2026-10-30 06:30",
+    "category": "Industry",
+    "is_law": false,
+    "states": []
+   },
+   {
+    "source": "Marijuana Moment",
+    "title": "GOP senators push USPS not to mail cannabis (Newsletter: October 30, 2026)",
+    "link": "https://www.marijuanamoment.net/gop-senators-push-usps-not-to-mail-cannabis-newsletter-october-30-2026/",
+    "summary": "New drug scheduling overhaul bill; GOP senators push USPS not to mail marijuana; NY gov guts industry labor bill; IA gov candidate on medical cannabis Subscribe to receive Marijuana Moment\u2019s newsletter in your inbox every weekday morning. It\u2019s the best way to ",
+    "ts": 1793355162.0,
+    "date": "2026-10-30 06:12",
+    "category": "US states",
+    "is_law": true,
+    "states": [
+     "New"
+    ]
+   },
    {
     "source": "Marijuana Moment",
     "title": "New Bill In Congress Would Dramatically Overhaul How The Federal Government Classifies Drugs While Legalizing Marijuana",
@@ -3057,6 +3067,17 @@
   ],
   "news_intl": [
    {
+    "source": "Cannabis Health News (UK)",
+    "title": "\u2018Treatment is More Than Reducing Pain Intensity\u2019: Dr Michael \u00dcberall on the Future of Pain Medicine",
+    "link": "https://cannabishealthnews.co.uk/2026/10/30/dr-michael-uberall-on-the-future-of-pain-medicine/",
+    "summary": "Pain specialist Dr Michael \u00dcberall discusses cannabinoid-based medicines, opioids, and what meaningful improvement looks like for patients.",
+    "ts": 1793354401.0,
+    "date": "2026-10-30 06:00",
+    "category": "International",
+    "is_law": false,
+    "states": []
+   },
+   {
     "source": "Google News: intl cannabis",
     "title": "Sustained Relief, Fewer Opioids for Chronic Pain With Cannabis - NORML",
     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQY08yV3Z0SzJHNFJKZXZsNEFudXgxTjdDUFk3QXpkdmk3dmpIXzF1R0ZCcHFPN0JCc0h2NHJFYmZEOWJrNEhWN3p4NlVfRjUyNmdibXRFenZ6VWhjTWphM243OGpLZHQ5R245T2hRYXhPZGdtSWVEX2xQVWJRb2E4UHVacm91bENpd2lBZG95SUt4bldzdEdCREY5Yl9NVjNjMEI1OEVsb3BWMFRzS2IxZUV1eW1weGh6dXg4RkZRb19rYnN2SjdRNUFxTGNGaDlSRWVkMnB5OHQ2TXFERHo4SXRNMA?oc=5",
@@ -3112,461 +3133,529 @@
     "states": []
    }
   ],
-  "news_health_total": 13,
-  "generated": "2026-10-29 22:05 EDT"
+  "news_health_total": 16,
+  "generated": "2026-10-30 07:16 EDT"
  },
  "social": {
   "agent": "social",
-  "generated": "2026-10-28 21:41 EDT",
-  "source": "X API via x MCP (search_posts_all relevancy, search_news 168h); 4 reads",
-  "queries": [
-   "(cannabis OR CBD OR weed OR marijuana) (\"for sleep\" OR \"for pain\" OR \"for anxiety\" \u2026) -is:retweet -is:reply lang:en",
-   "(terpenes OR trichomes OR curing OR \"dry and cure\") (grow OR harvest OR growers)",
-   "search_news: cannabis health research"
+  "mode": "free",
+  "generated": "2026-10-30 07:15 EDT",
+  "platforms": [
+   "Bluesky",
+   "Reddit"
+  ],
+  "source": "Bluesky public search (top posts, 7-day window, 111 read this run) + Reddit top threads today",
+  "queries": 13,
+  "query_list": [
+   "cannabis sleep",
+   "cannabis insomnia",
+   "cannabis pain",
+   "cannabis anxiety",
+   "cannabis PTSD",
+   "cannabis migraine",
+   "CBD sleep",
+   "CBD anxiety",
+   "trichomes",
+   "cannabis curing",
+   "cannabis harvest",
+   "terpenes cannabis grow"
   ],
   "topic_counts": {
-   "sleep": 4,
-   "pain": 2,
-   "migraine": 1,
+   "anxiety": 5,
    "PTSD": 1,
-   "anxiety": 3,
-   "arthritis": 1,
-   "nausea": 1
+   "nightmares": 1,
+   "pain": 4,
+   "sleep": 1
   },
   "posts": [
    {
     "audience": "health",
-    "topic": "sleep / pain",
-    "handle": "marclanders",
-    "date": "Oct 27 11:00 AM",
-    "likes": 110,
-    "views": 11075,
-    "text": "THC may protect the aging brain! Pain: THC or CBD alone beat a 1:1 mix for pain relief; the mix was better for sleep. PEA (endocannabinoid-like compound) worked best. Terpenes: Certain plant terpenes may boost or refine cannabinoid pain effects (\u201centourage\u201d).",
-    "url": "https://x.com/marclanders/status/2115096191889289727"
-   },
-   {
-    "audience": "health",
-    "topic": "migraine",
-    "handle": "marclanders",
-    "date": "Oct 18 12:00 PM",
-    "likes": 95,
-    "views": 1240,
-    "text": "Medical cannabis may cut migraine length & frequency! Works on Cluster headaches too!",
-    "url": "https://x.com/marclanders/status/2111849798236344453"
+    "topic": "anxiety",
+    "handle": "rainbowregionmyles.bsky.social",
+    "platform": "Bluesky",
+    "date": "Oct 25 06:21 PM",
+    "likes": 13,
+    "views": 0,
+    "text": "I've used cannabis and I've struggled with mental health. I know firsthand how THC can worsen anxiety, so why the fuck are we prescribing high-strength cannabis for mental health conditions when there's evidence it can increase the risk of psychosis? Who's protecting patients? #auspol",
+    "url": "https://bsky.app/profile/rainbowregionmyles.bsky.social/post/3myqaktxzrk2q"
    },
    {
     "audience": "health",
     "topic": "PTSD / nightmares",
-    "handle": "CanneticsCBD",
-    "date": "Oct 16 10:42 AM",
-    "likes": 2,
-    "views": 10,
-    "text": "Trouble sleeping after trauma often has a name\u2026 Nightmares that replay the same scene are a hallmark of PTSD\u2026 Here is where the research actually stands.",
-    "url": "https://x.com/CanneticsCBD/status/2111105441233048061"
+    "handle": "everrouge.bsky.social",
+    "platform": "Bluesky",
+    "date": "Oct 26 04:27 AM",
+    "likes": 7,
+    "views": 0,
+    "text": "Umma No! We don\u2019t need vets with PTSD and depression on #Psychedelics. Federlize #Cannabis which actually helps us #Veterans. The research isn\u2019t there regarding this \u201ctreatment\u201d. We\u2019re experimental bodies. They don\u2019t give a shit about! #FuckTrump apple.news/AXz0YH80mSvu...",
+    "url": "https://bsky.app/profile/everrouge.bsky.social/post/3myrchkr5jk2l"
+   },
+   {
+    "audience": "health",
+    "topic": "pain",
+    "handle": "whoa-magic.lol",
+    "platform": "Bluesky",
+    "date": "Oct 25 03:13 PM",
+    "likes": 9,
+    "views": 0,
+    "text": "Clinical Trial: Single Dose of #Cannabis #Extract Significantly Reduces Need for Opioids in Acute #Pain Patients norml.org/news/2026/10... #research",
+    "url": "https://bsky.app/profile/whoa-magic.lol/post/3mypw3ry2ms2c"
+   },
+   {
+    "audience": "health",
+    "topic": "pain",
+    "handle": "hempedification.bsky.social",
+    "platform": "Bluesky",
+    "date": "Oct 25 05:13 AM",
+    "likes": 7,
+    "views": 0,
+    "text": "Aotearoa/NZ | Alliance Group gone to the Employment Court to challenge a ruling to reinstate long-serving worker, fired after testing positive for cannabis, prescribed for chronic pain. Brown worked for Alliance since 1987. He disclosed the prescription. www.stuff.co.nz/nz-news/3610...",
+    "url": "https://bsky.app/profile/hempedification.bsky.social/post/3myoujhxqls2y"
+   },
+   {
+    "audience": "health",
+    "topic": "pain",
+    "handle": "greathands4you.bsky.social",
+    "platform": "Bluesky",
+    "date": "Oct 27 10:19 AM",
+    "likes": 4,
+    "views": 0,
+    "text": "People need to be informed about how Cannabis reduces pain in the body.",
+    "url": "https://bsky.app/profile/greathands4you.bsky.social/post/3myugkl7tkc24"
    },
    {
     "audience": "health",
     "topic": "anxiety",
-    "handle": "CanneticsCBD",
-    "date": "Oct 19 12:00 PM",
-    "likes": 2,
-    "views": 31,
-    "text": "Anxiety is the most oversold use of CBD on the internet. The evidence is also more interesting than either the marketing or the sceptics admit.",
-    "url": "https://x.com/CanneticsCBD/status/2112212329160982764"
+    "handle": "psyinko.monster",
+    "platform": "Bluesky",
+    "date": "Oct 24 12:03 AM",
+    "likes": 6,
+    "views": 0,
+    "text": "me when the CBD gummy kicks in & knocks my stress/anxiety down some pegs",
+    "url": "https://bsky.app/profile/psyinko.monster/post/3mylsri2yfk2r"
    },
    {
     "audience": "health",
     "topic": "anxiety",
-    "handle": "joeroganhq",
-    "date": "Oct 25 05:33 AM",
-    "likes": 121,
-    "views": 39281,
-    "text": "Joe Rogan and Cameron Hanes explain why they swear by CBD for anxiety, stress, and muscle soreness\u2026 But is CBD really the game changer they claim it is?",
-    "url": "https://x.com/joeroganhq/status/2114289110726722041"
+    "handle": "pikablu.bsky.social",
+    "platform": "Bluesky",
+    "date": "Oct 26 08:26 AM",
+    "likes": 6,
+    "views": 0,
+    "text": "Some cats take years to come around too I think. If he has general anxiety, a low dose of gabapentin or even cbd could help? I'm sure you already know this, just sharing in general. My Luna is also a spicy purrito and can run hot and cold about whether she wants pets but she mellowed out over time",
+    "url": "https://bsky.app/profile/pikablu.bsky.social/post/3myrprtodhs2a"
    },
    {
     "audience": "health",
-    "topic": "sleep (older adults)",
-    "handle": "reefermedness",
-    "date": "Oct 14 04:01 PM",
-    "likes": 0,
-    "views": 20,
-    "text": "A Journal of Cannabis Research commentary finds cannabis use for sleep among older adults is rising faster than the evidence. Objective sleep benefits remain inconsistent, and CBD/CBN data are sparse.",
-    "url": "https://x.com/reefermedness/status/2110460952894230903"
+    "topic": "anxiety",
+    "handle": "snarkyplatypus.com",
+    "platform": "Bluesky",
+    "date": "Oct 26 03:22 AM",
+    "likes": 3,
+    "views": 0,
+    "text": "The idea of cannabis being prescribed to treat anxiety is amusing to me because of my personal experience with it (increases my feelings of anxiety significantly)",
+    "url": "https://bsky.app/profile/snarkyplatypus.com/post/3myr6s53m422y"
    },
    {
     "audience": "health",
-    "topic": "sleep myth",
-    "handle": "SeedBankME",
-    "date": "Oct 21 04:00 PM",
+    "topic": "sleep",
+    "handle": "omnimedical.bsky.social",
+    "platform": "Bluesky",
+    "date": "Oct 28 09:20 AM",
+    "likes": 4,
+    "views": 0,
+    "text": "\"Average sleep quality scores increased from 2.46 before treatment to 5.79 after one month, reaching 6.23 at 12 months and remaining significantly above baseline at 5.14 after two years.\" #MedicalMarijuana #MedicalCannabis #Marijuana #Cannabis #Insomnia #Sleep #SleepQuality #Study",
+    "url": "https://bsky.app/profile/omnimedical.bsky.social/post/3mywtpuocnc2g"
+   },
+   {
+    "audience": "health",
+    "topic": "anxiety",
+    "handle": "cshrb.bsky.social",
+    "platform": "Bluesky",
+    "date": "Oct 27 12:08 PM",
+    "likes": 5,
+    "views": 0,
+    "text": "#CSHRB co-authored study indicates experiences of microaggressions, using cannabis to cope, & anxiety & depression may contribute to perceptions of heavier cannabis use among lesbian, bisexual, & queer women & gender diverse individuals bit.ly/4e0OaS6",
+    "url": "https://bsky.app/profile/cshrb.bsky.social/post/3myumnemyak2d"
+   },
+   {
+    "audience": "health",
+    "topic": "pain",
+    "handle": "murtoz.bsky.social",
+    "platform": "Bluesky",
+    "date": "Oct 29 06:00 AM",
     "likes": 2,
-    "views": 59,
-    "text": "Light up, lights out? Study dispels myth that weed smokers sleep well",
-    "url": "https://x.com/SeedBankME/status/2112997579503870339"
-   },
-   {
-    "audience": "health",
-    "topic": "arthritis",
-    "handle": "divinetokecanna",
-    "date": "Oct 14 05:46 PM",
-    "likes": 0,
-    "views": 27,
-    "text": "There isn't enough research yet on how weed works for arthritis, and the people I know who smoke for it aren't waiting for the studies.",
-    "url": "https://x.com/divinetokecanna/status/2110487322416328812"
-   },
-   {
-    "audience": "health",
-    "topic": "nausea",
-    "handle": "L8NYTEjr",
-    "date": "Oct 15 11:48 AM",
-    "likes": 0,
-    "views": 44,
-    "text": "Anybody know a natural remedy for nausea besides weed",
-    "url": "https://x.com/L8NYTEjr/status/2110759772593041446"
-   },
-   {
-    "audience": "health",
-    "topic": "autism / anxiety / sleep",
-    "handle": "tomangell",
-    "date": "Oct 02 07:59 AM",
-    "likes": 40,
-    "views": 2079,
-    "text": "A new study conducted by the Minnesota Office of Cannabis Management found that people with autism who use medical marijuana \"were able to achieve and maintain symptom relief\" for anxiety, depression and sleep.",
-    "url": "https://x.com/tomangell/status/2105990953786073145"
-   },
-   {
-    "audience": "health",
-    "topic": "pain / athletes",
-    "handle": "MLFootball",
-    "date": "Oct 20 08:18 PM",
-    "likes": 1892,
-    "views": 59588,
-    "text": "Calvin Johnson has publicly advocated for cannabis as an alternative for pain, recovery \u2014 wellness for athletes & others.",
-    "url": "https://x.com/MLFootball/status/2112700012778119172"
-   },
-   {
-    "audience": "grow",
-    "topic": "dry & cure",
-    "handle": "ZaZaBinks91661",
-    "date": "Oct 19 03:50 PM",
-    "likes": 0,
-    "views": 54,
-    "text": "I know this harvest aint shit if i dont nail the dry and cure. Does anybody have any tips for drying and curing?",
-    "url": "https://x.com/ZaZaBinks91661/status/2112270062665306328"
+    "views": 0,
+    "text": "My son is on daily naproxen (similar but stronger than advil). GP prescribes omeprazole with it to protect his stomach. Also if cannabis is accessible to you, this helps a lot of us deal with the pain & I believe it is anti inflammatory too.",
+    "url": "https://bsky.app/profile/murtoz.bsky.social/post/3myyz2e5m3c2u"
    },
    {
     "audience": "grow",
     "topic": "cure length",
-    "handle": "TedSton87217079",
-    "date": "Oct 25 06:12 PM",
-    "likes": 1,
-    "views": 102,
-    "text": "Growers, let's settle this: how long do you cure? I say 4 weeks minimum.",
-    "url": "https://x.com/TedSton87217079/status/2114480233747534071"
-   },
-   {
-    "audience": "grow",
-    "topic": "jar humidity",
-    "handle": "MrGrowIt",
-    "date": "Oct 07 01:02 PM",
-    "likes": 44,
-    "views": 2912,
-    "text": "Put a small hygrometer in the jar so you're not guessing. I like to see them settle at 58 to 62% humidity.",
-    "url": "https://x.com/MrGrowIt/status/2107879217128001917"
+    "handle": "bradiscranky.bsky.social",
+    "platform": "Bluesky",
+    "date": "Oct 28 06:05 PM",
+    "likes": 7,
+    "views": 0,
+    "text": "first plant of a fresh crop down and curing. i do love growing pot",
+    "url": "https://bsky.app/profile/bradiscranky.bsky.social/post/3myxr4cic4k2q"
    },
    {
     "audience": "grow",
     "topic": "harvest timing",
-    "handle": "MrGrowIt",
-    "date": "Oct 26 01:05 PM",
-    "likes": 20,
-    "views": 1060,
-    "text": "Number three: harvesting too early\u2026 I've seen people chop one or two weeks early and the buds never densed up.",
-    "url": "https://x.com/MrGrowIt/status/2114765302302986373"
+    "handle": "igloochik.bsky.social",
+    "platform": "Bluesky",
+    "date": "Oct 29 09:16 PM",
+    "likes": 5,
+    "views": 0,
+    "text": "#harvest #cannabis #CannabisSky #cannabisgrowing #medicine \ud83e\udd66\ud83c\udf31\ud83d\udc9a",
+    "url": "https://bsky.app/profile/igloochik.bsky.social/post/3mz2ma3ifec22"
    },
    {
     "audience": "grow",
-    "topic": "trichomes",
-    "handle": "GoodHerbPodcast",
-    "date": "Oct 11 11:01 PM",
+    "topic": "harvest timing",
+    "handle": "mtnfreshgenetics.bsky.social",
+    "platform": "Bluesky",
+    "date": "Oct 27 05:04 AM",
+    "likes": 4,
+    "views": 0,
+    "text": "Hey \ud83d\udc4b Stoners Quick question How long does it take a cannabis plant to fully mature from seed to harvest? \ud83e\udd14",
+    "url": "https://bsky.app/profile/mtnfreshgenetics.bsky.social/post/3mytuyckzw42s"
+   },
+   {
+    "audience": "grow",
+    "topic": "harvest timing / trichomes",
+    "handle": "cefk.bsky.social",
+    "platform": "Bluesky",
+    "date": "Oct 27 10:36 AM",
     "likes": 1,
-    "views": 38,
-    "text": "Croptober is real. Some of you just chopped. Some are watching trichomes daily.",
-    "url": "https://x.com/GoodHerbPodcast/status/2109479652448428413"
+    "views": 0,
+    "text": "I've given them (as per schedule) another serving of that 2-weekly booster .. (mostly for the one on the right and some for the one in the middle. According to the breeder's website, the one on the left should be harvest-ready, this week (we'll see .. thus far, no amber trichomes at all).",
+    "url": "https://bsky.app/profile/cefk.bsky.social/post/3myuhitosic2b"
+   },
+   {
+    "audience": "grow",
+    "topic": "harvest timing",
+    "handle": "columbiariverwitch.bsky.social",
+    "platform": "Bluesky",
+    "date": "Oct 28 09:45 PM",
+    "likes": 1,
+    "views": 0,
+    "text": "I've been singing Chilliwack's Rain-o, my favorite rainy day song here in the Columbia Gorge. We needed, I mean really needed the rain, but I sure wish it would have waited until the end of my Cannabis harvest.",
+    "url": "https://bsky.app/profile/columbiariverwitch.bsky.social/post/3myy5ewt3xc2v"
+   }
+  ],
+  "threads": [
+   {
+    "title": "Anotha one (Fall edition)",
+    "url": "https://www.reddit.com/r/microgrowery/comments/1ximoe5/anotha_one_fall_edition/",
+    "sub": "r/microgrowery",
+    "date": "2026-10-29 15:12"
+   },
+   {
+    "title": "Watermelon Romulan - smelling like pine and watermelon over here.",
+    "url": "https://www.reddit.com/r/microgrowery/comments/1xipxdo/watermelon_romulan_smelling_like_pine_and/",
+    "sub": "r/microgrowery",
+    "date": "2026-10-29 17:10"
+   },
+   {
+    "title": "Throwback to my old garden!",
+    "url": "https://www.reddit.com/r/microgrowery/comments/1xj1kl2/throwback_to_my_old_garden/",
+    "sub": "r/microgrowery",
+    "date": "2026-10-30 00:52"
+   },
+   {
+    "title": "Fluffy Buds",
+    "url": "https://www.reddit.com/r/microgrowery/comments/1xin3m8/fluffy_buds/",
+    "sub": "r/microgrowery",
+    "date": "2026-10-29 15:27"
+   },
+   {
+    "title": "50 lb cattle dog for scale",
+    "url": "https://www.reddit.com/r/microgrowery/comments/1xj0zfp/50_lb_cattle_dog_for_scale/",
+    "sub": "r/microgrowery",
+    "date": "2026-10-30 00:23"
+   },
+   {
+    "title": "GG4 and RS11 finishing up in my 2x4",
+    "url": "https://www.reddit.com/r/microgrowery/comments/1xihwe8/gg4_and_rs11_finishing_up_in_my_2x4/",
+    "sub": "r/microgrowery",
+    "date": "2026-10-29 11:55"
    }
   ],
   "news": [
    {
-    "title": "Study Links Marijuana Legalization to Faster Heart Hospital Admissions",
-    "summary": "BMJ Open analysis of >50M US hospital records 2012\u20132018; observational, not causal (X News summary).",
-    "url": "https://x.com/i/trending/2113465624831922612",
-    "date": "Oct 22 11:07 PM"
-   },
-   {
-    "title": "Nearly 6 Million U.S. Kids Live with Frequent Marijuana-Using Parents",
-    "summary": "2012\u20132024 survey analysis; daily parental use up ~4x (X News summary).",
-    "url": "https://x.com/i/trending/2113424014412546282",
-    "date": "Oct 23 07:57 PM"
-   },
-   {
-    "title": "Ant Glizzy quitting story sparks withdrawal / REM-rebound nightmare thread",
-    "summary": "Users share vivid dreams after stopping; THC suppresses REM (X News summary).",
+    "title": "Ant Glizzy quitting weed after 20 years sparks withdrawal / nightmare thread",
+    "summary": "Users share vivid dreams and sleep trouble after stopping; posts cite THC suppressing REM sleep, with rebound dreaming in the first weeks (X News summary of posts).",
     "url": "https://x.com/i/trending/2115500579078197430",
-    "date": "Oct 28 01:54 PM"
+    "date": "2026-10-28T17:54:59Z"
    },
    {
-    "title": "Cannabis users share tips on pushing through high-induced paranoia",
-    "summary": "Dose/strain/CBD tips; THC can overstimulate fear centers at higher doses (X News summary).",
+    "title": "Debate over mixing tobacco with cannabis joints",
+    "summary": "Posters weigh smoother burns vs added nicotine and lung-health risks (X News summary of posts).",
+    "url": "https://x.com/i/trending/2115512751174860885",
+    "date": "2026-10-29T19:27:23Z"
+   },
+   {
+    "title": "Cannabis users share tips on high-induced paranoia",
+    "summary": "Replies mention lower doses, CBD-containing products, or stopping; THC can overstimulate fear responses at higher doses (X News summary of posts).",
     "url": "https://x.com/i/trending/2115220731722408224",
-    "date": "Oct 27 07:21 PM"
+    "date": "2026-10-27T23:21:43Z"
+   },
+   {
+    "title": "Marijuana smell complaints debate in legal states",
+    "summary": "Minnesota post draws odor complaints and pushback; mentions park rules and public-use bills (X News summary of posts).",
+    "url": "https://x.com/i/trending/2114908150872887420",
+    "date": "2026-10-27T02:38:38Z"
    }
-  ]
+  ],
+  "news_generated": "2026-10-29 22:07 EDT"
  },
  "feed": [
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Chronic pain / neuropathic pain",
-   "reason": "moderate evidence; top pick: Low-dose THC or 1:1 THC:CBD; beta-caryophyllene-rich chemovars (6 citations, 26 new PubMed papers in 30 d)"
+   "reason": "moderate evidence; top pick: Low-dose THC or 1:1 THC:CBD; beta-caryophyllene-rich chemovars (6 citations, 25 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Fibromyalgia",
    "reason": "limited evidence; top pick: Balanced ~1:1 THC:CBD flower (Bediol-type) (4 citations, 2 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Multiple sclerosis spasticity",
    "reason": "strong evidence; top pick: 1:1 THC:CBD (nabiximols-type) (5 citations, 3 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Epilepsy (Dravet, Lennox-Gastaut, TSC)",
-   "reason": "strong evidence; top pick: High-CBD, near-zero THC (pharmaceutical CBD) (4 citations, 16 new PubMed papers in 30 d)"
+   "reason": "strong evidence; top pick: High-CBD, near-zero THC (pharmaceutical CBD) (4 citations, 15 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Insomnia",
    "reason": "limited evidence; top pick: Evening 2:3 THC:CBD oil; myrcene-forward chemovars (6 citations, 21 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Anxiety",
    "reason": "limited evidence; top pick: CBD-dominant, low THC; limonene-forward (6 citations, 40 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "scientist",
    "kind": "PICK",
    "what": "PTSD",
    "reason": "limited evidence; top pick: Balanced or CBD-leaning; nabilone-type THC for nightmares (with a doctor) (4 citations, 8 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Crohn's disease / IBD",
    "reason": "limited evidence; top pick: 4:1 CBD:THC oral oil for symptoms; caryophyllene-rich (4 citations, 0 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Migraine (acute attacks)",
-   "reason": "limited evidence; top pick: ~1:2 THC:CBD vaporized flower at attack onset (2 citations, 4 new PubMed papers in 30 d)"
+   "reason": "limited evidence; top pick: ~1:2 THC:CBD vaporized flower at attack onset (2 citations, 3 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Arthritis (rheumatoid and osteoarthritis)",
    "reason": "limited evidence; top pick: 1:1 THC:CBD (nabiximols-type); topical CBD unproven in humans (4 citations, 3 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Chemotherapy-induced nausea and vomiting",
    "reason": "strong evidence; top pick: 1:1 THC:CBD low-dose capsules alongside standard antiemetics (3 citations, 2 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Appetite loss / cachexia (cancer, HIV)",
    "reason": "limited evidence; top pick: THC-dominant, low/no THCV (6 citations, 5 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "lab",
    "kind": "SPOTLIGHT",
-   "what": "CBN (cannabinol)",
-   "reason": "daily rotation (day-of-year mod 8); evidence: limited / unproven; 5 citations"
+   "what": "THCV (tetrahydrocannabivarin)",
+   "reason": "daily rotation (day-of-year mod 8); evidence: preclinical; 3 citations"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "holistic",
    "kind": "CAUTION",
    "what": "CBD + warfarin (blood thinner)",
    "reason": "Case reports: starting CBD required about a 30% cut in warfarin dose to keep INR in range. Very low-quality data suggest both THC and CBD can raise INR. Get INR monitored"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "holistic",
    "kind": "CAUTION",
    "what": "CYP450 interactions",
    "reason": "THC and CBD interact with drugs using common CYP450 pathways; Penn State's free CANN-DIR checker (cann-dir.psu.edu) screens them. Interactions matter mainly above ~30 mg/"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "holistic",
    "kind": "CAUTION",
    "what": "CBD + clobazam / valproate",
    "reason": "CBD raises clobazam levels and adds sedation. With valproate it is linked to liver-enzyme rises."
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "holistic",
    "kind": "CAUTION",
    "what": "Heart risk",
    "reason": "Meta-analysis of real-world data: cannabis use associated with major adverse cardiovascular events (cohort RR 1.32). Use more than 4\u00d7/month was associated with MI history"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "holistic",
    "kind": "CAUTION",
    "what": "Cannabinoid hyperemesis",
    "reason": "Cyclic vomiting with heavy, frequent use that eases with hot showers. Stopping cannabis is the best treatment."
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "holistic",
    "kind": "CAUTION",
    "what": "Start low, go slow",
    "reason": "Sparse pharmacology data support a 'start low and go slow' approach to cannabis medicines."
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "grower",
    "kind": "FACTOR",
    "what": "Harvest timing",
    "reason": "2 horticulture citations: In 25 genotypes, 22 hit peak cannabinoid concentration between 'mostly amber' and 'fully amber' stigma (pistil) color; a"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "grower",
    "kind": "FACTOR",
    "what": "UV-B supplementation",
    "reason": "1 horticulture citations: UV-B exposure did not raise yield or THC/CBD; total terpene content fell as UV dose rose, and THC/CBD fell in one cultiv"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "grower",
    "kind": "FACTOR",
    "what": "Light spectrum",
    "reason": "3 horticulture citations: LED spectra changed cannabinoid concentrations vs HPS (one LED gave the highest CBG) without changing total cannabinoid "
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "grower",
    "kind": "FACTOR",
    "what": "Light intensity",
    "reason": "2 horticulture citations: Indoors, flower yield rose linearly with canopy light up to 1,800 \u00b5mol\u00b7m\u207b\u00b2\u00b7s\u207b\u00b9 with no change in cannabinoid potency and"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "grower",
    "kind": "FACTOR",
    "what": "Drying",
    "reason": "3 horticulture citations: Drying temperature, rate and storage all affect what survives. In a microwave-drying study across 40\u201380 \u00b0C, 50 \u00b0C best k"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "grower",
    "kind": "FACTOR",
    "what": "Curing & storage",
    "reason": "5 horticulture citations: Glass jars retained the starting volatile profile better than open trays or plastic boxes, though acid cannabinoids slow"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "grower",
    "kind": "FACTOR",
    "what": "Water, nutrients & stress",
    "reason": "4 horticulture citations: Water stress in CBD-type plants lowered CBD, raised THC under veg-stage stress and raised CBN; main terpenes stayed geno"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "grower",
    "kind": "FACTOR",
    "what": "Genetics beat everything",
    "reason": "4 horticulture citations: The THC:CBD ratio follows CBDAS genotype (predictable codominant inheritance). CBG dominance is a single recessive trait"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "grower",
    "kind": "ANECDOTAL",
    "what": "Jar humidity (grower practice)",
    "reason": "grower practice, no study retrieved: Common grower practice: cure in jars with a hygrometer, settling around 58\u201362% RH, burping when high. This is ANECDOTAL "
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "wire",
    "kind": "PAPER",
    "what": "UK Medical Cannabis Registry: A Two-Year Prospective Observational Cohort Study of Clinical Outcomes in Insomn",
    "reason": "newest PubMed (medical); Neuropsychopharmacol Rep"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "wire",
    "kind": "PAPER",
    "what": "Association between clinically suspected endometriosis lacking histologic evidence and anxiety, depression and",
    "reason": "newest PubMed (medical); Eur J Obstet Gynecol Reprod Biol X"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "wire",
    "kind": "PAPER",
    "what": "A pilot randomized controlled trial of an integrative psychotherapy incorporating an attachment-based approach",
    "reason": "newest PubMed (medical); Addict Behav Rep"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "wire",
    "kind": "PAPER",
    "what": "From Wild-Growing Plants to Promising Candidates for Hemp Variety Development: Morphological and Phytochemical",
    "reason": "newest PubMed (cultivation); Molecules"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "wire",
    "kind": "PAPER",
    "what": "The viability gambit: an optimized disinfection protocol for industrial hemp (Cannabis sativa L.) seeds.",
    "reason": "newest PubMed (cultivation); Front Plant Sci"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "wire",
    "kind": "PAPER",
    "what": "Predicting reproductive-phase nutrient replenishment in Cannabis sativa L. via a transpiration-driven mass-bal",
    "reason": "newest PubMed (cultivation); Front Plant Sci"
   },
   {
-   "ts": "2026-10-29 22:05:38",
+   "ts": "2026-10-30 07:16:08",
    "agent": "social",
    "kind": "READ",
    "what": "X search (cached)",
-   "reason": "X API via x MCP (search_posts_all relevancy, search_news 168h); 4 reads; topics: sleep 4, anxiety 3, pain 2, migraine 1, PTSD 1, arthritis 1, nausea 1"
+   "reason": "Bluesky public search (top posts, 7-day window, 111 read this run) + Reddit top threads today; topics: anxiety 5, pain 4, PTSD 1, nightmares 1, sleep 1"
   }
  ],
  "source_status": {
@@ -3583,7 +3672,7 @@
    {
     "source": "PubMed newest (cultivation, 14 d)",
     "status": "ok",
-    "items": 7
+    "items": 6
    },
    {
     "source": "Marijuana Moment",

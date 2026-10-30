@@ -1,6 +1,6 @@
 # Cannabis Agent Terminal: Scientist report
 
-Generated 2026-10-29 22:05 EDT. Research summary, not medical advice. Talk to a doctor.
+Generated 2026-10-30 07:15 EDT. Research summary, not medical advice. Talk to a doctor.
 
 _Strain names are typical examples only; the same name can test very differently by grower and batch. Go by the lab COA (THC, CBD, minor cannabinoids, terpenes), not the name._
 
@@ -14,7 +14,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** THC acts on CB1 receptors in pain pathways of the spinal cord and brain, turning down pain signaling. The AHRQ review found comparable-ratio and high-THC products gave small pain gains while low-THC/high-CBD products may not help. Low-dose vaporized THC (1.29%) still beat placebo in neuropathic pain. Beta-caryophyllene is a terpene that binds CB2 (immune/inflammation) receptors and reduced neuropathic pain in mice without tolerance; that part is animal-only.
 - **Strains that typically express this profile:** Harlequin (CBD-leaning balanced), Cannatonic (balanced), OG Kush / GSC-type cuts (THC-dominant, often caryophyllene-forward) (typically; check the COA)
 - **Cautions:** Benefits are modest; Cochrane notes harms may outweigh benefits for some people. THC causes dizziness, sleepiness, impaired driving; start low. Interactions with opioids, sedatives, and blood thinners; tell your doctor.
-- **New PubMed papers, last 30 days:** 26
+- **New PubMed papers, last 30 days:** 25
 - **Citations:**
   - [SR] Chou et al. (2026). Cannabis-Based Products for Chronic Pain : An Updated Systematic Review. *Ann Intern Med*. PMID [41429020](https://pubmed.ncbi.nlm.nih.gov/41429020/). DOI [10.7326/ANNALS-25-03152](https://doi.org/10.7326/ANNALS-25-03152)
   - [SR] Mücke et al. (2018). Cannabis-based medicines for chronic neuropathic pain in adults. *Cochrane Database Syst Rev*. PMID [29513392](https://pubmed.ncbi.nlm.nih.gov/29513392/). DOI [10.1002/14651858.CD012182.pub2](https://doi.org/10.1002/14651858.CD012182.pub2)
@@ -80,7 +80,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** CBD does not work mainly through CB1; it calms over-excited neurons through several targets (e.g., GPR55, TRPV1, adenosine signaling). In trials, adding CBD cut convulsive seizures in Dravet and drop seizures in Lennox-Gastaut more than placebo, and reduced TSC-associated seizures (25 mg/kg had better safety than 50).
 - **Strains that typically express this profile:** ACDC (very high CBD), Charlotte's Web-type hemp (very high CBD), Ringo's Gift (high CBD) (typically; check the COA)
 - **Cautions:** Do not swap a prescribed anti-seizure drug for dispensary products; doses in trials were far higher and pharmaceutical-grade. Liver enzyme elevations seen with CBD, especially with valproate; drug interactions (e.g., clobazam). Store CBD oils vary widely in actual content.
-- **New PubMed papers, last 30 days:** 16
+- **New PubMed papers, last 30 days:** 15
 - **Citations:**
   - [RCT] Devinsky et al. (2017). Trial of Cannabidiol for Drug-Resistant Seizures in the Dravet Syndrome. *N Engl J Med*. PMID [28538134](https://pubmed.ncbi.nlm.nih.gov/28538134/). DOI [10.1056/NEJMoa1611618](https://doi.org/10.1056/NEJMoa1611618)
   - [RCT] Devinsky et al. (2018). Effect of Cannabidiol on Drop Seizures in the Lennox-Gastaut Syndrome. *N Engl J Med*. PMID [29768152](https://pubmed.ncbi.nlm.nih.gov/29768152/). DOI [10.1056/NEJMoa1714631](https://doi.org/10.1056/NEJMoa1714631)
@@ -186,7 +186,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** In the RCT, 6% THC + 11% CBD beat placebo for pain relief (67.2% vs 46.6%), pain freedom, and most-bothersome-symptom freedom at 2 hours, with benefit lasting to 24-48 hours. THC alone helped pain relief but not pain freedom. In a patient survey, a high-THC strain with dominant caryophyllene and myrcene (OG Shark) was most preferred; survey data only.
 - **Strains that typically express this profile:** Harlequin, Cannatonic, OG Shark (THC-dominant; survey favorite) (typically; check the COA)
 - **Cautions:** Frequent use of any acute headache treatment can drive more frequent headaches; discuss with your neurologist. THC impairs driving. Single trial; replication needed.
-- **New PubMed papers, last 30 days:** 4
+- **New PubMed papers, last 30 days:** 3
 - **Citations:**
   - [RCT] Schuster et al. (2026). Vaporized cannabis versus placebo for acute migraine: A randomized, double-blind, placebo-controlled crossover trial. *Headache*. PMID [41469488](https://pubmed.ncbi.nlm.nih.gov/41469488/). DOI [10.1111/head.70025](https://doi.org/10.1111/head.70025)
   - [HUMAN-OBS] Baron et al. (2018). Patterns of medicinal cannabis use, strain analysis, and substitution effect among patients with migraine, headache, arthritis, and chronic pain in a medicinal cannabis cohort. *J Headache Pain*. PMID [29797104](https://pubmed.ncbi.nlm.nih.gov/29797104/). DOI [10.1186/s10194-018-0862-2](https://doi.org/10.1186/s10194-018-0862-2)
