@@ -32,9 +32,13 @@ def iso(s,fmts=("%m/%d/%Y","%m-%d-%Y","%B %d, %Y","%b. %d, %Y","%b %d, %Y","%Y-%
         try: return dt.datetime.strptime(s,f).strftime("%Y-%m-%d")
         except ValueError: pass
     return ""
+def cut(s,n):
+    """trim to n chars; mark a cut with an ellipsis so truncated text is never shown as complete"""
+    s=(s or "").strip()
+    return s if len(s)<=n else s[:n-1].rstrip(" ,;:-—")+"…"
 def item(**k):
     k.setdefault("lot",""); k.setdefault("brand",""); k.setdefault("kind","recall"); k.setdefault("tier","thc")
-    k["product"]=(k.get("product") or "")[:160]; k["issue"]=(k.get("issue") or "")[:260]; k["lot"]=(k["lot"] or "")[:160]
+    k["product"]=cut(k.get("product"),160); k["issue"]=cut(k.get("issue"),260); k["lot"]=cut(k["lot"],160)
     return k
 CACHE=load("recalls_cache.json",{}) or {}
 def cached(url,fn,src):
