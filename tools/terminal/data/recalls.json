@@ -1,7 +1,7 @@
 {
  "agent": "Recall & Safety",
- "checked": "2026-10-30 13:20 EDT",
- "sources_ok": 10,
+ "checked": "2026-10-30 13:21 EDT",
+ "sources_ok": 11,
  "sources_total": 11,
  "sources": [
   {
@@ -72,9 +72,8 @@
    "source": "FDA",
    "name": "FDA enforcement reports (openFDA)",
    "url": "https://open.fda.gov/apis/food/enforcement/",
-   "status": "unavailable",
-   "error": "HTTP 500",
-   "kept": 7
+   "status": "ok",
+   "items": 1
   },
   {
    "source": "FDA-WL",
@@ -110,7 +109,7 @@
    "why": "DCP cannabis program URL returns 404"
   }
  ],
- "count": 151,
+ "count": 145,
  "items": [
   {
    "date": "2026-10-29",
@@ -163,19 +162,6 @@
    "kind": "voluntary recall",
    "tier": "thc",
    "src": "CA"
-  },
-  {
-   "date": "2026-10-14",
-   "state": "TX",
-   "agency": "FDA enforcement report (Class II, Ongoing)",
-   "product": "Sweet Sensi Elevated Edibles Hybrid Gum Drops - Passion Guava Kush 140mg THC.  Product is packaged in sealable & flexible gold, purple and black metallic plast\u2026",
-   "brand": "SWEET SENSI",
-   "issue": "Staphylococcus aureus detected in product.",
-   "lot": "Batch # 1811 UPC 850043378020",
-   "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22H-0020-2027%22",
-   "tier": "thc",
-   "kind": "FDA recall",
-   "src": "FDA"
   },
   {
    "date": "2026-10-13",
@@ -904,19 +890,6 @@
    "kind": "advisory",
    "tier": "thc",
    "src": "NV"
-  },
-  {
-   "date": "2025-10-01",
-   "state": "CO",
-   "agency": "FDA enforcement report (Class II, Terminated)",
-   "product": "Elderberry 20mg Gummies Brand Name: None - unlabeled bulk (private-label consignee) Generic Name: Dietary Supplement   Strength: 20mg CBD and 20mg D9 THC per g\u2026",
-   "brand": "Extract Labs, Inc.",
-   "issue": "Potential peanut protein cross-contact.",
-   "lot": "Lot: 25JD072107A EXP: 07/2027 Printed on bulk bag identifier adhesive",
-   "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22H-0622-2025%22",
-   "tier": "thc",
-   "kind": "FDA recall",
-   "src": "FDA"
   },
   {
    "date": "2025-09-12",
@@ -2022,60 +1995,8 @@
    "tier": "hemp",
    "kind": "FDA recall",
    "src": "FDA"
-  },
-  {
-   "date": "2023-11-22",
-   "state": "IA",
-   "agency": "FDA enforcement report (Class II, Completed)",
-   "product": "Full Spectrum Cold Pressed Hemp Oil Gummies, Fennel, 1.41 oz (4-count) and 8oz (15-count).",
-   "brand": "Tay's Sales and Distribution",
-   "issue": "Sub-ingredients not declared for sunflower butter.",
-   "lot": "Lot:  081321 Best by date: 08/23",
-   "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0418-2024%22",
-   "tier": "hemp",
-   "kind": "FDA recall",
-   "src": "FDA"
-  },
-  {
-   "date": "2023-11-22",
-   "state": "IA",
-   "agency": "FDA enforcement report (Class II, Completed)",
-   "product": "Full Spectrum Cold Pressed Hemp Oil Gummies, Blackberry, 1.41 oz (4-count) and 8oz (15-count).",
-   "brand": "Tay's Sales and Distribution",
-   "issue": "Sub-ingredients not declared for sunflower butter.",
-   "lot": "Lot:  081321 Best by date: 08/23",
-   "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0415-2024%22",
-   "tier": "hemp",
-   "kind": "FDA recall",
-   "src": "FDA"
-  },
-  {
-   "date": "2022-06-08",
-   "state": "FL",
-   "agency": "FDA enforcement report (Class II, Terminated)",
-   "product": "Cosmic Crunch Bites By Twisted, Delta 8 1000mg 25 mg per piece, 40 pieces 446g",
-   "brand": "TWISTED BRANDS LLC",
-   "issue": "Undeclared soy lecithin and coconut oil.",
-   "lot": "Batch # CC-150071719 (located on the back of the packaging just under the nutrition facts)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1135-2022%22",
-   "tier": "hemp",
-   "kind": "FDA recall",
-   "src": "FDA"
-  },
-  {
-   "date": "2019-02-27",
-   "state": "FL",
-   "agency": "FDA enforcement report (Class II, Terminated)",
-   "product": "CTFO Pain Relief Oral Spray with pure CBD Hemp Oil isolate Dietary Supplement, 1oz/30ml.",
-   "brand": "Nutrafuels, Inc.",
-   "issue": "Recalling firm's consignee conducted third party micro testing showing microbial contamination in specific lots of the following products: CTFO Sleep Support Oral Spray (Aspergillus), CTFO Pain Relief Oral Spray (total aerobic bacteria), and CTFO Weight Loss\u2026",
-   "lot": "Lot 8180141  Exp: 7/20",
-   "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1046-2019%22",
-   "tier": "hemp",
-   "kind": "FDA recall",
-   "src": "FDA"
   }
  ],
  "what_to_do": "If you have a product that matches a listed batch/lot, stop using it and follow the instructions in the official notice (usually return it to the retailer or dispose of it). Check the official link for exact batch numbers.",
- "generated": "2026-10-30 13:20 EDT"
+ "generated": "2026-10-30 13:21 EDT"
 }
