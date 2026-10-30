@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-10-30T10:38:30-0400",
- "generated_ts": 1793371110,
+ "generated": "2026-10-30T11:28:21-0400",
+ "generated_ts": 1793374102,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -33,12 +33,27 @@
   },
   {
    "source": "Google News: intl cannabis",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "items": 0
   }
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "hempimportswouldfacenewtariffsandtestingrequirementsundercon",
+   "title": "Hemp Imports Would Face New Tariffs And Testing Requirements Under Congressional Bill",
+   "link": "https://www.marijuanamoment.net/hemp-imports-would-face-new-tariffs-and-testing-requirements-under-congressional-bill/",
+   "source": "Marijuana Moment",
+   "category": "US states",
+   "is_law": true,
+   "states": [
+    "New"
+   ],
+   "published": "2026-10-30T11:27:55-0400",
+   "published_ts": 1793374075.0,
+   "first_seen": "2026-10-30T11:28:21-0400",
+   "first_seen_ts": 1793374102
+  },
   {
    "id": "newhampshireshouldkeepmarijuanaillegalevenasneighboringstate",
    "title": "New Hampshire Should Keep Marijuana Illegal Even As Neighboring States Generate Tax Revenue From It, GOP Governor Says",

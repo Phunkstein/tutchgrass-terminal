@@ -34,11 +34,11 @@
   {
    "source": "Google News: intl cannabis",
    "url": "https://news.google.com/rss/search?q=cannabis+(Germany+OR+Canada+OR+Thailand+OR+Europe+OR+Australia+OR+UK)+when:7d&hl=en-US&gl=US&ceid=US:en",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 252"
   }
  ],
- "total": 84,
+ "total": 72,
  "by_category": {
   "US federal": [
    {
@@ -76,19 +76,6 @@
     "is_law": true,
     "states": [
      "New"
-    ]
-   },
-   {
-    "source": "Marijuana Moment",
-    "title": "GOP Senators Urge USPS Not To Deliver Medical Marijuana Through The Mail Even Though Trump Federally Rescheduled It",
-    "link": "https://www.marijuanamoment.net/gop-senators-urge-usps-not-to-deliver-medical-marijuana-through-the-mail-even-though-trump-federally-rescheduled-it/",
-    "summary": "A pair of Republican senators are pushing the U.S. Postal Service (USPS) not to participate in a new plan approved by Georgia state officials that allows medical marijuana to be delivered directly to patients\u2014including via mail carriers and private companies l",
-    "ts": 1793274389.0,
-    "date": "2026-10-29 07:46",
-    "category": "US federal",
-    "is_law": true,
-    "states": [
-     "Georgia"
     ]
    },
    {
@@ -137,9 +124,35 @@
     "category": "US federal",
     "is_law": true,
     "states": []
+   },
+   {
+    "source": "MJBizDaily",
+    "title": "Trump Justice Department indicts prominent Virginia lawmaker for selling marijuana at \u2018hemp\u2019 shop",
+    "link": "https://mjbizdaily.com/news/trump-justice-department-indicts-prominent-virginia-lawmaker-for-selling-marijuana-at-hemp-shop/618831/",
+    "summary": "The Trump Justice Department has charged a Virginia state lawmaker and six others on federal drug charges stemming from an allegedly illegal hemp THC operation. Trump Justice Department indicts prominent Virginia lawmaker for selling marijuana at \u2018hemp\u2019 shop i",
+    "ts": 1792693831.0,
+    "date": "2026-10-22 14:30",
+    "category": "US federal",
+    "is_law": true,
+    "states": [
+     "Virginia"
+    ]
    }
   ],
   "US states": [
+   {
+    "source": "Marijuana Moment",
+    "title": "Hemp Imports Would Face New Tariffs And Testing Requirements Under Congressional Bill",
+    "link": "https://www.marijuanamoment.net/hemp-imports-would-face-new-tariffs-and-testing-requirements-under-congressional-bill/",
+    "summary": "A Democratic congresswoman has filed a new bill that would impose a substantial tariff on hemp products being imported into the U.S. from China while also adding new testing requirements for cannabinoid products coming into the country. The Protecting American",
+    "ts": 1793374075.0,
+    "date": "2026-10-30 11:27",
+    "category": "US states",
+    "is_law": true,
+    "states": [
+     "New"
+    ]
+   },
    {
     "source": "Marijuana Moment",
     "title": "New Hampshire Should Keep Marijuana Illegal Even As Neighboring States Generate Tax Revenue From It, GOP Governor Says",
@@ -231,19 +244,6 @@
     "states": [
      "Iowa"
     ]
-   },
-   {
-    "source": "Marijuana Moment",
-    "title": "Michigan GOP Lieutenant Governor Candidate Files Bill To Suspend Marijuana Tax Increase",
-    "link": "https://www.marijuanamoment.net/michigan-gop-lieutenant-governor-candidate-files-bill-to-suspend-marijuana-tax-increase/",
-    "summary": "The Republican nominee to be Michigan\u2019s next lieutenant governor has filed a bill in the state legislature that would suspend a recently enacted marijuana tax increase. Rep. Jay DeBoyer (R) introduced legislation this week that would make it so that a new 24 p",
-    "ts": 1793279723.0,
-    "date": "2026-10-29 09:15",
-    "category": "US states",
-    "is_law": true,
-    "states": [
-     "Michigan"
-    ]
    }
   ],
   "International": [
@@ -256,28 +256,6 @@
     "date": "2026-10-30 09:24",
     "category": "International",
     "is_law": false,
-    "states": []
-   },
-   {
-    "source": "Google News: intl cannabis",
-    "title": "Sustained Relief, Fewer Opioids for Chronic Pain With Cannabis - NORML",
-    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQY08yV3Z0SzJHNFJKZXZsNEFudXgxTjdDUFk3QXpkdmk3dmpIXzF1R0ZCcHFPN0JCc0h2NHJFYmZEOWJrNEhWN3p4NlVfRjUyNmdibXRFenZ6VWhjTWphM243OGpLZHQ5R245T2hRYXhPZGdtSWVEX2xQVWJRb2E4UHVacm91bENpd2lBZG95SUt4bldzdEdCREY5Yl9NVjNjMEI1OEVsb3BWMFRzS2IxZUV1eW1weGh6dXg4RkZRb19rYnN2SjdRNUFxTGNGaDlSRWVkMnB5OHQ2TXFERHo4SXRNMA?oc=5",
-    "summary": "",
-    "ts": 1793287714.0,
-    "date": "2026-10-29 11:28",
-    "category": "International",
-    "is_law": false,
-    "states": []
-   },
-   {
-    "source": "Google News: intl cannabis",
-    "title": "Montu Says Cannabis Posts Had No Advertising Intent - Law360",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQai1la2Nuam5RYmRMLUtjUTc1eXM5WkVUVzcyYldlQk9BaFh6TkJTNHc0XzlHYUgzNkdsN3Z0cmR3Q3FHZXFfekl4dkthejBEbnYzZEtzMXc2b2dDWXdtRS1SX2FGR2RxSWVoZlFJYXF1QW5LUGpDQ2g0WmhpREJqNDhmTEVveXFwLUsyLXg3VTBnelYtd0HSAVhBVV95cUxPWXVjTE1Vbk9sc1JiMUZLY083ckpqMFNUN1kyYmRxaXFBZXQ1VzJNenlzelAzQmQ3QkRkYzdmOGRMdGVaalJEczBjNGJTM3hSMV9nazZ6TDF2?oc=5",
-    "summary": "",
-    "ts": 1793275033.0,
-    "date": "2026-10-29 07:57",
-    "category": "International",
-    "is_law": true,
     "states": []
    },
    {
@@ -303,17 +281,6 @@
     "states": []
    },
    {
-    "source": "Google News: intl cannabis",
-    "title": "Record amounts of Canadian cannabis seized as smuggling to Europe soars - CBC",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaXkxNU1JRV9uczQ5YWpKblBSNW0yNHRRdVY1WUE2c2Foal9MUzFtNldYRXZCT1RqUzMxTE9DNk5vZGt0QjYyOE9EeldiWWFIM2JtYlJXS2JVUzBtVlJ4S0tYSWFwVHZva2RnNDlobTFFeWl4bmdLUGk4RWwxdXo1OHRqdUVDTERtMVFuU2JuZVZrQkJxdDR3c3VrSHZaRVJFWW54LTlR?oc=5",
-    "summary": "",
-    "ts": 1793222769.0,
-    "date": "2026-10-28 17:26",
-    "category": "International",
-    "is_law": false,
-    "states": []
-   },
-   {
     "source": "StratCann (Canada)",
     "title": "Declining Cannabis Use and Growing Legal Market Adoption in Quebec",
     "link": "https://stratcann.com/news/declining-cannabis-use-and-growing-legal-market-adoption-in-quebec/",
@@ -325,14 +292,47 @@
     "states": []
    },
    {
-    "source": "Google News: intl cannabis",
-    "title": "Neurologic Signs Common in Children After Cannabis Exposure - Medscape",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVEFGWXI0V2JrUU8yOTdFQURLY096d3VkdTJ0ZFM5T0xqUElSZlVWLTQ3NGFaeXJTaWRvMnI2S3RvczZiaWdxU0tRa0NYM2lyMngwNWdnbUlwT09OV0hYUFVBUFU4anNmTUh3ZHBJU1pmTVRJZDBybXJkRlJoZ2I0bDhJNnVlckhnRFkxWjY3dDlMd1lBUXUtM0NwcVFXdUFZYl8wWEZIc3lqVUk?oc=5",
-    "summary": "",
-    "ts": 1793188949.0,
-    "date": "2026-10-28 08:02",
+    "source": "Business of Cannabis (intl)",
+    "title": "German Cannabis Pioneer SynBiotic SE Files For Insolvency",
+    "link": "https://businessofcannabis.com/german-cannabis-pioneer-synbiotic-se-files-for-insolvency/",
+    "summary": "SynBiotic SE, once one of the largest and most promising cannabis companies in Germany, has announced plans to file for insolvency and had its shares suspended on the Xetra and Frankfurt stock exchanges. It follows a year in which it had already lost six of it",
+    "ts": 1793182123.0,
+    "date": "2026-10-28 06:08",
     "category": "International",
     "is_law": false,
+    "states": []
+   },
+   {
+    "source": "StratCann (Canada)",
+    "title": "Navigating International Markets as a Canadian Cannabis Grower",
+    "link": "https://stratcann.com/news/navigating-international-markets-as-a-canadian-cannabis-grower/",
+    "summary": "Transforming international interest into dependable, long-term business requires thorough preparation, commercial diligence, and strict adherence to destination market regulations. The post Navigating International Markets as a Canadian Cannabis Grower appeare",
+    "ts": 1793133670.0,
+    "date": "2026-10-27 16:41",
+    "category": "International",
+    "is_law": true,
+    "states": []
+   },
+   {
+    "source": "StratCann (Canada)",
+    "title": "SNDL\u2019s Record Retail Margins Offset by Impairments and Net Loss in Q3 2026",
+    "link": "https://stratcann.com/financials/sndls-record-retail-margins-offset-by-impairments-and-net-loss-in-q3-2026/",
+    "summary": "SNDL Inc. reported net revenue of $238 million in the three months ended September 30 (Q3 2026), gross profit of $57.9 million, and a net... The post SNDL\u2019s Record Retail Margins Offset by Impairments and Net Loss in Q3 2026 appeared first on StratCann .",
+    "ts": 1793110816.0,
+    "date": "2026-10-27 10:20",
+    "category": "International",
+    "is_law": false,
+    "states": []
+   },
+   {
+    "source": "Business of Cannabis (intl)",
+    "title": "Does Your Cannabis Prescription Match the Name on the Label?",
+    "link": "https://businessofcannabis.com/does-your-cannabis-prescription-match-the-name-on-the-label/",
+    "summary": "Medical cannabis\u2019s cultivar names have, over the past two years, become an increasingly controversial part of the European prescription framework. In the UK, the Medicines and Healthcare Products Regulatory Agency (MHRA) has been quietly raising concerns with ",
+    "ts": 1793095420.0,
+    "date": "2026-10-27 06:03",
+    "category": "International",
+    "is_law": true,
     "states": []
    }
   ],
@@ -428,6 +428,19 @@
   ]
  },
  "latest": [
+  {
+   "source": "Marijuana Moment",
+   "title": "Hemp Imports Would Face New Tariffs And Testing Requirements Under Congressional Bill",
+   "link": "https://www.marijuanamoment.net/hemp-imports-would-face-new-tariffs-and-testing-requirements-under-congressional-bill/",
+   "summary": "A Democratic congresswoman has filed a new bill that would impose a substantial tariff on hemp products being imported into the U.S. from China while also adding new testing requirements for cannabinoid products coming into the country. The Protecting American",
+   "ts": 1793374075.0,
+   "date": "2026-10-30 11:27",
+   "category": "US states",
+   "is_law": true,
+   "states": [
+    "New"
+   ]
+  },
   {
    "source": "Marijuana Moment",
    "title": "New Hampshire Should Keep Marijuana Illegal Even As Neighboring States Generate Tax Revenue From It, GOP Governor Says",
@@ -578,17 +591,6 @@
    ]
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "Sustained Relief, Fewer Opioids for Chronic Pain With Cannabis - NORML",
-   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQY08yV3Z0SzJHNFJKZXZsNEFudXgxTjdDUFk3QXpkdmk3dmpIXzF1R0ZCcHFPN0JCc0h2NHJFYmZEOWJrNEhWN3p4NlVfRjUyNmdibXRFenZ6VWhjTWphM243OGpLZHQ5R245T2hRYXhPZGdtSWVEX2xQVWJRb2E4UHVacm91bENpd2lBZG95SUt4bldzdEdCREY5Yl9NVjNjMEI1OEVsb3BWMFRzS2IxZUV1eW1weGh6dXg4RkZRb19rYnN2SjdRNUFxTGNGaDlSRWVkMnB5OHQ2TXFERHo4SXRNMA?oc=5",
-   "summary": "",
-   "ts": 1793287714.0,
-   "date": "2026-10-29 11:28",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Marijuana Moment",
    "title": "Iowa GOP Governor Candidate Has Family Members Who Benefit From Medical Marijuana, But He Opposes \u2018Full Legalization\u2019",
    "link": "https://www.marijuanamoment.net/iowa-gop-governor-candidate-has-family-members-who-benefit-from-medical-marijuana-but-he-opposes-full-legalization/",
@@ -628,30 +630,6 @@
    ]
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "Montu Says Cannabis Posts Had No Advertising Intent - Law360",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQai1la2Nuam5RYmRMLUtjUTc1eXM5WkVUVzcyYldlQk9BaFh6TkJTNHc0XzlHYUgzNkdsN3Z0cmR3Q3FHZXFfekl4dkthejBEbnYzZEtzMXc2b2dDWXdtRS1SX2FGR2RxSWVoZlFJYXF1QW5LUGpDQ2g0WmhpREJqNDhmTEVveXFwLUsyLXg3VTBnelYtd0HSAVhBVV95cUxPWXVjTE1Vbk9sc1JiMUZLY083ckpqMFNUN1kyYmRxaXFBZXQ1VzJNenlzelAzQmQ3QkRkYzdmOGRMdGVaalJEczBjNGJTM3hSMV9nazZ6TDF2?oc=5",
-   "summary": "",
-   "ts": 1793275033.0,
-   "date": "2026-10-29 07:57",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
-  {
-   "source": "Marijuana Moment",
-   "title": "GOP Senators Urge USPS Not To Deliver Medical Marijuana Through The Mail Even Though Trump Federally Rescheduled It",
-   "link": "https://www.marijuanamoment.net/gop-senators-urge-usps-not-to-deliver-medical-marijuana-through-the-mail-even-though-trump-federally-rescheduled-it/",
-   "summary": "A pair of Republican senators are pushing the U.S. Postal Service (USPS) not to participate in a new plan approved by Georgia state officials that allows medical marijuana to be delivered directly to patients\u2014including via mail carriers and private companies l",
-   "ts": 1793274389.0,
-   "date": "2026-10-29 07:46",
-   "category": "US federal",
-   "is_law": true,
-   "states": [
-    "Georgia"
-   ]
-  },
-  {
    "source": "Business of Cannabis (intl)",
    "title": "Whole Hemp Plant Could Soon Be Recognised as Agricultural Crop in the EU, but States Will Keep Power to Criminalise",
    "link": "https://businessofcannabis.com/whole-hemp-plant-could-soon-be-recognised-as-agricultural-crop-in-the-eu-but-states-will-keep-power-to-criminalise/",
@@ -687,17 +665,6 @@
    ]
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "Record amounts of Canadian cannabis seized as smuggling to Europe soars - CBC",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaXkxNU1JRV9uczQ5YWpKblBSNW0yNHRRdVY1WUE2c2Foal9MUzFtNldYRXZCT1RqUzMxTE9DNk5vZGt0QjYyOE9EeldiWWFIM2JtYlJXS2JVUzBtVlJ4S0tYSWFwVHZva2RnNDlobTFFeWl4bmdLUGk4RWwxdXo1OHRqdUVDTERtMVFuU2JuZVZrQkJxdDR3c3VrSHZaRVJFWW54LTlR?oc=5",
-   "summary": "",
-   "ts": 1793222769.0,
-   "date": "2026-10-28 17:26",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "StratCann (Canada)",
    "title": "Declining Cannabis Use and Growing Legal Market Adoption in Quebec",
    "link": "https://stratcann.com/news/declining-cannabis-use-and-growing-legal-market-adoption-in-quebec/",
@@ -716,17 +683,6 @@
    "ts": 1793211568.0,
    "date": "2026-10-28 14:19",
    "category": "US federal",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Neurologic Signs Common in Children After Cannabis Exposure - Medscape",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVEFGWXI0V2JrUU8yOTdFQURLY096d3VkdTJ0ZFM5T0xqUElSZlVWLTQ3NGFaeXJTaWRvMnI2S3RvczZiaWdxU0tRa0NYM2lyMngwNWdnbUlwT09OV0hYUFVBUFU4anNmTUh3ZHBJU1pmTVRJZDBybXJkRlJoZ2I0bDhJNnVlckhnRFkxWjY3dDlMd1lBUXUtM0NwcVFXdUFZYl8wWEZIc3lqVUk?oc=5",
-   "summary": "",
-   "ts": 1793188949.0,
-   "date": "2026-10-28 08:02",
-   "category": "International",
    "is_law": false,
    "states": []
   },
@@ -789,9 +745,65 @@
    "states": [
     "Nevada"
    ]
+  },
+  {
+   "source": "New Cannabis Ventures",
+   "title": "Financial Advisors Can Use Claude",
+   "link": "https://www.newcannabisventures.com/financial-advisors-can-use-claude/",
+   "summary": "Claude for Financial Advisors Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor. Today we\u2019re releasing Claude for F",
+   "ts": 1793134015.0,
+   "date": "2026-10-27 16:46",
+   "category": "Industry",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "StratCann (Canada)",
+   "title": "Navigating International Markets as a Canadian Cannabis Grower",
+   "link": "https://stratcann.com/news/navigating-international-markets-as-a-canadian-cannabis-grower/",
+   "summary": "Transforming international interest into dependable, long-term business requires thorough preparation, commercial diligence, and strict adherence to destination market regulations. The post Navigating International Markets as a Canadian Cannabis Grower appeare",
+   "ts": 1793133670.0,
+   "date": "2026-10-27 16:41",
+   "category": "International",
+   "is_law": true,
+   "states": []
+  },
+  {
+   "source": "StratCann (Canada)",
+   "title": "SNDL\u2019s Record Retail Margins Offset by Impairments and Net Loss in Q3 2026",
+   "link": "https://stratcann.com/financials/sndls-record-retail-margins-offset-by-impairments-and-net-loss-in-q3-2026/",
+   "summary": "SNDL Inc. reported net revenue of $238 million in the three months ended September 30 (Q3 2026), gross profit of $57.9 million, and a net... The post SNDL\u2019s Record Retail Margins Offset by Impairments and Net Loss in Q3 2026 appeared first on StratCann .",
+   "ts": 1793110816.0,
+   "date": "2026-10-27 10:20",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "Business of Cannabis (intl)",
+   "title": "Does Your Cannabis Prescription Match the Name on the Label?",
+   "link": "https://businessofcannabis.com/does-your-cannabis-prescription-match-the-name-on-the-label/",
+   "summary": "Medical cannabis\u2019s cultivar names have, over the past two years, become an increasingly controversial part of the European prescription framework. In the UK, the Medicines and Healthcare Products Regulatory Agency (MHRA) has been quietly raising concerns with ",
+   "ts": 1793095420.0,
+   "date": "2026-10-27 06:03",
+   "category": "International",
+   "is_law": true,
+   "states": []
   }
  ],
  "all": [
+  {
+   "source": "Marijuana Moment",
+   "title": "Hemp Imports Would Face New Tariffs And Testing Requirements Under Congressional Bill",
+   "link": "https://www.marijuanamoment.net/hemp-imports-would-face-new-tariffs-and-testing-requirements-under-congressional-bill/",
+   "ts": 1793374075.0,
+   "date": "2026-10-30 11:27",
+   "category": "US states",
+   "is_law": true,
+   "states": [
+    "New"
+   ]
+  },
   {
    "source": "Marijuana Moment",
    "title": "New Hampshire Should Keep Marijuana Illegal Even As Neighboring States Generate Tax Revenue From It, GOP Governor Says",
@@ -930,16 +942,6 @@
    ]
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "Sustained Relief, Fewer Opioids for Chronic Pain With Cannabis - NORML",
-   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQY08yV3Z0SzJHNFJKZXZsNEFudXgxTjdDUFk3QXpkdmk3dmpIXzF1R0ZCcHFPN0JCc0h2NHJFYmZEOWJrNEhWN3p4NlVfRjUyNmdibXRFenZ6VWhjTWphM243OGpLZHQ5R245T2hRYXhPZGdtSWVEX2xQVWJRb2E4UHVacm91bENpd2lBZG95SUt4bldzdEdCREY5Yl9NVjNjMEI1OEVsb3BWMFRzS2IxZUV1eW1weGh6dXg4RkZRb19rYnN2SjdRNUFxTGNGaDlSRWVkMnB5OHQ2TXFERHo4SXRNMA?oc=5",
-   "ts": 1793287714.0,
-   "date": "2026-10-29 11:28",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Marijuana Moment",
    "title": "Iowa GOP Governor Candidate Has Family Members Who Benefit From Medical Marijuana, But He Opposes \u2018Full Legalization\u2019",
    "link": "https://www.marijuanamoment.net/iowa-gop-governor-candidate-has-family-members-who-benefit-from-medical-marijuana-but-he-opposes-full-legalization/",
@@ -976,28 +978,6 @@
    ]
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "Montu Says Cannabis Posts Had No Advertising Intent - Law360",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQai1la2Nuam5RYmRMLUtjUTc1eXM5WkVUVzcyYldlQk9BaFh6TkJTNHc0XzlHYUgzNkdsN3Z0cmR3Q3FHZXFfekl4dkthejBEbnYzZEtzMXc2b2dDWXdtRS1SX2FGR2RxSWVoZlFJYXF1QW5LUGpDQ2g0WmhpREJqNDhmTEVveXFwLUsyLXg3VTBnelYtd0HSAVhBVV95cUxPWXVjTE1Vbk9sc1JiMUZLY083ckpqMFNUN1kyYmRxaXFBZXQ1VzJNenlzelAzQmQ3QkRkYzdmOGRMdGVaalJEczBjNGJTM3hSMV9nazZ6TDF2?oc=5",
-   "ts": 1793275033.0,
-   "date": "2026-10-29 07:57",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
-  {
-   "source": "Marijuana Moment",
-   "title": "GOP Senators Urge USPS Not To Deliver Medical Marijuana Through The Mail Even Though Trump Federally Rescheduled It",
-   "link": "https://www.marijuanamoment.net/gop-senators-urge-usps-not-to-deliver-medical-marijuana-through-the-mail-even-though-trump-federally-rescheduled-it/",
-   "ts": 1793274389.0,
-   "date": "2026-10-29 07:46",
-   "category": "US federal",
-   "is_law": true,
-   "states": [
-    "Georgia"
-   ]
-  },
-  {
    "source": "Business of Cannabis (intl)",
    "title": "Whole Hemp Plant Could Soon Be Recognised as Agricultural Crop in the EU, but States Will Keep Power to Criminalise",
    "link": "https://businessofcannabis.com/whole-hemp-plant-could-soon-be-recognised-as-agricultural-crop-in-the-eu-but-states-will-keep-power-to-criminalise/",
@@ -1030,16 +1010,6 @@
    ]
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "Record amounts of Canadian cannabis seized as smuggling to Europe soars - CBC",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaXkxNU1JRV9uczQ5YWpKblBSNW0yNHRRdVY1WUE2c2Foal9MUzFtNldYRXZCT1RqUzMxTE9DNk5vZGt0QjYyOE9EeldiWWFIM2JtYlJXS2JVUzBtVlJ4S0tYSWFwVHZva2RnNDlobTFFeWl4bmdLUGk4RWwxdXo1OHRqdUVDTERtMVFuU2JuZVZrQkJxdDR3c3VrSHZaRVJFWW54LTlR?oc=5",
-   "ts": 1793222769.0,
-   "date": "2026-10-28 17:26",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "StratCann (Canada)",
    "title": "Declining Cannabis Use and Growing Legal Market Adoption in Quebec",
    "link": "https://stratcann.com/news/declining-cannabis-use-and-growing-legal-market-adoption-in-quebec/",
@@ -1056,16 +1026,6 @@
    "ts": 1793211568.0,
    "date": "2026-10-28 14:19",
    "category": "US federal",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Neurologic Signs Common in Children After Cannabis Exposure - Medscape",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVEFGWXI0V2JrUU8yOTdFQURLY096d3VkdTJ0ZFM5T0xqUElSZlVWLTQ3NGFaeXJTaWRvMnI2S3RvczZiaWdxU0tRa0NYM2lyMngwNWdnbUlwT09OV0hYUFVBUFU4anNmTUh3ZHBJU1pmTVRJZDBybXJkRlJoZ2I0bDhJNnVlckhnRFkxWjY3dDlMd1lBUXUtM0NwcVFXdUFZYl8wWEZIc3lqVUk?oc=5",
-   "ts": 1793188949.0,
-   "date": "2026-10-28 08:02",
-   "category": "International",
    "is_law": false,
    "states": []
   },
@@ -1145,51 +1105,11 @@
    "states": []
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "How Popular Are CBD Flowers In Germany? - International Cannabis Business Conference",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9fWEo4eXVEWW1MeTl6WGVadGxhQ3psVW93VFRoMFgtc2RUWEc2M2V1MWxDTHFQSnhyc0hSaU1IOEZFNmZZZ1B5eld2YXp1TG9jR0hOaVNUSXJlRGtVTmFweGJOT1F1QVJPTG5hRU13RGYtODRsZTZ3?oc=5",
-   "ts": 1793123292.0,
-   "date": "2026-10-27 13:48",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Do more cannabis stores near schools mean more teens use cannabis? Our research suggests the answer is complicated - The Conversation",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNdE1kQXBabG1PcUhGeGtKUTA4Ml92X2pUMmg3U3ZRMlFnRXVkRDlnSDNqVWQwUlFkb09DUTJoRDVsZFBxaS0yNlV0UHhVSkxvd3MydXZTdDI2bXdiWXQxRkJOdHpuWE05WExqbU5kTU1qeURxcmQ0akd1NGhqYzlSLXJlNk11ZTJsa0stdFpkNXB6cEV4MllhZ0lHdGlVMGVDS2JGeHNqYVNUbmZzVzZCZVB3QW9laElmVEZUTUhzMTVOeGxxaWhDZ0ZCdmEtcmRDY1lMOE9ta1paOThUQ0RNVk5n?oc=5",
-   "ts": 1793117442.0,
-   "date": "2026-10-27 12:10",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "StratCann (Canada)",
    "title": "SNDL\u2019s Record Retail Margins Offset by Impairments and Net Loss in Q3 2026",
    "link": "https://stratcann.com/financials/sndls-record-retail-margins-offset-by-impairments-and-net-loss-in-q3-2026/",
    "ts": 1793110816.0,
    "date": "2026-10-27 10:20",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Bloomwell Co-Founder to Join Frankfurt Debate on Online Cannabis Prescribing - cannabishealthnews.co.uk",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQekRTN1ltUjAyckpJM2pWOWVHWWZWQ3ZVSUhpaDhSSkFPSmc4MVEyUGN4NzJZNXhQZUR4WkZnYVY3ME5sMEU3c3dENW9Cd09sUGdMUE04ZU5oRTY5VDJad25BMW9KRFdSNWc1R0cxaWJlUUQ0SGE1ZDI3ZEpndVZZQ0RsTlI2MzBsMnpmY25tVGRtV2V3QklVekdZX0UyTkp1ZkhESTkxaHlpM28tS2lkT2hWRHFIY2Y5QjNiTkZ3?oc=5",
-   "ts": 1793103906.0,
-   "date": "2026-10-27 08:25",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Aurora Cannabis Inc. (ACB.TO) stock price, news, quote and history - Yahoo Finance Australia",
-   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9WaWxmbkE1UzlOMkdMWlhLWHZua3RuTVFRMFRralhoZm42UGRCTlZDajFsVVUxanJ1Smc0OTlZeDFzN25JcUNQWDV5aFg2Sk1XVlJPYw?oc=5",
-   "ts": 1793096873.0,
-   "date": "2026-10-27 06:27",
    "category": "International",
    "is_law": false,
    "states": []
@@ -1249,26 +1169,6 @@
    "states": []
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "Exclusive: Rapper Blade Brown Moves Into Medical Cannabis As Mamedica Investor - Complex",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQS3Z4U1NFSDBIZHB5NDNrbXBLOVpSLVB4Y0x6emtnTEw5RTJWc2ZSZDI2UkhZM1RxY3Z5V1UxYkE1UldpbDBTT0JRam1WR2NUbVJQQ2x5RmZnYXNFd082S29RcGdOQ2tleGd3UjZUQTR6VUVLLV9sMXBFX015OWY4ejNYOVBwQW5LcG5aNHk4SnFrV054TWtHd3RBb1NNdzM1YTJaTkNiSDFqZHQ5QmdyYkRB?oc=5",
-   "ts": 1793028090.0,
-   "date": "2026-10-26 11:21",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Legal Medical Cannabis Means Better, Not Weaker, Health Protection - Business of Cannabis",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQa3ViR3h4cUtBSmt2Q2NKdmxlaWdSNkdrYXNOTExjeUR1d1Uta3Z2YUhIekZTUTJSY0FxUmZGeldhbng1QU1sQlF6Y3pNb1hjWUhaLU1abmF5VUdabkdyZkZEdDJqNWxfWmtxY0w2MlEtU0hwcG9GWktBWVpmdzJlMUJBUjVOeEtBM3FzR05ucjlhU0hoSi1VY2ZkTG8?oc=5",
-   "ts": 1793013409.0,
-   "date": "2026-10-26 07:16",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Business of Cannabis (intl)",
    "title": "Legal Medical Cannabis Means Better, Not Weaker, Health Protection",
    "link": "https://businessofcannabis.com/legal-medical-cannabis-means-better-not-weaker-health-protection/",
@@ -1276,16 +1176,6 @@
    "date": "2026-10-26 07:12",
    "category": "US federal",
    "is_law": true,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Thailand targets global cannabis, hemp and kratom market with higher standards - Asia News Network",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQc1g4SHp5Yk9QazlsUk5kT1FDbGhtc2NqQmRVaTBIZ3pTVE1HU0ZKakJMOEpVUG5tbWlZY0FpNVZNMG5VX05oS194OUJtenVFTnBYdldMWG9YdDBZTzZleGlpdGQ5VURUV1VDM201UmlaNzBLWjRFX0ZIMWpqXzM4ZW11REFGaUE0RjNvblBGT09oWWstWFdZeTZxT0dzTVJwUkFGTkh3?oc=5",
-   "ts": 1792977855.0,
-   "date": "2026-10-25 21:24",
-   "category": "International",
-   "is_law": false,
    "states": []
   },
   {
@@ -1304,16 +1194,6 @@
    "link": "https://stratcann.com/news/week-in-weed-october-24-2026/",
    "ts": 1792840800.0,
    "date": "2026-10-24 07:20",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Canada Cannabis Sales Reach C$520.4M in August 2026 - Cannabis Aficionado",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBnUU9fb0hwbURxMlJjbGEzM0FPWUJxRGpVbFVoaXJReXVBSGdSUGs5SlJnRHdRTENMbHpKRWZwbU9mdlQ5ZVc4Z2xKWmFSRTBReEdJdHVMWTMwbWlfRGZJNmdKSHE2eVJtelBXZVdnR2s3THdSVm5MNGdteWo?oc=5",
-   "ts": 1792814708.0,
-   "date": "2026-10-24 00:05",
    "category": "International",
    "is_law": false,
    "states": []
@@ -1699,5 +1579,5 @@
    "states": []
   }
  ],
- "generated": "2026-10-30 10:38 EDT"
+ "generated": "2026-10-30 11:28 EDT"
 }
