@@ -53,6 +53,14 @@ if NS and R:
         for c in S["scientist"]["conditions"]:
             ds=[NS["newest"].get(k) for k,v in R["conditions"].items() if c["id"] in v.get("background",[])]
             ds=[x for x in ds if x]; c["last_updated"]=max(ds) if ds else None; c["checked"]=NS["generated"]
+# ---- Recall & Safety (agents/recalls.py, own workflow agents-recalls.yml): slim copy for the home tab
+RC=J("data/recalls.json")
+if RC and RC.get("items"):
+    K=("date","state","agency","product","brand","issue","lot","url","kind","tier","src")
+    th=[x for x in RC["items"] if x.get("tier")=="thc"][:80]; hp=[x for x in RC["items"] if x.get("tier")!="thc"][:20]
+    out["recalls"]=dict(generated=RC.get("generated"),checked=RC.get("checked"),count=RC.get("count"),sources_ok=RC.get("sources_ok"),
+        sources_total=RC.get("sources_total"),sources=[{k:v for k,v in x.items() if k in ("source","name","url","status","items","error","note")} for x in RC.get("sources",[])],
+        not_covered=RC.get("not_covered",[]),what_to_do=RC.get("what_to_do"),items=[{k:x.get(k,"") for k in K} for x in th+hp])
 # ---- Dec 11, 2026 federal hemp THC rule tracker (CRS IF13136 / IN12620)
 out["dec11"]=dict(deadline="2026-12-11T00:00:00-05:00",synthetic="2026-11-12T00:00:00-05:00",
     headline="Max 0.4 mg total THC per container for final hemp products.",

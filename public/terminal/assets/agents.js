@@ -35,6 +35,11 @@ const R=[
    const nb=b&&b.items?b.items.filter(i=>now()-i.first_seen_ts<6*H).length:0;
    return{ts,state:st(ts,26*H,ok>0),doing:nb?`${nb} new stories in 6 h`:`Sorted ${N.total} stories`,src:`${ok}/${N.sources.length} RSS feeds ok + Cannabis Health News (UK)`,
     log:[`${N.total} stories from ${ok}/${N.sources.length} feeds`,Object.entries(N.by_category).map(([k,v])=>k+' '+v.length).join(' · ')+' shown',...(b&&b.items?b.items.slice(0,2).map(i=>`New ${clock(i.first_seen_ts)}: ${i.title.slice(0,80)}`):[])]}}},
+ {id:'recalls',nm:'Recall & Safety',ic:'🚨',secs:['recalls'],job:'Collects official cannabis product recalls, health & safety advisories and failed-lab-test notices from state regulators and the FDA, each linked to the official notice.',
+  // its own standard: runs hourly with a heartbeat commit at most every 6 h, so live = re-checked within 8 h and at least one official source answered
+  f:(d)=>{const C=d.recalls;if(!C||!C.items)return null;const ts=T(C.generated),ok=(C.sources||[]).filter(s=>s.status==='ok'),bad=(C.sources||[]).filter(s=>s.status!=='ok'),n=C.items[0];
+   return{ts,state:st(ts,8*H,ok.length>0),doing:`${C.count} official notices`,src:`${ok.length}/${(C.sources||[]).length} official sources ok: ${ok.map(s=>s.source).join(', ')}`,
+    log:[n?`Newest: ${n.date} ${n.state} · ${(n.brand||n.product).slice(0,60)}`:'No notices',`${C.count} notices from ${ok.length} regulators/FDA lists, newest first, de-duplicated`,bad.length?`Unavailable now: ${bad.map(s=>s.source+' ('+(s.error||'error')+')').join(', ')}`:'Every source answered on the last check']}}},
  {id:'market',nm:'Market Watcher',ic:'📈',secs:['market','prices'],job:'Tracks cannabis stocks (Yahoo Finance), US wholesale flower prices (Cannabis Benchmarks, weekly) and Canadian retail cannabis prices (Statistics Canada CPI, monthly).',
   f:(d)=>{const M=d.market,P=d.prices;if(!M&&!P)return null;const ok=M&&M.rows?M.rows.filter(r=>r.status==='ok'):[],
    // each price series is judged by its own publishing cadence: age of its latest point vs max_age_days (fallback: the old 45-day rule)
@@ -48,15 +53,15 @@ const R=[
  {id:'lab',nm:'Terpene Lab',ic:'🌿',secs:['lab'],job:'Spotlights one cannabinoid or terpene a day: what it is, health angle, how to grow and keep it.',
   f:(d)=>{const L=d.lab;if(!L)return null;const sp=L.compounds.find(c=>c.id===L.spotlight_id)||L.compounds[0],ts=T(L.generated);
    return{ts,state:st(ts,26*H),doing:`Spotlight: ${sp.name.split(' (')[0]}`,src:'PubMed-cited compound notes',log:[`Today's spotlight: ${sp.name}`,`${L.compounds.length} compounds in rotation (${L.spotlight_rule})`,`Entourage effect: ${L.entourage.citations.length} citations`]}}},
- {id:'trends',nm:'Trend Spotter',ic:'💬',secs:['social'],job:'Reads what people ask about cannabis on X, plus X News. Read-only; it never posts.',
-  f:(d)=>{const S=d.social;if(!S||!S.posts)return null;const ts=T(S.generated),tn=T(S.news_generated);
-   return{ts,state:st(ts,26*H),doing:`Read ${S.posts.length} posts`,src:'X API (read-only)',log:[`${S.posts.length} posts read across ${S.queries} searches`,`${(S.news||[]).length} X News stories${tn?' · read '+clock(tn):''}`,`Top topic: ${(Object.entries(S.topic_counts||{}).sort((a,b)=>b[1]-a[1])[0]||['none'])[0]}`]}}},
+ {id:'trends',nm:'Trend Spotter',ic:'💬',secs:['social'],job:'Reads what people say about cannabis for health and growing on public social media (Bluesky, Reddit; X when connected). Read-only; it never posts.',
+  f:(d)=>{const S=d.social;if(!S||!S.posts)return null;const ts=T(S.generated),tn=T(S.news_generated),fr=S.mode==='free',pl=fr?(S.platforms||['Bluesky']).join(' + '):'X';
+   return{ts,state:st(ts,fr?3*H:26*H),doing:`Read ${S.posts.length} posts`,src:fr?`${pl} public search (read-only)`:'X API (read-only)',log:[`${S.posts.length} posts kept from ${S.queries} searches on ${pl}`,fr?`${(S.threads||[]).length} top Reddit threads today`:`${(S.news||[]).length} X News stories${tn?' · read '+clock(tn):''}`,`Top topic: ${(Object.entries(S.topic_counts||{}).sort((a,b)=>b[1]-a[1])[0]||['none'])[0]}`]}}},
  {id:'grower',nm:'Grower Notes',ic:'🌱',secs:['grower'],job:'What changes cannabis chemistry when growing: genetics, light, harvest, drying, storage, plus new cultivation papers.',
   f:(d)=>{const L=d.lab,W=d.wire;if(!L)return null;const ts=T(L.generated),fs=Object.values(L.factors),an=fs.filter(x=>x.anecdotal).length;
    return{ts,state:st(ts,26*H),doing:`${fs.length-an} studied factors`,src:'Horticulture studies (PubMed)',log:[`${fs.length-an} factors backed by studies`,`${an} grower practice flagged anecdotal`,W?`${W.papers_cultivation.length} new cultivation papers (PubMed, 14 d)`:'New cultivation papers unavailable']}}},
  {id:'brands',nm:'Brand Auditor',ic:'🏷️',href:'/terminal/report-cards/',page:/^\/terminal\/report-cards\//,job:"Scores hemp brands' label claims against their own published lab reports (COAs).",
-  f:(d,x)=>{const m=x.meta;if(!m)return null;const ts=T(m.generated);
-   return{ts,state:st(ts,8*D),doing:`Audited ${m.coa_count} lab reports`,src:"Brands' own published COAs",log:[`${m.coa_count} COAs read from ${m.brand_count} brands`,`${m.scored} COAs scored against the label`,`${m.dec11_over} products over the Dec 11 THC limit`]}}}];
+  f:(d,x)=>{const m=x.meta;if(!m)return null;const ts=T(m.checked||m.generated),ck=m.checked!=null;
+   return{ts,state:st(ts,ck?50*H:8*D),doing:ck?`Checked ${m.coas_checked} lab reports`:`Audited ${m.coa_count} lab reports`,src:"Brands' own published COAs",log:[`${m.coa_count} COAs read from ${m.brand_count} brands · ${m.scored} scored against the label`,ck?`Daily check: ${m.links_ok} COA links up, ${m.links_removed} removed, ${m.links_unreachable} unreachable`:`${m.dec11_over} products over the Dec 11 THC limit`,ck?`${Number(m.queued_coas).toLocaleString()} more COAs on brand lab pages, not yet scored (${m.new_coas_today} new today)`:`${m.dec11_over} products over the Dec 11 THC limit`]}}}];
 R.forEach(a=>{a.href=a.href||'/terminal/#'+a.secs[0]});
 function feed(d,a,n){return(d.feed||[]).filter(f=>f.agent===a).slice(0,n).map(f=>`${f.kind}: ${f.what}`)}
 const nav=document.querySelector('.top .nav');if(!nav)return;
