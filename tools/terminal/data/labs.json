@@ -7,7 +7,7 @@
    "url": "https://search.cannabis.ca.gov/",
    "status": "ok",
    "count": 18,
-   "checked": "2026-10-30 07:12 EDT",
+   "checked": "2026-10-30 07:40 EDT",
    "list_updated": null
   },
   {
@@ -16,7 +16,7 @@
    "url": "https://masscannabiscontrol.com/open-data/data-catalog/",
    "status": "ok",
    "count": 10,
-   "checked": "2026-10-30 07:12 EDT",
+   "checked": "2026-10-30 07:40 EDT",
    "list_updated": null
   },
   {
@@ -25,7 +25,7 @@
    "url": "https://med.colorado.gov/licensee-information-and-lookup-tool",
    "status": "ok",
    "count": 7,
-   "checked": "2026-10-30 07:12 EDT",
+   "checked": "2026-10-30 07:40 EDT",
    "list_updated": null
   },
   {
@@ -34,7 +34,7 @@
    "url": "https://data.oregon.gov/d/q32u-cmam",
    "status": "ok",
    "count": 9,
-   "checked": "2026-10-30 07:12 EDT",
+   "checked": "2026-10-30 07:40 EDT",
    "list_updated": null
   },
   {
@@ -43,7 +43,7 @@
    "url": "https://www.oregon.gov/oha/PH/LABORATORYSERVICES/ENVIRONMENTALLABORATORYACCREDITATION/Pages/cannabis.aspx",
    "status": "ok",
    "count": 9,
-   "checked": "2026-10-30 07:12 EDT",
+   "checked": "2026-10-30 07:40 EDT",
    "list_updated": "2026-06-04"
   },
   {
@@ -52,7 +52,16 @@
    "url": "https://knowthefactsmmj.com/cmtl/",
    "status": "ok",
    "count": 6,
-   "checked": "2026-10-30 07:12 EDT",
+   "checked": "2026-10-30 07:40 EDT",
+   "list_updated": null
+  },
+  {
+   "id": "mi_cra",
+   "name": "Michigan Cannabis Regulatory Agency (Verify a License: Safety Compliance facilities)",
+   "url": "https://www.michigan.gov/cra/verify-a-license-1",
+   "status": "ok",
+   "count": 19,
+   "checked": "2026-10-30 07:40 EDT",
    "list_updated": null
   },
   {
@@ -61,7 +70,7 @@
    "url": "https://agr.wa.gov/departments/cannabis",
    "status": "ok",
    "count": 4,
-   "checked": "2026-10-30 07:12 EDT",
+   "checked": "2026-10-30 07:40 EDT",
    "list_updated": "2026-06-03"
   },
   {
@@ -70,7 +79,7 @@
    "url": "https://customer.a2la.org/index.cfm?event=directory.index",
    "status": "ok",
    "count": 254,
-   "checked": "2026-10-30 07:12 EDT"
+   "checked": "2026-10-30 07:40 EDT"
   }
  ],
  "manual": [
@@ -534,11 +543,12 @@
    "state": "FL",
    "license": null,
    "status": "Certified",
-   "city": "Cortaro Dr Sun City Center",
+   "city": null,
    "expires": null,
    "panels": null,
    "source": "fl_ommu",
    "url": "https://knowthefactsmmj.com/cmtl/",
+   "address": "721 Cortaro Dr Sun City Center, FL 33575",
    "certified": "2020-06-24",
    "keys": [
     "acs laboratory"
@@ -550,11 +560,12 @@
    "state": "FL",
    "license": null,
    "status": "Certified",
-   "city": "Davie",
+   "city": null,
    "expires": null,
    "panels": null,
    "source": "fl_ommu",
    "url": "https://knowthefactsmmj.com/cmtl/",
+   "address": "4001 SW 47th Ave, Ste 208 Davie, FL 33314",
    "certified": "2020-07-15",
    "keys": [
     "act laboratories of florida"
@@ -566,11 +577,12 @@
    "state": "FL",
    "license": null,
    "status": "Certified",
-   "city": "Commerce Parkway Miramar",
+   "city": null,
    "expires": null,
    "panels": null,
    "source": "fl_ommu",
    "url": "https://knowthefactsmmj.com/cmtl/",
+   "address": "3451 Commerce Parkway Miramar, FL 33025",
    "certified": "2025-10-29",
    "keys": [
     "kaycha labs miramar"
@@ -582,11 +594,12 @@
    "state": "FL",
    "license": null,
    "status": "Certified",
-   "city": "Broadway Center Blvd Brandon",
+   "city": null,
    "expires": null,
    "panels": null,
    "source": "fl_ommu",
    "url": "https://knowthefactsmmj.com/cmtl/",
+   "address": "2720 Broadway Center Blvd Brandon, FL 33510",
    "certified": "2023-03-06",
    "keys": [
     "method testing labs"
@@ -598,11 +611,12 @@
    "state": "FL",
    "license": null,
    "status": "Certified",
-   "city": "Lakeland",
+   "city": null,
    "expires": null,
    "panels": null,
    "source": "fl_ommu",
    "url": "https://knowthefactsmmj.com/cmtl/",
+   "address": "4705 Old Rd 37 Lakeland, FL 33813",
    "certified": "2020-06-30",
    "keys": [
     "modern canna science"
@@ -614,11 +628,12 @@
    "state": "FL",
    "license": null,
    "status": "Certified",
-   "city": "Fisher Ave Tampa",
+   "city": null,
    "expires": null,
    "panels": null,
    "source": "fl_ommu",
    "url": "https://knowthefactsmmj.com/cmtl/",
+   "address": "10350 Fisher Ave Tampa, FL 33619",
    "certified": "2022-01-21",
    "keys": [
     "terplife labs"
@@ -772,6 +787,380 @@
    "url": "https://masscannabiscontrol.com/licensing-tracker/",
    "keys": [
     "smithers ams"
+   ]
+  },
+  {
+   "name": "Act Laboratories Michigan, LLC",
+   "dba": null,
+   "state": "MI",
+   "license": "AU-SC-000152",
+   "status": "Active",
+   "city": "Lansing",
+   "expires": "2027-04-10",
+   "panels": null,
+   "source": "mi_cra",
+   "url": "https://www.michigan.gov/cra/verify-a-license-1",
+   "address": "617 E Hazel ST, Lansing MI 48912",
+   "program": "adult-use",
+   "keys": [
+    "act laboratories michigan"
+   ],
+   "other_licenses": [
+    "SC-000048"
+   ]
+  },
+  {
+   "name": "Aries Analytic L.L.C.",
+   "dba": null,
+   "state": "MI",
+   "license": "AU-SC-000131",
+   "status": "Active",
+   "city": "Ferndale",
+   "expires": "2027-07-28",
+   "panels": null,
+   "source": "mi_cra",
+   "url": "https://www.michigan.gov/cra/verify-a-license-1",
+   "address": "2321 Wolcott ST Suite A & B, Ferndale MI 48220",
+   "program": "adult-use",
+   "keys": [
+    "aries analytic"
+   ],
+   "other_licenses": [
+    "SC-000025"
+   ]
+  },
+  {
+   "name": "Aurora Analytical Labs, LLC",
+   "dba": null,
+   "state": "MI",
+   "license": "AU-SC-000151",
+   "status": "Active",
+   "city": "Bay City",
+   "expires": "2027-10-20",
+   "panels": null,
+   "source": "mi_cra",
+   "url": "https://www.michigan.gov/cra/verify-a-license-1",
+   "address": "1424 Straits DR, Bay City MI 48706",
+   "program": "adult-use",
+   "keys": [
+    "aurora analytical labs"
+   ],
+   "other_licenses": [
+    "SC-000047"
+   ]
+  },
+  {
+   "name": "BBB3, LLC",
+   "dba": null,
+   "state": "MI",
+   "license": "AU-SC-000149",
+   "status": "Active",
+   "city": "Detroit",
+   "expires": "2027-02-20",
+   "panels": null,
+   "source": "mi_cra",
+   "url": "https://www.michigan.gov/cra/verify-a-license-1",
+   "address": "22565 W. 8 MILE RD, DETROIT MI 48219",
+   "program": "adult-use",
+   "keys": [
+    "bbb3"
+   ],
+   "other_licenses": [
+    "SC-000046"
+   ]
+  },
+  {
+   "name": "Cambium Analytica",
+   "dba": null,
+   "state": "MI",
+   "license": "SC-000013",
+   "status": "Active",
+   "city": "Traverse City",
+   "expires": "2027-01-06",
+   "panels": null,
+   "source": "mi_cra",
+   "url": "https://www.michigan.gov/cra/verify-a-license-1",
+   "address": "1230 Woodmere AVE, Traverse City MI 49686",
+   "program": "medical",
+   "keys": [
+    "cambium analytica"
+   ]
+  },
+  {
+   "name": "Carbon Labs",
+   "dba": null,
+   "state": "MI",
+   "license": "AU-SC-000134",
+   "status": "Active",
+   "city": "River Rouge",
+   "expires": "2027-01-20",
+   "panels": null,
+   "source": "mi_cra",
+   "url": "https://www.michigan.gov/cra/verify-a-license-1",
+   "address": "10992 W Jefferson AVE, River Rouge MI 48218",
+   "program": "adult-use",
+   "keys": [
+    "carbon labs"
+   ],
+   "other_licenses": [
+    "SC-000038"
+   ]
+  },
+  {
+   "name": "Healthy Labs LLC",
+   "dba": null,
+   "state": "MI",
+   "license": "AU-SC-000144",
+   "status": "Active",
+   "city": "Detroit",
+   "expires": "2026-12-21",
+   "panels": null,
+   "source": "mi_cra",
+   "url": "https://www.michigan.gov/cra/verify-a-license-1",
+   "address": "20601 Glendale ST Suite A, Detroit MI 48223",
+   "program": "adult-use",
+   "keys": [
+    "healthy labs"
+   ]
+  },
+  {
+   "name": "Infinite Chemical Analysis Labs MI, LLC",
+   "dba": null,
+   "state": "MI",
+   "license": "AU-SC-000101",
+   "status": "Active",
+   "city": "Jackson",
+   "expires": "2027-04-10",
+   "panels": null,
+   "source": "mi_cra",
+   "url": "https://www.michigan.gov/cra/verify-a-license-1",
+   "address": "4400 Ann Arbor RD, Jackson MI 49202",
+   "program": "adult-use",
+   "keys": [
+    "infinite chemical analysis labs mi"
+   ],
+   "other_licenses": [
+    "SC-000015"
+   ]
+  },
+  {
+   "name": "Iron Laboratories LLC",
+   "dba": null,
+   "state": "MI",
+   "license": "AU-SC-000107",
+   "status": "Active",
+   "city": "Walled Lake",
+   "expires": "2027-10-08",
+   "panels": null,
+   "source": "mi_cra",
+   "url": "https://www.michigan.gov/cra/verify-a-license-1",
+   "address": "1825 E West Maple RD Suite A, Walled Lake MI 48390",
+   "program": "adult-use",
+   "keys": [
+    "iron laboratories"
+   ],
+   "other_licenses": [
+    "SC-000003"
+   ]
+  },
+  {
+   "name": "Kairos",
+   "dba": null,
+   "state": "MI",
+   "license": "AU-SC-000143",
+   "status": "Active",
+   "city": "Warren",
+   "expires": "2027-09-06",
+   "panels": null,
+   "source": "mi_cra",
+   "url": "https://www.michigan.gov/cra/verify-a-license-1",
+   "address": "20829 Mound RD, Warren MI 48091",
+   "program": "adult-use",
+   "keys": [
+    "kairos"
+   ],
+   "other_licenses": [
+    "SC-000049"
+   ]
+  },
+  {
+   "name": "Lab Link Testing LLC",
+   "dba": null,
+   "state": "MI",
+   "license": "AU-SC-000133",
+   "status": "Active",
+   "city": "Madison Heights",
+   "expires": "2027-12-22",
+   "panels": null,
+   "source": "mi_cra",
+   "url": "https://www.michigan.gov/cra/verify-a-license-1",
+   "address": "711 W 13 Mile RD Suite 900, Madison Heights MI 48071",
+   "program": "adult-use",
+   "keys": [
+    "lab link testing"
+   ],
+   "other_licenses": [
+    "SC-000037"
+   ]
+  },
+  {
+   "name": "North Coast Testing Laboratories of Michigan, LLC",
+   "dba": null,
+   "state": "MI",
+   "license": "AU-SC-000114",
+   "status": "Active",
+   "city": "Adrian",
+   "expires": "2027-01-08",
+   "panels": null,
+   "source": "mi_cra",
+   "url": "https://www.michigan.gov/cra/verify-a-license-1",
+   "address": "1725 W Beecher RD, Adrian MI 49221",
+   "program": "adult-use",
+   "keys": [
+    "north coast testing laboratories of michigan"
+   ],
+   "other_licenses": [
+    "SC-000019"
+   ]
+  },
+  {
+   "name": "Prism Triangle LLC",
+   "dba": null,
+   "state": "MI",
+   "license": "AU-SC-000124",
+   "status": "Active",
+   "city": "Walled Lake",
+   "expires": "2027-03-02",
+   "panels": null,
+   "source": "mi_cra",
+   "url": "https://www.michigan.gov/cra/verify-a-license-1",
+   "address": "850 Ladd RD Bldg B, Walled Lake MI 48390",
+   "program": "adult-use",
+   "keys": [
+    "prism triangle"
+   ],
+   "other_licenses": [
+    "SC-000028"
+   ]
+  },
+  {
+   "name": "Puer Labs",
+   "dba": null,
+   "state": "MI",
+   "license": "AU-SC-000121",
+   "status": "Active",
+   "city": "Warren",
+   "expires": "2027-09-29",
+   "panels": null,
+   "source": "mi_cra",
+   "url": "https://www.michigan.gov/cra/verify-a-license-1",
+   "address": "24545 Forterra DR, Warren MI 48089",
+   "program": "adult-use",
+   "keys": [
+    "puer labs"
+   ],
+   "other_licenses": [
+    "SC-000022"
+   ]
+  },
+  {
+   "name": "Reassure, Inc.",
+   "dba": null,
+   "state": "MI",
+   "license": "AU-SC-000130",
+   "status": "Active",
+   "city": "Warren",
+   "expires": "2027-06-10",
+   "panels": null,
+   "source": "mi_cra",
+   "url": "https://www.michigan.gov/cra/verify-a-license-1",
+   "address": "26692 Groesbeck HWY, Warren MI 48089",
+   "program": "adult-use",
+   "keys": [
+    "reassure"
+   ],
+   "other_licenses": [
+    "SC-000030"
+   ]
+  },
+  {
+   "name": "SC Labs",
+   "dba": null,
+   "state": "MI",
+   "license": "AU-SC-000129",
+   "status": "Active",
+   "city": "Warren",
+   "expires": "2027-06-24",
+   "panels": null,
+   "source": "mi_cra",
+   "url": "https://www.michigan.gov/cra/verify-a-license-1",
+   "address": "27610 College Park DR Unit C, Warren MI 48088",
+   "program": "adult-use",
+   "keys": [
+    "sc labs"
+   ],
+   "other_licenses": [
+    "SC-000035"
+   ]
+  },
+  {
+   "name": "Steadfast, LLC",
+   "dba": null,
+   "state": "MI",
+   "license": "AU-SC-000116",
+   "status": "Active",
+   "city": "Hazel Park",
+   "expires": "2027-03-26",
+   "panels": null,
+   "source": "mi_cra",
+   "url": "https://www.michigan.gov/cra/verify-a-license-1",
+   "address": "22018 John R RD, Hazel Park MI 48030",
+   "program": "adult-use",
+   "keys": [
+    "steadfast"
+   ],
+   "other_licenses": [
+    "SC-000026"
+   ]
+  },
+  {
+   "name": "Therapeutic Health Choice, LLC",
+   "dba": null,
+   "state": "MI",
+   "license": "AU-SC-000110",
+   "status": "Active",
+   "city": "Bay City",
+   "expires": "2026-11-17",
+   "panels": null,
+   "source": "mi_cra",
+   "url": "https://www.michigan.gov/cra/verify-a-license-1",
+   "address": "903 N Euclid AVE Suite 1, Bay City MI 48706",
+   "program": "adult-use",
+   "keys": [
+    "therapeutic health choice"
+   ],
+   "other_licenses": [
+    "SC-000011"
+   ]
+  },
+  {
+   "name": "US Cannalytics",
+   "dba": null,
+   "state": "MI",
+   "license": "AU-SC-000148",
+   "status": "Active",
+   "city": "Warren",
+   "expires": "2027-01-21",
+   "panels": null,
+   "source": "mi_cra",
+   "url": "https://www.michigan.gov/cra/verify-a-license-1",
+   "address": "21445 Hoover RD Suite 222A, Warren MI 48089",
+   "program": "adult-use",
+   "keys": [
+    "us cannalytics"
+   ],
+   "other_licenses": [
+    "SC-000045"
    ]
   },
   {
@@ -5294,22 +5683,88 @@
    "error": "source refused a scripted read",
    "status": "hand-checked",
    "verified": "2026-10-30"
+  },
+  {
+   "id": "mi_metals",
+   "state": "MI",
+   "panel": "heavy_metals",
+   "title": "Michigan heavy metal action limits",
+   "cite": "Michigan CRA Sampling and Testing Technical Guidance v5.2 (Sept 23, 2024), Table 2",
+   "url": "https://www.michigan.gov/cra/sections/enforcement-division/scientific-section",
+   "unit": "\u00b5g/g",
+   "flower": {
+    "lead": 1.0,
+    "arsenic": 0.4,
+    "mercury": 0.2,
+    "cadmium": 0.4,
+    "chromium": 1.2,
+    "nickel": 1.0
+   },
+   "concentrate": {
+    "lead": 0.5,
+    "arsenic": 0.2,
+    "mercury": 0.1,
+    "cadmium": 0.2,
+    "chromium": 0.6,
+    "nickel": 0.5,
+    "copper": 3.0
+   },
+   "other": {
+    "lead": 0.5,
+    "arsenic": 1.5,
+    "mercury": 3.0,
+    "cadmium": 0.5,
+    "chromium": 2.0
+   },
+   "text": "Inhaled flower / inhaled concentrates / other products, ppm (\u00b5g/g). Arsenic is inorganic arsenic. Copper applies to vaping products only.",
+   "pdf": "https://www.michigan.gov/cra/-/media/Project/Websites/cra/bulletin/5Technical/Sampling_and_Testing-_Technical_Guidance_for_Marijuana_Products_694124_7.pdf?rev=803d359db46747c6af70098aac62b3c8",
+   "status": "verified",
+   "missing": null,
+   "verified": "2026-10-30"
+  },
+  {
+   "id": "mi_micro",
+   "state": "MI",
+   "panel": "microbials",
+   "title": "Michigan microbial, mycotoxin and water activity limits",
+   "cite": "Michigan CRA Sampling and Testing Technical Guidance v5.2, Tables 3 and 6",
+   "url": "https://www.michigan.gov/cra/sections/enforcement-division/scientific-section",
+   "yeast_mold_cfu": {
+    "flower_adult_use": 100000,
+    "flower_medical": 10000,
+    "infused": 10000
+   },
+   "coliform_cfu": {
+    "flower": 1000,
+    "infused": 100
+   },
+   "each_mycotoxin_ppb": 20,
+   "water_activity": {
+    "flower": 0.65,
+    "edible": 0.85
+   },
+   "text": "Not detected in 1 g: STEC E. coli, Salmonella, Aspergillus flavus, fumigatus, niger and terreus. Total yeast and mold: 100,000 CFU/g (adult-use flower), 10,000 (medical flower and infused products). Total coliform: 1,000 CFU/g flower, 100 infused. Each aflatoxin (B1, B2, G1, G2) and ochratoxin A under 20 ppb. Water activity: 0.65 aw flower, 0.85 aw edibles.",
+   "pdf": "https://www.michigan.gov/cra/-/media/Project/Websites/cra/bulletin/5Technical/Sampling_and_Testing-_Technical_Guidance_for_Marijuana_Products_694124_7.pdf?rev=803d359db46747c6af70098aac62b3c8",
+   "status": "verified",
+   "missing": null,
+   "verified": "2026-10-30"
   }
  ],
  "counts": {
-  "state_labs": 63,
+  "state_labs": 82,
   "states": [
    "CA",
    "CO",
    "FL",
    "MA",
+   "MI",
    "OR",
    "WA"
   ],
   "accredited": 254,
-  "limits_verified": 6,
-  "limits": 6
+  "limits_verified": 8,
+  "limits": 8
  },
  "note": "Lists come straight from the regulators and accreditation bodies named in sources. A lab missing here may be licensed in a state we do not read yet.",
- "generated": "2026-10-30 07:12 EDT"
+ "generated": "2026-10-30 07:40 EDT"
 }

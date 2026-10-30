@@ -97,8 +97,12 @@ function build(d,x){
 }
 // exactly one aria-current. Home = true tabs: only the selected agent's sections are shown; scrolling never changes the tab.
 let cur;const sc=()=>nav.querySelector('.ascroll');
-// center the selected tab in the scrolling bar (clamped at the ends); smooth on tap, instant on load / deep link
-function center(a,smooth){const s=sc();if(!s||s.scrollWidth<=s.clientWidth+1)return;const r=a.getBoundingClientRect(),n=s.getBoundingClientRect();
+// center the selected tab in the scrolling bar; smooth on tap, instant on load / deep link.
+// End spacers (::before/::after, sized by pad()) let the first and last tabs scroll to the middle too, so every tab can be centered.
+function pad(){const s=sc();if(!s)return;const t=s.querySelectorAll('.ag');if(!t.length)return;const cs=getComputedStyle(s),g=parseFloat(cs.columnGap)||0,cw=s.clientWidth;
+  s.style.setProperty('--agpl',Math.max(0,(cw-t[0].offsetWidth)/2-g-(parseFloat(cs.paddingLeft)||0))+'px');
+  s.style.setProperty('--agpr',Math.max(0,(cw-t[t.length-1].offsetWidth)/2-g-(parseFloat(cs.paddingRight)||0))+'px')}
+function center(a,smooth){const s=sc();if(!s)return;pad();if(s.scrollWidth<=s.clientWidth+1)return;const r=a.getBoundingClientRect(),n=s.getBoundingClientRect();
   const max=s.scrollWidth-s.clientWidth,left=Math.max(0,Math.min(max,s.scrollLeft+(r.left-n.left)-(n.width-r.width)/2));
   s.scrollTo({left,behavior:smooth&&!matchMedia('(prefers-reduced-motion: reduce)').matches?'smooth':'auto'});if(!smooth)edge(s)}
 function set(id,smooth){cur=id;nav.querySelectorAll('[aria-current]').forEach(x=>x.removeAttribute('aria-current'));const a=id&&nav.querySelector(`[data-ag="${id}"]`);if(!a)return;

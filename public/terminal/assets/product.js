@@ -135,13 +135,13 @@ function check(docs,opt,labs){
   const hemp=opt.type==='hemp'?true:opt.type==='licensed'?false:r.hemp||null;const inhal=opt.form==='inhaled'?true:opt.form==='other'?false:r.inhal;
   // ---- lab
   const D=labs||{labs:[],accredited:[]};const T=normN(d.lines.join(' '));let lic=null,acc=null;
-  for(const l of r.licenses){lic=D.labs.find(x=>x.license&&keyB(x.license)===keyB(l));if(lic)break}
+  const licOf=x=>[x.license,...(x.other_licenses||[])].filter(Boolean).map(keyB);for(const l of r.licenses){lic=D.labs.find(x=>licOf(x).includes(keyB(l)));if(lic)break}
   const byName=arr=>arr.filter(x=>(x.keys||[]).some(k=>k.length>=6&&T.includes(' '+k+' '))).sort((a,b)=>Math.max(...b.keys.map(k=>k.length))-Math.max(...a.keys.map(k=>k.length)))[0];
   if(!lic)lic=byName(D.labs);for(const c of r.certs){acc=D.accredited.find(a=>a.cert===c);if(acc)break}if(!acc)acc=byName(D.accredited);
   const srcOf=id=>(D.sources||[]).find(s=>s.id===id)||{};const labName=(lic&&(lic.dba||lic.name))||(acc&&acc.name)||r.labLine;
   if(r.device&&!lic&&!acc)add('fail','Tested on an in-house device, not by an independent lab',`The report was made with a benchtop potency tester (${r.device}) run by the seller or brand, not by a licensed testing lab. These reports check potency only and are not third-party testing.`);
   else if(lic){const s=srcOf(lic.source),exp=lic.expires?new Date(lic.expires+'T12:00:00Z'):null;
-    add(exp&&exp<today?'warn':'ok',`Lab is on the ${lic.state} regulator's list: ${lic.dba||lic.name}`,`${lic.license?'License '+lic.license+' · ':''}${lic.status||'listed'}${exp?' · license through '+fmtD(exp):''}. Matched by ${r.licenses.length&&lic.license&&r.licenses.map(keyB).includes(keyB(lic.license))?'license number':'name'}.`,{label:s.name||lic.state+' regulator',url:lic.url||s.url});
+    add(exp&&exp<today?'warn':'ok',`Lab is on the ${lic.state} regulator's list: ${lic.dba||lic.name}`,`${lic.license?'License '+[lic.license,...(lic.other_licenses||[])].join(', ')+' · ':''}${lic.status||'listed'}${exp?' · license through '+fmtD(exp):''}. Matched by ${r.licenses.some(l=>licOf(lic).includes(keyB(l)))?'license number':'name'}.`,{label:s.name||lic.state+' regulator',url:lic.url||s.url});
     if(lic.panels){const off=Object.entries(lic.panels).filter(([k,v])=>v&&!/^\d{4}-/.test(v)&&r.panels[k]&&r.panels[k].st!=='missing');if(off.length)add('warn','Lab is not certified by Colorado for some panels on this report',off.map(([k,v])=>`${r.panels[k].nm}: ${v}`).join(' · '),{label:'Colorado MED certifications',url:lic.url})}}
   if(acc){const exp=acc.expires?new Date(acc.expires+'T12:00:00Z'):null;add(exp&&exp<(r.testDate||today)?'warn':'ok',`ISO/IEC 17025 accredited by A2LA: ${acc.name}`,`Certificate ${acc.cert}${exp?', valid through '+fmtD(exp):''}. Scope: ${acc.programs.join(', ')}.`,{label:'A2LA certificate',url:acc.url})}
   else if(r.iso){const b=r.bodies.filter(x=>x!=='A2LA');add('warn','Says ISO 17025 accredited, but we could not confirm it',`The report claims ISO/IEC 17025${b.length?' ('+b.join(', ')+')':''}. We read A2LA's directory and did not find this lab. ANAB and PJLA block automated checks, so look the certificate up yourself.`,{label:b.includes('PJLA')?'PJLA directory':'ANAB directory',url:b.includes('PJLA')?'https://www.pjlabs.com/search-accredited-organizations':'https://search.anab.org/public/'})}
@@ -230,11 +230,17 @@ function check(docs,opt,labs){
 const IC={fail:'✕',warn:'!',ok:'✓',info:'i'};
 function verdict(C){const n=k=>C.filter(c=>c.lv===k).length;const f=n('fail'),w=n('warn');
   return f?{cls:'red',t:"Don't rely on this product yet",s:`${f} problem${f>1?'s':''}${w?` and ${w} thing${w>1?'s':''} to check`:''}`}:w?{cls:'amber',t:'Check these things before you buy',s:`${w} thing${w>1?'s':''} to check · ${n('ok')} checks passed`}:{cls:'green',t:'This report looks consistent',s:`${n('ok')} checks passed`}}
-function limitsHtml(L){const l=(L&&L.limits)||[];const m=l.find(x=>x.id==='ca_metals'),y=l.find(x=>x.id==='ca_myco');if(!m)return'';
+function limitsHtml(L,st){const l=(L&&L.limits)||[];const good=x=>x&&/verified|hand-checked/.test(x.status||'');
+  const src=xs=>`<p class="pc-src">${xs.map(x=>`<a href="${E(x.url.replace('/api/renderer/v1/content/enhanced/current/title-7?part=990&section=990.1','/current/title-7/subtitle-B/chapter-IX/part-990/subpart-A/section-990.1'))}" target="_blank" rel="noopener">${E(x.cite)}</a> <span class="dim">(${E(x.status)} ${E(x.verified||'')})</span>`).join(' · ')}</p>`;
+  const us=l.filter(x=>x.state==='US');const mm=l.find(x=>x.id==='mi_metals'),mc=l.find(x=>x.id==='mi_micro');
+  if(st==='MI'&&good(mm)&&good(mc)){const c=(o,k)=>o&&o[k]!=null?o[k]:'—';const row=(k,n)=>`<tr><td>${n}</td><td class="num">${c(mm.flower,k)}</td><td class="num">${c(mm.concentrate,k)}</td><td class="num">${c(mm.other,k)}</td></tr>`;
+    return`<details class="pc-lim"><summary>Reference limits we use (Michigan CRA, because the lab is in Michigan)</summary><table class="pc-tb"><thead><tr><th>Heavy metal (µg/g)</th><th>Flower</th><th>Concentrate</th><th>Other</th></tr></thead><tbody>${row('lead','Lead')}${row('arsenic','Inorganic arsenic')}${row('mercury','Mercury')}${row('cadmium','Cadmium')}${row('chromium','Total chromium')}${row('nickel','Nickel')}${row('copper','Copper (vapes)')}</tbody></table>
+   <p class="dim">${E(mc.text)}</p>${src([mm,mc,...us])}</details>`}
+  const m=l.find(x=>x.id==='ca_metals'),y=l.find(x=>x.id==='ca_myco');if(!m)return'';
   const row=(k,n)=>`<tr><td>${n}</td><td class="num">${m.inhalable[k]}</td><td class="num">${m.non_inhalable[k]}</td></tr>`;
   return`<details class="pc-lim"><summary>Reference limits we use (California, the strictest common standard)</summary><table class="pc-tb"><thead><tr><th>Heavy metal (µg/g)</th><th>Smoked/vaped</th><th>Other</th></tr></thead><tbody>${row('cadmium','Cadmium')}${row('lead','Lead')}${row('arsenic','Arsenic')}${row('mercury','Mercury')}</tbody></table>
    <p class="dim">Mycotoxins: total aflatoxins B1+B2+G1+G2 ≤ ${y?y.all.total_aflatoxins:20} µg/kg, ochratoxin A ≤ ${y?y.all.ochratoxin_a:20} µg/kg. Microbes: no Salmonella or STEC E. coli in 1 g; for smoked or vaped products, no Aspergillus fumigatus, flavus, niger or terreus in 1 g.</p>
-   <p class="pc-src">${l.map(x=>`<a href="${E(x.url.replace('/api/renderer/v1/content/enhanced/current/title-7?part=990&section=990.1','/current/title-7/subtitle-B/chapter-IX/part-990/subpart-A/section-990.1'))}" target="_blank" rel="noopener">${E(x.cite)}</a> <span class="dim">(${E(x.status)} ${E(x.verified||'')})</span>`).join(' · ')}</p></details>`}
+   ${src(l.filter(x=>x.state!=='MI'))}</details>`}
 function render(res,docs){const v=verdict(res.C),R=res.read,ord={fail:0,warn:1,ok:2,info:3};const C=[...res.C].sort((a,b)=>ord[a.lv]-ord[b.lv]);
   const an=R?Object.entries(R.an).filter(([k,x])=>x!=null).map(([k,x])=>`${ANL[k]} ${x?f2(x,3)+'%':'ND'}`).join(' · '):'';
   return`<div class="pc-verdict v-${v.cls}"><span class="pc-vi" aria-hidden="true">${v.cls==='red'?'✕':v.cls==='amber'?'!':'✓'}</span><div><b>${E(v.t)}</b><small>${E(v.s)}</small></div></div>
@@ -242,7 +248,7 @@ function render(res,docs){const v=verdict(res.C),R=res.read,ord={fail:0,warn:1,o
   ${R?`<details class="pc-readout"><summary>What we read from the report</summary><dl class="kv"><dt>Files</dt><dd>${docs.map(d=>E(d.name)+' ('+(d.role==='coa'?'lab report':'label')+(d.ocr?', OCR':'')+')').join(', ')}</dd><dt>Lab</dt><dd>${E(R.lab||'not found')}${R.labState?' · '+E(R.labState):''}${R.licenses.length?' · '+E(R.licenses.join(', ')):''}</dd>
   <dt>Product</dt><dd>${E(R.product||'?')}</dd><dt>Batch</dt><dd>${E(R.batches.join(', ')||'none')}</dd><dt>Test date</dt><dd>${E(fmtD(R.testDate))}</dd><dt>Cannabinoids</dt><dd>${E(an||'none found')}</dd>
   <dt>Total THC</dt><dd>${R.tot!=null?E(f2(R.tot,3)+'%'+(R.totDry!=null&&R.totDry!==R.tot?' · '+f2(R.totDry,3)+'% dry weight':'')):'?'}${R.mgPkg!=null?' · '+E(f2(R.mgPkg,1))+' mg per package':''}</dd><dt>File made by</dt><dd>${E(R.producer||'not stated')}</dd></dl></details>`:''}
-  ${limitsHtml(LABS)}
+  ${limitsHtml(LABS,R&&R.labState)}
   <p class="pc-disc"><b>Not medical or legal advice.</b> This is an automated reading of the files you chose, checked against public lists and rules. It can misread a report and cannot prove a report is genuine. Confirm with the lab, and check your state's rules before you buy or use cannabis or hemp. 21+.</p>`}
 function empty(){const L=LABS,c=L&&L.counts;return`<div class="pc-empty"><b>What it checks</b><ol>
   <li>Label potency vs the report (within 10% passes, over 15% fails)</li><li>Total THC = THCA × 0.877 + Delta-9, and dry weight vs the 0.3% hemp limit</li><li>Delta-8 vs Delta-9: does the lab find what the label says?</li><li>Pass/fail on pesticides, heavy metals, microbes, mycotoxins and residual solvents, and missing panels</li>

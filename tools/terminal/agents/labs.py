@@ -7,11 +7,12 @@ Sources (official only; each one is fetched on its own, and a source that fails 
   CO  Marijuana Enforcement Division "Testing Facilities" certification sheet (per-panel certified-until dates)
   OR  OLCC marijuana license list (LABORATORY) + ORELAP cannabis laboratory accreditation list (PDF)
   WA  WSDA cannabis lab accreditation status table
+  MI  Cannabis Regulatory Agency "Verify a License" (Accela): Safety Compliance licenses, adult-use + medical, Active only
   FL  Office of Medical Marijuana Use certified marijuana testing laboratories (CMTL) table
   ISO/IEC 17025: A2LA public directory (scopes that mention cannabis or hemp). ANAB and PJLA directories refuse
       automated reads, so they are linked for manual checks instead of scraped.
 Writes tools/terminal/data/labs.json and public/terminal/data/labs.json. Never writes placeholder rows."""
-import csv,io,json,os,re,subprocess,tempfile,time
+import csv,io,json,os,re,subprocess,tempfile,time,urllib.parse
 from common import curl,save,load,text,ROOT,UA
 from labs_limits import LIMITS
 PUB=os.path.join(ROOT,"..","..","public","terminal","data","labs.json")
@@ -29,6 +30,49 @@ def lab(name,state,source,license=None,status=None,dba=None,city=None,expires=No
     d["keys"]=sorted({k for k in (norm(d["name"]),norm(d["dba"] or "")) if len(k)>=4})
     return d
 # ---------- per-source fetchers: each returns a list of labs or raises ----------
+def mi():
+    """Michigan CRA "Verify a License" (Accela Citizen Access): Safety Compliance licenses, adult-use + medical.
+    ASP.NET form: GET, post the license type + Search, then follow "Next >" pages. Standard browser UA + Referer/Origin
+    (the portal rejects posts without them). Only Active licenses are kept, like the other states."""
+    import urllib.request,urllib.parse,http.cookiejar,html as H
+    out={}
+    for mod,typ in (("Adult_Use","Adult_Use/Marihuana Safety Compliance/License/NA"),("Licenses","Licenses/Safety Compliance/License/NA")):
+        U=f"https://aca-prod.accela.com/MIMM/Cap/CapHome.aspx?module={mod}&TabName={mod}"
+        op=urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
+        def req(data=None):
+            r=urllib.request.Request(U,data=urllib.parse.urlencode(data).encode() if data else None,
+                headers={"User-Agent":UA,"Referer":U,"Origin":"https://aca-prod.accela.com","Accept":"text/html,*/*"})
+            return op.open(r,timeout=90).read().decode("utf-8","replace")
+        def form(h):
+            d={}
+            for m in re.finditer(r"<input([^>]*)>",h):
+                a=m.group(1);n=re.search(r'name="([^"]*)"',a);v=re.search(r'value="([^"]*)"',a);t=re.search(r'type="([^"]*)"',a)
+                if n and (not t or t.group(1) not in ("checkbox","radio","submit","button","image")): d[H.unescape(n.group(1))]=H.unescape(v.group(1)) if v else ""
+            return d
+        h=req();d=form(h);d["ctl00$PlaceHolderMain$generalSearchForm$ddlGSPermitType"]=typ;d["__EVENTTARGET"]="ctl00$PlaceHolderMain$btnNewSearch";d["__EVENTARGUMENT"]=""
+        h=req(d);total=re.search(r"Showing \d+-\d+ of (\d+)",h);total=int(total.group(1)) if total else None;rows=0
+        for _ in range(30):
+            for m in re.finditer(r'_(ctl\d+)_lblPermitNumber1">([^<]+)<',h):
+                c=m.group(1);g=lambda f:(lambda x:H.unescape(x.group(1)).strip() if x else None)(re.search(rf'_{c}_{f}">([^<]*)<',h))
+                rows+=1;num=m.group(2).strip();st=g("lblStatus");addr=g("lblAddress") or ""
+                cm=re.search(r",\s*([^,]+?)\s+MI\s+\d{5}",addr)
+                if st=="Active" and num not in out:
+                    out[num]=lab(g("lblProjectName") or num,"MI","mi_cra",license=num,status=st,city=cm.group(1) if cm else None,
+                                 expires=iso(g("lblExpirationDate")),address=addr or None,program="adult-use" if mod=="Adult_Use" else "medical",
+                                 url="https://www.michigan.gov/cra/verify-a-license-1")
+            nx=re.search(r"__doPostBack\(&#39;([^&]+)&#39;,&#39;&#39;\)\">Next &gt;",h)
+            if not nx: break
+            d=form(h);d["__EVENTTARGET"]=H.unescape(nx.group(1));d["__EVENTARGUMENT"]="";h=req(d)
+        if total is None or rows<total: raise RuntimeError(f"MI {mod}: read {rows} of {total} rows")
+        print("mi",mod,"rows",rows)
+    # one row per lab name: medical + adult-use licenses of the same company are merged (both numbers kept)
+    by={}
+    for l in out.values():
+        k=l["keys"][0] if l["keys"] else l["license"]
+        if k in by: by[k].setdefault("other_licenses",[]).append(l["license"])
+        else: by[k]=l
+    if not by: raise RuntimeError("MI: no active safety compliance licenses parsed")
+    return list(by.values())
 def ca():
     u="https://as-dcc-pub-cann-w-p-002.azurewebsites.net/licenses/filteredSearch?licenseType=Commercial%20-%20%20Testing%20Laboratory&pageSize=100&pageNumber={}"
     out=[];p=1
@@ -129,15 +173,23 @@ SOURCES=[("ca_dcc","California Department of Cannabis Control (license search)",
  ("or_olcc","Oregon Liquor and Cannabis Commission (license list)","https://data.oregon.gov/d/q32u-cmam",orx),
  ("or_orelap","Oregon ORELAP cannabis laboratory accreditation list","https://www.oregon.gov/oha/PH/LABORATORYSERVICES/ENVIRONMENTALLABORATORYACCREDITATION/Pages/cannabis.aspx",orelap),
  ("fl_ommu","Florida Office of Medical Marijuana Use (certified testing labs)","https://knowthefactsmmj.com/cmtl/",fl),
+ ("mi_cra","Michigan Cannabis Regulatory Agency (Verify a License: Safety Compliance facilities)","https://www.michigan.gov/cra/verify-a-license-1",mi),
  ("wa_wsda","Washington State Dept. of Agriculture (cannabis lab accreditation)","https://agr.wa.gov/departments/cannabis",wa)]
 MANUAL=[dict(body="ANAB",url="https://search.anab.org/public/",note="ANAB directory blocks automated reads; check the certificate number by hand."),
         dict(body="PJLA",url="https://www.pjlabs.com/search-accredited-organizations",note="PJLA directory blocks automated reads; check the certificate number by hand.")]
 def check_limits(prev):
     out=[];pv={l["id"]:l for l in (prev or {}).get("limits",[])}
     for L in LIMITS:
-        d={k:v for k,v in L.items() if k!="must"}
+        d={k:v for k,v in L.items() if k not in ("must","find")}
         try:
-            t=text(curl(L["url"],40)).replace("µ","?").replace("\u2009"," ")
+            if L.get("find"):   # the rule lives in a PDF linked from L["url"]; find the current link, read it with pdftotext
+                m=re.search(L["find"],curl(L["url"],40))
+                if not m: raise RuntimeError("guidance PDF link not found on the source page")
+                pu=urllib.parse.urljoin(L["url"],m.group(1).replace("&amp;","&")); d["pdf"]=pu
+                with tempfile.NamedTemporaryFile(suffix=".pdf") as f:
+                    subprocess.run(["curl","-sL","--max-time","60","-A",UA,"-o",f.name,pu],check=True)
+                    t=re.sub(r"\s+"," ",subprocess.run(["pdftotext",f.name,"-"],capture_output=True,check=True).stdout.decode("utf-8","replace")).replace("µ","?")
+            else: t=text(curl(L["url"],40)).replace("µ","?").replace("\u2009"," ")
             if len(t)<500: raise RuntimeError("source refused a scripted read")
             miss=[m for m in L["must"] if re.sub(r"\s+"," ",m.replace("µ","?")) not in t]
             d["status"]="verified" if not miss else "needs review"; d["missing"]=miss or None; d["verified"]=time.strftime("%Y-%m-%d")
