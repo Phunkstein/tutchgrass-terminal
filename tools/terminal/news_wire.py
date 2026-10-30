@@ -5,7 +5,9 @@ Writes:
   tools/terminal/data/news_seen.json       every item key ever seen, with first_seen (pruned after 21 days)
   public/terminal/data/breaking.json       machine-readable list of items first seen in the last 48 h (for a later alert)
   public/terminal/data/terminal.json       only its "news" block is patched (other agents untouched)
-Prints new=<n> and appends it to $GITHUB_OUTPUT. Exit code 0 even with no news; nothing is posted or emailed."""
+Prints new=<n> and appends it to $GITHUB_OUTPUT. Exit code 0 even with no news; nothing is posted or emailed.
+--repatch: fetch nothing; just re-patch the "news" block of terminal.json from data/news.json (used by news-wire.yml after
+it resets to a newer origin/main on a rejected push, so the other agents' blocks in terminal.json are never overwritten)."""
 import json,os,re,sys,time
 HERE=os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0,os.path.join(HERE,"agents"))
 PUB=os.path.join(HERE,"..","..","public","terminal","data")
@@ -52,4 +54,7 @@ def main():
         T=jload(TERM,None)
         if T is not None: T["news"]=news_block(N); json.dump(T,open(TERM,"w"),separators=(",",":"))
     out(len(real))
-if __name__=="__main__": main()
+def repatch():
+    N=jload(os.path.join(HERE,"data","news.json"),None); T=jload(TERM,None)
+    if N and T is not None: T["news"]=news_block(N); json.dump(T,open(TERM,"w"),separators=(",",":")); print("terminal.json news block re-patched")
+if __name__=="__main__": repatch() if "--repatch" in sys.argv else main()
