@@ -38,8 +38,8 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 119"
   },
   {
    "source": "Google News: intl cannabis",
@@ -257,6 +257,17 @@
  "news_us": [
   {
    "source": "Marijuana Moment",
+   "title": "DEA Warns Medical Marijuana Businesses To Only Obtain Products From Federally Registered Companies",
+   "link": "https://www.marijuanamoment.net/dea-warns-medical-marijuana-businesses-to-only-obtain-products-from-federally-registered-companies/",
+   "summary": "The Drug Enforcement Administration (DEA) has issued new guidance warning that medical marijuana businesses that want to receive federal registration and protections under the Trump administration\u2019s rescheduling reform have until late November to begin sourcin",
+   "ts": 1793388393.0,
+   "date": "2026-10-30 15:26",
+   "category": "US federal",
+   "is_law": true,
+   "states": []
+  },
+  {
+   "source": "Marijuana Moment",
    "title": "DEA Officially Grants Federal Registration And Protections To More Than 900 Medical Marijuana Dispensaries",
    "link": "https://www.marijuanamoment.net/dea-officially-grants-federal-registration-and-protections-to-more-than-900-medical-marijuana-dispensaries/",
    "summary": "The Trump administration has issued federal registrations to hundreds of medical marijuana dispensaries in states across the U.S. in line with the process of federally rescheduling cannabis, Attorney General Todd Blanche has announced. \u201cThe American people des",
@@ -354,19 +365,6 @@
    ]
   },
   {
-   "source": "Marijuana Moment",
-   "title": "New Bill In Congress Would Dramatically Overhaul How The Federal Government Classifies Drugs While Legalizing Marijuana",
-   "link": "https://www.marijuanamoment.net/new-bill-in-congress-would-dramatically-overhaul-how-the-federal-government-classifies-drugs-while-legalizing-marijuana/",
-   "summary": "A Democratic lawmaker has filed a lengthy new bill in Congress that would completely overhaul the federal system for classifying drugs. The Public Health and Research Reforms In Controlled Substances Act, introduced by Rep. Steve Cohen (D-TN) on Thursday, amou",
-   "ts": 1793290245.0,
-   "date": "2026-10-29 12:10",
-   "category": "US federal",
-   "is_law": true,
-   "states": [
-    "New"
-   ]
-  },
-  {
    "source": "Cannabis Health News (UK)",
    "title": "Pharmacist to Discuss Safer Cannabis Care in Frankfurt",
    "link": "https://cannabishealthnews.co.uk/2026/10/29/pharmacist-to-discuss-safer-cannabis-care-in-frankfurt/",
@@ -444,8 +442,19 @@
    "category": "International",
    "is_law": true,
    "states": []
+  },
+  {
+   "source": "Cannabis Health News (UK)",
+   "title": "Cannabis Publisher to Join Frankfurt Health Symposium",
+   "link": "https://cannabishealthnews.co.uk/2026/10/28/cannabis-publisher-to-join-frankfurt-health-symposium/",
+   "summary": "Lisa Katharina Haag will bring her perspective on cannabis policy and patient care to the one-day event.",
+   "ts": 1793188844.0,
+   "date": "2026-10-28 08:00",
+   "category": "International",
+   "is_law": true,
+   "states": []
   }
  ],
- "news_health_total": 19,
- "generated": "2026-10-30 14:45 EDT"
+ "news_health_total": 20,
+ "generated": "2026-10-30 15:45 EDT"
 }
