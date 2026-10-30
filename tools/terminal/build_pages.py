@@ -72,7 +72,8 @@ def sitemap():
     import time; today=time.strftime("%Y-%m-%d"); urls=[]
     for root,dirs,files in os.walk(PUB):
         rel=os.path.relpath(root,PUB).replace(os.sep,"/"); rel="" if rel=="." else rel+"/"
-        if rel.split("/")[0] in ("unsubscribe","account","assets","data","share"): continue
+        # report-cards: Brand Auditor was removed from the site; its pages are still built but unlinked and left out of the sitemap
+        if rel.split("/")[0] in ("unsubscribe","account","assets","data","share","report-cards"): continue
         for f in files:
             if f=="index.html": urls.append(f"{SITE}/terminal/{rel}")
             elif f.endswith(".html") and rel.startswith("findings"): urls.append(f"{SITE}/terminal/{rel}{f}")
