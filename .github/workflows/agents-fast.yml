@@ -1,0 +1,43 @@
+# Live Agents (fast): Market Watcher every 15 minutes, plus Trend Spotter via the X API only when the optional
+# X_BEARER_TOKEN secret is set (without it, Trend Spotter runs free on Bluesky + Reddit in agents-hourly.yml), (GitHub may delay scheduled runs under load).
+# Commits ONLY when the data really changed (timestamps alone do not count), plus a heartbeat commit at most every 6 h
+# so the site can show the agents ran. Nothing is posted or emailed; Trend Spotter only reads.
+# Push retry never uses -X theirs: publish.py resets to the newest main, restores only this workflow's files and
+# re-assembles terminal.json, so News Wire's and the hourly agents' edits are kept.
+name: Live Agents (fast)
+on:
+  schedule:
+    - cron: "7,22,37,52 * * * *"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: agents-fast
+  cancel-in-progress: false
+jobs:
+  fast:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      TZ: America/Detroit
+      PYTHONUNBUFFERED: "1"
+      X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}   # optional; without it this job skips X and agents-hourly.yml runs the free Trend Spotter
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run Market Watcher (and Trend Spotter on X if the token is set)
+        run: python3 tools/terminal/agents_run.py fast
+      - name: Publish only if the data changed
+        id: publish
+        run: |
+          git config user.name "Tutchgrass Agents"
+          git config user.email "tutchgrass@mail.grokbot.com"
+          # social.json is owned by exactly one workflow: this one with an X token, agents-hourly.yml without
+          SOCIAL=""; if [ -n "$X_BEARER_TOKEN" ]; then SOCIAL="tools/terminal/data/social.json tools/terminal/data/social_pool.json"; fi
+          python3 tools/terminal/publish.py --name "Agents Fast" \
+            --heartbeat tools/terminal/data/market.json:6 \
+            --owned tools/terminal/data/market.json tools/terminal/data/prices.json $SOCIAL

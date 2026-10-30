@@ -1,0 +1,41 @@
+# Live Agents (daily): Brand Auditor (tools/terminal/agents/brands.py). Free sources only: the brands' own pages.
+#  1. Re-checks every COA link behind the Brand Report Cards (212 today; HEAD, then a 1-byte GET; 1.5 s apart per host).
+#  2. Reads each brand's lab-results page (tools/terminal/data/brand_sources.json) once and queues COAs not yet scored.
+# It never re-grades or auto-scores: queued COAs need the PDF read against the label first. Writes
+# tools/terminal/data/brand_audit.json and adds the check to public/terminal/data/meta.json (shown on the agent tab).
+# Commits ONLY when the results really changed, plus a heartbeat at most every 20 h so the tab stays "live" (50 h window).
+# Copy to .github/workflows/agents-daily.yml (needs a token with workflow scope). No secrets needed.
+name: Live Agents (daily)
+on:
+  schedule:
+    - cron: "23 9 * * *"     # 09:23 UTC = 5:23 AM EDT / 4:23 AM EST
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: agents-daily
+  cancel-in-progress: false
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TZ: America/Detroit
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run Brand Auditor
+        run: python3 tools/terminal/agents_run.py daily
+      - name: Publish only if the audit changed
+        id: publish
+        run: |
+          git config user.name "Tutchgrass Agents"
+          git config user.email "tutchgrass@mail.grokbot.com"
+          python3 tools/terminal/publish.py --name "Brand Auditor" \
+            --heartbeat public/terminal/data/meta.json:20 \
+            --owned public/terminal/data/meta.json tools/terminal/data/brand_audit.json
