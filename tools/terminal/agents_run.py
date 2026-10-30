@@ -7,6 +7,7 @@
                                                 #   Study Grader (newstudies.py, skips when PubMed is unchanged),
                                                 #   recent-studies harvest (harvest_conditions.py, at most once a day)
   python3 tools/terminal/agents_run.py recalls  # Recall & Safety (agents/recalls.py): state regulator recalls + FDA, own workflow
+  python3 tools/terminal/agents_run.py deals    # Deals (agents/deals.py, TEST): Michigan dispensary deals from stores' own pages, own workflow
   python3 tools/terminal/agents_run.py weekly   # Product Checker lab list + action-limit re-check (agents/labs.py)
 Each step runs on its own: one failing source never stops the others and never writes placeholder data
 (a failed step keeps the last good file, and the site shows that agent as stale/unavailable). Always exits 0;
@@ -44,7 +45,9 @@ def main(group):
         run("brand auditor",["agents/brands.py"],1500)
     elif group=="recalls":
         run("recall & safety",["agents/recalls.py"],600)
+    elif group=="deals":
+        run("deals",["agents/deals.py"],600)
     elif group=="weekly":
         run("product checker labs",["agents/labs.py"],600)
-    else: sys.exit("usage: agents_run.py fast|hourly|daily|recalls|weekly")
+    else: sys.exit("usage: agents_run.py fast|hourly|daily|recalls|deals|weekly")
 if __name__=="__main__": main(sys.argv[1] if len(sys.argv)>1 else "")

@@ -55,7 +55,7 @@ TG.laws=L=>{const el=$('#laws');if(!el)return;if(!L){el.innerHTML=NA('Laws in ef
   show(L.in_effect.length?'now':'soon')};
 TG.week=d=>{const el=$('#thisweek');if(!el)return;const n=d.newstudies;if(!n){el.innerHTML=NA('New this week (PubMed)');return}
   const wk=Object.entries(n.week).filter(x=>x[1]>0).sort((a,b)=>b[1]-a[1]),tot=n.papers.filter(p=>(p.date||'')>=n.week_start).length;
-  el.innerHTML=`<div class="wk"><span class="lbl" style="margin:0">New this week</span><b class="mono">${tot}</b><span class="small dim">new studies since ${E(n.week_start)}</span>${wk.map(([k,v])=>`<a class="pill" href="/terminal/my/?c=${E(k)}">${E(n.labels[k]||k)} <b class="mono">${v}</b></a>`).join('')||'<span class="small mute">None in the last 7 days.</span>'}<a class="small" href="#newstudies">See them explained →</a></div>`};
+  el.innerHTML=`<div class="wk"><span class="lbl" style="margin:0">New this week</span><b class="mono">${tot}</b><span class="small dim">new studies since ${E(n.week_start)}</span>${wk.map(([k,v])=>`<a class="pill" href="/terminal/my/?c=${E(k)}">${E(n.labels[k]||k)} <b class="mono">${v}</b></a>`).join('')||'<span class="small mute">None in the last 7 days.</span>'}<a class="small" href="/terminal/my/">See them on My Condition →</a></div>`};
 TG.feed=d=>{const n=d.newstudies,b=$('#ns-body');if(!b)return;if(!n){b.innerHTML=NA('PubMed new studies');return}
   $('#ns-meta').textContent=`${n.papers.length} papers · ${n.window.start} to ${n.window.end} · ${n.source}`;
   const gc={};n.papers.forEach(p=>gc[p.grade]=(gc[p.grade]||0)+1);
@@ -81,17 +81,13 @@ function render(d){
   // ---- counters
   const conds=S?S.conditions:[];const cites=conds.reduce((a,c)=>a+(c.citations||[]).length,0);
   const new30=conds.reduce((a,c)=>a+(+c.new_papers_30d||0),0);
-  const msos=M&&M.rows?M.rows.find(r=>r.ticker==='MSOS'&&r.status==='ok'):null;
-  const us=P&&P.series?P.series.find(s=>s.region==='US'&&s.status==='ok'&&s.points&&s.points.length):null;const usl=us?us.points[us.points.length-1]:null;
   const srcs=[];(d.source_status&&d.source_status.wire_sources||[]).forEach(s=>srcs.push({n:s.source,ok:s.status==='ok'}));
   (N&&N.sources||[]).forEach(s=>{if(!srcs.find(x=>x.n===s.source))srcs.push({n:s.source,ok:s.status==='ok'})});
-  srcs.push({n:'Yahoo Finance (market)',ok:!!(M&&M.rows&&M.rows.some(r=>r.status==='ok'))});
-  (P&&P.series||[]).filter(s=>s.status!=='discontinued').forEach(s=>{const x=sStale(s);srcs.push({n:s.label,ok:s.status==='ok'&&!x,stale:x,none:s.status!=='ok'})});
-  srcs.push({n:(So&&So.mode==='free'?(So.platforms||['Bluesky']).join(' + ')+' posts':'X posts + X News')+' (social)',ok:!!(So&&So.posts&&So.posts.length)});
+  (d.recalls&&d.recalls.sources||[]).forEach(s=>srcs.push({n:s.source+' (recalls)',ok:s.status==='ok'}));
   const okN=srcs.filter(s=>s.ok).length;
   const K=[[conds.length||'—','Conditions tracked'],[cites||'—','Verified PubMed citations'],[new30||'—','New papers, last 30 d'],[F.length||'—','Latest findings'],
-    [N?N.total:'—','News items read'],[msos?'$'+num(msos.price):'n/a',`MSOS ${msos?'<em class="'+(msos.chg_pct>=0?'pos':'neg')+'">'+(msos.chg_pct>=0?'+':'')+num(msos.chg_pct)+'%</em>':'unavailable'}`],
-    [usl?'$'+num(usl.value,0):'n/a',`US wholesale /lb ${usl?'<em class="'+(usl.chg_pct>=0?'pos':'neg')+'">'+(usl.chg_pct>=0?'+':'')+num(usl.chg_pct,1)+'%</em>':'unavailable'}`],[okN+'/'+srcs.length,'Sources live']];
+    [N?N.total:'—','News items read'],[d.recalls&&d.recalls.count!=null?d.recalls.count:'—','Official recall notices'],
+    [d.laws&&d.laws.counts?d.laws.counts.in_effect+d.laws.counts.upcoming:'—','Laws in effect or coming soon'],[okN+'/'+srcs.length,'Sources live']];
   $('#kpis').innerHTML=K.map(k=>`<div class="kpi"><b>${k[0]}</b><span>${k[1]}</span></div>`).join('');
   // ---- sidebar legend (agent statuses now live in the agents bar, agents.js)
   const col={scientist:'#14532d',lab:'#5b3fa3',holistic:'#0e6b7a',wire:'#1f4f99',social:'#b4470f',grower:'#4d7c0f'};
@@ -128,7 +124,7 @@ function render(d){
   $('#fgrid').innerHTML=F.length?F.map(f=>`<div class="fcard" id="finding-${E(f.slug)}"><a href="${E(f.path)}"><img src="${E(f.img)}" alt="${E(f.headline)}" loading="lazy" width="1600" height="900"></a><div class="fb"><div class="fc">${E(f.condition)}</div><a href="${E(f.path)}" style="color:inherit"><b>${E(f.headline)}</b></a><span class="badge grade g-${E(f.grade_cls)}">${E(f.grade)}</span> ${TG.aitag(TG.AI_FIND)}<p>${E(f.summary[0])}</p>${f.strains?`<p class="st"><b>Typical strains:</b> ${E(f.strains)}</p>`:''}<p class="small">${f.studies.map(s=>`<a href="${pm(s.pmid)}" target="_blank" rel="noopener">PubMed ${E(s.pmid)}</a>`).join(' · ')}</p><div class="ft"><a class="small" href="${E(f.path)}">Read the finding →</a><button class="btn sm ghost save" type="button" data-save="finding:${E(f.slug)}">☆ Save</button><a class="btn sm xbtn" href="${E(f.x_intent)}" target="_blank" rel="noopener">Share on X</a></div></div></div>`).join(''):NA('Findings');
   TG.dec11(d.dec11);TG.laws(d.laws);TG.week(d);TG.feed(d);TG.board(d);
   // ---- lab
-  if(!L)$('#lab-body').innerHTML=NA('Lab');else{const sp=L.compounds.find(c=>c.id===L.spotlight_id)||L.compounds[0];
+  if(!$('#lab-body')){}else if(!L)$('#lab-body').innerHTML=NA('Lab');else{const sp=L.compounds.find(c=>c.id===L.spotlight_id)||L.compounds[0];
     $('#lab-meta').textContent='spotlight '+L.spotlight_rule;
     $('#lab-body').innerHTML=`<div class="lbl" style="margin-top:0">Today's spotlight</div><div class="pick">${E(sp.name)}</div><p class="small dim">${E(sp.kind)} · ${E(sp.aroma)} ${ev(sp.evidence)}</p>
       <div class="lbl">Health angle</div><p>${E(sp.health)}</p><div class="lbl">Also found in</div><p class="small">${E(sp.also_in)}</p>
@@ -163,10 +159,10 @@ function render(d){
       `<br>Sources: ${okS.map(s=>`<a href="${E(s.url)}" target="_blank" rel="noopener">${E(s.source)}</a>`).join(' · ')}${bad.length?` · unavailable now: ${bad.map(s=>E(s.source)).join(', ')}`:''}`+
       (RC.not_covered&&RC.not_covered.length?`<br><span class="mute">Not covered yet (no parseable official list): ${RC.not_covered.map(x=>E(x.state)).join(', ')}.</span>`:'');}}
   // ---- market
-  if(!M||!M.rows)$('#mk-body').innerHTML=NA('Yahoo Finance');else{$('#mk-meta').textContent='Yahoo Finance · '+M.generated;
+  if(!$('#mk-body')){}else if(!M||!M.rows)$('#mk-body').innerHTML=NA('Yahoo Finance');else{$('#mk-meta').textContent='Yahoo Finance · '+M.generated;
     $('#mk-body').innerHTML='<table><thead><tr><th>Ticker</th><th class="num">Price</th><th class="num">Day</th><th class="num">1 mo</th><th class="mk-hide">30 d</th></tr></thead><tbody>'+M.rows.map(r=>r.status!=='ok'?`<tr><td><b class="mono">${E(r.ticker)}</b></td><td colspan="4" class="na">unavailable</td></tr>`:`<tr><td><b class="mono">${E(r.ticker)}</b><div class="small mute">${E(r.name)}</div></td><td class="num mono">$${num(r.price,r.price<1?3:2)}</td><td class="num mono">${pct(r.chg_pct)}</td><td class="num mono">${pct(r.chg_1mo_pct)}</td><td class="mk-hide">${spark(r.spark)}</td></tr>`).join('')+'</tbody></table><p class="small mute">Close as of '+E((M.rows.find(r=>r.as_of)||{}).as_of||'')+' ET. Information only, not investment advice.</p>';}
   // ---- prices (each series judged by its own cadence; age computed here from latest_date, never from build time)
-  if(!P||!P.series)$('#pr-body').innerHTML=NA('Price feeds');else{$('#pr-meta').textContent=P.generated||'';
+  if(!$('#pr-body')){}else if(!P||!P.series)$('#pr-body').innerHTML=NA('Price feeds');else{$('#pr-meta').textContent=P.generated||'';
     $('#pr-body').innerHTML=P.series.map(s=>{if((s.status!=='ok'&&s.status!=='discontinued')||!s.points||!s.points.length)return`<div class="item"><b>${E(s.label)}</b><p class="na" style="margin:4px 0 0">● Unavailable: ${E(s.note||'no source')}</p></div>`;
       const l=s.points[s.points.length-1],cur=s.currency!=null?s.currency:(s.region==='US'?'$':'C$'),unit=s.unit!=null?s.unit:(s.region==='US'?'/lb':'/g'),dec=s.decimals!=null?s.decimals:(s.region==='US'?0:2),
         per=s.period||(s.cadence==='monthly'||/canada cannabis spot/i.test(s.label||'')?'month':'week'),a=sAge(s),old=sStale(s),gone=s.status==='discontinued',
@@ -176,7 +172,7 @@ function render(d){
       <div class="small">${pct(l.chg_pct)} ${per} · ${l.per_gram?'$'+num(l.per_gram)+'/g · ':''}${when}${l.forward?` · fwd ${E(l.forward[0])} ${cur}${num(l.forward[1],0)}`:''}${s.cadence?` · published ${E(s.cadence)}`:''}</div></div>${spark(s.points.map(p=>p.value),120,40)}</div>
       <p class="small mute" style="margin:6px 0 0">${gone?E(s.note||'No longer published; shown as history only.')+' ':old?`The next ${E(s.cadence||'')} report is overdue, so treat as historical. `:''}Source: <a href="${E(l.link||s.url)}" target="_blank" rel="noopener">${E(s.source)}</a></p></div>`}).join('');}
   // ---- social
-  if(!So||!So.posts)$('#so-body').innerHTML=NA('Social');else{const fr=So.mode==='free';$('#so-meta').textContent=(fr?(So.platforms||['Bluesky']).join(' + '):'X')+' read '+(So.generated||'').slice(0,16)+(So.news&&So.news.length?' · X News '+(So.news_generated||''):'');
+  if(!$('#so-body')){}else if(!So||!So.posts)$('#so-body').innerHTML=NA('Social');else{const fr=So.mode==='free';$('#so-meta').textContent=(fr?(So.platforms||['Bluesky']).join(' + '):'X')+' read '+(So.generated||'').slice(0,16)+(So.news&&So.news.length?' · X News '+(So.news_generated||''):'');
     const tc=So.topic_counts||{};const post=p=>`<div class="post ${E(p.audience)}"><div class="m small mute"><a href="${E(p.url)}" target="_blank" rel="noopener">${p.platform?E(p.platform)+' ':''}@${E(p.handle)}</a> · ${E(p.date)} · ${E(p.topic)}${p.views?` · ${Number(p.views).toLocaleString()} views`:''}</div>${E(p.text.length>220?p.text.slice(0,217)+'…':p.text)}</div>`;
     $('#so-body').innerHTML=`<p>${Object.entries(tc).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<span class="pill">${E(k)} <b class="mono">${v}</b></span>`).join('')}</p>
       <div class="lbl">Health posts <span class="mute">· claims people make, not evidence</span></div>${So.posts.filter(p=>p.audience==='health').slice(0,4).map(post).join('')}
@@ -186,12 +182,13 @@ function render(d){
   // ---- former Research Wire (PubMed newest 14 d + health feed): only items not shown elsewhere, folded into Study Grader and Grower Notes
   const pl=(a,why)=>a.map(p=>`<div class="item"><a class="t" href="${E(p.url)}" target="_blank" rel="noopener">${E(p.title)}</a><div class="m">${E(p.first_author)} · ${E(p.journal)} ${E(p.year)} ${p.preclinical?tag('PRECLINICAL'):''} <span class="mute">${E(why)}</span></div></div>`).join('');
   const nsIds=new Set(((d.newstudies||{}).papers||[]).map(p=>p.pmid));
-  if(W&&!$('#ns-extra')){const med=W.papers_medical.filter(p=>!nsIds.has(p.pmid));if(med.length)$('#ns-foot').insertAdjacentHTML('afterend',`<details class="extra" id="ns-extra"><summary class="small"><b>${med.length} more new medical papers</b> <span class="mute">· PubMed newest 14 d, not matched to a tracked condition, so not graded · ${E(W.generated)}</span></summary><div class="list">${pl(med,'not graded')}</div></details>`)}
+  if(W&&$('#ns-foot')&&!$('#ns-extra')){const med=W.papers_medical.filter(p=>!nsIds.has(p.pmid));if(med.length)$('#ns-foot').insertAdjacentHTML('afterend',`<details class="extra" id="ns-extra"><summary class="small"><b>${med.length} more new medical papers</b> <span class="mute">· PubMed newest 14 d, not matched to a tracked condition, so not graded · ${E(W.generated)}</span></summary><div class="list">${pl(med,'not graded')}</div></details>`)}
   // ---- grower
-  if(!L)$('#gr-body').innerHTML=NA('Grower notes');else $('#gr-body').innerHTML=Object.values(L.factors).map(f=>`<div class="note" style="background:#fff">${f.anecdotal?tag('ANECDOTAL')+' ':''}<b>${E(f.name)}</b><p class="small" style="margin:4px 0">${E(f.finding)}</p>${f.citations&&f.citations.length?cl(f.citations,1):`<p class="small mute">${E(f.source||'No study; grower lore only.')}</p>`}</div>`).join('');
-  if(W&&!$('#gr-papers')&&W.papers_cultivation.length)$('#gr-body').insertAdjacentHTML('afterend',`<div id="gr-papers"><div class="lbl">New cultivation papers · PubMed newest 14 d · ${W.papers_cultivation.length}</div><div class="list">${pl(W.papers_cultivation,'cultivation')}</div></div>`);
+  if(!$('#gr-body')){}else if(!L)$('#gr-body').innerHTML=NA('Grower notes');else $('#gr-body').innerHTML=Object.values(L.factors).map(f=>`<div class="note" style="background:#fff">${f.anecdotal?tag('ANECDOTAL')+' ':''}<b>${E(f.name)}</b><p class="small" style="margin:4px 0">${E(f.finding)}</p>${f.citations&&f.citations.length?cl(f.citations,1):`<p class="small mute">${E(f.source||'No study; grower lore only.')}</p>`}</div>`).join('');
+  if(W&&$('#gr-body')&&!$('#gr-papers')&&W.papers_cultivation.length)$('#gr-body').insertAdjacentHTML('afterend',`<div id="gr-papers"><div class="lbl">New cultivation papers · PubMed newest 14 d · ${W.papers_cultivation.length}</div><div class="list">${pl(W.papers_cultivation,'cultivation')}</div></div>`);
   // ---- feed + sources
-  $('#feed').innerHTML=(d.feed||[]).map(f=>`<tr><td class="mono small" style="white-space:nowrap">${E(f.ts.slice(5,16))}</td><td><span class="badge" style="color:${col[f.agent]||'#475569'}">${E(f.agent.toUpperCase())}</span></td><td><b>${E(f.kind)}</b> ${E(f.what)}<div class="why">${E(f.reason)}</div></td></tr>`).join('');
+  const FEED_OK=new Set(['scientist','holistic','news','policy','recalls','deals']);
+  $('#feed').innerHTML=(d.feed||[]).filter(f=>FEED_OK.has(f.agent)).map(f=>`<tr><td class="mono small" style="white-space:nowrap">${E(f.ts.slice(5,16))}</td><td><span class="badge" style="color:${col[f.agent]||'#475569'}">${E(f.agent.toUpperCase())}</span></td><td><b>${E(f.kind)}</b> ${E(f.what)}<div class="why">${E(f.reason)}</div></td></tr>`).join('');
   $('#src-meta').textContent=okN+'/'+srcs.length+' sources live';
   document.dispatchEvent(new CustomEvent('tg:rendered'));
   $('#sources').innerHTML=srcs.map(s=>`<span class="pill">${s.ok?'<span class="pos">●</span>':s.stale?'<span style="color:#8a5a00">●</span>':'<span class="neg">●</span>'} ${E(s.n)}${s.stale?' (stale)':s.none?' (unavailable)':''}</span>`).join('');
