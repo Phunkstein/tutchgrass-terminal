@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-10-30T14:43:32-0400",
- "generated_ts": 1793385812,
+ "generated": "2026-10-30T15:28:15-0400",
+ "generated_ts": 1793388495,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "items": 0
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,19 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "deawarnsmedicalmarijuanabusinessestoonlyobtainproductsfromfe",
+   "title": "DEA Warns Medical Marijuana Businesses To Only Obtain Products From Federally Registered Companies",
+   "link": "https://www.marijuanamoment.net/dea-warns-medical-marijuana-businesses-to-only-obtain-products-from-federally-registered-companies/",
+   "source": "Marijuana Moment",
+   "category": "US federal",
+   "is_law": true,
+   "states": [],
+   "published": "2026-10-30T15:26:33-0400",
+   "published_ts": 1793388393.0,
+   "first_seen": "2026-10-30T15:28:15-0400",
+   "first_seen_ts": 1793388495
+  },
   {
    "id": "deaofficiallygrantsfederalregistrationandprotectionstomoreth",
    "title": "DEA Officially Grants Federal Registration And Protections To More Than 900 Medical Marijuana Dispensaries",
