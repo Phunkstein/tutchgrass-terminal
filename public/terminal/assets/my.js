@@ -40,6 +40,16 @@ document.addEventListener('tg:rendered',mark);
 const prefsHTML=()=>st.prefs?`<label class="tg"><input type="checkbox" data-pref="alerts" ${st.prefs.alerts?'checked':''}> New-study alerts for my conditions</label><label class="tg"><input type="checkbox" data-pref="digest" ${st.prefs.digest?'checked':''}> Weekly digest in plain words</label><p class="small mute">On by default when you sign up. Every email has a one-click unsubscribe.</p>`:'<p class="small mute">Email settings unavailable right now.</p>';
 const bindPrefs=root=>root.querySelectorAll('[data-pref]').forEach(i=>i.onchange=async()=>{if(!await setPref(i.dataset.pref,i.checked))i.checked=!i.checked});
 // ---------- /terminal/my/ ----------
+// "What to look for": shop by chemical profile, not strain name. Only fields already in the Scientist data are shown.
+const EVW={strong:'Strong',moderate:'Moderate',limited:'Limited',insufficient:'Insufficient',preclinical:'Preclinical only'};
+const split=t=>{const m=String(t).match(/^(.*?)\s*\((.*)\)\s*$/);return m?[m[1],m[2]]:[String(t),'']};
+function wtl(sci){if(!sci)return'';const ev=sci.evidence||'',g=`<span class="wg ev-${E(ev)}"><i></i>${E(EVW[ev]||ev)} evidence</span>`;
+  const terps=(sci.terpenes||[]).map(split);
+  return`<section class="wtl" data-ag="my" aria-label="What to look for"><div class="wtlh"><h3>What to look for</h3><p>Shop by profile, not strain name. Same name, different batch, different chemistry.</p></div><div class="wtlg">
+  <div class="wtc"><div class="wtk">THC : CBD ratio</div><b class="kn">${E(sci.thc_cbd||'n/a')}</b>${g}<p>${E(sci.chemotype||'')}</p></div>
+  <div class="wtc"><div class="wtk">Key terpenes</div>${terps.length?`<ul class="wtt">${terps.map(([n,note])=>`<li><b>${E(n)}</b><span>${note?E(note):'not graded separately'}</span></li>`).join('')}</ul>`:'<p class="mute">No terpene shown to matter for this in the studies we track. That is the honest answer.</p>'}</div>
+  <div class="wtc wtx"><div class="wtk">Product types <span class="exl">Example layout</span></div><ul class="wtt sk"><li><b>&nbsp;</b><span>&nbsp;</span></li><li><b>&nbsp;</b><span>&nbsp;</span></li></ul><p class="mute">No product-type data in the Terminal yet. This slot shows where it would go, each with its study grade.</p></div>
+  </div>${(sci.strains||[]).length?`<div class="wts"><div class="wtk">Example strains that often test this way</div><ul>${sci.strains.map(t=>{const [n,note]=split(t);return`<li><b>${E(n)}</b>${note?` <span>${E(note)}</span>`:''}</li>`}).join('')}</ul><p class="wtn"><b>Examples, not promises.</b> Chemistry varies by grower and batch. Check the lab COA for the ratio and terpenes above.</p></div>`:''}</section>`}
 async function myPage(){
   const root=$('#my');if(!root)return; let D;
   try{const r=await fetch('/terminal/data/terminal.json',{cache:'no-cache'});if(!r.ok)throw 0;D=await r.json()}catch(e){root.innerHTML='<p class="na">● Study data unavailable right now.</p>';return}
@@ -54,6 +64,7 @@ async function myPage(){
     const mcta=st.user?'':`<a class="mcta" href="/terminal/account/#signup" data-pend="${E(id)}"><b>🔔 Sign up free to get alerts when new studies drop for this</b><span>Free · no spam · unsubscribe anytime</span></a>`;
     return`<div class="cview" id="cv"><div>${mcta}
       <div class="ph" style="margin:6px 0 10px"><h2 style="font-size:22px;margin:0">${E(c.emoji)} ${E(c.label)}</h2><span class="upd" style="font-size:11px">Last updated ${E(c.newest||'no new papers')}</span></div>
+      ${wtl(sci)}
       <div class="lbl">New studies, last 30 days · ${np.length}</div><p class="ainote">${window.TG.aitag(window.TG.AI_STUDY)} ${E(window.TG.AI_STUDY)}</p>${np.length?'<div class="nsgrid" style="grid-template-columns:1fr">'+np.map(p=>window.TG.paper(p,N.grades,N.labels)).join('')+'</div>':'<p class="small mute">No new cannabis studies on PubMed for this in the last 30 days. That is the honest answer.</p>'}
       <div class="lbl">Most relevant 2025–26 studies · ${c.matches} on PubMed</div><ul class="cites recent">${c.recent.map(x=>`<li><span class="tag t-${E(x.tag)}">${E(x.tag)}</span><a href="https://pubmed.ncbi.nlm.nih.gov/${E(x.pmid)}/" target="_blank" rel="noopener">${E(x.title)}</a> <span class="mute small">${E(x.first_author)} · ${E(x.journal)} · ${E(x.date)}</span>${x.says?`<span class="cc">${E(x.says)}</span>`:''}</li>`).join('')}</ul>
     </div><div style="display:grid;gap:12px">${cta}

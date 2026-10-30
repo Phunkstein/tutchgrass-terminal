@@ -16,7 +16,7 @@ const st=(ts,max,ok=true)=>!ok||!ts?'down':now()-ts>max?'stale':'ok';
 const LBL={ok:'LIVE',stale:'STALE',down:'UNAVAILABLE',pend:'CHECKING'};
 // registry: each agent has one distinct job and data source. secs = its sections on the home page (shown together as its tab).
 const R=[
- {id:'scientist',nm:'Scientist',ic:'🔬',secs:['scientist','holistic'],page:/^\/terminal\/(my|findings)\//,job:'Matches each condition to cannabinoids and terpenes from verified PubMed citations; writes the findings, pairings and cautions.',
+ {id:'scientist',nm:'Scientist',ic:'🔬',secs:['scientist','holistic'],page:/^\/terminal\/findings\//,job:'Matches each condition to cannabinoids and terpenes from verified PubMed citations; writes the findings, pairings and cautions.',
   f:(d)=>{const S=d.scientist;if(!S)return null;const n=S.conditions.length,c=S.conditions.reduce((a,x)=>a+(x.citations||[]).length,0);const ts=T(S.generated),F=d.findings||[],L=d.lab;
    return{ts,state:st(ts,26*H),doing:`Matched ${n} conditions to ${c} citations`,src:'PubMed E-utilities + National Academies 2017',log:[`Checked ${n} conditions against ${S.pubmed_records_cached||0} cached PubMed records`,`${c} citations kept · ${(S.dropped_unverified||[]).length} unverified dropped`,`${F.length} plain-words findings published${F[0]?' · newest '+F.map(f=>f.date).sort().pop():''}`,L?`${L.interactions.length} interaction cautions · lifestyle pairings for ${Object.keys(L.holistic||{}).length} conditions`:'Pairings unavailable']}}},
  {id:'grader',nm:'Study Grader',ic:'🧪',secs:['newstudies','scoreboard'],job:'AI-grades every new cannabis paper on PubMed and ranks conditions in the evidence scoreboard.',
@@ -72,25 +72,38 @@ const nav=document.querySelector('.top .nav');if(!nav)return;
 const path=location.pathname.replace(/index\.html$/,''),HOME=path==='/terminal/';
 const byId={};R.forEach(a=>byId[a.id]=a);
 const pageAgent=(R.find(a=>a.page&&a.page.test(path))||{}).id;
-const pill=s=>`<span class="apill s-${s}"><i></i>${LBL[s]}</span>`;
+const HX='<svg class="hx" viewBox="0 0 16 16" aria-hidden="true"><path d="M5.5 1h5v4.5H15v5h-4.5V15h-5v-4.5H1v-5h4.5z"/></svg>';
+const pill=s=>`<span class="ast s-${s}"><i></i>${LBL[s]}</span>`;
 function chip(a,s){return`<a class="ag" data-ag="${a.id}" href="${a.href}"><span class="av" aria-hidden="true">${a.ic}</span><span class="tx"><span class="nm">${E(a.nm)}<i class="dot s-${s.state}" title="${LBL[s.state]}"></i></span><small class="doing">${E(s.doing)}</small></span></a>`}
 function count(n){return`<b>${n}</b> ${n===1?'agent is':'agents are'} live`}
 function build(d,x){
   const S={};R.forEach(a=>{let r=null;try{r=d?a.f(d,x):null}catch(e){r=null}S[a.id]=r||{state:'down',ts:null,doing:'Source unavailable',src:'unavailable',log:['Source unavailable right now. No numbers are shown rather than guesses.']}});
+  // one big key number + short label per agent (only from the data files; omitted if missing)
+  const fmt=v=>typeof v==='number'?v.toLocaleString('en-US'):v;
+  const KEY={scientist:d=>{const c=d.scientist.conditions;return[c.reduce((a,x)=>a+(x.citations||[]).length,0),`PubMed citations · ${c.length} conditions`]},
+   grader:d=>[d.newstudies.papers.length,'new papers AI-graded'],
+   policy:d=>[Math.max(0,Math.floor((T(d.dec11.deadline)-now())/D)),'days to the Dec 11 hemp rule'],
+   news:d=>[d.news.total,'stories sorted'],recalls:d=>[d.recalls.count,'official recall & safety notices'],
+   market:d=>{const u=d.prices.series.find(s=>s.region==='US'&&s.status==='ok'&&s.points&&s.points.length);return u?['$'+fmt(Math.round(u.points[u.points.length-1].value)),'per lb, US wholesale flower']:null},
+   lab:d=>[d.lab.compounds.length,'compounds in rotation'],trends:d=>[d.social.posts.length,'public posts read'],
+   grower:d=>{const f=Object.values(d.lab.factors);return[f.filter(x=>!x.anecdotal).length,'growing factors backed by studies']},
+   brands:(d,x)=>[x.meta.coa_count,`lab reports audited · ${x.meta.brand_count} brands`],product:d=>[d.labs.counts.state_labs,'licensed labs on file']};
+  R.forEach(a=>{if(S[a.id].state==='down'||!KEY[a.id])return;try{const k=KEY[a.id](d,x);if(k&&k[0]!=null)S[a.id].k=[fmt(k[0]),k[1]]}catch(e){}});
   const N=R.filter(a=>S[a.id].state==='ok').length;
   nav.classList.add('agnav');
   nav.innerHTML=`<div class="ascroll">`+
     `<a class="ag all" data-ag="all" href="/terminal/"><span class="av" aria-hidden="true">◎</span><span class="tx"><span class="nm">All agents</span><small class="doing">${R.length} on the team</small></span></a>`+
-    R.map(a=>chip(a,S[a.id])).join('')+`</div>`;
+    `<a class="ag my" data-ag="my" href="/terminal/my/"><span class="av" aria-hidden="true">${HX}</span><span class="tx"><span class="nm">My Condition</span><small class="doing">pick a condition</small></span></a>`+R.map(a=>chip(a,S[a.id])).join('')+`</div>`;
   document.querySelectorAll('[data-agcount]').forEach(el=>el.innerHTML=count(N));
   document.querySelectorAll('[data-agtotal]').forEach(el=>el.textContent=R.length);
-  const card=a=>{const s=S[a.id];return`<div class="ahead s-${s.state}" id="ah-${a.id}"><div class="scan" aria-hidden="true"></div><div class="ahh"><span class="av lg" aria-hidden="true">${a.ic}</span><div class="ahm"><div class="ahn"><b>${E(a.nm)}</b>${pill(s.state)}</div><div class="ahj">${E(a.job)}</div></div><div class="ahr"><span class="mono">Last run: <span data-ts="${s.ts||''}">${ago(s.ts)}</span></span><small>${E(clock(s.ts))}</small></div></div>
-    <ul class="alog">${s.log.map(l=>`<li><span class="mono">›</span> ${E(l)}</li>`).join('')}</ul><div class="asrc">Source: ${E(s.src)}${s.state==='stale'?' · <b>stale</b>: shown as historical':''}${s.state==='down'?' · unavailable':''}</div></div>`};
+  const card=a=>{const s=S[a.id],k=s.k;return`<div class="ahead s-${s.state}" id="ah-${a.id}" data-ag="${a.id}"><div class="ahband"><span class="av lg" aria-hidden="true">${a.ic}</span><b class="ahname">${E(a.nm)}</b>${pill(s.state)}</div>
+    <div class="ahbody"><div class="ahtop">${k?`<div class="ahkey"><b class="kn">${E(k[0])}</b><span class="kl">${E(k[1])}</span></div>`:''}<div class="ahr"><span class="mono">Last run <span data-ts="${s.ts||''}">${ago(s.ts)}</span></span><small>${E(clock(s.ts))}</small></div></div>
+    <div class="ahj">${E(a.job)}</div><ul class="alog" data-more="2" data-more-label="run details">${s.log.map(l=>`<li>${E(l)}</li>`).join('')}</ul><div class="asrc">Source: ${E(s.src)}${s.state==='stale'?' · <b>stale</b>: shown as historical':''}${s.state==='down'?' · unavailable':''}</div></div></div>`};
   // header cards: home sections, or the agent's own page
   if(HOME){R.forEach(a=>{if(!a.secs||document.getElementById('ah-'+a.id))return;
       if(a.id==='policy'){const dd=document.getElementById('dec11');if(!dd)return;const w=document.createElement('div');w.id='ag-policy';w.className='agwrap';w.innerHTML=card(a);dd.before(w)}
       else{const el=document.getElementById(a.secs[0]);if(el)el.insertAdjacentHTML('afterbegin',card(a))}});
-    const g=document.getElementById('agrid');if(g)g.innerHTML=R.map(a=>{const s=S[a.id];return`<a class="acard s-${s.state}" href="${a.href}" data-ag="${a.id}"><div class="ach"><span class="av" aria-hidden="true">${a.ic}</span><b>${E(a.nm)}</b><i class="dot s-${s.state}"></i></div><div class="acd">${E(s.doing)}</div><div class="acl"><span>${LBL[s.state]}</span><span data-ts="${s.ts||''}">${ago(s.ts)}</span></div></a>`}).join('');
+    const g=document.getElementById('agrid');const nC=d&&d.scientist?d.scientist.conditions.length:null;if(g)g.innerHTML=`<a class="acard mycard" href="/terminal/my/" data-ag="my"><div class="ach"><span class="av" aria-hidden="true">${HX}</span><b>My Condition</b></div><div class="acb">${nC?`<b class="kn">${nC}</b><span class="kl">conditions: pick yours, see what to look for</span>`:'<span class="kl">Pick a condition</span>'}</div><div class="acl"><span>FREE ALERTS</span><span>Open →</span></div></a>`+R.map((a,i)=>{const s=S[a.id],k=s.k;return`<a class="acard s-${s.state}" href="${a.href}" data-ag="${a.id}"><div class="ach"><span class="av" aria-hidden="true">${a.ic}</span><b>${E(a.nm)}</b><i class="dot s-${s.state}" title="${LBL[s.state]}"></i></div><div class="acb">${k?`<b class="kn">${E(k[0])}</b><span class="kl">${E(k[1])}</span>`:`<span class="kl">${E(s.doing)}</span>`}</div><div class="acl"><span>${LBL[s.state]}</span><span data-ts="${s.ts||''}">${ago(s.ts)}</span></div></a>`}).join('');
     const gm=document.getElementById('agrid-meta');if(gm)gm.textContent=`${N} live · ${R.filter(a=>S[a.id].state==='stale').length} stale · ${R.filter(a=>S[a.id].state==='down').length} unavailable · from the published data files`;
   }else if(pageAgent){const m=document.querySelector('main.wrap,main');if(m&&!document.getElementById('ah-'+pageAgent)){const h=m.querySelector('h1');(h||m.firstChild)&&(h?h.insertAdjacentHTML('afterend',card(byId[pageAgent])):m.insertAdjacentHTML('afterbegin',card(byId[pageAgent])))}}
   setup();
@@ -124,7 +137,17 @@ function route(force,smooth){if(!HOME)return;const id=decodeURIComponent(locatio
   // tab switch scrolls to the top; a deep link to something inside a tab (a condition, a paper) scrolls to that item
   if(target&&a&&id!==a.secs[0])setTimeout(()=>target.scrollIntoView({block:'start'}),30);else if(force===true||tab!==lastTab)scrollTo(0,0);
   lastTab=tab;document.dispatchEvent(new CustomEvent('tg:tab',{detail:tab}))}
-let built;function setup(){if(!HOME){set(pageAgent||null);return}tagHome();route(!built&&!(location.hash&&agentOf(location.hash.slice(1))&&location.hash.slice(1)!==(R.find(a=>a.id===agentOf(location.hash.slice(1)))||{secs:[]}).secs[0]));built=1}
+// progressive disclosure: any list with data-more="N" shows N children, then a "Show N more" button
+function more(root){(root||document).querySelectorAll('[data-more]:not([data-more-done])').forEach(el=>{const n=+el.dataset.more,kids=[...el.children].filter(c=>c.tagName!=='BUTTON');
+  if(!kids.length)return;el.dataset.moreDone=1;if(kids.length<=n+1)return;kids.slice(n).forEach(c=>c.hidden=true);
+  const b=document.createElement('button');b.type='button';b.className='showmore';const lab=el.dataset.moreLabel||'';
+  b.textContent=`Show ${kids.length-n} more${lab?' '+lab:''}`;b.setAttribute('aria-expanded','false');
+  b.onclick=()=>{const open=b.getAttribute('aria-expanded')==='true';kids.slice(n).forEach(c=>c.hidden=open);b.setAttribute('aria-expanded',String(!open));b.textContent=open?`Show ${kids.length-n} more${lab?' '+lab:''}`:'Show less'};
+  (el.tagName==='TBODY'?el.closest('table'):el).after(b)})}
+const MORE=[['#mk-body tbody',4,'stocks'],['#pr-body',2,'price series'],['#feed',5,'events']];
+function tagMore(){MORE.forEach(([q,n,l])=>{const el=document.querySelector(q);if(el&&!el.dataset.more){el.dataset.more=n;el.dataset.moreLabel=l}});more()}
+document.addEventListener('tg:rendered',()=>setTimeout(tagMore,0));
+let built;function setup(){tagMore();if(!HOME){set(/^\/terminal\/my\//.test(path)?'my':pageAgent||null);return}tagHome();route(!built&&!(location.hash&&agentOf(location.hash.slice(1))&&location.hash.slice(1)!==(R.find(a=>a.id===agentOf(location.hash.slice(1)))||{secs:[]}).secs[0]));built=1}
 if(HOME){
   // in-page links (#…, /terminal/#…) switch tabs through history so Back/Forward work
   document.addEventListener('click',e=>{const a=e.target.closest('a[href]');if(!a||e.defaultPrevented||e.metaKey||e.ctrlKey||e.shiftKey||a.target==='_blank')return;
