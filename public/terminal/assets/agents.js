@@ -40,6 +40,11 @@ const R=[
   f:(d)=>{const C=d.recalls;if(!C||!C.items)return null;const ts=T(C.generated),ok=(C.sources||[]).filter(s=>s.status==='ok'),bad=(C.sources||[]).filter(s=>s.status!=='ok'),n=C.items[0];
    return{ts,state:st(ts,8*H,ok.length>0),doing:`${C.count} official notices`,src:`${ok.length}/${(C.sources||[]).length} official sources ok: ${ok.map(s=>s.source).join(', ')}`,
     log:[n?`Newest: ${n.date} ${n.state} · ${(n.brand||n.product).slice(0,60)}`:'No notices',`${C.count} notices from ${ok.length} regulators/FDA lists, newest first, de-duplicated`,bad.length?`Unavailable now: ${bad.map(s=>s.source+' ('+(s.error||'error')+')').join(', ')}`:'Every source answered on the last check']}}},
+ {id:'deals',nm:'Deals',ic:'💸',secs:['deals'],job:'Collects current Michigan dispensary deals and specials from each licensed store\'s own public page (robots.txt checked first), in the store\'s own words, each linked to its source. Test version; sponsored slot is an example layout only.',
+  // test agent: refreshed a few times a day once its workflow is live, so live = re-checked within 26 h and at least one store page read
+  f:(d,x)=>{const D=x.deals;if(!D||!D.deals)return null;const ts=T(D.checked||D.generated),ok=(D.sources||[]).filter(s=>s.deals>0),ch=Object.keys(D.by_chain||{}),ci=Object.keys(D.by_city||{});
+   return{ts,state:st(ts,26*H,ok.length>0),doing:`${D.count} Michigan deals`,src:`${ok.length}/${(D.sources||[]).length} dispensary pages: ${ok.map(s=>s.name).join(', ')}`,
+    log:[`${D.count} deals from ${ch.length} chains across ${ci.length} cities/areas`,Object.entries(D.by_chain||{}).map(([k,v])=>k+' '+v).join(' · '),`Expired or undated-past deals dropped · no menu APIs (Dutchie/Jane/Weedmaps/Leafly) used`]}}},
  {id:'market',nm:'Market Watcher',ic:'📈',secs:['market','prices'],job:'Tracks cannabis stocks (Yahoo Finance), US wholesale flower prices (Cannabis Benchmarks, weekly) and Canadian retail cannabis prices (Statistics Canada CPI, monthly).',
   f:(d)=>{const M=d.market,P=d.prices;if(!M&&!P)return null;const ok=M&&M.rows?M.rows.filter(r=>r.status==='ok'):[],
    // each price series is judged by its own publishing cadence: age of its latest point vs max_age_days (fallback: the old 45-day rule)
@@ -133,8 +138,8 @@ if(HOME){
   addEventListener('popstate',route);addEventListener('hashchange',route)}
 if(HOME){if('scrollRestoration' in history)history.scrollRestoration='manual';tagHome();route(true)}
 const J=u=>fetch(u,{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null);
-Promise.all([J('/terminal/data/terminal.json'),J('/terminal/data/meta.json'),J('/terminal/data/breaking.json')]).then(([d,meta,breaking])=>{build(d,{meta,breaking});
+Promise.all([J('/terminal/data/terminal.json'),J('/terminal/data/meta.json'),J('/terminal/data/breaking.json'),J('/terminal/data/deals.json')]).then(([d,meta,breaking,deals])=>{build(d,{meta,breaking,deals});
   // home sections are filled by terminal.js; re-add a card if a section re-rendered over it
-  if(HOME)document.addEventListener('tg:rendered',()=>{if(R.some(a=>a.secs&&document.getElementById(a.secs[0])&&!document.getElementById('ah-'+a.id)))build(d,{meta,breaking})});
+  if(HOME)document.addEventListener('tg:rendered',()=>{if(R.some(a=>a.secs&&document.getElementById(a.secs[0])&&!document.getElementById('ah-'+a.id)))build(d,{meta,breaking,deals})});
   setInterval(()=>document.querySelectorAll('[data-ts]').forEach(el=>{const t=+el.dataset.ts;if(t)el.textContent=ago(t)}),60000)});
 })();

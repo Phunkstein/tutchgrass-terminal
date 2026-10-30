@@ -312,3 +312,18 @@ a.mylink{white-space:nowrap}
 .pc-tb{border-collapse:collapse;margin:6px 0;font-size:13px}.pc-tb th,.pc-tb td{padding:4px 10px 4px 0;text-align:left;border-bottom:1px solid var(--line)}.pc-tb .num{font-family:var(--mono)}
 .pc-src{font-size:12px}.pc-disc{margin:14px 0 0;padding:10px 12px;border-radius:8px;background:var(--bg);font-size:12.5px;color:var(--dim)}
 @media (max-width:760px){.pc-grid{grid-template-columns:1fr}.pc-row{grid-template-columns:1fr 1fr}.pc-row input{grid-column:1/-1}}
+/* ---- Deals agent (test): free list + a separate, clearly labeled Sponsored EXAMPLE LAYOUT slot ---- */
+#deals .dl-bar{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;font-size:13px;margin:2px 0 8px}
+#deals .dl-note{background:var(--al);color:var(--amb);border:1px solid #efdcae;border-radius:8px;padding:8px 11px;font-size:13px;margin:0 0 12px}
+#deals .dl-grid{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:16px;align-items:start}
+#deals .dl-free{min-width:0}
+#deals .item.dl .m b{color:var(--txt)}
+#deals .tag.dl-ev{color:var(--teal);margin-left:2px}
+#deals .dl-sponsored{border:2px dashed var(--line);border-radius:10px;padding:12px 13px;background:repeating-linear-gradient(135deg,#fff 0 12px,var(--line2) 12px 13px);position:sticky;top:12px}
+#deals .dl-sph{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:6px}
+#deals .dl-splbl{font:700 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--vio);background:var(--vl);border-radius:5px;padding:2px 7px}
+#deals .dl-ex{font:700 10.5px var(--mono);letter-spacing:.06em;color:var(--mute);border:1px solid var(--line);border-radius:5px;padding:1px 6px;background:#fff}
+#deals .dl-skel{display:grid;gap:7px;margin:10px 0}
+#deals .dl-skel i{display:block;height:12px;border-radius:4px;background:var(--line)}
+#deals .dl-skel i.s{width:60%}
+@media (max-width:760px){#deals .dl-grid{grid-template-columns:1fr}#deals .dl-sponsored{position:static}}
