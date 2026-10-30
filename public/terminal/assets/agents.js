@@ -1,3 +1,5 @@
+/* One source for the conditions count: the conditions a user can pick on /terminal/my/ (terminal.json → conds). Used by the home hero card and the stats block. */
+window.TGConds=d=>Object.keys((d&&d.conds)||{}).length;
 /* Cannabis Agent Terminal "agents are live" bar + agent header cards + All agents grid.
    Every status, time and count comes from the published data files (terminal.json, meta.json, breaking.json).
    Green = ran recently, amber = data is stale, grey = source unavailable. Nothing here is simulated. */
@@ -70,7 +72,7 @@ function build(d,x){
     const g=document.getElementById('agrid');if(g)g.innerHTML=R.map(a=>{const s=S[a.id];return`<a class="acard s-${s.state}" href="${a.href}" data-ag="${a.id}"><div class="ach"><span class="av" aria-hidden="true">${a.ic}</span><b>${E(a.nm)}</b><i class="dot s-${s.state}"></i></div><div class="acd">${E(s.doing)}</div><div class="acl"><span>${LBL[s.state]}</span><span data-ts="${s.ts||''}">${ago(s.ts)}</span></div></a>`}).join('');
     // top of home: "Stay informed" row reuses the registry entries (name, icon, job, live status) for the info agents
     const sg=document.getElementById('staygrid');if(sg)sg.innerHTML=['news','policy','recalls'].map(id=>{const a=byId[id],s=S[id];return`<a class="scard s-${s.state}" href="${a.href}" data-ag="${a.id}"><div class="ach"><span class="av" aria-hidden="true">${a.ic}</span><b>${E(a.nm)}</b><i class="dot s-${s.state}" title="${LBL[s.state]}"></i></div><div class="sjob">${E(a.job)}</div><div class="acd">${E(s.doing)}</div><div class="acl"><span>${LBL[s.state]}</span><span data-ts="${s.ts||''}">${ago(s.ts)}</span></div></a>`}).join('');
-    const tm=document.getElementById('th-my'),ns=d&&d.newstudies;if(tm&&ns&&ns.labels&&ns.papers){const nc=Object.keys(ns.labels).length,nw=ns.papers.filter(p=>(p.date||'')>=ns.week_start).length;
+    const tm=document.getElementById('th-my'),ns=d&&d.newstudies;if(tm&&ns&&ns.labels&&ns.papers){const nc=window.TGConds(d),nw=ns.papers.filter(p=>(p.date||'')>=ns.week_start).length;
       tm.textContent=`${nc} conditions · ${nw} new stud${nw===1?'y':'ies'} since ${ns.week_start} · every study links to PubMed`}
     const gm=document.getElementById('agrid-meta');if(gm)gm.textContent=`${N} live · ${R.filter(a=>S[a.id].state==='stale').length} stale · ${R.filter(a=>S[a.id].state==='down').length} unavailable · from the published data files`;
   }else if(pageAgent){const m=document.querySelector('main.wrap,main');if(m&&!document.getElementById('ah-'+pageAgent)){const h=m.querySelector('h1');(h||m.firstChild)&&(h?h.insertAdjacentHTML('afterend',card(byId[pageAgent])):m.insertAdjacentHTML('afterbegin',card(byId[pageAgent])))}}
