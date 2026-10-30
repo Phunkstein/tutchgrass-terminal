@@ -28,6 +28,12 @@ def log(*a):
 
 
 def api(method, path, body=None):
+    if os.environ.get("USE_GH_CLI") == "1":      # off-Actions use: let an already-logged-in `gh` make the call
+        import subprocess
+        cmd = ["gh", "api", "-X", method, f"repos/{REPO}{path}"] + (["--input", "-"] if body is not None else [])
+        out = subprocess.run(cmd, input=json.dumps(body) if body is not None else None, capture_output=True,
+                             text=True, timeout=60, check=True).stdout
+        return json.loads(out) if out.strip() else None
     req = urllib.request.Request(f"https://api.github.com/repos/{REPO}{path}", method=method,
                                  data=json.dumps(body).encode() if body is not None else None,
                                  headers={**({"Authorization": f"Bearer {TOKEN}"} if TOKEN else {}), "Accept": "application/vnd.github+json",
@@ -100,7 +106,7 @@ def parse_ts(s):
 
 
 def main():
-    if not TOKEN and not DRY:
+    if not TOKEN and not DRY and os.environ.get("USE_GH_CLI") != "1":
         sys.exit("no GITHUB_TOKEN")
     wf = workflows()
     for k, v in wf.items():
