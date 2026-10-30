@@ -1,0 +1,45 @@
+# Product Checker background agent (tools/terminal/agents/labs.py), weekly.
+# Refreshes the official lab lists the in-browser COA checker (public/terminal/assets/product.js) matches against:
+# state regulator testing-lab lists (CA DCC, MA CCC, CO MED, OR OLCC + ORELAP, FL OMMU, WA WSDA) and the A2LA
+# ISO/IEC 17025 cannabis/hemp directory, and re-checks the action limits it quotes (CA metals/mycotoxins/micro,
+# USDA total-THC rule, the Dec 11 2026 0.4 mg per container federal change). A failed source keeps its last good
+# rows; nothing is invented. Commits ONLY when the lists really changed, plus a heartbeat so the tab's
+# "live" status (re-checked within 8 days) stays true. terminal.json is re-assembled by agents-fast.yml.
+# No user files are involved: COAs and label photos are read in the visitor's browser and never uploaded or stored.
+# Copy to .github/workflows/agents-weekly.yml (needs a token with workflow scope).
+name: Product Checker labs (weekly)
+on:
+  schedule:
+    - cron: "23 10 * * 1"   # Mondays 10:23 UTC (6:23 a.m. Detroit in summer, 5:23 a.m. in winter)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: agents-weekly
+  cancel-in-progress: false
+jobs:
+  weekly:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      TZ: America/Detroit
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install pdftotext (Oregon ORELAP lab list is a PDF)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - name: Run the weekly agents
+        run: python3 tools/terminal/agents_run.py weekly
+      - name: Publish only if the lab lists changed
+        id: publish
+        run: |
+          git config user.name "Tutchgrass Agents"
+          git config user.email "tutchgrass@mail.grokbot.com"
+          python3 tools/terminal/publish.py --name "Product Checker" \
+            --heartbeat tools/terminal/data/labs.json:24 \
+            --owned tools/terminal/data/labs.json public/terminal/data/labs.json
