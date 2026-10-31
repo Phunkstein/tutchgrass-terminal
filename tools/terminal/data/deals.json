@@ -2,8 +2,8 @@
  "schema": "deals/3",
  "test": true,
  "region": "United States (all legal markets)",
- "checked": "2026-10-30 19:46 EDT",
- "count": 704,
+ "checked": "2026-10-30 22:45 EDT",
+ "count": 705,
  "chains": 72,
  "states_with_deals": 28,
  "by_state": {
@@ -37,7 +37,7 @@
   "NM": 8,
   "NV": 20,
   "NY": 11,
-  "OH": 17,
+  "OH": 18,
   "OK": 0,
   "OR": 10,
   "PA": 10,
@@ -113,7 +113,7 @@
   "Housing Works Cannabis Co.": 3,
   "Buzzy": 1,
   "The Daily Green": 2,
-  "Pure Ohio Wellness": 7,
+  "Pure Ohio Wellness": 8,
   "Bridge City Collective": 10,
   "Vytal Options": 10,
   "Slater Center": 1,
@@ -210,9 +210,9 @@
   "New York (Manhattan), NY": 8,
   "Brooklyn, NY": 1,
   "New York, NY": 2,
-  "Dayton, OH": 7,
-  "London, OH": 7,
-  "Tallmadge, OH": 7,
+  "Dayton, OH": 8,
+  "London, OH": 8,
+  "Tallmadge, OH": 8,
   "Portland, OR": 10,
   "Harrisburg, PA": 10,
   "Kennett Square, PA": 10,
@@ -445,7 +445,7 @@
    "code": "OH",
    "name": "Ohio",
    "market": "adult-use + medical",
-   "deals": 17,
+   "deals": 18,
    "sources": 2
   },
   {
@@ -706,7 +706,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 24
+   "more": 27
   },
   {
    "state": "MI",
@@ -857,7 +857,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 65
+   "more": 66
   },
   {
    "state": "AZ",
@@ -1033,7 +1033,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 24
+   "more": 25
   },
   {
    "state": "MA",
@@ -1307,7 +1307,7 @@
    "url": "https://pureohiowellness.com/",
    "robots": "allowed",
    "status": "ok",
-   "deals": 7
+   "deals": 8
   },
   {
    "state": "OR",
@@ -1524,6 +1524,31 @@
    "city": "Upper Peninsula",
    "cities": [],
    "state": "MI",
+   "deal": "Halloweed Deals \u2013 All Treats Giveaway \u2014 Get a free treat on Halloween! All customers will receive a Detroit Edible Peanut Butter Single Serve Cup for $0.01. Offer valid on 10/31/26 while supplies last at all TFS locations. Limit one per customer.",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-30",
+   "url": "https://thefirestation.com/event/halloweed-deals-all-treats-giveaway/",
+   "region": {
+    "name": "Upper Peninsula",
+    "bbox": [
+     45.08,
+     -90.42,
+     47.5,
+     -83.35
+    ]
+   },
+   "loc": [],
+   "geo": "statewide"
+  },
+  {
+   "chain": "The Fire Station",
+   "store": "All TFS locations",
+   "city": "Upper Peninsula",
+   "cities": [],
+   "state": "MI",
    "deal": "Halloweed Deals \u2013 50% Off Jeeter Disposables \u2014 Celebrate this Halloweed with 50% off Jeeter Disposables! Offer valid from 10/28/26 to 10/31/26 while supplies last at all TFS locations. Not stackable with other discounts.",
    "valid": "10/28/26 \u2013 10/31/26",
    "until": "2026-10-31",
@@ -1731,31 +1756,6 @@
    "note": "",
    "collected": "2026-10-30",
    "url": "https://thefirestation.com/event/bulk-deal-2-50-ounces/",
-   "region": {
-    "name": "Upper Peninsula",
-    "bbox": [
-     45.08,
-     -90.42,
-     47.5,
-     -83.35
-    ]
-   },
-   "loc": [],
-   "geo": "statewide"
-  },
-  {
-   "chain": "The Fire Station",
-   "store": "All TFS locations",
-   "city": "Upper Peninsula",
-   "cities": [],
-   "state": "MI",
-   "deal": "Bulk Deal \u2013 5/$100 Rosin \u2014 Get any 5 Brainwash, Peak, Strait-Fire, Trinity, or Wildcraft rosin for $100. Offer valid while supplies last at all TFS locations. Not stackable with other discounts.",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-30",
-   "url": "https://thefirestation.com/event/bulk-deals-5-100-rosin/",
    "region": {
     "name": "Upper Peninsula",
     "bbox": [
@@ -2596,66 +2596,6 @@
     "Detroit"
    ],
    "state": "MI",
-   "deal": "Barracuda Bites - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c3 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-30",
-   "url": "https://www.kingofbudz.com/michigan/detroit/deals/barracuda-bites-bogo",
-   "loc": [
-    5
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Detroit",
-   "city": "Detroit",
-   "cities": [
-    "Detroit"
-   ],
-   "state": "MI",
-   "deal": "Seed Junky (Excludes Deli) - 30% OFF",
-   "valid": "page said \u201c1 Day Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-30",
-   "url": "https://www.kingofbudz.com/michigan/detroit/deals/seed-junky-excludes-deli-30-percent-off",
-   "loc": [
-    5
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Detroit",
-   "city": "Detroit",
-   "cities": [
-    "Detroit"
-   ],
-   "state": "MI",
-   "deal": "Flower Power EXCLUDES (Frozen Berries X Z Animals Rosin 1G Donut) - 25% OFF",
-   "valid": "page said \u201c1 Day Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-30",
-   "url": "https://www.kingofbudz.com/michigan/detroit/deals/flower-power-excludes-frozen-berries-x-z-animals-rosin-1g-donut-25-percent-off",
-   "loc": [
-    5
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Detroit",
-   "city": "Detroit",
-   "cities": [
-    "Detroit"
-   ],
-   "state": "MI",
    "deal": "Batch - 4g Disposable - BOGO (Buy 1, Get 1 Free)",
    "valid": "page said \u201c1 Day Left\u201d when checked",
    "until": "",
@@ -2783,6 +2723,66 @@
    "note": "",
    "collected": "2026-10-30",
    "url": "https://www.kingofbudz.com/michigan/detroit/deals/boom-chaka-laka-200mg-rosin-gummies-b2g1",
+   "loc": [
+    5
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Detroit",
+   "city": "Detroit",
+   "cities": [
+    "Detroit"
+   ],
+   "state": "MI",
+   "deal": "Jeeter - 5-Pack .5g Quad Infused Prerolls - 3 for $60 (Buy 3 for $60)",
+   "valid": "page said \u201c1 Day Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-30",
+   "url": "https://www.kingofbudz.com/michigan/detroit/deals/jeeter-5-pack-5g-quad-infused-prerolls-3-for-60",
+   "loc": [
+    5
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Detroit",
+   "city": "Detroit",
+   "cities": [
+    "Detroit"
+   ],
+   "state": "MI",
+   "deal": "Jeeter - 1g Quad Infused Preroll - 3 for $27 (Buy 3 for $27)",
+   "valid": "page said \u201c1 Day Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-30",
+   "url": "https://www.kingofbudz.com/michigan/detroit/deals/jeeter-1g-quad-infused-preroll-3-for-27",
+   "loc": [
+    5
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Detroit",
+   "city": "Detroit",
+   "cities": [
+    "Detroit"
+   ],
+   "state": "MI",
+   "deal": "North Coast 2.5g Infused Donut - BOGO (Buy 1, Get 1 Free)",
+   "valid": "page said \u201c1 Day Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-30",
+   "url": "https://www.kingofbudz.com/michigan/detroit/deals/north-coast-25g-infused-donut-bogo",
    "loc": [
     5
    ],
@@ -2996,13 +2996,13 @@
     "Inkster"
    ],
    "state": "MI",
-   "deal": "Smokiez 200mg Gummies (Non Ratio) 3 for $11 (Buy 3 for $11)",
+   "deal": "Smokiez 200mg Gummies (Ratio) 3 for $13 (Buy 3 for $13)",
    "valid": "page said \u201c1 Day Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
    "collected": "2026-10-30",
-   "url": "https://www.kingofbudz.com/michigan/inkster/deals/smokiez-200mg-gummies-non-ratio-3-for-11",
+   "url": "https://www.kingofbudz.com/michigan/inkster/deals/smokiez-200mg-gummies-ratio-3-for-13",
    "loc": [
     7
    ],
@@ -3016,13 +3016,13 @@
     "Inkster"
    ],
    "state": "MI",
-   "deal": "Smokiez 200mg Gummies (Ratio) 3 for $13 (Buy 3 for $13)",
+   "deal": "Smokiez 200mg Gummies (Non Ratio) 3 for $11 (Buy 3 for $11)",
    "valid": "page said \u201c1 Day Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
    "collected": "2026-10-30",
-   "url": "https://www.kingofbudz.com/michigan/inkster/deals/smokiez-200mg-gummies-ratio-3-for-13",
+   "url": "https://www.kingofbudz.com/michigan/inkster/deals/smokiez-200mg-gummies-non-ratio-3-for-11",
    "loc": [
     7
    ],
@@ -3196,126 +3196,6 @@
     "Monroe"
    ],
    "state": "MI",
-   "deal": "Mad Packs - 15% OFF ALL PREPACK FLOWER",
-   "valid": "page said \u201c2 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-30",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/mad-packs-15-percent-off-all-prepack-flower",
-   "loc": [
-    8
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Monroe",
-   "city": "Monroe",
-   "cities": [
-    "Monroe"
-   ],
-   "state": "MI",
-   "deal": "Barracuda Bites - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c3 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-30",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/barracuda-bites-bogo",
-   "loc": [
-    8
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Monroe",
-   "city": "Monroe",
-   "cities": [
-    "Monroe"
-   ],
-   "state": "MI",
-   "deal": "Seed Junky (Excludes Deli) - 30% OFF",
-   "valid": "page said \u201c1 Day Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-30",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/seed-junky-excludes-deli-30-percent-off",
-   "loc": [
-    8
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Monroe",
-   "city": "Monroe",
-   "cities": [
-    "Monroe"
-   ],
-   "state": "MI",
-   "deal": "Minntz (Excludes Deli) - 30% OFF",
-   "valid": "page said \u201c1 Day Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-30",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/minntz-excludes-deli-30-percent-off",
-   "loc": [
-    8
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Monroe",
-   "city": "Monroe",
-   "cities": [
-    "Monroe"
-   ],
-   "state": "MI",
-   "deal": "Jointman - 40% OFF",
-   "valid": "page said \u201c1 Day Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-30",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/jointman-40-percent-off",
-   "loc": [
-    8
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Monroe",
-   "city": "Monroe",
-   "cities": [
-    "Monroe"
-   ],
-   "state": "MI",
-   "deal": "Flower Power EXCLUDES (Frozen Berries X Z Animals Rosin 1G Donut) - 25% OFF",
-   "valid": "page said \u201c1 Day Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-30",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/flower-power-excludes-frozen-berries-x-z-animals-rosin-1g-donut-25-percent-off",
-   "loc": [
-    8
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Monroe",
-   "city": "Monroe",
-   "cities": [
-    "Monroe"
-   ],
-   "state": "MI",
    "deal": "Dank AND Disorderly 1.5g Preroll - B2G1 (Buy 2, Get 1 Free)",
    "valid": "page said \u201c1 Day Left\u201d when checked",
    "until": "",
@@ -3356,13 +3236,13 @@
     "Monroe"
    ],
    "state": "MI",
-   "deal": "Clout King 3.5g Prepacks (Excludes SMALLS) - 30% OFF",
+   "deal": "Batch - 4g Disposable - BOGO (Buy 1, Get 1 Free)",
    "valid": "page said \u201c1 Day Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
    "collected": "2026-10-30",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/clout-king-35g-prepacks-excludes-smalls-30-percent-off",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/batch-4g-disposable-bogo",
    "loc": [
     8
    ],
@@ -3376,13 +3256,133 @@
     "Monroe"
    ],
    "state": "MI",
-   "deal": "Batch - 4g Disposable - BOGO (Buy 1, Get 1 Free)",
+   "deal": "Smokiez 200mg Gummies (Non Ratio) 3 for $11 (Buy 3 for $11)",
    "valid": "page said \u201c1 Day Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
    "collected": "2026-10-30",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/batch-4g-disposable-bogo",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/smokiez-200mg-gummies-non-ratio-3-for-11",
+   "loc": [
+    8
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Monroe",
+   "city": "Monroe",
+   "cities": [
+    "Monroe"
+   ],
+   "state": "MI",
+   "deal": "Smokiez 200mg Gummies (Ratio) 3 for $13 (Buy 3 for $13)",
+   "valid": "page said \u201c1 Day Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-30",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/smokiez-200mg-gummies-ratio-3-for-13",
+   "loc": [
+    8
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Monroe",
+   "city": "Monroe",
+   "cities": [
+    "Monroe"
+   ],
+   "state": "MI",
+   "deal": "Mother Puckers 200mg Rosin Gummies (Non Ratio) 3 for $12 (Buy 3 for $12)",
+   "valid": "page said \u201c1 Day Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-30",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/mother-puckers-200mg-rosin-gummies-non-ratio-3-for-12",
+   "loc": [
+    8
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Monroe",
+   "city": "Monroe",
+   "cities": [
+    "Monroe"
+   ],
+   "state": "MI",
+   "deal": "Mother Puckers 200mg Rosin Gummies (Ratio) 3 for $14 (Buy 3 for $14)",
+   "valid": "page said \u201c1 Day Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-30",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/mother-puckers-200mg-rosin-gummies-ratio-3-for-14",
+   "loc": [
+    8
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Monroe",
+   "city": "Monroe",
+   "cities": [
+    "Monroe"
+   ],
+   "state": "MI",
+   "deal": "Kiva Camino Lost Farm Petra Terra - BOGO (Buy 1, Get 1 Free)",
+   "valid": "page said \u201c1 Day Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-30",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/kiva-camino-lost-farm-petra-terra-bogo",
+   "loc": [
+    8
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Monroe",
+   "city": "Monroe",
+   "cities": [
+    "Monroe"
+   ],
+   "state": "MI",
+   "deal": "Chill Medicated 200mg Syrup - B2G1 (EQUAL OR LESSER VALUE) (Buy 2, Get 1 Free)",
+   "valid": "page said \u201c1 Day Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-30",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/chill-medicated-200mg-syrup-b2g1-equal-or-lesser-value",
+   "loc": [
+    8
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Monroe",
+   "city": "Monroe",
+   "cities": [
+    "Monroe"
+   ],
+   "state": "MI",
+   "deal": "Hi-Lo 200mg Live Resin Gummies - B2G1 (Buy 2, Get 1 Free)",
+   "valid": "page said \u201c1 Day Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-30",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/hi-lo-200mg-live-resin-gummies-b2g1",
    "loc": [
     8
    ],
@@ -10889,7 +10889,7 @@
     "Forsyth"
    ],
    "state": "IL",
-   "deal": "25% off Best in Grass",
+   "deal": "Weekly \u2013 20% Off \u2013 Fernway (EDLP)",
    "valid": "",
    "until": "",
    "kind": "limited",
@@ -10919,7 +10919,7 @@
     "Forsyth"
    ],
    "state": "IL",
-   "deal": "Weekly \u2013 20% Off \u2013 Fernway (EDLP)",
+   "deal": "25% off Best in Grass",
    "valid": "",
    "until": "",
    "kind": "limited",
@@ -11009,36 +11009,6 @@
     "Forsyth"
    ],
    "state": "IL",
-   "deal": "Weekly (10/26 \u2013 11/1) \u2013 15% Off \u2013 Night Phantom",
-   "valid": "",
-   "until": "2026-11-01",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-30",
-   "url": "https://budandritas.com/specials/",
-   "loc": [
-    116,
-    117,
-    118,
-    119,
-    120,
-    121,
-    122
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "Bud & Rita's",
-   "store": "Bud & Rita's",
-   "city": "Chicago \u00b7 Niles \u00b7 Wadsworth \u00b7 Sycamore \u00b7 Forsyth",
-   "cities": [
-    "Chicago",
-    "Niles",
-    "Wadsworth",
-    "Sycamore",
-    "Forsyth"
-   ],
-   "state": "IL",
    "deal": "Weekly (10/26 \u2013 11/1) \u2013 15% Off \u2013 Seed Junky",
    "valid": "",
    "until": "2026-11-01",
@@ -11069,7 +11039,7 @@
     "Forsyth"
    ],
    "state": "IL",
-   "deal": "Weekly (10/26 \u2013 11/1) \u2013 20% Off \u2013 Bedford Grow Brands",
+   "deal": "Weekly (10/26 \u2013 11/1) \u2013 15% Off \u2013 Night Phantom",
    "valid": "",
    "until": "2026-11-01",
    "kind": "limited",
@@ -11130,6 +11100,36 @@
    ],
    "state": "IL",
    "deal": "Weekly (10/26 \u2013 11/1) \u2013 25% Off \u2013 Breeze",
+   "valid": "",
+   "until": "2026-11-01",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-30",
+   "url": "https://budandritas.com/specials/",
+   "loc": [
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Bud & Rita's",
+   "store": "Bud & Rita's",
+   "city": "Chicago \u00b7 Niles \u00b7 Wadsworth \u00b7 Sycamore \u00b7 Forsyth",
+   "cities": [
+    "Chicago",
+    "Niles",
+    "Wadsworth",
+    "Sycamore",
+    "Forsyth"
+   ],
+   "state": "IL",
+   "deal": "Weekly (10/26 \u2013 11/1) \u2013 20% Off \u2013 Bedford Grow Brands",
    "valid": "",
    "until": "2026-11-01",
    "kind": "limited",
@@ -11285,10 +11285,10 @@
     "Round Lake Beach"
    ],
    "state": "IL",
-   "deal": "Sun/Thu-Sat: Mix & Match Incredibles 100mg THC: 2 for $22",
-   "valid": "",
-   "until": "",
-   "kind": "everyday",
+   "deal": "Mix & Match Incredibles 100mg THC: 2 for $22",
+   "valid": "Daily, till November 1",
+   "until": "2026-11-01",
+   "kind": "limited",
    "note": "",
    "collected": "2026-10-30",
    "url": "https://shop.altiusdispensary.com/locations/IL/round-lake-beach/menu/discounts",
@@ -11305,10 +11305,50 @@
     "Round Lake Beach"
    ],
    "state": "IL",
-   "deal": "Sun/Thu-Sat: Mix & Match Incredibles 100mg THC: 5 for $50",
-   "valid": "",
-   "until": "",
-   "kind": "everyday",
+   "deal": "Mix & Match Incredibles 100mg THC: 5 for $50",
+   "valid": "Daily, till November 1",
+   "until": "2026-11-01",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-30",
+   "url": "https://shop.altiusdispensary.com/locations/IL/round-lake-beach/menu/discounts",
+   "loc": [
+    123
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "Altius",
+   "store": "Altius Round Lake Beach",
+   "city": "Round Lake Beach",
+   "cities": [
+    "Round Lake Beach"
+   ],
+   "state": "IL",
+   "deal": "Mix & Match Generic 1g Disposables: 2 for $50",
+   "valid": "Daily, till November 1",
+   "until": "2026-11-01",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-30",
+   "url": "https://shop.altiusdispensary.com/locations/IL/round-lake-beach/menu/discounts",
+   "loc": [
+    123
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "Altius",
+   "store": "Altius Round Lake Beach",
+   "city": "Round Lake Beach",
+   "cities": [
+    "Round Lake Beach"
+   ],
+   "state": "IL",
+   "deal": "Cresco 3.5g Flower: $18 off!",
+   "valid": "Daily, till November 1",
+   "until": "2026-11-01",
+   "kind": "limited",
    "note": "",
    "collected": "2026-10-30",
    "url": "https://shop.altiusdispensary.com/locations/IL/round-lake-beach/menu/discounts",
@@ -11326,46 +11366,6 @@
    ],
    "state": "IL",
    "deal": "InHouse Gummies: 2 for $25",
-   "valid": "Daily, till November 1",
-   "until": "2026-11-01",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-30",
-   "url": "https://shop.altiusdispensary.com/locations/IL/round-lake-beach/menu/discounts",
-   "loc": [
-    123
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "Altius",
-   "store": "Altius Round Lake Beach",
-   "city": "Round Lake Beach",
-   "cities": [
-    "Round Lake Beach"
-   ],
-   "state": "IL",
-   "deal": "InHouse Gummies: 5 for $55",
-   "valid": "Daily, till November 1",
-   "until": "2026-11-01",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-30",
-   "url": "https://shop.altiusdispensary.com/locations/IL/round-lake-beach/menu/discounts",
-   "loc": [
-    123
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "Altius",
-   "store": "Altius Round Lake Beach",
-   "city": "Round Lake Beach",
-   "cities": [
-    "Round Lake Beach"
-   ],
-   "state": "IL",
-   "deal": "InHouse Gummies: 10 for $100",
    "valid": "Daily, till November 1",
    "until": "2026-11-01",
    "kind": "limited",
@@ -11474,7 +11474,7 @@
     "Hopedale"
    ],
    "state": "MA",
-   "deal": "Every Day Savings: COAST Gummies: 2 for $40",
+   "deal": "Every Day Savings: Beverages: 4 for $20",
    "valid": "",
    "until": "",
    "kind": "everyday",
@@ -11496,7 +11496,7 @@
     "Hopedale"
    ],
    "state": "MA",
-   "deal": "Every Day Savings: Beverages: 4 for $20",
+   "deal": "Every Day Savings: COAST Gummies: 2 for $40",
    "valid": "",
    "until": "",
    "kind": "everyday",
@@ -12281,6 +12281,22 @@
    "city": "",
    "cities": [],
    "state": "MD",
+   "deal": "A Spooky Celebration in Lutherville! Free wings with your purchase.",
+   "valid": "Valid 10/31",
+   "until": "2026-10-31",
+   "kind": "limited",
+   "note": "Statewide promotions page; check your store.",
+   "collected": "2026-10-30",
+   "url": "https://www.trulieve.com/discover/promotions/maryland",
+   "loc": [],
+   "geo": "statewide"
+  },
+  {
+   "chain": "Trulieve",
+   "store": "Trulieve (Maryland stores)",
+   "city": "",
+   "cities": [],
+   "state": "MD",
    "deal": "BOGO Bliss: Dive into our Buy One, Get One 50% OFF deal on all products! Double the delight without doubling the price. Stock up and save big on your favorites\u2014only while supplies last.",
    "valid": "",
    "until": "",
@@ -12329,9 +12345,9 @@
    "city": "",
    "cities": [],
    "state": "MD",
-   "deal": "30% Off Concentrates & Edibles",
-   "valid": "Valid 10/30",
-   "until": "2026-10-30",
+   "deal": "25% Off Storewide",
+   "valid": "Valid 10/31",
+   "until": "2026-10-31",
    "kind": "limited",
    "note": "Statewide promotions page; check your store.",
    "collected": "2026-10-30",
@@ -12345,9 +12361,9 @@
    "city": "",
    "cities": [],
    "state": "MD",
-   "deal": "Buy one flower product and get a second at 25% off. Mix and match from a wide selection of strains and terpene profiles to build your stash.",
-   "valid": "Valid 10/30",
-   "until": "2026-10-30",
+   "deal": "30% off Cultivar, Modern Flower, Sweet Talk, Co2lors, Momenta",
+   "valid": "Valid 10/31",
+   "until": "2026-10-31",
    "kind": "limited",
    "note": "Statewide promotions page; check your store.",
    "collected": "2026-10-30",
@@ -12361,9 +12377,9 @@
    "city": "",
    "cities": [],
    "state": "MD",
-   "deal": "25% Off Khalifa Kush & Cultivar",
-   "valid": "Valid 10/30",
-   "until": "2026-10-30",
+   "deal": "Spooky Hour 4pm\u20138pm \u2013 35% Off All Chocolates",
+   "valid": "Valid 10/31",
+   "until": "2026-10-31",
    "kind": "limited",
    "note": "Statewide promotions page; check your store.",
    "collected": "2026-10-30",
@@ -12377,25 +12393,9 @@
    "city": "",
    "cities": [],
    "state": "MD",
-   "deal": "Co2lors 1g Vapes 1 for $20 or 2 for $35",
-   "valid": "Valid 10/30",
-   "until": "2026-10-30",
-   "kind": "limited",
-   "note": "Statewide promotions page; check your store.",
-   "collected": "2026-10-30",
-   "url": "https://www.trulieve.com/discover/promotions/maryland",
-   "loc": [],
-   "geo": "statewide"
-  },
-  {
-   "chain": "Trulieve",
-   "store": "Trulieve (Maryland stores)",
-   "city": "",
-   "cities": [],
-   "state": "MD",
-   "deal": "Medical Patients: 35% Off Concentrates & Edibles",
-   "valid": "Valid 10/30",
-   "until": "2026-10-30",
+   "deal": "Medical: 35% Off Storewide",
+   "valid": "Valid 10/31",
+   "until": "2026-10-31",
    "kind": "limited",
    "note": "Statewide promotions page; check your store.",
    "collected": "2026-10-30",
@@ -15128,30 +15128,6 @@
     "Tallmadge"
    ],
    "state": "OH",
-   "deal": "30% Off Grow Ohio Products!",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-30",
-   "url": "https://pureohiowellness.com/",
-   "loc": [
-    197,
-    198,
-    199
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "Pure Ohio Wellness",
-   "store": "Pure Ohio Wellness",
-   "city": "Dayton \u00b7 London \u00b7 Tallmadge",
-   "cities": [
-    "Dayton",
-    "London",
-    "Tallmadge"
-   ],
-   "state": "OH",
    "deal": "Wana, Oria, Gummy Bars are all 50% off!",
    "valid": "",
    "until": "",
@@ -15176,55 +15152,103 @@
     "Tallmadge"
    ],
    "state": "OH",
-   "deal": "Enjoy 30% OFF ALL Pure Ohio Wellness processed products, 3.5 gram bags, and 14.15 gram bags!",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-30",
-   "url": "https://pureohiowellness.com/",
-   "loc": [
-    197,
-    198,
-    199
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "Pure Ohio Wellness",
-   "store": "Pure Ohio Wellness",
-   "city": "Dayton \u00b7 London \u00b7 Tallmadge",
-   "cities": [
-    "Dayton",
-    "London",
-    "Tallmadge"
-   ],
-   "state": "OH",
-   "deal": "20% off Lighthouse Sciences products!",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-30",
-   "url": "https://pureohiowellness.com/",
-   "loc": [
-    197,
-    198,
-    199
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "Pure Ohio Wellness",
-   "store": "Pure Ohio Wellness",
-   "city": "Dayton \u00b7 London \u00b7 Tallmadge",
-   "cities": [
-    "Dayton",
-    "London",
-    "Tallmadge"
-   ],
-   "state": "OH",
    "deal": "Death Row Eighths are 2 for $40 through the end of October!",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-30",
+   "url": "https://pureohiowellness.com/",
+   "loc": [
+    197,
+    198,
+    199
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Pure Ohio Wellness",
+   "store": "Pure Ohio Wellness",
+   "city": "Dayton \u00b7 London \u00b7 Tallmadge",
+   "cities": [
+    "Dayton",
+    "London",
+    "Tallmadge"
+   ],
+   "state": "OH",
+   "deal": "Vaporizer BOGO",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-30",
+   "url": "https://pureohiowellness.com/",
+   "loc": [
+    197,
+    198,
+    199
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Pure Ohio Wellness",
+   "store": "Pure Ohio Wellness",
+   "city": "Dayton \u00b7 London \u00b7 Tallmadge",
+   "cities": [
+    "Dayton",
+    "London",
+    "Tallmadge"
+   ],
+   "state": "OH",
+   "deal": "Buy one, get one 50% Off select vaporizers!",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-30",
+   "url": "https://pureohiowellness.com/",
+   "loc": [
+    197,
+    198,
+    199
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Pure Ohio Wellness",
+   "store": "Pure Ohio Wellness",
+   "city": "Dayton \u00b7 London \u00b7 Tallmadge",
+   "cities": [
+    "Dayton",
+    "London",
+    "Tallmadge"
+   ],
+   "state": "OH",
+   "deal": "Whole Store 31% Off*",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-30",
+   "url": "https://pureohiowellness.com/",
+   "loc": [
+    197,
+    198,
+    199
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Pure Ohio Wellness",
+   "store": "Pure Ohio Wellness",
+   "city": "Dayton \u00b7 London \u00b7 Tallmadge",
+   "cities": [
+    "Dayton",
+    "London",
+    "Tallmadge"
+   ],
+   "state": "OH",
+   "deal": "31% OFF Storewide in Tallmadge!",
    "valid": "",
    "until": "",
    "kind": "limited",
@@ -18855,7 +18879,7 @@
   "locations": 219,
   "store_points": 189,
   "city_points": 30,
-  "deals_store": 546,
+  "deals_store": 547,
   "deals_city": 118,
   "deals_statewide": 40
  },
@@ -18868,5 +18892,5 @@
   "note": "Paid placement slot (not live). Sponsored deals will always be labeled and kept separate from, never ranked above, the free list."
  },
  "disclaimer": "21+ only. For adults 21 and older (or registered medical patients). Deals change often and can differ by store: always confirm with the store before you go. Listed from each dispensary's own public page; not an endorsement.",
- "generated": "2026-10-30 19:46 EDT"
+ "generated": "2026-10-30 22:45 EDT"
 }
