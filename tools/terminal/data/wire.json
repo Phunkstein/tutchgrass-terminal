@@ -38,14 +38,14 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "unavailable",
-   "error": "not well-formed (invalid token): line 1, column 119"
+   "status": "ok",
+   "items": 12
   },
   {
    "source": "Google News: intl cannabis",
    "url": "https://news.google.com/rss/search?q=cannabis+(Germany+OR+Canada+OR+Thailand+OR+Europe+OR+Australia+OR+UK)+when:7d&hl=en-US&gl=US&ceid=US:en",
-   "status": "unavailable",
-   "error": "not well-formed (invalid token): line 1, column 252"
+   "status": "ok",
+   "items": 12
   },
   {
    "source": "Cannabis Health News (UK)",
@@ -245,6 +245,17 @@
  ],
  "news_us": [
   {
+   "source": "StratCann (Canada)",
+   "title": "US Issues First Medical Cannabis Registrations Following Rescheduling",
+   "link": "https://stratcann.com/news/us-issues-first-medical-cannabis-registrations-following-rescheduling/",
+   "summary": "The US has issued the first registrations for medical cannabis dispensaries following rescheduling earlier this year and reviewing applications from manufacturers and distributors. The post US Issues First Medical Cannabis Registrations Following Rescheduling ",
+   "ts": 1793408183.0,
+   "date": "2026-10-30 20:56",
+   "category": "US federal",
+   "is_law": true,
+   "states": []
+  },
+  {
    "source": "Marijuana Moment",
    "title": "DEA Refuses To Approve Marijuana Businesses In States That Allow Dual Medical And Recreational Licensing",
    "link": "https://www.marijuanamoment.net/dea-refuses-to-approve-marijuana-businesses-in-states-that-allow-dual-medical-and-recreational-licensing/",
@@ -350,20 +361,20 @@
    "category": "US federal",
    "is_law": true,
    "states": []
-  },
-  {
-   "source": "MJBizDaily",
-   "title": "How cannabis employers are taking worker healthcare benefits into their own hands",
-   "link": "https://mjbizdaily.com/news/how-cannabis-employers-are-taking-worker-healthcare-benefits-into-their-own-hands/618948/",
-   "summary": "Cannabis employers may wish to consider healthcare captives when choosing employee benefits. How cannabis employers are taking worker healthcare benefits into their own hands is a post from: MJBizDaily: Financial, Legal & Cannabusiness news for cannabis entrep",
-   "ts": 1793356259.0,
-   "date": "2026-10-30 06:30",
-   "category": "Industry",
-   "is_law": false,
-   "states": []
   }
  ],
  "news_intl": [
+  {
+   "source": "Google News: intl cannabis",
+   "title": "Does Europe Need Shared Standards for Medical Cannabis? - cannabishealthnews.co.uk",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ0VPbGs3UmZhdGxKS3J2YlROSXRBeFItMEN3Y0d4bGZySm9oZUpza19YaWlFZlF5bFA4LTE5VGZfV00wOUxuc1dBS2lqTUdfTkdtTEJGTlFzRHBWbkJsQ1dDLVZvVTdabVc3YklBd2docWVBZ3RJbm5FSFRwUmFsdFM2NHM2cDdUOVVadHZ0emV4LXhVUnB6VkozWjh2Zw?oc=5",
+   "summary": "",
+   "ts": 1793377507.0,
+   "date": "2026-10-30 12:25",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
   {
    "source": "Cannabis Health News (UK)",
    "title": "Does Europe Need Shared Standards for Medical Cannabis?",
@@ -387,6 +398,17 @@
    "states": []
   },
   {
+   "source": "Google News: intl cannabis",
+   "title": "Sustained Relief, Fewer Opioids for Chronic Pain With Cannabis - NORML",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQY08yV3Z0SzJHNFJKZXZsNEFudXgxTjdDUFk3QXpkdmk3dmpIXzF1R0ZCcHFPN0JCc0h2NHJFYmZEOWJrNEhWN3p4NlVfRjUyNmdibXRFenZ6VWhjTWphM243OGpLZHQ5R245T2hRYXhPZGdtSWVEX2xQVWJRb2E4UHVacm91bENpd2lBZG95SUt4bldzdEdCREY5Yl9NVjNjMEI1OEVsb3BWMFRzS2IxZUV1eW1weGh6dXg4RkZRb19rYnN2SjdRNUFxTGNGaDlSRWVkMnB5OHQ2TXFERHo4SXRNMA?oc=5",
+   "summary": "",
+   "ts": 1793287714.0,
+   "date": "2026-10-29 11:28",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
    "source": "Cannabis Health News (UK)",
    "title": "Bridging the Gap: Why Women\u2019s Pain Is Still Not Taken Seriously",
    "link": "https://cannabishealthnews.co.uk/2026/10/29/bridging-the-gap-why-womens-pain-is-still-not-taken-seriously/",
@@ -396,41 +418,8 @@
    "category": "International",
    "is_law": false,
    "states": []
-  },
-  {
-   "source": "Cannabis Health News (UK)",
-   "title": "\u2018That Line is Blurred\u2019: Cannabis Researcher Prof Bernd Werse on Medical Vs Recreational Use",
-   "link": "https://cannabishealthnews.co.uk/2026/10/29/that-line-is-blurred-cannabis-researcher-on-medical-and-recreational-use/",
-   "summary": "Ahead of Frankfurt\u2019s Cannabis Health Symposium, Professor Bernd Werse discusses changing cannabis use and the evidence policymakers still need.",
-   "ts": 1793268006.0,
-   "date": "2026-10-29 06:00",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
-  {
-   "source": "Cannabis Health News (UK)",
-   "title": "Cannabis Publisher to Join Frankfurt Health Symposium",
-   "link": "https://cannabishealthnews.co.uk/2026/10/28/cannabis-publisher-to-join-frankfurt-health-symposium/",
-   "summary": "Lisa Katharina Haag will bring her perspective on cannabis policy and patient care to the one-day event.",
-   "ts": 1793188844.0,
-   "date": "2026-10-28 08:00",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
-  {
-   "source": "Cannabis Health News (UK)",
-   "title": "Medical Cannabis and the Menstrual Cycle \u2014 Are We Overlooking Potential Implications for Prescribing?",
-   "link": "https://cannabishealthnews.co.uk/2026/10/28/medical-cannabis-and-the-menstrual-cycle-are-we-overlooking-potential-implications-for-prescribing/",
-   "summary": "Nicole Farah reflects on how much we\u2019re still learning about the relationship between hormones, the endocannabinoid system (ECS) and cannabis-based medicines.",
-   "ts": 1793182990.0,
-   "date": "2026-10-28 06:23",
-   "category": "International",
-   "is_law": false,
-   "states": []
   }
  ],
- "news_health_total": 21,
- "generated": "2026-10-31 08:45 EDT"
+ "news_health_total": 20,
+ "generated": "2026-10-31 09:45 EDT"
 }
