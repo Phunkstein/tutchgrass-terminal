@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-10-30T20:33:13-0400",
- "generated_ts": 1793406793,
+ "generated": "2026-10-30T20:58:13-0400",
+ "generated_ts": 1793408294,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "unavailable",
-   "items": 0
+   "status": "ok",
+   "items": 12
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,19 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "usissuesfirstmedicalcannabisregistrationsfollowingrescheduli",
+   "title": "US Issues First Medical Cannabis Registrations Following Rescheduling",
+   "link": "https://stratcann.com/news/us-issues-first-medical-cannabis-registrations-following-rescheduling/",
+   "source": "StratCann (Canada)",
+   "category": "US federal",
+   "is_law": true,
+   "states": [],
+   "published": "2026-10-30T20:56:23-0400",
+   "published_ts": 1793408183.0,
+   "first_seen": "2026-10-30T20:58:13-0400",
+   "first_seen_ts": 1793408294
+  },
   {
    "id": "dearefusestoapprovemarijuanabusinessesinstatesthatallowdualm",
    "title": "DEA Refuses To Approve Marijuana Businesses In States That Allow Dual Medical And Recreational Licensing",

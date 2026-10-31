@@ -28,8 +28,8 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "unavailable",
-   "error": "not well-formed (invalid token): line 1, column 119"
+   "status": "ok",
+   "items": 12
   },
   {
    "source": "Google News: intl cannabis",
@@ -38,9 +38,20 @@
    "items": 12
   }
  ],
- "total": 72,
+ "total": 83,
  "by_category": {
   "US federal": [
+   {
+    "source": "StratCann (Canada)",
+    "title": "US Issues First Medical Cannabis Registrations Following Rescheduling",
+    "link": "https://stratcann.com/news/us-issues-first-medical-cannabis-registrations-following-rescheduling/",
+    "summary": "The US has issued the first registrations for medical cannabis dispensaries following rescheduling earlier this year and reviewing applications from manufacturers and distributors. The post US Issues First Medical Cannabis Registrations Following Rescheduling ",
+    "ts": 1793408183.0,
+    "date": "2026-10-30 20:56",
+    "category": "US federal",
+    "is_law": true,
+    "states": []
+   },
    {
     "source": "Marijuana Moment",
     "title": "DEA Refuses To Approve Marijuana Businesses In States That Allow Dual Medical And Recreational Licensing",
@@ -121,17 +132,6 @@
     "states": [
      "Kansas"
     ]
-   },
-   {
-    "source": "Marijuana Moment",
-    "title": "DEA Says Trump\u2019s Marijuana Rescheduling Move Isn\u2019t Weakened By Federal Watchdog Report That Found \u2018Gaps\u2019 In Process",
-    "link": "https://www.marijuanamoment.net/dea-says-trumps-marijuana-rescheduling-move-isnt-weakened-by-federal-watchdog-report-that-found-gaps-in-process/",
-    "summary": "The Drug Enforcement Administration (DEA) says the Trump administration\u2019s proposal to reschedule marijuana is not weakened by a recently published federal watchdog agency report that found \u201cgaps\u201d in the government\u2019s process for evaluating controlled substances",
-    "ts": 1793361180.0,
-    "date": "2026-10-30 07:53",
-    "category": "US federal",
-    "is_law": true,
-    "states": []
    }
   ],
   "US states": [
@@ -243,6 +243,17 @@
   ],
   "International": [
    {
+    "source": "StratCann (Canada)",
+    "title": "Hamilton Police Shut Down Illegal Cannabis Dispensary",
+    "link": "https://stratcann.com/enforcement/hamilton-police-shut-down-illegal-cannabis-dispensary/",
+    "summary": "Hamilton Police have shut down two illegal cannabis stores, one of which reopened following a previous search warrant. The post Hamilton Police Shut Down Illegal Cannabis Dispensary appeared first on StratCann .",
+    "ts": 1793393191.0,
+    "date": "2026-10-30 16:46",
+    "category": "International",
+    "is_law": false,
+    "states": []
+   },
+   {
     "source": "Google News: intl cannabis",
     "title": "Does Europe Need Shared Standards for Medical Cannabis? - cannabishealthnews.co.uk",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ0VPbGs3UmZhdGxKS3J2YlROSXRBeFItMEN3Y0d4bGZySm9oZUpza19YaWlFZlF5bFA4LTE5VGZfV00wOUxuc1dBS2lqTUdfTkdtTEJGTlFzRHBWbkJsQ1dDLVZvVTdabVc3YklBd2docWVBZ3RJbm5FSFRwUmFsdFM2NHM2cDdUOVVadHZ0emV4LXhVUnB6VkozWjh2Zw?oc=5",
@@ -254,12 +265,23 @@
     "states": []
    },
    {
+    "source": "StratCann (Canada)",
+    "title": "TobaGrown Acquires Great Gardener Farms",
+    "link": "https://stratcann.com/news/tobagrown-acquires-great-gardener-farms/",
+    "summary": "Manitoba-based TobaRolling Inc. has acquired BC micro cannabis producer Great Gardener Farms. The post TobaGrown Acquires Great Gardener Farms appeared first on StratCann .",
+    "ts": 1793366640.0,
+    "date": "2026-10-30 09:24",
+    "category": "International",
+    "is_law": false,
+    "states": []
+   },
+   {
     "source": "Google News: intl cannabis",
-    "title": "Canopy Growth Corporation (WEED.TO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5lRTJicThBQzNsWWh3SFJCVF83N3g1OGFMZVZQQVlzSEdrZDAtdTh1R2VRNVVUSHpwd2RGZU1ma3FYNDM5OXNGX3UxSG5ORjdKMVdsRUVB?oc=5",
+    "title": "Aurora Cannabis Inc. (ACB) stock price, news, quote and history - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1vU3d2R3R2Sl9sVzFlRzVDY1VWRjZsalBHaUdGbXk4R1QxZnJDYnB1V25XMnRJU01FWjVYcHpTTkh6TElLLXg2R1dtVlhjLXFW?oc=5",
     "summary": "",
-    "ts": 1793298926.0,
-    "date": "2026-10-29 14:35",
+    "ts": 1793317559.0,
+    "date": "2026-10-29 19:45",
     "category": "International",
     "is_law": false,
     "states": []
@@ -298,34 +320,12 @@
     "states": []
    },
    {
-    "source": "Google News: intl cannabis",
-    "title": "Record amounts of Canadian cannabis seized as smuggling to Europe soars - CBC",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaXkxNU1JRV9uczQ5YWpKblBSNW0yNHRRdVY1WUE2c2Foal9MUzFtNldYRXZCT1RqUzMxTE9DNk5vZGt0QjYyOE9EeldiWWFIM2JtYlJXS2JVUzBtVlJ4S0tYSWFwVHZva2RnNDlobTFFeWl4bmdLUGk4RWwxdXo1OHRqdUVDTERtMVFuU2JuZVZrQkJxdDR3c3VrSHZaRVJFWW54LTlR?oc=5",
-    "summary": "",
-    "ts": 1793222769.0,
-    "date": "2026-10-28 17:26",
-    "category": "International",
-    "is_law": false,
-    "states": []
-   },
-   {
-    "source": "Google News: intl cannabis",
-    "title": "Neurologic Signs Common in Children After Cannabis Exposure - Medscape",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVEFGWXI0V2JrUU8yOTdFQURLY096d3VkdTJ0ZFM5T0xqUElSZlVWLTQ3NGFaeXJTaWRvMnI2S3RvczZiaWdxU0tRa0NYM2lyMngwNWdnbUlwT09OV0hYUFVBUFU4anNmTUh3ZHBJU1pmTVRJZDBybXJkRlJoZ2I0bDhJNnVlckhnRFkxWjY3dDlMd1lBUXUtM0NwcVFXdUFZYl8wWEZIc3lqVUk?oc=5",
-    "summary": "",
-    "ts": 1793188949.0,
-    "date": "2026-10-28 08:02",
-    "category": "International",
-    "is_law": false,
-    "states": []
-   },
-   {
-    "source": "Business of Cannabis (intl)",
-    "title": "German Cannabis Pioneer SynBiotic SE Files For Insolvency",
-    "link": "https://businessofcannabis.com/german-cannabis-pioneer-synbiotic-se-files-for-insolvency/",
-    "summary": "SynBiotic SE, once one of the largest and most promising cannabis companies in Germany, has announced plans to file for insolvency and had its shares suspended on the Xetra and Frankfurt stock exchanges. It follows a year in which it had already lost six of it",
-    "ts": 1793182123.0,
-    "date": "2026-10-28 06:08",
+    "source": "StratCann (Canada)",
+    "title": "Vanquish Brands Announces 2026 Financial Results",
+    "link": "https://stratcann.com/financials/vanquish-brands-2026-financial-pistol-and-paris/",
+    "summary": "Vanquish Holdings Inc., operating as Vanquish Brands and the company behind Pistol and Paris, today announced 2026 financial results, with revenue growth estimated at 152%... The post Vanquish Brands Announces 2026 Financial Results appeared first on StratCann",
+    "ts": 1793233240.0,
+    "date": "2026-10-28 20:20",
     "category": "International",
     "is_law": false,
     "states": []
@@ -424,6 +424,17 @@
  },
  "latest": [
   {
+   "source": "StratCann (Canada)",
+   "title": "US Issues First Medical Cannabis Registrations Following Rescheduling",
+   "link": "https://stratcann.com/news/us-issues-first-medical-cannabis-registrations-following-rescheduling/",
+   "summary": "The US has issued the first registrations for medical cannabis dispensaries following rescheduling earlier this year and reviewing applications from manufacturers and distributors. The post US Issues First Medical Cannabis Registrations Following Rescheduling ",
+   "ts": 1793408183.0,
+   "date": "2026-10-30 20:56",
+   "category": "US federal",
+   "is_law": true,
+   "states": []
+  },
+  {
    "source": "Marijuana Moment",
    "title": "DEA Refuses To Approve Marijuana Businesses In States That Allow Dual Medical And Recreational Licensing",
    "link": "https://www.marijuanamoment.net/dea-refuses-to-approve-marijuana-businesses-in-states-that-allow-dual-medical-and-recreational-licensing/",
@@ -457,6 +468,17 @@
    "states": [
     "Michigan"
    ]
+  },
+  {
+   "source": "StratCann (Canada)",
+   "title": "Hamilton Police Shut Down Illegal Cannabis Dispensary",
+   "link": "https://stratcann.com/enforcement/hamilton-police-shut-down-illegal-cannabis-dispensary/",
+   "summary": "Hamilton Police have shut down two illegal cannabis stores, one of which reopened following a previous search warrant. The post Hamilton Police Shut Down Illegal Cannabis Dispensary appeared first on StratCann .",
+   "ts": 1793393191.0,
+   "date": "2026-10-30 16:46",
+   "category": "International",
+   "is_law": false,
+   "states": []
   },
   {
    "source": "Marijuana Moment",
@@ -556,6 +578,17 @@
    ]
   },
   {
+   "source": "StratCann (Canada)",
+   "title": "TobaGrown Acquires Great Gardener Farms",
+   "link": "https://stratcann.com/news/tobagrown-acquires-great-gardener-farms/",
+   "summary": "Manitoba-based TobaRolling Inc. has acquired BC micro cannabis producer Great Gardener Farms. The post TobaGrown Acquires Great Gardener Farms appeared first on StratCann .",
+   "ts": 1793366640.0,
+   "date": "2026-10-30 09:24",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
    "source": "Marijuana Moment",
    "title": "Trump\u2019s Federal Marijuana Rescheduling Move Makes It Easier To Legalize Medical Access In Kansas, Democratic Governor Candidate Says",
    "link": "https://www.marijuanamoment.net/trumps-federal-marijuana-rescheduling-move-makes-it-easier-to-legalize-medical-access-in-kansas-democratic-governor-candidate-says/",
@@ -604,6 +637,17 @@
    ]
   },
   {
+   "source": "Google News: intl cannabis",
+   "title": "Aurora Cannabis Inc. (ACB) stock price, news, quote and history - Yahoo Finance UK",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1vU3d2R3R2Sl9sVzFlRzVDY1VWRjZsalBHaUdGbXk4R1QxZnJDYnB1V25XMnRJU01FWjVYcHpTTkh6TElLLXg2R1dtVlhjLXFW?oc=5",
+   "summary": "",
+   "ts": 1793317559.0,
+   "date": "2026-10-29 19:45",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
    "source": "MJBizDaily",
    "title": "New York governor signs cannabis labor bill, moves to scrap wage board",
    "link": "https://mjbizdaily.com/news/new-york-governor-signs-cannabis-labor-bill-moves-to-scrap-wage-board/618941/",
@@ -628,17 +672,6 @@
    "states": [
     "Ohio"
    ]
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Canopy Growth Corporation (WEED.TO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5lRTJicThBQzNsWWh3SFJCVF83N3g1OGFMZVZQQVlzSEdrZDAtdTh1R2VRNVVUSHpwd2RGZU1ma3FYNDM5OXNGX3UxSG5ORjdKMVdsRUVB?oc=5",
-   "summary": "",
-   "ts": 1793298926.0,
-   "date": "2026-10-29 14:35",
-   "category": "International",
-   "is_law": false,
-   "states": []
   },
   {
    "source": "MJBizDaily",
@@ -685,6 +718,17 @@
    "states": []
   },
   {
+   "source": "StratCann (Canada)",
+   "title": "Vanquish Brands Announces 2026 Financial Results",
+   "link": "https://stratcann.com/financials/vanquish-brands-2026-financial-pistol-and-paris/",
+   "summary": "Vanquish Holdings Inc., operating as Vanquish Brands and the company behind Pistol and Paris, today announced 2026 financial results, with revenue growth estimated at 152%... The post Vanquish Brands Announces 2026 Financial Results appeared first on StratCann",
+   "ts": 1793233240.0,
+   "date": "2026-10-28 20:20",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
    "source": "MJBizDaily",
    "title": "New York cannabis sales top $1.4 billion through Q3",
    "link": "https://mjbizdaily.com/news/new-york-cannabis-sales-top-1-4-billion-through-q3/618912/",
@@ -709,6 +753,17 @@
    "states": []
   },
   {
+   "source": "StratCann (Canada)",
+   "title": "Declining Cannabis Use and Growing Legal Market Adoption in Quebec",
+   "link": "https://stratcann.com/news/declining-cannabis-use-and-growing-legal-market-adoption-in-quebec/",
+   "summary": "Cannabis use in Quebec has continued to decline since it was legalized eight years ago. The post Declining Cannabis Use and Growing Legal Market Adoption in Quebec appeared first on StratCann .",
+   "ts": 1793214966.0,
+   "date": "2026-10-28 15:16",
+   "category": "International",
+   "is_law": true,
+   "states": []
+  },
+  {
    "source": "MJBizDaily",
    "title": "Federal hemp THC rescue possible after midterm elections \u2013 but with new rules",
    "link": "https://mjbizdaily.com/news/federal-hemp-thc-rescue-possible-after-midterm-elections-but-with-new-rules/618905/",
@@ -718,67 +773,19 @@
    "category": "US federal",
    "is_law": false,
    "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Neurologic Signs Common in Children After Cannabis Exposure - Medscape",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVEFGWXI0V2JrUU8yOTdFQURLY096d3VkdTJ0ZFM5T0xqUElSZlVWLTQ3NGFaeXJTaWRvMnI2S3RvczZiaWdxU0tRa0NYM2lyMngwNWdnbUlwT09OV0hYUFVBUFU4anNmTUh3ZHBJU1pmTVRJZDBybXJkRlJoZ2I0bDhJNnVlckhnRFkxWjY3dDlMd1lBUXUtM0NwcVFXdUFZYl8wWEZIc3lqVUk?oc=5",
-   "summary": "",
-   "ts": 1793188949.0,
-   "date": "2026-10-28 08:02",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "MJBizDaily",
-   "title": "Ahead of Farm Bill loophole closure, signs a hemp THC crackdown is already underway",
-   "link": "https://mjbizdaily.com/news/ahead-of-farm-bill-loophole-closure-signs-a-hemp-thc-crackdown-is-already-underway/618899/",
-   "summary": "Law enforcement officials have raided and charged dozens of hemp operators across the country, more than six weeks before a new federal ban takes effect. Ahead of Farm Bill loophole closure, signs a hemp THC crackdown is already underway is a post from: MJBizD",
-   "ts": 1793183436.0,
-   "date": "2026-10-28 06:30",
-   "category": "US federal",
-   "is_law": true,
-   "states": []
-  },
-  {
-   "source": "Business of Cannabis (intl)",
-   "title": "German Cannabis Pioneer SynBiotic SE Files For Insolvency",
-   "link": "https://businessofcannabis.com/german-cannabis-pioneer-synbiotic-se-files-for-insolvency/",
-   "summary": "SynBiotic SE, once one of the largest and most promising cannabis companies in Germany, has announced plans to file for insolvency and had its shares suspended on the Xetra and Frankfurt stock exchanges. It follows a year in which it had already lost six of it",
-   "ts": 1793182123.0,
-   "date": "2026-10-28 06:08",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "MJBizDaily",
-   "title": "Why dealmakers call MJBizCon \u2018THE conference\u2019",
-   "link": "https://mjbizdaily.com/news/why-dealmakers-call-mjbizcon-the-conference/618895/",
-   "summary": "Roz McCarthy spent the last day of MJBizCon 2021 walking the show floor armed with business cards, a T-shirt she\u2019d had made the previous night and a vision for the cannabis business that would become Black Buddha Cannabis. As luck would have it, she ran into P",
-   "ts": 1793141238.0,
-   "date": "2026-10-27 18:47",
-   "category": "Industry",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "MJBizDaily",
-   "title": "Rhode Island hemp firms can quarantine inventory ahead of federal THC ban",
-   "link": "https://mjbizdaily.com/news/rhode-island-hemp-firms-can-quarantine-inventory-ahead-of-federal-thc-ban/618870/",
-   "summary": "Rhode Island hemp businesses can quarantine intoxicating inventory rather than destroy it, keeping options open if federal rules change. Rhode Island hemp firms can quarantine inventory ahead of federal THC ban is a post from: MJBizDaily: Financial, Legal & Ca",
-   "ts": 1793140143.0,
-   "date": "2026-10-27 18:29",
-   "category": "US federal",
-   "is_law": true,
-   "states": [
-    "Island",
-    "Rhode"
-   ]
   }
  ],
  "all": [
+  {
+   "source": "StratCann (Canada)",
+   "title": "US Issues First Medical Cannabis Registrations Following Rescheduling",
+   "link": "https://stratcann.com/news/us-issues-first-medical-cannabis-registrations-following-rescheduling/",
+   "ts": 1793408183.0,
+   "date": "2026-10-30 20:56",
+   "category": "US federal",
+   "is_law": true,
+   "states": []
+  },
   {
    "source": "Marijuana Moment",
    "title": "DEA Refuses To Approve Marijuana Businesses In States That Allow Dual Medical And Recreational Licensing",
@@ -810,6 +817,16 @@
    "states": [
     "Michigan"
    ]
+  },
+  {
+   "source": "StratCann (Canada)",
+   "title": "Hamilton Police Shut Down Illegal Cannabis Dispensary",
+   "link": "https://stratcann.com/enforcement/hamilton-police-shut-down-illegal-cannabis-dispensary/",
+   "ts": 1793393191.0,
+   "date": "2026-10-30 16:46",
+   "category": "International",
+   "is_law": false,
+   "states": []
   },
   {
    "source": "Marijuana Moment",
@@ -901,6 +918,16 @@
    ]
   },
   {
+   "source": "StratCann (Canada)",
+   "title": "TobaGrown Acquires Great Gardener Farms",
+   "link": "https://stratcann.com/news/tobagrown-acquires-great-gardener-farms/",
+   "ts": 1793366640.0,
+   "date": "2026-10-30 09:24",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
    "source": "Marijuana Moment",
    "title": "Trump\u2019s Federal Marijuana Rescheduling Move Makes It Easier To Legalize Medical Access In Kansas, Democratic Governor Candidate Says",
    "link": "https://www.marijuanamoment.net/trumps-federal-marijuana-rescheduling-move-makes-it-easier-to-legalize-medical-access-in-kansas-democratic-governor-candidate-says/",
@@ -945,6 +972,16 @@
    ]
   },
   {
+   "source": "Google News: intl cannabis",
+   "title": "Aurora Cannabis Inc. (ACB) stock price, news, quote and history - Yahoo Finance UK",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1vU3d2R3R2Sl9sVzFlRzVDY1VWRjZsalBHaUdGbXk4R1QxZnJDYnB1V25XMnRJU01FWjVYcHpTTkh6TElLLXg2R1dtVlhjLXFW?oc=5",
+   "ts": 1793317559.0,
+   "date": "2026-10-29 19:45",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
    "source": "MJBizDaily",
    "title": "New York governor signs cannabis labor bill, moves to scrap wage board",
    "link": "https://mjbizdaily.com/news/new-york-governor-signs-cannabis-labor-bill-moves-to-scrap-wage-board/618941/",
@@ -967,16 +1004,6 @@
    "states": [
     "Ohio"
    ]
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Canopy Growth Corporation (WEED.TO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5lRTJicThBQzNsWWh3SFJCVF83N3g1OGFMZVZQQVlzSEdrZDAtdTh1R2VRNVVUSHpwd2RGZU1ma3FYNDM5OXNGX3UxSG5ORjdKMVdsRUVB?oc=5",
-   "ts": 1793298926.0,
-   "date": "2026-10-29 14:35",
-   "category": "International",
-   "is_law": false,
-   "states": []
   },
   {
    "source": "MJBizDaily",
@@ -1019,6 +1046,16 @@
    "states": []
   },
   {
+   "source": "StratCann (Canada)",
+   "title": "Vanquish Brands Announces 2026 Financial Results",
+   "link": "https://stratcann.com/financials/vanquish-brands-2026-financial-pistol-and-paris/",
+   "ts": 1793233240.0,
+   "date": "2026-10-28 20:20",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
    "source": "MJBizDaily",
    "title": "New York cannabis sales top $1.4 billion through Q3",
    "link": "https://mjbizdaily.com/news/new-york-cannabis-sales-top-1-4-billion-through-q3/618912/",
@@ -1038,6 +1075,16 @@
    "date": "2026-10-28 17:26",
    "category": "International",
    "is_law": false,
+   "states": []
+  },
+  {
+   "source": "StratCann (Canada)",
+   "title": "Declining Cannabis Use and Growing Legal Market Adoption in Quebec",
+   "link": "https://stratcann.com/news/declining-cannabis-use-and-growing-legal-market-adoption-in-quebec/",
+   "ts": 1793214966.0,
+   "date": "2026-10-28 15:16",
+   "category": "International",
+   "is_law": true,
    "states": []
   },
   {
@@ -1126,6 +1173,16 @@
    "states": []
   },
   {
+   "source": "StratCann (Canada)",
+   "title": "Navigating International Markets as a Canadian Cannabis Grower",
+   "link": "https://stratcann.com/news/navigating-international-markets-as-a-canadian-cannabis-grower/",
+   "ts": 1793133670.0,
+   "date": "2026-10-27 16:41",
+   "category": "International",
+   "is_law": true,
+   "states": []
+  },
+  {
    "source": "Google News: intl cannabis",
    "title": "How Popular Are CBD Flowers In Germany? - International Cannabis Business Conference",
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9fWEo4eXVEWW1MeTl6WGVadGxhQ3psVW93VFRoMFgtc2RUWEc2M2V1MWxDTHFQSnhyc0hSaU1IOEZFNmZZZ1B5eld2YXp1TG9jR0hOaVNUSXJlRGtVTmFweGJOT1F1QVJPTG5hRU13RGYtODRsZTZ3?oc=5",
@@ -1141,6 +1198,16 @@
    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNdE1kQXBabG1PcUhGeGtKUTA4Ml92X2pUMmg3U3ZRMlFnRXVkRDlnSDNqVWQwUlFkb09DUTJoRDVsZFBxaS0yNlV0UHhVSkxvd3MydXZTdDI2bXdiWXQxRkJOdHpuWE05WExqbU5kTU1qeURxcmQ0akd1NGhqYzlSLXJlNk11ZTJsa0stdFpkNXB6cEV4MllhZ0lHdGlVMGVDS2JGeHNqYVNUbmZzVzZCZVB3QW9laElmVEZUTUhzMTVOeGxxaWhDZ0ZCdmEtcmRDY1lMOE9ta1paOThUQ0RNVk5n?oc=5",
    "ts": 1793117442.0,
    "date": "2026-10-27 12:10",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "StratCann (Canada)",
+   "title": "SNDL\u2019s Record Retail Margins Offset by Impairments and Net Loss in Q3 2026",
+   "link": "https://stratcann.com/financials/sndls-record-retail-margins-offset-by-impairments-and-net-loss-in-q3-2026/",
+   "ts": 1793110816.0,
+   "date": "2026-10-27 10:20",
    "category": "International",
    "is_law": false,
    "states": []
@@ -1190,6 +1257,16 @@
    "states": []
   },
   {
+   "source": "StratCann (Canada)",
+   "title": "Aurora: Alberta Securities Commission Dismisses Curaleaf\u2019s Application to Halt ATM",
+   "link": "https://stratcann.com/news/aurora-alberta-securities-commission-dismisses-curaleafs-application-to-halt-atm/",
+   "ts": 1793030660.0,
+   "date": "2026-10-26 12:04",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
    "source": "Google News: intl cannabis",
    "title": "Legal Medical Cannabis Means Better, Not Weaker, Health Protection - Business of Cannabis",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQa3ViR3h4cUtBSmt2Q2NKdmxlaWdSNkdrYXNOTExjeUR1d1Uta3Z2YUhIekZTUTJSY0FxUmZGeldhbng1QU1sQlF6Y3pNb1hjWUhaLU1abmF5VUdabkdyZkZEdDJqNWxfWmtxY0w2MlEtU0hwcG9GWktBWVpmdzJlMUJBUjVOeEtBM3FzR05ucjlhU0hoSi1VY2ZkTG8?oc=5",
@@ -1220,11 +1297,21 @@
    "states": []
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "German Cannabis Patients Prefer Accessing Medicinal Cannabis from Pharmacies - StratCann",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRHFYbzUzQlozdmI4aEZ0NEd5MnN2N01hQWUwaVVMSnFwQkdiNzZiYUZNb3JwZVBkRnZPMnFkWEtwOWstQkZrN0NYTjhKdldtT2VsQmpuam5NYS03WHBOZHlwZU90WmRCandsZzMxMmJPYjQzU25UVVI3Y3RoZ0JiNlJEZFYwa0Z0SHV1UVhVZnAtNk5Zd3NJVFBfREk0YUNHSklwaFdINA?oc=5",
+   "source": "StratCann (Canada)",
+   "title": "German Cannabis Patients Prefer Accessing Medicinal Cannabis from Pharmacies",
+   "link": "https://stratcann.com/news/german-cannabis-patients-prefer-accessing-medicinal-cannabis-from-pharmacies/",
    "ts": 1792962346.0,
    "date": "2026-10-25 17:05",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "StratCann (Canada)",
+   "title": "Week in Weed \u2013 October 24, 2026",
+   "link": "https://stratcann.com/news/week-in-weed-october-24-2026/",
+   "ts": 1792840800.0,
+   "date": "2026-10-24 07:20",
    "category": "International",
    "is_law": false,
    "states": []
@@ -1264,6 +1351,18 @@
    ]
   },
   {
+   "source": "StratCann (Canada)",
+   "title": "Canada\u2019s Cannabis Sales Reach New High in August 2026",
+   "link": "https://stratcann.com/news/canada-cannabis-sales-reach-new-high-in-august-2026/",
+   "ts": 1792773128.0,
+   "date": "2026-10-23 12:32",
+   "category": "International",
+   "is_law": false,
+   "states": [
+    "New"
+   ]
+  },
+  {
    "source": "Business of Cannabis (intl)",
    "title": "Six-Month Bedrolite Supply Secured for UK Patients But Long-Term Access Remains Uncertain",
    "link": "https://businessofcannabis.com/six-month-bedrolite-supply-secured-for-uk-patients-but-long-term-access-remains-uncertain/",
@@ -1271,6 +1370,16 @@
    "date": "2026-10-23 11:15",
    "category": "International",
    "is_law": false,
+   "states": []
+  },
+  {
+   "source": "StratCann (Canada)",
+   "title": "SNDL Agrees to Pay $200,000 Fine and Restructure Franchise Operations under AGCO Deal",
+   "link": "https://stratcann.com/news/sndl-agrees-to-pay-200k-fine-restructure-franchise-operations-agco/",
+   "ts": 1792757460.0,
+   "date": "2026-10-23 08:11",
+   "category": "International",
+   "is_law": true,
    "states": []
   },
   {
@@ -1556,5 +1665,5 @@
    "states": []
   }
  ],
- "generated": "2026-10-30 20:33 EDT"
+ "generated": "2026-10-30 20:58 EDT"
 }
