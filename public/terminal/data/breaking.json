@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-10-30T19:53:31-0400",
- "generated_ts": 1793404412,
+ "generated": "2026-10-30T20:33:13-0400",
+ "generated_ts": 1793406793,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -23,13 +23,13 @@
   },
   {
    "source": "Business of Cannabis (intl)",
-   "status": "unavailable",
-   "items": 0
+   "status": "ok",
+   "items": 10
   },
   {
    "source": "StratCann (Canada)",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "items": 0
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,19 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "dearefusestoapprovemarijuanabusinessesinstatesthatallowdualm",
+   "title": "DEA Refuses To Approve Marijuana Businesses In States That Allow Dual Medical And Recreational Licensing",
+   "link": "https://www.marijuanamoment.net/dea-refuses-to-approve-marijuana-businesses-in-states-that-allow-dual-medical-and-recreational-licensing/",
+   "source": "Marijuana Moment",
+   "category": "US federal",
+   "is_law": false,
+   "states": [],
+   "published": "2026-10-30T20:30:52-0400",
+   "published_ts": 1793406652.0,
+   "first_seen": "2026-10-30T20:33:13-0400",
+   "first_seen_ts": 1793406793
+  },
   {
    "id": "deagrantsfederalregistrationtomorethan900medicalcannabisdisp",
    "title": "DEA grants federal registration to \u2018more than\u2019 900 medical cannabis dispensaries in seven states",
