@@ -1,6 +1,6 @@
 # Cannabis Agent Terminal: Scientist report
 
-Generated 2026-10-30 22:44 EDT. Research summary, not medical advice. Talk to a doctor.
+Generated 2026-10-30 23:45 EDT. Research summary, not medical advice. Talk to a doctor.
 
 _Strain names are typical examples only; the same name can test very differently by grower and batch. Go by the lab COA (THC, CBD, minor cannabinoids, terpenes), not the name._
 
@@ -245,7 +245,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** THC triggers hunger signals through CB1 in the hypothalamus and improves food taste and smell; a cancer RCT found THC improved chemosensory perception and food enjoyment. Dronabinol improved appetite and reversed weight loss in HIV/AIDS. A THC-free CBG-rich extract made rats eat more; animal-only. THCV goes the other way and suppresses appetite.
 - **Strains that typically express this profile:** Bubba Kush, Granddaddy Purple, avoid THCV-noted cultivars like Durban Poison (typically; check the COA)
 - **Cautions:** Side effects can lower quality of life (cancer meta-analysis). Sedation and confusion risk in frail or older patients. Talk to the care team about interactions.
-- **New PubMed papers, last 30 days:** 5
+- **New PubMed papers, last 30 days:** 6
 - **Citations:**
   - [SR] Wang et al. (2019). Medical Cannabinoids for Cancer Cachexia: A Systematic Review and Meta-Analysis. *Biomed Res Int*. PMID [31341892](https://pubmed.ncbi.nlm.nih.gov/31341892/). DOI [10.1155/2019/2864384](https://doi.org/10.1155/2019/2864384)
   - [RCT] Brisbois et al. (2011). Delta-9-tetrahydrocannabinol may palliate altered chemosensory perception in cancer patients: results of a randomized, double-blind, placebo-controlled pilot trial. *Ann Oncol*. PMID [21343383](https://pubmed.ncbi.nlm.nih.gov/21343383/). DOI [10.1093/annonc/mdq727](https://doi.org/10.1093/annonc/mdq727)

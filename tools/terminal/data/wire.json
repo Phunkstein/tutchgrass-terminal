@@ -38,8 +38,8 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "unavailable",
-   "error": "not well-formed (invalid token): line 1, column 119"
+   "status": "ok",
+   "items": 12
   },
   {
    "source": "Google News: intl cannabis",
@@ -55,6 +55,20 @@
   }
  ],
  "papers_medical": [
+  {
+   "track": "medical",
+   "pmid": "42963078",
+   "title": "Persistent Amotivation After Cannabis-Related Psychosis: Diagnostic Challenges and Clinical Course With Electroconvulsive Therapy: A Case Report.",
+   "journal": "Neuropsychopharmacol Rep",
+   "year": "2026",
+   "first_author": "Kitano et al.",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
+   "preclinical": false,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42963078/"
+  },
   {
    "track": "medical",
    "pmid": "42935025",
@@ -160,19 +174,6 @@
    ],
    "preclinical": true,
    "url": "https://pubmed.ncbi.nlm.nih.gov/42909990/"
-  },
-  {
-   "track": "medical",
-   "pmid": "42901095",
-   "title": "Nanodispersible cannabidiol (150\u202fmg/mL) for generalized anxiety disorder: Comparative emerging clinical evidence with first-line anxiolytics and mechanistic insights from network pharmacology and pharmacogenomics.",
-   "journal": "Asian J Psychiatr",
-   "year": "2026",
-   "first_author": "Gundugurti et al.",
-   "pubtypes": [
-    "Letter"
-   ],
-   "preclinical": false,
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42901095/"
   }
  ],
  "papers_cultivation": [
@@ -256,6 +257,17 @@
   }
  ],
  "news_us": [
+  {
+   "source": "StratCann (Canada)",
+   "title": "US Issues First Medical Cannabis Registrations Following Rescheduling",
+   "link": "https://stratcann.com/news/us-issues-first-medical-cannabis-registrations-following-rescheduling/",
+   "summary": "The US has issued the first registrations for medical cannabis dispensaries following rescheduling earlier this year and reviewing applications from manufacturers and distributors. The post US Issues First Medical Cannabis Registrations Following Rescheduling ",
+   "ts": 1793408183.0,
+   "date": "2026-10-30 20:56",
+   "category": "US federal",
+   "is_law": true,
+   "states": []
+  },
   {
    "source": "Marijuana Moment",
    "title": "DEA Refuses To Approve Marijuana Businesses In States That Allow Dual Medical And Recreational Licensing",
@@ -362,17 +374,6 @@
    "category": "US federal",
    "is_law": true,
    "states": []
-  },
-  {
-   "source": "MJBizDaily",
-   "title": "How cannabis employers are taking worker healthcare benefits into their own hands",
-   "link": "https://mjbizdaily.com/news/how-cannabis-employers-are-taking-worker-healthcare-benefits-into-their-own-hands/618948/",
-   "summary": "Cannabis employers may wish to consider healthcare captives when choosing employee benefits. How cannabis employers are taking worker healthcare benefits into their own hands is a post from: MJBizDaily: Financial, Legal & Cannabusiness news for cannabis entrep",
-   "ts": 1793356259.0,
-   "date": "2026-10-30 06:30",
-   "category": "Industry",
-   "is_law": false,
-   "states": []
   }
  ],
  "news_intl": [
@@ -444,5 +445,5 @@
   }
  ],
  "news_health_total": 21,
- "generated": "2026-10-30 22:45 EDT"
+ "generated": "2026-10-30 23:45 EDT"
 }
