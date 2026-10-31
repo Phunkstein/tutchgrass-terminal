@@ -9,7 +9,7 @@
   {
    "source": "PubMed newest (cultivation, 14 d)",
    "status": "ok",
-   "items": 6
+   "items": 5
   },
   {
    "source": "Marijuana Moment",
@@ -38,8 +38,8 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 119"
   },
   {
    "source": "Google News: intl cannabis",
@@ -231,19 +231,6 @@
   },
   {
    "track": "cultivation",
-   "pmid": "42883222",
-   "title": "Hemp Seed-Derived Vesicle-like Nanoparticles Modulate Dermal Collagen Homeostasis and Attenuate UVB-Induced Photoaging-Related Responses.",
-   "journal": "Molecules",
-   "year": "2026",
-   "first_author": "Park et al.",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "preclinical": false,
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42883222/"
-  },
-  {
-   "track": "cultivation",
    "pmid": "42947120",
    "title": "Cannabis sativa L. extract modulates UVB-induced oxidative stress and MITF transcriptional suppression in B16-F10 melanoma cell line.",
    "journal": "BMC Complement Med Ther",
@@ -257,17 +244,6 @@
   }
  ],
  "news_us": [
-  {
-   "source": "StratCann (Canada)",
-   "title": "US Issues First Medical Cannabis Registrations Following Rescheduling",
-   "link": "https://stratcann.com/news/us-issues-first-medical-cannabis-registrations-following-rescheduling/",
-   "summary": "The US has issued the first registrations for medical cannabis dispensaries following rescheduling earlier this year and reviewing applications from manufacturers and distributors. The post US Issues First Medical Cannabis Registrations Following Rescheduling ",
-   "ts": 1793408183.0,
-   "date": "2026-10-30 20:56",
-   "category": "US federal",
-   "is_law": true,
-   "states": []
-  },
   {
    "source": "Marijuana Moment",
    "title": "DEA Refuses To Approve Marijuana Businesses In States That Allow Dual Medical And Recreational Licensing",
@@ -374,6 +350,17 @@
    "category": "US federal",
    "is_law": true,
    "states": []
+  },
+  {
+   "source": "MJBizDaily",
+   "title": "How cannabis employers are taking worker healthcare benefits into their own hands",
+   "link": "https://mjbizdaily.com/news/how-cannabis-employers-are-taking-worker-healthcare-benefits-into-their-own-hands/618948/",
+   "summary": "Cannabis employers may wish to consider healthcare captives when choosing employee benefits. How cannabis employers are taking worker healthcare benefits into their own hands is a post from: MJBizDaily: Financial, Legal & Cannabusiness news for cannabis entrep",
+   "ts": 1793356259.0,
+   "date": "2026-10-30 06:30",
+   "category": "Industry",
+   "is_law": false,
+   "states": []
   }
  ],
  "news_intl": [
@@ -445,5 +432,5 @@
   }
  ],
  "news_health_total": 21,
- "generated": "2026-10-30 23:45 EDT"
+ "generated": "2026-10-31 00:45 EDT"
 }

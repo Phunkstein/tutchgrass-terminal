@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-30 23:45 EDT",
+ "generated": "2026-10-31 00:45 EDT",
  "window": {
-  "start": "2026-09-30",
-  "end": "2026-10-30",
+  "start": "2026-10-01",
+  "end": "2026-10-31",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "32366a3ba1f4218d",
+ "fingerprint": "0a20dc522fb55c42",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -77,8 +77,8 @@
    "42831900",
    "42885647",
    "42867128",
-   "42816121",
-   "42874273"
+   "42874273",
+   "42840002"
   ],
   "anxiety": [
    "42950713",
@@ -130,14 +130,14 @@
   "ibd": []
  },
  "pubmed_counts": {
-  "sleep": 25,
-  "pain": 30,
+  "sleep": 24,
+  "pain": 28,
   "anxiety": 46,
   "mood": 45,
   "ptsd": 10,
-  "arthritis": 6,
+  "arthritis": 5,
   "inflammation": 8,
-  "nausea": 8,
+  "nausea": 7,
   "appetite": 6,
   "focus": 9,
   "fibromyalgia": 2,
@@ -769,6 +769,26 @@
    ]
   },
   {
+   "pmid": "42840002",
+   "title": "Cannabidiol/cannabigerol exposure and neuropathy-related outcomes after neurotoxic chemotherapy: a real-world cohort study.",
+   "journal": "Front Pain Res (Lausanne)",
+   "date": "2026-10-07",
+   "pubdate": "2026-09-22",
+   "first_author": "Graziane et al.",
+   "doi": "10.3389/fpain.2026.1945720",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at data on 118,001 people (nobody was assigned a treatment).",
+    "found": "Post-chemotherapy CBD/CBG exposure was associated with lower observed hazard of neuropathy-related diagnosis-code outcomes, whereas pre-chemotherapy exposure was not significant.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42840002/",
+   "conditions": [
+    "pain"
+   ]
+  },
+  {
    "pmid": "42838421",
    "title": "Comparative analysis of the effects of \u03949-tetrahydrocannabinol and cannabidiol on pilocarpine-induced status epilepticus in mice.",
    "journal": "Neuroscience",
@@ -868,27 +888,7 @@
    "conditions": [
     "focus"
    ]
-  },
-  {
-   "pmid": "42816121",
-   "title": "Dronabinol for Neuropathic Pain in Palliative Care.",
-   "journal": "J Pain Palliat Care Pharmacother",
-   "date": "2026-09-30",
-   "pubdate": "2026-09-30",
-   "first_author": "Boogaerts et al.",
-   "doi": "10.1080/15360288.2026.2718824",
-   "grade": "review",
-   "grade_label": "Narrative review",
-   "plain": {
-    "did": "An expert overview of existing research.",
-    "found": "Its reported multimodal effects, generally favorable safety profile, and possible role in reducing opioid requirements should be considered potential advantages; however, these findings are supported by limited and heterogeneous evidence.",
-    "caveat": "An expert overview, not a systematic search. No new data."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42816121/",
-   "conditions": [
-    "pain"
-   ]
   }
  ],
- "week_start": "2026-10-23"
+ "week_start": "2026-10-24"
 }
