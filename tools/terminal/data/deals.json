@@ -2,9 +2,9 @@
  "schema": "deals/3",
  "test": true,
  "region": "United States (all legal markets)",
- "checked": "2026-10-31 12:21 EDT",
- "count": 705,
- "chains": 72,
+ "checked": "2026-10-31 13:46 EDT",
+ "count": 704,
+ "chains": 71,
  "states_with_deals": 28,
  "by_state": {
   "AK": 3,
@@ -23,7 +23,7 @@
   "IL": 20,
   "KY": 0,
   "LA": 0,
-  "MA": 35,
+  "MA": 34,
   "MD": 17,
   "ME": 4,
   "MI": 319,
@@ -88,7 +88,6 @@
   "Caroline's Cannabis": 10,
   "Temescal Wellness": 3,
   "Bask": 10,
-  "Fine Fettle": 1,
   "Pettals": 4,
   "Massachusetts Green Retail": 2,
   "CommCan": 2,
@@ -362,7 +361,7 @@
    "code": "MA",
    "name": "Massachusetts",
    "market": "adult-use + medical",
-   "deals": 35,
+   "deals": 34,
    "sources": 8
   },
   {
@@ -562,7 +561,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 15
+   "more": 16
   },
   {
    "state": "MI",
@@ -571,7 +570,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 23
+   "more": 22
   },
   {
    "state": "MI",
@@ -580,7 +579,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 24
+   "more": 22
   },
   {
    "state": "MI",
@@ -589,7 +588,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 24
+   "more": 23
   },
   {
    "state": "MI",
@@ -761,7 +760,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 39
+   "more": 42
   },
   {
    "state": "MI",
@@ -967,7 +966,7 @@
    "name": "Fine Fettle \u2013 Fine Fettle (Connecticut stores)",
    "url": "https://www.finefettle.com/ct-daily-deals/",
    "robots": "allowed",
-   "status": "ok, but no current deals parsed (none stated, or layout changed)",
+   "status": "error: page is headed \u201cNovember Deals\u201d, not this month; not used",
    "deals": 0
   },
   {
@@ -1067,8 +1066,8 @@
    "name": "Fine Fettle \u2013 Fine Fettle (Massachusetts stores)",
    "url": "https://www.finefettle.com/ma-daily-deals/",
    "robots": "allowed",
-   "status": "ok",
-   "deals": 1
+   "status": "error: page is headed \u201cNovember Deals\u201d, not this month; not used",
+   "deals": 0
   },
   {
    "state": "MA",
@@ -1190,7 +1189,7 @@
    "name": "Lone Peak Cannabis \u2013 Lone Peak Cannabis Co. (all MT stores)",
    "url": "https://lonepeakcannabiscompany.com/",
    "robots": "allowed",
-   "status": "error: page is headed \u201cMay 2026 Deals\u201d, not this month; not used",
+   "status": "error: HTTP 403",
    "deals": 0
   },
   {
@@ -2597,48 +2596,8 @@
     "Detroit"
    ],
    "state": "MI",
-   "deal": "Seed Junky (Excludes Deli) - 30% OFF",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-31",
-   "url": "https://www.kingofbudz.com/michigan/detroit/deals/seed-junky-excludes-deli-30-percent-off",
-   "loc": [
-    5
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Detroit",
-   "city": "Detroit",
-   "cities": [
-    "Detroit"
-   ],
-   "state": "MI",
-   "deal": "Flower Power EXCLUDES (Frozen Berries X Z Animals Rosin 1G Donut) - 25% OFF",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-31",
-   "url": "https://www.kingofbudz.com/michigan/detroit/deals/flower-power-excludes-frozen-berries-x-z-animals-rosin-1g-donut-25-percent-off",
-   "loc": [
-    5
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Detroit",
-   "city": "Detroit",
-   "cities": [
-    "Detroit"
-   ],
-   "state": "MI",
    "deal": "Batch - 4g Disposable - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2658,7 +2617,7 @@
    ],
    "state": "MI",
    "deal": "Smokiez 200mg Gummies (Non Ratio) 3 for $11 (Buy 3 for $11)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2678,7 +2637,7 @@
    ],
    "state": "MI",
    "deal": "Mother Puckers 200mg Rosin Gummies (Non Ratio) 3 for $12 (Buy 3 for $12)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2698,7 +2657,7 @@
    ],
    "state": "MI",
    "deal": "Mother Puckers 200mg Rosin Gummies (Ratio) 3 for $14 (Buy 3 for $14)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2718,7 +2677,7 @@
    ],
    "state": "MI",
    "deal": "Kiva Camino Lost Farm Petra Terra - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2738,7 +2697,7 @@
    ],
    "state": "MI",
    "deal": "Chill Medicated 200mg Syrup - B2G1 (EQUAL OR LESSER VALUE) (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2758,7 +2717,7 @@
    ],
    "state": "MI",
    "deal": "Boom Chaka Laka 200mg Rosin Gummies - B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2778,12 +2737,52 @@
    ],
    "state": "MI",
    "deal": "Jeeter - 5-Pack .5g Quad Infused Prerolls - 3 for $60 (Buy 3 for $60)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
    "collected": "2026-10-31",
    "url": "https://www.kingofbudz.com/michigan/detroit/deals/jeeter-5-pack-5g-quad-infused-prerolls-3-for-60",
+   "loc": [
+    5
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Detroit",
+   "city": "Detroit",
+   "cities": [
+    "Detroit"
+   ],
+   "state": "MI",
+   "deal": "Jeeter - 1g Quad Infused Preroll - 3 for $27 (Buy 3 for $27)",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-31",
+   "url": "https://www.kingofbudz.com/michigan/detroit/deals/jeeter-1g-quad-infused-preroll-3-for-27",
+   "loc": [
+    5
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Detroit",
+   "city": "Detroit",
+   "cities": [
+    "Detroit"
+   ],
+   "state": "MI",
+   "deal": "North Coast 2.5g Infused Donut - BOGO (Buy 1, Get 1 Free)",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-31",
+   "url": "https://www.kingofbudz.com/michigan/detroit/deals/north-coast-25g-infused-donut-bogo",
    "loc": [
     5
    ],
@@ -2798,7 +2797,7 @@
    ],
    "state": "MI",
    "deal": "Seed Junky (Excludes Deli) - 30% OFF",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2818,7 +2817,7 @@
    ],
    "state": "MI",
    "deal": "Jointman - 40% OFF",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2838,7 +2837,7 @@
    ],
    "state": "MI",
    "deal": "Flower Power EXCLUDES (Frozen Berries X Z Animals Rosin 1G Donut) - 25% OFF",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2858,7 +2857,7 @@
    ],
    "state": "MI",
    "deal": "Clout King 3.5g Prepacks (Excludes SMALLS) - 30% OFF",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2878,7 +2877,7 @@
    ],
    "state": "MI",
    "deal": "Batch - 4g Disposable - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2898,7 +2897,7 @@
    ],
    "state": "MI",
    "deal": "Smokiez 200mg Gummies (Ratio) 3 for $13 (Buy 3 for $13)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2918,7 +2917,7 @@
    ],
    "state": "MI",
    "deal": "Smokiez 200mg Gummies (Non Ratio) 3 for $11 (Buy 3 for $11)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2938,7 +2937,7 @@
    ],
    "state": "MI",
    "deal": "Mother Puckers 200mg Rosin Gummies (Non Ratio) 3 for $12 (Buy 3 for $12)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2958,7 +2957,7 @@
    ],
    "state": "MI",
    "deal": "Mother Puckers 200mg Rosin Gummies (Ratio) 3 for $14 (Buy 3 for $14)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2978,7 +2977,7 @@
    ],
    "state": "MI",
    "deal": "Kiva Camino Lost Farm Petra Terra - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2997,8 +2996,88 @@
     "Inkster"
    ],
    "state": "MI",
+   "deal": "Seed Junky (Excludes Deli) - 30% OFF",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-31",
+   "url": "https://www.kingofbudz.com/michigan/inkster/deals/seed-junky-excludes-deli-30-percent-off",
+   "loc": [
+    7
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Inkster",
+   "city": "Inkster",
+   "cities": [
+    "Inkster"
+   ],
+   "state": "MI",
+   "deal": "Jointman - 40% OFF",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-31",
+   "url": "https://www.kingofbudz.com/michigan/inkster/deals/jointman-40-percent-off",
+   "loc": [
+    7
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Inkster",
+   "city": "Inkster",
+   "cities": [
+    "Inkster"
+   ],
+   "state": "MI",
+   "deal": "Flower Power EXCLUDES (Frozen Berries X Z Animals Rosin 1G Donut) - 25% OFF",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-31",
+   "url": "https://www.kingofbudz.com/michigan/inkster/deals/flower-power-excludes-frozen-berries-x-z-animals-rosin-1g-donut-25-percent-off",
+   "loc": [
+    7
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Inkster",
+   "city": "Inkster",
+   "cities": [
+    "Inkster"
+   ],
+   "state": "MI",
+   "deal": "Clout King 3.5g Prepacks (Excludes SMALLS) - 30% OFF",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-31",
+   "url": "https://www.kingofbudz.com/michigan/inkster/deals/clout-king-35g-prepacks-excludes-smalls-30-percent-off",
+   "loc": [
+    7
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Inkster",
+   "city": "Inkster",
+   "cities": [
+    "Inkster"
+   ],
+   "state": "MI",
    "deal": "Smokiez 200mg Gummies (Ratio) 3 for $13 (Buy 3 for $13)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -3018,7 +3097,7 @@
    ],
    "state": "MI",
    "deal": "Smokiez 200mg Gummies (Non Ratio) 3 for $11 (Buy 3 for $11)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -3038,7 +3117,7 @@
    ],
    "state": "MI",
    "deal": "Mother Puckers 200mg Rosin Gummies (Non Ratio) 3 for $12 (Buy 3 for $12)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -3058,7 +3137,7 @@
    ],
    "state": "MI",
    "deal": "Mother Puckers 200mg Rosin Gummies (Ratio) 3 for $14 (Buy 3 for $14)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -3078,7 +3157,7 @@
    ],
    "state": "MI",
    "deal": "Kiva Camino Lost Farm Petra Terra - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -3098,92 +3177,12 @@
    ],
    "state": "MI",
    "deal": "Hi-Lo 200mg Live Resin Gummies - B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
    "collected": "2026-10-31",
    "url": "https://www.kingofbudz.com/michigan/inkster/deals/hi-lo-200mg-live-resin-gummies-b2g1",
-   "loc": [
-    7
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Inkster",
-   "city": "Inkster",
-   "cities": [
-    "Inkster"
-   ],
-   "state": "MI",
-   "deal": "Boom Chaka Laka 200mg Rosin Gummies - B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-31",
-   "url": "https://www.kingofbudz.com/michigan/inkster/deals/boom-chaka-laka-200mg-rosin-gummies-b2g1",
-   "loc": [
-    7
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Inkster",
-   "city": "Inkster",
-   "cities": [
-    "Inkster"
-   ],
-   "state": "MI",
-   "deal": "Jeeter - 1g Quad Infused Preroll - 3 for $27 (Buy 3 for $27)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-31",
-   "url": "https://www.kingofbudz.com/michigan/inkster/deals/jeeter-1g-quad-infused-preroll-3-for-27",
-   "loc": [
-    7
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Inkster",
-   "city": "Inkster",
-   "cities": [
-    "Inkster"
-   ],
-   "state": "MI",
-   "deal": "Jeeter - 5-Pack .5g Quad Infused Prerolls - 3 for $60 (Buy 3 for $60)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-31",
-   "url": "https://www.kingofbudz.com/michigan/inkster/deals/jeeter-5-pack-5g-quad-infused-prerolls-3-for-60",
-   "loc": [
-    7
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Inkster",
-   "city": "Inkster",
-   "cities": [
-    "Inkster"
-   ],
-   "state": "MI",
-   "deal": "Dat Canna - 1g Rosin - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-31",
-   "url": "https://www.kingofbudz.com/michigan/inkster/deals/dat-canna-1g-rosin-bogo",
    "loc": [
     7
    ],
@@ -3197,8 +3196,88 @@
     "Monroe"
    ],
    "state": "MI",
+   "deal": "Seed Junky (Excludes Deli) - 30% OFF",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-31",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/seed-junky-excludes-deli-30-percent-off",
+   "loc": [
+    8
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Monroe",
+   "city": "Monroe",
+   "cities": [
+    "Monroe"
+   ],
+   "state": "MI",
+   "deal": "Minntz (Excludes Deli) - 30% OFF",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-31",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/minntz-excludes-deli-30-percent-off",
+   "loc": [
+    8
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Monroe",
+   "city": "Monroe",
+   "cities": [
+    "Monroe"
+   ],
+   "state": "MI",
+   "deal": "Jointman - 40% OFF",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-31",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/jointman-40-percent-off",
+   "loc": [
+    8
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Monroe",
+   "city": "Monroe",
+   "cities": [
+    "Monroe"
+   ],
+   "state": "MI",
+   "deal": "Flower Power EXCLUDES (Frozen Berries X Z Animals Rosin 1G Donut) - 25% OFF",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-31",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/flower-power-excludes-frozen-berries-x-z-animals-rosin-1g-donut-25-percent-off",
+   "loc": [
+    8
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Monroe",
+   "city": "Monroe",
+   "cities": [
+    "Monroe"
+   ],
+   "state": "MI",
    "deal": "Dank AND Disorderly 1.5g Preroll - B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -3218,7 +3297,7 @@
    ],
    "state": "MI",
    "deal": "Dank AND Disorderly 14g Prepack - B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -3237,13 +3316,13 @@
     "Monroe"
    ],
    "state": "MI",
-   "deal": "Smokiez 200mg Gummies (Non Ratio) 3 for $11 (Buy 3 for $11)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "deal": "Clout King 3.5g Prepacks (Excludes SMALLS) - 30% OFF",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
    "collected": "2026-10-31",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/smokiez-200mg-gummies-non-ratio-3-for-11",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/clout-king-35g-prepacks-excludes-smalls-30-percent-off",
    "loc": [
     8
    ],
@@ -3258,7 +3337,7 @@
    ],
    "state": "MI",
    "deal": "Smokiez 200mg Gummies (Ratio) 3 for $13 (Buy 3 for $13)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -3277,113 +3356,33 @@
     "Monroe"
    ],
    "state": "MI",
+   "deal": "Smokiez 200mg Gummies (Non Ratio) 3 for $11 (Buy 3 for $11)",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-31",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/smokiez-200mg-gummies-non-ratio-3-for-11",
+   "loc": [
+    8
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Monroe",
+   "city": "Monroe",
+   "cities": [
+    "Monroe"
+   ],
+   "state": "MI",
    "deal": "Mother Puckers 200mg Rosin Gummies (Non Ratio) 3 for $12 (Buy 3 for $12)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
    "collected": "2026-10-31",
    "url": "https://www.kingofbudz.com/michigan/monroe/deals/mother-puckers-200mg-rosin-gummies-non-ratio-3-for-12",
-   "loc": [
-    8
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Monroe",
-   "city": "Monroe",
-   "cities": [
-    "Monroe"
-   ],
-   "state": "MI",
-   "deal": "Mother Puckers 200mg Rosin Gummies (Ratio) 3 for $14 (Buy 3 for $14)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-31",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/mother-puckers-200mg-rosin-gummies-ratio-3-for-14",
-   "loc": [
-    8
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Monroe",
-   "city": "Monroe",
-   "cities": [
-    "Monroe"
-   ],
-   "state": "MI",
-   "deal": "Kiva Camino Lost Farm Petra Terra - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-31",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/kiva-camino-lost-farm-petra-terra-bogo",
-   "loc": [
-    8
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Monroe",
-   "city": "Monroe",
-   "cities": [
-    "Monroe"
-   ],
-   "state": "MI",
-   "deal": "Chill Medicated 200mg Syrup - B2G1 (EQUAL OR LESSER VALUE) (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-31",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/chill-medicated-200mg-syrup-b2g1-equal-or-lesser-value",
-   "loc": [
-    8
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Monroe",
-   "city": "Monroe",
-   "cities": [
-    "Monroe"
-   ],
-   "state": "MI",
-   "deal": "Hi-Lo 200mg Live Resin Gummies - B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-31",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/hi-lo-200mg-live-resin-gummies-b2g1",
-   "loc": [
-    8
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Monroe",
-   "city": "Monroe",
-   "cities": [
-    "Monroe"
-   ],
-   "state": "MI",
-   "deal": "Boom Chaka Laka 200mg Rosin Gummies - B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-31",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/boom-chaka-laka-200mg-rosin-gummies-b2g1",
    "loc": [
     8
    ],
@@ -3397,8 +3396,128 @@
     "New Buffalo"
    ],
    "state": "MI",
+   "deal": "Gold Crown / Jester - B2G1 (Buy 2, Get 1 Free)",
+   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-31",
+   "url": "https://www.kingofbudz.com/michigan/new-buffalo/deals/gold-crown-jester-b2g1",
+   "loc": [
+    9
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz New Buffalo",
+   "city": "New Buffalo",
+   "cities": [
+    "New Buffalo"
+   ],
+   "state": "MI",
+   "deal": "Seed Junky (Excludes Deli) - 30% OFF",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-31",
+   "url": "https://www.kingofbudz.com/michigan/new-buffalo/deals/seed-junky-excludes-deli-30-percent-off",
+   "loc": [
+    9
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz New Buffalo",
+   "city": "New Buffalo",
+   "cities": [
+    "New Buffalo"
+   ],
+   "state": "MI",
+   "deal": "Minntz (Excludes Deli) - 30% OFF",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-31",
+   "url": "https://www.kingofbudz.com/michigan/new-buffalo/deals/minntz-excludes-deli-30-percent-off",
+   "loc": [
+    9
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz New Buffalo",
+   "city": "New Buffalo",
+   "cities": [
+    "New Buffalo"
+   ],
+   "state": "MI",
+   "deal": "Jointman - 40% OFF",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-31",
+   "url": "https://www.kingofbudz.com/michigan/new-buffalo/deals/jointman-40-percent-off",
+   "loc": [
+    9
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz New Buffalo",
+   "city": "New Buffalo",
+   "cities": [
+    "New Buffalo"
+   ],
+   "state": "MI",
+   "deal": "Flower Power EXCLUDES (Frozen Berries X Z Animals Rosin 1G Donut) - 25% OFF",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-31",
+   "url": "https://www.kingofbudz.com/michigan/new-buffalo/deals/flower-power-excludes-frozen-berries-x-z-animals-rosin-1g-donut-25-percent-off",
+   "loc": [
+    9
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz New Buffalo",
+   "city": "New Buffalo",
+   "cities": [
+    "New Buffalo"
+   ],
+   "state": "MI",
+   "deal": "Clout King 3.5g Prepacks (Excludes SMALLS) - 30% OFF",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-31",
+   "url": "https://www.kingofbudz.com/michigan/new-buffalo/deals/clout-king-35g-prepacks-excludes-smalls-30-percent-off",
+   "loc": [
+    9
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz New Buffalo",
+   "city": "New Buffalo",
+   "cities": [
+    "New Buffalo"
+   ],
+   "state": "MI",
    "deal": "Batch - 4g Disposable - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -3417,28 +3536,8 @@
     "New Buffalo"
    ],
    "state": "MI",
-   "deal": "Smokiez 200mg Gummies (Non Ratio) 3 for $11 (Buy 3 for $11)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-31",
-   "url": "https://www.kingofbudz.com/michigan/new-buffalo/deals/smokiez-200mg-gummies-non-ratio-3-for-11",
-   "loc": [
-    9
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz New Buffalo",
-   "city": "New Buffalo",
-   "cities": [
-    "New Buffalo"
-   ],
-   "state": "MI",
    "deal": "Smokiez 200mg Gummies (Ratio) 3 for $13 (Buy 3 for $13)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -3457,133 +3556,33 @@
     "New Buffalo"
    ],
    "state": "MI",
+   "deal": "Smokiez 200mg Gummies (Non Ratio) 3 for $11 (Buy 3 for $11)",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-31",
+   "url": "https://www.kingofbudz.com/michigan/new-buffalo/deals/smokiez-200mg-gummies-non-ratio-3-for-11",
+   "loc": [
+    9
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz New Buffalo",
+   "city": "New Buffalo",
+   "cities": [
+    "New Buffalo"
+   ],
+   "state": "MI",
    "deal": "Mother Puckers 200mg Rosin Gummies (Non Ratio) 3 for $12 (Buy 3 for $12)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
+   "valid": "page said \u201c9 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
    "collected": "2026-10-31",
    "url": "https://www.kingofbudz.com/michigan/new-buffalo/deals/mother-puckers-200mg-rosin-gummies-non-ratio-3-for-12",
-   "loc": [
-    9
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz New Buffalo",
-   "city": "New Buffalo",
-   "cities": [
-    "New Buffalo"
-   ],
-   "state": "MI",
-   "deal": "Mother Puckers 200mg Rosin Gummies (Ratio) 3 for $14 (Buy 3 for $14)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-31",
-   "url": "https://www.kingofbudz.com/michigan/new-buffalo/deals/mother-puckers-200mg-rosin-gummies-ratio-3-for-14",
-   "loc": [
-    9
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz New Buffalo",
-   "city": "New Buffalo",
-   "cities": [
-    "New Buffalo"
-   ],
-   "state": "MI",
-   "deal": "Kiva Camino Lost Farm Petra Terra - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-31",
-   "url": "https://www.kingofbudz.com/michigan/new-buffalo/deals/kiva-camino-lost-farm-petra-terra-bogo",
-   "loc": [
-    9
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz New Buffalo",
-   "city": "New Buffalo",
-   "cities": [
-    "New Buffalo"
-   ],
-   "state": "MI",
-   "deal": "Chill Medicated 200mg Syrup - B2G1 (EQUAL OR LESSER VALUE) (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-31",
-   "url": "https://www.kingofbudz.com/michigan/new-buffalo/deals/chill-medicated-200mg-syrup-b2g1-equal-or-lesser-value",
-   "loc": [
-    9
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz New Buffalo",
-   "city": "New Buffalo",
-   "cities": [
-    "New Buffalo"
-   ],
-   "state": "MI",
-   "deal": "Hi-Lo 200mg Live Resin Gummies - B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-31",
-   "url": "https://www.kingofbudz.com/michigan/new-buffalo/deals/hi-lo-200mg-live-resin-gummies-b2g1",
-   "loc": [
-    9
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz New Buffalo",
-   "city": "New Buffalo",
-   "cities": [
-    "New Buffalo"
-   ],
-   "state": "MI",
-   "deal": "Boom Chaka Laka 200mg Rosin Gummies - B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c10 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-31",
-   "url": "https://www.kingofbudz.com/michigan/new-buffalo/deals/boom-chaka-laka-200mg-rosin-gummies-b2g1",
-   "loc": [
-    9
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz New Buffalo",
-   "city": "New Buffalo",
-   "cities": [
-    "New Buffalo"
-   ],
-   "state": "MI",
-   "deal": "Lit Labs - 3.5g Cured Resin - B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c8 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-31",
-   "url": "https://www.kingofbudz.com/michigan/new-buffalo/deals/lit-labs-35g-cured-resin-b2g1",
    "loc": [
     9
    ],
@@ -6603,9 +6602,9 @@
     "Center Line"
    ],
    "state": "MI",
-   "deal": "40% OFF - CLOUT KING (TODAY ONLY)",
+   "deal": "40% OFF - CLOUT KING (10/31 ONLY)",
    "valid": "",
-   "until": "",
+   "until": "2026-10-31",
    "kind": "limited",
    "note": "",
    "collected": "2026-10-31",
@@ -6623,9 +6622,9 @@
     "Center Line"
    ],
    "state": "MI",
-   "deal": "40% OFF - COVERT CUPS (TODAY ONLY)",
+   "deal": "40% OFF - COVERT CUPS (10/31 ONLY)",
    "valid": "",
-   "until": "",
+   "until": "2026-10-31",
    "kind": "limited",
    "note": "",
    "collected": "2026-10-31",
@@ -6643,9 +6642,9 @@
     "Center Line"
    ],
    "state": "MI",
-   "deal": "40% OFF - CHILL MEDICATED (TODAY ONLY)",
+   "deal": "40% OFF - CHILL MEDICATED (10/31 ONLY)",
    "valid": "",
-   "until": "",
+   "until": "2026-10-31",
    "kind": "limited",
    "note": "",
    "collected": "2026-10-31",
@@ -6663,9 +6662,49 @@
     "Center Line"
    ],
    "state": "MI",
-   "deal": "40% OFF - MONOPOLY MELTS",
+   "deal": "30% OFF - UNIQ PRESSURE (10/31-11/1)",
    "valid": "",
-   "until": "",
+   "until": "2026-11-01",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-31",
+   "url": "https://shophod.com/stores/house-of-dank-centerline",
+   "loc": [
+    68
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "House of Dank",
+   "store": "House of Dank Center Line",
+   "city": "Center Line",
+   "cities": [
+    "Center Line"
+   ],
+   "state": "MI",
+   "deal": "50% OFF - JEETER VAPES (10/31-11/1)",
+   "valid": "",
+   "until": "2026-11-01",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-10-31",
+   "url": "https://shophod.com/stores/house-of-dank-centerline",
+   "loc": [
+    68
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "House of Dank",
+   "store": "House of Dank Center Line",
+   "city": "Center Line",
+   "cities": [
+    "Center Line"
+   ],
+   "state": "MI",
+   "deal": "40% OFF - MONOPOLY MELTS (10/30-11/1)",
+   "valid": "",
+   "until": "2026-11-01",
    "kind": "limited",
    "note": "",
    "collected": "2026-10-31",
@@ -6723,49 +6762,9 @@
     "Center Line"
    ],
    "state": "MI",
-   "deal": "40% OFF - GOOD TIDE GUMMIES 200MG",
+   "deal": "40% OFF - CHILL MEDICATED (10/30-11/1)",
    "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-31",
-   "url": "https://shophod.com/stores/house-of-dank-centerline",
-   "loc": [
-    68
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "House of Dank",
-   "store": "House of Dank Center Line",
-   "city": "Center Line",
-   "cities": [
-    "Center Line"
-   ],
-   "state": "MI",
-   "deal": "40% OFF - GRON GUMMIES 200MG",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-31",
-   "url": "https://shophod.com/stores/house-of-dank-centerline",
-   "loc": [
-    68
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "House of Dank",
-   "store": "House of Dank Center Line",
-   "city": "Center Line",
-   "cities": [
-    "Center Line"
-   ],
-   "state": "MI",
-   "deal": "40% OFF - WYLD GUMMIES 200MG",
-   "valid": "",
-   "until": "",
+   "until": "2026-11-01",
    "kind": "limited",
    "note": "",
    "collected": "2026-10-31",
@@ -11409,6 +11408,28 @@
     "Hopedale"
    ],
    "state": "MA",
+   "deal": "Every Day Savings: 1g Live Rosin: 2 for $60",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-10-31",
+   "url": "https://carolinescannabis.com/specials",
+   "loc": [
+    126,
+    127
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Caroline's Cannabis",
+   "store": "Caroline's Cannabis",
+   "city": "Uxbridge \u00b7 Hopedale",
+   "cities": [
+    "Uxbridge",
+    "Hopedale"
+   ],
+   "state": "MA",
    "deal": "Every Day Savings: Infused Pre-Rolls: 2 for $25",
    "valid": "",
    "until": "",
@@ -11432,28 +11453,6 @@
    ],
    "state": "MA",
    "deal": "Every Day Savings: Kanha Edibles: 3 for $50",
-   "valid": "",
-   "until": "",
-   "kind": "everyday",
-   "note": "",
-   "collected": "2026-10-31",
-   "url": "https://carolinescannabis.com/specials",
-   "loc": [
-    126,
-    127
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "Caroline's Cannabis",
-   "store": "Caroline's Cannabis",
-   "city": "Uxbridge \u00b7 Hopedale",
-   "cities": [
-    "Uxbridge",
-    "Hopedale"
-   ],
-   "state": "MA",
-   "deal": "Every Day Savings: 1g Live Rosin: 2 for $60",
    "valid": "",
    "until": "",
    "kind": "everyday",
@@ -11911,22 +11910,6 @@
     132
    ],
    "geo": "store"
-  },
-  {
-   "chain": "Fine Fettle",
-   "store": "Fine Fettle (Massachusetts stores)",
-   "city": "",
-   "cities": [],
-   "state": "MA",
-   "deal": "Buy 2 Belts, Get a Crunchy Belts Bag for $0.01",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-10-31",
-   "url": "https://www.finefettle.com/ma-daily-deals/",
-   "loc": [],
-   "geo": "statewide"
   },
   {
    "chain": "Pettals",
@@ -18894,7 +18877,7 @@
   "city_points": 30,
   "deals_store": 547,
   "deals_city": 118,
-  "deals_statewide": 40
+  "deals_statewide": 39
  },
  "geo_note": "Store addresses come from each chain's own site and were geocoded with the US Census Bureau geocoder (OpenStreetMap Nominatim as a fallback). 'city' locations are the city centre where the exact store address isn't known. Distances are worked out in your browser; your location stays on your device.",
  "state_note": "Nebraska has a medical law but no operating dispensaries yet, so it is not listed. Georgia (low-THC oil) and Texas (TCUP) are limited medical programs.",
@@ -18905,5 +18888,5 @@
   "note": "Paid placement slot (not live). Sponsored deals will always be labeled and kept separate from, never ranked above, the free list."
  },
  "disclaimer": "21+ only. For adults 21 and older (or registered medical patients). Deals change often and can differ by store: always confirm with the store before you go. Listed from each dispensary's own public page; not an endorsement.",
- "generated": "2026-10-31 12:21 EDT"
+ "generated": "2026-10-31 13:46 EDT"
 }
