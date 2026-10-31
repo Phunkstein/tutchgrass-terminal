@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-31 00:45 EDT",
+ "generated": "2026-10-31 05:45 EDT",
  "window": {
   "start": "2026-10-01",
   "end": "2026-10-31",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "0a20dc522fb55c42",
+ "fingerprint": "e140d5d44c8a73de",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -81,13 +81,14 @@
    "42840002"
   ],
   "anxiety": [
+   "42963524",
    "42950713",
    "42864498"
   ],
   "mood": [
+   "42963524",
    "42929306",
-   "42905736",
-   "42864498"
+   "42905736"
   ],
   "ptsd": [
    "42891034",
@@ -132,8 +133,8 @@
  "pubmed_counts": {
   "sleep": 24,
   "pain": 28,
-  "anxiety": 46,
-  "mood": 45,
+  "anxiety": 47,
+  "mood": 46,
   "ptsd": 10,
   "arthritis": 5,
   "inflammation": 8,
@@ -149,8 +150,8 @@
  "newest": {
   "sleep": "2026-10-27",
   "pain": "2026-10-29",
-  "anxiety": "2026-10-28",
-  "mood": "2026-10-26",
+  "anxiety": "2026-10-31",
+  "mood": "2026-10-31",
   "ptsd": "2026-10-27",
   "arthritis": "2026-10-05",
   "inflammation": "2026-10-27",
@@ -164,6 +165,27 @@
   "ibd": null
  },
  "papers": [
+  {
+   "pmid": "42963524",
+   "title": "Factors associated with cannabis use among infertile patients and their partner.",
+   "journal": "J Assist Reprod Genet",
+   "date": "2026-10-31",
+   "pubdate": "2026-10-31",
+   "first_author": "Steckler et al.",
+   "doi": "10.1007/s10815-026-04065-z",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at data on 1531 people (nobody was assigned a treatment).",
+    "found": "Cannabis use increased over the study period and clustered with other behavioral and psychosocial factors. Younger, non-married individuals and those reporting tobacco use or anxiety/depression may benefit from targeted cannabis screening and preconception counseling.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42963524/",
+   "conditions": [
+    "anxiety",
+    "mood"
+   ]
+  },
   {
    "pmid": "42956528",
    "title": "Lipid-based nanoencapsulation prolongs the antinociceptive effect of cannabidiol in experimental neuropathic pain.",
@@ -664,8 +686,7 @@
    },
    "url": "https://pubmed.ncbi.nlm.nih.gov/42864498/",
    "conditions": [
-    "anxiety",
-    "mood"
+    "anxiety"
    ]
   },
   {
