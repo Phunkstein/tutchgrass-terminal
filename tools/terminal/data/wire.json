@@ -2,14 +2,14 @@
  "agent": "wire",
  "sources": [
   {
-   "source": "PubMed newest (medical, 14 d)",
-   "status": "ok",
-   "items": 8
+   "source": "PubMed newest (medical)",
+   "status": "unavailable",
+   "error": "NCBI request failed: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi:"
   },
   {
-   "source": "PubMed newest (cultivation, 14 d)",
-   "status": "ok",
-   "items": 5
+   "source": "PubMed newest (cultivation)",
+   "status": "unavailable",
+   "error": "NCBI request failed: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi:"
   },
   {
    "source": "Marijuana Moment",
@@ -54,182 +54,8 @@
    "items": 20
   }
  ],
- "papers_medical": [
-  {
-   "track": "medical",
-   "pmid": "42965814",
-   "title": "Determination of Cannabinoids in Blood Using Liquid Chromatography-High-Resolution Accurate-Mass Orbitrap Mass Spectrometry and Parallel Reaction Monitoring Mode.",
-   "journal": "Methods Mol Biol",
-   "year": "2027",
-   "first_author": "Vigato et al.",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "preclinical": false,
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42965814/"
-  },
-  {
-   "track": "medical",
-   "pmid": "42965810",
-   "title": "Simultaneous Quantification of \u03949-Tetrahydrocannabinol, 11-Hydroxy-\u03949-Tetrahydrocannabinol, and 11-Nor-9-Carboxy-\u03949-Tetrahydrocannabinol in Human Urine by Gas Chromatography-Mass Spectrometry (GC-MS) Following Tandem Enzyme-Alkaline Hydrolysis and Solid-Phase Extraction.",
-   "journal": "Methods Mol Biol",
-   "year": "2027",
-   "first_author": "Fern\u00e1ndez et al.",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "preclinical": false,
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42965810/"
-  },
-  {
-   "track": "medical",
-   "pmid": "42963078",
-   "title": "Persistent Amotivation After Cannabis-Related Psychosis: Diagnostic Challenges and Clinical Course With Electroconvulsive Therapy: A Case Report.",
-   "journal": "Neuropsychopharmacol Rep",
-   "year": "2026",
-   "first_author": "Kitano et al.",
-   "pubtypes": [
-    "Case Reports",
-    "Journal Article"
-   ],
-   "preclinical": false,
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42963078/"
-  },
-  {
-   "track": "medical",
-   "pmid": "42935025",
-   "title": "UK Medical Cannabis Registry: A Two-Year Prospective Observational Cohort Study of Clinical Outcomes in Insomnia.",
-   "journal": "Neuropsychopharmacol Rep",
-   "year": "2026",
-   "first_author": "Koye et al.",
-   "pubtypes": [
-    "Journal Article",
-    "Observational Study"
-   ],
-   "preclinical": false,
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42935025/"
-  },
-  {
-   "track": "medical",
-   "pmid": "42926793",
-   "title": "Association between clinically suspected endometriosis lacking histologic evidence and anxiety, depression and cannabidiol-containing products.",
-   "journal": "Eur J Obstet Gynecol Reprod Biol X",
-   "year": "2026",
-   "first_author": "Meyer et al.",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "preclinical": false,
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42926793/"
-  },
-  {
-   "track": "medical",
-   "pmid": "42908728",
-   "title": "A pilot randomized controlled trial of an integrative psychotherapy incorporating an attachment-based approach for adolescents with cannabis use disorder (TIMCA).",
-   "journal": "Addict Behav Rep",
-   "year": "2026",
-   "first_author": "Yara et al.",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "preclinical": false,
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42908728/"
-  },
-  {
-   "track": "medical",
-   "pmid": "42947591",
-   "title": "Exploring the Role of Leukocyte Telomere Length and Human Telomerase Reverse Transcriptase MNS16A Variant in Cannabis or Synthetic Cannabinoid Use Disorder.",
-   "journal": "Clin Psychopharmacol Neurosci",
-   "year": "2026",
-   "first_author": "Pehlivan et al.",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "preclinical": false,
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42947591/"
-  },
-  {
-   "track": "medical",
-   "pmid": "42935284",
-   "title": "Neurophysiological and Behavioural Effects of Combined Cannabis Concentrates and Alcohol Among People Who Regularly Use Alcohol and Cannabis.",
-   "journal": "Addict Biol",
-   "year": "2026",
-   "first_author": "Hetelekides et al.",
-   "pubtypes": [
-    "Journal Article",
-    "Observational Study"
-   ],
-   "preclinical": false,
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42935284/"
-  }
- ],
- "papers_cultivation": [
-  {
-   "track": "cultivation",
-   "pmid": "42943792",
-   "title": "From Wild-Growing Plants to Promising Candidates for Hemp Variety Development: Morphological and Phytochemical Characterization of Macedonian Cannabis sativa L.",
-   "journal": "Molecules",
-   "year": "2026",
-   "first_author": "Stoilkovska Gjorgievska et al.",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "preclinical": false,
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42943792/"
-  },
-  {
-   "track": "cultivation",
-   "pmid": "42947775",
-   "title": "The viability gambit: an optimized disinfection protocol for industrial hemp (Cannabis sativa L.) seeds.",
-   "journal": "Front Plant Sci",
-   "year": "2026",
-   "first_author": "Gowlikar et al.",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "preclinical": false,
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42947775/"
-  },
-  {
-   "track": "cultivation",
-   "pmid": "42948367",
-   "title": "Predicting reproductive-phase nutrient replenishment in Cannabis sativa L. via a transpiration-driven mass-balance framework.",
-   "journal": "Front Plant Sci",
-   "year": "2026",
-   "first_author": "Powell et al.",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "preclinical": false,
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42948367/"
-  },
-  {
-   "track": "cultivation",
-   "pmid": "42908748",
-   "title": "Culture medium and plant growth regulator regimes influence the transcriptome and cannabisin accumulation in Cannabis sativa cell suspension cultures.",
-   "journal": "Front Plant Sci",
-   "year": "2026",
-   "first_author": "Thiry et al.",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "preclinical": false,
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42908748/"
-  },
-  {
-   "track": "cultivation",
-   "pmid": "42947120",
-   "title": "Cannabis sativa L. extract modulates UVB-induced oxidative stress and MITF transcriptional suppression in B16-F10 melanoma cell line.",
-   "journal": "BMC Complement Med Ther",
-   "year": "2026",
-   "first_author": "Mahaprom et al.",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "preclinical": true,
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42947120/"
-  }
- ],
+ "papers_medical": [],
+ "papers_cultivation": [],
  "news_us": [
   {
    "source": "Marijuana Moment",
@@ -410,5 +236,5 @@
   }
  ],
  "news_health_total": 20,
- "generated": "2026-11-01 01:45 EDT"
+ "generated": "2026-11-01 02:00 EST"
 }
