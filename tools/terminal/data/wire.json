@@ -2,14 +2,14 @@
  "agent": "wire",
  "sources": [
   {
-   "source": "PubMed newest (medical)",
-   "status": "unavailable",
-   "error": "NCBI request failed: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi:"
+   "source": "PubMed newest (medical, 14 d)",
+   "status": "ok",
+   "items": 8
   },
   {
-   "source": "PubMed newest (cultivation)",
-   "status": "unavailable",
-   "error": "NCBI request failed: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi:"
+   "source": "PubMed newest (cultivation, 14 d)",
+   "status": "ok",
+   "items": 5
   },
   {
    "source": "Marijuana Moment",
@@ -32,14 +32,14 @@
   {
    "source": "Business of Cannabis (intl)",
    "url": "https://businessofcannabis.com/feed/",
-   "status": "ok",
-   "items": 10
+   "status": "unavailable",
+   "error": "mismatched tag: line 93, column 2"
   },
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 119"
   },
   {
    "source": "Google News: intl cannabis",
@@ -54,8 +54,182 @@
    "items": 20
   }
  ],
- "papers_medical": [],
- "papers_cultivation": [],
+ "papers_medical": [
+  {
+   "track": "medical",
+   "pmid": "42965814",
+   "title": "Determination of Cannabinoids in Blood Using Liquid Chromatography-High-Resolution Accurate-Mass Orbitrap Mass Spectrometry and Parallel Reaction Monitoring Mode.",
+   "journal": "Methods Mol Biol",
+   "year": "2027",
+   "first_author": "Vigato et al.",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "preclinical": false,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42965814/"
+  },
+  {
+   "track": "medical",
+   "pmid": "42965810",
+   "title": "Simultaneous Quantification of \u03949-Tetrahydrocannabinol, 11-Hydroxy-\u03949-Tetrahydrocannabinol, and 11-Nor-9-Carboxy-\u03949-Tetrahydrocannabinol in Human Urine by Gas Chromatography-Mass Spectrometry (GC-MS) Following Tandem Enzyme-Alkaline Hydrolysis and Solid-Phase Extraction.",
+   "journal": "Methods Mol Biol",
+   "year": "2027",
+   "first_author": "Fern\u00e1ndez et al.",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "preclinical": false,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42965810/"
+  },
+  {
+   "track": "medical",
+   "pmid": "42963078",
+   "title": "Persistent Amotivation After Cannabis-Related Psychosis: Diagnostic Challenges and Clinical Course With Electroconvulsive Therapy: A Case Report.",
+   "journal": "Neuropsychopharmacol Rep",
+   "year": "2026",
+   "first_author": "Kitano et al.",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
+   "preclinical": false,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42963078/"
+  },
+  {
+   "track": "medical",
+   "pmid": "42935025",
+   "title": "UK Medical Cannabis Registry: A Two-Year Prospective Observational Cohort Study of Clinical Outcomes in Insomnia.",
+   "journal": "Neuropsychopharmacol Rep",
+   "year": "2026",
+   "first_author": "Koye et al.",
+   "pubtypes": [
+    "Journal Article",
+    "Observational Study"
+   ],
+   "preclinical": false,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42935025/"
+  },
+  {
+   "track": "medical",
+   "pmid": "42926793",
+   "title": "Association between clinically suspected endometriosis lacking histologic evidence and anxiety, depression and cannabidiol-containing products.",
+   "journal": "Eur J Obstet Gynecol Reprod Biol X",
+   "year": "2026",
+   "first_author": "Meyer et al.",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "preclinical": false,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42926793/"
+  },
+  {
+   "track": "medical",
+   "pmid": "42908728",
+   "title": "A pilot randomized controlled trial of an integrative psychotherapy incorporating an attachment-based approach for adolescents with cannabis use disorder (TIMCA).",
+   "journal": "Addict Behav Rep",
+   "year": "2026",
+   "first_author": "Yara et al.",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "preclinical": false,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42908728/"
+  },
+  {
+   "track": "medical",
+   "pmid": "42947591",
+   "title": "Exploring the Role of Leukocyte Telomere Length and Human Telomerase Reverse Transcriptase MNS16A Variant in Cannabis or Synthetic Cannabinoid Use Disorder.",
+   "journal": "Clin Psychopharmacol Neurosci",
+   "year": "2026",
+   "first_author": "Pehlivan et al.",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "preclinical": false,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42947591/"
+  },
+  {
+   "track": "medical",
+   "pmid": "42935284",
+   "title": "Neurophysiological and Behavioural Effects of Combined Cannabis Concentrates and Alcohol Among People Who Regularly Use Alcohol and Cannabis.",
+   "journal": "Addict Biol",
+   "year": "2026",
+   "first_author": "Hetelekides et al.",
+   "pubtypes": [
+    "Journal Article",
+    "Observational Study"
+   ],
+   "preclinical": false,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42935284/"
+  }
+ ],
+ "papers_cultivation": [
+  {
+   "track": "cultivation",
+   "pmid": "42943792",
+   "title": "From Wild-Growing Plants to Promising Candidates for Hemp Variety Development: Morphological and Phytochemical Characterization of Macedonian Cannabis sativa L.",
+   "journal": "Molecules",
+   "year": "2026",
+   "first_author": "Stoilkovska Gjorgievska et al.",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "preclinical": false,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42943792/"
+  },
+  {
+   "track": "cultivation",
+   "pmid": "42947775",
+   "title": "The viability gambit: an optimized disinfection protocol for industrial hemp (Cannabis sativa L.) seeds.",
+   "journal": "Front Plant Sci",
+   "year": "2026",
+   "first_author": "Gowlikar et al.",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "preclinical": false,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42947775/"
+  },
+  {
+   "track": "cultivation",
+   "pmid": "42948367",
+   "title": "Predicting reproductive-phase nutrient replenishment in Cannabis sativa L. via a transpiration-driven mass-balance framework.",
+   "journal": "Front Plant Sci",
+   "year": "2026",
+   "first_author": "Powell et al.",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "preclinical": false,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42948367/"
+  },
+  {
+   "track": "cultivation",
+   "pmid": "42908748",
+   "title": "Culture medium and plant growth regulator regimes influence the transcriptome and cannabisin accumulation in Cannabis sativa cell suspension cultures.",
+   "journal": "Front Plant Sci",
+   "year": "2026",
+   "first_author": "Thiry et al.",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "preclinical": false,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42908748/"
+  },
+  {
+   "track": "cultivation",
+   "pmid": "42947120",
+   "title": "Cannabis sativa L. extract modulates UVB-induced oxidative stress and MITF transcriptional suppression in B16-F10 melanoma cell line.",
+   "journal": "BMC Complement Med Ther",
+   "year": "2026",
+   "first_author": "Mahaprom et al.",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "preclinical": true,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42947120/"
+  }
+ ],
  "news_us": [
   {
    "source": "Marijuana Moment",
@@ -82,17 +256,6 @@
    "states": [
     "Missouri"
    ]
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "US Issues First Medical Cannabis Registrations Following Rescheduling",
-   "link": "https://stratcann.com/news/us-issues-first-medical-cannabis-registrations-following-rescheduling/",
-   "summary": "The US has issued the first registrations for medical cannabis dispensaries following rescheduling earlier this year and reviewing applications from manufacturers and distributors. The post US Issues First Medical Cannabis Registrations Following Rescheduling ",
-   "ts": 1793408183.0,
-   "date": "2026-10-30 20:56",
-   "category": "US federal",
-   "is_law": true,
-   "states": []
   },
   {
    "source": "Marijuana Moment",
@@ -176,6 +339,19 @@
    "states": [
     "Alabama"
    ]
+  },
+  {
+   "source": "Marijuana Moment",
+   "title": "Trump\u2019s Federal Marijuana Rescheduling Move Makes It Easier To Legalize Medical Access In Kansas, Democratic Governor Candidate Says",
+   "link": "https://www.marijuanamoment.net/trumps-federal-marijuana-rescheduling-move-makes-it-easier-to-legalize-medical-access-in-kansas-democratic-governor-candidate-says/",
+   "summary": "The Democratic candidate running for governor of Kansas says the Trump administration\u2019s move to federally reclassify marijuana eases the path toward legalizing medical cannabis for patients in the state. \u201cI think there\u2019s some things that look a little differen",
+   "ts": 1793364924.0,
+   "date": "2026-10-30 08:55",
+   "category": "US federal",
+   "is_law": true,
+   "states": [
+    "Kansas"
+   ]
   }
  ],
  "news_intl": [
@@ -233,8 +409,19 @@
    "category": "International",
    "is_law": false,
    "states": []
+  },
+  {
+   "source": "Cannabis Health News (UK)",
+   "title": "\u2018That Line is Blurred\u2019: Cannabis Researcher Prof Bernd Werse on Medical Vs Recreational Use",
+   "link": "https://cannabishealthnews.co.uk/2026/10/29/that-line-is-blurred-cannabis-researcher-on-medical-and-recreational-use/",
+   "summary": "Ahead of Frankfurt\u2019s Cannabis Health Symposium, Professor Bernd Werse discusses changing cannabis use and the evidence policymakers still need.",
+   "ts": 1793268006.0,
+   "date": "2026-10-29 06:00",
+   "category": "International",
+   "is_law": true,
+   "states": []
   }
  ],
- "news_health_total": 20,
- "generated": "2026-11-01 02:00 EST"
+ "news_health_total": 21,
+ "generated": "2026-11-01 02:45 EST"
 }
