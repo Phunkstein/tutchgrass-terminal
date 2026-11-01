@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-31 05:45 EDT",
+ "generated": "2026-10-31 23:45 EDT",
  "window": {
   "start": "2026-10-01",
   "end": "2026-10-31",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "e140d5d44c8a73de",
+ "fingerprint": "f0fac21d48648e56",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -67,6 +67,7 @@
    "42853566"
   ],
   "pain": [
+   "42966277",
    "42956528",
    "42950713",
    "42929306",
@@ -77,13 +78,12 @@
    "42831900",
    "42885647",
    "42867128",
-   "42874273",
-   "42840002"
+   "42965212",
+   "42874273"
   ],
   "anxiety": [
    "42963524",
-   "42950713",
-   "42864498"
+   "42950713"
   ],
   "mood": [
    "42963524",
@@ -131,14 +131,14 @@
   "ibd": []
  },
  "pubmed_counts": {
-  "sleep": 24,
-  "pain": 28,
-  "anxiety": 47,
-  "mood": 46,
-  "ptsd": 10,
+  "sleep": 25,
+  "pain": 30,
+  "anxiety": 51,
+  "mood": 49,
+  "ptsd": 11,
   "arthritis": 5,
   "inflammation": 8,
-  "nausea": 7,
+  "nausea": 8,
   "appetite": 6,
   "focus": 9,
   "fibromyalgia": 2,
@@ -149,7 +149,7 @@
  },
  "newest": {
   "sleep": "2026-10-27",
-  "pain": "2026-10-29",
+  "pain": "2026-10-31",
   "anxiety": "2026-10-31",
   "mood": "2026-10-31",
   "ptsd": "2026-10-27",
@@ -165,6 +165,46 @@
   "ibd": null
  },
  "papers": [
+  {
+   "pmid": "42966277",
+   "title": "Sense of coherence and health-related outcomes in medical cannabis patients with chronic pain: A cross-sectional study.",
+   "journal": "J Psychiatr Res",
+   "date": "2026-10-31",
+   "pubdate": "2026-10-29",
+   "first_author": "Din et al.",
+   "doi": "10.1016/j.jpsychires.2026.10.030",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at data on 156 people (nobody was assigned a treatment).",
+    "found": "Among patients using medical cannabis, stronger SOC was associated with better health-related outcomes, particularly in mental health domains, even in the context of chronic stressors such as chronic pain.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42966277/",
+   "conditions": [
+    "pain"
+   ]
+  },
+  {
+   "pmid": "42965212",
+   "title": "Normal on the Inside: A Case of Recurrent Abdominal Pain, Equivocal CT Appendicitis, and Histologically Normal Appendix in an Adolescent With Chronic Cannabis Use.",
+   "journal": "Cureus",
+   "date": "2026-10-31",
+   "pubdate": "2026-09-30",
+   "first_author": "Abdelgabar et al.",
+   "doi": "10.7759/cureus.117214",
+   "grade": "case",
+   "grade_label": "Case report",
+   "plain": {
+    "did": "A report on one or a few patients.",
+    "found": "Faecal calprotectin was 159 microg/g. When CT findings, operative appearances, and histology point in different directions, the underlying diagnosis is not resolved by surgery; it has to be reconsidered from the beginning.",
+    "caveat": "One or a few patients. Useful for safety signals, not for effect."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42965212/",
+   "conditions": [
+    "pain"
+   ]
+  },
   {
    "pmid": "42963524",
    "title": "Factors associated with cannabis use among infertile patients and their partner.",
@@ -670,26 +710,6 @@
    ]
   },
   {
-   "pmid": "42864498",
-   "title": "Acute Ultra Low Dose THC Attenuates Anxiety-Like Behavior in a Mouse Model for Major-Depressive Disorder.",
-   "journal": "J Mol Neurosci",
-   "date": "2026-10-13",
-   "pubdate": "2026-10-12",
-   "first_author": "Grad et al.",
-   "doi": "10.1007/s12031-026-02597-8",
-   "grade": "mice",
-   "grade_label": "Mice / rats only",
-   "plain": {
-    "did": "Experiments in mice or rats; no people were studied.",
-    "found": "We utilize next generation sequencing techniques to show the treatment's effect on neuronal differentiation and synaptic plasticity-related mRNAs, and specify Elmo domain containing 1 (Elmod1) as a molecular mediator of the observed anxiolytic effects.",
-    "caveat": "Animal results often do not carry over to people."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42864498/",
-   "conditions": [
-    "anxiety"
-   ]
-  },
-  {
    "pmid": "42869231",
    "title": "D2 dopamine and CB2 cannabinoid receptor cooperation restores striatal LTP in an epilepsy model.",
    "journal": "Neurobiol Dis",
@@ -787,26 +807,6 @@
    "url": "https://pubmed.ncbi.nlm.nih.gov/42854303/",
    "conditions": [
     "focus"
-   ]
-  },
-  {
-   "pmid": "42840002",
-   "title": "Cannabidiol/cannabigerol exposure and neuropathy-related outcomes after neurotoxic chemotherapy: a real-world cohort study.",
-   "journal": "Front Pain Res (Lausanne)",
-   "date": "2026-10-07",
-   "pubdate": "2026-09-22",
-   "first_author": "Graziane et al.",
-   "doi": "10.3389/fpain.2026.1945720",
-   "grade": "obs",
-   "grade_label": "Observational",
-   "plain": {
-    "did": "Researchers looked at data on 118,001 people (nobody was assigned a treatment).",
-    "found": "Post-chemotherapy CBD/CBG exposure was associated with lower observed hazard of neuropathy-related diagnosis-code outcomes, whereas pre-chemotherapy exposure was not significant.",
-    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42840002/",
-   "conditions": [
-    "pain"
    ]
   },
   {
