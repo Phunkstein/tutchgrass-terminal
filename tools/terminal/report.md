@@ -1,6 +1,6 @@
 # Cannabis Agent Terminal: Scientist report
 
-Generated 2026-11-01 06:45 EST. Research summary, not medical advice. Talk to a doctor.
+Generated 2026-11-01 07:45 EST. Research summary, not medical advice. Talk to a doctor.
 
 _Strain names are typical examples only; the same name can test very differently by grower and batch. Go by the lab COA (THC, CBD, minor cannabinoids, terpenes), not the name._
 
@@ -146,7 +146,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** THC may weaken the replay of fear memories and suppress REM-sleep nightmares; CBD may help fear extinction. But in the veterans RCT (high-THC ~12%, high-CBD 11%, and ~8:8 THC+CBD) everyone improved including placebo. Nabilone showed the largest effect size for nightmares in a meta-analysis, from a single small study.
 - **Strains that typically express this profile:** Harlequin, Cannatonic, Pennywise (typically; check the COA)
 - **Cautions:** High THC can worsen anxiety, paranoia, and cannabis-use disorder risk, which is common in PTSD. Not a replacement for trauma-focused therapy. Psychosis risk with high-potency THC.
-- **New PubMed papers, last 30 days:** 9
+- **New PubMed papers, last 30 days:** 10
 - **Citations:**
   - [RCT] Bonn-Miller et al. (2021). The short-term impact of 3 smoked cannabis preparations versus placebo on PTSD symptoms: A randomized cross-over clinical trial. *PLoS One*. PMID [33730032](https://pubmed.ncbi.nlm.nih.gov/33730032/). DOI [10.1371/journal.pone.0246990](https://doi.org/10.1371/journal.pone.0246990)
   - [SR] Skeie-Larsen et al. (2022). The Effects of Pharmacological Treatment of Nightmares: A Systematic Literature Review and Meta-Analysis of Placebo-Controlled, Randomized Clinical Trials. *Int J Environ Res Public Health*. PMID [36613097](https://pubmed.ncbi.nlm.nih.gov/36613097/). DOI [10.3390/ijerph20010777](https://doi.org/10.3390/ijerph20010777)
@@ -186,7 +186,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** In the RCT, 6% THC + 11% CBD beat placebo for pain relief (67.2% vs 46.6%), pain freedom, and most-bothersome-symptom freedom at 2 hours, with benefit lasting to 24-48 hours. THC alone helped pain relief but not pain freedom. In a patient survey, a high-THC strain with dominant caryophyllene and myrcene (OG Shark) was most preferred; survey data only.
 - **Strains that typically express this profile:** Harlequin, Cannatonic, OG Shark (THC-dominant; survey favorite) (typically; check the COA)
 - **Cautions:** Frequent use of any acute headache treatment can drive more frequent headaches; discuss with your neurologist. THC impairs driving. Single trial; replication needed.
-- **New PubMed papers, last 30 days:** 3
+- **New PubMed papers, last 30 days:** 4
 - **Citations:**
   - [RCT] Schuster et al. (2026). Vaporized cannabis versus placebo for acute migraine: A randomized, double-blind, placebo-controlled crossover trial. *Headache*. PMID [41469488](https://pubmed.ncbi.nlm.nih.gov/41469488/). DOI [10.1111/head.70025](https://doi.org/10.1111/head.70025)
   - [HUMAN-OBS] Baron et al. (2018). Patterns of medicinal cannabis use, strain analysis, and substitution effect among patients with migraine, headache, arthritis, and chronic pain in a medicinal cannabis cohort. *J Headache Pain*. PMID [29797104](https://pubmed.ncbi.nlm.nih.gov/29797104/). DOI [10.1186/s10194-018-0862-2](https://doi.org/10.1186/s10194-018-0862-2)
