@@ -1,6 +1,6 @@
 # Cannabis Agent Terminal: Scientist report
 
-Generated 2026-11-01 23:45 EST. Research summary, not medical advice. Talk to a doctor.
+Generated 2026-11-02 00:44 EST. Research summary, not medical advice. Talk to a doctor.
 
 _Strain names are typical examples only; the same name can test very differently by grower and batch. Go by the lab COA (THC, CBD, minor cannabinoids, terpenes), not the name._
 
@@ -14,7 +14,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** THC acts on CB1 receptors in pain pathways of the spinal cord and brain, turning down pain signaling. The AHRQ review found comparable-ratio and high-THC products gave small pain gains while low-THC/high-CBD products may not help. Low-dose vaporized THC (1.29%) still beat placebo in neuropathic pain. Beta-caryophyllene is a terpene that binds CB2 (immune/inflammation) receptors and reduced neuropathic pain in mice without tolerance; that part is animal-only.
 - **Strains that typically express this profile:** Harlequin (CBD-leaning balanced), Cannatonic (balanced), OG Kush / GSC-type cuts (THC-dominant, often caryophyllene-forward) (typically; check the COA)
 - **Cautions:** Benefits are modest; Cochrane notes harms may outweigh benefits for some people. THC causes dizziness, sleepiness, impaired driving; start low. Interactions with opioids, sedatives, and blood thinners; tell your doctor.
-- **New PubMed papers, last 30 days:** 27
+- **New PubMed papers, last 30 days:** 26
 - **Citations:**
   - [SR] Chou et al. (2026). Cannabis-Based Products for Chronic Pain : An Updated Systematic Review. *Ann Intern Med*. PMID [41429020](https://pubmed.ncbi.nlm.nih.gov/41429020/). DOI [10.7326/ANNALS-25-03152](https://doi.org/10.7326/ANNALS-25-03152)
   - [SR] Mücke et al. (2018). Cannabis-based medicines for chronic neuropathic pain in adults. *Cochrane Database Syst Rev*. PMID [29513392](https://pubmed.ncbi.nlm.nih.gov/29513392/). DOI [10.1002/14651858.CD012182.pub2](https://doi.org/10.1002/14651858.CD012182.pub2)
@@ -58,7 +58,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** THC reduces muscle over-activity through CB1 receptors in the spinal cord; CBD in equal amounts is thought to soften THC's psychoactive side effects. In an enriched-design phase 3 trial, people who responded in the first 4 weeks kept the benefit vs placebo over 12 weeks; a 2023 meta-analysis supports add-on use for treatment-resistant spasticity.
 - **Strains that typically express this profile:** Pennywise (~1:1), Harlequin (CBD-leaning balanced), Cannatonic (typically; check the COA)
 - **Cautions:** Effects are modest (about 0.76 points on a 0-10 scale per National Academies). Dizziness and falls risk; psychiatric and nervous-system side effects slightly more common. Only about half of people respond in trials; stop if no benefit after a few weeks.
-- **New PubMed papers, last 30 days:** 3
+- **New PubMed papers, last 30 days:** 2
 - **Citations:**
   - [SR] Filippini et al. (2022). Cannabis and cannabinoids for symptomatic treatment for people with multiple sclerosis. *Cochrane Database Syst Rev*. PMID [35510826](https://pubmed.ncbi.nlm.nih.gov/35510826/). DOI [10.1002/14651858.CD013444.pub2](https://doi.org/10.1002/14651858.CD013444.pub2)
   - [RCT] Novotna et al. (2011). A randomized, double-blind, placebo-controlled, parallel-group, enriched-design study of nabiximols* (Sativex(®) ), as add-on therapy, in subjects with refractory spasticity caused by multiple sclerosis. *Eur J Neurol*. PMID [21362108](https://pubmed.ncbi.nlm.nih.gov/21362108/). DOI [10.1111/j.1468-1331.2010.03328.x](https://doi.org/10.1111/j.1468-1331.2010.03328.x)
@@ -80,7 +80,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** CBD does not work mainly through CB1; it calms over-excited neurons through several targets (e.g., GPR55, TRPV1, adenosine signaling). In trials, adding CBD cut convulsive seizures in Dravet and drop seizures in Lennox-Gastaut more than placebo, and reduced TSC-associated seizures (25 mg/kg had better safety than 50).
 - **Strains that typically express this profile:** ACDC (very high CBD), Charlotte's Web-type hemp (very high CBD), Ringo's Gift (high CBD) (typically; check the COA)
 - **Cautions:** Do not swap a prescribed anti-seizure drug for dispensary products; doses in trials were far higher and pharmaceutical-grade. Liver enzyme elevations seen with CBD, especially with valproate; drug interactions (e.g., clobazam). Store CBD oils vary widely in actual content.
-- **New PubMed papers, last 30 days:** 15
+- **New PubMed papers, last 30 days:** 14
 - **Citations:**
   - [RCT] Devinsky et al. (2017). Trial of Cannabidiol for Drug-Resistant Seizures in the Dravet Syndrome. *N Engl J Med*. PMID [28538134](https://pubmed.ncbi.nlm.nih.gov/28538134/). DOI [10.1056/NEJMoa1611618](https://doi.org/10.1056/NEJMoa1611618)
   - [RCT] Devinsky et al. (2018). Effect of Cannabidiol on Drop Seizures in the Lennox-Gastaut Syndrome. *N Engl J Med*. PMID [29768152](https://pubmed.ncbi.nlm.nih.gov/29768152/). DOI [10.1056/NEJMoa1714631](https://doi.org/10.1056/NEJMoa1714631)
@@ -123,7 +123,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** CBD reduced anxiety from a simulated public-speaking test in people with social anxiety, toward healthy-control levels. In a 2024 human lab study, vaporized D-limonene added to THC selectively reduced THC-induced anxiety, so limonene-rich chemovars may make THC easier to tolerate. Linalool shows calming effects in mice only.
 - **Strains that typically express this profile:** ACDC (very high CBD), Ringo's Gift, Remedy (high CBD) (typically; check the COA)
 - **Cautions:** High THC can trigger or worsen anxiety and panic. Heavy adolescent use is linked to later depression and suicidality. CBD interacts with some antidepressants and benzodiazepines via liver enzymes.
-- **New PubMed papers, last 30 days:** 43
+- **New PubMed papers, last 30 days:** 39
 - **Citations:**
   - [SR] Han et al. (2024). Therapeutic potential of cannabidiol (CBD) in anxiety disorders: A systematic review and meta-analysis. *Psychiatry Res*. PMID [38924898](https://pubmed.ncbi.nlm.nih.gov/38924898/). DOI [10.1016/j.psychres.2024.116049](https://doi.org/10.1016/j.psychres.2024.116049)
   - [RCT] Bergamaschi et al. (2011). Cannabidiol reduces the anxiety induced by simulated public speaking in treatment-naïve social phobia patients. *Neuropsychopharmacology*. PMID [21307846](https://pubmed.ncbi.nlm.nih.gov/21307846/). DOI [10.1038/npp.2011.6](https://doi.org/10.1038/npp.2011.6)
@@ -186,7 +186,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** In the RCT, 6% THC + 11% CBD beat placebo for pain relief (67.2% vs 46.6%), pain freedom, and most-bothersome-symptom freedom at 2 hours, with benefit lasting to 24-48 hours. THC alone helped pain relief but not pain freedom. In a patient survey, a high-THC strain with dominant caryophyllene and myrcene (OG Shark) was most preferred; survey data only.
 - **Strains that typically express this profile:** Harlequin, Cannatonic, OG Shark (THC-dominant; survey favorite) (typically; check the COA)
 - **Cautions:** Frequent use of any acute headache treatment can drive more frequent headaches; discuss with your neurologist. THC impairs driving. Single trial; replication needed.
-- **New PubMed papers, last 30 days:** 4
+- **New PubMed papers, last 30 days:** 3
 - **Citations:**
   - [RCT] Schuster et al. (2026). Vaporized cannabis versus placebo for acute migraine: A randomized, double-blind, placebo-controlled crossover trial. *Headache*. PMID [41469488](https://pubmed.ncbi.nlm.nih.gov/41469488/). DOI [10.1111/head.70025](https://doi.org/10.1111/head.70025)
   - [HUMAN-OBS] Baron et al. (2018). Patterns of medicinal cannabis use, strain analysis, and substitution effect among patients with migraine, headache, arthritis, and chronic pain in a medicinal cannabis cohort. *J Headache Pain*. PMID [29797104](https://pubmed.ncbi.nlm.nih.gov/29797104/). DOI [10.1186/s10194-018-0862-2](https://doi.org/10.1186/s10194-018-0862-2)
@@ -205,7 +205,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** Sativex (THC:CBD) gave a significant analgesic effect and lowered disease activity in the first controlled RA trial (small effect). Oral CBD in hand OA and psoriatic arthritis was no better than placebo. In rats, local CBD calmed early joint inflammation and prevented later OA pain and nerve damage.
 - **Strains that typically express this profile:** Pennywise (~1:1), Harlequin, Cannatonic (typically; check the COA)
 - **Cautions:** Do not stop disease-modifying RA drugs. Falls risk in older adults with THC. Interactions with blood thinners and NSAIDs-adjacent meds; check with pharmacist.
-- **New PubMed papers, last 30 days:** 3
+- **New PubMed papers, last 30 days:** 2
 - **Citations:**
   - [RCT] Blake et al. (2006). Preliminary assessment of the efficacy, tolerability and safety of a cannabis-based medicine (Sativex) in the treatment of pain caused by rheumatoid arthritis. *Rheumatology (Oxford)*. PMID [16282192](https://pubmed.ncbi.nlm.nih.gov/16282192/). DOI [10.1093/rheumatology/kei183](https://doi.org/10.1093/rheumatology/kei183)
   - [RCT] Vela et al. (2022). Cannabidiol treatment in hand osteoarthritis and psoriatic arthritis: a randomized, double-blind, placebo-controlled trial. *Pain*. PMID [34510141](https://pubmed.ncbi.nlm.nih.gov/34510141/). DOI [10.1097/j.pain.0000000000002466](https://doi.org/10.1097/j.pain.0000000000002466)
@@ -245,7 +245,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** THC triggers hunger signals through CB1 in the hypothalamus and improves food taste and smell; a cancer RCT found THC improved chemosensory perception and food enjoyment. Dronabinol improved appetite and reversed weight loss in HIV/AIDS. A THC-free CBG-rich extract made rats eat more; animal-only. THCV goes the other way and suppresses appetite.
 - **Strains that typically express this profile:** Bubba Kush, Granddaddy Purple, avoid THCV-noted cultivars like Durban Poison (typically; check the COA)
 - **Cautions:** Side effects can lower quality of life (cancer meta-analysis). Sedation and confusion risk in frail or older patients. Talk to the care team about interactions.
-- **New PubMed papers, last 30 days:** 6
+- **New PubMed papers, last 30 days:** 5
 - **Citations:**
   - [SR] Wang et al. (2019). Medical Cannabinoids for Cancer Cachexia: A Systematic Review and Meta-Analysis. *Biomed Res Int*. PMID [31341892](https://pubmed.ncbi.nlm.nih.gov/31341892/). DOI [10.1155/2019/2864384](https://doi.org/10.1155/2019/2864384)
   - [RCT] Brisbois et al. (2011). Delta-9-tetrahydrocannabinol may palliate altered chemosensory perception in cancer patients: results of a randomized, double-blind, placebo-controlled pilot trial. *Ann Oncol*. PMID [21343383](https://pubmed.ncbi.nlm.nih.gov/21343383/). DOI [10.1093/annonc/mdq727](https://doi.org/10.1093/annonc/mdq727)

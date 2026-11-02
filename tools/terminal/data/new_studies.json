@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-01 07:45 EST",
+ "generated": "2026-11-02 00:45 EST",
  "window": {
-  "start": "2026-10-02",
-  "end": "2026-11-01",
+  "start": "2026-10-03",
+  "end": "2026-11-02",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "f45ee9e042e554b2",
+ "fingerprint": "cd722b5f0a19cf36",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -79,11 +79,13 @@
    "42885647",
    "42867128",
    "42965212",
-   "42874273"
+   "42874273",
+   "42840002"
   ],
   "anxiety": [
    "42963524",
-   "42950713"
+   "42950713",
+   "42864498"
   ],
   "mood": [
    "42963524",
@@ -106,9 +108,7 @@
   "nausea": [
    "42899270"
   ],
-  "appetite": [
-   "42826789"
-  ],
+  "appetite": [],
   "focus": [
    "42854303",
    "42859461"
@@ -130,19 +130,19 @@
  },
  "pubmed_counts": {
   "sleep": 25,
-  "pain": 30,
-  "anxiety": 49,
-  "mood": 47,
+  "pain": 29,
+  "anxiety": 46,
+  "mood": 44,
   "ptsd": 12,
-  "arthritis": 5,
+  "arthritis": 4,
   "inflammation": 7,
   "nausea": 8,
-  "appetite": 6,
+  "appetite": 5,
   "focus": 8,
   "fibromyalgia": 2,
   "ms": 3,
-  "epilepsy": 14,
-  "migraine": 4,
+  "epilepsy": 13,
+  "migraine": 3,
   "ibd": 0
  },
  "newest": {
@@ -154,7 +154,7 @@
   "arthritis": "2026-10-05",
   "inflammation": "2026-10-27",
   "nausea": "2026-10-20",
-  "appetite": "2026-10-02",
+  "appetite": null,
   "focus": "2026-10-11",
   "fibromyalgia": "2026-10-27",
   "ms": "2026-10-29",
@@ -708,6 +708,26 @@
    ]
   },
   {
+   "pmid": "42864498",
+   "title": "Acute Ultra Low Dose THC Attenuates Anxiety-Like Behavior in a Mouse Model for Major-Depressive Disorder.",
+   "journal": "J Mol Neurosci",
+   "date": "2026-10-13",
+   "pubdate": "2026-10-12",
+   "first_author": "Grad et al.",
+   "doi": "10.1007/s12031-026-02597-8",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "We utilize next generation sequencing techniques to show the treatment's effect on neuronal differentiation and synaptic plasticity-related mRNAs, and specify Elmo domain containing 1 (Elmod1) as a molecular mediator of the observed anxiolytic effects.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42864498/",
+   "conditions": [
+    "anxiety"
+   ]
+  },
+  {
    "pmid": "42869231",
    "title": "D2 dopamine and CB2 cannabinoid receptor cooperation restores striatal LTP in an epilepsy model.",
    "journal": "Neurobiol Dis",
@@ -808,6 +828,26 @@
    ]
   },
   {
+   "pmid": "42840002",
+   "title": "Cannabidiol/cannabigerol exposure and neuropathy-related outcomes after neurotoxic chemotherapy: a real-world cohort study.",
+   "journal": "Front Pain Res (Lausanne)",
+   "date": "2026-10-07",
+   "pubdate": "2026-09-22",
+   "first_author": "Graziane et al.",
+   "doi": "10.3389/fpain.2026.1945720",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at data on 118,001 people (nobody was assigned a treatment).",
+    "found": "Post-chemotherapy CBD/CBG exposure was associated with lower observed hazard of neuropathy-related diagnosis-code outcomes, whereas pre-chemotherapy exposure was not significant.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42840002/",
+   "conditions": [
+    "pain"
+   ]
+  },
+  {
    "pmid": "42838421",
    "title": "Comparative analysis of the effects of \u03949-tetrahydrocannabinol and cannabidiol on pilocarpine-induced status epilepticus in mice.",
    "journal": "Neuroscience",
@@ -847,27 +887,7 @@
     "pain",
     "arthritis"
    ]
-  },
-  {
-   "pmid": "42826789",
-   "title": "Cracking the Code of Cravings: Endocannabinoids and the Hypothalamic Appetite Nexus.",
-   "journal": "Prostaglandins Other Lipid Mediat",
-   "date": "2026-10-02",
-   "pubdate": "2026-10-02",
-   "first_author": "Bagri et al.",
-   "doi": "10.1016/j.prostaglandins.2026.107116",
-   "grade": "review",
-   "grade_label": "Narrative review",
-   "plain": {
-    "did": "An expert overview of existing research.",
-    "found": "This review focuses on the role of ECS control on hypothalamic regulation of appetite, & hedonic or reward feeding patterns. A deeper understanding of these pathways is essential for addressing the growing prevalence of obesity and its associated health risks.",
-    "caveat": "An expert overview, not a systematic search. No new data."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42826789/",
-   "conditions": [
-    "appetite"
-   ]
   }
  ],
- "week_start": "2026-10-25"
+ "week_start": "2026-10-26"
 }
