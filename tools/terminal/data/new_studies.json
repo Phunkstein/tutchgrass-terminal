@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-02 00:45 EST",
+ "generated": "2026-11-02 05:45 EST",
  "window": {
   "start": "2026-10-03",
   "end": "2026-11-02",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "cd722b5f0a19cf36",
+ "fingerprint": "1aaf8fb5bf69a95f",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -67,6 +67,7 @@
    "42853566"
   ],
   "pain": [
+   "42968604",
    "42966277",
    "42956528",
    "42950713",
@@ -78,11 +79,10 @@
    "42831900",
    "42885647",
    "42867128",
-   "42965212",
-   "42874273",
-   "42840002"
+   "42965212"
   ],
   "anxiety": [
+   "42968604",
    "42963524",
    "42950713",
    "42864498"
@@ -120,6 +120,7 @@
    "42953813"
   ],
   "epilepsy": [
+   "42968542",
    "42918565",
    "42914761",
    "42869231",
@@ -129,10 +130,10 @@
   "ibd": []
  },
  "pubmed_counts": {
-  "sleep": 25,
-  "pain": 29,
-  "anxiety": 46,
-  "mood": 44,
+  "sleep": 26,
+  "pain": 31,
+  "anxiety": 47,
+  "mood": 45,
   "ptsd": 12,
   "arthritis": 4,
   "inflammation": 7,
@@ -141,14 +142,14 @@
   "focus": 8,
   "fibromyalgia": 2,
   "ms": 3,
-  "epilepsy": 13,
+  "epilepsy": 14,
   "migraine": 3,
   "ibd": 0
  },
  "newest": {
   "sleep": "2026-10-27",
-  "pain": "2026-10-31",
-  "anxiety": "2026-10-31",
+  "pain": "2026-11-02",
+  "anxiety": "2026-11-02",
   "mood": "2026-10-31",
   "ptsd": "2026-10-27",
   "arthritis": "2026-10-05",
@@ -158,11 +159,52 @@
   "focus": "2026-10-11",
   "fibromyalgia": "2026-10-27",
   "ms": "2026-10-29",
-  "epilepsy": "2026-10-23",
+  "epilepsy": "2026-11-02",
   "migraine": null,
   "ibd": null
  },
  "papers": [
+  {
+   "pmid": "42968604",
+   "title": "Self-Reported Cannabis Use, Pain and Mental Health in People With Inheritable Bleeding Disorders.",
+   "journal": "Haemophilia",
+   "date": "2026-11-02",
+   "pubdate": "2026-11-01",
+   "first_author": "Jaworski et al.",
+   "doi": "10.1111/hae.70452",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at data on 88 people (nobody was assigned a treatment).",
+    "found": "Cannabis use was relatively common among this small sample of PWBD. These patterns may reflect gaps in care. Higher anxiety scores and opioid use among participants who reported cannabis use support the need for proactive, non-judgmental assessment and comprehensive, patient-centered symptom \u2026",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42968604/",
+   "conditions": [
+    "pain",
+    "anxiety"
+   ]
+  },
+  {
+   "pmid": "42968542",
+   "title": "Long-Term Drop-Seizure Response Patterns to Cannabidiol According to Genetic Status in Lennox-Gastaut Syndrome.",
+   "journal": "CNS Neurosci Ther",
+   "date": "2026-11-02",
+   "pubdate": "2026-11-01",
+   "first_author": "Na et al.",
+   "doi": "10.1002/cns.71221",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at data on 61 people (nobody was assigned a treatment).",
+    "found": "Long-term drop-seizure response to CBD in LGS was sustained but not stratified by genetic status, supporting a syndrome-level treatment approach irrespective of genetic findings.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42968542/",
+   "conditions": [
+    "epilepsy"
+   ]
+  },
   {
    "pmid": "42966277",
    "title": "Sense of coherence and health-related outcomes in medical cannabis patients with chronic pain: A cross-sectional study.",
@@ -608,26 +650,6 @@
    ]
   },
   {
-   "pmid": "42874273",
-   "title": "Antinociceptive interaction of \u03949-tetrahydrocannabinol and cannabidiol in a humanized mouse model of sickle cell disease.",
-   "journal": "J Pharmacol Exp Ther",
-   "date": "2026-10-14",
-   "pubdate": "2026-09-24",
-   "first_author": "Mabou Tagne et al.",
-   "doi": "10.1016/j.jpet.2026.105037",
-   "grade": "mice",
-   "grade_label": "Mice / rats only",
-   "plain": {
-    "did": "Experiments in mice or rats; no people were studied.",
-    "found": "SIGNIFICANCE STATEMENT: Chronic pain in sickle cell disease remains difficult to treat, and many patients use cannabis despite limited understanding of how its constituents interact to produce analgesia.",
-    "caveat": "Animal results often do not carry over to people."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42874273/",
-   "conditions": [
-    "pain"
-   ]
-  },
-  {
    "pmid": "42863850",
    "title": "Medical cannabis for the treatment of insomnia.",
    "journal": "Cochrane Database Syst Rev",
@@ -825,26 +847,6 @@
    "url": "https://pubmed.ncbi.nlm.nih.gov/42854303/",
    "conditions": [
     "focus"
-   ]
-  },
-  {
-   "pmid": "42840002",
-   "title": "Cannabidiol/cannabigerol exposure and neuropathy-related outcomes after neurotoxic chemotherapy: a real-world cohort study.",
-   "journal": "Front Pain Res (Lausanne)",
-   "date": "2026-10-07",
-   "pubdate": "2026-09-22",
-   "first_author": "Graziane et al.",
-   "doi": "10.3389/fpain.2026.1945720",
-   "grade": "obs",
-   "grade_label": "Observational",
-   "plain": {
-    "did": "Researchers looked at data on 118,001 people (nobody was assigned a treatment).",
-    "found": "Post-chemotherapy CBD/CBG exposure was associated with lower observed hazard of neuropathy-related diagnosis-code outcomes, whereas pre-chemotherapy exposure was not significant.",
-    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42840002/",
-   "conditions": [
-    "pain"
    ]
   },
   {

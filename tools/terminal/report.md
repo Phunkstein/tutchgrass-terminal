@@ -1,6 +1,6 @@
 # Cannabis Agent Terminal: Scientist report
 
-Generated 2026-11-02 04:45 EST. Research summary, not medical advice. Talk to a doctor.
+Generated 2026-11-02 05:45 EST. Research summary, not medical advice. Talk to a doctor.
 
 _Strain names are typical examples only; the same name can test very differently by grower and batch. Go by the lab COA (THC, CBD, minor cannabinoids, terpenes), not the name._
 
@@ -80,7 +80,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** CBD does not work mainly through CB1; it calms over-excited neurons through several targets (e.g., GPR55, TRPV1, adenosine signaling). In trials, adding CBD cut convulsive seizures in Dravet and drop seizures in Lennox-Gastaut more than placebo, and reduced TSC-associated seizures (25 mg/kg had better safety than 50).
 - **Strains that typically express this profile:** ACDC (very high CBD), Charlotte's Web-type hemp (very high CBD), Ringo's Gift (high CBD) (typically; check the COA)
 - **Cautions:** Do not swap a prescribed anti-seizure drug for dispensary products; doses in trials were far higher and pharmaceutical-grade. Liver enzyme elevations seen with CBD, especially with valproate; drug interactions (e.g., clobazam). Store CBD oils vary widely in actual content.
-- **New PubMed papers, last 30 days:** 14
+- **New PubMed papers, last 30 days:** 15
 - **Citations:**
   - [RCT] Devinsky et al. (2017). Trial of Cannabidiol for Drug-Resistant Seizures in the Dravet Syndrome. *N Engl J Med*. PMID [28538134](https://pubmed.ncbi.nlm.nih.gov/28538134/). DOI [10.1056/NEJMoa1611618](https://doi.org/10.1056/NEJMoa1611618)
   - [RCT] Devinsky et al. (2018). Effect of Cannabidiol on Drop Seizures in the Lennox-Gastaut Syndrome. *N Engl J Med*. PMID [29768152](https://pubmed.ncbi.nlm.nih.gov/29768152/). DOI [10.1056/NEJMoa1714631](https://doi.org/10.1056/NEJMoa1714631)
@@ -100,7 +100,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** THC shortens time to fall asleep via CB1 receptors. In a crossover RCT, an oil with 10 mg/ml THC + 15 mg/ml CBD improved sleep time and quality, and 60% no longer met insomnia criteria at 2 weeks. CBN: 20 mg nightly reduced awakenings in one RCT; a single 300 mg dose improved subjective sleep and sleep onset but not wake time after sleep onset. Myrcene had sedative effects in mice only.
 - **Strains that typically express this profile:** Granddaddy Purple (often myrcene-forward), Northern Lights, Bubba Kush (typically; check the COA)
 - **Cautions:** Tolerance and rebound insomnia when stopping daily THC. Next-day grogginess; do not drive. CBD alone at 150 mg did not beat placebo on most sleep outcomes.
-- **New PubMed papers, last 30 days:** 22
+- **New PubMed papers, last 30 days:** 23
 - **Citations:**
   - [RCT] Ried et al. (2023). Medicinal cannabis improves sleep in adults with insomnia: a randomised double-blind placebo-controlled crossover study. *J Sleep Res*. PMID [36539991](https://pubmed.ncbi.nlm.nih.gov/36539991/). DOI [10.1111/jsr.13793](https://doi.org/10.1111/jsr.13793)
   - [RCT] Narayan et al. (2024). Cannabidiol for moderate-severe insomnia: a randomized controlled pilot trial of 150 mg of nightly dosing. *J Clin Sleep Med*. PMID [38174873](https://pubmed.ncbi.nlm.nih.gov/38174873/). DOI [10.5664/jcsm.10998](https://doi.org/10.5664/jcsm.10998)
@@ -123,7 +123,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** CBD reduced anxiety from a simulated public-speaking test in people with social anxiety, toward healthy-control levels. In a 2024 human lab study, vaporized D-limonene added to THC selectively reduced THC-induced anxiety, so limonene-rich chemovars may make THC easier to tolerate. Linalool shows calming effects in mice only.
 - **Strains that typically express this profile:** ACDC (very high CBD), Ringo's Gift, Remedy (high CBD) (typically; check the COA)
 - **Cautions:** High THC can trigger or worsen anxiety and panic. Heavy adolescent use is linked to later depression and suicidality. CBD interacts with some antidepressants and benzodiazepines via liver enzymes.
-- **New PubMed papers, last 30 days:** 39
+- **New PubMed papers, last 30 days:** 40
 - **Citations:**
   - [SR] Han et al. (2024). Therapeutic potential of cannabidiol (CBD) in anxiety disorders: A systematic review and meta-analysis. *Psychiatry Res*. PMID [38924898](https://pubmed.ncbi.nlm.nih.gov/38924898/). DOI [10.1016/j.psychres.2024.116049](https://doi.org/10.1016/j.psychres.2024.116049)
   - [RCT] Bergamaschi et al. (2011). Cannabidiol reduces the anxiety induced by simulated public speaking in treatment-naïve social phobia patients. *Neuropsychopharmacology*. PMID [21307846](https://pubmed.ncbi.nlm.nih.gov/21307846/). DOI [10.1038/npp.2011.6](https://doi.org/10.1038/npp.2011.6)
