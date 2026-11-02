@@ -7,7 +7,7 @@
    "url": "https://search.cannabis.ca.gov/",
    "status": "ok",
    "count": 18,
-   "checked": "2026-11-02 05:26 EST",
+   "checked": "2026-11-02 15:26 EST",
    "list_updated": null
   },
   {
@@ -16,7 +16,7 @@
    "url": "https://masscannabiscontrol.com/open-data/data-catalog/",
    "status": "ok",
    "count": 10,
-   "checked": "2026-11-02 05:26 EST",
+   "checked": "2026-11-02 15:26 EST",
    "list_updated": null
   },
   {
@@ -25,7 +25,7 @@
    "url": "https://med.colorado.gov/licensee-information-and-lookup-tool",
    "status": "ok",
    "count": 7,
-   "checked": "2026-11-02 05:26 EST",
+   "checked": "2026-11-02 15:26 EST",
    "list_updated": null
   },
   {
@@ -34,7 +34,7 @@
    "url": "https://data.oregon.gov/d/q32u-cmam",
    "status": "ok",
    "count": 9,
-   "checked": "2026-11-02 05:26 EST",
+   "checked": "2026-11-02 15:26 EST",
    "list_updated": null
   },
   {
@@ -43,17 +43,18 @@
    "url": "https://www.oregon.gov/oha/PH/LABORATORYSERVICES/ENVIRONMENTALLABORATORYACCREDITATION/Pages/cannabis.aspx",
    "status": "ok",
    "count": 9,
-   "checked": "2026-11-02 05:26 EST",
+   "checked": "2026-11-02 15:26 EST",
    "list_updated": "2026-06-04"
   },
   {
    "id": "fl_ommu",
    "name": "Florida Office of Medical Marijuana Use (certified testing labs)",
    "url": "https://knowthefactsmmj.com/cmtl/",
-   "status": "ok",
+   "status": "stale",
    "count": 6,
    "checked": "2026-11-02 05:26 EST",
-   "list_updated": null
+   "list_updated": null,
+   "error": "OMMU table not found"
   },
   {
    "id": "mi_cra",
@@ -61,7 +62,7 @@
    "url": "https://www.michigan.gov/cra/verify-a-license-1",
    "status": "ok",
    "count": 19,
-   "checked": "2026-11-02 05:26 EST",
+   "checked": "2026-11-02 15:26 EST",
    "list_updated": null
   },
   {
@@ -70,7 +71,7 @@
    "url": "https://agr.wa.gov/departments/cannabis",
    "status": "ok",
    "count": 4,
-   "checked": "2026-11-02 05:26 EST",
+   "checked": "2026-11-02 15:26 EST",
    "list_updated": "2026-06-03"
   },
   {
@@ -79,7 +80,7 @@
    "url": "https://customer.a2la.org/index.cfm?event=directory.index",
    "status": "ok",
    "count": 256,
-   "checked": "2026-11-02 05:26 EST"
+   "checked": "2026-11-02 15:27 EST"
   }
  ],
  "manual": [
@@ -2581,7 +2582,7 @@
    "name": "Deibel Laboratories of Illinois, Inc.",
    "location": "Niles, IL",
    "country": "United States",
-   "cert": "2833.05",
+   "cert": "2833.08",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -3126,7 +3127,7 @@
    "name": "Felling Analytical Services and Technology (F.A.S.T.), LLC",
    "location": "Greenbrier, AR",
    "country": "United States",
-   "cert": "4473.01",
+   "cert": "4473.03",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -3431,7 +3432,7 @@
    "name": "Food Safety Net Services, Wisconsin, LLC.",
    "location": "De Pere, WI",
    "country": "United States",
-   "cert": "1698.04",
+   "cert": "1698.25",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -3447,7 +3448,7 @@
    "name": "Foundation Analytical Laboratory, Inc.",
    "location": "Cherokee, IA",
    "country": "United States",
-   "cert": "4733.02",
+   "cert": "4733.01",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -3583,7 +3584,7 @@
    "name": "Green Analytics",
    "location": "Bridgeport, WV",
    "country": "United States",
-   "cert": "4356.07",
+   "cert": "4356.10",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -3615,7 +3616,7 @@
    "name": "Green Analytics MD LLC",
    "location": "Columbia, MD",
    "country": "United States",
-   "cert": "4356.06",
+   "cert": "4356.01",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -4136,7 +4137,7 @@
    "name": "Michelson Laboratories, Inc.",
    "location": "Commerce, CA",
    "country": "United States",
-   "cert": "2074.01",
+   "cert": "2074.02",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -4259,7 +4260,7 @@
    "name": "Minnesota Valley Testing Laboratories Inc.",
    "location": "New Ulm, MN",
    "country": "United States",
-   "cert": "2459.02",
+   "cert": "2459.01",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -5205,7 +5206,7 @@
    "name": "Tentamus North America",
    "location": "Fredericksburg, VA",
    "country": "United States",
-   "cert": "4815.01",
+   "cert": "4815.02",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -5296,7 +5297,7 @@
    "name": "Tyson Food Safety & Research Laboratory also doing business as WBA Analytical Laboratories",
    "location": "Springdale, AR",
    "country": "United States",
-   "cert": "1970.01",
+   "cert": "1970.02",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -5404,7 +5405,7 @@
    "name": "Tyson Foods, Inc.",
    "location": "Amarillo, TX",
    "country": "United States",
-   "cert": "476.07",
+   "cert": "476.06",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -5467,7 +5468,7 @@
    "name": "USDA, FSIS, Midwestern Laboratory",
    "location": "Normandy, MO",
    "country": "United States",
-   "cert": "1898.05",
+   "cert": "1898.04",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -5797,5 +5798,5 @@
   "limits": 8
  },
  "note": "Lists come straight from the regulators and accreditation bodies named in sources. A lab missing here may be licensed in a state we do not read yet.",
- "generated": "2026-11-02 05:27 EST"
+ "generated": "2026-11-02 15:27 EST"
 }
