@@ -7,7 +7,7 @@
    "url": "https://search.cannabis.ca.gov/",
    "status": "ok",
    "count": 18,
-   "checked": "2026-10-30 07:40 EDT",
+   "checked": "2026-11-02 05:26 EST",
    "list_updated": null
   },
   {
@@ -16,7 +16,7 @@
    "url": "https://masscannabiscontrol.com/open-data/data-catalog/",
    "status": "ok",
    "count": 10,
-   "checked": "2026-10-30 07:40 EDT",
+   "checked": "2026-11-02 05:26 EST",
    "list_updated": null
   },
   {
@@ -25,7 +25,7 @@
    "url": "https://med.colorado.gov/licensee-information-and-lookup-tool",
    "status": "ok",
    "count": 7,
-   "checked": "2026-10-30 07:40 EDT",
+   "checked": "2026-11-02 05:26 EST",
    "list_updated": null
   },
   {
@@ -34,7 +34,7 @@
    "url": "https://data.oregon.gov/d/q32u-cmam",
    "status": "ok",
    "count": 9,
-   "checked": "2026-10-30 07:40 EDT",
+   "checked": "2026-11-02 05:26 EST",
    "list_updated": null
   },
   {
@@ -43,7 +43,7 @@
    "url": "https://www.oregon.gov/oha/PH/LABORATORYSERVICES/ENVIRONMENTALLABORATORYACCREDITATION/Pages/cannabis.aspx",
    "status": "ok",
    "count": 9,
-   "checked": "2026-10-30 07:40 EDT",
+   "checked": "2026-11-02 05:26 EST",
    "list_updated": "2026-06-04"
   },
   {
@@ -52,7 +52,7 @@
    "url": "https://knowthefactsmmj.com/cmtl/",
    "status": "ok",
    "count": 6,
-   "checked": "2026-10-30 07:40 EDT",
+   "checked": "2026-11-02 05:26 EST",
    "list_updated": null
   },
   {
@@ -61,7 +61,7 @@
    "url": "https://www.michigan.gov/cra/verify-a-license-1",
    "status": "ok",
    "count": 19,
-   "checked": "2026-10-30 07:40 EDT",
+   "checked": "2026-11-02 05:26 EST",
    "list_updated": null
   },
   {
@@ -70,7 +70,7 @@
    "url": "https://agr.wa.gov/departments/cannabis",
    "status": "ok",
    "count": 4,
-   "checked": "2026-10-30 07:40 EDT",
+   "checked": "2026-11-02 05:26 EST",
    "list_updated": "2026-06-03"
   },
   {
@@ -78,8 +78,8 @@
    "name": "A2LA directory (ISO/IEC 17025 scopes mentioning cannabis or hemp)",
    "url": "https://customer.a2la.org/index.cfm?event=directory.index",
    "status": "ok",
-   "count": 254,
-   "checked": "2026-10-30 07:40 EDT"
+   "count": 256,
+   "checked": "2026-11-02 05:26 EST"
   }
  ],
  "manual": [
@@ -382,13 +382,13 @@
    "city": "Denver",
    "expires": null,
    "panels": {
-    "heavy_metals": "2026-10-31",
-    "microbials": "2026-10-31",
-    "mycotoxins": "2026-10-31",
-    "pesticides": "2026-10-31",
-    "potency": "2026-10-31",
-    "residual_solvents": "2026-10-31",
-    "water_activity": "2026-10-31"
+    "heavy_metals": "2027-10-31",
+    "microbials": "2027-10-31",
+    "mycotoxins": "2027-10-31",
+    "pesticides": "2027-10-31",
+    "potency": "2027-10-31",
+    "residual_solvents": "2027-10-31",
+    "water_activity": "2027-10-31"
    },
    "source": "co_med",
    "url": "https://med.colorado.gov/licensee-information-and-lookup-tool",
@@ -1844,6 +1844,21 @@
    "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=A4B13DBD-B793-4F54-A8FE-5E9483A66820"
   },
   {
+   "name": "ALS Food Safety, LLC  Aurora, NE Division",
+   "location": "Aurora , NE",
+   "country": "United States",
+   "cert": "2598.10",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-10-31",
+   "body": "A2LA",
+   "keys": [
+    "als food safety aurora ne division"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=DB19F9D6-26F3-400C-8BEE-9B6F1B973CB1"
+  },
+  {
    "name": "ALS Food Safety, LLC - Leipsic, OH Division",
    "location": "Leipsic, OH",
    "country": "United States",
@@ -1862,7 +1877,7 @@
    "name": "ALS Food Safety, LLC - Marshfield, WI Division",
    "location": "Marshfield, WI",
    "country": "United States",
-   "cert": "2598.09",
+   "cert": "2598.13",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -2043,7 +2058,7 @@
    "name": "Bia Diagnostics, LLC",
    "location": "Colchester, VT",
    "country": "United States",
-   "cert": "3594.01",
+   "cert": "3594.02",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -2316,7 +2331,7 @@
    "name": "DEMETER LABORATORY DBA METIS QA LABORATORY",
    "location": "Oklahoma City, OK",
    "country": "United States",
-   "cert": "5306.04",
+   "cert": "5306.01",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -2348,7 +2363,7 @@
    "name": "DHHS/FDA/HFP/OLOAS/ORTS/Denver Human and Animal Food Laboratory",
    "location": "Denver, CO",
    "country": "United States",
-   "cert": "5807.07",
+   "cert": "5807.08",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -2519,7 +2534,7 @@
    "name": "Defense Food Analysis & Diagnostic Laboratory (FADL)",
    "location": "JBSA Fort Sam Houston, TX",
    "country": "United States",
-   "cert": "1839.02",
+   "cert": "1839.01",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -2642,7 +2657,7 @@
    "name": "Deibel Laboratories, Inc.",
    "location": "Madison, WI",
    "country": "United States",
-   "cert": "2833.12",
+   "cert": "2833.04",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -2653,6 +2668,22 @@
     "deibel laboratories"
    ],
    "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=B53E0562-5FBF-4E4C-88CE-D6509CC22AB1"
+  },
+  {
+   "name": "Deibel Labs of Manteca CA",
+   "location": "Manteca, CA",
+   "country": "United States",
+   "cert": "2833.19",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-11-30",
+   "body": "A2LA",
+   "keys": [
+    "deibel labs of manteca ca"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=0CBA8693-A6E1-4E66-95F2-9DC7159201E3"
   },
   {
    "name": "Department of Toxic Substances Control (DTSC) Environmental Chemistry Laboratory (ECL) - Pasadena",
@@ -3416,7 +3447,7 @@
    "name": "Foundation Analytical Laboratory, Inc.",
    "location": "Cherokee, IA",
    "country": "United States",
-   "cert": "4733.01",
+   "cert": "4733.02",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -3844,7 +3875,7 @@
    "name": "KAYCHA COLORADO LLC",
    "location": "Denver , CO",
    "country": "United States",
-   "cert": "4331.01",
+   "cert": "4331.02",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -3935,7 +3966,7 @@
    "name": "Leprino Foods Company",
    "location": "Denver, CO",
    "country": "United States",
-   "cert": "4168.02",
+   "cert": "4168.01",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -3966,7 +3997,7 @@
    "name": "MARYLAND CANNALYTICS, LLC.",
    "location": "WESTMINSTER, MD",
    "country": "United States",
-   "cert": "5470.01",
+   "cert": "5470.05",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -4089,7 +4120,7 @@
    "name": "Michelson Laboratories of Northern California",
    "location": "Manteca, CA",
    "country": "United States",
-   "cert": "2074.03",
+   "cert": "2074.04",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -4212,7 +4243,7 @@
    "name": "Minnesota Department of Agriculture",
    "location": "Saint Paul, MN",
    "country": "United States",
-   "cert": "3171.02",
+   "cert": "3171.01",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -4228,7 +4259,7 @@
    "name": "Minnesota Valley Testing Laboratories Inc.",
    "location": "New Ulm, MN",
    "country": "United States",
-   "cert": "2459.01",
+   "cert": "2459.02",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -4579,7 +4610,7 @@
    "name": "Q Labs LLC",
    "location": "Cincinnati, OH",
    "country": "United States",
-   "cert": "3026.01",
+   "cert": "3026.02",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -4749,7 +4780,7 @@
    "programs": [
     "ISO/IEC 17025 : Chemical"
    ],
-   "expires": "2026-10-31",
+   "expires": "2026-11-30",
    "body": "A2LA",
    "keys": [
     "scissortail laboratory"
@@ -5265,7 +5296,7 @@
    "name": "Tyson Food Safety & Research Laboratory also doing business as WBA Analytical Laboratories",
    "location": "Springdale, AR",
    "country": "United States",
-   "cert": "1970.02",
+   "cert": "1970.01",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -5342,7 +5373,7 @@
    "name": "Tyson Foods, Inc",
    "location": "Dakota City, NE",
    "country": "United States",
-   "cert": "476.01",
+   "cert": "476.02",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -5373,7 +5404,7 @@
    "name": "Tyson Foods, Inc.",
    "location": "Amarillo, TX",
    "country": "United States",
-   "cert": "476.06",
+   "cert": "476.07",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -5609,7 +5640,7 @@
    },
    "status": "verified",
    "missing": null,
-   "verified": "2026-10-30"
+   "verified": "2026-11-02"
   },
   {
    "id": "ca_myco",
@@ -5625,7 +5656,7 @@
    },
    "status": "verified",
    "missing": null,
-   "verified": "2026-10-30"
+   "verified": "2026-11-02"
   },
   {
    "id": "ca_micro",
@@ -5637,7 +5668,7 @@
    "text": "Not detected in 1 g: STEC E. coli and Salmonella (all products); pathogenic Aspergillus fumigatus, flavus, niger, terreus (inhalable products).",
    "status": "verified",
    "missing": null,
-   "verified": "2026-10-30"
+   "verified": "2026-11-02"
   },
   {
    "id": "ca_drywt",
@@ -5649,7 +5680,7 @@
    "text": "Dry-weight % = wet-weight % / (1 - moisture % / 100).",
    "status": "verified",
    "missing": null,
-   "verified": "2026-10-30"
+   "verified": "2026-11-02"
   },
   {
    "id": "us_total_thc",
@@ -5664,7 +5695,7 @@
    "text": "Total THC = 0.877 \u00d7 THCA + \u03949-THC; hemp must test at or under 0.3% on a dry-weight basis (after measurement uncertainty).",
    "status": "verified",
    "missing": null,
-   "verified": "2026-10-30"
+   "verified": "2026-11-02"
   },
   {
    "id": "us_dec11",
@@ -5720,7 +5751,7 @@
    "pdf": "https://www.michigan.gov/cra/-/media/Project/Websites/cra/bulletin/5Technical/Sampling_and_Testing-_Technical_Guidance_for_Marijuana_Products_694124_7.pdf?rev=803d359db46747c6af70098aac62b3c8",
    "status": "verified",
    "missing": null,
-   "verified": "2026-10-30"
+   "verified": "2026-11-02"
   },
   {
    "id": "mi_micro",
@@ -5747,7 +5778,7 @@
    "pdf": "https://www.michigan.gov/cra/-/media/Project/Websites/cra/bulletin/5Technical/Sampling_and_Testing-_Technical_Guidance_for_Marijuana_Products_694124_7.pdf?rev=803d359db46747c6af70098aac62b3c8",
    "status": "verified",
    "missing": null,
-   "verified": "2026-10-30"
+   "verified": "2026-11-02"
   }
  ],
  "counts": {
@@ -5761,10 +5792,10 @@
    "OR",
    "WA"
   ],
-  "accredited": 254,
+  "accredited": 256,
   "limits_verified": 8,
   "limits": 8
  },
  "note": "Lists come straight from the regulators and accreditation bodies named in sources. A lab missing here may be licensed in a state we do not read yet.",
- "generated": "2026-10-30 07:40 EDT"
+ "generated": "2026-11-02 05:27 EST"
 }
