@@ -38,8 +38,8 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 119"
   },
   {
    "source": "Google News: intl cannabis",
@@ -244,6 +244,17 @@
  ],
  "news_us": [
   {
+   "source": "Marijuana Moment",
+   "title": "AMA Raises Concerns About Marijuana, Kratom And Other Botanical Drugs While Pushing \u2018Special Schedule\u2019 To Support Research",
+   "link": "https://www.marijuanamoment.net/ama-raises-concerns-about-marijuana-kratom-and-other-botanical-drugs-while-pushing-special-schedule-to-support-research/",
+   "summary": "The American Medical Association (AMA) is urging federal officials to uphold \u201cknown and widely accepted scientific and clinical standards for testing safety and efficacy\u201d of botanical drug products\u2014including cannabis, kratom and other plant-derived substances\u2014",
+   "ts": 1793638781.0,
+   "date": "2026-11-02 11:59",
+   "category": "US federal",
+   "is_law": false,
+   "states": []
+  },
+  {
    "source": "Business of Cannabis (intl)",
    "title": "DEA Issues First Federal Registrations to 900 Dispensaries, But Dual-Licence States Remain Uncertain",
    "link": "https://businessofcannabis.com/dea-issues-first-federal-registrations-to-900-dispensaries-but-dual-licence-states-remain-uncertain/",
@@ -317,17 +328,6 @@
    ]
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "US Issues First Medical Cannabis Registrations Following Rescheduling",
-   "link": "https://stratcann.com/news/us-issues-first-medical-cannabis-registrations-following-rescheduling/",
-   "summary": "The US has issued the first registrations for medical cannabis dispensaries following rescheduling earlier this year and reviewing applications from manufacturers and distributors. The post US Issues First Medical Cannabis Registrations Following Rescheduling ",
-   "ts": 1793408183.0,
-   "date": "2026-10-30 20:56",
-   "category": "US federal",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "Marijuana Moment",
    "title": "DEA Refuses To Approve Marijuana Businesses In States That Allow Dual Medical And Recreational Licensing",
    "link": "https://www.marijuanamoment.net/dea-refuses-to-approve-marijuana-businesses-in-states-that-allow-dual-medical-and-recreational-licensing/",
@@ -350,29 +350,20 @@
    "states": []
   },
   {
-   "source": "Marijuana Moment",
-   "title": "DEA Warns Medical Marijuana Businesses To Only Obtain Products From Federally Registered Companies",
-   "link": "https://www.marijuanamoment.net/dea-warns-medical-marijuana-businesses-to-only-obtain-products-from-federally-registered-companies/",
-   "summary": "The Drug Enforcement Administration (DEA) has issued new guidance warning that medical marijuana businesses that want to receive federal registration and protections under the Trump administration\u2019s rescheduling reform have until late November to begin sourcin",
-   "ts": 1793388393.0,
-   "date": "2026-10-30 15:26",
-   "category": "US federal",
-   "is_law": true,
-   "states": []
+   "source": "MJBizDaily",
+   "title": "Alabama medical cannabis market continues slow rollout with more openings",
+   "link": "https://mjbizdaily.com/news/alabama-medical-cannabis-market-continues-slow-rollout-with-more-openings/618960/",
+   "summary": "The state will have as many as five dispensaries open by early November, state officials said Thursday, as possibly the most tortuous rollout of an MMJ program continues to slowly progress. Alabama medical cannabis market continues slow rollout with more openi",
+   "ts": 1793367055.0,
+   "date": "2026-10-30 09:30",
+   "category": "US states",
+   "is_law": false,
+   "states": [
+    "Alabama"
+   ]
   }
  ],
  "news_intl": [
-  {
-   "source": "StratCann (Canada)",
-   "title": "Tilray to Close Fenwick Redecan Facility, Shifting Production to Other Facilities",
-   "link": "https://stratcann.com/news/tilray-to-close-fenwick-facility-while-ensuring-uninterrupted-redecan-supply/",
-   "summary": "Tilray Brands has announced plans to consolidate its Canadian cannabis operations, moving cultivation and pre-roll production from its Foss facility in Fenwick, Ontario, to its... The post Tilray to Close Fenwick Redecan Facility, Shifting Production to Other ",
-   "ts": 1793634030.0,
-   "date": "2026-11-02 10:40",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
   {
    "source": "Business of Cannabis (intl)",
    "title": "Germany\u2019s Cannabis Flower Patients Face Years of Litigation After Constitutional Shortcut Blocked",
@@ -449,8 +440,19 @@
    "category": "International",
    "is_law": false,
    "states": []
+  },
+  {
+   "source": "Cannabis Health News (UK)",
+   "title": "\u2018Treatment is More Than Reducing Pain Intensity\u2019: Dr Michael \u00dcberall on the Future of Pain Medicine",
+   "link": "https://cannabishealthnews.co.uk/2026/10/30/dr-michael-uberall-on-the-future-of-pain-medicine/",
+   "summary": "Pain specialist Dr Michael \u00dcberall discusses cannabinoid-based medicines, opioids, and what meaningful improvement looks like for patients.",
+   "ts": 1793354401.0,
+   "date": "2026-10-30 06:00",
+   "category": "International",
+   "is_law": false,
+   "states": []
   }
  ],
- "news_health_total": 22,
- "generated": "2026-11-02 11:45 EST"
+ "news_health_total": 23,
+ "generated": "2026-11-02 12:45 EST"
 }
