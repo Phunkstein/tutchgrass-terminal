@@ -3,7 +3,7 @@
   "start": "2025-05-01",
   "end": "2026-11-01"
  },
- "generated": "2026-11-01 00:45 EDT",
+ "generated": "2026-11-01 19:45 EST",
  "source": "NCBI PubMed E-utilities",
  "conditions": {
   "sleep": {
@@ -69,16 +69,6 @@
    ],
    "holistic": [
     {
-     "pmid": "42247852",
-     "title": "Pharmacological and non-pharmacological treatments for chronic insomnia in perimenopausal and postmenopausal women: a systematic review and meta-analysis.",
-     "journal": "Sleep Med",
-     "date": "2026-05-30",
-     "tag": "META-ANALYSIS",
-     "first_author": "Bruyneel et al.",
-     "doi": "10.1016/j.sleep.2026.109040",
-     "conclusion": "Despite several limitations, nonpharmacological interventions, particularly cognitive behavioral therapy for insomnia and techniques reducing sympathetic hyperarousal (acupuncture, yoga, massage), seem to be the most robust first-line options for peri- and postmenopausal women suffering from chronic insomnia, whereas pharmacological treatments still require longer and better designed studies to establish their long-t"
-    },
-    {
      "pmid": "40664502",
      "title": "Effects of various exercise interventions in insomnia patients: a systematic review and network meta-analysis.",
      "journal": "BMJ Evid Based Med",
@@ -97,6 +87,16 @@
      "first_author": "Mei et al.",
      "doi": "10.3390/nu17243952",
      "conclusion": "These findings suggest that tryptophan, vitamin D, omega-3, zinc, and antioxidants may enhance sleep quality by decreasing SL, and WASO increases SE and extends TST, respectively."
+    },
+    {
+     "pmid": "40982264",
+     "title": "Cognitive Behavioral Therapy for Insomnia in People With Chronic Disease: A Systematic Review and Meta-Analysis.",
+     "journal": "JAMA Intern Med",
+     "date": "2025-11-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Scott et al.",
+     "doi": "10.1001/jamainternmed.2025.4610",
+     "conclusion": "This systematic review and meta-analysis showed that CBT-I demonstrated strong efficacy and acceptability in chronic disease populations, with moderate to large effect sizes that appear comparable to those in non-chronic disease populations. Efficacy of CBT-I was similar across a range of disease subgroups. Future research should explore the role and nature of treatment adaptations for specific populations and increa"
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (sleep[tiab] OR insomnia[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/01:2026/11/01[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -110,7 +110,7 @@
     "chronic_neuropathic_pain"
    ],
    "cann_matches": 31,
-   "hol_matches": 234,
+   "hol_matches": 235,
    "cannabinoid": [
     {
      "pmid": "42262611",
@@ -175,16 +175,6 @@
      "conclusion": "This meta-analysis concluded that physical exercise improves pain-related outcomes in adult patients. Notably, the forest plot demonstrated a significant mean difference. These findings suggest that physical exercise is associated with a better prognosis in the treatment of lumbar disc herniation."
     },
     {
-     "pmid": "41643247",
-     "title": "Effectiveness of adding manual therapy to exercise for pain and disability in chronic non-specific low back pain: A systematic review and meta-analysis.",
-     "journal": "Musculoskelet Sci Pract",
-     "date": "2026-01-30",
-     "tag": "META-ANALYSIS",
-     "first_author": "Dos Santos et al.",
-     "doi": "10.1016/j.msksp.2026.103508",
-     "conclusion": "Manual therapy combined with therapeutic exercise does not appear to provide substantial additional short-term improvements in pain intensity when compared to exercise alone. However, significant benefits were identified for functional disability in both short- and long-term outcomes PROSPERO REGISTRATION: CRD42023413778."
-    },
-    {
      "pmid": "40705433",
      "title": "Physiotherapy for endometriosis-associated pelvic pain: a systematic review and meta-analysis.",
      "journal": "Pain Med",
@@ -193,6 +183,16 @@
      "first_author": "Can et al.",
      "doi": "10.1093/pm/pnaf083",
      "conclusion": "Physiotherapy techniques are effective in reducing pain in women with endometriosis, especially when applied locally."
+    },
+    {
+     "pmid": "41363159",
+     "title": "Manual therapy with exercise for neck pain.",
+     "journal": "Cochrane Database Syst Rev",
+     "date": "2025-12-09",
+     "tag": "META-ANALYSIS",
+     "first_author": "Chacko et al.",
+     "doi": "10.1002/14651858.CD011225.pub2",
+     "conclusion": "The combination of manual therapy with exercise may result in a moderate increase in function but no reduction in pain when compared with placebo for primarily chronic neck pain. A large reduction in pain and moderate increase in function may result when comparing manual therapy with exercise with no treatment. Only non-serious adverse events were reported. Other outcomes had varied certainty. Data on participant-rep"
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (\"chronic pain\"[tiab] OR \"neuropathic pain\"[tiab] OR neuropath*[tiab] OR \"pain\"[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/01:2026/11/01[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -462,7 +462,7 @@
     "arthritis"
    ],
    "cann_matches": 9,
-   "hol_matches": 92,
+   "hol_matches": 93,
    "cannabinoid": [
     {
      "pmid": "42515994",
@@ -507,6 +507,16 @@
      "conclusion": "The updated EULAR recommendations for PA should guide the development, conduct and evaluation of PA interventions and promotion, including the reduction of SB, in people with IA and OA. These recommendations should be implemented with consideration of individual needs, environmental conditions, and the broader national health care context."
     },
     {
+     "pmid": "42827396",
+     "title": "Effects of Yoga on Rheumatoid Arthritis: A Systematic Review and Meta-Analysis.",
+     "journal": "Int J Rheum Dis",
+     "date": "2026-10-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Suresh et al.",
+     "doi": "10.1111/1756-185x.70896",
+     "conclusion": "This meta-analysis indicates that yoga significantly improves mental health by reducing stress, anxiety, depression & lowers inflammation through reduced IL-6 levels. However, its effect on physical health and TNF-\u03b1 was not consistent, suggesting more research is needed. Further large-scale studies are needed to validate and standardize its use."
+    },
+    {
      "pmid": "41702669",
      "title": "Effectiveness of exercise therapy for osteoarthritis: an overview of systematic reviews and randomised controlled trials.",
      "journal": "RMD Open",
@@ -515,16 +525,6 @@
      "first_author": "Schleimer et al.",
      "doi": "10.1136/rmdopen-2025-006275",
      "conclusion": "Evidence on exercise for osteoarthritis remains largely inconclusive, suggesting negligible or short-lasting small effects comparable to, or less effective than, other treatments. These findings question its universal promotion and highlight the need to revisit research priorities and clinical discussions around its worthwhileness."
-    },
-    {
-     "pmid": "41229465",
-     "title": "The optimal course and frequency of Tai Chi for knee osteoarthritis: a systematic review and meta-analysis of randomized controlled trials.",
-     "journal": "Front Public Health",
-     "date": "2025-10-28",
-     "tag": "META-ANALYSIS",
-     "first_author": "Deng et al.",
-     "doi": "10.3389/fpubh.2025.1661674",
-     "conclusion": "This meta-analysis suggests that Tai Chi is effective in improving pain, stiffness, physical function, and physical health in patients with KOA. Patients with KOA should consider their specific conditions and choose a Tai Chi training protocol that suits their needs. The preliminary results of this meta-analysis indicate that for patients with pain and physical functional limitations, a long-term (>16 weeks)/three ti"
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (arthritis[tiab] OR osteoarthritis[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/01:2026/11/01[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -817,6 +817,16 @@
    ],
    "holistic": [
     {
+     "pmid": "42170764",
+     "title": "Cognitive behavioural therapy compared to control conditions in treating bulimia nervosa and binge-eating disorder: A systematic review and meta-analysis.",
+     "journal": "Br J Clin Psychol",
+     "date": "2026-05-22",
+     "tag": "META-ANALYSIS",
+     "first_author": "Sioziou et al.",
+     "doi": "10.1111/bjc.70070",
+     "conclusion": "The superiority of CBT is contingent on the comparator used, highlighting the necessity for rigorous controls such as a psychological placebo or other therapy modalities."
+    },
+    {
      "pmid": "41483880",
      "title": "A meta-analysis of the intervention effect of cognitive behavioral therapy on adult ADHD.",
      "journal": "J Affect Disord",
@@ -835,16 +845,6 @@
      "first_author": "Xin et al.",
      "doi": "10.1016/j.ijnurstu.2025.105287",
      "conclusion": "Current randomized evidence indicates that several non-pharmacological interventions can improve subjective and/or objective cognition in adults with cancer-related cognitive impairment. However, substantial between-study heterogeneity and generally low certainty of evidence limit confidence in these estimates. Clinicians should tailor intervention selection to individual patient needs and the clinical context. Moreo"
-    },
-    {
-     "pmid": "41170811",
-     "title": "Cognitive behavioural therapy for insomnia in people with cancer.",
-     "journal": "Cochrane Database Syst Rev",
-     "date": "2025-10-31",
-     "tag": "META-ANALYSIS",
-     "first_author": "Cai et al.",
-     "doi": "10.1002/14651858.CD015176.pub2",
-     "conclusion": "This Cochrane review found very low-certainty to moderate-certainty evidence suggesting that CBT-I may offer small to very small improvements in patient-reported insomnia severity, sleep quality, and most subjective sleep diary parameters when compared with inactive controls. Against aerobic activities, low-certainty evidence indicates that CBT-I may also improve insomnia severity and sleep quality. The incidence of "
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (cognition[ti] OR cognitive[ti] OR memory[ti] OR attention[ti] OR ADHD[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/01:2026/11/01[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
