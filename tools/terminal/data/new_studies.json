@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-02 05:45 EST",
+ "generated": "2026-11-02 17:45 EST",
  "window": {
   "start": "2026-10-03",
   "end": "2026-11-02",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "1aaf8fb5bf69a95f",
+ "fingerprint": "627dbdb87b535d9d",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -101,6 +101,7 @@
    "42831900"
   ],
   "inflammation": [
+   "42970043",
    "42943346",
    "42939750",
    "42875876"
@@ -136,7 +137,7 @@
   "mood": 45,
   "ptsd": 12,
   "arthritis": 4,
-  "inflammation": 7,
+  "inflammation": 8,
   "nausea": 8,
   "appetite": 5,
   "focus": 8,
@@ -153,7 +154,7 @@
   "mood": "2026-10-31",
   "ptsd": "2026-10-27",
   "arthritis": "2026-10-05",
-  "inflammation": "2026-10-27",
+  "inflammation": "2026-11-02",
   "nausea": "2026-10-20",
   "appetite": null,
   "focus": "2026-10-11",
@@ -183,6 +184,26 @@
    "conditions": [
     "pain",
     "anxiety"
+   ]
+  },
+  {
+   "pmid": "42970043",
+   "title": "Full-spectrum cannabidiol-rich extract prevents UVB-induced skin carcinogenesis by suppressing CB1/CB2/GPR55 signalling and COX-2/IL-6 inflammatory pathways.",
+   "journal": "Photochem Photobiol Sci",
+   "date": "2026-11-02",
+   "pubdate": "2026-11-02",
+   "first_author": "Urrutia-Ortega et al.",
+   "doi": "10.1007/s43630-026-01007-7",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "Notably, prolonged FS-CBD pre-treatment was associated with a marked increase in epidermal apoptosis, displaying a moderate-intensity, multifocal-to-diffuse pattern, which coincided with a lower frequency of malignant transformation.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42970043/",
+   "conditions": [
+    "inflammation"
    ]
   },
   {
