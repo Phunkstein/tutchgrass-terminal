@@ -38,8 +38,8 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 119"
   },
   {
    "source": "Google News: intl cannabis",
@@ -339,17 +339,6 @@
    ]
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "US Issues First Medical Cannabis Registrations Following Rescheduling",
-   "link": "https://stratcann.com/news/us-issues-first-medical-cannabis-registrations-following-rescheduling/",
-   "summary": "The US has issued the first registrations for medical cannabis dispensaries following rescheduling earlier this year and reviewing applications from manufacturers and distributors. The post US Issues First Medical Cannabis Registrations Following Rescheduling ",
-   "ts": 1793408183.0,
-   "date": "2026-10-30 20:56",
-   "category": "US federal",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "Marijuana Moment",
    "title": "DEA Refuses To Approve Marijuana Businesses In States That Allow Dual Medical And Recreational Licensing",
    "link": "https://www.marijuanamoment.net/dea-refuses-to-approve-marijuana-businesses-in-states-that-allow-dual-medical-and-recreational-licensing/",
@@ -359,20 +348,20 @@
    "category": "US federal",
    "is_law": false,
    "states": []
+  },
+  {
+   "source": "MJBizDaily",
+   "title": "Marijuana rescheduling: DEA recognizes first federally legal medical cannabis dispensaries",
+   "link": "https://mjbizdaily.com/news/dea-grants-federal-registration-to-900-medical-cannabis-dispensaries-in-seven-states/618979/",
+   "summary": "In separate guidance, the DEA instructed registered medical operators and pending applicants to \"establish compliant supply chains\" by November 29. Marijuana rescheduling: DEA recognizes first federally legal medical cannabis dispensaries is a post from: MJBiz",
+   "ts": 1793402263.0,
+   "date": "2026-10-30 19:17",
+   "category": "US federal",
+   "is_law": true,
+   "states": []
   }
  ],
  "news_intl": [
-  {
-   "source": "StratCann (Canada)",
-   "title": "Tilray to Close Fenwick Redecan Facility, Shifting Production to Other Facilities",
-   "link": "https://stratcann.com/news/tilray-to-close-fenwick-facility-while-ensuring-uninterrupted-redecan-supply/",
-   "summary": "Tilray Brands has announced plans to consolidate its Canadian cannabis operations, moving cultivation and pre-roll production from its Foss facility in Fenwick, Ontario, to its... The post Tilray to Close Fenwick Redecan Facility, Shifting Production to Other ",
-   "ts": 1793634030.0,
-   "date": "2026-11-02 10:40",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
   {
    "source": "Business of Cannabis (intl)",
    "title": "Germany\u2019s Cannabis Flower Patients Face Years of Litigation After Constitutional Shortcut Blocked",
@@ -382,17 +371,6 @@
    "date": "2026-11-02 08:42",
    "category": "International",
    "is_law": true,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Coversure adds medical cannabis broker as UK prescriptions surge - Insurance Business",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPelI0VXBOdkxRbFBQZS1oZTFvM0tpSnlTNnMwbktWWmJMbnBrejhrd1JsZWJIeDhEcWM2SkdTZ3A3dmxQazB2TDA2a0tpakdWV3p5NFgtZnh1U1VxdTZzTmwyUm9OeW9Sd2pWc1lCckhtTDRiY2VsVm5ZNm9aYzhvUzhCa3R0b282d3hmSzdpcjJLbkRUQV9GWjZuajVfR29ZWk55VlZFdGxzS2wzdjJiN1dkWWlNUjlpQUtjV3NyUEJfdDRrZ2xGYWlwR1pTdlR0cHJSSWJ4bHRsYTRp?oc=5",
-   "summary": "",
-   "ts": 1793613855.0,
-   "date": "2026-11-02 05:04",
-   "category": "International",
-   "is_law": false,
    "states": []
   },
   {
@@ -449,8 +427,30 @@
    "category": "International",
    "is_law": false,
    "states": []
+  },
+  {
+   "source": "Cannabis Health News (UK)",
+   "title": "Does Europe Need Shared Standards for Medical Cannabis?",
+   "link": "https://cannabishealthnews.co.uk/2026/10/30/silvia-von-pistor-medical-cannabis-quality-frankfurt/",
+   "summary": "Canify\u2019s Silvia von Pistor will join a discussion on medicine quality and what happens when patients need to switch products.",
+   "ts": 1793361628.0,
+   "date": "2026-10-30 08:00",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "Cannabis Health News (UK)",
+   "title": "\u2018Treatment is More Than Reducing Pain Intensity\u2019: Dr Michael \u00dcberall on the Future of Pain Medicine",
+   "link": "https://cannabishealthnews.co.uk/2026/10/30/dr-michael-uberall-on-the-future-of-pain-medicine/",
+   "summary": "Pain specialist Dr Michael \u00dcberall discusses cannabinoid-based medicines, opioids, and what meaningful improvement looks like for patients.",
+   "ts": 1793354401.0,
+   "date": "2026-10-30 06:00",
+   "category": "International",
+   "is_law": false,
+   "states": []
   }
  ],
  "news_health_total": 22,
- "generated": "2026-11-02 17:45 EST"
+ "generated": "2026-11-02 18:45 EST"
 }
