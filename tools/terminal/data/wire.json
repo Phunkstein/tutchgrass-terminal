@@ -38,8 +38,8 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 119"
   },
   {
    "source": "Google News: intl cannabis",
@@ -352,26 +352,28 @@
    ]
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "US Issues First Medical Cannabis Registrations Following Rescheduling",
-   "link": "https://stratcann.com/news/us-issues-first-medical-cannabis-registrations-following-rescheduling/",
-   "summary": "The US has issued the first registrations for medical cannabis dispensaries following rescheduling earlier this year and reviewing applications from manufacturers and distributors. The post US Issues First Medical Cannabis Registrations Following Rescheduling ",
-   "ts": 1793408183.0,
-   "date": "2026-10-30 20:56",
+   "source": "MJBizDaily",
+   "title": "Marijuana rescheduling: DEA recognizes first federally legal medical cannabis dispensaries",
+   "link": "https://mjbizdaily.com/news/dea-grants-federal-registration-to-900-medical-cannabis-dispensaries-in-seven-states/618979/",
+   "summary": "In separate guidance, the DEA instructed registered medical operators and pending applicants to \"establish compliant supply chains\" by November 29. Marijuana rescheduling: DEA recognizes first federally legal medical cannabis dispensaries is a post from: MJBiz",
+   "ts": 1793402263.0,
+   "date": "2026-10-30 19:17",
    "category": "US federal",
    "is_law": true,
    "states": []
   },
   {
-   "source": "Marijuana Moment",
-   "title": "DEA Refuses To Approve Marijuana Businesses In States That Allow Dual Medical And Recreational Licensing",
-   "link": "https://www.marijuanamoment.net/dea-refuses-to-approve-marijuana-businesses-in-states-that-allow-dual-medical-and-recreational-licensing/",
-   "summary": "While the Department of Justice announced on Friday that it has given federal registration and protections to more than 900 medical cannabis businesses across the U.S., it is also refusing to extend such approvals to cannabis operators in certain states. Accor",
-   "ts": 1793406652.0,
-   "date": "2026-10-30 20:30",
-   "category": "US federal",
+   "source": "MJBizDaily",
+   "title": "Alabama medical cannabis market continues slow rollout with more openings",
+   "link": "https://mjbizdaily.com/news/alabama-medical-cannabis-market-continues-slow-rollout-with-more-openings/618960/",
+   "summary": "The state will have as many as five dispensaries open by early November, state officials said Thursday, as possibly the most tortuous rollout of an MMJ program continues to slowly progress. Alabama medical cannabis market continues slow rollout with more openi",
+   "ts": 1793367055.0,
+   "date": "2026-10-30 09:30",
+   "category": "US states",
    "is_law": false,
-   "states": []
+   "states": [
+    "Alabama"
+   ]
   }
  ],
  "news_intl": [
@@ -382,17 +384,6 @@
    "summary": "Tilray Brands expects $10 million in annualized savings from consolidating Canadian cultivation and pre-roll operations. Tilray consolidates Canadian production as cannabis sales decline is a post from: MJBizDaily: Financial, Legal & Cannabusiness news for can",
    "ts": 1793670222.0,
    "date": "2026-11-02 20:43",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Tilray to Close Fenwick Redecan Facility, Shifting Production to Other Facilities",
-   "link": "https://stratcann.com/news/tilray-to-close-fenwick-facility-while-ensuring-uninterrupted-redecan-supply/",
-   "summary": "Tilray Brands has announced plans to consolidate its Canadian cannabis operations, moving cultivation and pre-roll production from its Foss facility in Fenwick, Ontario, to its... The post Tilray to Close Fenwick Redecan Facility, Shifting Production to Other ",
-   "ts": 1793634030.0,
-   "date": "2026-11-02 10:40",
    "category": "International",
    "is_law": false,
    "states": []
@@ -451,8 +442,30 @@
    "category": "International",
    "is_law": false,
    "states": []
+  },
+  {
+   "source": "Google News: intl cannabis",
+   "title": "Does Europe Need Shared Standards for Medical Cannabis? - cannabishealthnews.co.uk",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ0VPbGs3UmZhdGxKS3J2YlROSXRBeFItMEN3Y0d4bGZySm9oZUpza19YaWlFZlF5bFA4LTE5VGZfV00wOUxuc1dBS2lqTUdfTkdtTEJGTlFzRHBWbkJsQ1dDLVZvVTdabVc3YklBd2docWVBZ3RJbm5FSFRwUmFsdFM2NHM2cDdUOVVadHZ0emV4LXhVUnB6VkozWjh2Zw?oc=5",
+   "summary": "",
+   "ts": 1793377507.0,
+   "date": "2026-10-30 12:25",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "Cannabis Health News (UK)",
+   "title": "Does Europe Need Shared Standards for Medical Cannabis?",
+   "link": "https://cannabishealthnews.co.uk/2026/10/30/silvia-von-pistor-medical-cannabis-quality-frankfurt/",
+   "summary": "Canify\u2019s Silvia von Pistor will join a discussion on medicine quality and what happens when patients need to switch products.",
+   "ts": 1793361628.0,
+   "date": "2026-10-30 08:00",
+   "category": "International",
+   "is_law": false,
+   "states": []
   }
  ],
  "news_health_total": 21,
- "generated": "2026-11-03 05:45 EST"
+ "generated": "2026-11-03 06:45 EST"
 }
