@@ -38,14 +38,14 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 119"
   },
   {
    "source": "Google News: intl cannabis",
    "url": "https://news.google.com/rss/search?q=cannabis+(Germany+OR+Canada+OR+Thailand+OR+Europe+OR+Australia+OR+UK)+when:7d&hl=en-US&gl=US&ceid=US:en",
-   "status": "unavailable",
-   "error": "not well-formed (invalid token): line 1, column 252"
+   "status": "ok",
+   "items": 12
   },
   {
    "source": "Cannabis Health News (UK)",
@@ -350,17 +350,6 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "US Issues First Medical Cannabis Registrations Following Rescheduling",
-   "link": "https://stratcann.com/news/us-issues-first-medical-cannabis-registrations-following-rescheduling/",
-   "summary": "The US has issued the first registrations for medical cannabis dispensaries following rescheduling earlier this year and reviewing applications from manufacturers and distributors. The post US Issues First Medical Cannabis Registrations Following Rescheduling ",
-   "ts": 1793408183.0,
-   "date": "2026-10-30 20:56",
-   "category": "US federal",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "MJBizDaily",
    "title": "Marijuana rescheduling: DEA recognizes first federally legal medical cannabis dispensaries",
    "link": "https://mjbizdaily.com/news/dea-grants-federal-registration-to-900-medical-cannabis-dispensaries-in-seven-states/618979/",
@@ -370,6 +359,19 @@
    "category": "US federal",
    "is_law": true,
    "states": []
+  },
+  {
+   "source": "MJBizDaily",
+   "title": "Alabama medical cannabis market continues slow rollout with more openings",
+   "link": "https://mjbizdaily.com/news/alabama-medical-cannabis-market-continues-slow-rollout-with-more-openings/618960/",
+   "summary": "The state will have as many as five dispensaries open by early November, state officials said Thursday, as possibly the most tortuous rollout of an MMJ program continues to slowly progress. Alabama medical cannabis market continues slow rollout with more openi",
+   "ts": 1793367055.0,
+   "date": "2026-10-30 09:30",
+   "category": "US states",
+   "is_law": false,
+   "states": [
+    "Alabama"
+   ]
   }
  ],
  "news_intl": [
@@ -396,6 +398,17 @@
    "states": []
   },
   {
+   "source": "Google News: intl cannabis",
+   "title": "Rising supply resets wholesale medical cannabis flower prices in international markets - MMJDaily",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUVJzTGNESXRmekhpaFpzb2pzZWRjQ3otLVdQQUlFYTltMFUyOW80SnlGOU1ZMEVfTGh1WHZEclRHYURoVU9qbUkyeXByRTUtMF8xVE5wMF9jTUlRTmYwemVMamNCVnlocTM5a09Yc1N2NDZVc1RXS0pwbXpObzhWbzJPWjFyWHB6Nm9XSnlTODYzb0JYUUVELXp2akRfajI1dEllc0phbEVpX1B1RlZSMl9aRHJkdDVyY0xFR3k3Rl9oV3dISm5n?oc=5",
+   "summary": "",
+   "ts": 1793712454.0,
+   "date": "2026-11-03 08:27",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
    "source": "Cannabis Health News (UK)",
    "title": "What can Germany learn from Europe\u2019s other medical cannabis markets?",
    "link": "https://cannabishealthnews.co.uk/2026/11/03/what-can-germany-learn-from-europes-other-medical-cannabis-markets/",
@@ -413,17 +426,6 @@
    "summary": "Tilray Brands expects $10 million in annualized savings from consolidating Canadian cultivation and pre-roll operations. Tilray consolidates Canadian production as cannabis sales decline is a post from: MJBizDaily: Financial, Legal & Cannabusiness news for can",
    "ts": 1793670222.0,
    "date": "2026-11-02 20:43",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Tilray to Close Fenwick Redecan Facility, Shifting Production to Other Facilities",
-   "link": "https://stratcann.com/news/tilray-to-close-fenwick-facility-while-ensuring-uninterrupted-redecan-supply/",
-   "summary": "Tilray Brands has announced plans to consolidate its Canadian cannabis operations, moving cultivation and pre-roll production from its Foss facility in Fenwick, Ontario, to its... The post Tilray to Close Fenwick Redecan Facility, Shifting Production to Other ",
-   "ts": 1793634030.0,
-   "date": "2026-11-02 10:40",
    "category": "International",
    "is_law": false,
    "states": []
@@ -463,5 +465,5 @@
   }
  ],
  "news_health_total": 21,
- "generated": "2026-11-03 11:44 EST"
+ "generated": "2026-11-03 12:45 EST"
 }
