@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-02T17:33:39-0500",
- "generated_ts": 1793658819,
+ "generated": "2026-11-02T20:48:22-0500",
+ "generated_ts": 1793670503,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -23,8 +23,8 @@
   },
   {
    "source": "Business of Cannabis (intl)",
-   "status": "unavailable",
-   "items": 0
+   "status": "ok",
+   "items": 30
   },
   {
    "source": "StratCann (Canada)",
@@ -39,6 +39,19 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "tilrayconsolidatescanadianproductionascannabissalesdecline",
+   "title": "Tilray consolidates Canadian production as cannabis sales decline",
+   "link": "https://mjbizdaily.com/news/tilray-consolidates-canadian-production-as-cannabis-sales-decline/619005/",
+   "source": "MJBizDaily",
+   "category": "International",
+   "is_law": false,
+   "states": [],
+   "published": "2026-11-02T20:43:42-0500",
+   "published_ts": 1793670222.0,
+   "first_seen": "2026-11-02T20:48:22-0500",
+   "first_seen_ts": 1793670503
+  },
   {
    "id": "ottawapoliceraiddispensarytwiceinoneweek",
    "title": "Ottawa Police Raid Dispensary Twice in One Week",
