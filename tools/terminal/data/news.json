@@ -28,8 +28,8 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 119"
   },
   {
    "source": "Google News: intl cannabis",
@@ -38,18 +38,29 @@
    "items": 12
   }
  ],
- "total": 104,
+ "total": 92,
  "by_category": {
   "US federal": [
    {
+    "source": "Marijuana Moment",
+    "title": "AMA voices cannabis concerns to federal officials (Newsletter: November 3, 2026)",
+    "link": "https://www.marijuanamoment.net/ama-voices-cannabis-concerns-to-federal-officials-newsletter-november-3-2026/",
+    "summary": "Ted Cruz\u2019s marijuana & voting joke; NH gov & challenger debate cannabis; Police groups oppose MA legalization rollback; Federal registration op-ed Subscribe to receive Marijuana Moment\u2019s newsletter in your inbox every weekday morning. It\u2019s the best way to make",
+    "ts": 1793704339.0,
+    "date": "2026-11-03 06:12",
+    "category": "US federal",
+    "is_law": true,
+    "states": []
+   },
+   {
     "source": "MJBizDaily",
-    "title": "DEA registers medical marijuana MSO Trulieve, denies adult-use operators federal recognition",
+    "title": "DEA recognizes cannabis MSO Trulieve, denies marijuana rescheduling benefit to adult-use operators",
     "link": "https://mjbizdaily.com/news/dea-registers-medical-marijuana-mso-trulieve-denies-adult-use-operators-federal-recognition/619001/",
-    "summary": "Major cannabis multistate operator Trulieve Cannabis Corp. said Monday the U.S. Drug Enforcement Administration recognized some of its medical marijuana dispensaries as federally compliant under Schedule 3 of the Controlled Substances Act. At the same time, a ",
+    "summary": "More than 6,000 cannabis operators filed \"timely\" applications for registration with the DEA, which has granted recognition to more than 900 locations - including some owed by MSO Trulieve. DEA recognizes cannabis MSO Trulieve, denies marijuana rescheduling be",
     "ts": 1793650778.0,
     "date": "2026-11-02 15:19",
     "category": "US federal",
-    "is_law": false,
+    "is_law": true,
     "states": []
    },
    {
@@ -119,17 +130,6 @@
     "states": [
      "Missouri"
     ]
-   },
-   {
-    "source": "StratCann (Canada)",
-    "title": "US Issues First Medical Cannabis Registrations Following Rescheduling",
-    "link": "https://stratcann.com/news/us-issues-first-medical-cannabis-registrations-following-rescheduling/",
-    "summary": "The US has issued the first registrations for medical cannabis dispensaries following rescheduling earlier this year and reviewing applications from manufacturers and distributors. The post US Issues First Medical Cannabis Registrations Following Rescheduling ",
-    "ts": 1793408183.0,
-    "date": "2026-10-30 20:56",
-    "category": "US federal",
-    "is_law": true,
-    "states": []
    }
   ],
   "US states": [
@@ -263,36 +263,36 @@
     "states": []
    },
    {
-    "source": "StratCann (Canada)",
-    "title": "Ottawa Police Raid Dispensary Twice in One Week",
-    "link": "https://stratcann.com/enforcement/ottawa-police-raid-dispensary-twice-in-one-week/",
-    "summary": "The Ottawa Police Service (OPS) executed its second search warrant in the past seven days at a business operating on the 200 block of Preston... The post Ottawa Police Raid Dispensary Twice in One Week appeared first on StratCann .",
-    "ts": 1793658680.0,
-    "date": "2026-11-02 17:31",
+    "source": "Google News: intl cannabis",
+    "title": "Aurora Cannabis Inc. (ACB.TO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SVWFjUE1hT2xZV0N3ZVI3b24zQ3JpTE1GWlJPRFFpU1JhTmY1b08wdXpSU3liUkR4RE1uWWRueTVoTmlVdWdieUZDdDU1UEdBZ2hxSg?oc=5",
+    "summary": "",
+    "ts": 1793664208.0,
+    "date": "2026-11-02 19:03",
     "category": "International",
     "is_law": false,
     "states": []
    },
    {
     "source": "Google News: intl cannabis",
-    "title": "Tilray Brands Plans to Consolidate Its Canadian Cannabis Operations - Cannabis Business Times",
-    "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQekNzcnFnc3dwRGEtWUlYd2pRSFJZSUU5YXpDRlA3M0twcWl2TWZQb3NubWVWS0RMVFU1Z3k4dUY3RUU4SXpwOU01aHJMb1BpZThvb2xoT2FqNUJ5OVdEaWtObHlvZ0UyVDBwUUdKbjRoVk1aLVAwbXZoenpaOWQ5WGd4WXJOSlhPVmJpUS1QelItU21SVkloUUpNQ0lTbE1ZVTNxVXEwUnpPUWxJd0hnLTlQRHRvR1E4MF9VMTE0UnE1UzZFV216UnFqdkdCc2lOc19ldlh3Ump2R3I2VEdrNGc4YWlUeW9SUXdVcVBRbTNiU29WSzlueFZ2RE03c1hN?oc=5",
+    "title": "Jail for group who smuggled drugs into prisons in food packets - BBC",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16eTZSbXFXdlV2MDd5VjY2U3BIamVtNnF2U1FzVUVJNlF0SEJzdmJIUktuX3lYdWlzYy1JRnhod0c5S0hUeGIxNDdmR3ZVMGNCWHRmdnlZU3Bjanc?oc=5",
     "summary": "",
-    "ts": 1793643278.0,
-    "date": "2026-11-02 13:14",
+    "ts": 1793642302.0,
+    "date": "2026-11-02 12:58",
     "category": "International",
     "is_law": false,
     "states": []
    },
    {
-    "source": "StratCann (Canada)",
-    "title": "Tilray to Close Fenwick Redecan Facility, Shifting Production to Other Facilities",
-    "link": "https://stratcann.com/news/tilray-to-close-fenwick-facility-while-ensuring-uninterrupted-redecan-supply/",
-    "summary": "Tilray Brands has announced plans to consolidate its Canadian cannabis operations, moving cultivation and pre-roll production from its Foss facility in Fenwick, Ontario, to its... The post Tilray to Close Fenwick Redecan Facility, Shifting Production to Other ",
-    "ts": 1793634030.0,
-    "date": "2026-11-02 10:40",
+    "source": "Google News: intl cannabis",
+    "title": "Alcohol Use Declined In Germany After Cannabis Legalization - International Cannabis Business Conference",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUjZyVndOM1BDZ0d3RGpNV3EwcEZiUzRkVHNYaWFJSWxBbldKWkdQdkJneVhPaWlJMHdyNm5qTHZDLTllZWo0bTdnNHBGQ2pwTWVHY1hrZ0l2SjY2R0JkckluU0tlU0d1OU9BM1l5cFhzbERRazN2TjJCdFQtQWQwWnNScVZMWFZrNHdxblcweUVpMVk?oc=5",
+    "summary": "",
+    "ts": 1793635862.0,
+    "date": "2026-11-02 11:11",
     "category": "International",
-    "is_law": false,
+    "is_law": true,
     "states": []
    },
    {
@@ -307,10 +307,10 @@
     "states": []
    },
    {
-    "source": "StratCann (Canada)",
-    "title": "Cannabis Jobs Update \u2013 November 2026",
-    "link": "https://stratcann.com/news/cannabis-jobs-update-november-2026/",
-    "summary": "Canada's cannabis job market continues to grow, with new career opportunities across the country. In our November 2026 job posting roundup, you'll find roles in... The post Cannabis Jobs Update \u2013 November 2026 appeared first on StratCann .",
+    "source": "Google News: intl cannabis",
+    "title": "Cannabis Jobs Update \u2013 November 2026 - StratCann",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9pZ25TWWNCc0xBNVh1NHVXNWFRSWgtRUpXd3lQS1Brb3NXMmRmeGdNMUVQS3dualVkMXdhSU53eHlKRTFxaXJEZ0prZXcxdi0tOXlPRllPYlJrZ0lMaG1iRmZoV3ZYcl80X2pPT3dhYw?oc=5",
+    "summary": "",
     "ts": 1793585947.0,
     "date": "2026-11-01 21:19",
     "category": "International",
@@ -319,11 +319,11 @@
    },
    {
     "source": "Google News: intl cannabis",
-    "title": "Aurora Cannabis Inc. (ACB.TO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SVWFjUE1hT2xZV0N3ZVI3b24zQ3JpTE1GWlJPRFFpU1JhTmY1b08wdXpSU3liUkR4RE1uWWRueTVoTmlVdWdieUZDdDU1UEdBZ2hxSg?oc=5",
+    "title": "The UK\u2019s legal cannabis market is booming \u2013 so why can\u2019t this talented artist get any to treat his epilepsy? | Kojo Koram - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcVpNVl9DcG96MkRHNmQ1R1ZXWmtYZ1lqVnRCd01ZT0FsUzdKOVpFaGtUa1RXRWtvbkduZU9sQTlOV0wyOXhWQ2dkMXYyMzFzZGFTSlZRUlYtZ2EwTUNRSXg1dzBGaWhUSEIzODJaLXpiLWtKUVBEYXFjeFhSTjM4RlFXdXBRRXJsVVRVS3Bvem8xNUd6SDFHZGtUbXB5Q2lwX3pDWEJ5SUx5c0U?oc=5",
     "summary": "",
-    "ts": 1793575973.0,
-    "date": "2026-11-01 18:32",
+    "ts": 1793551920.0,
+    "date": "2026-11-01 11:52",
     "category": "International",
     "is_law": false,
     "states": []
@@ -422,6 +422,17 @@
  },
  "latest": [
   {
+   "source": "Marijuana Moment",
+   "title": "AMA voices cannabis concerns to federal officials (Newsletter: November 3, 2026)",
+   "link": "https://www.marijuanamoment.net/ama-voices-cannabis-concerns-to-federal-officials-newsletter-november-3-2026/",
+   "summary": "Ted Cruz\u2019s marijuana & voting joke; NH gov & challenger debate cannabis; Police groups oppose MA legalization rollback; Federal registration op-ed Subscribe to receive Marijuana Moment\u2019s newsletter in your inbox every weekday morning. It\u2019s the best way to make",
+   "ts": 1793704339.0,
+   "date": "2026-11-03 06:12",
+   "category": "US federal",
+   "is_law": true,
+   "states": []
+  },
+  {
    "source": "Google News: intl cannabis",
    "title": "Tilray consolidates Canadian production as cannabis sales decline - MJBizDaily",
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX1FQZnQ3QUdYdkwxTXcxX01rajY1TnVGU0gySjZid1kxX2E3bEh2cUNySTg3SXczcFF1cENEMkRIN0FaQ2hvUzlzVzlSdTlwYlBPbzdyUUw2LTlqOUtyWGNvV3lqenAtaWM2QVFJaVVVWlotYmJRX3dJa2NGa0xIQlF0cHJabHIxbHV4am9uamZ4Y21CUnBrLUkweWFOdkFTb1Nn?oc=5",
@@ -444,34 +455,34 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Ottawa Police Raid Dispensary Twice in One Week",
-   "link": "https://stratcann.com/enforcement/ottawa-police-raid-dispensary-twice-in-one-week/",
-   "summary": "The Ottawa Police Service (OPS) executed its second search warrant in the past seven days at a business operating on the 200 block of Preston... The post Ottawa Police Raid Dispensary Twice in One Week appeared first on StratCann .",
-   "ts": 1793658680.0,
-   "date": "2026-11-02 17:31",
+   "source": "Google News: intl cannabis",
+   "title": "Aurora Cannabis Inc. (ACB.TO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SVWFjUE1hT2xZV0N3ZVI3b24zQ3JpTE1GWlJPRFFpU1JhTmY1b08wdXpSU3liUkR4RE1uWWRueTVoTmlVdWdieUZDdDU1UEdBZ2hxSg?oc=5",
+   "summary": "",
+   "ts": 1793664208.0,
+   "date": "2026-11-02 19:03",
    "category": "International",
    "is_law": false,
    "states": []
   },
   {
    "source": "MJBizDaily",
-   "title": "DEA registers medical marijuana MSO Trulieve, denies adult-use operators federal recognition",
+   "title": "DEA recognizes cannabis MSO Trulieve, denies marijuana rescheduling benefit to adult-use operators",
    "link": "https://mjbizdaily.com/news/dea-registers-medical-marijuana-mso-trulieve-denies-adult-use-operators-federal-recognition/619001/",
-   "summary": "Major cannabis multistate operator Trulieve Cannabis Corp. said Monday the U.S. Drug Enforcement Administration recognized some of its medical marijuana dispensaries as federally compliant under Schedule 3 of the Controlled Substances Act. At the same time, a ",
+   "summary": "More than 6,000 cannabis operators filed \"timely\" applications for registration with the DEA, which has granted recognition to more than 900 locations - including some owed by MSO Trulieve. DEA recognizes cannabis MSO Trulieve, denies marijuana rescheduling be",
    "ts": 1793650778.0,
    "date": "2026-11-02 15:19",
    "category": "US federal",
-   "is_law": false,
+   "is_law": true,
    "states": []
   },
   {
    "source": "Google News: intl cannabis",
-   "title": "Tilray Brands Plans to Consolidate Its Canadian Cannabis Operations - Cannabis Business Times",
-   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQekNzcnFnc3dwRGEtWUlYd2pRSFJZSUU5YXpDRlA3M0twcWl2TWZQb3NubWVWS0RMVFU1Z3k4dUY3RUU4SXpwOU01aHJMb1BpZThvb2xoT2FqNUJ5OVdEaWtObHlvZ0UyVDBwUUdKbjRoVk1aLVAwbXZoenpaOWQ5WGd4WXJOSlhPVmJpUS1QelItU21SVkloUUpNQ0lTbE1ZVTNxVXEwUnpPUWxJd0hnLTlQRHRvR1E4MF9VMTE0UnE1UzZFV216UnFqdkdCc2lOc19ldlh3Ump2R3I2VEdrNGc4YWlUeW9SUXdVcVBRbTNiU29WSzlueFZ2RE03c1hN?oc=5",
+   "title": "Jail for group who smuggled drugs into prisons in food packets - BBC",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16eTZSbXFXdlV2MDd5VjY2U3BIamVtNnF2U1FzVUVJNlF0SEJzdmJIUktuX3lYdWlzYy1JRnhod0c5S0hUeGIxNDdmR3ZVMGNCWHRmdnlZU3Bjanc?oc=5",
    "summary": "",
-   "ts": 1793643278.0,
-   "date": "2026-11-02 13:14",
+   "ts": 1793642302.0,
+   "date": "2026-11-02 12:58",
    "category": "International",
    "is_law": false,
    "states": []
@@ -512,6 +523,17 @@
    "states": []
   },
   {
+   "source": "Google News: intl cannabis",
+   "title": "Alcohol Use Declined In Germany After Cannabis Legalization - International Cannabis Business Conference",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUjZyVndOM1BDZ0d3RGpNV3EwcEZiUzRkVHNYaWFJSWxBbldKWkdQdkJneVhPaWlJMHdyNm5qTHZDLTllZWo0bTdnNHBGQ2pwTWVHY1hrZ0l2SjY2R0JkckluU0tlU0d1OU9BM1l5cFhzbERRazN2TjJCdFQtQWQwWnNScVZMWFZrNHdxblcweUVpMVk?oc=5",
+   "summary": "",
+   "ts": 1793635862.0,
+   "date": "2026-11-02 11:11",
+   "category": "International",
+   "is_law": true,
+   "states": []
+  },
+  {
    "source": "Marijuana Moment",
    "title": "New Hampshire GOP Governor Bashes Democratic Challenger\u2019s Marijuana Legalization Support, Calling Her An \u2018Opioid Lobbyist\u2019",
    "link": "https://www.marijuanamoment.net/new-hampshire-gop-governor-bashes-democratic-challengers-marijuana-legalization-support-calling-her-an-opioid-lobbyist/",
@@ -524,17 +546,6 @@
     "Hampshire",
     "New"
    ]
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Tilray to Close Fenwick Redecan Facility, Shifting Production to Other Facilities",
-   "link": "https://stratcann.com/news/tilray-to-close-fenwick-facility-while-ensuring-uninterrupted-redecan-supply/",
-   "summary": "Tilray Brands has announced plans to consolidate its Canadian cannabis operations, moving cultivation and pre-roll production from its Foss facility in Fenwick, Ontario, to its... The post Tilray to Close Fenwick Redecan Facility, Shifting Production to Other ",
-   "ts": 1793634030.0,
-   "date": "2026-11-02 10:40",
-   "category": "International",
-   "is_law": false,
-   "states": []
   },
   {
    "source": "Marijuana Moment",
@@ -592,34 +603,12 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Cannabis Jobs Update \u2013 November 2026",
-   "link": "https://stratcann.com/news/cannabis-jobs-update-november-2026/",
-   "summary": "Canada's cannabis job market continues to grow, with new career opportunities across the country. In our November 2026 job posting roundup, you'll find roles in... The post Cannabis Jobs Update \u2013 November 2026 appeared first on StratCann .",
+   "source": "Google News: intl cannabis",
+   "title": "Cannabis Jobs Update \u2013 November 2026 - StratCann",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9pZ25TWWNCc0xBNVh1NHVXNWFRSWgtRUpXd3lQS1Brb3NXMmRmeGdNMUVQS3dualVkMXdhSU53eHlKRTFxaXJEZ0prZXcxdi0tOXlPRllPYlJrZ0lMaG1iRmZoV3ZYcl80X2pPT3dhYw?oc=5",
+   "summary": "",
    "ts": 1793585947.0,
    "date": "2026-11-01 21:19",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Aurora Cannabis Inc. (ACB.TO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SVWFjUE1hT2xZV0N3ZVI3b24zQ3JpTE1GWlJPRFFpU1JhTmY1b08wdXpSU3liUkR4RE1uWWRueTVoTmlVdWdieUZDdDU1UEdBZ2hxSg?oc=5",
-   "summary": "",
-   "ts": 1793575973.0,
-   "date": "2026-11-01 18:32",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Aurora Cannabis Inc. (ACB) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE96WW9CWmltMkZtR0dBRHdtdHJINnZERV9IV3JhUm9zVHVwLUJJVm56SFVMRzZzNzFZTFlCcThLUTVIcWJvdVVzZmRzcDM0b1lJ?oc=5",
-   "summary": "",
-   "ts": 1793553542.0,
-   "date": "2026-11-01 12:19",
    "category": "International",
    "is_law": false,
    "states": []
@@ -675,39 +664,6 @@
    ]
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Week in Weed \u2013 October 31, 2026",
-   "link": "https://stratcann.com/news/week-in-weed-october-31-2026/",
-   "summary": "StratCann\u2019s weekly round-up o cannabis industry news for the week ending October 31, 2026. The post Week in Weed \u2013 October 31, 2026 appeared first on StratCann .",
-   "ts": 1793445600.0,
-   "date": "2026-10-31 07:20",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "US Issues First Medical Cannabis Registrations Following Rescheduling",
-   "link": "https://stratcann.com/news/us-issues-first-medical-cannabis-registrations-following-rescheduling/",
-   "summary": "The US has issued the first registrations for medical cannabis dispensaries following rescheduling earlier this year and reviewing applications from manufacturers and distributors. The post US Issues First Medical Cannabis Registrations Following Rescheduling ",
-   "ts": 1793408183.0,
-   "date": "2026-10-30 20:56",
-   "category": "US federal",
-   "is_law": true,
-   "states": []
-  },
-  {
-   "source": "Marijuana Moment",
-   "title": "DEA Refuses To Approve Marijuana Businesses In States That Allow Dual Medical And Recreational Licensing",
-   "link": "https://www.marijuanamoment.net/dea-refuses-to-approve-marijuana-businesses-in-states-that-allow-dual-medical-and-recreational-licensing/",
-   "summary": "While the Department of Justice announced on Friday that it has given federal registration and protections to more than 900 medical cannabis businesses across the U.S., it is also refusing to extend such approvals to cannabis operators in certain states. Accor",
-   "ts": 1793406652.0,
-   "date": "2026-10-30 20:30",
-   "category": "US federal",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "MJBizDaily",
    "title": "Marijuana rescheduling: DEA recognizes first federally legal medical cannabis dispensaries",
    "link": "https://mjbizdaily.com/news/dea-grants-federal-registration-to-900-medical-cannabis-dispensaries-in-seven-states/618979/",
@@ -732,17 +688,6 @@
    ]
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Hamilton Police Shut Down Illegal Cannabis Dispensary",
-   "link": "https://stratcann.com/enforcement/hamilton-police-shut-down-illegal-cannabis-dispensary/",
-   "summary": "Hamilton Police have shut down two illegal cannabis stores, one of which reopened following a previous search warrant. The post Hamilton Police Shut Down Illegal Cannabis Dispensary appeared first on StratCann .",
-   "ts": 1793393191.0,
-   "date": "2026-10-30 16:46",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Google News: intl cannabis",
    "title": "Does Europe Need Shared Standards for Medical Cannabis? - cannabishealthnews.co.uk",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ0VPbGs3UmZhdGxKS3J2YlROSXRBeFItMEN3Y0d4bGZySm9oZUpza19YaWlFZlF5bFA4LTE5VGZfV00wOUxuc1dBS2lqTUdfTkdtTEJGTlFzRHBWbkJsQ1dDLVZvVTdabVc3YklBd2docWVBZ3RJbm5FSFRwUmFsdFM2NHM2cDdUOVVadHZ0emV4LXhVUnB6VkozWjh2Zw?oc=5",
@@ -765,9 +710,78 @@
    "states": [
     "Alabama"
    ]
+  },
+  {
+   "source": "MJBizDaily",
+   "title": "How cannabis employers are taking worker healthcare benefits into their own hands",
+   "link": "https://mjbizdaily.com/news/how-cannabis-employers-are-taking-worker-healthcare-benefits-into-their-own-hands/618948/",
+   "summary": "Cannabis employers may wish to consider healthcare captives when choosing employee benefits. How cannabis employers are taking worker healthcare benefits into their own hands is a post from: MJBizDaily: Financial, Legal & Cannabusiness news for cannabis entrep",
+   "ts": 1793356259.0,
+   "date": "2026-10-30 06:30",
+   "category": "Industry",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "MJBizDaily",
+   "title": "New York governor signs cannabis labor bill, moves to scrap wage board",
+   "link": "https://mjbizdaily.com/news/new-york-governor-signs-cannabis-labor-bill-moves-to-scrap-wage-board/618941/",
+   "summary": "Gov. Kathy Hochul said a cannabis wage board could raise costs and drive consumers to the illicit market. Changes also end the labor peace mandate. New York governor signs cannabis labor bill, moves to scrap wage board is a post from: MJBizDaily: Financial, Le",
+   "ts": 1793307132.0,
+   "date": "2026-10-29 16:52",
+   "category": "US states",
+   "is_law": true,
+   "states": [
+    "New"
+   ]
+  },
+  {
+   "source": "MJBizDaily",
+   "title": "State hemp THC bans are already boosting marijuana MSO revenue",
+   "link": "https://mjbizdaily.com/news/state-hemp-thc-bans-are-already-boosting-marijuana-mso-revenue/618933/",
+   "summary": "Ohio cannabis sales are up 25% since a state ban on hemp THC products sold outside of licensed marijuana retailers took effect, and marijuana MSOs are benefiting. State hemp THC bans are already boosting marijuana MSO revenue is a post from: MJBizDaily: Financ",
+   "ts": 1793300509.0,
+   "date": "2026-10-29 15:01",
+   "category": "US states",
+   "is_law": true,
+   "states": [
+    "Ohio"
+   ]
+  },
+  {
+   "source": "MJBizDaily",
+   "title": "Cannabis MSO Vireo bets on acquisitions to reach $100 million per market",
+   "link": "https://mjbizdaily.com/news/vireo-growth-bets-on-acquisitions-to-reach-100-million-per-market/618499/",
+   "summary": "CEO John Mazarakis explains how acquisitions, organic growth and market density will push its core markets past $100 million in revenue. Cannabis MSO Vireo bets on acquisitions to reach $100 million per market is a post from: MJBizDaily: Financial, Legal & Can",
+   "ts": 1793290781.0,
+   "date": "2026-10-29 12:19",
+   "category": "Industry",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "Business of Cannabis (intl)",
+   "title": "Whole Hemp Plant Could Soon Be Recognised as Agricultural Crop in the EU, but States Will Keep Power to Criminalise",
+   "link": "https://businessofcannabis.com/whole-hemp-plant-could-soon-be-recognised-as-agricultural-crop-in-the-eu-but-states-will-keep-power-to-criminalise/",
+   "summary": "The Council of the European Union has adopted proposals that would see the whole hemp plant, including inflorescences and leaves, recognised as an ordinary agricultural product. On October 19, the Council approved document ST 14647/26 as its \u2018negotiating manda",
+   "ts": 1793268901.0,
+   "date": "2026-10-29 06:15",
+   "category": "International",
+   "is_law": false,
+   "states": []
   }
  ],
  "all": [
+  {
+   "source": "Marijuana Moment",
+   "title": "AMA voices cannabis concerns to federal officials (Newsletter: November 3, 2026)",
+   "link": "https://www.marijuanamoment.net/ama-voices-cannabis-concerns-to-federal-officials-newsletter-november-3-2026/",
+   "ts": 1793704339.0,
+   "date": "2026-11-03 06:12",
+   "category": "US federal",
+   "is_law": true,
+   "states": []
+  },
   {
    "source": "Google News: intl cannabis",
    "title": "Tilray consolidates Canadian production as cannabis sales decline - MJBizDaily",
@@ -789,31 +803,31 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Ottawa Police Raid Dispensary Twice in One Week",
-   "link": "https://stratcann.com/enforcement/ottawa-police-raid-dispensary-twice-in-one-week/",
-   "ts": 1793658680.0,
-   "date": "2026-11-02 17:31",
+   "source": "Google News: intl cannabis",
+   "title": "Aurora Cannabis Inc. (ACB.TO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SVWFjUE1hT2xZV0N3ZVI3b24zQ3JpTE1GWlJPRFFpU1JhTmY1b08wdXpSU3liUkR4RE1uWWRueTVoTmlVdWdieUZDdDU1UEdBZ2hxSg?oc=5",
+   "ts": 1793664208.0,
+   "date": "2026-11-02 19:03",
    "category": "International",
    "is_law": false,
    "states": []
   },
   {
    "source": "MJBizDaily",
-   "title": "DEA registers medical marijuana MSO Trulieve, denies adult-use operators federal recognition",
+   "title": "DEA recognizes cannabis MSO Trulieve, denies marijuana rescheduling benefit to adult-use operators",
    "link": "https://mjbizdaily.com/news/dea-registers-medical-marijuana-mso-trulieve-denies-adult-use-operators-federal-recognition/619001/",
    "ts": 1793650778.0,
    "date": "2026-11-02 15:19",
    "category": "US federal",
-   "is_law": false,
+   "is_law": true,
    "states": []
   },
   {
    "source": "Google News: intl cannabis",
-   "title": "Tilray Brands Plans to Consolidate Its Canadian Cannabis Operations - Cannabis Business Times",
-   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQekNzcnFnc3dwRGEtWUlYd2pRSFJZSUU5YXpDRlA3M0twcWl2TWZQb3NubWVWS0RMVFU1Z3k4dUY3RUU4SXpwOU01aHJMb1BpZThvb2xoT2FqNUJ5OVdEaWtObHlvZ0UyVDBwUUdKbjRoVk1aLVAwbXZoenpaOWQ5WGd4WXJOSlhPVmJpUS1QelItU21SVkloUUpNQ0lTbE1ZVTNxVXEwUnpPUWxJd0hnLTlQRHRvR1E4MF9VMTE0UnE1UzZFV216UnFqdkdCc2lOc19ldlh3Ump2R3I2VEdrNGc4YWlUeW9SUXdVcVBRbTNiU29WSzlueFZ2RE03c1hN?oc=5",
-   "ts": 1793643278.0,
-   "date": "2026-11-02 13:14",
+   "title": "Jail for group who smuggled drugs into prisons in food packets - BBC",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16eTZSbXFXdlV2MDd5VjY2U3BIamVtNnF2U1FzVUVJNlF0SEJzdmJIUktuX3lYdWlzYy1JRnhod0c5S0hUeGIxNDdmR3ZVMGNCWHRmdnlZU3Bjanc?oc=5",
+   "ts": 1793642302.0,
+   "date": "2026-11-02 12:58",
    "category": "International",
    "is_law": false,
    "states": []
@@ -851,6 +865,16 @@
    "states": []
   },
   {
+   "source": "Google News: intl cannabis",
+   "title": "Alcohol Use Declined In Germany After Cannabis Legalization - International Cannabis Business Conference",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUjZyVndOM1BDZ0d3RGpNV3EwcEZiUzRkVHNYaWFJSWxBbldKWkdQdkJneVhPaWlJMHdyNm5qTHZDLTllZWo0bTdnNHBGQ2pwTWVHY1hrZ0l2SjY2R0JkckluU0tlU0d1OU9BM1l5cFhzbERRazN2TjJCdFQtQWQwWnNScVZMWFZrNHdxblcweUVpMVk?oc=5",
+   "ts": 1793635862.0,
+   "date": "2026-11-02 11:11",
+   "category": "International",
+   "is_law": true,
+   "states": []
+  },
+  {
    "source": "Marijuana Moment",
    "title": "New Hampshire GOP Governor Bashes Democratic Challenger\u2019s Marijuana Legalization Support, Calling Her An \u2018Opioid Lobbyist\u2019",
    "link": "https://www.marijuanamoment.net/new-hampshire-gop-governor-bashes-democratic-challengers-marijuana-legalization-support-calling-her-an-opioid-lobbyist/",
@@ -862,16 +886,6 @@
     "Hampshire",
     "New"
    ]
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Tilray to Close Fenwick Redecan Facility, Shifting Production to Other Facilities",
-   "link": "https://stratcann.com/news/tilray-to-close-fenwick-facility-while-ensuring-uninterrupted-redecan-supply/",
-   "ts": 1793634030.0,
-   "date": "2026-11-02 10:40",
-   "category": "International",
-   "is_law": false,
-   "states": []
   },
   {
    "source": "Marijuana Moment",
@@ -924,31 +938,11 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Cannabis Jobs Update \u2013 November 2026",
-   "link": "https://stratcann.com/news/cannabis-jobs-update-november-2026/",
+   "source": "Google News: intl cannabis",
+   "title": "Cannabis Jobs Update \u2013 November 2026 - StratCann",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9pZ25TWWNCc0xBNVh1NHVXNWFRSWgtRUpXd3lQS1Brb3NXMmRmeGdNMUVQS3dualVkMXdhSU53eHlKRTFxaXJEZ0prZXcxdi0tOXlPRllPYlJrZ0lMaG1iRmZoV3ZYcl80X2pPT3dhYw?oc=5",
    "ts": 1793585947.0,
    "date": "2026-11-01 21:19",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Aurora Cannabis Inc. (ACB.TO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SVWFjUE1hT2xZV0N3ZVI3b24zQ3JpTE1GWlJPRFFpU1JhTmY1b08wdXpSU3liUkR4RE1uWWRueTVoTmlVdWdieUZDdDU1UEdBZ2hxSg?oc=5",
-   "ts": 1793575973.0,
-   "date": "2026-11-01 18:32",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Aurora Cannabis Inc. (ACB) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE96WW9CWmltMkZtR0dBRHdtdHJINnZERV9IV3JhUm9zVHVwLUJJVm56SFVMRzZzNzFZTFlCcThLUTVIcWJvdVVzZmRzcDM0b1lJ?oc=5",
-   "ts": 1793553542.0,
-   "date": "2026-11-01 12:19",
    "category": "International",
    "is_law": false,
    "states": []
@@ -1000,36 +994,6 @@
    ]
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Week in Weed \u2013 October 31, 2026",
-   "link": "https://stratcann.com/news/week-in-weed-october-31-2026/",
-   "ts": 1793445600.0,
-   "date": "2026-10-31 07:20",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "US Issues First Medical Cannabis Registrations Following Rescheduling",
-   "link": "https://stratcann.com/news/us-issues-first-medical-cannabis-registrations-following-rescheduling/",
-   "ts": 1793408183.0,
-   "date": "2026-10-30 20:56",
-   "category": "US federal",
-   "is_law": true,
-   "states": []
-  },
-  {
-   "source": "Marijuana Moment",
-   "title": "DEA Refuses To Approve Marijuana Businesses In States That Allow Dual Medical And Recreational Licensing",
-   "link": "https://www.marijuanamoment.net/dea-refuses-to-approve-marijuana-businesses-in-states-that-allow-dual-medical-and-recreational-licensing/",
-   "ts": 1793406652.0,
-   "date": "2026-10-30 20:30",
-   "category": "US federal",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "MJBizDaily",
    "title": "Marijuana rescheduling: DEA recognizes first federally legal medical cannabis dispensaries",
    "link": "https://mjbizdaily.com/news/dea-grants-federal-registration-to-900-medical-cannabis-dispensaries-in-seven-states/618979/",
@@ -1052,16 +1016,6 @@
    ]
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Hamilton Police Shut Down Illegal Cannabis Dispensary",
-   "link": "https://stratcann.com/enforcement/hamilton-police-shut-down-illegal-cannabis-dispensary/",
-   "ts": 1793393191.0,
-   "date": "2026-10-30 16:46",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Google News: intl cannabis",
    "title": "Does Europe Need Shared Standards for Medical Cannabis? - cannabishealthnews.co.uk",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ0VPbGs3UmZhdGxKS3J2YlROSXRBeFItMEN3Y0d4bGZySm9oZUpza19YaWlFZlF5bFA4LTE5VGZfV00wOUxuc1dBS2lqTUdfTkdtTEJGTlFzRHBWbkJsQ1dDLVZvVTdabVc3YklBd2docWVBZ3RJbm5FSFRwUmFsdFM2NHM2cDdUOVVadHZ0emV4LXhVUnB6VkozWjh2Zw?oc=5",
@@ -1082,16 +1036,6 @@
    "states": [
     "Alabama"
    ]
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "TobaGrown Acquires Great Gardener Farms",
-   "link": "https://stratcann.com/news/tobagrown-acquires-great-gardener-farms/",
-   "ts": 1793366640.0,
-   "date": "2026-10-30 09:24",
-   "category": "International",
-   "is_law": false,
-   "states": []
   },
   {
    "source": "MJBizDaily",
@@ -1138,31 +1082,11 @@
    "states": []
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "Montu Says Cannabis Posts Had No Advertising Intent - Law360",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQai1la2Nuam5RYmRMLUtjUTc1eXM5WkVUVzcyYldlQk9BaFh6TkJTNHc0XzlHYUgzNkdsN3Z0cmR3Q3FHZXFfekl4dkthejBEbnYzZEtzMXc2b2dDWXdtRS1SX2FGR2RxSWVoZlFJYXF1QW5LUGpDQ2g0WmhpREJqNDhmTEVveXFwLUsyLXg3VTBnelYtd0HSAVhBVV95cUxPWXVjTE1Vbk9sc1JiMUZLY083ckpqMFNUN1kyYmRxaXFBZXQ1VzJNenlzelAzQmQ3QkRkYzdmOGRMdGVaalJEczBjNGJTM3hSMV9nazZ6TDF2?oc=5",
-   "ts": 1793275033.0,
-   "date": "2026-10-29 07:57",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "Business of Cannabis (intl)",
    "title": "Whole Hemp Plant Could Soon Be Recognised as Agricultural Crop in the EU, but States Will Keep Power to Criminalise",
    "link": "https://businessofcannabis.com/whole-hemp-plant-could-soon-be-recognised-as-agricultural-crop-in-the-eu-but-states-will-keep-power-to-criminalise/",
    "ts": 1793268901.0,
    "date": "2026-10-29 06:15",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Vanquish Brands Announces 2026 Financial Results",
-   "link": "https://stratcann.com/financials/vanquish-brands-2026-financial-pistol-and-paris/",
-   "ts": 1793233240.0,
-   "date": "2026-10-28 20:20",
    "category": "International",
    "is_law": false,
    "states": []
@@ -1187,16 +1111,6 @@
    "date": "2026-10-28 17:26",
    "category": "International",
    "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Declining Cannabis Use and Growing Legal Market Adoption in Quebec",
-   "link": "https://stratcann.com/news/declining-cannabis-use-and-growing-legal-market-adoption-in-quebec/",
-   "ts": 1793214966.0,
-   "date": "2026-10-28 15:16",
-   "category": "International",
-   "is_law": true,
    "states": []
   },
   {
@@ -1295,31 +1209,11 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Navigating International Markets as a Canadian Cannabis Grower",
-   "link": "https://stratcann.com/news/navigating-international-markets-as-a-canadian-cannabis-grower/",
-   "ts": 1793133670.0,
-   "date": "2026-10-27 16:41",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "Google News: intl cannabis",
    "title": "Do more cannabis stores near schools mean more teens use cannabis? Our research suggests the answer is complicated - The Conversation",
    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNdE1kQXBabG1PcUhGeGtKUTA4Ml92X2pUMmg3U3ZRMlFnRXVkRDlnSDNqVWQwUlFkb09DUTJoRDVsZFBxaS0yNlV0UHhVSkxvd3MydXZTdDI2bXdiWXQxRkJOdHpuWE05WExqbU5kTU1qeURxcmQ0akd1NGhqYzlSLXJlNk11ZTJsa0stdFpkNXB6cEV4MllhZ0lHdGlVMGVDS2JGeHNqYVNUbmZzVzZCZVB3QW9laElmVEZUTUhzMTVOeGxxaWhDZ0ZCdmEtcmRDY1lMOE9ta1paOThUQ0RNVk5n?oc=5",
    "ts": 1793117442.0,
    "date": "2026-10-27 12:10",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "SNDL\u2019s Record Retail Margins Offset by Impairments and Net Loss in Q3 2026",
-   "link": "https://stratcann.com/financials/sndls-record-retail-margins-offset-by-impairments-and-net-loss-in-q3-2026/",
-   "ts": 1793110816.0,
-   "date": "2026-10-27 10:20",
    "category": "International",
    "is_law": false,
    "states": []
@@ -1365,16 +1259,6 @@
    "ts": 1793035252.0,
    "date": "2026-10-26 13:20",
    "category": "Industry",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Aurora: Alberta Securities Commission Dismisses Curaleaf\u2019s Application to Halt ATM",
-   "link": "https://stratcann.com/news/aurora-alberta-securities-commission-dismisses-curaleafs-application-to-halt-atm/",
-   "ts": 1793030660.0,
-   "date": "2026-10-26 12:04",
-   "category": "International",
    "is_law": false,
    "states": []
   },
@@ -1868,5 +1752,5 @@
    "states": []
   }
  ],
- "generated": "2026-11-02 20:53 EST"
+ "generated": "2026-11-03 06:13 EST"
 }

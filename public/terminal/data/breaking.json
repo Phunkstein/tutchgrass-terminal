@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-02T20:53:13-0500",
- "generated_ts": 1793670794,
+ "generated": "2026-11-03T06:13:13-0500",
+ "generated_ts": 1793704394,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "items": 0
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,19 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "amavoicescannabisconcernstofederalofficialsnewsletternovembe",
+   "title": "AMA voices cannabis concerns to federal officials (Newsletter: November 3, 2026)",
+   "link": "https://www.marijuanamoment.net/ama-voices-cannabis-concerns-to-federal-officials-newsletter-november-3-2026/",
+   "source": "Marijuana Moment",
+   "category": "US federal",
+   "is_law": true,
+   "states": [],
+   "published": "2026-11-03T06:12:19-0500",
+   "published_ts": 1793704339.0,
+   "first_seen": "2026-11-03T06:13:13-0500",
+   "first_seen_ts": 1793704394
+  },
   {
    "id": "tilrayconsolidatescanadianproductionascannabissalesdeclinemj",
    "title": "Tilray consolidates Canadian production as cannabis sales decline - MJBizDaily",
@@ -279,19 +292,6 @@
    "published_ts": 1793536500.0,
    "first_seen": "2026-11-01T07:38:14-0500",
    "first_seen_ts": 1793536695
-  },
-  {
-   "id": "tilrayjustpostedrecordquarterlyrevenueof257millionsowhydidit",
-   "title": "Tilray Just Posted Record Quarterly Revenue of $257 Million. So Why Did Its Cannabis Sales Shrink? - The Globe and Mail",
-   "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOMmotNU1WXzJLOF9vM2JJR1BEMUFPM2pmRGdFOF9KbkpzVm02RUFBS1lzeU1qUGk3bFJSVVhXelZqN2FfWmlkWW9FTWVGeUVtUDg3T0NiUFV5bk5NbWh1SnRzdDhUSWxJZk5zMDJudmR6TDYtWVBvME84R3JlMmxUOTA0d2R6clVQTXpIci03MXlESGlLQ2tyUk5kVDRuNVZBWWlaU3VhN2sxcmpOX3NBb2ZGZHVLUWd1enU3cGRYRXJuOU9LUUNzdzhDekcydnBUeE0xUkRyQWlTUGI5VkVwQm5qY2RsUHRQT1lqdVB0Y0VlV1hEWG9rWHQyWlpuWXE0TmVWcVJlc0Q3X2ti?oc=5",
-   "source": "Google News: intl cannabis",
-   "category": "International",
-   "is_law": false,
-   "states": [],
-   "published": "2026-11-01T02:26:51-0500",
-   "published_ts": 1793518011.0,
-   "first_seen": "2026-11-01T04:43:14-0500",
-   "first_seen_ts": 1793526195
   }
  ]
 }
