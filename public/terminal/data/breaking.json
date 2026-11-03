@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-03T06:13:13-0500",
- "generated_ts": 1793704394,
+ "generated": "2026-11-03T07:48:15-0500",
+ "generated_ts": 1793710096,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "unavailable",
-   "items": 0
+   "status": "ok",
+   "items": 12
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,21 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "massachusettslawmakersadvancebilltoletmilitaryveteransgetmed",
+   "title": "Massachusetts Lawmakers Advance Bill To Let Military Veterans Get Medical Marijuana Without A Doctor\u2019s Recommendation",
+   "link": "https://www.marijuanamoment.net/massachusetts-lawmakers-advance-bill-to-let-military-veterans-get-medical-marijuana-without-a-doctors-recommendation/",
+   "source": "Marijuana Moment",
+   "category": "US federal",
+   "is_law": true,
+   "states": [
+    "Massachusetts"
+   ],
+   "published": "2026-11-03T07:43:42-0500",
+   "published_ts": 1793709822.0,
+   "first_seen": "2026-11-03T07:48:15-0500",
+   "first_seen_ts": 1793710096
+  },
   {
    "id": "amavoicescannabisconcernstofederalofficialsnewsletternovembe",
    "title": "AMA voices cannabis concerns to federal officials (Newsletter: November 3, 2026)",
@@ -279,19 +294,6 @@
    "published_ts": 1793542455.0,
    "first_seen": "2026-11-01T09:18:13-0500",
    "first_seen_ts": 1793542694
-  },
-  {
-   "id": "theukslegalcannabismarketisboomingsowhycantthistalentedartis",
-   "title": "The UK\u2019s legal cannabis market is booming \u2013 so why can\u2019t this talented artist get any to treat his epilepsy? - The Guardian",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcVpNVl9DcG96MkRHNmQ1R1ZXWmtYZ1lqVnRCd01ZT0FsUzdKOVpFaGtUa1RXRWtvbkduZU9sQTlOV0wyOXhWQ2dkMXYyMzFzZGFTSlZRUlYtZ2EwTUNRSXg1dzBGaWhUSEIzODJaLXpiLWtKUVBEYXFjeFhSTjM4RlFXdXBRRXJsVVRVS3Bvem8xNUd6SDFHZGtUbXB5Q2lwX3pDWEJ5SUx5c0U?oc=5",
-   "source": "Google News: intl cannabis",
-   "category": "International",
-   "is_law": false,
-   "states": [],
-   "published": "2026-11-01T07:35:00-0500",
-   "published_ts": 1793536500.0,
-   "first_seen": "2026-11-01T07:38:14-0500",
-   "first_seen_ts": 1793536695
   }
  ]
 }
