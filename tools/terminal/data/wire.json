@@ -38,8 +38,8 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 119"
   },
   {
    "source": "Google News: intl cannabis",
@@ -339,12 +339,12 @@
    ]
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "US Issues First Medical Cannabis Registrations Following Rescheduling",
-   "link": "https://stratcann.com/news/us-issues-first-medical-cannabis-registrations-following-rescheduling/",
-   "summary": "The US has issued the first registrations for medical cannabis dispensaries following rescheduling earlier this year and reviewing applications from manufacturers and distributors. The post US Issues First Medical Cannabis Registrations Following Rescheduling ",
-   "ts": 1793408183.0,
-   "date": "2026-10-30 20:56",
+   "source": "MJBizDaily",
+   "title": "Marijuana rescheduling: DEA recognizes first federally legal medical cannabis dispensaries",
+   "link": "https://mjbizdaily.com/news/dea-grants-federal-registration-to-900-medical-cannabis-dispensaries-in-seven-states/618979/",
+   "summary": "In separate guidance, the DEA instructed registered medical operators and pending applicants to \"establish compliant supply chains\" by November 29. Marijuana rescheduling: DEA recognizes first federally legal medical cannabis dispensaries is a post from: MJBiz",
+   "ts": 1793402263.0,
+   "date": "2026-10-30 19:17",
    "category": "US federal",
    "is_law": true,
    "states": []
@@ -373,6 +373,17 @@
   }
  ],
  "news_intl": [
+  {
+   "source": "Cannabis Health News (UK)",
+   "title": "\u2018Europe Can Lead the World on Medical Cannabis, if We Work Together\u2019",
+   "link": "https://cannabishealthnews.co.uk/2026/11/04/europe-can-lead-the-world-on-medical-cannabis-if-we-work-together/",
+   "summary": "BvCW president Dirk Heitepriem will speak in Frankfurt today about how lessons from across Europe could improve medical cannabis prescribing and patient care in Germany.",
+   "ts": 1793786425.0,
+   "date": "2026-11-04 05:00",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
   {
    "source": "Business of Cannabis (intl)",
    "title": "Flower Prices Down 22%, SKUs Up 73%: Germany\u2019s Cannabis Market is at an Inflection Point",
@@ -429,17 +440,6 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Tilray to Close Fenwick Redecan Facility, Shifting Production to Other Facilities",
-   "link": "https://stratcann.com/news/tilray-to-close-fenwick-facility-while-ensuring-uninterrupted-redecan-supply/",
-   "summary": "Tilray Brands has announced plans to consolidate its Canadian cannabis operations, moving cultivation and pre-roll production from its Foss facility in Fenwick, Ontario, to its... The post Tilray to Close Fenwick Redecan Facility, Shifting Production to Other ",
-   "ts": 1793634030.0,
-   "date": "2026-11-02 10:40",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Business of Cannabis (intl)",
    "title": "Germany\u2019s Cannabis Flower Patients Face Years of Litigation After Constitutional Shortcut Blocked",
    "link": "https://businessofcannabis.com/germanys-cannabis-flower-patients-face-years-of-litigation-after-constitutional-shortcut-blocked/",
@@ -449,8 +449,19 @@
    "category": "International",
    "is_law": true,
    "states": []
+  },
+  {
+   "source": "Cannabis Health News (UK)",
+   "title": "Medical Cannabis for Endometriosis: the Evidence So Far",
+   "link": "https://cannabishealthnews.co.uk/2026/11/02/medical-cannabis-for-endometriosis-the-evidence-so-far/",
+   "summary": "Endometriosis affects an estimated 190 million people worldwide, and gaps in care are leading to an increased interest in cannabis-based medicines. What do we know about how these might help, and does the science support it?",
+   "ts": 1793613633.0,
+   "date": "2026-11-02 05:00",
+   "category": "International",
+   "is_law": false,
+   "states": []
   }
  ],
- "news_health_total": 17,
- "generated": "2026-11-04 04:46 EST"
+ "news_health_total": 19,
+ "generated": "2026-11-04 05:44 EST"
 }
