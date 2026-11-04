@@ -1,9 +1,9 @@
 {
  "window": {
-  "start": "2025-05-03",
-  "end": "2026-11-03"
+  "start": "2025-05-04",
+  "end": "2026-11-04"
  },
- "generated": "2026-11-03 20:45 EST",
+ "generated": "2026-11-04 00:45 EST",
  "source": "NCBI PubMed E-utilities",
  "conditions": {
   "sleep": {
@@ -57,14 +57,14 @@
      "conclusion": "Cannabinoids, particularly non-CBD formulations, improve sleep quality, justifying further investigation as therapeutic options for insomnia or poor sleep."
     },
     {
-     "pmid": "42584385",
-     "title": "Acute Effects of Cannabis Inhalation on Cardiac Ectopy, Physical Activity, Sleep, and Glucose.",
-     "journal": "J Am Coll Cardiol",
-     "date": "2026-08-12",
+     "pmid": "41698831",
+     "title": "Cannabinol for Acute Treatment of Insomnia Disorder in a Randomized Placebo-Controlled Crossover Trial.",
+     "journal": "J Sleep Res",
+     "date": "2026-02-16",
      "tag": "RCT",
-     "first_author": "Elias et al.",
-     "doi": "10.1016/j.jacc.2026.07.014",
-     "conclusion": "In a pragmatic crossover design including habitual cannabis users, randomization to inhaled cannabis was associated with less cardiac ectopy, driven by fewer premature atrial contractions. Potential withdrawal effects, moderate adherence, and co-intervention limit interpretation of causal mechanism. (Marijuana and Acute Risk of Arrhythmia-Joint Abstinence and Exposure [MARY-JANE]; NCT06021613)."
+     "first_author": "Lavender et al.",
+     "doi": "10.1111/jsr.70284",
+     "conclusion": "Larger, longer trials are warranted. ClinicalTrials.gov Identifier: NCT05344170."
     }
    ],
    "holistic": [
@@ -99,8 +99,8 @@
      "conclusion": "This systematic review and meta-analysis showed that CBT-I demonstrated strong efficacy and acceptability in chronic disease populations, with moderate to large effect sizes that appear comparable to those in non-chronic disease populations. Efficacy of CBT-I was similar across a range of disease subgroups. Future research should explore the role and nature of treatment adaptations for specific populations and increa"
     }
    ],
-   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (sleep[tiab] OR insomnia[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
-   "hol_query": "(sleep[tiab] OR insomnia[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (sleep[tiab] OR insomnia[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(sleep[tiab] OR insomnia[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
   },
   "pain": {
    "label": "Chronic pain",
@@ -165,6 +165,16 @@
    ],
    "holistic": [
     {
+     "pmid": "42215311",
+     "title": "Effects of Physical Exercise on Pain in Patients With Lumbar Disc Herniation: A Systematic Review and Meta-Analysis of Randomised Controlled Trials.",
+     "journal": "Musculoskeletal Care",
+     "date": "2026-06-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Linhares et al.",
+     "doi": "10.1002/msc.70231",
+     "conclusion": "This meta-analysis concluded that physical exercise improves pain-related outcomes in adult patients. Notably, the forest plot demonstrated a significant mean difference. These findings suggest that physical exercise is associated with a better prognosis in the treatment of lumbar disc herniation."
+    },
+    {
      "pmid": "41643247",
      "title": "Effectiveness of adding manual therapy to exercise for pain and disability in chronic non-specific low back pain: A systematic review and meta-analysis.",
      "journal": "Musculoskelet Sci Pract",
@@ -183,20 +193,10 @@
      "first_author": "Can et al.",
      "doi": "10.1093/pm/pnaf083",
      "conclusion": "Physiotherapy techniques are effective in reducing pain in women with endometriosis, especially when applied locally."
-    },
-    {
-     "pmid": "41363159",
-     "title": "Manual therapy with exercise for neck pain.",
-     "journal": "Cochrane Database Syst Rev",
-     "date": "2025-12-09",
-     "tag": "META-ANALYSIS",
-     "first_author": "Chacko et al.",
-     "doi": "10.1002/14651858.CD011225.pub2",
-     "conclusion": "The combination of manual therapy with exercise may result in a moderate increase in function but no reduction in pain when compared with placebo for primarily chronic neck pain. A large reduction in pain and moderate increase in function may result when comparing manual therapy with exercise with no treatment. Only non-serious adverse events were reported. Other outcomes had varied certainty. Data on participant-rep"
     }
    ],
-   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (\"chronic pain\"[tiab] OR \"neuropathic pain\"[tiab] OR neuropath*[tiab] OR \"pain\"[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
-   "hol_query": "(\"chronic pain\"[tiab] OR \"neuropathic pain\"[tiab] OR neuropath*[tiab] OR \"pain\"[ti]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (\"chronic pain\"[tiab] OR \"neuropathic pain\"[tiab] OR neuropath*[tiab] OR \"pain\"[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(\"chronic pain\"[tiab] OR \"neuropathic pain\"[tiab] OR neuropath*[tiab] OR \"pain\"[ti]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
   },
   "anxiety": {
    "label": "Anxiety",
@@ -206,7 +206,7 @@
     "anxiety"
    ],
    "cann_matches": 64,
-   "hol_matches": 410,
+   "hol_matches": 408,
    "cannabinoid": [
     {
      "pmid": "40956670",
@@ -271,16 +271,6 @@
      "conclusion": "The findings of the study support that exercise based interventions, in all formats and parameters, can help mitigate depression and anxiety symptoms across all population categories. These results can help health professionals provide targeted, cost effective, evidence based support that aligns with individual profiles and preferences."
     },
     {
-     "pmid": "41519366",
-     "title": "Effects of exercise on anxiety and depression in patients with insomnia: a systematic review and meta-analysis.",
-     "journal": "Physiol Behav",
-     "date": "2026-01-08",
-     "tag": "META-ANALYSIS",
-     "first_author": "Ferreira et al.",
-     "doi": "10.1016/j.physbeh.2026.115225",
-     "conclusion": "In actigraphic assessments, a significant reduction in wake after sleep onset was found (MD -8.67, 95% CI = -16.17 to -1.17). The meta-analysis results indicate that exercise in patients with insomnia significantly improved anxiety and depression, reduced insomnia severity, increased sleep quality, and decreased wake after sleep onset (PROSPERO, CRD42022374853)."
-    },
-    {
      "pmid": "41191382",
      "title": "Ketogenic Diets and Depression and Anxiety: A Systematic Review and Meta-Analysis.",
      "journal": "JAMA Psychiatry",
@@ -289,10 +279,20 @@
      "first_author": "Janssen-Aguilar et al.",
      "doi": "10.1001/jamapsychiatry.2025.3261",
      "conclusion": "In this systematic review and meta-analysis, KDs were associated with modest improvements in depressive symptoms, particularly with biochemical ketosis verification, while anxiety evidence was inconclusive. Given heterogeneity, comparators, and short follow-up, well-powered trials with standardized, verified protocols, structured support, and prespecified outcomes are needed to confirm efficacy and durability."
+    },
+    {
+     "pmid": "41327816",
+     "title": "Effects of Yoga Nidra on Stress, Anxiety, and Depression: A Systematic Review and Meta-Analysis.",
+     "journal": "Ann N Y Acad Sci",
+     "date": "2025-12-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Ghai et al.",
+     "doi": "10.1111/nyas.70149",
+     "conclusion": "However, given the low methodological quality and variability in intervention delivery, these moderate-to-large effects should be interpreted cautiously, as they likely reflect inflated estimates. Despite these limitations, YN shows potential in managing mental health symptoms, underscoring the need for high-quality, standardized research to establish its efficacy as a viable clinical intervention."
     }
    ],
-   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (anxiety[tiab] OR anxious[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
-   "hol_query": "(anxiety[tiab] OR anxious[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (anxiety[tiab] OR anxious[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(anxiety[tiab] OR anxious[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
   },
   "mood": {
    "label": "Mood & depression",
@@ -300,7 +300,7 @@
    "goal": "mood",
    "background": [],
    "cann_matches": 47,
-   "hol_matches": 539,
+   "hol_matches": 538,
    "cannabinoid": [
     {
      "pmid": "41793962",
@@ -325,16 +325,6 @@
    ],
    "holistic": [
     {
-     "pmid": "42566610",
-     "title": "Efficacy and safety of acupuncture treatment for depression: A systematic review and meta-analysis.",
-     "journal": "Medicine (Baltimore)",
-     "date": "2026-08-07",
-     "tag": "META-ANALYSIS",
-     "first_author": "Ma et al.",
-     "doi": "10.1097/MD.0000000000050133",
-     "conclusion": "The available clinical evidence suggests that acupuncture shows promise as a potentially useful intervention for depression, with a favorable safety profile. However, due to methodological limitations - including a pervasive risk of bias, the absence of sham-controlled comparisons, and the lack of standardized protocols - the evidence quality is low. High-quality research with rigorous methodology and larger sample s"
-    },
-    {
      "pmid": "41667154",
      "title": "Effect of exercise on depression and anxiety symptoms: systematic umbrella review with meta-meta-analysis.",
      "journal": "Br J Sports Med",
@@ -353,10 +343,20 @@
      "first_author": "Clegg et al.",
      "doi": "10.1002/14651858.CD004366.pub7",
      "conclusion": "Exercise may be moderately more effective than a control intervention for reducing symptoms of depression. Exercise appears to be no more or less effective than psychological or pharmacological treatments, though this conclusion is based on a few small trials. Long-term follow-up was rare. The addition of 35 RCTs (at least 2526 participants) to this update has had very little effect on the estimate of the benefit of "
+    },
+    {
+     "pmid": "41191382",
+     "title": "Ketogenic Diets and Depression and Anxiety: A Systematic Review and Meta-Analysis.",
+     "journal": "JAMA Psychiatry",
+     "date": "2026-01-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Janssen-Aguilar et al.",
+     "doi": "10.1001/jamapsychiatry.2025.3261",
+     "conclusion": "In this systematic review and meta-analysis, KDs were associated with modest improvements in depressive symptoms, particularly with biochemical ketosis verification, while anxiety evidence was inconclusive. Given heterogeneity, comparators, and short follow-up, well-powered trials with standardized, verified protocols, structured support, and prespecified outcomes are needed to confirm efficacy and durability."
     }
    ],
-   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (depression[tiab] OR depressive[tiab] OR mood[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
-   "hol_query": "(depression[tiab] OR depressive[tiab] OR mood[ti]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (depression[tiab] OR depressive[tiab] OR mood[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(depression[tiab] OR depressive[tiab] OR mood[ti]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
   },
   "ptsd": {
    "label": "PTSD",
@@ -421,16 +421,6 @@
    ],
    "holistic": [
     {
-     "pmid": "42342084",
-     "title": "Impact of physical exercise interventions on post-traumatic stress disorder symptoms: A systematic review and meta-analysis.",
-     "journal": "Complement Ther Med",
-     "date": "2026-06-24",
-     "tag": "META-ANALYSIS",
-     "first_author": "Wang et al.",
-     "doi": "10.1016/j.ctim.2026.103400",
-     "conclusion": "This review provides evidence that physical exercise can effectively reduce PTSD symptoms. Beneficial effects were observed across different exercise modalities and populations, although no statistically significant subgroup differences were identified. These findings support structured exercise as a promising and scalable component of PTSD treatment strategies."
-    },
-    {
      "pmid": "41543845",
      "title": "The impact of yoga on posttraumatic stress disorder symptom clusters: A systematic review and meta-analysis of randomized controlled trials.",
      "journal": "J Trauma Stress",
@@ -449,10 +439,20 @@
      "first_author": "Su et al.",
      "doi": "10.1002/pon.70377",
      "conclusion": "Psychosocial interventions based on telemedicine can effectively alleviate the fear of cancer recurrence, improve mindfulness, and promote posttraumatic growth in cancer survivors. The duration of the intervention, the age of the participants, the gender of the participants, the specific online intervention methods, and the follow-up time affect the effectiveness of the intervention. RVE further validates conclusion "
+    },
+    {
+     "pmid": "41380098",
+     "title": "Systematic review and meta-analyses of nonpharmacological interventions for co-occurring chronic pain and posttraumatic stress disorder.",
+     "journal": "Pain",
+     "date": "2025-12-03",
+     "tag": "META-ANALYSIS",
+     "first_author": "O'Donnell et al.",
+     "doi": "10.1097/j.pain.0000000000003880",
+     "conclusion": "Our findings suggest that treatments targeting chronic pain and PTSD should, at minimum, include a trauma-focused therapy component. However, further research is required to develop effective treatments for co-occurring chronic pain and PTSD."
     }
    ],
-   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (PTSD[tiab] OR posttraumatic[tiab] OR \"post-traumatic\"[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
-   "hol_query": "(PTSD[tiab] OR posttraumatic[tiab] OR \"post-traumatic\"[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (PTSD[tiab] OR posttraumatic[tiab] OR \"post-traumatic\"[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(PTSD[tiab] OR posttraumatic[tiab] OR \"post-traumatic\"[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
   },
   "arthritis": {
    "label": "Arthritis",
@@ -507,6 +507,16 @@
      "conclusion": "The updated EULAR recommendations for PA should guide the development, conduct and evaluation of PA interventions and promotion, including the reduction of SB, in people with IA and OA. These recommendations should be implemented with consideration of individual needs, environmental conditions, and the broader national health care context."
     },
     {
+     "pmid": "42827396",
+     "title": "Effects of Yoga on Rheumatoid Arthritis: A Systematic Review and Meta-Analysis.",
+     "journal": "Int J Rheum Dis",
+     "date": "2026-10-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Suresh et al.",
+     "doi": "10.1111/1756-185x.70896",
+     "conclusion": "This meta-analysis indicates that yoga significantly improves mental health by reducing stress, anxiety, depression & lowers inflammation through reduced IL-6 levels. However, its effect on physical health and TNF-\u03b1 was not consistent, suggesting more research is needed. Further large-scale studies are needed to validate and standardize its use."
+    },
+    {
      "pmid": "41702669",
      "title": "Effectiveness of exercise therapy for osteoarthritis: an overview of systematic reviews and randomised controlled trials.",
      "journal": "RMD Open",
@@ -515,20 +525,10 @@
      "first_author": "Schleimer et al.",
      "doi": "10.1136/rmdopen-2025-006275",
      "conclusion": "Evidence on exercise for osteoarthritis remains largely inconclusive, suggesting negligible or short-lasting small effects comparable to, or less effective than, other treatments. These findings question its universal promotion and highlight the need to revisit research priorities and clinical discussions around its worthwhileness."
-    },
-    {
-     "pmid": "40890564",
-     "title": "The Efficacy of Closed Versus Open Kinetic Chain Exercise in Knee Osteoarthritis-A Systematic Review and Meta-Analysis.",
-     "journal": "Physiother Res Int",
-     "date": "2025-10-01",
-     "tag": "META-ANALYSIS",
-     "first_author": "Michael et al.",
-     "doi": "10.1002/pri.70105",
-     "conclusion": "To reduce pain and improve physical function in individuals with knee osteoarthritis in the short term, physiotherapists should prescribe CKC exercises. However, there is a paucity of information outlining the effects of these CKC versus OKC in the medium to long term."
     }
    ],
-   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (arthritis[tiab] OR osteoarthritis[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
-   "hol_query": "(arthritis[tiab] OR osteoarthritis[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (arthritis[tiab] OR osteoarthritis[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(arthritis[tiab] OR osteoarthritis[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
   },
   "inflammation": {
    "label": "Inflammation",
@@ -621,8 +621,8 @@
      "conclusion": "The MD can significantly improve certain inflammation biomarkers, particularly hs-CRP, IL-6, and IL-17, supporting its potential role in reducing inflammation-related risks. However, further high-quality studies will be essential to confirm these findings."
     }
    ],
-   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (inflammation[ti] OR inflammatory[ti] OR \"C-reactive\"[tiab] OR cytokine*[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
-   "hol_query": "(inflammation[ti] OR inflammatory[ti] OR \"C-reactive\"[tiab] OR cytokine*[ti]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (inflammation[ti] OR inflammatory[ti] OR \"C-reactive\"[tiab] OR cytokine*[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(inflammation[ti] OR inflammatory[ti] OR \"C-reactive\"[tiab] OR cytokine*[ti]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
   },
   "nausea": {
    "label": "Nausea & vomiting",
@@ -687,8 +687,8 @@
      "conclusion": "Acupuncture appears to relieve the symptoms of NVP to a certain extent. However, the current evidence is limited by low reliability, methodological flaws, publication bias, and inaccurate data. Therefore, the true efficacy remains unclear. Although acupuncture shows preliminary clinical potential, high-quality randomized controlled trials with standardized outcome indicators are still needed to draw definite conclusi"
     }
    ],
-   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (nausea[tiab] OR vomiting[tiab] OR emesis[tiab] OR antiemetic[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
-   "hol_query": "(nausea[tiab] OR vomiting[tiab] OR emesis[tiab] OR antiemetic[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (nausea[tiab] OR vomiting[tiab] OR emesis[tiab] OR antiemetic[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(nausea[tiab] OR vomiting[tiab] OR emesis[tiab] OR antiemetic[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
   },
   "appetite": {
    "label": "Appetite & weight loss",
@@ -753,8 +753,8 @@
      "conclusion": "Exercise interventions benefit adolescents with AN, particularly by supporting weight recovery, increasing thigh muscle circumference, improving skinfold thickness, and enhancing quality of life. An 8-week programme combining aerobic and anaerobic exercise (three sessions per week, 50 min per session) significantly promoted weight recovery and improved BMI. These findings underscore the importance of personalized exe"
     }
    ],
-   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (appetite[tiab] OR cachexia[tiab] OR anorexia[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
-   "hol_query": "(appetite[tiab] OR cachexia[tiab] OR anorexia[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (appetite[tiab] OR cachexia[tiab] OR anorexia[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(appetite[tiab] OR cachexia[tiab] OR anorexia[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
   },
   "focus": {
    "label": "Focus & memory",
@@ -847,8 +847,8 @@
      "conclusion": "Current randomized evidence indicates that several non-pharmacological interventions can improve subjective and/or objective cognition in adults with cancer-related cognitive impairment. However, substantial between-study heterogeneity and generally low certainty of evidence limit confidence in these estimates. Clinicians should tailor intervention selection to individual patient needs and the clinical context. Moreo"
     }
    ],
-   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (cognition[ti] OR cognitive[ti] OR memory[ti] OR attention[ti] OR ADHD[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
-   "hol_query": "(cognition[ti] OR cognitive[ti] OR memory[ti] OR attention[ti] OR ADHD[ti]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (cognition[ti] OR cognitive[ti] OR memory[ti] OR attention[ti] OR ADHD[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(cognition[ti] OR cognitive[ti] OR memory[ti] OR attention[ti] OR ADHD[ti]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
   },
   "fibromyalgia": {
    "label": "Fibromyalgia",
@@ -923,8 +923,8 @@
      "conclusion": "Resistance exercise may be an effective strategy for reducing pain intensity and the impact of the disease in fibromyalgia when appropriately prescribed and progressed over time. Exercise programs should be individualized, emphasizing personal preferences to maximize long-term adherence and benefits."
     }
    ],
-   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (fibromyalgia[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
-   "hol_query": "(fibromyalgia[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (fibromyalgia[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(fibromyalgia[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
   },
   "ms": {
    "label": "MS spasticity",
@@ -979,6 +979,16 @@
    ],
    "holistic": [
     {
+     "pmid": "42118325",
+     "title": "Oral antipyretics for fatigue alleviation and exercise enhancement in adults with multiple sclerosis: a systematic review and meta-analysis.",
+     "journal": "Neurol Sci",
+     "date": "2026-05-12",
+     "tag": "META-ANALYSIS",
+     "first_author": "Ibrahim et al.",
+     "doi": "10.1007/s10072-026-09090-5",
+     "conclusion": "Aspirin and acetaminophen may offer benefits in alleviating fatigue, enhancing thermoregulation, and improving exercise endurance in MS patients. These findings suggest that nurses should consider the potential role of aspirin in symptom management, with further research needed to confirm efficacy and safety."
+    },
+    {
      "pmid": "41612786",
      "title": "Association between Mediterranean Diet and Development of Multiple Sclerosis: A Systematic Review and Meta-Analysis.",
      "journal": "Brain Behav",
@@ -997,20 +1007,10 @@
      "first_author": "Wang et al.",
      "doi": "10.1186/s40359-025-03640-w",
      "conclusion": "DISCUSSION: Cognitive behavioral therapy is an effective method for alleviating fatigue in patients with stroke and multiple sclerosis. However, further verification is needed through multicenter, large-sample randomized controlled trials."
-    },
-    {
-     "pmid": "41272378",
-     "title": "Effects of the combination of exercise with noninvasive brain stimulation on motor function and spasticity in children with cerebral palsy: A systematic review and meta-analysis.",
-     "journal": "Eur J Pediatr",
-     "date": "2025-11-22",
-     "tag": "META-ANALYSIS",
-     "first_author": "Wang et al.",
-     "doi": "10.1007/s00431-025-06620-9",
-     "conclusion": "What is New: \u2022 This systematic review and meta-analysis showed that the combination of exercise with NIBS can significantly improve MF, which may be related to reduced spasticity. \u2022 Compared with interventions lacking NIBS, the combination of NIBS with exercise may be related to improved balance, lower limb strength, and walking speed, rather than social living ability."
     }
    ],
-   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (\"multiple sclerosis\"[tiab] OR spasticity[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
-   "hol_query": "(\"multiple sclerosis\"[tiab] OR spasticity[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (\"multiple sclerosis\"[tiab] OR spasticity[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(\"multiple sclerosis\"[tiab] OR spasticity[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
   },
   "epilepsy": {
    "label": "Epilepsy",
@@ -1105,8 +1105,8 @@
      "conclusion": "Taken together, there is increasing evidence to support use of KDT as an adjunctive treatment for some people with DRE. The knowledge generated is pertinent to establishing guidelines, optimising the use of KDT in specific epilepsy populations to improve therapeutic management."
     }
    ],
-   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (epilep*[tiab] OR seizure*[tiab] OR Dravet[tiab] OR Lennox[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
-   "hol_query": "(epilep*[tiab] OR seizure*[tiab] OR Dravet[tiab] OR Lennox[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (epilep*[tiab] OR seizure*[tiab] OR Dravet[tiab] OR Lennox[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(epilep*[tiab] OR seizure*[tiab] OR Dravet[tiab] OR Lennox[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
   },
   "migraine": {
    "label": "Migraine",
@@ -1161,8 +1161,8 @@
      "conclusion": "The efficacy of cervical physical therapy on PPTs is uncertain. More studies of high methodological quality are needed to elucidate the pain-modulatory effects of cervical physical therapy in migraine."
     }
    ],
-   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (migraine*[tiab] OR headache*[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
-   "hol_query": "(migraine*[tiab] OR headache*[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (migraine*[tiab] OR headache*[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(migraine*[tiab] OR headache*[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
   },
   "ibd": {
    "label": "Crohn's & IBD",
@@ -1217,8 +1217,8 @@
      "conclusion": "EEN induces clinical remission in adults with CD. It is less efficacious than corticosteroids to induce clinical remission. The efficacy of EEN is independent of formula composition. Given its favorable safety profile, EEN may represent a therapeutic option in select adult patients. PROSPERO registration number: CRD42023445039."
     }
    ],
-   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (Crohn*[tiab] OR colitis[tiab] OR \"inflammatory bowel\"[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
-   "hol_query": "(Crohn*[tiab] OR colitis[tiab] OR \"inflammatory bowel\"[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
+   "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (Crohn*[tiab] OR colitis[tiab] OR \"inflammatory bowel\"[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
+   "hol_query": "(Crohn*[tiab] OR colitis[tiab] OR \"inflammatory bowel\"[tiab]) AND (exercise[ti] OR \"physical activity\"[ti] OR yoga[ti] OR mindfulness[ti] OR meditation[ti] OR \"cognitive behavioral\"[ti] OR \"cognitive behavioural\"[ti] OR CBT*[ti] OR diet*[ti] OR nutrition*[ti] OR acupuncture[ti] OR \"tai chi\"[ti] OR massage[ti] OR \"non-pharmacological\"[ti] OR nonpharmacological[ti] OR lifestyle[ti] OR \"sleep hygiene\"[ti] OR ginger[ti] OR \"physical therapy\"[ti] OR physiotherapy[ti]) AND (systematic review[pt] OR meta-analysis[pt] OR practice guideline[pt] OR guideline[pt]) AND 2025/05/04:2026/11/04[dp] AND english[la] NOT (cannabis[tiab] OR cannabinoid*[tiab])"
   }
  }
 }

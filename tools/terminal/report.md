@@ -1,6 +1,6 @@
 # Cannabis Agent Terminal: Scientist report
 
-Generated 2026-11-03 23:45 EST. Research summary, not medical advice. Talk to a doctor.
+Generated 2026-11-04 00:44 EST. Research summary, not medical advice. Talk to a doctor.
 
 _Strain names are typical examples only; the same name can test very differently by grower and batch. Go by the lab COA (THC, CBD, minor cannabinoids, terpenes), not the name._
 
@@ -123,7 +123,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** CBD reduced anxiety from a simulated public-speaking test in people with social anxiety, toward healthy-control levels. In a 2024 human lab study, vaporized D-limonene added to THC selectively reduced THC-induced anxiety, so limonene-rich chemovars may make THC easier to tolerate. Linalool shows calming effects in mice only.
 - **Strains that typically express this profile:** ACDC (very high CBD), Ringo's Gift, Remedy (high CBD) (typically; check the COA)
 - **Cautions:** High THC can trigger or worsen anxiety and panic. Heavy adolescent use is linked to later depression and suicidality. CBD interacts with some antidepressants and benzodiazepines via liver enzymes.
-- **New PubMed papers, last 30 days:** 46
+- **New PubMed papers, last 30 days:** 45
 - **Citations:**
   - [SR] Han et al. (2024). Therapeutic potential of cannabidiol (CBD) in anxiety disorders: A systematic review and meta-analysis. *Psychiatry Res*. PMID [38924898](https://pubmed.ncbi.nlm.nih.gov/38924898/). DOI [10.1016/j.psychres.2024.116049](https://doi.org/10.1016/j.psychres.2024.116049)
   - [RCT] Bergamaschi et al. (2011). Cannabidiol reduces the anxiety induced by simulated public speaking in treatment-naïve social phobia patients. *Neuropsychopharmacology*. PMID [21307846](https://pubmed.ncbi.nlm.nih.gov/21307846/). DOI [10.1038/npp.2011.6](https://doi.org/10.1038/npp.2011.6)
@@ -146,7 +146,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** THC may weaken the replay of fear memories and suppress REM-sleep nightmares; CBD may help fear extinction. But in the veterans RCT (high-THC ~12%, high-CBD 11%, and ~8:8 THC+CBD) everyone improved including placebo. Nabilone showed the largest effect size for nightmares in a meta-analysis, from a single small study.
 - **Strains that typically express this profile:** Harlequin, Cannatonic, Pennywise (typically; check the COA)
 - **Cautions:** High THC can worsen anxiety, paranoia, and cannabis-use disorder risk, which is common in PTSD. Not a replacement for trauma-focused therapy. Psychosis risk with high-potency THC.
-- **New PubMed papers, last 30 days:** 10
+- **New PubMed papers, last 30 days:** 9
 - **Citations:**
   - [RCT] Bonn-Miller et al. (2021). The short-term impact of 3 smoked cannabis preparations versus placebo on PTSD symptoms: A randomized cross-over clinical trial. *PLoS One*. PMID [33730032](https://pubmed.ncbi.nlm.nih.gov/33730032/). DOI [10.1371/journal.pone.0246990](https://doi.org/10.1371/journal.pone.0246990)
   - [SR] Skeie-Larsen et al. (2022). The Effects of Pharmacological Treatment of Nightmares: A Systematic Literature Review and Meta-Analysis of Placebo-Controlled, Randomized Clinical Trials. *Int J Environ Res Public Health*. PMID [36613097](https://pubmed.ncbi.nlm.nih.gov/36613097/). DOI [10.3390/ijerph20010777](https://doi.org/10.3390/ijerph20010777)
