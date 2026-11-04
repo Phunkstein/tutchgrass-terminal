@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-03T18:43:13-0500",
- "generated_ts": 1793749394,
+ "generated": "2026-11-03T21:28:15-0500",
+ "generated_ts": 1793759296,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -39,6 +39,21 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "houstonvotersapprovemeasuretoreducemarijuanaarrestsmakingthe",
+   "title": "Houston Voters Approve Measure To Reduce Marijuana Arrests, Making Them The \u2018Lowest Possible Enforcement Priority\u2019",
+   "link": "https://www.marijuanamoment.net/houston-voters-approve-measure-to-reduce-marijuana-arrests-making-them-the-lowest-possible-enforcement-priority/",
+   "source": "Marijuana Moment",
+   "category": "US states",
+   "is_law": true,
+   "states": [
+    "Texas"
+   ],
+   "published": "2026-11-03T21:27:49-0500",
+   "published_ts": 1793759269.0,
+   "first_seen": "2026-11-03T21:28:15-0500",
+   "first_seen_ts": 1793759296
+  },
   {
    "id": "5firmsbuild400mcannabismergerlaw360",
    "title": "5 Firms Build $400M Cannabis Merger - Law360",
@@ -428,19 +443,6 @@
    "published_ts": 1793585947.0,
    "first_seen": "2026-11-01T21:43:14-0500",
    "first_seen_ts": 1793587394
-  },
-  {
-   "id": "cannabisjobsupdatenovember2026",
-   "title": "Cannabis Jobs Update \u2013 November 2026",
-   "link": "https://stratcann.com/news/cannabis-jobs-update-november-2026/",
-   "source": "StratCann (Canada)",
-   "category": "International",
-   "is_law": false,
-   "states": [],
-   "published": "2026-11-01T21:19:07-0500",
-   "published_ts": 1793585947.0,
-   "first_seen": "2026-11-01T21:23:14-0500",
-   "first_seen_ts": 1793586194
   }
  ]
 }
