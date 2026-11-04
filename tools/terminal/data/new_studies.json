@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-03 17:45 EST",
+ "generated": "2026-11-03 23:45 EST",
  "window": {
   "start": "2026-10-04",
   "end": "2026-11-03",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "186edab32d3afbf9",
+ "fingerprint": "c11a561130aa0c21",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -82,6 +82,7 @@
    "42965212"
   ],
   "anxiety": [
+   "42977215",
    "42968604",
    "42963524",
    "42950713"
@@ -133,8 +134,8 @@
  "pubmed_counts": {
   "sleep": 26,
   "pain": 33,
-  "anxiety": 49,
-  "mood": 48,
+  "anxiety": 52,
+  "mood": 49,
   "ptsd": 12,
   "arthritis": 4,
   "inflammation": 8,
@@ -150,7 +151,7 @@
  "newest": {
   "sleep": "2026-10-27",
   "pain": "2026-11-02",
-  "anxiety": "2026-11-02",
+  "anxiety": "2026-11-03",
   "mood": "2026-10-31",
   "ptsd": "2026-10-27",
   "arthritis": "2026-10-05",
@@ -165,6 +166,26 @@
   "ibd": null
  },
  "papers": [
+  {
+   "pmid": "42977215",
+   "title": "Cannabidiol alleviates anxiety-like behaviors via \u03b13-containing glycine receptors in the lateral habenula.",
+   "journal": "Neuropharmacology",
+   "date": "2026-11-03",
+   "pubdate": "2026-11-03",
+   "first_author": "Yao et al.",
+   "doi": "10.1016/j.neuropharm.2026.111253",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "Furthermore, CBD elevates the action potential threshold and reduces the firing rate of LHb neurons, effects abolished in GlyR\u03b13 cKO mice, thereby linking GlyR\u03b13 activation to reduced LHb excitability.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42977215/",
+   "conditions": [
+    "anxiety"
+   ]
+  },
   {
    "pmid": "42968604",
    "title": "Self-Reported Cannabis Use, Pain and Mental Health in People With Inheritable Bleeding Disorders.",
