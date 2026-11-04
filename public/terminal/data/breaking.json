@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-04T10:28:14-0500",
- "generated_ts": 1793806095,
+ "generated": "2026-11-04T11:08:19-0500",
+ "generated_ts": 1793808499,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -33,12 +33,25 @@
   },
   {
    "source": "Google News: intl cannabis",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "items": 0
   }
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "allnationssecureseugmpaccessthroughthirdpartypartnership",
+   "title": "All Nations Secures EU GMP Access Through Third-Party Partnership",
+   "link": "https://stratcann.com/news/all-nations-secures-eu-gmp-access-through-third-party-partnership/",
+   "source": "StratCann (Canada)",
+   "category": "International",
+   "is_law": true,
+   "states": [],
+   "published": "2026-11-04T11:04:57-0500",
+   "published_ts": 1793808297.0,
+   "first_seen": "2026-11-04T11:08:19-0500",
+   "first_seen_ts": 1793808499
+  },
   {
    "id": "organigramblowscuraleafsaurorabidoutofthewaterwith561moffer",
    "title": "Organigram Blows Curaleaf\u2019s Aurora Bid Out of the Water With $561m Offer",
@@ -511,35 +524,6 @@
    "published_ts": 1793636709.0,
    "first_seen": "2026-11-02T11:28:16-0500",
    "first_seen_ts": 1793636897
-  },
-  {
-   "id": "newhampshiregopgovernorbashesdemocraticchallengersmarijuanal",
-   "title": "New Hampshire GOP Governor Bashes Democratic Challenger\u2019s Marijuana Legalization Support, Calling Her An \u2018Opioid Lobbyist\u2019",
-   "link": "https://www.marijuanamoment.net/new-hampshire-gop-governor-bashes-democratic-challengers-marijuana-legalization-support-calling-her-an-opioid-lobbyist/",
-   "source": "Marijuana Moment",
-   "category": "US states",
-   "is_law": true,
-   "states": [
-    "Hampshire",
-    "New"
-   ],
-   "published": "2026-11-02T10:48:21-0500",
-   "published_ts": 1793634501.0,
-   "first_seen": "2026-11-02T10:53:26-0500",
-   "first_seen_ts": 1793634807
-  },
-  {
-   "id": "tilraytoclosefenwickredecanfacilityshiftingproductiontoother",
-   "title": "Tilray to Close Fenwick Redecan Facility, Shifting Production to Other Facilities",
-   "link": "https://stratcann.com/news/tilray-to-close-fenwick-facility-while-ensuring-uninterrupted-redecan-supply/",
-   "source": "StratCann (Canada)",
-   "category": "International",
-   "is_law": false,
-   "states": [],
-   "published": "2026-11-02T10:40:30-0500",
-   "published_ts": 1793634030.0,
-   "first_seen": "2026-11-02T10:43:15-0500",
-   "first_seen_ts": 1793634195
   }
  ]
 }
