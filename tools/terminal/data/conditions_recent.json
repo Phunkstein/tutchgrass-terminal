@@ -3,7 +3,7 @@
   "start": "2025-05-03",
   "end": "2026-11-03"
  },
- "generated": "2026-11-03 00:45 EST",
+ "generated": "2026-11-03 20:45 EST",
  "source": "NCBI PubMed E-utilities",
  "conditions": {
   "sleep": {
@@ -165,16 +165,6 @@
    ],
    "holistic": [
     {
-     "pmid": "42215311",
-     "title": "Effects of Physical Exercise on Pain in Patients With Lumbar Disc Herniation: A Systematic Review and Meta-Analysis of Randomised Controlled Trials.",
-     "journal": "Musculoskeletal Care",
-     "date": "2026-06-01",
-     "tag": "META-ANALYSIS",
-     "first_author": "Linhares et al.",
-     "doi": "10.1002/msc.70231",
-     "conclusion": "This meta-analysis concluded that physical exercise improves pain-related outcomes in adult patients. Notably, the forest plot demonstrated a significant mean difference. These findings suggest that physical exercise is associated with a better prognosis in the treatment of lumbar disc herniation."
-    },
-    {
      "pmid": "41643247",
      "title": "Effectiveness of adding manual therapy to exercise for pain and disability in chronic non-specific low back pain: A systematic review and meta-analysis.",
      "journal": "Musculoskelet Sci Pract",
@@ -193,6 +183,16 @@
      "first_author": "Can et al.",
      "doi": "10.1093/pm/pnaf083",
      "conclusion": "Physiotherapy techniques are effective in reducing pain in women with endometriosis, especially when applied locally."
+    },
+    {
+     "pmid": "41363159",
+     "title": "Manual therapy with exercise for neck pain.",
+     "journal": "Cochrane Database Syst Rev",
+     "date": "2025-12-09",
+     "tag": "META-ANALYSIS",
+     "first_author": "Chacko et al.",
+     "doi": "10.1002/14651858.CD011225.pub2",
+     "conclusion": "The combination of manual therapy with exercise may result in a moderate increase in function but no reduction in pain when compared with placebo for primarily chronic neck pain. A large reduction in pain and moderate increase in function may result when comparing manual therapy with exercise with no treatment. Only non-serious adverse events were reported. Other outcomes had varied certainty. Data on participant-rep"
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (\"chronic pain\"[tiab] OR \"neuropathic pain\"[tiab] OR neuropath*[tiab] OR \"pain\"[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -206,7 +206,7 @@
     "anxiety"
    ],
    "cann_matches": 64,
-   "hol_matches": 409,
+   "hol_matches": 410,
    "cannabinoid": [
     {
      "pmid": "40956670",
@@ -271,6 +271,16 @@
      "conclusion": "The findings of the study support that exercise based interventions, in all formats and parameters, can help mitigate depression and anxiety symptoms across all population categories. These results can help health professionals provide targeted, cost effective, evidence based support that aligns with individual profiles and preferences."
     },
     {
+     "pmid": "41519366",
+     "title": "Effects of exercise on anxiety and depression in patients with insomnia: a systematic review and meta-analysis.",
+     "journal": "Physiol Behav",
+     "date": "2026-01-08",
+     "tag": "META-ANALYSIS",
+     "first_author": "Ferreira et al.",
+     "doi": "10.1016/j.physbeh.2026.115225",
+     "conclusion": "In actigraphic assessments, a significant reduction in wake after sleep onset was found (MD -8.67, 95% CI = -16.17 to -1.17). The meta-analysis results indicate that exercise in patients with insomnia significantly improved anxiety and depression, reduced insomnia severity, increased sleep quality, and decreased wake after sleep onset (PROSPERO, CRD42022374853)."
+    },
+    {
      "pmid": "41191382",
      "title": "Ketogenic Diets and Depression and Anxiety: A Systematic Review and Meta-Analysis.",
      "journal": "JAMA Psychiatry",
@@ -279,16 +289,6 @@
      "first_author": "Janssen-Aguilar et al.",
      "doi": "10.1001/jamapsychiatry.2025.3261",
      "conclusion": "In this systematic review and meta-analysis, KDs were associated with modest improvements in depressive symptoms, particularly with biochemical ketosis verification, while anxiety evidence was inconclusive. Given heterogeneity, comparators, and short follow-up, well-powered trials with standardized, verified protocols, structured support, and prespecified outcomes are needed to confirm efficacy and durability."
-    },
-    {
-     "pmid": "41327816",
-     "title": "Effects of Yoga Nidra on Stress, Anxiety, and Depression: A Systematic Review and Meta-Analysis.",
-     "journal": "Ann N Y Acad Sci",
-     "date": "2025-12-01",
-     "tag": "META-ANALYSIS",
-     "first_author": "Ghai et al.",
-     "doi": "10.1111/nyas.70149",
-     "conclusion": "However, given the low methodological quality and variability in intervention delivery, these moderate-to-large effects should be interpreted cautiously, as they likely reflect inflated estimates. Despite these limitations, YN shows potential in managing mental health symptoms, underscoring the need for high-quality, standardized research to establish its efficacy as a viable clinical intervention."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (anxiety[tiab] OR anxious[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -300,7 +300,7 @@
    "goal": "mood",
    "background": [],
    "cann_matches": 47,
-   "hol_matches": 538,
+   "hol_matches": 539,
    "cannabinoid": [
     {
      "pmid": "41793962",
@@ -325,6 +325,16 @@
    ],
    "holistic": [
     {
+     "pmid": "42566610",
+     "title": "Efficacy and safety of acupuncture treatment for depression: A systematic review and meta-analysis.",
+     "journal": "Medicine (Baltimore)",
+     "date": "2026-08-07",
+     "tag": "META-ANALYSIS",
+     "first_author": "Ma et al.",
+     "doi": "10.1097/MD.0000000000050133",
+     "conclusion": "The available clinical evidence suggests that acupuncture shows promise as a potentially useful intervention for depression, with a favorable safety profile. However, due to methodological limitations - including a pervasive risk of bias, the absence of sham-controlled comparisons, and the lack of standardized protocols - the evidence quality is low. High-quality research with rigorous methodology and larger sample s"
+    },
+    {
      "pmid": "41667154",
      "title": "Effect of exercise on depression and anxiety symptoms: systematic umbrella review with meta-meta-analysis.",
      "journal": "Br J Sports Med",
@@ -343,16 +353,6 @@
      "first_author": "Clegg et al.",
      "doi": "10.1002/14651858.CD004366.pub7",
      "conclusion": "Exercise may be moderately more effective than a control intervention for reducing symptoms of depression. Exercise appears to be no more or less effective than psychological or pharmacological treatments, though this conclusion is based on a few small trials. Long-term follow-up was rare. The addition of 35 RCTs (at least 2526 participants) to this update has had very little effect on the estimate of the benefit of "
-    },
-    {
-     "pmid": "41191382",
-     "title": "Ketogenic Diets and Depression and Anxiety: A Systematic Review and Meta-Analysis.",
-     "journal": "JAMA Psychiatry",
-     "date": "2026-01-01",
-     "tag": "META-ANALYSIS",
-     "first_author": "Janssen-Aguilar et al.",
-     "doi": "10.1001/jamapsychiatry.2025.3261",
-     "conclusion": "In this systematic review and meta-analysis, KDs were associated with modest improvements in depressive symptoms, particularly with biochemical ketosis verification, while anxiety evidence was inconclusive. Given heterogeneity, comparators, and short follow-up, well-powered trials with standardized, verified protocols, structured support, and prespecified outcomes are needed to confirm efficacy and durability."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (depression[tiab] OR depressive[tiab] OR mood[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -507,16 +507,6 @@
      "conclusion": "The updated EULAR recommendations for PA should guide the development, conduct and evaluation of PA interventions and promotion, including the reduction of SB, in people with IA and OA. These recommendations should be implemented with consideration of individual needs, environmental conditions, and the broader national health care context."
     },
     {
-     "pmid": "42827396",
-     "title": "Effects of Yoga on Rheumatoid Arthritis: A Systematic Review and Meta-Analysis.",
-     "journal": "Int J Rheum Dis",
-     "date": "2026-10-01",
-     "tag": "META-ANALYSIS",
-     "first_author": "Suresh et al.",
-     "doi": "10.1111/1756-185x.70896",
-     "conclusion": "This meta-analysis indicates that yoga significantly improves mental health by reducing stress, anxiety, depression & lowers inflammation through reduced IL-6 levels. However, its effect on physical health and TNF-\u03b1 was not consistent, suggesting more research is needed. Further large-scale studies are needed to validate and standardize its use."
-    },
-    {
      "pmid": "41702669",
      "title": "Effectiveness of exercise therapy for osteoarthritis: an overview of systematic reviews and randomised controlled trials.",
      "journal": "RMD Open",
@@ -525,6 +515,16 @@
      "first_author": "Schleimer et al.",
      "doi": "10.1136/rmdopen-2025-006275",
      "conclusion": "Evidence on exercise for osteoarthritis remains largely inconclusive, suggesting negligible or short-lasting small effects comparable to, or less effective than, other treatments. These findings question its universal promotion and highlight the need to revisit research priorities and clinical discussions around its worthwhileness."
+    },
+    {
+     "pmid": "40890564",
+     "title": "The Efficacy of Closed Versus Open Kinetic Chain Exercise in Knee Osteoarthritis-A Systematic Review and Meta-Analysis.",
+     "journal": "Physiother Res Int",
+     "date": "2025-10-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Michael et al.",
+     "doi": "10.1002/pri.70105",
+     "conclusion": "To reduce pain and improve physical function in individuals with knee osteoarthritis in the short term, physiotherapists should prescribe CKC exercises. However, there is a paucity of information outlining the effects of these CKC versus OKC in the medium to long term."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (arthritis[tiab] OR osteoarthritis[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -762,7 +762,7 @@
    "goal": "focus",
    "background": [],
    "cann_matches": 22,
-   "hol_matches": 399,
+   "hol_matches": 400,
    "cannabinoid": [
     {
      "pmid": "42704497",
@@ -817,14 +817,14 @@
    ],
    "holistic": [
     {
-     "pmid": "41664658",
-     "title": "Effects of exercise interventions on memory in depression: a three-level meta-analysis.",
-     "journal": "PeerJ",
-     "date": "2026-02-05",
+     "pmid": "42721798",
+     "title": "Effects of physical activity on attentional domains in ADHD.",
+     "journal": "Acta Psychol (Amst)",
+     "date": "2026-09-10",
      "tag": "META-ANALYSIS",
-     "first_author": "Zhu et al.",
-     "doi": "10.7717/peerj.20750",
-     "conclusion": "Exercise may confer a small improvement in verbal memory among adults with depression, while no clear effect was observed for visual memory. However, further randomized controlled trials are needed to explore the impact of exercise on memory in patients with depression. Research plan was registered in international system evaluation platform PROSPERO (https://www.crd.york.ac.uk/PROSPERO/) (CRD42023473393)."
+     "first_author": "Xia et al.",
+     "doi": "10.1016/j.actpsy.2026.107727",
+     "conclusion": "Physical activity significantly improved overall attention issues in ADHD patients, with notable enhancement in selective attention. However, the improvement in sustained attention did not reach statistical significance. Exploratory subgroup analysis indicated that the effect reached statistical significance only in the low-frequency subgroup; however, the between-subgroup comparison was not statistically significant"
     },
     {
      "pmid": "41483880",
@@ -989,24 +989,24 @@
      "conclusion": "Although the meta-analysis showed a significant inverse association between higher adherence to the MedDiet and the odds of MS, the overall body of evidence does not provide strong support for a preventive role of the MedDiet. Considering the limited number of included studies, the predominantly retrospective design, the high risk of bias in several studies, and the substantial observed heterogeneity, further well-de"
     },
     {
-     "pmid": "41477922",
-     "title": "Effects of exercise training on some cytokine profiles in patients with multiple sclerosis: A systematic review and meta-analysis of randomized controlled trials.",
-     "journal": "Mult Scler Relat Disord",
-     "date": "2025-12-29",
+     "pmid": "41339933",
+     "title": "Effectiveness of cognitive behavioral therapy in improving symptoms of fatigue in patients with stroke and multiple sclerosis: a systematic review and meta-analysis.",
+     "journal": "BMC Psychol",
+     "date": "2025-12-03",
      "tag": "META-ANALYSIS",
-     "first_author": "Hejazi et al.",
-     "doi": "10.1016/j.msard.2025.106951",
-     "conclusion": "This meta-analysis provides robust evidence that structured exercise training can selectively modulate the inflammatory profile in patients with MS, primarily reducing the key cytokines TNF-\u03b1, IFN-\u03b3 and IL-17. These findings support the role of exercise as a complementary non-pharmacological therapy for managing inflammation in MS."
+     "first_author": "Wang et al.",
+     "doi": "10.1186/s40359-025-03640-w",
+     "conclusion": "DISCUSSION: Cognitive behavioral therapy is an effective method for alleviating fatigue in patients with stroke and multiple sclerosis. However, further verification is needed through multicenter, large-sample randomized controlled trials."
     },
     {
-     "pmid": "41449575",
-     "title": "The Effect of Progressive Muscle Relaxation Exercise on Symptoms and General Well-being of Patients With Multiple Sclerosis: Systematic Review and Meta-analysis.",
-     "journal": "Rehabil Nurs",
-     "date": "2025-12-26",
+     "pmid": "41272378",
+     "title": "Effects of the combination of exercise with noninvasive brain stimulation on motor function and spasticity in children with cerebral palsy: A systematic review and meta-analysis.",
+     "journal": "Eur J Pediatr",
+     "date": "2025-11-22",
      "tag": "META-ANALYSIS",
-     "first_author": "Yurtsever et al.",
-     "doi": "10.1097/RNJ.0000000000000530",
-     "conclusion": "PMR appears effective in reducing fatigue and pain, enhancing overall well-being, and can be useful as complementary nursing care for individuals with MS."
+     "first_author": "Wang et al.",
+     "doi": "10.1007/s00431-025-06620-9",
+     "conclusion": "What is New: \u2022 This systematic review and meta-analysis showed that the combination of exercise with NIBS can significantly improve MF, which may be related to reduced spasticity. \u2022 Compared with interventions lacking NIBS, the combination of NIBS with exercise may be related to improved balance, lower limb strength, and walking speed, rather than social living ability."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (\"multiple sclerosis\"[tiab] OR spasticity[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -1207,14 +1207,14 @@
      "conclusion": "CDED-based dietary interventions appear to be efficacious for inducing remission in Crohn's disease. Well-designed randomised trials are required to further validate the use of CDED as a whole food approach in the induction and maintenance of remission in Crohn's Disease."
     },
     {
-     "pmid": "41803562",
-     "title": "Mediterranean diet in treatment of inflammatory bowel disease: A systematic review and meta-analysis.",
+     "pmid": "42065851",
+     "title": "Exclusive enteral nutrition for induction of remission in Crohn's disease in adults: A systematic review and meta-analysis of randomized trials and real-world studies.",
      "journal": "Indian J Gastroenterol",
-     "date": "2026-03-09",
+     "date": "2026-05-01",
      "tag": "META-ANALYSIS",
-     "first_author": "Singh et al.",
-     "doi": "10.1007/s12664-026-01966-w",
-     "conclusion": "The Mediterranean diet in conjunction with standard medical therapy is associated with a clinical remission rate of approximately 62% in IBD, with comparable efficacy in CD and ulcerative colitis. The studies on Mediterranean diet are compromized by heterogenous study, definitions of disease activity and outcomes and concurrent use of medical therapies. Further high-quality randomized trials are needed to evaluate th"
+     "first_author": "Kaur et al.",
+     "doi": "10.1007/s12664-026-01989-3",
+     "conclusion": "EEN induces clinical remission in adults with CD. It is less efficacious than corticosteroids to induce clinical remission. The efficacy of EEN is independent of formula composition. Given its favorable safety profile, EEN may represent a therapeutic option in select adult patients. PROSPERO registration number: CRD42023445039."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (Crohn*[tiab] OR colitis[tiab] OR \"inflammatory bowel\"[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/03:2026/11/03[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
