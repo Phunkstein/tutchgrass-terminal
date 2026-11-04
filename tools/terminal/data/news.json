@@ -28,8 +28,8 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 119"
   },
   {
    "source": "Google News: intl cannabis",
@@ -38,9 +38,22 @@
    "items": 12
   }
  ],
- "total": 103,
+ "total": 91,
  "by_category": {
   "US federal": [
+   {
+    "source": "Marijuana Moment",
+    "title": "Pennsylvania Is Teed Up To Finally Legalize Marijuana As Democrats Claim Majority In State Senate",
+    "link": "https://www.marijuanamoment.net/pennsylvania-is-teed-up-to-finally-legalize-marijuana-as-democrats-claim-majority-in-state-senate/",
+    "summary": "Pennsylvania could become the next state to legalize marijuana now that Democrats appear to have taken control of the state Senate in Tuesday\u2019s elections while maintaining their existing majority in the House of Representatives. Although votes are still being ",
+    "ts": 1793797592.0,
+    "date": "2026-11-04 08:06",
+    "category": "US federal",
+    "is_law": true,
+    "states": [
+     "Pennsylvania"
+    ]
+   },
    {
     "source": "Marijuana Moment",
     "title": "Newly Elected To Senate, Talarico Plans To Work With Trump On Federally Legalizing Marijuana",
@@ -120,17 +133,6 @@
     "summary": "More than 6,000 cannabis operators filed \"timely\" applications for registration with the DEA, which has granted recognition to more than 900 locations - including some owed by MSO Trulieve. DEA recognizes cannabis MSO Trulieve, denies marijuana rescheduling be",
     "ts": 1793650778.0,
     "date": "2026-11-02 15:19",
-    "category": "US federal",
-    "is_law": true,
-    "states": []
-   },
-   {
-    "source": "Business of Cannabis (intl)",
-    "title": "DEA Issues First Federal Registrations to 900 Dispensaries, But Dual-Licence States Remain Uncertain",
-    "link": "https://businessofcannabis.com/dea-issues-first-federal-registrations-to-900-dispensaries-but-dual-licence-states-remain-uncertain/",
-    "summary": "More than 900 US medical cannabis dispensaries have become the first operators in the country to hold federal registration, marking the first tangible change for operators since April\u2019s partial rescheduling order. The Drug Enforcement Administration (DEA) has ",
-    "ts": 1793636709.0,
-    "date": "2026-11-02 11:25",
     "category": "US federal",
     "is_law": true,
     "states": []
@@ -216,19 +218,6 @@
     ]
    },
    {
-    "source": "Marijuana Moment",
-    "title": "Police Groups Urge Massachusetts Voters To Keep Cannabis Sales Legal By Rejecting Ballot Measure",
-    "link": "https://www.marijuanamoment.net/police-groups-urge-massachusetts-voters-to-keep-cannabis-sales-legal-by-rejecting-ballot-measure/",
-    "summary": "A national group representing Black police officers is joining with Massachusetts law enforcement officials in urging voters in the state to reject a ballot measure that would roll back the state\u2019s marijuana legalization law. The National Association of Black ",
-    "ts": 1793640580.0,
-    "date": "2026-11-02 12:29",
-    "category": "US states",
-    "is_law": true,
-    "states": [
-     "Massachusetts"
-    ]
-   },
-   {
     "source": "MJBizDaily",
     "title": "Michigan lawmakers propose pause on 24% cannabis wholesale tax",
     "link": "https://mjbizdaily.com/news/michigan-lawmakers-propose-pause-on-24-cannabis-wholesale-tax/618965/",
@@ -239,6 +228,19 @@
     "is_law": true,
     "states": [
      "Michigan"
+    ]
+   },
+   {
+    "source": "MJBizDaily",
+    "title": "Alabama medical cannabis market continues slow rollout with more openings",
+    "link": "https://mjbizdaily.com/news/alabama-medical-cannabis-market-continues-slow-rollout-with-more-openings/618960/",
+    "summary": "The state will have as many as five dispensaries open by early November, state officials said Thursday, as possibly the most tortuous rollout of an MMJ program continues to slowly progress. Alabama medical cannabis market continues slow rollout with more openi",
+    "ts": 1793367055.0,
+    "date": "2026-10-30 09:30",
+    "category": "US states",
+    "is_law": false,
+    "states": [
+     "Alabama"
     ]
    }
   ],
@@ -252,17 +254,6 @@
     "date": "2026-11-03 18:55",
     "category": "International",
     "is_law": false,
-    "states": []
-   },
-   {
-    "source": "Google News: intl cannabis",
-    "title": "5 Firms Build $400M Cannabis Merger - Law360",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcXRCX2NTRjVyblk0TGt6dk5ZMThwUmhhQ1lWcVcxOGpEY0V6RFl3NzNLTFlpclloWkdkbWFBMVVFLWlQQTFKbUZvbm1LdU5jeEFkZWNFeU42cUFQVE45WlpoQmxvM0lCdEdUNGdSTjZiQ0x4dDh0SlF4a25tTC1oaXdfajRXYjNUcXg2dkRKc09VRWgtNFZrX3ZB0gFWQVVfeXFMT21QbzVjMGp5UUFROThoT0NpaTJLUHp3dDhySFNQY1Nud0hPZEdoMFFjRmxyeVduTnkyZEhzWE5pUDlhQTh3U21LeUVNb0xIc1JuUWw5QlE?oc=5",
-    "summary": "",
-    "ts": 1793744228.0,
-    "date": "2026-11-03 17:17",
-    "category": "International",
-    "is_law": true,
     "states": []
    },
    {
@@ -283,17 +274,6 @@
     "summary": "",
     "ts": 1793731133.0,
     "date": "2026-11-03 13:38",
-    "category": "International",
-    "is_law": false,
-    "states": []
-   },
-   {
-    "source": "StratCann (Canada)",
-    "title": "Organigram to Acquire Aurora Cannabis",
-    "link": "https://stratcann.com/news/organigram-to-acquire-aurora-cannabis/",
-    "summary": "Together, Organigram and Aurora say this deal will create a global cannabis \"champion\" with a leadership position in Canada, Europe and Australia and a growing... The post Organigram to Acquire Aurora Cannabis appeared first on StratCann .",
-    "ts": 1793719736.0,
-    "date": "2026-11-03 10:28",
     "category": "International",
     "is_law": false,
     "states": []
@@ -321,12 +301,34 @@
     "states": []
    },
    {
+    "source": "Google News: intl cannabis",
+    "title": "Tilray consolidates Canadian production as cannabis sales decline - MJBizDaily",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX1FQZnQ3QUdYdkwxTXcxX01rajY1TnVGU0gySjZid1kxX2E3bEh2cUNySTg3SXczcFF1cENEMkRIN0FaQ2hvUzlzVzlSdTlwYlBPbzdyUUw2LTlqOUtyWGNvV3lqenAtaWM2QVFJaVVVWlotYmJRX3dJa2NGa0xIQlF0cHJabHIxbHV4am9uamZ4Y21CUnBrLUkweWFOdkFTb1Nn?oc=5",
+    "summary": "",
+    "ts": 1793670457.0,
+    "date": "2026-11-02 20:47",
+    "category": "International",
+    "is_law": false,
+    "states": []
+   },
+   {
     "source": "MJBizDaily",
     "title": "Tilray consolidates Canadian production as cannabis sales decline",
     "link": "https://mjbizdaily.com/news/tilray-consolidates-canadian-production-as-cannabis-sales-decline/619005/",
     "summary": "Tilray Brands expects $10 million in annualized savings from consolidating Canadian cultivation and pre-roll operations. Tilray consolidates Canadian production as cannabis sales decline is a post from: MJBizDaily: Financial, Legal & Cannabusiness news for can",
     "ts": 1793670222.0,
     "date": "2026-11-02 20:43",
+    "category": "International",
+    "is_law": false,
+    "states": []
+   },
+   {
+    "source": "Google News: intl cannabis",
+    "title": "Jail for group who smuggled drugs into prisons in food packets - BBC",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16eTZSbXFXdlV2MDd5VjY2U3BIamVtNnF2U1FzVUVJNlF0SEJzdmJIUktuX3lYdWlzYy1JRnhod0c5S0hUeGIxNDdmR3ZVMGNCWHRmdnlZU3Bjanc?oc=5",
+    "summary": "",
+    "ts": 1793642302.0,
+    "date": "2026-11-02 12:58",
     "category": "International",
     "is_law": false,
     "states": []
@@ -424,6 +426,19 @@
   ]
  },
  "latest": [
+  {
+   "source": "Marijuana Moment",
+   "title": "Pennsylvania Is Teed Up To Finally Legalize Marijuana As Democrats Claim Majority In State Senate",
+   "link": "https://www.marijuanamoment.net/pennsylvania-is-teed-up-to-finally-legalize-marijuana-as-democrats-claim-majority-in-state-senate/",
+   "summary": "Pennsylvania could become the next state to legalize marijuana now that Democrats appear to have taken control of the state Senate in Tuesday\u2019s elections while maintaining their existing majority in the House of Representatives. Although votes are still being ",
+   "ts": 1793797592.0,
+   "date": "2026-11-04 08:06",
+   "category": "US federal",
+   "is_law": true,
+   "states": [
+    "Pennsylvania"
+   ]
+  },
   {
    "source": "Marijuana Moment",
    "title": "Newly Elected To Senate, Talarico Plans To Work With Trump On Federally Legalizing Marijuana",
@@ -538,17 +553,6 @@
    ]
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "5 Firms Build $400M Cannabis Merger - Law360",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcXRCX2NTRjVyblk0TGt6dk5ZMThwUmhhQ1lWcVcxOGpEY0V6RFl3NzNLTFlpclloWkdkbWFBMVVFLWlQQTFKbUZvbm1LdU5jeEFkZWNFeU42cUFQVE45WlpoQmxvM0lCdEdUNGdSTjZiQ0x4dDh0SlF4a25tTC1oaXdfajRXYjNUcXg2dkRKc09VRWgtNFZrX3ZB0gFWQVVfeXFMT21QbzVjMGp5UUFROThoT0NpaTJLUHp3dDhySFNQY1Nud0hPZEdoMFFjRmxyeVduTnkyZEhzWE5pUDlhQTh3U21LeUVNb0xIc1JuUWw5QlE?oc=5",
-   "summary": "",
-   "ts": 1793744228.0,
-   "date": "2026-11-03 17:17",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "MJBizDaily",
    "title": "Oklahoma begins enforcing MMJ edibles packaging rules",
    "link": "https://mjbizdaily.com/news/oklahoma-begins-enforcing-mmj-edibles-packaging-rules/619019/",
@@ -592,17 +596,6 @@
    "date": "2026-11-03 12:52",
    "category": "US federal",
    "is_law": true,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Organigram to Acquire Aurora Cannabis",
-   "link": "https://stratcann.com/news/organigram-to-acquire-aurora-cannabis/",
-   "summary": "Together, Organigram and Aurora say this deal will create a global cannabis \"champion\" with a leadership position in Canada, Europe and Australia and a growing... The post Organigram to Acquire Aurora Cannabis appeared first on StratCann .",
-   "ts": 1793719736.0,
-   "date": "2026-11-03 10:28",
-   "category": "International",
-   "is_law": false,
    "states": []
   },
   {
@@ -663,23 +656,23 @@
    "states": []
   },
   {
+   "source": "Google News: intl cannabis",
+   "title": "Tilray consolidates Canadian production as cannabis sales decline - MJBizDaily",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX1FQZnQ3QUdYdkwxTXcxX01rajY1TnVGU0gySjZid1kxX2E3bEh2cUNySTg3SXczcFF1cENEMkRIN0FaQ2hvUzlzVzlSdTlwYlBPbzdyUUw2LTlqOUtyWGNvV3lqenAtaWM2QVFJaVVVWlotYmJRX3dJa2NGa0xIQlF0cHJabHIxbHV4am9uamZ4Y21CUnBrLUkweWFOdkFTb1Nn?oc=5",
+   "summary": "",
+   "ts": 1793670457.0,
+   "date": "2026-11-02 20:47",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
    "source": "MJBizDaily",
    "title": "Tilray consolidates Canadian production as cannabis sales decline",
    "link": "https://mjbizdaily.com/news/tilray-consolidates-canadian-production-as-cannabis-sales-decline/619005/",
    "summary": "Tilray Brands expects $10 million in annualized savings from consolidating Canadian cultivation and pre-roll operations. Tilray consolidates Canadian production as cannabis sales decline is a post from: MJBizDaily: Financial, Legal & Cannabusiness news for can",
    "ts": 1793670222.0,
    "date": "2026-11-02 20:43",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Ottawa Police Raid Dispensary Twice in One Week",
-   "link": "https://stratcann.com/enforcement/ottawa-police-raid-dispensary-twice-in-one-week/",
-   "summary": "The Ottawa Police Service (OPS) executed its second search warrant in the past seven days at a business operating on the 200 block of Preston... The post Ottawa Police Raid Dispensary Twice in One Week appeared first on StratCann .",
-   "ts": 1793658680.0,
-   "date": "2026-11-02 17:31",
    "category": "International",
    "is_law": false,
    "states": []
@@ -697,27 +690,14 @@
   },
   {
    "source": "Google News: intl cannabis",
-   "title": "Tilray Brands Plans to Consolidate Its Canadian Cannabis Operations - Cannabis Business Times",
-   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQekNzcnFnc3dwRGEtWUlYd2pRSFJZSUU5YXpDRlA3M0twcWl2TWZQb3NubWVWS0RMVFU1Z3k4dUY3RUU4SXpwOU01aHJMb1BpZThvb2xoT2FqNUJ5OVdEaWtObHlvZ0UyVDBwUUdKbjRoVk1aLVAwbXZoenpaOWQ5WGd4WXJOSlhPVmJpUS1QelItU21SVkloUUpNQ0lTbE1ZVTNxVXEwUnpPUWxJd0hnLTlQRHRvR1E4MF9VMTE0UnE1UzZFV216UnFqdkdCc2lOc19ldlh3Ump2R3I2VEdrNGc4YWlUeW9SUXdVcVBRbTNiU29WSzlueFZ2RE03c1hN?oc=5",
+   "title": "Jail for group who smuggled drugs into prisons in food packets - BBC",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16eTZSbXFXdlV2MDd5VjY2U3BIamVtNnF2U1FzVUVJNlF0SEJzdmJIUktuX3lYdWlzYy1JRnhod0c5S0hUeGIxNDdmR3ZVMGNCWHRmdnlZU3Bjanc?oc=5",
    "summary": "",
-   "ts": 1793643278.0,
-   "date": "2026-11-02 13:14",
+   "ts": 1793642302.0,
+   "date": "2026-11-02 12:58",
    "category": "International",
    "is_law": false,
    "states": []
-  },
-  {
-   "source": "Marijuana Moment",
-   "title": "Police Groups Urge Massachusetts Voters To Keep Cannabis Sales Legal By Rejecting Ballot Measure",
-   "link": "https://www.marijuanamoment.net/police-groups-urge-massachusetts-voters-to-keep-cannabis-sales-legal-by-rejecting-ballot-measure/",
-   "summary": "A national group representing Black police officers is joining with Massachusetts law enforcement officials in urging voters in the state to reject a ballot measure that would roll back the state\u2019s marijuana legalization law. The National Association of Black ",
-   "ts": 1793640580.0,
-   "date": "2026-11-02 12:29",
-   "category": "US states",
-   "is_law": true,
-   "states": [
-    "Massachusetts"
-   ]
   },
   {
    "source": "Business of Cannabis (intl)",
@@ -742,17 +722,6 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Tilray to Close Fenwick Redecan Facility, Shifting Production to Other Facilities",
-   "link": "https://stratcann.com/news/tilray-to-close-fenwick-facility-while-ensuring-uninterrupted-redecan-supply/",
-   "summary": "Tilray Brands has announced plans to consolidate its Canadian cannabis operations, moving cultivation and pre-roll production from its Foss facility in Fenwick, Ontario, to its... The post Tilray to Close Fenwick Redecan Facility, Shifting Production to Other ",
-   "ts": 1793634030.0,
-   "date": "2026-11-02 10:40",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Business of Cannabis (intl)",
    "title": "Germany\u2019s Cannabis Flower Patients Face Years of Litigation After Constitutional Shortcut Blocked",
    "link": "https://businessofcannabis.com/germanys-cannabis-flower-patients-face-years-of-litigation-after-constitutional-shortcut-blocked/",
@@ -773,9 +742,56 @@
    "category": "US federal",
    "is_law": true,
    "states": []
+  },
+  {
+   "source": "Google News: intl cannabis",
+   "title": "The UK\u2019s legal cannabis market is booming \u2013 so why can\u2019t this talented artist get any to treat his epilepsy? | Kojo Koram - The Guardian",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcVpNVl9DcG96MkRHNmQ1R1ZXWmtYZ1lqVnRCd01ZT0FsUzdKOVpFaGtUa1RXRWtvbkduZU9sQTlOV0wyOXhWQ2dkMXYyMzFzZGFTSlZRUlYtZ2EwTUNRSXg1dzBGaWhUSEIzODJaLXpiLWtKUVBEYXFjeFhSTjM4RlFXdXBRRXJsVVRVS3Bvem8xNUd6SDFHZGtUbXB5Q2lwX3pDWEJ5SUx5c0U?oc=5",
+   "summary": "",
+   "ts": 1793551920.0,
+   "date": "2026-11-01 11:52",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "MJBizDaily",
+   "title": "Marijuana rescheduling: DEA recognizes first federally legal medical cannabis dispensaries",
+   "link": "https://mjbizdaily.com/news/dea-grants-federal-registration-to-900-medical-cannabis-dispensaries-in-seven-states/618979/",
+   "summary": "In separate guidance, the DEA instructed registered medical operators and pending applicants to \"establish compliant supply chains\" by November 29. Marijuana rescheduling: DEA recognizes first federally legal medical cannabis dispensaries is a post from: MJBiz",
+   "ts": 1793402263.0,
+   "date": "2026-10-30 19:17",
+   "category": "US federal",
+   "is_law": true,
+   "states": []
+  },
+  {
+   "source": "MJBizDaily",
+   "title": "Michigan lawmakers propose pause on 24% cannabis wholesale tax",
+   "link": "https://mjbizdaily.com/news/michigan-lawmakers-propose-pause-on-24-cannabis-wholesale-tax/618965/",
+   "summary": "Michigan's 24% wholesale cannabis tax is trailing revenue projections. A new bill would suspend it for one year. Michigan lawmakers propose pause on 24% cannabis wholesale tax is a post from: MJBizDaily: Financial, Legal & Cannabusiness news for cannabis entre",
+   "ts": 1793398607.0,
+   "date": "2026-10-30 18:16",
+   "category": "US states",
+   "is_law": true,
+   "states": [
+    "Michigan"
+   ]
   }
  ],
  "all": [
+  {
+   "source": "Marijuana Moment",
+   "title": "Pennsylvania Is Teed Up To Finally Legalize Marijuana As Democrats Claim Majority In State Senate",
+   "link": "https://www.marijuanamoment.net/pennsylvania-is-teed-up-to-finally-legalize-marijuana-as-democrats-claim-majority-in-state-senate/",
+   "ts": 1793797592.0,
+   "date": "2026-11-04 08:06",
+   "category": "US federal",
+   "is_law": true,
+   "states": [
+    "Pennsylvania"
+   ]
+  },
   {
    "source": "Marijuana Moment",
    "title": "Newly Elected To Senate, Talarico Plans To Work With Trump On Federally Legalizing Marijuana",
@@ -881,16 +897,6 @@
    ]
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "5 Firms Build $400M Cannabis Merger - Law360",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcXRCX2NTRjVyblk0TGt6dk5ZMThwUmhhQ1lWcVcxOGpEY0V6RFl3NzNLTFlpclloWkdkbWFBMVVFLWlQQTFKbUZvbm1LdU5jeEFkZWNFeU42cUFQVE45WlpoQmxvM0lCdEdUNGdSTjZiQ0x4dDh0SlF4a25tTC1oaXdfajRXYjNUcXg2dkRKc09VRWgtNFZrX3ZB0gFWQVVfeXFMT21QbzVjMGp5UUFROThoT0NpaTJLUHp3dDhySFNQY1Nud0hPZEdoMFFjRmxyeVduTnkyZEhzWE5pUDlhQTh3U21LeUVNb0xIc1JuUWw5QlE?oc=5",
-   "ts": 1793744228.0,
-   "date": "2026-11-03 17:17",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "MJBizDaily",
    "title": "Oklahoma begins enforcing MMJ edibles packaging rules",
    "link": "https://mjbizdaily.com/news/oklahoma-begins-enforcing-mmj-edibles-packaging-rules/619019/",
@@ -930,16 +936,6 @@
    "date": "2026-11-03 12:52",
    "category": "US federal",
    "is_law": true,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Organigram to Acquire Aurora Cannabis",
-   "link": "https://stratcann.com/news/organigram-to-acquire-aurora-cannabis/",
-   "ts": 1793719736.0,
-   "date": "2026-11-03 10:28",
-   "category": "International",
-   "is_law": false,
    "states": []
   },
   {
@@ -995,21 +991,21 @@
    "states": []
   },
   {
-   "source": "MJBizDaily",
-   "title": "Tilray consolidates Canadian production as cannabis sales decline",
-   "link": "https://mjbizdaily.com/news/tilray-consolidates-canadian-production-as-cannabis-sales-decline/619005/",
-   "ts": 1793670222.0,
-   "date": "2026-11-02 20:43",
+   "source": "Google News: intl cannabis",
+   "title": "Tilray consolidates Canadian production as cannabis sales decline - MJBizDaily",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX1FQZnQ3QUdYdkwxTXcxX01rajY1TnVGU0gySjZid1kxX2E3bEh2cUNySTg3SXczcFF1cENEMkRIN0FaQ2hvUzlzVzlSdTlwYlBPbzdyUUw2LTlqOUtyWGNvV3lqenAtaWM2QVFJaVVVWlotYmJRX3dJa2NGa0xIQlF0cHJabHIxbHV4am9uamZ4Y21CUnBrLUkweWFOdkFTb1Nn?oc=5",
+   "ts": 1793670457.0,
+   "date": "2026-11-02 20:47",
    "category": "International",
    "is_law": false,
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Ottawa Police Raid Dispensary Twice in One Week",
-   "link": "https://stratcann.com/enforcement/ottawa-police-raid-dispensary-twice-in-one-week/",
-   "ts": 1793658680.0,
-   "date": "2026-11-02 17:31",
+   "source": "MJBizDaily",
+   "title": "Tilray consolidates Canadian production as cannabis sales decline",
+   "link": "https://mjbizdaily.com/news/tilray-consolidates-canadian-production-as-cannabis-sales-decline/619005/",
+   "ts": 1793670222.0,
+   "date": "2026-11-02 20:43",
    "category": "International",
    "is_law": false,
    "states": []
@@ -1026,25 +1022,13 @@
   },
   {
    "source": "Google News: intl cannabis",
-   "title": "Tilray Brands Plans to Consolidate Its Canadian Cannabis Operations - Cannabis Business Times",
-   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQekNzcnFnc3dwRGEtWUlYd2pRSFJZSUU5YXpDRlA3M0twcWl2TWZQb3NubWVWS0RMVFU1Z3k4dUY3RUU4SXpwOU01aHJMb1BpZThvb2xoT2FqNUJ5OVdEaWtObHlvZ0UyVDBwUUdKbjRoVk1aLVAwbXZoenpaOWQ5WGd4WXJOSlhPVmJpUS1QelItU21SVkloUUpNQ0lTbE1ZVTNxVXEwUnpPUWxJd0hnLTlQRHRvR1E4MF9VMTE0UnE1UzZFV216UnFqdkdCc2lOc19ldlh3Ump2R3I2VEdrNGc4YWlUeW9SUXdVcVBRbTNiU29WSzlueFZ2RE03c1hN?oc=5",
-   "ts": 1793643278.0,
-   "date": "2026-11-02 13:14",
+   "title": "Jail for group who smuggled drugs into prisons in food packets - BBC",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16eTZSbXFXdlV2MDd5VjY2U3BIamVtNnF2U1FzVUVJNlF0SEJzdmJIUktuX3lYdWlzYy1JRnhod0c5S0hUeGIxNDdmR3ZVMGNCWHRmdnlZU3Bjanc?oc=5",
+   "ts": 1793642302.0,
+   "date": "2026-11-02 12:58",
    "category": "International",
    "is_law": false,
    "states": []
-  },
-  {
-   "source": "Marijuana Moment",
-   "title": "Police Groups Urge Massachusetts Voters To Keep Cannabis Sales Legal By Rejecting Ballot Measure",
-   "link": "https://www.marijuanamoment.net/police-groups-urge-massachusetts-voters-to-keep-cannabis-sales-legal-by-rejecting-ballot-measure/",
-   "ts": 1793640580.0,
-   "date": "2026-11-02 12:29",
-   "category": "US states",
-   "is_law": true,
-   "states": [
-    "Massachusetts"
-   ]
   },
   {
    "source": "Business of Cannabis (intl)",
@@ -1064,16 +1048,6 @@
    "date": "2026-11-02 11:11",
    "category": "International",
    "is_law": true,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Tilray to Close Fenwick Redecan Facility, Shifting Production to Other Facilities",
-   "link": "https://stratcann.com/news/tilray-to-close-fenwick-facility-while-ensuring-uninterrupted-redecan-supply/",
-   "ts": 1793634030.0,
-   "date": "2026-11-02 10:40",
-   "category": "International",
-   "is_law": false,
    "states": []
   },
   {
@@ -1097,16 +1071,6 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Cannabis Jobs Update \u2013 November 2026",
-   "link": "https://stratcann.com/news/cannabis-jobs-update-november-2026/",
-   "ts": 1793585947.0,
-   "date": "2026-11-01 21:19",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Google News: intl cannabis",
    "title": "The UK\u2019s legal cannabis market is booming \u2013 so why can\u2019t this talented artist get any to treat his epilepsy? | Kojo Koram - The Guardian",
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcVpNVl9DcG96MkRHNmQ1R1ZXWmtYZ1lqVnRCd01ZT0FsUzdKOVpFaGtUa1RXRWtvbkduZU9sQTlOV0wyOXhWQ2dkMXYyMzFzZGFTSlZRUlYtZ2EwTUNRSXg1dzBGaWhUSEIzODJaLXpiLWtKUVBEYXFjeFhSTjM4RlFXdXBRRXJsVVRVS3Bvem8xNUd6SDFHZGtUbXB5Q2lwX3pDWEJ5SUx5c0U?oc=5",
@@ -1114,26 +1078,6 @@
    "date": "2026-11-01 11:52",
    "category": "International",
    "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Week in Weed \u2013 October 31, 2026",
-   "link": "https://stratcann.com/news/week-in-weed-october-31-2026/",
-   "ts": 1793445600.0,
-   "date": "2026-10-31 07:20",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "US Issues First Medical Cannabis Registrations Following Rescheduling",
-   "link": "https://stratcann.com/news/us-issues-first-medical-cannabis-registrations-following-rescheduling/",
-   "ts": 1793408183.0,
-   "date": "2026-10-30 20:56",
-   "category": "US federal",
-   "is_law": true,
    "states": []
   },
   {
@@ -1159,11 +1103,11 @@
    ]
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Hamilton Police Shut Down Illegal Cannabis Dispensary",
-   "link": "https://stratcann.com/enforcement/hamilton-police-shut-down-illegal-cannabis-dispensary/",
-   "ts": 1793393191.0,
-   "date": "2026-10-30 16:46",
+   "source": "Google News: intl cannabis",
+   "title": "Christina Lake Cannabis Corp. (CLC.CN) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FVzAyczJsdG8tVzdQZGtwMEZvN3ozTzVBQ0pqTmwtSUFZb3p2THE0OUJhYXI1clotNmhEYjJxbTRlM3ZSR3FKU1FFSm4tdVJNeDQtOA?oc=5",
+   "ts": 1793380304.0,
+   "date": "2026-10-30 13:11",
    "category": "International",
    "is_law": false,
    "states": []
@@ -1189,16 +1133,6 @@
    "states": [
     "Alabama"
    ]
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "TobaGrown Acquires Great Gardener Farms",
-   "link": "https://stratcann.com/news/tobagrown-acquires-great-gardener-farms/",
-   "ts": 1793366640.0,
-   "date": "2026-10-30 09:24",
-   "category": "International",
-   "is_law": false,
-   "states": []
   },
   {
    "source": "MJBizDaily",
@@ -1255,16 +1189,6 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Vanquish Brands Announces 2026 Financial Results",
-   "link": "https://stratcann.com/financials/vanquish-brands-2026-financial-pistol-and-paris/",
-   "ts": 1793233240.0,
-   "date": "2026-10-28 20:20",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "MJBizDaily",
    "title": "New York cannabis sales top $1.4 billion through Q3",
    "link": "https://mjbizdaily.com/news/new-york-cannabis-sales-top-1-4-billion-through-q3/618912/",
@@ -1287,32 +1211,12 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Declining Cannabis Use and Growing Legal Market Adoption in Quebec",
-   "link": "https://stratcann.com/news/declining-cannabis-use-and-growing-legal-market-adoption-in-quebec/",
-   "ts": 1793214966.0,
-   "date": "2026-10-28 15:16",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "MJBizDaily",
    "title": "Federal hemp THC rescue possible after midterm elections \u2013 but with new rules",
    "link": "https://mjbizdaily.com/news/federal-hemp-thc-rescue-possible-after-midterm-elections-but-with-new-rules/618905/",
    "ts": 1793211568.0,
    "date": "2026-10-28 14:19",
    "category": "US federal",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Neurologic Signs Common in Children After Cannabis Exposure - Medscape",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVEFGWXI0V2JrUU8yOTdFQURLY096d3VkdTJ0ZFM5T0xqUElSZlVWLTQ3NGFaeXJTaWRvMnI2S3RvczZiaWdxU0tRa0NYM2lyMngwNWdnbUlwT09OV0hYUFVBUFU4anNmTUh3ZHBJU1pmTVRJZDBybXJkRlJoZ2I0bDhJNnVlckhnRFkxWjY3dDlMd1lBUXUtM0NwcVFXdUFZYl8wWEZIc3lqVUk?oc=5",
-   "ts": 1793188949.0,
-   "date": "2026-10-28 08:02",
-   "category": "International",
    "is_law": false,
    "states": []
   },
@@ -1378,26 +1282,6 @@
    "ts": 1793134015.0,
    "date": "2026-10-27 16:46",
    "category": "Industry",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Navigating International Markets as a Canadian Cannabis Grower",
-   "link": "https://stratcann.com/news/navigating-international-markets-as-a-canadian-cannabis-grower/",
-   "ts": 1793133670.0,
-   "date": "2026-10-27 16:41",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "SNDL\u2019s Record Retail Margins Offset by Impairments and Net Loss in Q3 2026",
-   "link": "https://stratcann.com/financials/sndls-record-retail-margins-offset-by-impairments-and-net-loss-in-q3-2026/",
-   "ts": 1793110816.0,
-   "date": "2026-10-27 10:20",
-   "category": "International",
    "is_law": false,
    "states": []
   },
@@ -1869,5 +1753,5 @@
    "states": []
   }
  ],
- "generated": "2026-11-04 07:43 EST"
+ "generated": "2026-11-04 08:08 EST"
 }
