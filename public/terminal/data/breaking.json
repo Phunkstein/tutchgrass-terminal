@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-04T11:08:19-0500",
- "generated_ts": 1793808499,
+ "generated": "2026-11-04T12:58:12-0500",
+ "generated_ts": 1793815093,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -33,12 +33,27 @@
   },
   {
    "source": "Google News: intl cannabis",
-   "status": "unavailable",
-   "items": 0
+   "status": "ok",
+   "items": 12
   }
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "allegedillicitinternationalcannabisringdismantledinontario",
+   "title": "Alleged Illicit International Cannabis Ring Dismantled in Ontario",
+   "link": "https://stratcann.com/enforcement/alleged-illicit-international-cannabis-ring-dismantled-in-ontario/",
+   "source": "StratCann (Canada)",
+   "category": "International",
+   "is_law": false,
+   "states": [
+    "North"
+   ],
+   "published": "2026-11-04T12:54:57-0500",
+   "published_ts": 1793814897.0,
+   "first_seen": "2026-11-04T12:58:12-0500",
+   "first_seen_ts": 1793815093
+  },
   {
    "id": "allnationssecureseugmpaccessthroughthirdpartypartnership",
    "title": "All Nations Secures EU GMP Access Through Third-Party Partnership",
@@ -483,47 +498,6 @@
    "published_ts": 1793643278.0,
    "first_seen": "2026-11-02T15:13:15-0500",
    "first_seen_ts": 1793650396
-  },
-  {
-   "id": "policegroupsurgemassachusettsvoterstokeepcannabissaleslegalb",
-   "title": "Police Groups Urge Massachusetts Voters To Keep Cannabis Sales Legal By Rejecting Ballot Measure",
-   "link": "https://www.marijuanamoment.net/police-groups-urge-massachusetts-voters-to-keep-cannabis-sales-legal-by-rejecting-ballot-measure/",
-   "source": "Marijuana Moment",
-   "category": "US states",
-   "is_law": true,
-   "states": [
-    "Massachusetts"
-   ],
-   "published": "2026-11-02T12:29:40-0500",
-   "published_ts": 1793640580.0,
-   "first_seen": "2026-11-02T12:33:18-0500",
-   "first_seen_ts": 1793640798
-  },
-  {
-   "id": "amaraisesconcernsaboutmarijuanakratomandotherbotanicaldrugsw",
-   "title": "AMA Raises Concerns About Marijuana, Kratom And Other Botanical Drugs While Pushing \u2018Special Schedule\u2019 To Support Research",
-   "link": "https://www.marijuanamoment.net/ama-raises-concerns-about-marijuana-kratom-and-other-botanical-drugs-while-pushing-special-schedule-to-support-research/",
-   "source": "Marijuana Moment",
-   "category": "US federal",
-   "is_law": false,
-   "states": [],
-   "published": "2026-11-02T11:59:41-0500",
-   "published_ts": 1793638781.0,
-   "first_seen": "2026-11-02T12:03:17-0500",
-   "first_seen_ts": 1793638997
-  },
-  {
-   "id": "deaissuesfirstfederalregistrationsto900dispensariesbutdualli",
-   "title": "DEA Issues First Federal Registrations to 900 Dispensaries, But Dual-Licence States Remain Uncertain",
-   "link": "https://businessofcannabis.com/dea-issues-first-federal-registrations-to-900-dispensaries-but-dual-licence-states-remain-uncertain/",
-   "source": "Business of Cannabis (intl)",
-   "category": "US federal",
-   "is_law": true,
-   "states": [],
-   "published": "2026-11-02T11:25:09-0500",
-   "published_ts": 1793636709.0,
-   "first_seen": "2026-11-02T11:28:16-0500",
-   "first_seen_ts": 1793636897
   }
  ]
 }
