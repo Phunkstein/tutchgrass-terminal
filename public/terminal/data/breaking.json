@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-04T08:08:14-0500",
- "generated_ts": 1793797694,
+ "generated": "2026-11-04T08:28:13-0500",
+ "generated_ts": 1793798893,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "unavailable",
-   "items": 0
+   "status": "ok",
+   "items": 12
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,21 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "incomingiowagovernorwantstolegalizemarijuanatohelpfixstatesb",
+   "title": "Incoming Iowa Governor Wants To Legalize Marijuana To Help Fix State\u2019s Budget Issues",
+   "link": "https://www.marijuanamoment.net/incoming-iowa-governor-wants-to-legalize-marijuana-to-help-fix-states-budget-issues/",
+   "source": "Marijuana Moment",
+   "category": "US states",
+   "is_law": true,
+   "states": [
+    "Iowa"
+   ],
+   "published": "2026-11-04T08:24:14-0500",
+   "published_ts": 1793798654.0,
+   "first_seen": "2026-11-04T08:28:13-0500",
+   "first_seen_ts": 1793798893
+  },
   {
    "id": "pennsylvaniaisteeduptofinallylegalizemarijuanaasdemocratscla",
    "title": "Pennsylvania Is Teed Up To Finally Legalize Marijuana As Democrats Claim Majority In State Senate",
