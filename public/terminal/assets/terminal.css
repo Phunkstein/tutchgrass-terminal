@@ -382,6 +382,9 @@ body.fp .fp-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:
 body.fp .fp-card h2{font-size:18px;line-height:1.3;margin:0 0 10px}
 body.fp .fp-kicker{margin:0 0 8px;font:600 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
 body.fp .fp-price{margin:0 0 8px;font:600 28px/1 var(--mono);letter-spacing:-.03em}
+body.fp .fp-card{display:flex;flex-direction:column}
+body.fp .fp-action{margin-top:auto;padding-top:14px}
+body.fp .fp-action .btn{align-self:flex-start;text-decoration:none}
 @media(max-width:800px){body.fp .fp-grid{grid-template-columns:1fr}}
 @media (max-width:760px){.thgrid{grid-template-columns:1fr;gap:12px;padding-top:14px;padding-bottom:14px}.thcard{padding:15px 14px;gap:8px}.thh h2{font-size:19px}
  .staygrid{grid-template-columns:1fr;gap:6px}.scard .sjob{display:none}}
