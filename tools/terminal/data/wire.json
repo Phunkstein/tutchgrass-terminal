@@ -4,7 +4,7 @@
   {
    "source": "PubMed newest (medical, 14 d)",
    "status": "ok",
-   "items": 9
+   "items": 8
   },
   {
    "source": "PubMed newest (cultivation, 14 d)",
@@ -38,8 +38,8 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 119"
   },
   {
    "source": "Google News: intl cannabis",
@@ -160,20 +160,6 @@
    ],
    "preclinical": false,
    "url": "https://pubmed.ncbi.nlm.nih.gov/42947591/"
-  },
-  {
-   "track": "medical",
-   "pmid": "42983598",
-   "title": "Comment on: Potential reverse spin of cannabinoids vs. pharmaceutical analgesics for pain treatment: a systematic review based critical interpretive synthesis of meta-analyses.",
-   "journal": "Res Integr Peer Rev",
-   "year": "2026",
-   "first_author": "Moore et al.",
-   "pubtypes": [
-    "Letter",
-    "Comment"
-   ],
-   "preclinical": false,
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42983598/"
   }
  ],
  "papers_cultivation": [
@@ -272,19 +258,6 @@
    ]
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Herbal Dispatch Accelerates Veteran Program Growth and Expands Access with New Clinic Partnership",
-   "link": "https://stratcann.com/financials/herbal-dispatch-accelerates-veteran-program-growth-and-expands-access-with-new-clinic-partnership/",
-   "summary": "Registrations through the BC-based company's medical cannabis platform grew from 103 as of January 1, 2026, to more than 1,100 active registered veterans as of... The post Herbal Dispatch Accelerates Veteran Program Growth and Expands Access with New Clinic Pa",
-   "ts": 1793832170.0,
-   "date": "2026-11-04 17:42",
-   "category": "US federal",
-   "is_law": false,
-   "states": [
-    "New"
-   ]
-  },
-  {
    "source": "Marijuana Moment",
    "title": "Wisconsin Could Legalize Marijuana Under New Democratic Control Of The State Legislature",
    "link": "https://www.marijuanamoment.net/wisconsin-could-legalize-marijuana-under-new-democratic-control-of-the-state-legislature/",
@@ -311,6 +284,17 @@
   },
   {
    "source": "MJBizDaily",
+   "title": "DEA recognizes cannabis MSO Trulieve, denies marijuana rescheduling benefit to adult-use operators",
+   "link": "https://mjbizdaily.com/news/dea-registers-medical-marijuana-mso-trulieve-denies-adult-use-operators-federal-recognition/619001/",
+   "summary": "More than 6,000 cannabis operators filed \"timely\" applications for registration with the DEA, which has granted recognition to more than 900 locations - including some owed by MSO Trulieve. DEA recognizes cannabis MSO Trulieve, denies marijuana rescheduling be",
+   "ts": 1793650778.0,
+   "date": "2026-11-02 15:19",
+   "category": "US federal",
+   "is_law": true,
+   "states": []
+  },
+  {
+   "source": "MJBizDaily",
    "title": "How cannabis employers are taking worker healthcare benefits into their own hands",
    "link": "https://mjbizdaily.com/news/how-cannabis-employers-are-taking-worker-healthcare-benefits-into-their-own-hands/618948/",
    "summary": "Cannabis employers may wish to consider healthcare captives when choosing employee benefits. How cannabis employers are taking worker healthcare benefits into their own hands is a post from: MJBizDaily: Financial, Legal & Cannabusiness news for cannabis entrep",
@@ -322,17 +306,6 @@
   }
  ],
  "news_intl": [
-  {
-   "source": "StratCann (Canada)",
-   "title": "Earliest Direct Evidence Shows Cannabis Used for Psychoactive Purposes 2,800 Years Ago",
-   "link": "https://stratcann.com/news/earliest-direct-evidence-shows-cannabis-used-for-psychoactive-purposes-2800-years-ago/",
-   "summary": "A new study suggests that cannabis was used for its psychoactive qualities across Eurasia dating back at least 2,800 years. The post Earliest Direct Evidence Shows Cannabis Used for Psychoactive Purposes 2,800 Years Ago appeared first on StratCann .",
-   "ts": 1793914575.0,
-   "date": "2026-11-05 16:36",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
   {
    "source": "Cannabis Health News (UK)",
    "title": "Evidence, Access and the Future of Cannabinoid Medicine: Key Takeaways from Cannabis Health Symposium Frankfurt \u2013 Part 1",
@@ -367,6 +340,6 @@
    "states": []
   }
  ],
- "news_health_total": 9,
- "generated": "2026-11-05 17:45 EST"
+ "news_health_total": 8,
+ "generated": "2026-11-05 18:45 EST"
 }
