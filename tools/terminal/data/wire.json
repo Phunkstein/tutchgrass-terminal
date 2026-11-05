@@ -38,8 +38,8 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 119"
   },
   {
    "source": "Google News: intl cannabis",
@@ -258,15 +258,16 @@
  ],
  "news_us": [
   {
-   "source": "StratCann (Canada)",
-   "title": "Herbal Dispatch Accelerates Veteran Program Growth and Expands Access with New Clinic Partnership",
-   "link": "https://stratcann.com/financials/herbal-dispatch-accelerates-veteran-program-growth-and-expands-access-with-new-clinic-partnership/",
-   "summary": "Registrations through the BC-based company's medical cannabis platform grew from 103 as of January 1, 2026, to more than 1,100 active registered veterans as of... The post Herbal Dispatch Accelerates Veteran Program Growth and Expands Access with New Clinic Pa",
-   "ts": 1793832170.0,
-   "date": "2026-11-04 17:42",
-   "category": "US federal",
-   "is_law": false,
+   "source": "Marijuana Moment",
+   "title": "Maryland Is Launching A Process For Firefighters And Rescue Workers Who Live Out-Of-State To Qualify For New Medical Marijuana Protections",
+   "link": "https://www.marijuanamoment.net/maryland-is-launching-a-process-for-firefighters-and-rescue-workers-who-live-out-of-state-to-qualify-for-new-medical-marijuana-protections/",
+   "summary": "Maryland officials are providing guidance about a new law that protects firefighters and rescue workers from being penalized over their lawful use of medical marijuana off the job\u2014including announcing that they are establishing a process allowing first respond",
+   "ts": 1793888408.0,
+   "date": "2026-11-05 09:20",
+   "category": "US states",
+   "is_law": true,
    "states": [
+    "Maryland",
     "New"
    ]
   },
@@ -342,8 +343,19 @@
    "category": "International",
    "is_law": false,
    "states": []
+  },
+  {
+   "source": "Business of Cannabis (intl)",
+   "title": "Flower Prices Down 22%, SKUs Up 73%: Germany\u2019s Cannabis Market is at an Inflection Point",
+   "link": "https://businessofcannabis.com/flower-prices-down-22-skus-up-73-germanys-cannabis-market-is-at-an-inflection-point/",
+   "summary": "Since the implementation of the MedCanG in April 2024, the German medical cannabis market has become a key target for regional and international cannabis operators alike. This immense growth is primarily driven by the ease of patient access fuelled by telemedi",
+   "ts": 1793716381.0,
+   "date": "2026-11-03 09:33",
+   "category": "International",
+   "is_law": false,
+   "states": []
   }
  ],
- "news_health_total": 7,
- "generated": "2026-11-05 08:45 EST"
+ "news_health_total": 8,
+ "generated": "2026-11-05 09:44 EST"
 }
