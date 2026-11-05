@@ -383,6 +383,9 @@ body.fp .fp-card h2{font-size:18px;line-height:1.3;margin:0 0 10px}
 body.fp .fp-kicker{margin:0 0 8px;font:600 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
 body.fp .fp-price{margin:0 0 8px;font:600 28px/1 var(--mono);letter-spacing:-.03em}
 body.fp .fp-card{display:flex;flex-direction:column}
+body.fp .fp-card-media{padding:0;overflow:hidden}
+body.fp .fp-card-body{display:flex;flex-direction:column;flex:1;padding:16px 18px 18px}
+body.fp .fp-thumb{display:block;width:100%;height:auto}
 body.fp .fp-action{margin-top:auto;padding-top:14px}
 body.fp .fp-action .btn{align-self:flex-start;text-decoration:none}
 @media(max-width:800px){body.fp .fp-grid{grid-template-columns:1fr}}
