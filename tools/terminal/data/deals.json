@@ -2,15 +2,15 @@
  "schema": "deals/3",
  "test": true,
  "region": "United States (all legal markets)",
- "checked": "2026-11-05 14:00 EST",
- "count": 661,
+ "checked": "2026-11-05 18:47 EST",
+ "count": 665,
  "chains": 63,
  "states_with_deals": 28,
  "by_state": {
   "AK": 3,
   "AL": 0,
   "AR": 10,
-  "AZ": 28,
+  "AZ": 35,
   "CA": 36,
   "CO": 24,
   "CT": 8,
@@ -20,17 +20,17 @@
   "GA": 0,
   "HI": 0,
   "IA": 0,
-  "IL": 16,
+  "IL": 14,
   "KY": 0,
   "LA": 0,
   "MA": 28,
   "MD": 15,
   "ME": 3,
-  "MI": 298,
+  "MI": 290,
   "MN": 0,
   "MO": 29,
   "MS": 6,
-  "MT": 22,
+  "MT": 19,
   "ND": 0,
   "NH": 0,
   "NJ": 11,
@@ -47,13 +47,13 @@
   "UT": 0,
   "VA": 4,
   "VT": 0,
-  "WA": 11,
+  "WA": 21,
   "WV": 7
  },
  "by_chain": {
   "The Fire Station": 10,
   "Bloom City Club": 40,
-  "King of Budz": 50,
+  "King of Budz": 42,
   "Cannabis Club": 8,
   "LIV Cannabis": 1,
   "Exclusive": 1,
@@ -66,7 +66,7 @@
   "Flavors Detroit": 1,
   "Catalyst Cannabis Co.": 3,
   "Good Day Farm": 10,
-  "Nirvana Cannabis": 13,
+  "Nirvana Cannabis": 20,
   "The Superior Dispensary": 10,
   "YiLo": 5,
   "The Artist Tree": 10,
@@ -82,7 +82,7 @@
   "Cookies D.C.": 1,
   "Trulieve": 20,
   "Bud & Rita's": 9,
-  "Altius": 7,
+  "Altius": 5,
   "Caroline's Cannabis": 10,
   "Temescal Wellness": 3,
   "Bask": 10,
@@ -94,7 +94,6 @@
   "Codes": 10,
   "Proper Cannabis": 9,
   "Star Buds": 6,
-  "The Hi-Line Co.": 3,
   "Mission Mountain Organics": 10,
   "Spark1": 7,
   "Top Shelf Botanicals": 2,
@@ -113,6 +112,7 @@
   "Zen Leaf": 11,
   "Craft Cannabis": 1,
   "Kaleafa": 4,
+  "Mary Mart": 10,
   "Clear Choice": 6
  },
  "by_city": {
@@ -124,7 +124,7 @@
   "Detroit, MI": 68,
   "Ferndale, MI": 11,
   "Inkster, MI": 10,
-  "Monroe, MI": 20,
+  "Monroe, MI": 12,
   "New Buffalo, MI": 28,
   "Grand Rapids, MI": 11,
   "Lake Orion, MI": 1,
@@ -143,7 +143,7 @@
   "Monticello, AR": 10,
   "Texarkana, AR": 10,
   "Van Buren, AR": 10,
-  "Phoenix, AZ": 28,
+  "Phoenix, AZ": 35,
   "El Sobrante, CA": 10,
   "Fresno, CA": 10,
   "Hawthorne, CA": 10,
@@ -166,7 +166,7 @@
   "Wadsworth, IL": 9,
   "Sycamore, IL": 9,
   "Forsyth, IL": 9,
-  "Round Lake Beach, IL": 7,
+  "Round Lake Beach, IL": 5,
   "Uxbridge, MA": 10,
   "Hopedale, MA": 10,
   "Framingham, MA": 3,
@@ -212,7 +212,7 @@
   "Aberdeen, WA": 4,
   "Des Moines, WA": 1,
   "Oak Harbor, WA": 1,
-  "Tacoma, WA": 6,
+  "Tacoma, WA": 16,
   "Morgantown, WV": 7
  },
  "states": [
@@ -234,7 +234,7 @@
    "code": "AZ",
    "name": "Arizona",
    "market": "adult-use + medical",
-   "deals": 28,
+   "deals": 35,
    "sources": 5
   },
   {
@@ -304,7 +304,7 @@
    "code": "IL",
    "name": "Illinois",
    "market": "adult-use + medical",
-   "deals": 16,
+   "deals": 14,
    "sources": 3
   },
   {
@@ -353,7 +353,7 @@
    "code": "MI",
    "name": "Michigan",
    "market": "adult-use + medical",
-   "deals": 298,
+   "deals": 290,
    "sources": 35
   },
   {
@@ -381,7 +381,7 @@
    "code": "MT",
    "name": "Montana",
    "market": "adult-use + medical",
-   "deals": 22,
+   "deals": 19,
    "sources": 5
   },
   {
@@ -500,7 +500,7 @@
    "code": "WA",
    "name": "Washington",
    "market": "adult-use + medical",
-   "deals": 11,
+   "deals": 21,
    "sources": 4
   },
   {
@@ -562,8 +562,7 @@
    "url": "https://www.kingofbudz.com/michigan/monroe/deals",
    "robots": "allowed",
    "status": "ok",
-   "deals": 10,
-   "more": 11
+   "deals": 2
   },
   {
    "state": "MI",
@@ -838,7 +837,8 @@
    "url": "https://nirvanacannabis.com/deals/west-phoenix-az/",
    "robots": "allowed",
    "status": "ok",
-   "deals": 3
+   "deals": 10,
+   "more": 4
   },
   {
    "state": "AZ",
@@ -847,7 +847,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 80
+   "more": 79
   },
   {
    "state": "AZ",
@@ -1014,7 +1014,7 @@
    "url": "https://shop.altiusdispensary.com/locations/IL/round-lake-beach/menu/discounts",
    "robots": "allowed",
    "status": "ok",
-   "deals": 7
+   "deals": 5
   },
   {
    "state": "MA",
@@ -1162,8 +1162,8 @@
    "name": "The Hi-Line Co. \u2013 The Hi-Line Co. (Montana stores)",
    "url": "https://www.hi-line.co/daily-deals/",
    "robots": "allowed",
-   "status": "ok",
-   "deals": 3
+   "status": "error: HTTP 504",
+   "deals": 0
   },
   {
    "state": "MT",
@@ -1230,7 +1230,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 8
+   "more": 7
   },
   {
    "state": "NV",
@@ -1359,8 +1359,9 @@
    "name": "Mary Mart",
    "url": "https://marymart.com/deals",
    "robots": "allowed",
-   "status": "error: HTTP 404",
-   "deals": 0
+   "status": "ok",
+   "deals": 10,
+   "more": 3
   },
   {
    "state": "WA",
@@ -2815,6 +2816,26 @@
     "Ferndale"
    ],
    "state": "MI",
+   "deal": "Monopoly Melts - 30% OFF",
+   "valid": "page said \u201c3 Days Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://www.kingofbudz.com/michigan/ferndale/deals/monopoly-melts-30-percent-off",
+   "loc": [
+    6
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Ferndale",
+   "city": "Ferndale",
+   "cities": [
+    "Ferndale"
+   ],
+   "state": "MI",
    "deal": "Good Good - 1.2g Infused Prerolls - 12 for $25 (Buy 12 for $25)",
    "valid": "page said \u201c3 Days Left\u201d when checked",
    "until": "",
@@ -2835,6 +2856,26 @@
     "Ferndale"
    ],
    "state": "MI",
+   "deal": "Tip Top Crop (Excludes DELI) - 25% OFF",
+   "valid": "page said \u201c3 Days Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://www.kingofbudz.com/michigan/ferndale/deals/tip-top-crop-excludes-deli-25-percent-off",
+   "loc": [
+    6
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Ferndale",
+   "city": "Ferndale",
+   "cities": [
+    "Ferndale"
+   ],
+   "state": "MI",
    "deal": "MKX - 2g and 3g Disposables - 25% OFF (10/26-11/08)",
    "valid": "page said \u201c3 Days Left\u201d when checked",
    "until": "",
@@ -2842,6 +2883,26 @@
    "note": "",
    "collected": "2026-11-05",
    "url": "https://www.kingofbudz.com/michigan/ferndale/deals/mkx-2g-and-3g-disposables-25-percent-off-1026-1108",
+   "loc": [
+    6
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Ferndale",
+   "city": "Ferndale",
+   "cities": [
+    "Ferndale"
+   ],
+   "state": "MI",
+   "deal": "Clout King 1g Prerolls - 10% OFF",
+   "valid": "page said \u201c3 Days Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://www.kingofbudz.com/michigan/ferndale/deals/clout-king-1g-prerolls-10-percent-off",
    "loc": [
     6
    ],
@@ -2882,66 +2943,6 @@
    "note": "",
    "collected": "2026-11-05",
    "url": "https://www.kingofbudz.com/michigan/ferndale/deals/banned-200mg-gummies-4-packs-only-bogo",
-   "loc": [
-    6
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Ferndale",
-   "city": "Ferndale",
-   "cities": [
-    "Ferndale"
-   ],
-   "state": "MI",
-   "deal": "Monopoly Melts - 30% OFF",
-   "valid": "page said \u201c3 Days Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-05",
-   "url": "https://www.kingofbudz.com/michigan/ferndale/deals/monopoly-melts-30-percent-off",
-   "loc": [
-    6
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Ferndale",
-   "city": "Ferndale",
-   "cities": [
-    "Ferndale"
-   ],
-   "state": "MI",
-   "deal": "Tip Top Crop (Excludes DELI) - 25% OFF",
-   "valid": "page said \u201c3 Days Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-05",
-   "url": "https://www.kingofbudz.com/michigan/ferndale/deals/tip-top-crop-excludes-deli-25-percent-off",
-   "loc": [
-    6
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Ferndale",
-   "city": "Ferndale",
-   "cities": [
-    "Ferndale"
-   ],
-   "state": "MI",
-   "deal": "Clout King 1g Prerolls - 10% OFF",
-   "valid": "page said \u201c3 Days Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-05",
-   "url": "https://www.kingofbudz.com/michigan/ferndale/deals/clout-king-1g-prerolls-10-percent-off",
    "loc": [
     6
    ],
@@ -3015,46 +3016,6 @@
     "Inkster"
    ],
    "state": "MI",
-   "deal": "Gelato First and Last Bites (Bars / Dubai Bites Excluded) - 30% OFF",
-   "valid": "page said \u201c3 Days Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-05",
-   "url": "https://www.kingofbudz.com/michigan/inkster/deals/gelato-first-and-last-bites-bars-dubai-bites-excluded-30-percent-off",
-   "loc": [
-    7
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Inkster",
-   "city": "Inkster",
-   "cities": [
-    "Inkster"
-   ],
-   "state": "MI",
-   "deal": "Dat Canna - 1g Live Rosin - 20% OFF",
-   "valid": "page said \u201c3 Days Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-05",
-   "url": "https://www.kingofbudz.com/michigan/inkster/deals/dat-canna-1g-live-rosin-20-percent-off",
-   "loc": [
-    7
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Inkster",
-   "city": "Inkster",
-   "cities": [
-    "Inkster"
-   ],
-   "state": "MI",
    "deal": "Tokers Choice - 1.5g Liquid Diamond Infused Rocket - BOGO (Buy 1, Get 1 Free)",
    "valid": "page said \u201c3 Days Left\u201d when checked",
    "until": "",
@@ -3062,26 +3023,6 @@
    "note": "",
    "collected": "2026-11-05",
    "url": "https://www.kingofbudz.com/michigan/inkster/deals/tokers-choice-15g-liquid-diamond-infused-rocket-bogo",
-   "loc": [
-    7
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Inkster",
-   "city": "Inkster",
-   "cities": [
-    "Inkster"
-   ],
-   "state": "MI",
-   "deal": "Monopoly Melts - 30% OFF",
-   "valid": "page said \u201c3 Days Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-05",
-   "url": "https://www.kingofbudz.com/michigan/inkster/deals/monopoly-melts-30-percent-off",
    "loc": [
     7
    ],
@@ -3135,13 +3076,73 @@
     "Inkster"
    ],
    "state": "MI",
-   "deal": "Dat Canna - 1.2g Bubble Hash Infused Preroll - 20% OFF",
+   "deal": "Pro Gro 1g Preroll - B2G1 Free (Buy 2, Get 1 Free)",
    "valid": "page said \u201c3 Days Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
    "collected": "2026-11-05",
-   "url": "https://www.kingofbudz.com/michigan/inkster/deals/dat-canna-12g-bubble-hash-infused-preroll-20-percent-off",
+   "url": "https://www.kingofbudz.com/michigan/inkster/deals/pro-gro-1g-preroll-b2g1-free",
+   "loc": [
+    7
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Inkster",
+   "city": "Inkster",
+   "cities": [
+    "Inkster"
+   ],
+   "state": "MI",
+   "deal": "Banned - 200mg Gummies (4-Packs ONLY) - BOGO (Buy 1, Get 1 Free)",
+   "valid": "page said \u201c3 Days Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://www.kingofbudz.com/michigan/inkster/deals/banned-200mg-gummies-4-packs-only-bogo",
+   "loc": [
+    7
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Inkster",
+   "city": "Inkster",
+   "cities": [
+    "Inkster"
+   ],
+   "state": "MI",
+   "deal": "Gelato First and Last Bites (Bars / Dubai Bites Excluded) - 30% OFF",
+   "valid": "page said \u201c3 Days Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://www.kingofbudz.com/michigan/inkster/deals/gelato-first-and-last-bites-bars-dubai-bites-excluded-30-percent-off",
+   "loc": [
+    7
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Inkster",
+   "city": "Inkster",
+   "cities": [
+    "Inkster"
+   ],
+   "state": "MI",
+   "deal": "Dat Canna - 1g Live Rosin - 20% OFF",
+   "valid": "page said \u201c3 Days Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://www.kingofbudz.com/michigan/inkster/deals/dat-canna-1g-live-rosin-20-percent-off",
    "loc": [
     7
    ],
@@ -3155,13 +3156,13 @@
     "Monroe"
    ],
    "state": "MI",
-   "deal": "Doob Squad 28g Prepack Shake - 20% OFF",
-   "valid": "page said \u201c3 Days Left\u201d when checked",
+   "deal": "Creekside Farms - 28g Prepack Shake - 2 for $30 (Buy 2 for $30 Doob Squad 28g Prepack Shake - 20% OFF 20% Off Giving Tree 3.5g Prepack - 3 for $55 Buy 3 for $55 GLO Farms 3.5g Prepack - 6 for $110 Buy 6 for $110 Doob Squad 28g Prepack Shake - 2 for $72 Buy 2 for $72 Michigander Fire 3.5g Prepack - 2/$58 Buy 2 for $58 Creme Cultivation 3.5g Prepacks 4 For $66 Buy 4 for $66 Goodlyfe Funhouse Oceana Gardens AND OG Farms 2 For $56 Buy 2 for $56 Local Grove 3.5g 2/$60 Buy 2 for $60 Hytek 3.5 Prepack 3/$60 Buy 3 for $60 Vaporizers Deals ( 24 ) Fly 1g Carts - 15 for $60 Buy 15 for $60 Mitten Extracts 1g Disposables 2/$18 Buy 2 for $18 Dayzees - 1g Live Rosin Disposable - 2 for 70$ DEAL Fly 1g Carts 15/$66 Buy 15 for $66 Amnesia 1G Disposables 5 For $54 Buy 5 for $54 Budderface 1g Live Resin Carts 5 For $71 Buy 5 for $71 Pro Gro 1G Live Resin Disposables 4 For $100 Buy 4 for $100 Sauce Reserve 1G Disposables 2 For $54 Buy 2 for $54 Berry Green, Go Kartz & more)",
+   "valid": "page said \u201c15 for $67\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
    "collected": "2026-11-05",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/doob-squad-28g-prepack-shake-20-percent-off",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/creekside-farms-28g-prepack-shake-2-for-30",
    "loc": [
     8
    ],
@@ -3175,173 +3176,13 @@
     "Monroe"
    ],
    "state": "MI",
-   "deal": "Giving Tree 3.5g Prepack - 3 for $55 (Buy 3 for $55)",
-   "valid": "page said \u201c3 Days Left\u201d when checked",
+   "deal": "Play Go Kartz AND Berry Green 1g Carts 15/$67 (Buy 15 for $67 Platnium Vape Drip Crude Boys MKX AND Stickee 1g Carts 15/$107 Buy 15 for $107 Gelato Mitten AND Wise Guys 15/$109 Buy 15 for $109 Amnesia/Mac Pharm/No Bad Days 1g Cart 15/$80 Buy 15 for $80 Rove 1g Diamond RELOAD - BOGO Buy 1, Get 1 Free Boutiq - 2g Liquid Live Diamonds Disposable - 2 for $45 Buy 2 for $45 Hyman Bundle Deal DEAL Stiiizy - 1g Disposable - 4/$60 Buy 4 for $60 Stiiizy - Pods - 4/$57 Buy 4 for $57 Jeeter 1g Liquid Diamond Disposables 3 for $55 Buy 3 for $55 Jeeter 1g Liquid Diamond Disposables - 2 for $38 Buy 2 for $38 3/$70 Jeeter 1g Live Resin Disposables Buy 3 for $70 Giggles 1g Live Rosin Cart - 15 for 75$ Buy 15 for $75 Party Favors - 1g Cart - 15 for 69$ DEAL Sauce Essentials 1G Disposables 2 For $28 Buy 2 for $28 .5g Live Resin Carts 3/$38 Buy 3 for $38 Pre Rolls Deals ( 34 ) Jeeter - 5-Pack .5g Quad Infused Prerolls - 3 for $85 Buy 3 for $85 Jeeter - 1g Quad Infused Preroll - 3 for $35 Buy 3 for $35 Giving Tree 1g Preroll - B2G1 Buy 2, Get 1 Free Tokers Choice - 1.5g Liquid Diamond Infused Rocket - BOGO Buy 1, Get 1 Free Monopoly Melts - 30% OFF 30% Off Tip Top Crop (Excludes DELI) - 25% OFF 25% Off Clout King 1g Prerolls - 10% OFF 10% Off Dat Canna - 1.2g Bubble Hash Infused Preroll - 20% OFF 20% Off Pro Gro 1g Preroll - B2G1 Free Buy 2, Get 1 Free Michigander Fire 5-pack .5g prerolls 2/$43 Buy 2 for $43 Michigander Fire 1g Prerolls 2/$18 Buy 2 for $18 Thunder Canna 14-Pack Prerolls 2/$25 Buy 2 for $25 Jesters 1.5g Infused Prerolls 2/$15 Buy 2 for $15 Kush Cannon 1.8g Infused Donut 2/$45 Buy 2 for $45 Lowtek 1g Prerolls 28/$75 Buy 28 for $75 Mac Pharms 28-Pack Prerolls 2/$45 Buy 2 for $45 Dragon Slayer - 1.2g Infused Preroll - 7 for $20 Buy 7 for $20 Light Sky Farms)",
+   "valid": "page said \u201c5 for $18\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
    "collected": "2026-11-05",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/giving-tree-35g-prepack-3-for-55",
-   "loc": [
-    8
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Monroe",
-   "city": "Monroe",
-   "cities": [
-    "Monroe"
-   ],
-   "state": "MI",
-   "deal": "GLO Farms 3.5g Prepack - 6 for $110 (Buy 6 for $110)",
-   "valid": "page said \u201c3 Days Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-05",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/glo-farms-35g-prepack-6-for-110",
-   "loc": [
-    8
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Monroe",
-   "city": "Monroe",
-   "cities": [
-    "Monroe"
-   ],
-   "state": "MI",
-   "deal": "Giving Tree 1g Preroll - B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c3 Days Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-05",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/giving-tree-1g-preroll-b2g1",
-   "loc": [
-    8
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Monroe",
-   "city": "Monroe",
-   "cities": [
-    "Monroe"
-   ],
-   "state": "MI",
-   "deal": "Squishies - 200mg Rosin Gummies - B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c3 Days Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-05",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/squishies-200mg-rosin-gummies-b2g1",
-   "loc": [
-    8
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Monroe",
-   "city": "Monroe",
-   "cities": [
-    "Monroe"
-   ],
-   "state": "MI",
-   "deal": "Pro Gro - 200mg Live Resin Gummies - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c3 Days Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-05",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/pro-gro-200mg-live-resin-gummies-bogo",
-   "loc": [
-    8
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Monroe",
-   "city": "Monroe",
-   "cities": [
-    "Monroe"
-   ],
-   "state": "MI",
-   "deal": "Midnight Roots All Chocolates - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c3 Days Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-05",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/-midnight-roots-all-chocolates-bogo",
-   "loc": [
-    8
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Monroe",
-   "city": "Monroe",
-   "cities": [
-    "Monroe"
-   ],
-   "state": "MI",
-   "deal": "Covert Cups 200mg Hash Rosin Cones - B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c3 Days Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-05",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/covert-cups-200mg-hash-rosin-cones-b2g1",
-   "loc": [
-    8
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Monroe",
-   "city": "Monroe",
-   "cities": [
-    "Monroe"
-   ],
-   "state": "MI",
-   "deal": "Gelato First and Last Bites (Bars / Dubai Bites Excluded) - 30% OFF",
-   "valid": "page said \u201c3 Days Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-05",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/gelato-first-and-last-bites-bars-dubai-bites-excluded-30-percent-off",
-   "loc": [
-    8
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Monroe",
-   "city": "Monroe",
-   "cities": [
-    "Monroe"
-   ],
-   "state": "MI",
-   "deal": "Dat Canna - 1g Live Rosin - 20% OFF",
-   "valid": "page said \u201c3 Days Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-05",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/dat-canna-1g-live-rosin-20-percent-off",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/play-go-kartz-and-berry-green-1g-carts-1567",
    "loc": [
     8
    ],
@@ -3356,7 +3197,7 @@
    ],
    "state": "MI",
    "deal": "Berry Green BOGO (EXCLUDES 15g Buckets) Lowest Item Free (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c2 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -7896,10 +7737,10 @@
     "Phoenix"
    ],
    "state": "AZ",
-   "deal": "1st Visit - 40% Off any Regular Priced Medicated Item (up to 3.5g)",
+   "deal": "Everyday low price!: 3 for $24 \u2013 Sip",
    "valid": "",
    "until": "",
-   "kind": "limited",
+   "kind": "everyday",
    "note": "",
    "collected": "2026-11-05",
    "url": "https://nirvanacannabis.com/deals/west-phoenix-az/",
@@ -7918,10 +7759,10 @@
     "Phoenix"
    ],
    "state": "AZ",
-   "deal": "15% Off Military",
+   "deal": "Everyday low price!: 50% Off Clout King (select skus, WSL)",
    "valid": "",
    "until": "",
-   "kind": "limited",
+   "kind": "everyday",
    "note": "",
    "collected": "2026-11-05",
    "url": "https://nirvanacannabis.com/deals/west-phoenix-az/",
@@ -7940,10 +7781,164 @@
     "Phoenix"
    ],
    "state": "AZ",
-   "deal": "10% Off With Referral",
+   "deal": "Everyday low price!: 50% Off \u2013 ALL Jeeter Pre-rolls",
    "valid": "",
    "until": "",
-   "kind": "limited",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://nirvanacannabis.com/deals/west-phoenix-az/",
+   "loc": [
+    50,
+    51,
+    52
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Nirvana Cannabis",
+   "store": "Nirvana West Phoenix",
+   "city": "Phoenix",
+   "cities": [
+    "Phoenix"
+   ],
+   "state": "AZ",
+   "deal": "Everyday low price!: 50% Off \u2013 Backpack Boyz 1g Pre-rolls ($7.50)",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://nirvanacannabis.com/deals/west-phoenix-az/",
+   "loc": [
+    50,
+    51,
+    52
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Nirvana Cannabis",
+   "store": "Nirvana West Phoenix",
+   "city": "Phoenix",
+   "cities": [
+    "Phoenix"
+   ],
+   "state": "AZ",
+   "deal": "Everyday low price!: 40% Off \u2013 Wyld Gummies (Excludes Wyld ones)",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://nirvanacannabis.com/deals/west-phoenix-az/",
+   "loc": [
+    50,
+    51,
+    52
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Nirvana Cannabis",
+   "store": "Nirvana West Phoenix",
+   "city": "Phoenix",
+   "cities": [
+    "Phoenix"
+   ],
+   "state": "AZ",
+   "deal": "2 for $25 \u2013 Mix and Match Flower, pre-rolls, vapes and Concentrate",
+   "valid": "Everyday low price!",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://nirvanacannabis.com/deals/west-phoenix-az/",
+   "loc": [
+    50,
+    51,
+    52
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Nirvana Cannabis",
+   "store": "Nirvana West Phoenix",
+   "city": "Phoenix",
+   "cities": [
+    "Phoenix"
+   ],
+   "state": "AZ",
+   "deal": "Everyday low price!: 4 for $50 \u2013 Keef 100mg Sodas",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://nirvanacannabis.com/deals/west-phoenix-az/",
+   "loc": [
+    50,
+    51,
+    52
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Nirvana Cannabis",
+   "store": "Nirvana West Phoenix",
+   "city": "Phoenix",
+   "cities": [
+    "Phoenix"
+   ],
+   "state": "AZ",
+   "deal": "2 for $25 \u2013 Ayah & Nirvana 2g glass Tip Hand Rolled Pre-roll",
+   "valid": "Everyday low price!",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://nirvanacannabis.com/deals/west-phoenix-az/",
+   "loc": [
+    50,
+    51,
+    52
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Nirvana Cannabis",
+   "store": "Nirvana West Phoenix",
+   "city": "Phoenix",
+   "cities": [
+    "Phoenix"
+   ],
+   "state": "AZ",
+   "deal": "2 for $55 \u2013 14g of Everyday, The Pharm & Stash",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://nirvanacannabis.com/deals/west-phoenix-az/",
+   "loc": [
+    50,
+    51,
+    52
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Nirvana Cannabis",
+   "store": "Nirvana West Phoenix",
+   "city": "Phoenix",
+   "cities": [
+    "Phoenix"
+   ],
+   "state": "AZ",
+   "deal": "2 for $15 \u2013 Pucks Daily Deal (exc Rosin & Medical SKUS)",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
    "note": "",
    "collected": "2026-11-05",
    "url": "https://nirvanacannabis.com/deals/west-phoenix-az/",
@@ -8746,7 +8741,7 @@
     "West Hollywood"
    ],
    "state": "CA",
-   "deal": "Saturday: STIIIZY: 20% OFF",
+   "deal": "Saturday: STIIIZY (excludes infused flower): 20% OFF",
    "valid": "",
    "until": "",
    "kind": "everyday",
@@ -10741,46 +10736,6 @@
     "Round Lake Beach"
    ],
    "state": "IL",
-   "deal": "Mix & Match Generic 1g Carts: 2 for $45",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-05",
-   "url": "https://shop.altiusdispensary.com/locations/IL/round-lake-beach/menu/discounts",
-   "loc": [
-    87
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "Altius",
-   "store": "Altius Round Lake Beach",
-   "city": "Round Lake Beach",
-   "cities": [
-    "Round Lake Beach"
-   ],
-   "state": "IL",
-   "deal": "20% off Wyld & Good Tide (THURSDAY-SUNDAY ONLY)",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-05",
-   "url": "https://shop.altiusdispensary.com/locations/IL/round-lake-beach/menu/discounts",
-   "loc": [
-    87
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "Altius",
-   "store": "Altius Round Lake Beach",
-   "city": "Round Lake Beach",
-   "cities": [
-    "Round Lake Beach"
-   ],
-   "state": "IL",
    "deal": "Sun/Thu-Sat: Mix & Match Incredibles 100mg THC: 2 for $22",
    "valid": "",
    "until": "",
@@ -10812,50 +10767,6 @@
     87
    ],
    "geo": "city"
-  },
-  {
-   "chain": "Caroline's Cannabis",
-   "store": "Caroline's Cannabis",
-   "city": "Uxbridge \u00b7 Hopedale",
-   "cities": [
-    "Uxbridge",
-    "Hopedale"
-   ],
-   "state": "MA",
-   "deal": "Every Day Savings: Infused Pre-Rolls: 2 for $25",
-   "valid": "",
-   "until": "",
-   "kind": "everyday",
-   "note": "",
-   "collected": "2026-11-05",
-   "url": "https://carolinescannabis.com/specials",
-   "loc": [
-    88,
-    89
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "Caroline's Cannabis",
-   "store": "Caroline's Cannabis",
-   "city": "Uxbridge \u00b7 Hopedale",
-   "cities": [
-    "Uxbridge",
-    "Hopedale"
-   ],
-   "state": "MA",
-   "deal": "Every Day Savings: Kanha Edibles: 3 for $50",
-   "valid": "",
-   "until": "",
-   "kind": "everyday",
-   "note": "",
-   "collected": "2026-11-05",
-   "url": "https://carolinescannabis.com/specials",
-   "loc": [
-    88,
-    89
-   ],
-   "geo": "store"
   },
   {
    "chain": "Caroline's Cannabis",
@@ -10910,6 +10821,50 @@
     "Hopedale"
    ],
    "state": "MA",
+   "deal": "Every Day Savings: Infused Pre-Rolls: 2 for $25",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://carolinescannabis.com/specials",
+   "loc": [
+    88,
+    89
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Caroline's Cannabis",
+   "store": "Caroline's Cannabis",
+   "city": "Uxbridge \u00b7 Hopedale",
+   "cities": [
+    "Uxbridge",
+    "Hopedale"
+   ],
+   "state": "MA",
+   "deal": "Every Day Savings: Kanha Edibles: 3 for $50",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://carolinescannabis.com/specials",
+   "loc": [
+    88,
+    89
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Caroline's Cannabis",
+   "store": "Caroline's Cannabis",
+   "city": "Uxbridge \u00b7 Hopedale",
+   "cities": [
+    "Uxbridge",
+    "Hopedale"
+   ],
+   "state": "MA",
    "deal": "Every Day Savings: 1g Concentrates: 2 for $35",
    "valid": "",
    "until": "",
@@ -10933,28 +10888,6 @@
    ],
    "state": "MA",
    "deal": "Every Day Savings: Beverages: 4 for $20",
-   "valid": "",
-   "until": "",
-   "kind": "everyday",
-   "note": "",
-   "collected": "2026-11-05",
-   "url": "https://carolinescannabis.com/specials",
-   "loc": [
-    88,
-    89
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "Caroline's Cannabis",
-   "store": "Caroline's Cannabis",
-   "city": "Uxbridge \u00b7 Hopedale",
-   "cities": [
-    "Uxbridge",
-    "Hopedale"
-   ],
-   "state": "MA",
-   "deal": "Every Day Savings: Dialed In Gummies: 2 for $40",
    "valid": "",
    "until": "",
    "kind": "everyday",
@@ -11021,6 +10954,28 @@
    ],
    "state": "MA",
    "deal": "Every Day Savings: 3 for $20: 20pk Gummies",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://carolinescannabis.com/specials",
+   "loc": [
+    88,
+    89
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Caroline's Cannabis",
+   "store": "Caroline's Cannabis",
+   "city": "Uxbridge \u00b7 Hopedale",
+   "cities": [
+    "Uxbridge",
+    "Hopedale"
+   ],
+   "state": "MA",
+   "deal": "Every Day Savings: Dialed In Gummies: 2 for $40",
    "valid": "",
    "until": "",
    "kind": "everyday",
@@ -12566,87 +12521,6 @@
    "geo": "city"
   },
   {
-   "chain": "The Hi-Line Co.",
-   "store": "The Hi-Line Co. (Montana stores)",
-   "city": "",
-   "cities": [],
-   "state": "MT",
-   "deal": "Self-Care Sundays: 15% off",
-   "valid": "Sunday",
-   "until": "",
-   "kind": "everyday",
-   "note": "",
-   "collected": "2026-11-05",
-   "url": "https://www.hi-line.co/daily-deals/",
-   "loc": [
-    123,
-    124,
-    125,
-    126,
-    127,
-    128,
-    129,
-    130,
-    131,
-    132
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "The Hi-Line Co.",
-   "store": "The Hi-Line Co. (Montana stores)",
-   "city": "",
-   "cities": [],
-   "state": "MT",
-   "deal": "Sunday: all CBD products: 25% off",
-   "valid": "",
-   "until": "",
-   "kind": "everyday",
-   "note": "",
-   "collected": "2026-11-05",
-   "url": "https://www.hi-line.co/daily-deals/",
-   "loc": [
-    123,
-    124,
-    125,
-    126,
-    127,
-    128,
-    129,
-    130,
-    131,
-    132
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "The Hi-Line Co.",
-   "store": "The Hi-Line Co. (Montana stores)",
-   "city": "",
-   "cities": [],
-   "state": "MT",
-   "deal": "25% off Mid-Line and Hi-Line tier prepackaged",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-05",
-   "url": "https://www.hi-line.co/daily-deals/",
-   "loc": [
-    123,
-    124,
-    125,
-    126,
-    127,
-    128,
-    129,
-    130,
-    131,
-    132
-   ],
-   "geo": "store"
-  },
-  {
    "chain": "Mission Mountain Organics",
    "store": "Mission Mountain Organics",
    "city": "Whitefish \u00b7 Helena",
@@ -12663,8 +12537,8 @@
    "collected": "2026-11-05",
    "url": "https://www.missionmountainorganics.com/deals",
    "loc": [
-    133,
-    134
+    123,
+    124
    ],
    "geo": "store"
   },
@@ -12685,8 +12559,8 @@
    "collected": "2026-11-05",
    "url": "https://www.missionmountainorganics.com/deals",
    "loc": [
-    133,
-    134
+    123,
+    124
    ],
    "geo": "store"
   },
@@ -12707,8 +12581,8 @@
    "collected": "2026-11-05",
    "url": "https://www.missionmountainorganics.com/deals",
    "loc": [
-    133,
-    134
+    123,
+    124
    ],
    "geo": "store"
   },
@@ -12729,8 +12603,8 @@
    "collected": "2026-11-05",
    "url": "https://www.missionmountainorganics.com/deals",
    "loc": [
-    133,
-    134
+    123,
+    124
    ],
    "geo": "store"
   },
@@ -12751,8 +12625,8 @@
    "collected": "2026-11-05",
    "url": "https://www.missionmountainorganics.com/deals",
    "loc": [
-    133,
-    134
+    123,
+    124
    ],
    "geo": "store"
   },
@@ -12773,8 +12647,8 @@
    "collected": "2026-11-05",
    "url": "https://www.missionmountainorganics.com/deals",
    "loc": [
-    133,
-    134
+    123,
+    124
    ],
    "geo": "store"
   },
@@ -12795,8 +12669,8 @@
    "collected": "2026-11-05",
    "url": "https://www.missionmountainorganics.com/deals",
    "loc": [
-    133,
-    134
+    123,
+    124
    ],
    "geo": "store"
   },
@@ -12817,8 +12691,8 @@
    "collected": "2026-11-05",
    "url": "https://www.missionmountainorganics.com/deals",
    "loc": [
-    133,
-    134
+    123,
+    124
    ],
    "geo": "store"
   },
@@ -12839,8 +12713,8 @@
    "collected": "2026-11-05",
    "url": "https://www.missionmountainorganics.com/deals",
    "loc": [
-    133,
-    134
+    123,
+    124
    ],
    "geo": "store"
   },
@@ -12861,8 +12735,8 @@
    "collected": "2026-11-05",
    "url": "https://www.missionmountainorganics.com/deals",
    "loc": [
-    133,
-    134
+    123,
+    124
    ],
    "geo": "store"
   },
@@ -12882,7 +12756,7 @@
    "collected": "2026-11-05",
    "url": "https://www.spark1mt.com/deals",
    "loc": [
-    135
+    125
    ],
    "geo": "store"
   },
@@ -12902,7 +12776,7 @@
    "collected": "2026-11-05",
    "url": "https://www.spark1mt.com/deals",
    "loc": [
-    135
+    125
    ],
    "geo": "store"
   },
@@ -12922,7 +12796,7 @@
    "collected": "2026-11-05",
    "url": "https://www.spark1mt.com/deals",
    "loc": [
-    135
+    125
    ],
    "geo": "store"
   },
@@ -12942,7 +12816,7 @@
    "collected": "2026-11-05",
    "url": "https://www.spark1mt.com/deals",
    "loc": [
-    135
+    125
    ],
    "geo": "store"
   },
@@ -12962,7 +12836,7 @@
    "collected": "2026-11-05",
    "url": "https://www.spark1mt.com/deals",
    "loc": [
-    135
+    125
    ],
    "geo": "store"
   },
@@ -12982,7 +12856,7 @@
    "collected": "2026-11-05",
    "url": "https://www.spark1mt.com/deals",
    "loc": [
-    135
+    125
    ],
    "geo": "store"
   },
@@ -13002,7 +12876,7 @@
    "collected": "2026-11-05",
    "url": "https://www.spark1mt.com/deals",
    "loc": [
-    135
+    125
    ],
    "geo": "store"
   },
@@ -13024,9 +12898,9 @@
    "collected": "2026-11-05",
    "url": "https://topshelfbotanicals.com/daily-deals/",
    "loc": [
-    136,
-    137,
-    138
+    126,
+    127,
+    128
    ],
    "geo": "city"
   },
@@ -13048,9 +12922,9 @@
    "collected": "2026-11-05",
    "url": "https://topshelfbotanicals.com/daily-deals/",
    "loc": [
-    136,
-    137,
-    138
+    126,
+    127,
+    128
    ],
    "geo": "city"
   },
@@ -13071,8 +12945,8 @@
    "collected": "2026-11-05",
    "url": "https://earthandivy.co/discounts/",
    "loc": [
-    139,
-    140
+    129,
+    130
    ],
    "geo": "store"
   },
@@ -13093,8 +12967,8 @@
    "collected": "2026-11-05",
    "url": "https://earthandivy.co/discounts/",
    "loc": [
-    139,
-    140
+    129,
+    130
    ],
    "geo": "store"
   },
@@ -13115,8 +12989,8 @@
    "collected": "2026-11-05",
    "url": "https://earthandivy.co/discounts/",
    "loc": [
-    139,
-    140
+    129,
+    130
    ],
    "geo": "store"
   },
@@ -13137,8 +13011,8 @@
    "collected": "2026-11-05",
    "url": "https://earthandivy.co/discounts/",
    "loc": [
-    139,
-    140
+    129,
+    130
    ],
    "geo": "store"
   },
@@ -13159,8 +13033,8 @@
    "collected": "2026-11-05",
    "url": "https://earthandivy.co/discounts/",
    "loc": [
-    139,
-    140
+    129,
+    130
    ],
    "geo": "store"
   },
@@ -13181,8 +13055,8 @@
    "collected": "2026-11-05",
    "url": "https://earthandivy.co/discounts/",
    "loc": [
-    139,
-    140
+    129,
+    130
    ],
    "geo": "store"
   },
@@ -13203,8 +13077,8 @@
    "collected": "2026-11-05",
    "url": "https://earthandivy.co/discounts/",
    "loc": [
-    139,
-    140
+    129,
+    130
    ],
    "geo": "store"
   },
@@ -13225,8 +13099,8 @@
    "collected": "2026-11-05",
    "url": "https://earthandivy.co/discounts/",
    "loc": [
-    139,
-    140
+    129,
+    130
    ],
    "geo": "store"
   },
@@ -13247,8 +13121,8 @@
    "collected": "2026-11-05",
    "url": "https://earthandivy.co/discounts/",
    "loc": [
-    139,
-    140
+    129,
+    130
    ],
    "geo": "store"
   },
@@ -13269,8 +13143,8 @@
    "collected": "2026-11-05",
    "url": "https://earthandivy.co/discounts/",
    "loc": [
-    139,
-    140
+    129,
+    130
    ],
    "geo": "store"
   },
@@ -13290,7 +13164,7 @@
    "collected": "2026-11-05",
    "url": "https://valleywellnessnj.com/",
    "loc": [
-    141
+    131
    ],
    "geo": "city"
   },
@@ -13310,7 +13184,7 @@
    "collected": "2026-11-05",
    "url": "https://1upabq.com/deals-/-specials",
    "loc": [
-    142
+    132
    ],
    "geo": "store"
   },
@@ -13330,7 +13204,7 @@
    "collected": "2026-11-05",
    "url": "https://1upabq.com/deals-/-specials",
    "loc": [
-    142
+    132
    ],
    "geo": "store"
   },
@@ -13350,7 +13224,7 @@
    "collected": "2026-11-05",
    "url": "https://1upabq.com/deals-/-specials",
    "loc": [
-    142
+    132
    ],
    "geo": "store"
   },
@@ -13370,7 +13244,7 @@
    "collected": "2026-11-05",
    "url": "https://1upabq.com/deals-/-specials",
    "loc": [
-    142
+    132
    ],
    "geo": "store"
   },
@@ -13390,7 +13264,7 @@
    "collected": "2026-11-05",
    "url": "https://1upabq.com/deals-/-specials",
    "loc": [
-    142
+    132
    ],
    "geo": "store"
   },
@@ -13410,7 +13284,7 @@
    "collected": "2026-11-05",
    "url": "https://1upabq.com/deals-/-specials",
    "loc": [
-    142
+    132
    ],
    "geo": "store"
   },
@@ -13430,7 +13304,7 @@
    "collected": "2026-11-05",
    "url": "https://1upabq.com/deals-/-specials",
    "loc": [
-    142
+    132
    ],
    "geo": "store"
   },
@@ -13450,7 +13324,7 @@
    "collected": "2026-11-05",
    "url": "https://1upabq.com/deals-/-specials",
    "loc": [
-    142
+    132
    ],
    "geo": "store"
   },
@@ -13470,7 +13344,7 @@
    "collected": "2026-11-05",
    "url": "https://planet13.com/deals",
    "loc": [
-    143
+    133
    ],
    "geo": "store"
   },
@@ -13490,7 +13364,7 @@
    "collected": "2026-11-05",
    "url": "https://planet13.com/deals",
    "loc": [
-    143
+    133
    ],
    "geo": "store"
   },
@@ -13510,7 +13384,7 @@
    "collected": "2026-11-05",
    "url": "https://planet13.com/deals",
    "loc": [
-    143
+    133
    ],
    "geo": "store"
   },
@@ -13530,7 +13404,7 @@
    "collected": "2026-11-05",
    "url": "https://planet13.com/deals",
    "loc": [
-    143
+    133
    ],
    "geo": "store"
   },
@@ -13550,7 +13424,7 @@
    "collected": "2026-11-05",
    "url": "https://planet13.com/deals",
    "loc": [
-    143
+    133
    ],
    "geo": "store"
   },
@@ -13570,7 +13444,7 @@
    "collected": "2026-11-05",
    "url": "https://planet13.com/deals",
    "loc": [
-    143
+    133
    ],
    "geo": "store"
   },
@@ -13590,7 +13464,7 @@
    "collected": "2026-11-05",
    "url": "https://planet13.com/deals",
    "loc": [
-    143
+    133
    ],
    "geo": "store"
   },
@@ -13610,7 +13484,7 @@
    "collected": "2026-11-05",
    "url": "https://planet13.com/deals",
    "loc": [
-    143
+    133
    ],
    "geo": "store"
   },
@@ -13630,7 +13504,7 @@
    "collected": "2026-11-05",
    "url": "https://planet13.com/deals",
    "loc": [
-    143
+    133
    ],
    "geo": "store"
   },
@@ -13642,7 +13516,7 @@
     "Las Vegas"
    ],
    "state": "NV",
-   "deal": "2 for $25 Presidential 1g Infused Pre-Rolls",
+   "deal": "3 for $50 Medizin & TRENDI.5g Live Resin Vape Carts",
    "valid": "",
    "until": "",
    "kind": "limited",
@@ -13650,7 +13524,7 @@
    "collected": "2026-11-05",
    "url": "https://planet13.com/deals",
    "loc": [
-    143
+    133
    ],
    "geo": "store"
   },
@@ -13670,7 +13544,7 @@
    "collected": "2026-11-05",
    "url": "https://inyolasvegas.com/deals",
    "loc": [
-    144
+    134
    ],
    "geo": "city"
   },
@@ -13690,7 +13564,7 @@
    "collected": "2026-11-05",
    "url": "https://inyolasvegas.com/deals",
    "loc": [
-    144
+    134
    ],
    "geo": "city"
   },
@@ -13710,7 +13584,7 @@
    "collected": "2026-11-05",
    "url": "https://inyolasvegas.com/deals",
    "loc": [
-    144
+    134
    ],
    "geo": "city"
   },
@@ -13730,7 +13604,7 @@
    "collected": "2026-11-05",
    "url": "https://inyolasvegas.com/deals",
    "loc": [
-    144
+    134
    ],
    "geo": "city"
   },
@@ -13750,7 +13624,7 @@
    "collected": "2026-11-05",
    "url": "https://inyolasvegas.com/deals",
    "loc": [
-    144
+    134
    ],
    "geo": "city"
   },
@@ -13770,7 +13644,7 @@
    "collected": "2026-11-05",
    "url": "https://inyolasvegas.com/deals",
    "loc": [
-    144
+    134
    ],
    "geo": "city"
   },
@@ -13790,7 +13664,7 @@
    "collected": "2026-11-05",
    "url": "https://inyolasvegas.com/deals",
    "loc": [
-    144
+    134
    ],
    "geo": "city"
   },
@@ -13810,7 +13684,7 @@
    "collected": "2026-11-05",
    "url": "https://inyolasvegas.com/deals",
    "loc": [
-    144
+    134
    ],
    "geo": "city"
   },
@@ -13830,7 +13704,7 @@
    "collected": "2026-11-05",
    "url": "https://inyolasvegas.com/deals",
    "loc": [
-    144
+    134
    ],
    "geo": "city"
   },
@@ -13850,7 +13724,7 @@
    "collected": "2026-11-05",
    "url": "https://inyolasvegas.com/deals",
    "loc": [
-    144
+    134
    ],
    "geo": "city"
   },
@@ -13870,7 +13744,7 @@
    "collected": "2026-11-05",
    "url": "https://greengeniusnyc.com/deals/",
    "loc": [
-    145
+    135
    ],
    "geo": "store"
   },
@@ -13890,7 +13764,7 @@
    "collected": "2026-11-05",
    "url": "https://greengeniusnyc.com/deals/",
    "loc": [
-    145
+    135
    ],
    "geo": "store"
   },
@@ -13910,7 +13784,7 @@
    "collected": "2026-11-05",
    "url": "https://greengeniusnyc.com/deals/",
    "loc": [
-    145
+    135
    ],
    "geo": "store"
   },
@@ -13930,7 +13804,7 @@
    "collected": "2026-11-05",
    "url": "https://greengeniusnyc.com/deals/",
    "loc": [
-    145
+    135
    ],
    "geo": "store"
   },
@@ -13950,7 +13824,7 @@
    "collected": "2026-11-05",
    "url": "https://greengeniusnyc.com/deals/",
    "loc": [
-    145
+    135
    ],
    "geo": "store"
   },
@@ -13970,7 +13844,7 @@
    "collected": "2026-11-05",
    "url": "https://greengeniusnyc.com/deals/",
    "loc": [
-    145
+    135
    ],
    "geo": "store"
   },
@@ -13990,7 +13864,7 @@
    "collected": "2026-11-05",
    "url": "https://hwcannabis.co/deals/broadway/",
    "loc": [
-    146
+    136
    ],
    "geo": "city"
   },
@@ -14010,7 +13884,7 @@
    "collected": "2026-11-05",
    "url": "https://hwcannabis.co/deals/broadway/",
    "loc": [
-    146
+    136
    ],
    "geo": "city"
   },
@@ -14030,7 +13904,7 @@
    "collected": "2026-11-05",
    "url": "https://hwcannabis.co/deals/broadway/",
    "loc": [
-    146
+    136
    ],
    "geo": "city"
   },
@@ -14048,12 +13922,12 @@
    "collected": "2026-11-05",
    "url": "https://ohio.greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    147,
-    148,
-    149,
-    150,
-    151,
-    152
+    137,
+    138,
+    139,
+    140,
+    141,
+    142
    ],
    "geo": "store"
   },
@@ -14071,12 +13945,12 @@
    "collected": "2026-11-05",
    "url": "https://ohio.greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    147,
-    148,
-    149,
-    150,
-    151,
-    152
+    137,
+    138,
+    139,
+    140,
+    141,
+    142
    ],
    "geo": "store"
   },
@@ -14094,12 +13968,12 @@
    "collected": "2026-11-05",
    "url": "https://ohio.greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    147,
-    148,
-    149,
-    150,
-    151,
-    152
+    137,
+    138,
+    139,
+    140,
+    141,
+    142
    ],
    "geo": "store"
   },
@@ -14117,12 +13991,12 @@
    "collected": "2026-11-05",
    "url": "https://ohio.greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    147,
-    148,
-    149,
-    150,
-    151,
-    152
+    137,
+    138,
+    139,
+    140,
+    141,
+    142
    ],
    "geo": "store"
   },
@@ -14140,12 +14014,12 @@
    "collected": "2026-11-05",
    "url": "https://ohio.greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    147,
-    148,
-    149,
-    150,
-    151,
-    152
+    137,
+    138,
+    139,
+    140,
+    141,
+    142
    ],
    "geo": "store"
   },
@@ -14163,12 +14037,12 @@
    "collected": "2026-11-05",
    "url": "https://ohio.greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    147,
-    148,
-    149,
-    150,
-    151,
-    152
+    137,
+    138,
+    139,
+    140,
+    141,
+    142
    ],
    "geo": "store"
   },
@@ -14186,12 +14060,12 @@
    "collected": "2026-11-05",
    "url": "https://ohio.greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    147,
-    148,
-    149,
-    150,
-    151,
-    152
+    137,
+    138,
+    139,
+    140,
+    141,
+    142
    ],
    "geo": "store"
   },
@@ -14209,12 +14083,12 @@
    "collected": "2026-11-05",
    "url": "https://ohio.greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    147,
-    148,
-    149,
-    150,
-    151,
-    152
+    137,
+    138,
+    139,
+    140,
+    141,
+    142
    ],
    "geo": "store"
   },
@@ -14232,12 +14106,12 @@
    "collected": "2026-11-05",
    "url": "https://ohio.greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    147,
-    148,
-    149,
-    150,
-    151,
-    152
+    137,
+    138,
+    139,
+    140,
+    141,
+    142
    ],
    "geo": "store"
   },
@@ -14259,9 +14133,9 @@
    "collected": "2026-11-05",
    "url": "https://pureohiowellness.com/",
    "loc": [
-    153,
-    154,
-    155
+    143,
+    144,
+    145
    ],
    "geo": "store"
   },
@@ -14283,9 +14157,9 @@
    "collected": "2026-11-05",
    "url": "https://pureohiowellness.com/",
    "loc": [
-    153,
-    154,
-    155
+    143,
+    144,
+    145
    ],
    "geo": "store"
   },
@@ -14307,9 +14181,9 @@
    "collected": "2026-11-05",
    "url": "https://pureohiowellness.com/",
    "loc": [
-    153,
-    154,
-    155
+    143,
+    144,
+    145
    ],
    "geo": "store"
   },
@@ -14331,9 +14205,9 @@
    "collected": "2026-11-05",
    "url": "https://pureohiowellness.com/",
    "loc": [
-    153,
-    154,
-    155
+    143,
+    144,
+    145
    ],
    "geo": "store"
   },
@@ -14355,9 +14229,9 @@
    "collected": "2026-11-05",
    "url": "https://pureohiowellness.com/",
    "loc": [
-    153,
-    154,
-    155
+    143,
+    144,
+    145
    ],
    "geo": "store"
   },
@@ -14379,9 +14253,9 @@
    "collected": "2026-11-05",
    "url": "https://pureohiowellness.com/",
    "loc": [
-    153,
-    154,
-    155
+    143,
+    144,
+    145
    ],
    "geo": "store"
   },
@@ -14403,9 +14277,9 @@
    "collected": "2026-11-05",
    "url": "https://pureohiowellness.com/",
    "loc": [
-    153,
-    154,
-    155
+    143,
+    144,
+    145
    ],
    "geo": "store"
   },
@@ -14425,8 +14299,8 @@
    "collected": "2026-11-05",
    "url": "https://bridgecitycollective.com/deals",
    "loc": [
-    156,
-    157
+    146,
+    147
    ],
    "geo": "store"
   },
@@ -14446,8 +14320,8 @@
    "collected": "2026-11-05",
    "url": "https://bridgecitycollective.com/deals",
    "loc": [
-    156,
-    157
+    146,
+    147
    ],
    "geo": "store"
   },
@@ -14467,8 +14341,8 @@
    "collected": "2026-11-05",
    "url": "https://bridgecitycollective.com/deals",
    "loc": [
-    156,
-    157
+    146,
+    147
    ],
    "geo": "store"
   },
@@ -14488,8 +14362,8 @@
    "collected": "2026-11-05",
    "url": "https://bridgecitycollective.com/deals",
    "loc": [
-    156,
-    157
+    146,
+    147
    ],
    "geo": "store"
   },
@@ -14509,8 +14383,8 @@
    "collected": "2026-11-05",
    "url": "https://bridgecitycollective.com/deals",
    "loc": [
-    156,
-    157
+    146,
+    147
    ],
    "geo": "store"
   },
@@ -14530,8 +14404,8 @@
    "collected": "2026-11-05",
    "url": "https://bridgecitycollective.com/deals",
    "loc": [
-    156,
-    157
+    146,
+    147
    ],
    "geo": "store"
   },
@@ -14551,8 +14425,8 @@
    "collected": "2026-11-05",
    "url": "https://bridgecitycollective.com/deals",
    "loc": [
-    156,
-    157
+    146,
+    147
    ],
    "geo": "store"
   },
@@ -14572,8 +14446,8 @@
    "collected": "2026-11-05",
    "url": "https://bridgecitycollective.com/deals",
    "loc": [
-    156,
-    157
+    146,
+    147
    ],
    "geo": "store"
   },
@@ -14593,8 +14467,8 @@
    "collected": "2026-11-05",
    "url": "https://bridgecitycollective.com/deals",
    "loc": [
-    156,
-    157
+    146,
+    147
    ],
    "geo": "store"
   },
@@ -14614,8 +14488,8 @@
    "collected": "2026-11-05",
    "url": "https://bridgecitycollective.com/deals",
    "loc": [
-    156,
-    157
+    146,
+    147
    ],
    "geo": "store"
   },
@@ -14640,12 +14514,12 @@
    "collected": "2026-11-05",
    "url": "https://vytaloptions.com/weekly-deals/",
    "loc": [
-    158,
-    159,
-    160,
-    161,
-    162,
-    163
+    148,
+    149,
+    150,
+    151,
+    152,
+    153
    ],
    "geo": "store"
   },
@@ -14670,12 +14544,12 @@
    "collected": "2026-11-05",
    "url": "https://vytaloptions.com/weekly-deals/",
    "loc": [
-    158,
-    159,
-    160,
-    161,
-    162,
-    163
+    148,
+    149,
+    150,
+    151,
+    152,
+    153
    ],
    "geo": "store"
   },
@@ -14700,12 +14574,12 @@
    "collected": "2026-11-05",
    "url": "https://vytaloptions.com/weekly-deals/",
    "loc": [
-    158,
-    159,
-    160,
-    161,
-    162,
-    163
+    148,
+    149,
+    150,
+    151,
+    152,
+    153
    ],
    "geo": "store"
   },
@@ -14730,12 +14604,12 @@
    "collected": "2026-11-05",
    "url": "https://vytaloptions.com/weekly-deals/",
    "loc": [
-    158,
-    159,
-    160,
-    161,
-    162,
-    163
+    148,
+    149,
+    150,
+    151,
+    152,
+    153
    ],
    "geo": "store"
   },
@@ -14760,12 +14634,12 @@
    "collected": "2026-11-05",
    "url": "https://vytaloptions.com/weekly-deals/",
    "loc": [
-    158,
-    159,
-    160,
-    161,
-    162,
-    163
+    148,
+    149,
+    150,
+    151,
+    152,
+    153
    ],
    "geo": "store"
   },
@@ -14790,12 +14664,12 @@
    "collected": "2026-11-05",
    "url": "https://vytaloptions.com/weekly-deals/",
    "loc": [
-    158,
-    159,
-    160,
-    161,
-    162,
-    163
+    148,
+    149,
+    150,
+    151,
+    152,
+    153
    ],
    "geo": "store"
   },
@@ -14820,12 +14694,12 @@
    "collected": "2026-11-05",
    "url": "https://vytaloptions.com/weekly-deals/",
    "loc": [
-    158,
-    159,
-    160,
-    161,
-    162,
-    163
+    148,
+    149,
+    150,
+    151,
+    152,
+    153
    ],
    "geo": "store"
   },
@@ -14850,12 +14724,12 @@
    "collected": "2026-11-05",
    "url": "https://vytaloptions.com/weekly-deals/",
    "loc": [
-    158,
-    159,
-    160,
-    161,
-    162,
-    163
+    148,
+    149,
+    150,
+    151,
+    152,
+    153
    ],
    "geo": "store"
   },
@@ -14880,12 +14754,12 @@
    "collected": "2026-11-05",
    "url": "https://vytaloptions.com/weekly-deals/",
    "loc": [
-    158,
-    159,
-    160,
-    161,
-    162,
-    163
+    148,
+    149,
+    150,
+    151,
+    152,
+    153
    ],
    "geo": "store"
   },
@@ -14910,12 +14784,12 @@
    "collected": "2026-11-05",
    "url": "https://vytaloptions.com/weekly-deals/",
    "loc": [
-    158,
-    159,
-    160,
-    161,
-    162,
-    163
+    148,
+    149,
+    150,
+    151,
+    152,
+    153
    ],
    "geo": "store"
   },
@@ -14935,7 +14809,7 @@
    "collected": "2026-11-05",
    "url": "https://slatercenter.com/",
    "loc": [
-    164
+    154
    ],
    "geo": "store"
   },
@@ -14955,7 +14829,7 @@
    "collected": "2026-11-05",
    "url": "https://shop.cannacaresf.com/stores/cannacare-sioux-falls",
    "loc": [
-    165
+    155
    ],
    "geo": "city"
   },
@@ -14975,7 +14849,7 @@
    "collected": "2026-11-05",
    "url": "https://shop.cannacaresf.com/stores/cannacare-sioux-falls",
    "loc": [
-    165
+    155
    ],
    "geo": "city"
   },
@@ -14995,7 +14869,7 @@
    "collected": "2026-11-05",
    "url": "https://shop.cannacaresf.com/stores/cannacare-sioux-falls",
    "loc": [
-    165
+    155
    ],
    "geo": "city"
   },
@@ -15015,7 +14889,7 @@
    "collected": "2026-11-05",
    "url": "https://shop.cannacaresf.com/stores/cannacare-sioux-falls",
    "loc": [
-    165
+    155
    ],
    "geo": "city"
   },
@@ -15035,7 +14909,7 @@
    "collected": "2026-11-05",
    "url": "https://shop.cannacaresf.com/stores/cannacare-sioux-falls",
    "loc": [
-    165
+    155
    ],
    "geo": "city"
   },
@@ -15055,7 +14929,7 @@
    "collected": "2026-11-05",
    "url": "https://shop.cannacaresf.com/stores/cannacare-sioux-falls",
    "loc": [
-    165
+    155
    ],
    "geo": "city"
   },
@@ -15075,7 +14949,7 @@
    "collected": "2026-11-05",
    "url": "https://shop.cannacaresf.com/stores/cannacare-sioux-falls",
    "loc": [
-    165
+    155
    ],
    "geo": "city"
   },
@@ -15095,7 +14969,7 @@
    "collected": "2026-11-05",
    "url": "https://shop.cannacaresf.com/stores/cannacare-sioux-falls",
    "loc": [
-    165
+    155
    ],
    "geo": "city"
   },
@@ -15115,7 +14989,7 @@
    "collected": "2026-11-05",
    "url": "https://zenleafdispensaries.com/locations/norfolk/menu/medical/menu",
    "loc": [
-    166
+    156
    ],
    "geo": "store"
   },
@@ -15135,7 +15009,7 @@
    "collected": "2026-11-05",
    "url": "https://zenleafdispensaries.com/locations/norfolk/menu/medical/menu",
    "loc": [
-    166
+    156
    ],
    "geo": "store"
   },
@@ -15155,7 +15029,7 @@
    "collected": "2026-11-05",
    "url": "https://zenleafdispensaries.com/locations/norfolk/menu/medical/menu",
    "loc": [
-    166
+    156
    ],
    "geo": "store"
   },
@@ -15175,7 +15049,7 @@
    "collected": "2026-11-05",
    "url": "https://zenleafdispensaries.com/locations/norfolk/menu/medical/menu",
    "loc": [
-    166
+    156
    ],
    "geo": "store"
   },
@@ -15195,7 +15069,7 @@
    "collected": "2026-11-05",
    "url": "https://www.craftcannabis.com/deals",
    "loc": [
-    167
+    157
    ],
    "geo": "store"
   },
@@ -15217,9 +15091,9 @@
    "collected": "2026-11-05",
    "url": "https://kaleafa.com/deals",
    "loc": [
-    168,
-    169,
-    170
+    158,
+    159,
+    160
    ],
    "geo": "store"
   },
@@ -15239,7 +15113,7 @@
    "collected": "2026-11-05",
    "url": "https://kaleafa.com/deals",
    "loc": [
-    168
+    158
    ],
    "geo": "store"
   },
@@ -15259,7 +15133,7 @@
    "collected": "2026-11-05",
    "url": "https://kaleafa.com/deals",
    "loc": [
-    168
+    158
    ],
    "geo": "store"
   },
@@ -15279,7 +15153,207 @@
    "collected": "2026-11-05",
    "url": "https://kaleafa.com/deals",
    "loc": [
-    168
+    158
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Mary Mart",
+   "store": "Mary Mart",
+   "city": "Tacoma",
+   "cities": [
+    "Tacoma"
+   ],
+   "state": "WA",
+   "deal": "Veterans receive 10% off with a valid veterans ID!!",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://marymart.com/deals",
+   "loc": [
+    161
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Mary Mart",
+   "store": "Mary Mart",
+   "city": "Tacoma",
+   "cities": [
+    "Tacoma"
+   ],
+   "state": "WA",
+   "deal": "Ages 55+ receive 10% off!",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://marymart.com/deals",
+   "loc": [
+    161
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Mary Mart",
+   "store": "Mary Mart",
+   "city": "Tacoma",
+   "cities": [
+    "Tacoma"
+   ],
+   "state": "WA",
+   "deal": "Receive 10% off on your Birthday!!",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://marymart.com/deals",
+   "loc": [
+    161
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Mary Mart",
+   "store": "Mary Mart",
+   "city": "Tacoma",
+   "cities": [
+    "Tacoma"
+   ],
+   "state": "WA",
+   "deal": "Electric Early Bird Special: 8am-12pm 20% off all online orders!",
+   "valid": "MONDAY (BACK TO BACK TO BACK) DAILY DEALS",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://marymart.com/deals",
+   "loc": [
+    161
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Mary Mart",
+   "store": "Mary Mart",
+   "city": "Tacoma",
+   "cities": [
+    "Tacoma"
+   ],
+   "state": "WA",
+   "deal": "Monday Happy Hour: 12pm-3pm and 8pm-11pm 15% off the entire store!",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://marymart.com/deals",
+   "loc": [
+    161
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Mary Mart",
+   "store": "Mary Mart",
+   "city": "Tacoma",
+   "cities": [
+    "Tacoma"
+   ],
+   "state": "WA",
+   "deal": "11am-2pm and 8pm-11pm 15% off the entire store!",
+   "valid": "MONDAY (BACK TO BACK TO BACK) DAILY DEALS",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://marymart.com/deals",
+   "loc": [
+    161
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Mary Mart",
+   "store": "Mary Mart",
+   "city": "Tacoma",
+   "cities": [
+    "Tacoma"
+   ],
+   "state": "WA",
+   "deal": "Ladies Day Special: All ladies receive 10% off!",
+   "valid": "MONDAY (BACK TO BACK TO BACK) DAILY DEALS",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://marymart.com/deals",
+   "loc": [
+    161
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Mary Mart",
+   "store": "Mary Mart",
+   "city": "Tacoma",
+   "cities": [
+    "Tacoma"
+   ],
+   "state": "WA",
+   "deal": "MONDAY (BACK TO BACK TO BACK) DAILY DEALS: 20% off all liquid edibles!",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://marymart.com/deals",
+   "loc": [
+    161
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Mary Mart",
+   "store": "Mary Mart",
+   "city": "Tacoma",
+   "cities": [
+    "Tacoma"
+   ],
+   "state": "WA",
+   "deal": "MONDAY (BACK TO BACK TO BACK) DAILY DEALS: 20% off all solid edibles!",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://marymart.com/deals",
+   "loc": [
+    161
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Mary Mart",
+   "store": "Mary Mart",
+   "city": "Tacoma",
+   "cities": [
+    "Tacoma"
+   ],
+   "state": "WA",
+   "deal": "MONDAY (BACK TO BACK TO BACK) DAILY DEALS: 15% off all prerolls!",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-05",
+   "url": "https://marymart.com/deals",
+   "loc": [
+    161
    ],
    "geo": "store"
   },
@@ -15299,8 +15373,8 @@
    "collected": "2026-11-05",
    "url": "https://findclearchoice.com/tacoma-deals/",
    "loc": [
-    171,
-    172
+    162,
+    163
    ],
    "geo": "store"
   },
@@ -15320,8 +15394,8 @@
    "collected": "2026-11-05",
    "url": "https://findclearchoice.com/tacoma-deals/",
    "loc": [
-    171,
-    172
+    162,
+    163
    ],
    "geo": "store"
   },
@@ -15341,8 +15415,8 @@
    "collected": "2026-11-05",
    "url": "https://findclearchoice.com/tacoma-deals/",
    "loc": [
-    171,
-    172
+    162,
+    163
    ],
    "geo": "store"
   },
@@ -15362,8 +15436,8 @@
    "collected": "2026-11-05",
    "url": "https://findclearchoice.com/tacoma-deals/",
    "loc": [
-    171,
-    172
+    162,
+    163
    ],
    "geo": "store"
   },
@@ -15383,8 +15457,8 @@
    "collected": "2026-11-05",
    "url": "https://findclearchoice.com/tacoma-deals/",
    "loc": [
-    171,
-    172
+    162,
+    163
    ],
    "geo": "store"
   },
@@ -15404,8 +15478,8 @@
    "collected": "2026-11-05",
    "url": "https://findclearchoice.com/tacoma-deals/",
    "loc": [
-    171,
-    172
+    162,
+    163
    ],
    "geo": "store"
   },
@@ -15425,7 +15499,7 @@
    "collected": "2026-11-05",
    "url": "https://zenleafdispensaries.com/locations/morgantown/medical-menu/menu/discounts",
    "loc": [
-    173
+    164
    ],
    "geo": "store"
   },
@@ -15445,7 +15519,7 @@
    "collected": "2026-11-05",
    "url": "https://zenleafdispensaries.com/locations/morgantown/medical-menu/menu/discounts",
    "loc": [
-    173
+    164
    ],
    "geo": "store"
   },
@@ -15465,7 +15539,7 @@
    "collected": "2026-11-05",
    "url": "https://zenleafdispensaries.com/locations/morgantown/medical-menu/menu/discounts",
    "loc": [
-    173
+    164
    ],
    "geo": "store"
   },
@@ -15485,7 +15559,7 @@
    "collected": "2026-11-05",
    "url": "https://zenleafdispensaries.com/locations/morgantown/medical-menu/menu/discounts",
    "loc": [
-    173
+    164
    ],
    "geo": "store"
   },
@@ -15505,7 +15579,7 @@
    "collected": "2026-11-05",
    "url": "https://zenleafdispensaries.com/locations/morgantown/medical-menu/menu/discounts",
    "loc": [
-    173
+    164
    ],
    "geo": "store"
   },
@@ -15525,7 +15599,7 @@
    "collected": "2026-11-05",
    "url": "https://zenleafdispensaries.com/locations/morgantown/medical-menu/menu/discounts",
    "loc": [
-    173
+    164
    ],
    "geo": "store"
   },
@@ -15545,7 +15619,7 @@
    "collected": "2026-11-05",
    "url": "https://zenleafdispensaries.com/locations/morgantown/medical-menu/menu/discounts",
    "loc": [
-    173
+    164
    ],
    "geo": "store"
   }
@@ -16782,106 +16856,6 @@
    "precision": "city"
   },
   {
-   "chain": "The Hi-Line Co.",
-   "name": "The Hi-Line Co. Big Sky",
-   "addr": "120 Big Pine Dr #5",
-   "city": "Big Sky",
-   "state": "MT",
-   "lat": 45.29,
-   "lon": -111.39,
-   "precision": "zip"
-  },
-  {
-   "chain": "The Hi-Line Co.",
-   "name": "The Hi-Line Co. Bozeman",
-   "addr": "1009 W College St",
-   "city": "Bozeman",
-   "state": "MT",
-   "lat": 45.67123,
-   "lon": -111.05096,
-   "precision": "address"
-  },
-  {
-   "chain": "The Hi-Line Co.",
-   "name": "The Hi-Line Co. Bozeman",
-   "addr": "712 W Main St",
-   "city": "Bozeman",
-   "state": "MT",
-   "lat": 45.67922,
-   "lon": -111.04747,
-   "precision": "address"
-  },
-  {
-   "chain": "The Hi-Line Co.",
-   "name": "The Hi-Line Co. Bozeman",
-   "addr": "7580 Pioneer Way",
-   "city": "Bozeman",
-   "state": "MT",
-   "lat": 45.67329,
-   "lon": -111.18455,
-   "precision": "address"
-  },
-  {
-   "chain": "The Hi-Line Co.",
-   "name": "The Hi-Line Co. Cut Bank",
-   "addr": "317 Railroad St",
-   "city": "Cut Bank",
-   "state": "MT",
-   "lat": 48.63422,
-   "lon": -112.32677,
-   "precision": "address"
-  },
-  {
-   "chain": "The Hi-Line Co.",
-   "name": "The Hi-Line Co. Helena",
-   "addr": "1417 11th Ave",
-   "city": "Helena",
-   "state": "MT",
-   "lat": 46.58969,
-   "lon": -112.01625,
-   "precision": "address"
-  },
-  {
-   "chain": "The Hi-Line Co.",
-   "name": "The Hi-Line Co. Kalispell",
-   "addr": "1023 E Idaho St",
-   "city": "Kalispell",
-   "state": "MT",
-   "lat": 48.20539,
-   "lon": -114.29639,
-   "precision": "address"
-  },
-  {
-   "chain": "The Hi-Line Co.",
-   "name": "The Hi-Line Co. Missoula",
-   "addr": "1256 W Broadway St",
-   "city": "Missoula",
-   "state": "MT",
-   "lat": 46.87765,
-   "lon": -114.01229,
-   "precision": "address"
-  },
-  {
-   "chain": "The Hi-Line Co.",
-   "name": "The Hi-Line Co. Missoula",
-   "addr": "624 E Broadway St",
-   "city": "Missoula",
-   "state": "MT",
-   "lat": 46.8699,
-   "lon": -113.98655,
-   "precision": "address"
-  },
-  {
-   "chain": "The Hi-Line Co.",
-   "name": "The Hi-Line Co. Missoula",
-   "addr": "900 Strand Ave",
-   "city": "Missoula",
-   "state": "MT",
-   "lat": 46.8543,
-   "lon": -114.01139,
-   "precision": "address"
-  },
-  {
    "chain": "Mission Mountain Organics",
    "name": "Mission Mountain Organics Whitefish",
    "addr": "600 E 8th St",
@@ -17262,6 +17236,16 @@
    "precision": "city"
   },
   {
+   "chain": "Mary Mart",
+   "name": "Mary Mart Tacoma",
+   "addr": "3002 6th Ave",
+   "city": "Tacoma",
+   "state": "WA",
+   "lat": 47.25521,
+   "lon": -122.47491,
+   "precision": "address"
+  },
+  {
    "chain": "Clear Choice",
    "name": "Clear Choice Tacoma",
    "addr": "317 S 72nd St",
@@ -17293,11 +17277,11 @@
   }
  ],
  "geo": {
-  "locations": 174,
-  "store_points": 144,
+  "locations": 165,
+  "store_points": 135,
   "city_points": 30,
-  "deals_store": 505,
-  "deals_city": 116,
+  "deals_store": 519,
+  "deals_city": 106,
   "deals_statewide": 40
  },
  "geo_note": "Store addresses come from each chain's own site and were geocoded with the US Census Bureau geocoder (OpenStreetMap Nominatim as a fallback). 'city' locations are the city centre where the exact store address isn't known. Distances are worked out in your browser; your location stays on your device.",
@@ -17309,5 +17293,5 @@
   "note": "Paid placement slot (not live). Sponsored deals will always be labeled and kept separate from, never ranked above, the free list."
  },
  "disclaimer": "21+ only. For adults 21 and older (or registered medical patients). Deals change often and can differ by store: always confirm with the store before you go. Listed from each dispensary's own public page; not an endorsement.",
- "generated": "2026-11-05 14:00 EST"
+ "generated": "2026-11-05 18:47 EST"
 }
