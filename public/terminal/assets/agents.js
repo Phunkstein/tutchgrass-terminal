@@ -115,9 +115,11 @@ if(HOME){
     e.preventDefault();const h=u.hash||'#all';if(h!==location.hash)history.pushState(null,'',h);route(true,true)});
   addEventListener('popstate',route);addEventListener('hashchange',route)}
 if(HOME){if('scrollRestoration' in history)history.scrollRestoration='manual';tagHome();route(true)}
+/* Static lockdown: agent/repo data feeds are off.
+   No fetch of terminal.json, meta.json, breaking.json, or deals.json, and no checking-status poll.
 const J=u=>fetch(u,{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null);
 Promise.all([J('/terminal/data/terminal.json'),J('/terminal/data/meta.json'),J('/terminal/data/breaking.json'),J('/terminal/data/deals.json')]).then(([d,meta,breaking,deals])=>{build(d,{meta,breaking,deals});
-  // home sections are filled by terminal.js; re-add a card if a section re-rendered over it
   if(HOME)document.addEventListener('tg:rendered',()=>{if(R.some(a=>a.secs&&document.getElementById(a.secs[0])&&!document.getElementById('ah-'+a.id)))build(d,{meta,breaking,deals})});
   setInterval(()=>document.querySelectorAll('[data-ts]').forEach(el=>{const t=+el.dataset.ts;if(t)el.textContent=ago(t)}),60000)});
+*/
 })();

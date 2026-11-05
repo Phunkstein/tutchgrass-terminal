@@ -166,5 +166,7 @@ const tf=$('#th-deals');if(tf)tf.addEventListener('submit',e=>{e.preventDefault(
 const tn=$('#th-near');if(tn)tn.onclick=()=>{toDeals();run(()=>API.near())};
 const u=new URL(location.href),lq=(u.searchParams.get('loc')||'').trim().slice(0,80);
 if(lq){u.searchParams.delete('loc');history.replaceState(null,'',u.pathname+u.search+'#deals');dispatchEvent(new HashChangeEvent('hashchange'));run(()=>API.find(lq))}
+/* Static lockdown: do not fetch /terminal/data/deals.json on load.
 fetch('/terminal/data/deals.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null).then(D=>{render(D);if(!(D&&D.deals)){const th=$('#th-count');if(th)th.textContent='Deal count unavailable right now.'}});
+*/
 })();
