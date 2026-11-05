@@ -1,6 +1,6 @@
 # Cannabis Agent Terminal: Scientist report
 
-Generated 2026-11-05 10:47 EST. Research summary, not medical advice. Talk to a doctor.
+Generated 2026-11-05 11:44 EST. Research summary, not medical advice. Talk to a doctor.
 
 _Strain names are typical examples only; the same name can test very differently by grower and batch. Go by the lab COA (THC, CBD, minor cannabinoids, terpenes), not the name._
 
@@ -226,7 +226,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** THC acts on CB1 receptors in the brainstem vomiting center. Adding THC 2.5 mg + CBD 2.5 mg capsules to guideline antiemetics raised complete response from 8% to 24% in patients with refractory nausea.
 - **Strains that typically express this profile:** Pennywise (~1:1), Cannatonic, any lab-verified 1:1 cultivar (typically; check the COA)
 - **Cautions:** Only as an add-on, coordinated with the oncology team. More side effects (sedation, dizziness) than placebo. ASCO advises against cannabis as a cancer treatment outside trials.
-- **New PubMed papers, last 30 days:** 2
+- **New PubMed papers, last 30 days:** 3
 - **Citations:**
   - [RCT] Grimison et al. (2024). Oral Cannabis Extract for Secondary Prevention of Chemotherapy-Induced Nausea and Vomiting: Final Results of a Randomized, Placebo-Controlled, Phase II/III Trial. *J Clin Oncol*. PMID [39151115](https://pubmed.ncbi.nlm.nih.gov/39151115/). DOI [10.1200/JCO.23.01836](https://doi.org/10.1200/JCO.23.01836)
   - [GUIDELINE] Braun et al. (2024). Cannabis and Cannabinoids in Adults With Cancer: ASCO Guideline. *J Clin Oncol*. PMID [38478773](https://pubmed.ncbi.nlm.nih.gov/38478773/). DOI [10.1200/JCO.23.02596](https://doi.org/10.1200/JCO.23.02596)
