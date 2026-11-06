@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-05T18:58:12-0500",
- "generated_ts": 1793923093,
+ "generated": "2026-11-06T01:03:12-0500",
+ "generated_ts": 1793944993,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "items": 0
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,19 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "auroracannabisseesexportsurgeledbygermanyandpolanddemandstra",
+   "title": "Aurora Cannabis Sees Export Surge Led by Germany and Poland Demand - StratCann",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcnc1ZmxTMVFHTGxxUzhTYVlSOUpvNGI1WkY3SWJRRUcwSGh0M213SHBmT29leHVUemYyTUtETk5UQ1RVaVZ5bkRiQlZSeERHLW5zLUZyZ1hsVXRTc3NFYlduOEFiTTliZjJsNElPVzVCNTB4bkVpdFRMS0VydGFEY1dOb1k2SW11LWdINUIzVlBFVHpJVHVBVGo2M01VTDdWX1E?oc=5",
+   "source": "Google News: intl cannabis",
+   "category": "International",
+   "is_law": false,
+   "states": [],
+   "published": "2026-11-05T18:57:52-0500",
+   "published_ts": 1793923072.0,
+   "first_seen": "2026-11-06T01:03:12-0500",
+   "first_seen_ts": 1793944993
+  },
   {
    "id": "auroracannabisseesexportsurgeledbygermanyandpolanddemand",
    "title": "Aurora Cannabis Sees Export Surge Led by Germany and Poland Demand",
@@ -456,66 +469,6 @@
    "published_ts": 1793790734.0,
    "first_seen": "2026-11-04T06:13:13-0500",
    "first_seen_ts": 1793790793
-  },
-  {
-   "id": "historicnightforcannabisasmassachusettsrejectsefforttoban165",
-   "title": "Historic night for cannabis as Massachusetts rejects effort to ban $1.65 billion industry",
-   "link": "https://mjbizdaily.com/news/historic-night-for-cannabis-as-massachusetts-rejects-effort-to-ban-1-65-billion-industry/619051/",
-   "source": "MJBizDaily",
-   "category": "US states",
-   "is_law": true,
-   "states": [
-    "Massachusetts"
-   ],
-   "published": "2026-11-04T00:48:23-0500",
-   "published_ts": 1793771303.0,
-   "first_seen": "2026-11-04T00:53:11-0500",
-   "first_seen_ts": 1793771592
-  },
-  {
-   "id": "idahovotersrejectballotmeasurethatwouldhaverestrictedtheirow",
-   "title": "Idaho Voters Reject Ballot Measure That Would Have Restricted Their Own Ability To Legalize Marijuana",
-   "link": "https://www.marijuanamoment.net/idaho-voters-reject-ballot-measure-that-would-have-restricted-their-own-ability-to-legalize-marijuana/",
-   "source": "Marijuana Moment",
-   "category": "US states",
-   "is_law": true,
-   "states": [
-    "Idaho"
-   ],
-   "published": "2026-11-03T23:14:06-0500",
-   "published_ts": 1793765646.0,
-   "first_seen": "2026-11-03T23:18:13-0500",
-   "first_seen_ts": 1793765894
-  },
-  {
-   "id": "massachusettsvotersdecidetokeepmarijuanasaleslegalrejectingb",
-   "title": "Massachusetts Voters Decide To Keep Marijuana Sales Legal, Rejecting Ballot Measure Bring Back Criminalization",
-   "link": "https://www.marijuanamoment.net/massachusetts-voters-decide-to-keep-marijuana-sales-legal-rejecting-ballot-measure-bring-back-criminalization/",
-   "source": "Marijuana Moment",
-   "category": "US states",
-   "is_law": true,
-   "states": [
-    "Massachusetts"
-   ],
-   "published": "2026-11-03T22:03:58-0500",
-   "published_ts": 1793761438.0,
-   "first_seen": "2026-11-03T22:08:14-0500",
-   "first_seen_ts": 1793761694
-  },
-  {
-   "id": "houstonvotersapprovemeasuretoreducemarijuanaarrestsmakingthe",
-   "title": "Houston Voters Approve Measure To Reduce Marijuana Arrests, Making Them The \u2018Lowest Possible Enforcement Priority\u2019",
-   "link": "https://www.marijuanamoment.net/houston-voters-approve-measure-to-reduce-marijuana-arrests-making-them-the-lowest-possible-enforcement-priority/",
-   "source": "Marijuana Moment",
-   "category": "US states",
-   "is_law": true,
-   "states": [
-    "Texas"
-   ],
-   "published": "2026-11-03T21:27:49-0500",
-   "published_ts": 1793759269.0,
-   "first_seen": "2026-11-03T21:28:15-0500",
-   "first_seen_ts": 1793759296
   }
  ]
 }
