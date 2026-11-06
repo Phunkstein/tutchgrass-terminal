@@ -72,8 +72,10 @@ TG.board=d=>{const r=d.scoreboard,b=$('#sb-body');if(!b)return;if(!r||!r.length)
    <td class="num mono">${x.recent_high.meta} SR/MA <wbr>· ${x.recent_high.rct} RCT</td><td class="num mono">${x.new_30d}${x.new_mice_30d?`<div class="small mute">${x.new_mice_30d} animal</div>`:''}</td>
    <td class="small hide-m">${x.latest?`${tag(x.latest.tag)}<a href="${E(x.latest.url)}" target="_blank" rel="noopener">${E(x.latest.title)}</a> <span class="mute mono">${E(x.latest.date)}</span>`:'<span class="mute">No new meta-analysis or RCT in 2025–26.</span>'}</td>
    <td class="hide-m"><button class="btn sm ghost save" type="button" data-save="condition:${E(x.id)}" title="Save condition">☆</button></td></tr>`).join('')+'</tbody></table></div><p class="ainote">'+TG.aitag(TG.AI_SCORE)+' '+E(TG.AI_SCORE)+'</p><p class="small mute">Evidence = National Academies 2017 grade for the closest condition (strong / moderate / limited). Conditions with no formal grade are listed last. Rank is a reading aid, not a recommendation.</p>'};
+/* Static lockdown: do not fetch /terminal/data/terminal.json or refresh live agent sections.
 if(document.getElementById('kpis'))fetch('/terminal/data/terminal.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw r.status;return r.json()}).then(render).catch(e=>{
   $('#built').textContent='data unavailable';document.querySelectorAll('.content .card [id$="-body"],#sci').forEach(el=>el.innerHTML=NA('Data'));});
+*/
 
 function render(d){
   const S=d.scientist,L=d.lab,W=d.wire,So=d.social,M=d.market,P=d.prices,N=d.news,F=d.findings||[];

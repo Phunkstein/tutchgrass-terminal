@@ -1,66 +1,73 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Cannabis Agent Terminal: cannabis research, condition by condition</title>
-<meta name="description" content="What the studies suggest about cannabis, condition by condition: cannabinoids, terpenes, evidence strength, PubMed citations, new papers, plus news, law, recalls and dispensary deals. Research, not medical advice.">
-<link rel="canonical" href="https://tutchgrass-terminal.onrender.com/terminal/"><meta property="og:type" content="website"><meta property="og:site_name" content="Cannabis Agent Terminal"><meta property="og:url" content="https://tutchgrass-terminal.onrender.com/terminal/"><meta property="og:title" content="Cannabis Agent Terminal: cannabis research, condition by condition"><meta property="og:description" content="Condition-by-condition cannabis research with real PubMed citations, live news, laws, recalls and dispensary deals."><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@Tutchgrass"><meta name="twitter:title" content="Cannabis Agent Terminal: cannabis research, condition by condition"><meta name="theme-color" content="#ffffff">
-<link rel="preload" href="/terminal/assets/fonts/Inter-var.woff2" as="font" type="font/woff2" crossorigin><link rel="icon" href="/terminal/assets/logo.svg"><link rel="stylesheet" href="/terminal/assets/terminal.css"></head><body>
-<header class="top"><div class="wrap">
-<a class="brand" href="/terminal/"><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#14532d"/><g color="#fff" transform="translate(6 5) scale(.82)"><path d="M32 8c3 7 4 14 2 22 5-6 11-9 18-10-4 7-9 12-16 14 6 0 11 2 15 5-7 2-13 1-17-2 1 4 1 8-2 13-3-5-3-9-2-13-4 3-10 4-17 2 4-3 9-5 15-5-7-2-12-7-16-14 7 1 13 4 18 10-2-8-1-15 2-22z" fill="currentColor"/><path d="M32 40v16" stroke="currentColor" stroke-width="2.5"/></g></svg><span>Cannabis Agent Terminal<small>by Tutchgrass</small></span></a>
-<nav class="nav agnav" aria-label="Agents"><div class="ascroll"><a class="ag all" data-ag="all" href="/terminal/" aria-current=page><span class="av" aria-hidden="true">◎</span><span class="tx"><span class="nm">All agents</span><small class="doing">5 on the team</small></span></a><a class="ag" data-ag="scientist" href="/terminal/#scientist"><span class="av" aria-hidden="true">🔬</span><span class="tx"><span class="nm">Scientist<i class="dot s-pend"></i></span><small class="doing">checking…</small></span></a><a class="ag" data-ag="deals" href="/terminal/#deals"><span class="av" aria-hidden="true">💸</span><span class="tx"><span class="nm">Dispo Deals<i class="dot s-pend"></i></span><small class="doing">checking…</small></span></a><a class="ag" data-ag="news" href="/terminal/#news"><span class="av" aria-hidden="true">📰</span><span class="tx"><span class="nm">News Desk<i class="dot s-pend"></i></span><small class="doing">checking…</small></span></a><a class="ag" data-ag="policy" href="/terminal/#dec11"><span class="av" aria-hidden="true">⚖️</span><span class="tx"><span class="nm">Policy Watch<i class="dot s-pend"></i></span><small class="doing">checking…</small></span></a><a class="ag" data-ag="recalls" href="/terminal/#recalls"><span class="av" aria-hidden="true">🚨</span><span class="tx"><span class="nm">Recall &amp; Safety<i class="dot s-pend"></i></span><small class="doing">checking…</small></span></a></div></nav>
-<div class="auth"><a id="acct" class="btn ghost sm" href="/terminal/account/">Sign in</a><a class="btn sm" href="/terminal/account/#signup">Sign up free</a></div>
-</div></header>
-<section class="tophero" aria-label="Start here"><div class="wrap thgrid">
-<div class="thcard thdeals"><div class="thh"><span class="av" aria-hidden="true">💸</span><h2>Dispo Deals: dispensary deals near you</h2></div>
-<p class="thsub">Current deals from dispensaries' own pages, sorted by distance from you.</p>
-<form class="thform" id="th-deals" action="/terminal/" method="get" role="search"><input id="th-q" name="loc" type="search" inputmode="search" autocomplete="postal-code" placeholder="ZIP or city, state" aria-label="ZIP code or city and state"><button class="btn" type="submit">See deals</button></form>
-<div class="throw"><button class="btn ghost" type="button" id="th-near"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/><circle cx="12" cy="12" r="7.5"/></svg>Near me</button><span class="thcount small dim" id="th-count" aria-live="polite">Counting deals…</span></div>
-<p class="small mute thnote">21+ only. Your location stays on your device. Confirm deals with the store before you go.</p></div>
-<div class="thcard thmy"><div class="thh"><svg class="hx" viewBox="0 0 16 16" aria-hidden="true"><path d="M5.5 1h5v4.5H15v5h-4.5V15h-5v-4.5H1v-5h4.5z"/></svg><h2>My Condition</h2></div>
-<p class="thsub">Pick a condition. See its newest cannabis studies in plain words, graded honestly. Free alerts when new ones drop.</p>
-<p class="thmeta small dim" id="th-my">Every study links to PubMed.</p>
-<div class="throw"><a class="btn" href="/terminal/my/">Open My Condition →</a></div>
-<p class="small mute thnote">Research summary, not medical advice. Talk to a doctor.</p></div>
-</div></section>
-<div class="disc"><div class="wrap"><b>Research summary, not medical advice.</b> Studies suggest; they do not prove. Strain names vary by batch, so check the lab COA. Talk to a doctor, especially if you take other medicines. 21+.</div></div>
-<section class="wrap stay" id="stay" aria-label="Stay informed"><h2 class="stayh">Stay informed</h2><div class="staygrid" id="staygrid"><a class="scard" data-ag="news" href="/terminal/#news"><div class="ach"><span class="av" aria-hidden="true">📰</span><b>News Desk</b></div><div class="acd">checking…</div></a><a class="scard" data-ag="policy" href="/terminal/#dec11"><div class="ach"><span class="av" aria-hidden="true">⚖️</span><b>Policy Watch</b></div><div class="acd">checking…</div></a><a class="scard" data-ag="recalls" href="/terminal/#recalls"><div class="ach"><span class="av" aria-hidden="true">🚨</span><b>Recall &amp; Safety</b></div><div class="acd">checking…</div></a></div></section>
-<section class="hero"><div class="wrap">
-<div><div class="eyebrow"><span class="live"><i></i><span data-agcount>Agents are live</span></span><span class="mute" id="built">loading…</span></div>
-<h1>What the studies suggest, condition by condition.</h1>
-<p class="lede"><span data-agtotal>5</span> research agents read PubMed, health and policy news, new laws, product recalls and dispensary deals in every legal US state. Every claim links to its source. Research, not medical advice.</p></div>
-<div class="kpis" id="kpis" aria-label="Live counters"></div>
-</div></section>
-
-<section class="wrap agall" id="all" aria-label="All agents"><div class="card"><div class="ph"><h2>All agents</h2><span class="meta" id="agrid-meta">reading the data files…</span></div><div class="agrid" id="agrid"></div>
-<p class="small mute agkey"><span><i class="dot s-ok"></i> ran recently</span><span><i class="dot s-stale"></i> data is stale</span><span><i class="dot s-down"></i> source unavailable</span><span>Status and times come straight from each agent's published data file. Pick an agent to see what it did.</span></p></div></section>
-<div class="wrap strips">
-<div class="strip" id="dec11" aria-label="Dec 11 hemp THC rule tracker"></div><div class="strip" id="laws" aria-label="Laws now in effect and taking effect soon"></div><div class="strip" id="thisweek" aria-label="New this week"></div></div>
-<div class="wrap main">
-<aside class="side" id="agents" aria-label="Agents"></aside>
-<main class="content">
-<section class="card span2" id="scientist"><div class="ph"><h2><span class="n">01</span>Scientist: conditions → cannabinoids &amp; terpenes</h2><span class="meta" id="sci-meta"></span></div>
-<p class="sub">Tap a condition for the top pick, why, typical strains (check the COA), cautions, a grower note, PubMed citations and the newest 2025–26 studies.</p>
-<div class="sci-head" aria-hidden="true"><span>Condition</span><span>Evidence</span><span>Top pick</span><span>Terpenes</span><span style="text-align:right">New 30 d</span><span style="text-align:right">Cites</span><span></span></div>
-<div id="sci"></div><p class="small mute" id="strain-note" style="margin:12px 0 0"></p>
-<div class="findings-h" id="findings"><h3>Latest findings</h3><a class="small" href="/terminal/findings/">All findings →</a></div><div class="fgrid" id="fgrid"></div></section>
-<section class="card span2" id="holistic"><div class="ph"><h2><span class="n">02</span>Scientist: lifestyle pairings &amp; interaction cautions</h2><span class="meta">guidelines · SRs · RCTs</span></div><div id="hol-body"></div></section>
-<section class="card span2" id="deals"><div class="ph"><h2><span class="n">03</span>Dispo Deals: dispensary deals near you</h2><span class="meta" id="dl-meta"></span></div>
-<div class="dl-loc" id="dl-loc"><div class="dl-lrow"><button class="btn sm" type="button" id="dl-near"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/><circle cx="12" cy="12" r="7.5"/></svg>Near me</button>
-<form class="dl-search" id="dl-search" role="search"><input id="dl-q" type="search" inputmode="search" autocomplete="postal-code" placeholder="ZIP or city, state" aria-label="ZIP code or city and state"><button class="btn sm ghost" type="submit">Go</button></form></div>
-<div class="dl-lrow"><div class="dl-cur" id="dl-cur" hidden></div><div class="dl-rad" id="dl-rad" role="group" aria-label="Distance" hidden><span>Within</span><button type="button" data-r="5">5 mi</button><button type="button" data-r="10">10 mi</button><button type="button" data-r="25">25 mi</button><button type="button" data-r="50">50 mi</button></div></div>
-<p class="dl-locmsg small dim" id="dl-locmsg" aria-live="polite"></p>
-<label class="dl-kwl"><span>Filter</span><input id="dl-kw" type="search" placeholder="gummies, vape, BOGO, chain…" aria-label="Filter deals by keyword"></label></div>
-<div class="dl-prompt" id="dl-prompt"><b>Pick a location to see deals near you.</b> Tap <i>Near me</i> or type a ZIP or city. Or browse by state:</div>
-<div class="dl-filters" id="dl-filters" role="group" aria-label="Browse deals by state"><label><span>State</span><select id="dl-state"><option value="">Choose a state</option></select></label><label><span>City</span><select id="dl-city"><option value="">All cities</option></select></label><label><span>Chain</span><select id="dl-chain"><option value="">All chains</option></select></label></div>
-<p class="dl-count small dim" id="dl-count" aria-live="polite"></p>
-<div class="dl-grid"><div class="dl-free"><div id="dl-body"><div id="dl-list" class="list"></div></div></div>
-<aside class="dl-sponsored" id="dl-sponsored" aria-label="Sponsored (example layout)"></aside></div>
-<div class="dl-foot small dim" id="dl-foot"><p><b>21+ only.</b> Deals change often: always confirm with the store before you go.</p><p><b>Your location stays on your device.</b></p></div></section>
-<section class="card span2" id="news"><div class="ph"><h2><span class="n">04</span>News Desk: news &amp; law</h2><span class="meta" id="news-meta"></span></div><div class="tabs" id="news-tabs" role="tablist"></div><div id="news-body" class="list"></div></section>
-<section class="card span2" id="recalls"><div class="ph"><h2><span class="n">05</span>Recall &amp; Safety: recalls &amp; advisories</h2><span class="meta" id="rc-meta"></span></div><p class="sub">Official cannabis product recalls, health &amp; safety advisories and failed-lab-test notices from state regulators and the FDA, newest first. Every row links to the official notice.</p><div class="tabs" id="rc-tabs" role="tablist"></div><div id="rc-body" class="list"></div><p class="small dim" id="rc-foot"></p></section>
-<section class="card cta span2"><div class="ph"><h2>Get the research brief, free</h2></div><p class="dim" style="margin:-4px 0 14px">Sign up with your email (magic link, no password) to save conditions and get new studies when they land. No selling, no spam.</p><a class="btn" href="/terminal/account/#signup">Sign up free</a> <a class="btn ghost" href="/terminal/account/">Sign in</a></section>
-<section class="card span2" id="log"><div class="ph"><h2><span class="n">06</span>Activity log</h2><span class="meta" id="src-meta"></span></div><div class="scroll" style="max-height:340px"><table class="feed"><thead><tr><th>Time</th><th>Agent</th><th>Event</th></tr></thead><tbody id="feed"></tbody></table></div><div class="lbl">Sources</div><div id="sources" class="small"></div></section>
-</main></div>
-<footer class="foot"><div class="wrap"><b>Cannabis Agent Terminal</b> · Research summaries from PubMed (NCBI E-utilities) and National Academies 2017, plus news RSS feeds, official law, recall and regulator pages, and dispensaries' own deals pages. Studies suggest; they do not prove. Not medical advice. 21+. Grades are AI-generated or scored automatically by AI tools from the published source. Always check the source.<br><a class="mylink" href="/terminal/my/"><svg class="hx" viewBox="0 0 16 16" aria-hidden="true"><path d="M5.5 1h5v4.5H15v5h-4.5V15h-5v-4.5H1v-5h4.5z"/></svg>My Condition</a> · <a href="/terminal/#deals">Dispo Deals</a> · <a href="/terminal/account/">Account</a> · <a href="/terminal/privacy/">Privacy</a> · <a href="/terminal/disclaimer/">Disclaimer</a> · <a href="/terminal/corrections/">Corrections</a></div></footer>
-<script type="module" src="/terminal/assets/app.js"></script><script src="/terminal/assets/agents.js" defer></script>
-<script src="/terminal/assets/terminal.js" defer></script><script src="/terminal/assets/deals.js" defer></script>
-<script type="module" src="/terminal/assets/my.js"></script>
-</body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>The Frugal Preparedness Terminal.</title>
+<meta name="description" content="The Frugal Preparedness Terminal. A static library of upcoming preparedness PDFs.">
+<link rel="canonical" href="https://tutchgrass.co/terminal/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Frugal Preparedness Terminal.">
+<meta property="og:title" content="The Frugal Preparedness Terminal.">
+<meta property="og:description" content="A static library of upcoming preparedness PDFs.">
+<meta name="theme-color" content="#f4f1ea">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%233f4a3a'/%3E%3Cpath d='M32 12v40M16 32h32' stroke='%23f4f1ea' stroke-width='4'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/terminal/assets/terminal.css">
+</head>
+<body class="fp">
+<header class="top">
+<div class="wrap">
+<a class="brand" href="/terminal/">
+<svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#3f4a3a"/><path d="M32 12v40M16 32h32" stroke="#f4f1ea" stroke-width="4" stroke-linecap="square"/><circle cx="32" cy="32" r="5" fill="#f4f1ea"/></svg>
+<span>The Frugal Preparedness Terminal.<small>Static library</small></span>
+</a>
+</div>
+</header>
+<main class="wrap fp-main">
+<h1>The Frugal Preparedness Terminal.</h1>
+<p class="lede">Three upcoming PDFs. This page is a static library. It does not check a feed, a repository, or an agent.</p>
+<section class="fp-grid" aria-label="Upcoming PDFs">
+<article class="card fp-card fp-card-media">
+<img class="fp-thumb" src="/terminal/assets/blueprint-thumbnail.png" width="1168" height="784" alt="The Frugal Emergency Blueprint">
+<div class="fp-card-body">
+<p class="fp-kicker">PDF 01</p>
+<h2>The Frugal Emergency Blueprint</h2>
+<p class="fp-price">$7</p>
+<p class="dim">Upcoming PDF.</p>
+<div class="fp-action">
+<!-- Swap this href for the direct external URL. -->
+<a class="btn" href="https://arkitekture3.gumroad.com/l/wvkrs?wanted=true" target="_blank" rel="noopener noreferrer">Purchase PDF</a>
+</div>
+</div>
+</article>
+<article class="card fp-card fp-card-media">
+<img class="fp-thumb" src="/terminal/assets/grid-down-thumbnail.png" width="1168" height="784" alt="The Grid-Down Communication Protocol">
+<div class="fp-card-body">
+<p class="fp-kicker">PDF 02</p>
+<h2>The Grid-Down Communication Protocol</h2>
+<p class="fp-price">$5</p>
+<p class="dim">Upcoming PDF.</p>
+<div class="fp-action">
+<!-- Swap this href for the direct external URL. -->
+<a class="btn" href="https://arkitekture3.gumroad.com/l/rbpkuj?wanted=true" target="_blank" rel="noopener noreferrer">Purchase PDF</a>
+</div>
+</div>
+</article>
+<article class="card fp-card fp-card-media">
+<img class="fp-thumb" src="/terminal/assets/urban-evacuation-thumbnail.png" width="1168" height="784" alt="The Urban Evacuation Map">
+<div class="fp-card-body">
+<p class="fp-kicker">PDF 03</p>
+<h2>The Urban Evacuation Map</h2>
+<p class="fp-price">$5</p>
+<p class="dim">Upcoming PDF.</p>
+<div class="fp-action">
+<!-- Swap this href for the direct external URL. -->
+<a class="btn" href="https://arkitekture3.gumroad.com/l/cqjggg?wanted=true" target="_blank" rel="noopener noreferrer">Purchase PDF</a>
+</div>
+</div>
+</article>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><b>The Frugal Preparedness Terminal.</b></div></footer>
+</body>
+</html>
