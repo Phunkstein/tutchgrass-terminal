@@ -372,7 +372,7 @@ a.mylink{white-space:nowrap}
 .scard{display:flex;flex-direction:column;gap:4px;border:1px solid var(--line);border-radius:9px;padding:11px 13px;color:var(--txt);background:#fff;min-width:0}
 .scard:hover{text-decoration:none;border-color:var(--g)}.scard .acd{margin:0}.scard .sjob{font-size:12px;color:var(--mute);line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .scard.s-stale .acl{color:var(--amb)}.scard.s-down .acl{color:#64748b}
-/* Static Frugal Preparedness library. Scoped so other terminal pages keep their stylesheet. */
+/* Tutchgrass Prep page. Scoped so other pages keep their stylesheet. */
 body.fp{--bg:#f4f1ea;--panel:#fffdf8;--line:#e4ddd0;--line2:#efe8dc;--txt:#1c1914;--dim:#5c564c;--mute:#8a8174;--g:#3f4a3a;--g2:#3f4a3a;--gl:#ece7dc}
 body.fp .brand{white-space:normal}
 body.fp .top .wrap{height:auto;min-height:62px;padding-top:12px;padding-bottom:12px}
