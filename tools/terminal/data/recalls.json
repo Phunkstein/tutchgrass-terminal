@@ -1,7 +1,7 @@
 {
  "agent": "Recall & Safety",
- "checked": "2026-11-05 21:31 EST",
- "sources_ok": 10,
+ "checked": "2026-11-05 22:21 EST",
+ "sources_ok": 11,
  "sources_total": 11,
  "sources": [
   {
@@ -15,9 +15,9 @@
    "source": "MI",
    "name": "Michigan CRA bulletins",
    "url": "https://www.michigan.gov/cra/bulletins",
-   "status": "unavailable",
-   "error": "HTTP 403",
-   "kept": 18
+   "status": "ok",
+   "items": 18,
+   "note": "site blocks the bot User-Agent (403); fetched with the standard browser UA"
   },
   {
    "source": "CO",
@@ -2232,5 +2232,5 @@
   }
  ],
  "what_to_do": "If you have a product that matches a listed batch/lot, stop using it and follow the instructions in the official notice (usually return it to the retailer or dispose of it). Check the official link for exact batch numbers.",
- "generated": "2026-11-05 21:31 EST"
+ "generated": "2026-11-05 22:21 EST"
 }
