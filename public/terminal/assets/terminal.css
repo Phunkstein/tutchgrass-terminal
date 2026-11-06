@@ -388,6 +388,10 @@ body.fp .fp-card-body{display:flex;flex-direction:column;flex:1;padding:16px 18p
 body.fp .fp-thumb{display:block;width:100%;height:auto}
 body.fp .fp-action{margin-top:auto;padding-top:14px}
 body.fp .fp-action .btn{align-self:flex-start;text-decoration:none}
+body.fp .fp-faq{margin-top:28px}
+body.fp .fp-faq dl{margin:0;display:grid;gap:16px}
+body.fp .fp-faq dt{margin:0 0 4px;font-weight:650}
+body.fp .fp-faq dd{margin:0;color:var(--dim)}
 @media(max-width:800px){body.fp .fp-grid{grid-template-columns:1fr}}
 @media (max-width:760px){.thgrid{grid-template-columns:1fr;gap:12px;padding-top:14px;padding-bottom:14px}.thcard{padding:15px 14px;gap:8px}.thh h2{font-size:19px}
  .staygrid{grid-template-columns:1fr;gap:6px}.scard .sjob{display:none}}
