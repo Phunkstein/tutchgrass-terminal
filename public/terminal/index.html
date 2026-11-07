@@ -59,6 +59,8 @@ twq('config','rikjy');
 <p class="fp-blurb">A free, respectful, plain-language guide for anyone who may lose their housing soon or is already homeless.</p>
 <div class="fp-action">
 <a class="btn" href="https://arkitekture3.gumroad.com/l/rbpkuj" target="_blank" rel="noopener noreferrer">Get the free PDF</a>
+<button type="button" class="fp-share" data-share-url="https://arkitekture3.gumroad.com/l/rbpkuj" data-share-title="Facing Homelessness: Prepare, Get Help &amp; Keep Going" aria-describedby="free-card-share">Share this free guide</button>
+<p class="fp-share-status" id="free-card-share" role="status" aria-live="polite"></p>
 </div>
 <p class="fp-morelink"><a href="#facing-homelessness">Full listing for this guide</a></p>
 </aside>
@@ -134,6 +136,8 @@ twq('config','rikjy');
 <p>Sales of our paid guides help fund free resources like this one.</p>
 <div class="fp-action">
 <a class="btn" href="https://arkitekture3.gumroad.com/l/rbpkuj" target="_blank" rel="noopener noreferrer">Get the free PDF</a>
+<button type="button" class="fp-share" data-share-url="https://arkitekture3.gumroad.com/l/rbpkuj" data-share-title="Facing Homelessness: Prepare, Get Help &amp; Keep Going" aria-describedby="free-list-share">Share this free guide</button>
+<p class="fp-share-status" id="free-list-share" role="status" aria-live="polite"></p>
 </div>
 <p class="fp-byline">By Tutchgrass Prep · © 2026 Tutchgrass LLC</p>
 <p class="fp-cross">Paid guides: <a href="#grid-down-survival-guide">The Grid-Down Survival Guide</a> · <a href="#living-in-your-vehicle">Living in Your Vehicle: Get Set Up &amp; Stay Safe</a></p>
@@ -154,5 +158,58 @@ twq('config','rikjy');
 <p class="fp-note">General household preparedness education, not medical, electrical, or legal advice. Always follow local emergency alerts and official instructions.</p>
 </main>
 <footer class="foot"><div class="wrap"><b>Tutchgrass Prep — The Grid-Down Survival Guide</b></div></footer>
+<script>
+(function(){
+  var buttons=document.querySelectorAll(".fp-share");
+  function box(btn){
+    var id=btn.getAttribute("aria-describedby");
+    return id?document.getElementById(id):null;
+  }
+  function say(el,msg){
+    if(!el)return;
+    el.textContent=msg;
+  }
+  function selectable(el,url){
+    if(!el)return;
+    el.textContent="Select this link:";
+    var input=document.createElement("input");
+    input.type="text";
+    input.readOnly=true;
+    input.value=url;
+    input.setAttribute("aria-label","Free guide link");
+    el.appendChild(input);
+    input.focus();
+    input.select();
+  }
+  function copyOrSelect(el,url){
+    var clip=navigator.clipboard;
+    if(!clip||typeof clip.writeText!=="function"){
+      selectable(el,url);
+      return;
+    }
+    clip.writeText(url).then(function(){
+      say(el,"Link copied");
+    }).catch(function(){
+      selectable(el,url);
+    });
+  }
+  buttons.forEach(function(btn){
+    btn.addEventListener("click",function(){
+      var url=btn.getAttribute("data-share-url");
+      var title=btn.getAttribute("data-share-title");
+      var el=box(btn);
+      if(!url)return;
+      if(typeof navigator.share==="function"){
+        navigator.share({title:title,url:url}).catch(function(err){
+          if(err&&err.name==="AbortError")return;
+          copyOrSelect(el,url);
+        });
+        return;
+      }
+      copyOrSelect(el,url);
+    });
+  });
+})();
+</script>
 </body>
 </html>
