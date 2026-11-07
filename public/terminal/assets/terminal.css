@@ -378,6 +378,8 @@ body.fp .brand{white-space:normal}
 body.fp .top .wrap{height:auto;min-height:62px;padding-top:12px;padding-bottom:12px}
 body.fp h1{max-width:16em}
 body.fp .fp-main{padding-top:32px;padding-bottom:56px}
+body.fp .fp-top{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:16px;align-items:start}
+body.fp .fp-top>.fp-offer,body.fp .fp-free{min-width:0}
 body.fp .fp-offer{margin-top:0}
 body.fp .fp-kicker{margin:0 0 8px;font:600 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
 body.fp .fp-price{margin:0 0 12px;font:600 28px/1 var(--mono);letter-spacing:-.03em}
@@ -405,11 +407,33 @@ body.fp .fp-faq dl{margin:0;display:grid;gap:16px}
 body.fp .fp-faq dt{margin:0 0 4px;font-weight:650}
 body.fp .fp-faq dd{margin:0;color:var(--dim)}
 body.fp .fp-note{max-width:740px;margin:18px 0 0;color:var(--dim);font-size:13px}
+body.fp .fp-free{padding:14px 14px 16px}
+body.fp .fp-free h2{font-size:16px;line-height:1.35;letter-spacing:-.01em;margin:0 0 8px}
+body.fp .fp-free .fp-kicker{display:inline-block;color:var(--g);background:var(--gl);border-radius:5px;padding:2px 6px}
+body.fp .fp-mini{display:block;width:112px;max-width:100%;height:auto;margin:0 0 10px}
+body.fp .fp-sec-img{display:block;width:min(100%,240px);height:auto;margin:0 0 12px}
+body.fp .fp-free p{margin:0}
+body.fp .fp-meta{margin:0 0 8px;color:var(--dim);font-size:13px}
+body.fp .fp-free .fp-blurb{margin-top:8px;font-size:13.5px;line-height:1.45}
+body.fp .fp-free .fp-action{margin-top:12px}
+body.fp .fp-free .btn{min-height:34px;padding:0 12px;font-size:13px}
+body.fp .fp-free .fp-wait{margin-top:8px;font-size:12.5px}
+body.fp .fp-free .fp-morelink{margin-top:10px;font-size:13.5px}
+body.fp .fp-secondary{margin-top:16px}
+body.fp .fp-secondary h2{font-size:22px;line-height:1.3;letter-spacing:-.02em;margin:0 0 10px}
+body.fp .fp-secondary>p{margin:0 0 12px}
+body.fp .fp-price-sec{font-size:22px;margin:0 0 8px}
+body.fp .fp-wait{margin:8px 0 0;color:var(--dim);font-size:13px}
+body.fp .fp-secondary .fp-byline{margin:14px 0 0;color:var(--dim);font-size:13px}
+body.fp .fp-cross{margin:14px 0 0;color:var(--dim);font-size:13.5px}
+body.fp button.fp-soon,body.fp button.fp-soon:disabled,body.fp button.fp-soon:hover,body.fp button.fp-soon:disabled:hover{background:#fff;color:var(--mute);border-color:var(--line);cursor:not-allowed;opacity:1;text-decoration:none}
+body.fp #grid-down-survival-guide,body.fp #living-in-your-vehicle,body.fp #facing-homelessness,body.fp #sample-page{scroll-margin-top:96px}
+@media(max-width:980px){body.fp .fp-top{grid-template-columns:1fr}}
 @media(max-width:800px){
  body.fp .fp-card-media{grid-template-columns:1fr}
  body.fp .fp-card h1{font-size:26px}
  body.fp .fp-card-body{padding:18px 16px 20px}
- body.fp .fp-copy h2,body.fp .fp-preview h2{font-size:20px}
+ body.fp .fp-copy h2,body.fp .fp-preview h2,body.fp .fp-secondary h2{font-size:20px}
 }
 @media (max-width:760px){.thgrid{grid-template-columns:1fr;gap:12px;padding-top:14px;padding-bottom:14px}.thcard{padding:15px 14px;gap:8px}.thh h2{font-size:19px}
  .staygrid{grid-template-columns:1fr;gap:6px}.scard .sjob{display:none}}
