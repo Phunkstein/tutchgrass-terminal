@@ -430,6 +430,7 @@ body.fp button.fp-soon,body.fp button.fp-soon:disabled,body.fp button.fp-soon:ho
 body.fp #grid-down-survival-guide,body.fp #living-in-your-vehicle,body.fp #facing-homelessness,body.fp #sample-page{scroll-margin-top:96px}
 @media(max-width:980px){body.fp .fp-top{grid-template-columns:1fr}}
 @media(max-width:800px){
+ body.fp .fp-free{order:-1}
  body.fp .fp-card-media{grid-template-columns:1fr}
  body.fp .fp-card h1{font-size:26px}
  body.fp .fp-card-body{padding:18px 16px 20px}
