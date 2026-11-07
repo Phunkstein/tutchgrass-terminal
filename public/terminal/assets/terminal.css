@@ -378,20 +378,23 @@ body.fp .brand{white-space:normal}
 body.fp .top .wrap{height:auto;min-height:62px;padding-top:12px;padding-bottom:12px}
 body.fp h1{max-width:16em}
 body.fp .fp-main{padding-top:32px;padding-bottom:56px}
-body.fp .fp-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:22px}
-body.fp .fp-card h2{font-size:18px;line-height:1.3;margin:0 0 10px}
+body.fp .fp-offer{margin-top:22px}
+body.fp .fp-card h2{font-size:28px;line-height:1.25;letter-spacing:-.025em;margin:0 0 12px}
 body.fp .fp-kicker{margin:0 0 8px;font:600 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
-body.fp .fp-price{margin:0 0 8px;font:600 28px/1 var(--mono);letter-spacing:-.03em}
-body.fp .fp-card{display:flex;flex-direction:column}
-body.fp .fp-card-media{padding:0;overflow:hidden}
-body.fp .fp-card-body{display:flex;flex-direction:column;flex:1;padding:16px 18px 18px}
+body.fp .fp-price{margin:0 0 12px;font:600 28px/1 var(--mono);letter-spacing:-.03em}
+body.fp .fp-card-media{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(300px,0.95fr);padding:0;overflow:hidden;align-items:stretch}
+body.fp .fp-card-body{display:flex;flex-direction:column;justify-content:center;padding:32px 36px}
 body.fp .fp-thumb{display:block;width:100%;height:auto}
-body.fp .fp-action{margin-top:auto;padding-top:14px}
+body.fp .fp-action{margin-top:20px}
 body.fp .fp-action .btn{align-self:flex-start;text-decoration:none}
 body.fp .fp-faq{margin-top:28px}
 body.fp .fp-faq dl{margin:0;display:grid;gap:16px}
 body.fp .fp-faq dt{margin:0 0 4px;font-weight:650}
 body.fp .fp-faq dd{margin:0;color:var(--dim)}
-@media(max-width:800px){body.fp .fp-grid{grid-template-columns:1fr}}
+@media(max-width:800px){
+ body.fp .fp-card-media{grid-template-columns:1fr}
+ body.fp .fp-card h2{font-size:22px}
+ body.fp .fp-card-body{padding:18px 16px 20px}
+}
 @media (max-width:760px){.thgrid{grid-template-columns:1fr;gap:12px;padding-top:14px;padding-bottom:14px}.thcard{padding:15px 14px;gap:8px}.thh h2{font-size:19px}
  .staygrid{grid-template-columns:1fr;gap:6px}.scard .sjob{display:none}}
