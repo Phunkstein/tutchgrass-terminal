@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-06 00:45 EST",
+ "generated": "2026-11-06 23:45 EST",
  "window": {
   "start": "2026-10-07",
   "end": "2026-11-06",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "20ffe2de34ebeffb",
+ "fingerprint": "be7715b58fe8ba81",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -67,9 +67,10 @@
    "42853566"
   ],
   "pain": [
+   "42994510",
    "42968604",
-   "42966277",
    "42956528",
+   "42966277",
    "42950713",
    "42929306",
    "42927589",
@@ -78,8 +79,7 @@
    "42864800",
    "42885647",
    "42867128",
-   "42965212",
-   "42874273"
+   "42965212"
   ],
   "anxiety": [
    "42977215",
@@ -94,11 +94,13 @@
   ],
   "ptsd": [
    "42891034",
+   "42994609",
    "42945746",
    "42855684"
   ],
   "arthritis": [],
   "inflammation": [
+   "42994510",
    "42970043",
    "42943346",
    "42939750",
@@ -130,30 +132,30 @@
   "ibd": []
  },
  "pubmed_counts": {
-  "sleep": 25,
-  "pain": 33,
+  "sleep": 26,
+  "pain": 34,
   "anxiety": 51,
   "mood": 47,
-  "ptsd": 11,
+  "ptsd": 12,
   "arthritis": 3,
-  "inflammation": 8,
+  "inflammation": 9,
   "nausea": 10,
   "appetite": 5,
   "focus": 11,
-  "fibromyalgia": 2,
-  "ms": 3,
-  "epilepsy": 14,
+  "fibromyalgia": 3,
+  "ms": 4,
+  "epilepsy": 15,
   "migraine": 3,
   "ibd": 0
  },
  "newest": {
   "sleep": "2026-10-27",
-  "pain": "2026-11-02",
+  "pain": "2026-11-06",
   "anxiety": "2026-11-03",
   "mood": "2026-10-31",
-  "ptsd": "2026-10-27",
+  "ptsd": "2026-11-06",
   "arthritis": null,
-  "inflammation": "2026-11-02",
+  "inflammation": "2026-11-06",
   "nausea": "2026-11-05",
   "appetite": null,
   "focus": "2026-11-02",
@@ -164,6 +166,47 @@
   "ibd": null
  },
  "papers": [
+  {
+   "pmid": "42994510",
+   "title": "Phytocannabinoids in neurologic, neuropsychiatric, inflammatory, pain, cardiometabolic, hepatic, renal, and neoplastic disorders: Pharmacology, clinical evidence, and translational perspectives.",
+   "journal": "Pharmacol Ther",
+   "date": "2026-11-06",
+   "pubdate": "2026-11-06",
+   "first_author": "Trojnar et al.",
+   "doi": "10.1016/j.pharmthera.2026.109135",
+   "grade": "review",
+   "grade_label": "Narrative review",
+   "plain": {
+    "did": "An expert overview of existing research.",
+    "found": "Standardized products, exposure-informed dosing, pharmacodynamic biomarkers, responder-enriched designs, and indication-specific randomized studies can address these barriers.",
+    "caveat": "An expert overview, not a systematic search. No new data."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42994510/",
+   "conditions": [
+    "pain",
+    "inflammation"
+   ]
+  },
+  {
+   "pmid": "42994609",
+   "title": "Cannabidiol prevents fear extinction deficits caused by single prolonged stress in rats: possible involvement of serotoninergic, cannabinoid, and nitric mechanisms.",
+   "journal": "Neuropharmacology",
+   "date": "2026-11-06",
+   "pubdate": "2026-11-06",
+   "first_author": "Vila-Verde et al.",
+   "doi": "10.1016/j.neuropharm.2026.111256",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "Both compounds remained effective in a stress-restress paradigm with a forced swim trauma reminder, although neither normalized the SPS-induced increase in total nNOS.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42994609/",
+   "conditions": [
+    "ptsd"
+   ]
+  },
   {
    "pmid": "42983225",
    "title": "Comparative Effectiveness of Haloperidol, Droperidol, and Ondansetron for Cannabinoid Hyperemesis Syndrome in the Emergency Department.",
@@ -727,26 +770,6 @@
    "url": "https://pubmed.ncbi.nlm.nih.gov/42875876/",
    "conditions": [
     "inflammation"
-   ]
-  },
-  {
-   "pmid": "42874273",
-   "title": "Antinociceptive interaction of \u03949-tetrahydrocannabinol and cannabidiol in a humanized mouse model of sickle cell disease.",
-   "journal": "J Pharmacol Exp Ther",
-   "date": "2026-10-14",
-   "pubdate": "2026-09-24",
-   "first_author": "Mabou Tagne et al.",
-   "doi": "10.1016/j.jpet.2026.105037",
-   "grade": "mice",
-   "grade_label": "Mice / rats only",
-   "plain": {
-    "did": "Experiments in mice or rats; no people were studied.",
-    "found": "SIGNIFICANCE STATEMENT: Chronic pain in sickle cell disease remains difficult to treat, and many patients use cannabis despite limited understanding of how its constituents interact to produce analgesia.",
-    "caveat": "Animal results often do not carry over to people."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42874273/",
-   "conditions": [
-    "pain"
    ]
   },
   {
