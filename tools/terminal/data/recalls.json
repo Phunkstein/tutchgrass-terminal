@@ -1,7 +1,7 @@
 {
  "agent": "Recall & Safety",
- "checked": "2026-11-07 22:20 EST",
- "sources_ok": 11,
+ "checked": "2026-11-08 02:27 EST",
+ "sources_ok": 10,
  "sources_total": 11,
  "sources": [
   {
@@ -30,8 +30,9 @@
    "source": "WA",
    "name": "Washington LCB cannabis recalls",
    "url": "https://lcb.wa.gov/examiners/recalls",
-   "status": "ok",
-   "items": 11
+   "status": "unavailable",
+   "error": "network error (curl 35)",
+   "kept": 11
   },
   {
    "source": "OR",
@@ -2232,5 +2233,5 @@
   }
  ],
  "what_to_do": "If you have a product that matches a listed batch/lot, stop using it and follow the instructions in the official notice (usually return it to the retailer or dispose of it). Check the official link for exact batch numbers.",
- "generated": "2026-11-07 22:20 EST"
+ "generated": "2026-11-08 02:27 EST"
 }
