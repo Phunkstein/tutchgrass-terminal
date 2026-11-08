@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-08 00:45 EST",
+ "generated": "2026-11-08 01:39 EST",
  "window": {
   "start": "2026-10-09",
   "end": "2026-11-08",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "5043e73cebb4be3f",
+ "fingerprint": "6e540067fab71f08",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -63,6 +63,7 @@
    "42935025",
    "42878934",
    "42863850",
+   "42997636",
    "42885647",
    "42853566"
   ],
@@ -89,6 +90,7 @@
    "42950713"
   ],
   "mood": [
+   "42998719",
    "42963524",
    "42929306",
    "42905736"
@@ -113,6 +115,8 @@
   ],
   "appetite": [],
   "focus": [
+   "42997626",
+   "42997000",
    "42971927",
    "42854303",
    "42859461"
@@ -121,10 +125,12 @@
    "42946199"
   ],
   "ms": [
+   "42997457",
    "42953813"
   ],
   "epilepsy": [
    "42918565",
+   "42997457",
    "42968542",
    "42914761",
    "42869231"
@@ -133,40 +139,141 @@
   "ibd": []
  },
  "pubmed_counts": {
-  "sleep": 24,
+  "sleep": 25,
   "pain": 30,
-  "anxiety": 49,
-  "mood": 45,
-  "ptsd": 12,
+  "anxiety": 51,
+  "mood": 48,
+  "ptsd": 13,
   "arthritis": 3,
   "inflammation": 8,
   "nausea": 10,
   "appetite": 5,
-  "focus": 11,
+  "focus": 13,
   "fibromyalgia": 3,
-  "ms": 4,
-  "epilepsy": 13,
+  "ms": 5,
+  "epilepsy": 15,
   "migraine": 3,
   "ibd": 0
  },
  "newest": {
-  "sleep": "2026-10-27",
+  "sleep": "2026-11-07",
   "pain": "2026-11-06",
   "anxiety": "2026-11-03",
-  "mood": "2026-10-31",
+  "mood": "2026-11-07",
   "ptsd": "2026-11-06",
   "arthritis": null,
   "inflammation": "2026-11-06",
   "nausea": "2026-11-05",
   "appetite": null,
-  "focus": "2026-11-02",
+  "focus": "2026-11-07",
   "fibromyalgia": "2026-10-27",
-  "ms": "2026-10-29",
-  "epilepsy": "2026-11-02",
+  "ms": "2026-11-07",
+  "epilepsy": "2026-11-07",
   "migraine": null,
   "ibd": null
  },
  "papers": [
+  {
+   "pmid": "42997636",
+   "title": "Rapid Eye Movement Sleep Behavior Disorder as a Prodromal Manifestation of Alpha-Synucleinopathies.",
+   "journal": "Cureus",
+   "date": "2026-11-07",
+   "pubdate": "2026-10-07",
+   "first_author": "Ravindranath et al.",
+   "doi": "10.7759/cureus.117597",
+   "grade": "review",
+   "grade_label": "Narrative review",
+   "plain": {
+    "did": "An expert overview of existing research.",
+    "found": "While clonazepam and melatonin remain first-line therapies, alternative treatments including sodium oxybate, serotonergic agents, cannabinoids, and modulation of the gut-brain axis through probiotic supplementation have also been explored.",
+    "caveat": "An expert overview, not a systematic search. No new data."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42997636/",
+   "conditions": [
+    "sleep"
+   ]
+  },
+  {
+   "pmid": "42998719",
+   "title": "Studying the pharmacological interaction of temozolomide chemotherapy with different antidepressant treatments in a rat glioblastoma model.",
+   "journal": "Neuroscience",
+   "date": "2026-11-07",
+   "pubdate": "2026-11-07",
+   "first_author": "G\u00e1lvez-Melero et al.",
+   "doi": "10.1016/j.neuroscience.2026.11.010",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "TMZ treatment decreased body weight gain, reduced the number of hippocampal neural progenitors and diminished immune plasma markers, while CBD and FLX decreased plasma corticosterone.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42998719/",
+   "conditions": [
+    "mood"
+   ]
+  },
+  {
+   "pmid": "42997626",
+   "title": "Hemp bark extract attenuates scopolamine-induced cognitive dysfunction through multi-target cholinesterase, MAO-B, and antioxidant mechanisms.",
+   "journal": "Biochem Biophys Rep",
+   "date": "2026-11-07",
+   "pubdate": "2026-10-28",
+   "first_author": "Heo et al.",
+   "doi": "10.1016/j.bbrep.2026.102852",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "Docking, GNINA rescoring, molecular dynamics simulations, and MM-GBSA/MM-PBSA analyses further supported stable interactions of these cannabinoids with the target enzymes, particularly cannabidiolic acid with acetylcholinesterase and MAO-B.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42997626/",
+   "conditions": [
+    "focus"
+   ]
+  },
+  {
+   "pmid": "42997000",
+   "title": "Longitudinal Associations Between ADHD Symptoms and Cannabis Use in Adolescence: Exploration of the Dynamic Cross-Lagged Effects.",
+   "journal": "Can J Psychiatry",
+   "date": "2026-11-07",
+   "pubdate": "2026-11-07",
+   "first_author": "Girard-Lapointe et al.",
+   "doi": "10.1177/07067437261497468",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at existing data on people (nobody was assigned a treatment).",
+    "found": "The reverse pathway-from greater cannabis use to subsequent year increases in ADHD symptoms-was also significant. Further analysis showed that higher cannabis use in Grade 9 increased the risk of reaching a clinically relevant level of ADHD symptoms in Grade 10.ConclusionThe findings suggest that \u2026",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42997000/",
+   "conditions": [
+    "focus"
+   ]
+  },
+  {
+   "pmid": "42997457",
+   "title": "Effectiveness, safety and therapeutic potential of medical cannabis across treatment-resistant neuropsychiatric disorders: systematic review and meta-analysis.",
+   "journal": "EClinicalMedicine",
+   "date": "2026-11-07",
+   "pubdate": "2026-10-29",
+   "first_author": "Guo et al.",
+   "doi": "10.1016/j.eclinm.2026.104299",
+   "grade": "meta",
+   "grade_label": "Meta-analysis / systematic review",
+   "plain": {
+    "did": "Researchers searched for and pooled the results of earlier studies.",
+    "found": "Adjunctive pharmaceutical cannabidiol has the most consistent comparative evidence for reducing seizure frequency in selected drug-resistant epilepsy.",
+    "caveat": "Pools earlier studies. Only as strong as the studies it includes."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42997457/",
+   "conditions": [
+    "ms",
+    "epilepsy"
+   ]
+  },
   {
    "pmid": "42994510",
    "title": "Phytocannabinoids in neurologic, neuropsychiatric, inflammatory, pain, cardiometabolic, hepatic, renal, and neoplastic disorders: Pharmacology, clinical evidence, and translational perspectives.",
