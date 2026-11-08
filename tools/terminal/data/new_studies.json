@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-07 00:45 EST",
+ "generated": "2026-11-08 00:45 EST",
  "window": {
-  "start": "2026-10-08",
-  "end": "2026-11-07",
+  "start": "2026-10-09",
+  "end": "2026-11-08",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "d947c2629c50047f",
+ "fingerprint": "5043e73cebb4be3f",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -79,7 +79,8 @@
    "42864800",
    "42885647",
    "42867128",
-   "42965212"
+   "42965212",
+   "42874273"
   ],
   "anxiety": [
    "42977215",
@@ -132,19 +133,19 @@
   "ibd": []
  },
  "pubmed_counts": {
-  "sleep": 25,
-  "pain": 33,
-  "anxiety": 50,
-  "mood": 46,
+  "sleep": 24,
+  "pain": 30,
+  "anxiety": 49,
+  "mood": 45,
   "ptsd": 12,
   "arthritis": 3,
-  "inflammation": 9,
+  "inflammation": 8,
   "nausea": 10,
   "appetite": 5,
   "focus": 11,
   "fibromyalgia": 3,
   "ms": 4,
-  "epilepsy": 15,
+  "epilepsy": 13,
   "migraine": 3,
   "ibd": 0
  },
@@ -773,6 +774,26 @@
    ]
   },
   {
+   "pmid": "42874273",
+   "title": "Antinociceptive interaction of \u03949-tetrahydrocannabinol and cannabidiol in a humanized mouse model of sickle cell disease.",
+   "journal": "J Pharmacol Exp Ther",
+   "date": "2026-10-14",
+   "pubdate": "2026-09-24",
+   "first_author": "Mabou Tagne et al.",
+   "doi": "10.1016/j.jpet.2026.105037",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "SIGNIFICANCE STATEMENT: Chronic pain in sickle cell disease remains difficult to treat, and many patients use cannabis despite limited understanding of how its constituents interact to produce analgesia.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42874273/",
+   "conditions": [
+    "pain"
+   ]
+  },
+  {
    "pmid": "42863850",
    "title": "Medical cannabis for the treatment of insomnia.",
    "journal": "Cochrane Database Syst Rev",
@@ -953,5 +974,5 @@
    ]
   }
  ],
- "week_start": "2026-10-31"
+ "week_start": "2026-11-01"
 }
