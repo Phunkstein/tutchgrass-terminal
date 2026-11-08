@@ -2,9 +2,9 @@
  "schema": "deals/3",
  "test": true,
  "region": "United States (all legal markets)",
- "checked": "2026-11-08 16:24 EST",
- "count": 660,
- "chains": 62,
+ "checked": "2026-11-08 18:46 EST",
+ "count": 673,
+ "chains": 63,
  "states_with_deals": 28,
  "by_state": {
   "AK": 3,
@@ -37,7 +37,7 @@
   "NM": 8,
   "NV": 20,
   "NY": 7,
-  "OH": 13,
+  "OH": 16,
   "OK": 0,
   "OR": 10,
   "PA": 10,
@@ -47,7 +47,7 @@
   "UT": 0,
   "VA": 4,
   "VT": 0,
-  "WA": 12,
+  "WA": 22,
   "WV": 5
  },
  "by_chain": {
@@ -104,7 +104,7 @@
   "Inyo": 10,
   "Green Genius": 4,
   "Housing Works Cannabis Co.": 3,
-  "Pure Ohio Wellness": 4,
+  "Pure Ohio Wellness": 7,
   "Bridge City Collective": 10,
   "Vytal Options": 10,
   "Slater Center": 1,
@@ -112,6 +112,7 @@
   "Zen Leaf": 9,
   "Craft Cannabis": 2,
   "Kaleafa": 4,
+  "Mary Mart": 10,
   "Clear Choice": 6
  },
  "by_city": {
@@ -191,9 +192,9 @@
   "Albuquerque, NM": 8,
   "Las Vegas, NV": 20,
   "New York (Manhattan), NY": 7,
-  "Dayton, OH": 4,
-  "London, OH": 4,
-  "Tallmadge, OH": 4,
+  "Dayton, OH": 7,
+  "London, OH": 7,
+  "Tallmadge, OH": 7,
   "Portland, OR": 10,
   "Harrisburg, PA": 10,
   "Kennett Square, PA": 10,
@@ -208,7 +209,7 @@
   "Aberdeen, WA": 4,
   "Des Moines, WA": 1,
   "Oak Harbor, WA": 1,
-  "Tacoma, WA": 6,
+  "Tacoma, WA": 16,
   "Morgantown, WV": 5
  },
  "states": [
@@ -426,7 +427,7 @@
    "code": "OH",
    "name": "Ohio",
    "market": "adult-use + medical",
-   "deals": 13,
+   "deals": 16,
    "sources": 2
   },
   {
@@ -496,7 +497,7 @@
    "code": "WA",
    "name": "Washington",
    "market": "adult-use + medical",
-   "deals": 12,
+   "deals": 22,
    "sources": 4
   },
   {
@@ -569,7 +570,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 14
+   "more": 13
   },
   {
    "state": "MI",
@@ -836,7 +837,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 59
+   "more": 58
   },
   {
    "state": "AZ",
@@ -1285,7 +1286,7 @@
    "url": "https://pureohiowellness.com/",
    "robots": "allowed",
    "status": "ok",
-   "deals": 4
+   "deals": 7
   },
   {
    "state": "OR",
@@ -1357,8 +1358,9 @@
    "name": "Mary Mart",
    "url": "https://marymart.com/deals",
    "robots": "allowed",
-   "status": "error: HTTP 404",
-   "deals": 0
+   "status": "ok",
+   "deals": 10,
+   "more": 3
   },
   {
    "state": "WA",
@@ -2554,7 +2556,7 @@
    ],
    "state": "MI",
    "deal": "Giving Tree 1g Preroll - B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2574,7 +2576,7 @@
    ],
    "state": "MI",
    "deal": "Pro Gro - 200mg Live Resin Gummies - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2594,7 +2596,7 @@
    ],
    "state": "MI",
    "deal": "Covert Cups 200mg Hash Rosin Cones - B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2613,28 +2615,8 @@
     "Detroit"
    ],
    "state": "MI",
-   "deal": "Gelato First and Last Bites (Bars / Dubai Bites Excluded) - 30% OFF",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-08",
-   "url": "https://www.kingofbudz.com/michigan/detroit/deals/gelato-first-and-last-bites-bars-dubai-bites-excluded-30-percent-off",
-   "loc": [
-    5
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Detroit",
-   "city": "Detroit",
-   "cities": [
-    "Detroit"
-   ],
-   "state": "MI",
    "deal": "Tokers Choice - 1.5g Liquid Diamond Infused Rocket - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2653,28 +2635,8 @@
     "Detroit"
    ],
    "state": "MI",
-   "deal": "Monopoly Melts - 30% OFF",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-08",
-   "url": "https://www.kingofbudz.com/michigan/detroit/deals/monopoly-melts-30-percent-off",
-   "loc": [
-    5
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Detroit",
-   "city": "Detroit",
-   "cities": [
-    "Detroit"
-   ],
-   "state": "MI",
    "deal": "Good Good - 1.2g Infused Prerolls - 12 for $25 (Buy 12 for $25)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2693,28 +2655,8 @@
     "Detroit"
    ],
    "state": "MI",
-   "deal": "Tip Top Crop (Excludes DELI) - 25% OFF",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-08",
-   "url": "https://www.kingofbudz.com/michigan/detroit/deals/tip-top-crop-excludes-deli-25-percent-off",
-   "loc": [
-    5
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Detroit",
-   "city": "Detroit",
-   "cities": [
-    "Detroit"
-   ],
-   "state": "MI",
    "deal": "MKX - 2g and 3g Disposables - 25% OFF (10/26-11/08)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2734,12 +2676,72 @@
    ],
    "state": "MI",
    "deal": "Pro Gro 1g Preroll - B2G1 Free (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
    "collected": "2026-11-08",
    "url": "https://www.kingofbudz.com/michigan/detroit/deals/pro-gro-1g-preroll-b2g1-free",
+   "loc": [
+    5
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Detroit",
+   "city": "Detroit",
+   "cities": [
+    "Detroit"
+   ],
+   "state": "MI",
+   "deal": "Made By A Farmer - 3-Pack .5g Bubble Hash Infused Prerolls - BOGO (Buy 1, Get 1 Free)",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://www.kingofbudz.com/michigan/detroit/deals/made-by-a-farmer-3-pack-5g-bubble-hash-infused-prerolls-bogo",
+   "loc": [
+    5
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Detroit",
+   "city": "Detroit",
+   "cities": [
+    "Detroit"
+   ],
+   "state": "MI",
+   "deal": "Banned - 200mg Gummies (4-Packs ONLY) - BOGO (Buy 1, Get 1 Free)",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://www.kingofbudz.com/michigan/detroit/deals/banned-200mg-gummies-4-packs-only-bogo",
+   "loc": [
+    5
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Detroit",
+   "city": "Detroit",
+   "cities": [
+    "Detroit"
+   ],
+   "state": "MI",
+   "deal": "Gelato First and Last Bites (Bars / Dubai Bites Excluded) - 30% OFF",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://www.kingofbudz.com/michigan/detroit/deals/gelato-first-and-last-bites-bars-dubai-bites-excluded-30-percent-off",
    "loc": [
     5
    ],
@@ -2754,7 +2756,7 @@
    ],
    "state": "MI",
    "deal": "Giving Tree 1g Preroll - B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2774,7 +2776,7 @@
    ],
    "state": "MI",
    "deal": "Pro Gro - 200mg Live Resin Gummies - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2794,7 +2796,7 @@
    ],
    "state": "MI",
    "deal": "Covert Cups 200mg Hash Rosin Cones - B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2814,7 +2816,7 @@
    ],
    "state": "MI",
    "deal": "Tokers Choice - 1.5g Liquid Diamond Infused Rocket - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2834,7 +2836,7 @@
    ],
    "state": "MI",
    "deal": "Monopoly Melts - 30% OFF",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2854,7 +2856,7 @@
    ],
    "state": "MI",
    "deal": "Good Good - 1.2g Infused Prerolls - 12 for $25 (Buy 12 for $25)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2874,7 +2876,7 @@
    ],
    "state": "MI",
    "deal": "Tip Top Crop (Excludes DELI) - 25% OFF",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2894,7 +2896,7 @@
    ],
    "state": "MI",
    "deal": "MKX - 2g and 3g Disposables - 25% OFF (10/26-11/08)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2914,7 +2916,7 @@
    ],
    "state": "MI",
    "deal": "Clout King 1g Prerolls - 10% OFF",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2934,7 +2936,7 @@
    ],
    "state": "MI",
    "deal": "Pro Gro 1g Preroll - B2G1 Free (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2954,7 +2956,7 @@
    ],
    "state": "MI",
    "deal": "GLO Farms 3.5g Prepack - 6 for $110 (Buy 6 for $110)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2974,7 +2976,7 @@
    ],
    "state": "MI",
    "deal": "Pro Gro - 200mg Live Resin Gummies - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2994,7 +2996,7 @@
    ],
    "state": "MI",
    "deal": "Covert Cups 200mg Hash Rosin Cones - B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -3013,108 +3015,8 @@
     "Inkster"
    ],
    "state": "MI",
-   "deal": "Tokers Choice - 1.5g Liquid Diamond Infused Rocket - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-08",
-   "url": "https://www.kingofbudz.com/michigan/inkster/deals/tokers-choice-15g-liquid-diamond-infused-rocket-bogo",
-   "loc": [
-    7
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Inkster",
-   "city": "Inkster",
-   "cities": [
-    "Inkster"
-   ],
-   "state": "MI",
-   "deal": "Good Good - 1.2g Infused Prerolls - 12 for $25 (Buy 12 for $25)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-08",
-   "url": "https://www.kingofbudz.com/michigan/inkster/deals/good-good-12g-infused-prerolls-12-for-25",
-   "loc": [
-    7
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Inkster",
-   "city": "Inkster",
-   "cities": [
-    "Inkster"
-   ],
-   "state": "MI",
-   "deal": "MKX - 2g and 3g Disposables - 25% OFF (10/26-11/08)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-08",
-   "url": "https://www.kingofbudz.com/michigan/inkster/deals/mkx-2g-and-3g-disposables-25-percent-off-1026-1108",
-   "loc": [
-    7
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Inkster",
-   "city": "Inkster",
-   "cities": [
-    "Inkster"
-   ],
-   "state": "MI",
-   "deal": "Pro Gro 1g Preroll - B2G1 Free (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-08",
-   "url": "https://www.kingofbudz.com/michigan/inkster/deals/pro-gro-1g-preroll-b2g1-free",
-   "loc": [
-    7
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Inkster",
-   "city": "Inkster",
-   "cities": [
-    "Inkster"
-   ],
-   "state": "MI",
-   "deal": "Banned - 200mg Gummies (4-Packs ONLY) - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-08",
-   "url": "https://www.kingofbudz.com/michigan/inkster/deals/banned-200mg-gummies-4-packs-only-bogo",
-   "loc": [
-    7
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Inkster",
-   "city": "Inkster",
-   "cities": [
-    "Inkster"
-   ],
-   "state": "MI",
    "deal": "Gelato First and Last Bites (Bars / Dubai Bites Excluded) - 30% OFF",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -3134,12 +3036,112 @@
    ],
    "state": "MI",
    "deal": "Dat Canna - 1g Live Rosin - 20% OFF",
-   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "valid": "page said \u201c2 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
    "collected": "2026-11-08",
    "url": "https://www.kingofbudz.com/michigan/inkster/deals/dat-canna-1g-live-rosin-20-percent-off",
+   "loc": [
+    7
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Inkster",
+   "city": "Inkster",
+   "cities": [
+    "Inkster"
+   ],
+   "state": "MI",
+   "deal": "Tokers Choice - 1.5g Liquid Diamond Infused Rocket - BOGO (Buy 1, Get 1 Free)",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://www.kingofbudz.com/michigan/inkster/deals/tokers-choice-15g-liquid-diamond-infused-rocket-bogo",
+   "loc": [
+    7
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Inkster",
+   "city": "Inkster",
+   "cities": [
+    "Inkster"
+   ],
+   "state": "MI",
+   "deal": "Monopoly Melts - 30% OFF",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://www.kingofbudz.com/michigan/inkster/deals/monopoly-melts-30-percent-off",
+   "loc": [
+    7
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Inkster",
+   "city": "Inkster",
+   "cities": [
+    "Inkster"
+   ],
+   "state": "MI",
+   "deal": "Good Good - 1.2g Infused Prerolls - 12 for $25 (Buy 12 for $25)",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://www.kingofbudz.com/michigan/inkster/deals/good-good-12g-infused-prerolls-12-for-25",
+   "loc": [
+    7
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Inkster",
+   "city": "Inkster",
+   "cities": [
+    "Inkster"
+   ],
+   "state": "MI",
+   "deal": "MKX - 2g and 3g Disposables - 25% OFF (10/26-11/08)",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://www.kingofbudz.com/michigan/inkster/deals/mkx-2g-and-3g-disposables-25-percent-off-1026-1108",
+   "loc": [
+    7
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Inkster",
+   "city": "Inkster",
+   "cities": [
+    "Inkster"
+   ],
+   "state": "MI",
+   "deal": "Dat Canna - 1.2g Bubble Hash Infused Preroll - 20% OFF",
+   "valid": "page said \u201c2 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://www.kingofbudz.com/michigan/inkster/deals/dat-canna-12g-bubble-hash-infused-preroll-20-percent-off",
    "loc": [
     7
    ],
@@ -3153,48 +3155,8 @@
     "Monroe"
    ],
    "state": "MI",
-   "deal": "Doob Squad 28g Prepack Shake - 20% OFF",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-08",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/doob-squad-28g-prepack-shake-20-percent-off",
-   "loc": [
-    8
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Monroe",
-   "city": "Monroe",
-   "cities": [
-    "Monroe"
-   ],
-   "state": "MI",
-   "deal": "Giving Tree 3.5g Prepack - 3 for $55 (Buy 3 for $55)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-08",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/giving-tree-35g-prepack-3-for-55",
-   "loc": [
-    8
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Monroe",
-   "city": "Monroe",
-   "cities": [
-    "Monroe"
-   ],
-   "state": "MI",
    "deal": "GLO Farms 3.5g Prepack - 6 for $110 (Buy 6 for $110)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -3213,8 +3175,28 @@
     "Monroe"
    ],
    "state": "MI",
+   "deal": "Giving Tree 3.5g Prepack - 3 for $55 (Buy 3 for $55)",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/giving-tree-35g-prepack-3-for-55",
+   "loc": [
+    8
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Monroe",
+   "city": "Monroe",
+   "cities": [
+    "Monroe"
+   ],
+   "state": "MI",
    "deal": "Giving Tree 1g Preroll - B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -3234,7 +3216,7 @@
    ],
    "state": "MI",
    "deal": "Squishies - 200mg Rosin Gummies - B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -3254,7 +3236,7 @@
    ],
    "state": "MI",
    "deal": "Pro Gro - 200mg Live Resin Gummies - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -3274,7 +3256,7 @@
    ],
    "state": "MI",
    "deal": "Midnight Roots All Chocolates - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -3294,7 +3276,7 @@
    ],
    "state": "MI",
    "deal": "Covert Cups 200mg Hash Rosin Cones - B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -3313,13 +3295,13 @@
     "Monroe"
    ],
    "state": "MI",
-   "deal": "Gelato First and Last Bites (Bars / Dubai Bites Excluded) - 30% OFF",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "deal": "Tokers Choice - 1.5g Liquid Diamond Infused Rocket - BOGO (Buy 1, Get 1 Free)",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
    "collected": "2026-11-08",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/gelato-first-and-last-bites-bars-dubai-bites-excluded-30-percent-off",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/tokers-choice-15g-liquid-diamond-infused-rocket-bogo",
    "loc": [
     8
    ],
@@ -3333,13 +3315,33 @@
     "Monroe"
    ],
    "state": "MI",
-   "deal": "Dat Canna - 1g Live Rosin - 20% OFF",
+   "deal": "Fly 1g Carts - 15 for $60 (Buy 15 for $60)",
    "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
    "collected": "2026-11-08",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/dat-canna-1g-live-rosin-20-percent-off",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/fly-1g-carts-15-for-60",
+   "loc": [
+    8
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Monroe",
+   "city": "Monroe",
+   "cities": [
+    "Monroe"
+   ],
+   "state": "MI",
+   "deal": "MKX - 2g and 3g Disposables - 25% OFF (10/26-11/08)",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/mkx-2g-and-3g-disposables-25-percent-off-1026-1108",
    "loc": [
     8
    ],
@@ -3354,7 +3356,7 @@
    ],
    "state": "MI",
    "deal": "Fusion 2g Disposable 3/$50 (Buy 3 for $50)",
-   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "valid": "page said \u201c2 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -3374,7 +3376,7 @@
    ],
    "state": "MI",
    "deal": "Sauce 1g Distillate Disposable BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "valid": "page said \u201c2 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -3393,13 +3395,33 @@
     "New Buffalo"
    ],
    "state": "MI",
-   "deal": "GLO Farms 3.5g Prepack - 6 for $110 (Buy 6 for $110)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "deal": "High Supply Carts 10% off",
+   "valid": "page said \u201c2 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
    "collected": "2026-11-08",
-   "url": "https://www.kingofbudz.com/michigan/new-buffalo/deals/glo-farms-35g-prepack-6-for-110",
+   "url": "https://www.kingofbudz.com/michigan/new-buffalo/deals/high-supply-carts-10-percent-off",
+   "loc": [
+    9
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz New Buffalo",
+   "city": "New Buffalo",
+   "cities": [
+    "New Buffalo"
+   ],
+   "state": "MI",
+   "deal": "Doob Squad 28g Prepack Shake - 20% OFF",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://www.kingofbudz.com/michigan/new-buffalo/deals/doob-squad-28g-prepack-shake-20-percent-off",
    "loc": [
     9
    ],
@@ -3414,7 +3436,7 @@
    ],
    "state": "MI",
    "deal": "Giving Tree 3.5g Prepack - 3 for $55 (Buy 3 for $55)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -3433,8 +3455,28 @@
     "New Buffalo"
    ],
    "state": "MI",
+   "deal": "GLO Farms 3.5g Prepack - 6 for $110 (Buy 6 for $110)",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://www.kingofbudz.com/michigan/new-buffalo/deals/glo-farms-35g-prepack-6-for-110",
+   "loc": [
+    9
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz New Buffalo",
+   "city": "New Buffalo",
+   "cities": [
+    "New Buffalo"
+   ],
+   "state": "MI",
    "deal": "Giving Tree 1g Preroll - B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -3454,7 +3496,7 @@
    ],
    "state": "MI",
    "deal": "Squishies - 200mg Rosin Gummies - B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -3474,7 +3516,7 @@
    ],
    "state": "MI",
    "deal": "Pro Gro - 200mg Live Resin Gummies - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -3494,52 +3536,12 @@
    ],
    "state": "MI",
    "deal": "Midnight Roots All Chocolates - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
    "collected": "2026-11-08",
    "url": "https://www.kingofbudz.com/michigan/new-buffalo/deals/-midnight-roots-all-chocolates-bogo",
-   "loc": [
-    9
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz New Buffalo",
-   "city": "New Buffalo",
-   "cities": [
-    "New Buffalo"
-   ],
-   "state": "MI",
-   "deal": "Covert Cups 200mg Hash Rosin Cones - B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-08",
-   "url": "https://www.kingofbudz.com/michigan/new-buffalo/deals/covert-cups-200mg-hash-rosin-cones-b2g1",
-   "loc": [
-    9
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz New Buffalo",
-   "city": "New Buffalo",
-   "cities": [
-    "New Buffalo"
-   ],
-   "state": "MI",
-   "deal": "Tokers Choice - 1.5g Liquid Diamond Infused Rocket - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c6 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-08",
-   "url": "https://www.kingofbudz.com/michigan/new-buffalo/deals/tokers-choice-15g-liquid-diamond-infused-rocket-bogo",
    "loc": [
     9
    ],
@@ -11025,28 +11027,6 @@
     "Hopedale"
    ],
    "state": "MA",
-   "deal": "Every Day Savings: Kanha Edibles: 3 for $50",
-   "valid": "",
-   "until": "",
-   "kind": "everyday",
-   "note": "",
-   "collected": "2026-11-08",
-   "url": "https://carolinescannabis.com/specials",
-   "loc": [
-    88,
-    89
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "Caroline's Cannabis",
-   "store": "Caroline's Cannabis",
-   "city": "Uxbridge \u00b7 Hopedale",
-   "cities": [
-    "Uxbridge",
-    "Hopedale"
-   ],
-   "state": "MA",
    "deal": "Every Day Savings: 1g Live Rosin: 2 for $60",
    "valid": "",
    "until": "",
@@ -11070,6 +11050,28 @@
    ],
    "state": "MA",
    "deal": "Every Day Savings: COAST Gummies: 2 for $40",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://carolinescannabis.com/specials",
+   "loc": [
+    88,
+    89
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Caroline's Cannabis",
+   "store": "Caroline's Cannabis",
+   "city": "Uxbridge \u00b7 Hopedale",
+   "cities": [
+    "Uxbridge",
+    "Hopedale"
+   ],
+   "state": "MA",
+   "deal": "Every Day Savings: Kanha Edibles: 3 for $50",
    "valid": "",
    "until": "",
    "kind": "everyday",
@@ -11135,28 +11137,6 @@
     "Hopedale"
    ],
    "state": "MA",
-   "deal": "Every Day Savings: 3 for $20: 20pk Gummies",
-   "valid": "",
-   "until": "",
-   "kind": "everyday",
-   "note": "",
-   "collected": "2026-11-08",
-   "url": "https://carolinescannabis.com/specials",
-   "loc": [
-    88,
-    89
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "Caroline's Cannabis",
-   "store": "Caroline's Cannabis",
-   "city": "Uxbridge \u00b7 Hopedale",
-   "cities": [
-    "Uxbridge",
-    "Hopedale"
-   ],
-   "state": "MA",
    "deal": "Every Day Savings: Dialed In Gummies: 2 for $40",
    "valid": "",
    "until": "",
@@ -11179,7 +11159,7 @@
     "Hopedale"
    ],
    "state": "MA",
-   "deal": "Every Day Savings: Chocolate Bars: 2 for $30",
+   "deal": "Every Day Savings: 1g Disposable Vapes: 2 for $50",
    "valid": "",
    "until": "",
    "kind": "everyday",
@@ -11201,7 +11181,29 @@
     "Hopedale"
    ],
    "state": "MA",
-   "deal": "Every Day Savings: 1g Disposable Vapes: 2 for $50",
+   "deal": "Every Day Savings: Betty\u2019s Eddies: 3 for $40",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://carolinescannabis.com/specials",
+   "loc": [
+    88,
+    89
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Caroline's Cannabis",
+   "store": "Caroline's Cannabis",
+   "city": "Uxbridge \u00b7 Hopedale",
+   "cities": [
+    "Uxbridge",
+    "Hopedale"
+   ],
+   "state": "MA",
+   "deal": "Every Day Savings: 3 for $20: 20pk Gummies",
    "valid": "",
    "until": "",
    "kind": "everyday",
@@ -14416,7 +14418,79 @@
     "Tallmadge"
    ],
    "state": "OH",
-   "deal": "30% Off Edibles!",
+   "deal": "Get 30% off all AYR brands!",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://pureohiowellness.com/",
+   "loc": [
+    150,
+    151,
+    152
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Pure Ohio Wellness",
+   "store": "Pure Ohio Wellness",
+   "city": "Dayton \u00b7 London \u00b7 Tallmadge",
+   "cities": [
+    "Dayton",
+    "London",
+    "Tallmadge"
+   ],
+   "state": "OH",
+   "deal": "30% Off, Gron Edibles!",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://pureohiowellness.com/",
+   "loc": [
+    150,
+    151,
+    152
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Pure Ohio Wellness",
+   "store": "Pure Ohio Wellness",
+   "city": "Dayton \u00b7 London \u00b7 Tallmadge",
+   "cities": [
+    "Dayton",
+    "London",
+    "Tallmadge"
+   ],
+   "state": "OH",
+   "deal": "30% off Cresco products!",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://pureohiowellness.com/",
+   "loc": [
+    150,
+    151,
+    152
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Pure Ohio Wellness",
+   "store": "Pure Ohio Wellness",
+   "city": "Dayton \u00b7 London \u00b7 Tallmadge",
+   "cities": [
+    "Dayton",
+    "London",
+    "Tallmadge"
+   ],
+   "state": "OH",
+   "deal": "Find Wellspring Fields products 30% Off!",
    "valid": "",
    "until": "",
    "kind": "limited",
@@ -15305,6 +15379,206 @@
    "geo": "store"
   },
   {
+   "chain": "Mary Mart",
+   "store": "Mary Mart",
+   "city": "Tacoma",
+   "cities": [
+    "Tacoma"
+   ],
+   "state": "WA",
+   "deal": "Veterans receive 10% off with a valid veterans ID!!",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://marymart.com/deals",
+   "loc": [
+    168
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Mary Mart",
+   "store": "Mary Mart",
+   "city": "Tacoma",
+   "cities": [
+    "Tacoma"
+   ],
+   "state": "WA",
+   "deal": "Ages 55+ receive 10% off!",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://marymart.com/deals",
+   "loc": [
+    168
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Mary Mart",
+   "store": "Mary Mart",
+   "city": "Tacoma",
+   "cities": [
+    "Tacoma"
+   ],
+   "state": "WA",
+   "deal": "Receive 10% off on your Birthday!!",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://marymart.com/deals",
+   "loc": [
+    168
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Mary Mart",
+   "store": "Mary Mart",
+   "city": "Tacoma",
+   "cities": [
+    "Tacoma"
+   ],
+   "state": "WA",
+   "deal": "Electric Early Bird Special: 8am-12pm 20% off all online orders!",
+   "valid": "MONDAY (BACK TO BACK TO BACK) DAILY DEALS",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://marymart.com/deals",
+   "loc": [
+    168
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Mary Mart",
+   "store": "Mary Mart",
+   "city": "Tacoma",
+   "cities": [
+    "Tacoma"
+   ],
+   "state": "WA",
+   "deal": "Monday Happy Hour: 12pm-3pm and 8pm-11pm 15% off the entire store!",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://marymart.com/deals",
+   "loc": [
+    168
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Mary Mart",
+   "store": "Mary Mart",
+   "city": "Tacoma",
+   "cities": [
+    "Tacoma"
+   ],
+   "state": "WA",
+   "deal": "11am-2pm and 8pm-11pm 15% off the entire store!",
+   "valid": "MONDAY (BACK TO BACK TO BACK) DAILY DEALS",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://marymart.com/deals",
+   "loc": [
+    168
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Mary Mart",
+   "store": "Mary Mart",
+   "city": "Tacoma",
+   "cities": [
+    "Tacoma"
+   ],
+   "state": "WA",
+   "deal": "Ladies Day Special: All ladies receive 10% off!",
+   "valid": "MONDAY (BACK TO BACK TO BACK) DAILY DEALS",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://marymart.com/deals",
+   "loc": [
+    168
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Mary Mart",
+   "store": "Mary Mart",
+   "city": "Tacoma",
+   "cities": [
+    "Tacoma"
+   ],
+   "state": "WA",
+   "deal": "MONDAY (BACK TO BACK TO BACK) DAILY DEALS: 20% off all liquid edibles!",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://marymart.com/deals",
+   "loc": [
+    168
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Mary Mart",
+   "store": "Mary Mart",
+   "city": "Tacoma",
+   "cities": [
+    "Tacoma"
+   ],
+   "state": "WA",
+   "deal": "MONDAY (BACK TO BACK TO BACK) DAILY DEALS: 20% off all solid edibles!",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://marymart.com/deals",
+   "loc": [
+    168
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Mary Mart",
+   "store": "Mary Mart",
+   "city": "Tacoma",
+   "cities": [
+    "Tacoma"
+   ],
+   "state": "WA",
+   "deal": "MONDAY (BACK TO BACK TO BACK) DAILY DEALS: 15% off all prerolls!",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-08",
+   "url": "https://marymart.com/deals",
+   "loc": [
+    168
+   ],
+   "geo": "store"
+  },
+  {
    "chain": "Clear Choice",
    "store": "Clear Choice Tacoma",
    "city": "Tacoma",
@@ -15320,8 +15594,8 @@
    "collected": "2026-11-08",
    "url": "https://findclearchoice.com/tacoma-deals/",
    "loc": [
-    168,
-    169
+    169,
+    170
    ],
    "geo": "store"
   },
@@ -15341,8 +15615,8 @@
    "collected": "2026-11-08",
    "url": "https://findclearchoice.com/tacoma-deals/",
    "loc": [
-    168,
-    169
+    169,
+    170
    ],
    "geo": "store"
   },
@@ -15362,8 +15636,8 @@
    "collected": "2026-11-08",
    "url": "https://findclearchoice.com/tacoma-deals/",
    "loc": [
-    168,
-    169
+    169,
+    170
    ],
    "geo": "store"
   },
@@ -15383,8 +15657,8 @@
    "collected": "2026-11-08",
    "url": "https://findclearchoice.com/tacoma-deals/",
    "loc": [
-    168,
-    169
+    169,
+    170
    ],
    "geo": "store"
   },
@@ -15404,8 +15678,8 @@
    "collected": "2026-11-08",
    "url": "https://findclearchoice.com/tacoma-deals/",
    "loc": [
-    168,
-    169
+    169,
+    170
    ],
    "geo": "store"
   },
@@ -15425,8 +15699,8 @@
    "collected": "2026-11-08",
    "url": "https://findclearchoice.com/tacoma-deals/",
    "loc": [
-    168,
-    169
+    169,
+    170
    ],
    "geo": "store"
   },
@@ -15446,7 +15720,7 @@
    "collected": "2026-11-08",
    "url": "https://zenleafdispensaries.com/locations/morgantown/medical-menu/menu/discounts",
    "loc": [
-    170
+    171
    ],
    "geo": "store"
   },
@@ -15466,7 +15740,7 @@
    "collected": "2026-11-08",
    "url": "https://zenleafdispensaries.com/locations/morgantown/medical-menu/menu/discounts",
    "loc": [
-    170
+    171
    ],
    "geo": "store"
   },
@@ -15486,7 +15760,7 @@
    "collected": "2026-11-08",
    "url": "https://zenleafdispensaries.com/locations/morgantown/medical-menu/menu/discounts",
    "loc": [
-    170
+    171
    ],
    "geo": "store"
   },
@@ -15506,7 +15780,7 @@
    "collected": "2026-11-08",
    "url": "https://zenleafdispensaries.com/locations/morgantown/medical-menu/menu/discounts",
    "loc": [
-    170
+    171
    ],
    "geo": "store"
   },
@@ -15526,7 +15800,7 @@
    "collected": "2026-11-08",
    "url": "https://zenleafdispensaries.com/locations/morgantown/medical-menu/menu/discounts",
    "loc": [
-    170
+    171
    ],
    "geo": "store"
   }
@@ -17213,6 +17487,16 @@
    "precision": "city"
   },
   {
+   "chain": "Mary Mart",
+   "name": "Mary Mart Tacoma",
+   "addr": "3002 6th Ave",
+   "city": "Tacoma",
+   "state": "WA",
+   "lat": 47.25521,
+   "lon": -122.47491,
+   "precision": "address"
+  },
+  {
    "chain": "Clear Choice",
    "name": "Clear Choice Tacoma",
    "addr": "317 S 72nd St",
@@ -17244,10 +17528,10 @@
   }
  ],
  "geo": {
-  "locations": 171,
-  "store_points": 141,
+  "locations": 172,
+  "store_points": 142,
   "city_points": 30,
-  "deals_store": 505,
+  "deals_store": 518,
   "deals_city": 115,
   "deals_statewide": 40
  },
@@ -17260,5 +17544,5 @@
   "note": "Paid placement slot (not live). Sponsored deals will always be labeled and kept separate from, never ranked above, the free list."
  },
  "disclaimer": "21+ only. For adults 21 and older (or registered medical patients). Deals change often and can differ by store: always confirm with the store before you go. Listed from each dispensary's own public page; not an endorsement.",
- "generated": "2026-11-08 16:24 EST"
+ "generated": "2026-11-08 18:46 EST"
 }
