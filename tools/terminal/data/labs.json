@@ -7,7 +7,7 @@
    "url": "https://search.cannabis.ca.gov/",
    "status": "ok",
    "count": 18,
-   "checked": "2026-11-02 15:26 EST",
+   "checked": "2026-11-09 05:26 EST",
    "list_updated": null
   },
   {
@@ -16,7 +16,7 @@
    "url": "https://masscannabiscontrol.com/open-data/data-catalog/",
    "status": "ok",
    "count": 10,
-   "checked": "2026-11-02 15:26 EST",
+   "checked": "2026-11-09 05:26 EST",
    "list_updated": null
   },
   {
@@ -25,7 +25,7 @@
    "url": "https://med.colorado.gov/licensee-information-and-lookup-tool",
    "status": "ok",
    "count": 7,
-   "checked": "2026-11-02 15:26 EST",
+   "checked": "2026-11-09 05:26 EST",
    "list_updated": null
   },
   {
@@ -34,7 +34,7 @@
    "url": "https://data.oregon.gov/d/q32u-cmam",
    "status": "ok",
    "count": 9,
-   "checked": "2026-11-02 15:26 EST",
+   "checked": "2026-11-09 05:26 EST",
    "list_updated": null
   },
   {
@@ -43,18 +43,17 @@
    "url": "https://www.oregon.gov/oha/PH/LABORATORYSERVICES/ENVIRONMENTALLABORATORYACCREDITATION/Pages/cannabis.aspx",
    "status": "ok",
    "count": 9,
-   "checked": "2026-11-02 15:26 EST",
+   "checked": "2026-11-09 05:26 EST",
    "list_updated": "2026-06-04"
   },
   {
    "id": "fl_ommu",
    "name": "Florida Office of Medical Marijuana Use (certified testing labs)",
    "url": "https://knowthefactsmmj.com/cmtl/",
-   "status": "stale",
+   "status": "ok",
    "count": 6,
-   "checked": "2026-11-02 05:26 EST",
-   "list_updated": null,
-   "error": "OMMU table not found"
+   "checked": "2026-11-09 05:26 EST",
+   "list_updated": null
   },
   {
    "id": "mi_cra",
@@ -62,7 +61,7 @@
    "url": "https://www.michigan.gov/cra/verify-a-license-1",
    "status": "ok",
    "count": 19,
-   "checked": "2026-11-02 15:26 EST",
+   "checked": "2026-11-09 05:26 EST",
    "list_updated": null
   },
   {
@@ -71,7 +70,7 @@
    "url": "https://agr.wa.gov/departments/cannabis",
    "status": "ok",
    "count": 4,
-   "checked": "2026-11-02 15:26 EST",
+   "checked": "2026-11-09 05:26 EST",
    "list_updated": "2026-06-03"
   },
   {
@@ -79,8 +78,8 @@
    "name": "A2LA directory (ISO/IEC 17025 scopes mentioning cannabis or hemp)",
    "url": "https://customer.a2la.org/index.cfm?event=directory.index",
    "status": "ok",
-   "count": 256,
-   "checked": "2026-11-02 15:27 EST"
+   "count": 259,
+   "checked": "2026-11-09 05:26 EST"
   }
  ],
  "manual": [
@@ -1011,7 +1010,7 @@
    "license": "AU-SC-000114",
    "status": "Active",
    "city": "Adrian",
-   "expires": "2027-01-08",
+   "expires": "2028-01-08",
    "panels": null,
    "source": "mi_cra",
    "url": "https://www.michigan.gov/cra/verify-a-license-1",
@@ -2011,6 +2010,21 @@
    "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=1C6B46A6-6525-407C-BE3B-9C9974CBA411"
   },
   {
+   "name": "Anatek Labs, Inc.",
+   "location": "Spokane, WA",
+   "country": "United States",
+   "cert": "8000.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological"
+   ],
+   "expires": "2028-04-30",
+   "body": "A2LA",
+   "keys": [
+    "anatek labs"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=C6B301F6-43CF-40E4-BA72-EA276F93C4AA"
+  },
+  {
    "name": "BCN Research Laboratories, Inc.",
    "location": "Rockford, TN",
    "country": "United States",
@@ -2059,7 +2073,7 @@
    "name": "Bia Diagnostics, LLC",
    "location": "Colchester, VT",
    "country": "United States",
-   "cert": "3594.02",
+   "cert": "3594.01",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -2395,7 +2409,7 @@
    "name": "DHHS/FDA/HFP/OLOAS/ORTS/NYHAFL",
    "location": "Jamaica, NY",
    "country": "United States",
-   "cert": "5807.11",
+   "cert": "5807.12",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -2443,7 +2457,7 @@
    "name": "DHHS/FDA/OC/OCS/OARL New York Medical Products Laboratory",
    "location": "Jamaica, NY",
    "country": "United States",
-   "cert": "5807.24",
+   "cert": "5807.25",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -2841,7 +2855,7 @@
    "name": "Eurofins Analytical Laboratories, Inc. dba Eurofins Central Analytical Laboratories and dba Eurofins GeneScan",
    "location": "New Orleans, LA",
    "country": "United States",
-   "cert": "2993.02",
+   "cert": "2993.01",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -3322,22 +3336,6 @@
   },
   {
    "name": "Food Safety Net Services LLC",
-   "location": "Springdale, AR",
-   "country": "United States",
-   "cert": "1698.13",
-   "programs": [
-    "ISO/IEC 17025 : Biological",
-    "ISO/IEC 17025 : Chemical"
-   ],
-   "expires": "2028-12-31",
-   "body": "A2LA",
-   "keys": [
-    "food safety net services"
-   ],
-   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=9C0330C8-4624-468B-92B7-D5E4D2B8A667"
-  },
-  {
-   "name": "Food Safety Net Services LLC",
    "location": "Omaha, NE",
    "country": "United States",
    "cert": "1698.16",
@@ -3350,6 +3348,22 @@
     "food safety net services"
    ],
    "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=9A9C50DA-7676-4EF7-A042-1A20A2E7BA12"
+  },
+  {
+   "name": "Food Safety Net Services LLC",
+   "location": "Springdale, AR",
+   "country": "United States",
+   "cert": "1698.40",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-12-31",
+   "body": "A2LA",
+   "keys": [
+    "food safety net services"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=9C0330C8-4624-468B-92B7-D5E4D2B8A667"
   },
   {
    "name": "Food Safety Net Services, L.P.",
@@ -3432,7 +3446,7 @@
    "name": "Food Safety Net Services, Wisconsin, LLC.",
    "location": "De Pere, WI",
    "country": "United States",
-   "cert": "1698.25",
+   "cert": "1698.04",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -3584,7 +3598,7 @@
    "name": "Green Analytics",
    "location": "Bridgeport, WV",
    "country": "United States",
-   "cert": "4356.10",
+   "cert": "4356.07",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -3616,7 +3630,7 @@
    "name": "Green Analytics MD LLC",
    "location": "Columbia, MD",
    "country": "United States",
-   "cert": "4356.01",
+   "cert": "4356.06",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -3632,7 +3646,7 @@
    "name": "Green Analytics Massachusetts, LLC",
    "location": "Framingham, MA",
    "country": "United States",
-   "cert": "4356.11",
+   "cert": "4356.05",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -3753,7 +3767,7 @@
    "name": "Harrens Lab Inc.",
    "location": "Hayward, CA",
    "country": "United States",
-   "cert": "4074.01",
+   "cert": "4074.02",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -4064,7 +4078,7 @@
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
    ],
-   "expires": "2027-06-30",
+   "expires": "2027-08-31",
    "body": "A2LA",
    "keys": [
     "medallion labs"
@@ -4397,7 +4411,7 @@
    "name": "New York State Department of Agriculture and Markets Food Laboratory Division",
    "location": "Albany, NY",
    "country": "United States",
-   "cert": "2749.01",
+   "cert": "2749.02",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -4611,7 +4625,7 @@
    "name": "Q Labs LLC",
    "location": "Cincinnati, OH",
    "country": "United States",
-   "cert": "3026.02",
+   "cert": "3026.01",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -4742,6 +4756,22 @@
     "sgs north america fairfield"
    ],
    "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=55CE479E-D968-4972-8B53-489638BAFEF8"
+  },
+  {
+   "name": "Safe Food Alliance - A Division of DFA of California",
+   "location": "Kingsburg, CA",
+   "country": "United States",
+   "cert": "2754.01",
+   "programs": [
+    "ISO/IEC 17025 : Biological",
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-11-30",
+   "body": "A2LA",
+   "keys": [
+    "safe food alliance a division of dfa of california"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=94BD849D-E185-4CDB-B0BE-5C4E2C715B84"
   },
   {
    "name": "SafeTiva Labs, LLC",
@@ -5206,7 +5236,7 @@
    "name": "Tentamus North America",
    "location": "Fredericksburg, VA",
    "country": "United States",
-   "cert": "4815.02",
+   "cert": "4815.01",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -5217,6 +5247,21 @@
     "tentamus north america"
    ],
    "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=957E5F79-F2C0-4081-8A6B-9254681A683E"
+  },
+  {
+   "name": "Texas Department of Agriculture Pesticide Laboratory",
+   "location": "College Station, TX",
+   "country": "United States",
+   "cert": "2715.01",
+   "programs": [
+    "ISO/IEC 17025 : Chemical"
+   ],
+   "expires": "2028-09-30",
+   "body": "A2LA",
+   "keys": [
+    "texas department of agriculture pesticide laboratory"
+   ],
+   "url": "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=35059238-67DF-4021-9BE6-13C1F3A0A2AD"
   },
   {
    "name": "Texas Department of State Health Services - Public Health Laboratory Division",
@@ -5297,7 +5342,7 @@
    "name": "Tyson Food Safety & Research Laboratory also doing business as WBA Analytical Laboratories",
    "location": "Springdale, AR",
    "country": "United States",
-   "cert": "1970.02",
+   "cert": "1970.01",
    "programs": [
     "ISO/IEC 17025 : Biological",
     "ISO/IEC 17025 : Chemical"
@@ -5641,7 +5686,7 @@
    },
    "status": "verified",
    "missing": null,
-   "verified": "2026-11-02"
+   "verified": "2026-11-09"
   },
   {
    "id": "ca_myco",
@@ -5657,7 +5702,7 @@
    },
    "status": "verified",
    "missing": null,
-   "verified": "2026-11-02"
+   "verified": "2026-11-09"
   },
   {
    "id": "ca_micro",
@@ -5669,7 +5714,7 @@
    "text": "Not detected in 1 g: STEC E. coli and Salmonella (all products); pathogenic Aspergillus fumigatus, flavus, niger, terreus (inhalable products).",
    "status": "verified",
    "missing": null,
-   "verified": "2026-11-02"
+   "verified": "2026-11-09"
   },
   {
    "id": "ca_drywt",
@@ -5681,7 +5726,7 @@
    "text": "Dry-weight % = wet-weight % / (1 - moisture % / 100).",
    "status": "verified",
    "missing": null,
-   "verified": "2026-11-02"
+   "verified": "2026-11-09"
   },
   {
    "id": "us_total_thc",
@@ -5696,7 +5741,7 @@
    "text": "Total THC = 0.877 \u00d7 THCA + \u03949-THC; hemp must test at or under 0.3% on a dry-weight basis (after measurement uncertainty).",
    "status": "verified",
    "missing": null,
-   "verified": "2026-11-02"
+   "verified": "2026-11-09"
   },
   {
    "id": "us_dec11",
@@ -5752,7 +5797,7 @@
    "pdf": "https://www.michigan.gov/cra/-/media/Project/Websites/cra/bulletin/5Technical/Sampling_and_Testing-_Technical_Guidance_for_Marijuana_Products_694124_7.pdf?rev=803d359db46747c6af70098aac62b3c8",
    "status": "verified",
    "missing": null,
-   "verified": "2026-11-02"
+   "verified": "2026-11-09"
   },
   {
    "id": "mi_micro",
@@ -5779,7 +5824,7 @@
    "pdf": "https://www.michigan.gov/cra/-/media/Project/Websites/cra/bulletin/5Technical/Sampling_and_Testing-_Technical_Guidance_for_Marijuana_Products_694124_7.pdf?rev=803d359db46747c6af70098aac62b3c8",
    "status": "verified",
    "missing": null,
-   "verified": "2026-11-02"
+   "verified": "2026-11-09"
   }
  ],
  "counts": {
@@ -5793,10 +5838,10 @@
    "OR",
    "WA"
   ],
-  "accredited": 256,
+  "accredited": 259,
   "limits_verified": 8,
   "limits": 8
  },
  "note": "Lists come straight from the regulators and accreditation bodies named in sources. A lab missing here may be licensed in a state we do not read yet.",
- "generated": "2026-11-02 15:27 EST"
+ "generated": "2026-11-09 05:26 EST"
 }
