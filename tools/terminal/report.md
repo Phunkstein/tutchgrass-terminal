@@ -1,6 +1,6 @@
 # Cannabis Agent Terminal: Scientist report
 
-Generated 2026-11-09 10:45 EST. Research summary, not medical advice. Talk to a doctor.
+Generated 2026-11-09 11:44 EST. Research summary, not medical advice. Talk to a doctor.
 
 _Strain names are typical examples only; the same name can test very differently by grower and batch. Go by the lab COA (THC, CBD, minor cannabinoids, terpenes), not the name._
 
@@ -80,7 +80,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** CBD does not work mainly through CB1; it calms over-excited neurons through several targets (e.g., GPR55, TRPV1, adenosine signaling). In trials, adding CBD cut convulsive seizures in Dravet and drop seizures in Lennox-Gastaut more than placebo, and reduced TSC-associated seizures (25 mg/kg had better safety than 50).
 - **Strains that typically express this profile:** ACDC (very high CBD), Charlotte's Web-type hemp (very high CBD), Ringo's Gift (high CBD) (typically; check the COA)
 - **Cautions:** Do not swap a prescribed anti-seizure drug for dispensary products; doses in trials were far higher and pharmaceutical-grade. Liver enzyme elevations seen with CBD, especially with valproate; drug interactions (e.g., clobazam). Store CBD oils vary widely in actual content.
-- **New PubMed papers, last 30 days:** 16
+- **New PubMed papers, last 30 days:** None
 - **Citations:**
   - [RCT] Devinsky et al. (2017). Trial of Cannabidiol for Drug-Resistant Seizures in the Dravet Syndrome. *N Engl J Med*. PMID [28538134](https://pubmed.ncbi.nlm.nih.gov/28538134/). DOI [10.1056/NEJMoa1611618](https://doi.org/10.1056/NEJMoa1611618)
   - [RCT] Devinsky et al. (2018). Effect of Cannabidiol on Drop Seizures in the Lennox-Gastaut Syndrome. *N Engl J Med*. PMID [29768152](https://pubmed.ncbi.nlm.nih.gov/29768152/). DOI [10.1056/NEJMoa1714631](https://doi.org/10.1056/NEJMoa1714631)
@@ -146,7 +146,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** THC may weaken the replay of fear memories and suppress REM-sleep nightmares; CBD may help fear extinction. But in the veterans RCT (high-THC ~12%, high-CBD 11%, and ~8:8 THC+CBD) everyone improved including placebo. Nabilone showed the largest effect size for nightmares in a meta-analysis, from a single small study.
 - **Strains that typically express this profile:** Harlequin, Cannatonic, Pennywise (typically; check the COA)
 - **Cautions:** High THC can worsen anxiety, paranoia, and cannabis-use disorder risk, which is common in PTSD. Not a replacement for trauma-focused therapy. Psychosis risk with high-potency THC.
-- **New PubMed papers, last 30 days:** 11
+- **New PubMed papers, last 30 days:** 12
 - **Citations:**
   - [RCT] Bonn-Miller et al. (2021). The short-term impact of 3 smoked cannabis preparations versus placebo on PTSD symptoms: A randomized cross-over clinical trial. *PLoS One*. PMID [33730032](https://pubmed.ncbi.nlm.nih.gov/33730032/). DOI [10.1371/journal.pone.0246990](https://doi.org/10.1371/journal.pone.0246990)
   - [SR] Skeie-Larsen et al. (2022). The Effects of Pharmacological Treatment of Nightmares: A Systematic Literature Review and Meta-Analysis of Placebo-Controlled, Randomized Clinical Trials. *Int J Environ Res Public Health*. PMID [36613097](https://pubmed.ncbi.nlm.nih.gov/36613097/). DOI [10.3390/ijerph20010777](https://doi.org/10.3390/ijerph20010777)
