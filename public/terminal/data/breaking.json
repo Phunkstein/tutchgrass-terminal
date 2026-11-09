@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-09T11:23:14-0500",
- "generated_ts": 1794241395,
+ "generated": "2026-11-09T13:18:19-0500",
+ "generated_ts": 1794248299,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -33,12 +33,27 @@
   },
   {
    "source": "Google News: intl cannabis",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "items": 0
   }
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "incomingtexaslieutenantgovernordiscussesoptionsforcannabisre",
+   "title": "Incoming Texas Lieutenant Governor Discusses Options For Cannabis Reform, Including Full Legalization Or Medical Expansion",
+   "link": "https://www.marijuanamoment.net/incoming-texas-lieutenant-governor-discusses-options-for-cannabis-reform-including-full-legalization-or-medical-expansion/",
+   "source": "Marijuana Moment",
+   "category": "US states",
+   "is_law": true,
+   "states": [
+    "Texas"
+   ],
+   "published": "2026-11-09T13:13:42-0500",
+   "published_ts": 1794248022.0,
+   "first_seen": "2026-11-09T13:18:19-0500",
+   "first_seen_ts": 1794248299
+  },
   {
    "id": "northcarolinahasachancetofinallylegalizemarijuanaafterlastwe",
    "title": "North Carolina Has A Chance To Finally Legalize Marijuana After Last Week\u2019s Elections (Op-Ed)",
@@ -230,21 +245,6 @@
    "published_ts": 1794150308.0,
    "first_seen": "2026-11-08T10:08:12-0500",
    "first_seen_ts": 1794150492
-  },
-  {
-   "id": "missouriattorneygeneralcracksdownonunlicensedcannabissalesas",
-   "title": "Missouri Attorney General Cracks Down On Unlicensed Cannabis Sales As Judge Dismisses Challenge To Hemp Restrictions",
-   "link": "https://www.marijuanamoment.net/missouri-attorney-general-cracks-down-on-unlicensed-cannabis-sales-as-judge-dismisses-challenge-to-hemp-restrictions/",
-   "source": "Marijuana Moment",
-   "category": "US states",
-   "is_law": true,
-   "states": [
-    "Missouri"
-   ],
-   "published": "2026-11-07T13:12:14-0500",
-   "published_ts": 1794075134.0,
-   "first_seen": "2026-11-07T13:13:14-0500",
-   "first_seen_ts": 1794075195
   }
  ]
 }

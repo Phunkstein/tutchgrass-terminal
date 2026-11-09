@@ -34,11 +34,11 @@
   {
    "source": "Google News: intl cannabis",
    "url": "https://news.google.com/rss/search?q=cannabis+(Germany+OR+Canada+OR+Thailand+OR+Europe+OR+Australia+OR+UK)+when:7d&hl=en-US&gl=US&ceid=US:en",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 252"
   }
  ],
- "total": 104,
+ "total": 92,
  "by_category": {
   "US federal": [
    {
@@ -139,6 +139,19 @@
   "US states": [
    {
     "source": "Marijuana Moment",
+    "title": "Incoming Texas Lieutenant Governor Discusses Options For Cannabis Reform, Including Full Legalization Or Medical Expansion",
+    "link": "https://www.marijuanamoment.net/incoming-texas-lieutenant-governor-discusses-options-for-cannabis-reform-including-full-legalization-or-medical-expansion/",
+    "summary": "Texas\u2019s incoming Democratic lieutenant governor says there are a number of different options for how the state can move forward with enacting cannabis reform now that she and other members of her party won key victories in last week\u2019s midterm elections. In an ",
+    "ts": 1794248022.0,
+    "date": "2026-11-09 13:13",
+    "category": "US states",
+    "is_law": true,
+    "states": [
+     "Texas"
+    ]
+   },
+   {
+    "source": "Marijuana Moment",
     "title": "North Carolina Has A Chance To Finally Legalize Marijuana After Last Week\u2019s Elections (Op-Ed)",
     "link": "https://www.marijuanamoment.net/north-carolina-has-a-chance-to-finally-legalize-marijuana-after-last-weeks-elections-op-ed/",
     "summary": "\u201cLawmakers have a new opportunity and a bipartisan path forward to regulate all THC products in the state and finally deliver the reform voters want and voted for.\u201d By Kevin Caldwell, Marijuana Policy Project As we look back at last week\u2019s recent election and ",
@@ -227,19 +240,6 @@
     "states": [
      "Michigan"
     ]
-   },
-   {
-    "source": "MJBizDaily",
-    "title": "Why California-based Pax reversed course on disposable cannabis vapes",
-    "link": "https://mjbizdaily.com/news/why-california-based-pax-reversed-course-on-disposable-cannabis-vapes/618914/",
-    "summary": "Pax resisted all-in-one cannabis vapes. Laura Fogelman explains how the Pax Trip uses ocean-bound plastic to tackle sustainability. Why California-based Pax reversed course on disposable cannabis vapes is a post from: MJBizDaily: Financial, Legal & Cannabusine",
-    "ts": 1793878222.0,
-    "date": "2026-11-05 06:30",
-    "category": "US states",
-    "is_law": false,
-    "states": [
-     "California"
-    ]
    }
   ],
   "International": [
@@ -288,17 +288,6 @@
     "states": []
    },
    {
-    "source": "Google News: intl cannabis",
-    "title": "Aurora Cannabis Inc. (ACB.TO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SVWFjUE1hT2xZV0N3ZVI3b24zQ3JpTE1GWlJPRFFpU1JhTmY1b08wdXpSU3liUkR4RE1uWWRueTVoTmlVdWdieUZDdDU1UEdBZ2hxSg?oc=5",
-    "summary": "",
-    "ts": 1794145984.0,
-    "date": "2026-11-08 08:53",
-    "category": "International",
-    "is_law": false,
-    "states": []
-   },
-   {
     "source": "StratCann (Canada)",
     "title": "Week in Weed \u2013 November 7, 2026",
     "link": "https://stratcann.com/news/week-in-weed-november-7-2026/",
@@ -327,6 +316,17 @@
     "summary": "Investigators report that the distribution of the drugs produced at the residence was conducted primarily online under the name \u2018Buddha Boys\u2019. The post Three People Charged After Police Raid Illegal Cannabis and Psilocybin Lab in Markham appeared first on Stra",
     "ts": 1793995759.0,
     "date": "2026-11-06 15:09",
+    "category": "International",
+    "is_law": false,
+    "states": []
+   },
+   {
+    "source": "StratCann (Canada)",
+    "title": "Canopy Sees Increase in Revenue, Losses in Q2 2027 as International Sales Grow",
+    "link": "https://stratcann.com/financials/canopy-growth-q2-2027/",
+    "summary": "Canopy Growth Corporation reported $81.4 million in net revenue in the three months ended Sept. 30, 2026 (Q2 2027), gross margin of $23.4 million, and... The post Canopy Sees Increase in Revenue, Losses in Q2 2027 as International Sales Grow appeared first on ",
+    "ts": 1793974271.0,
+    "date": "2026-11-06 09:11",
     "category": "International",
     "is_law": false,
     "states": []
@@ -424,6 +424,19 @@
   ]
  },
  "latest": [
+  {
+   "source": "Marijuana Moment",
+   "title": "Incoming Texas Lieutenant Governor Discusses Options For Cannabis Reform, Including Full Legalization Or Medical Expansion",
+   "link": "https://www.marijuanamoment.net/incoming-texas-lieutenant-governor-discusses-options-for-cannabis-reform-including-full-legalization-or-medical-expansion/",
+   "summary": "Texas\u2019s incoming Democratic lieutenant governor says there are a number of different options for how the state can move forward with enacting cannabis reform now that she and other members of her party won key victories in last week\u2019s midterm elections. In an ",
+   "ts": 1794248022.0,
+   "date": "2026-11-09 13:13",
+   "category": "US states",
+   "is_law": true,
+   "states": [
+    "Texas"
+   ]
+  },
   {
    "source": "Marijuana Moment",
    "title": "North Carolina Has A Chance To Finally Legalize Marijuana After Last Week\u2019s Elections (Op-Ed)",
@@ -565,17 +578,6 @@
    ]
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "Aurora Cannabis Inc. (ACB.TO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SVWFjUE1hT2xZV0N3ZVI3b24zQ3JpTE1GWlJPRFFpU1JhTmY1b08wdXpSU3liUkR4RE1uWWRueTVoTmlVdWdieUZDdDU1UEdBZ2hxSg?oc=5",
-   "summary": "",
-   "ts": 1794145984.0,
-   "date": "2026-11-08 08:53",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Marijuana Moment",
    "title": "Missouri Attorney General Cracks Down On Unlicensed Cannabis Sales As Judge Dismisses Challenge To Hemp Restrictions",
    "link": "https://www.marijuanamoment.net/missouri-attorney-general-cracks-down-on-unlicensed-cannabis-sales-as-judge-dismisses-challenge-to-hemp-restrictions/",
@@ -670,28 +672,6 @@
    "states": []
   },
   {
-   "source": "Marijuana Moment",
-   "title": "DEA And Marijuana Rescheduling Opponents File Final Briefs In Hearing Ahead Of Judge\u2019s Decision",
-   "link": "https://www.marijuanamoment.net/dea-and-marijuana-rescheduling-opponents-file-final-briefs-in-hearing-ahead-of-judges-decision/",
-   "summary": "The Drug Enforcement Administration (DEA) is reiterating that it doesn\u2019t believe a recently published federal watchdog agency report that found \u201cgaps\u201d in the government\u2019s process for evaluating controlled substances undermines the Trump administration\u2019s propos",
-   "ts": 1793990375.0,
-   "date": "2026-11-06 13:39",
-   "category": "US federal",
-   "is_law": true,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "People were getting high on cannabis 2,800 years ago - leafie",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUnZITFdZRm9fZjJTdUJYWWZqNWR4YmJEV2d6cUd6TXRzRUpZbDRvYTRBWlJyM0R0Q3BDc1FsNWdBUjNjUlVQM1dWSmRjVlBtdHRIZXdtN29xQUNJdmxuejQyaVVzckFfQkJrZDc3ZlVpNHIwV0dqMXcxWWV2SHg5bkZKVjA?oc=5",
-   "summary": "",
-   "ts": 1793975935.0,
-   "date": "2026-11-06 09:38",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "StratCann (Canada)",
    "title": "Canopy Sees Increase in Revenue, Losses in Q2 2027 as International Sales Grow",
    "link": "https://stratcann.com/financials/canopy-growth-q2-2027/",
@@ -727,39 +707,6 @@
    "states": []
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "The evidence bar impacting UK medical cannabis access - Pharmafile",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORHVWS3BKSGpiWGE3YjNqeHFjRXhfX3FCWmxtMDJud0UwN051SHNxZjVzZy1mdUdHTDd4dFJkTUJzLW9LTWJfTGxRV21QM2d0ZUVLZDVPYTJLallIMWg0MkpRdDdMb0hKT0QzdW52VHlyTVBscW5XZzRVUWw1YjFpU3VpeTI2N3YwcFMwemZxQQ?oc=5",
-   "summary": "",
-   "ts": 1793956806.0,
-   "date": "2026-11-06 04:20",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "9 Mind-Altering Plants | Opium, Peyote, Marijuana, Ayahuasca, Betel, Coca, Salvia, Tobacco, & Facts - Britannica",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52bkhGa3E4NmVBMm1LaFZPa1NrNFNYck9MbnBwaXM4SlZMNGRqd2RVcFBiZkNlc2pjYklBdGtjRG1DbVZ1SHBaTk82bnIyZEhsQUNkMVNCd2xyeEwtandTenhLX3I?oc=5",
-   "summary": "",
-   "ts": 1793952000.0,
-   "date": "2026-11-06 03:00",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "MediPharm Labs Achieves Critical European Regulatory Milestone Supporting Commercialization of Proprietary Metered-Dose Cannabis Inhaler Platform - markets.businessinsider.com",
-   "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPRmN4SktIbVFlUWE1TUhTTnpLMnZYQTc1RGliRUxhd3BuanBmbm1zOWdzMElPb2IydlRKWi1PZ2NnV2tnRXdId3ROVTRkYjBmUG9xaUFjQjBQS0ZscDBGZmF1cVNqVEk0UTVrUHIxZjhyMGxXbGlvQWE3Z09DanA4d1JqVVlqOUJuMGVBUFdIWkNDekUtSzlDZ3NsNHFjS3AtRURsM1pkd3Q0M2lENEZ4YkRKU0RnWmVLU0NLR2htTDJoemNjWWxZYV9OalRvRVM5bnUwOF9mLUNZekdTUXNHdTdLT3l1Q24xdlRrc1d3VGdoc0M5T1NLNEFabkJNTjFMMUEtYlFqY3h2VE1RUTluaTVUUllISVltaF9VYlVaQ0VJS3N6LUlBYUFFREE?oc=5",
-   "summary": "",
-   "ts": 1793926957.0,
-   "date": "2026-11-05 20:02",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "StratCann (Canada)",
    "title": "Aurora Cannabis Sees Export Surge Led by Germany and Poland Demand",
    "link": "https://stratcann.com/financials/aurora-cannabis-sees-export-surge-led-by-germany-and-poland-demand/",
@@ -769,9 +716,80 @@
    "category": "International",
    "is_law": false,
    "states": []
+  },
+  {
+   "source": "MJBizDaily",
+   "title": "Missouri AG sues retailers over alleged marijuana-as-hemp sales",
+   "link": "https://mjbizdaily.com/news/missouri-ag-sues-retailers-over-alleged-marijuana-as-hemp-sales/619102/",
+   "summary": "Missouri's attorney general accuses four retailers of selling over-limit THC products as hemp while posing as licensed dispensaries. Missouri AG sues retailers over alleged marijuana-as-hemp sales is a post from: MJBizDaily: Financial, Legal & Cannabusiness ne",
+   "ts": 1793918410.0,
+   "date": "2026-11-05 17:40",
+   "category": "US states",
+   "is_law": true,
+   "states": [
+    "Missouri"
+   ]
+  },
+  {
+   "source": "StratCann (Canada)",
+   "title": "Ottawa Outlines Cannabis Excise Stamp Reforms in 2026 Budget",
+   "link": "https://stratcann.com/news/ottawa-outlines-cannabis-excise-stamp-reforms-in-2026-budget/",
+   "summary": "The federal government's 2026 Budget proposes streamlining the federal excise stamping program by reducing the number of unique cannabis excise duty stamps from 13 to... The post Ottawa Outlines Cannabis Excise Stamp Reforms in 2026 Budget appeared first on St",
+   "ts": 1793917239.0,
+   "date": "2026-11-05 17:20",
+   "category": "US federal",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "MJBizDaily",
+   "title": "Michigan cannabis industry hopeful Democratic takeover will mean tax repeal",
+   "link": "https://mjbizdaily.com/news/michigan-cannabis-industry-hopeful-democratic-takeover-will-mean-tax-repeal/619108/",
+   "summary": "Michigan cannabis operators backed a Republican candidate for governor after he pledged to cut a new wholesale tax, but are hopeful a Democratic trifecta in Lansing will mean industry relief. Michigan cannabis industry hopeful Democratic takeover will mean tax",
+   "ts": 1793915252.0,
+   "date": "2026-11-05 16:47",
+   "category": "US states",
+   "is_law": true,
+   "states": [
+    "Michigan"
+   ]
+  },
+  {
+   "source": "StratCann (Canada)",
+   "title": "Earliest Direct Evidence Shows Cannabis Used for Psychoactive Purposes 2,800 Years Ago",
+   "link": "https://stratcann.com/news/earliest-direct-evidence-shows-cannabis-used-for-psychoactive-purposes-2800-years-ago/",
+   "summary": "A new study suggests that cannabis was used for its psychoactive qualities across Eurasia dating back at least 2,800 years. The post Earliest Direct Evidence Shows Cannabis Used for Psychoactive Purposes 2,800 Years Ago appeared first on StratCann .",
+   "ts": 1793914575.0,
+   "date": "2026-11-05 16:36",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "StratCann (Canada)",
+   "title": "Strong International Demand Drives Cronos Group Q3 Results",
+   "link": "https://stratcann.com/financials/strong-international-demand-drives-cronos-group-q3-results/",
+   "summary": "Cronos Group Inc. reported net revenue of US$63.5 million in the three months ended Sept. 30, 2026 (Q3 2026), gross profit of $32.3 million, and... The post Strong International Demand Drives Cronos Group Q3 Results appeared first on StratCann .",
+   "ts": 1793894757.0,
+   "date": "2026-11-05 11:05",
+   "category": "International",
+   "is_law": false,
+   "states": []
   }
  ],
  "all": [
+  {
+   "source": "Marijuana Moment",
+   "title": "Incoming Texas Lieutenant Governor Discusses Options For Cannabis Reform, Including Full Legalization Or Medical Expansion",
+   "link": "https://www.marijuanamoment.net/incoming-texas-lieutenant-governor-discusses-options-for-cannabis-reform-including-full-legalization-or-medical-expansion/",
+   "ts": 1794248022.0,
+   "date": "2026-11-09 13:13",
+   "category": "US states",
+   "is_law": true,
+   "states": [
+    "Texas"
+   ]
+  },
   {
    "source": "Marijuana Moment",
    "title": "North Carolina Has A Chance To Finally Legalize Marijuana After Last Week\u2019s Elections (Op-Ed)",
@@ -901,16 +919,6 @@
    ]
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "Aurora Cannabis Inc. (ACB.TO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SVWFjUE1hT2xZV0N3ZVI3b24zQ3JpTE1GWlJPRFFpU1JhTmY1b08wdXpSU3liUkR4RE1uWWRueTVoTmlVdWdieUZDdDU1UEdBZ2hxSg?oc=5",
-   "ts": 1794145984.0,
-   "date": "2026-11-08 08:53",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Marijuana Moment",
    "title": "Missouri Attorney General Cracks Down On Unlicensed Cannabis Sales As Judge Dismisses Challenge To Hemp Restrictions",
    "link": "https://www.marijuanamoment.net/missouri-attorney-general-cracks-down-on-unlicensed-cannabis-sales-as-judge-dismisses-challenge-to-hemp-restrictions/",
@@ -997,26 +1005,6 @@
    "states": []
   },
   {
-   "source": "Marijuana Moment",
-   "title": "DEA And Marijuana Rescheduling Opponents File Final Briefs In Hearing Ahead Of Judge\u2019s Decision",
-   "link": "https://www.marijuanamoment.net/dea-and-marijuana-rescheduling-opponents-file-final-briefs-in-hearing-ahead-of-judges-decision/",
-   "ts": 1793990375.0,
-   "date": "2026-11-06 13:39",
-   "category": "US federal",
-   "is_law": true,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "People were getting high on cannabis 2,800 years ago - leafie",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUnZITFdZRm9fZjJTdUJYWWZqNWR4YmJEV2d6cUd6TXRzRUpZbDRvYTRBWlJyM0R0Q3BDc1FsNWdBUjNjUlVQM1dWSmRjVlBtdHRIZXdtN29xQUNJdmxuejQyaVVzckFfQkJrZDc3ZlVpNHIwV0dqMXcxWWV2SHg5bkZKVjA?oc=5",
-   "ts": 1793975935.0,
-   "date": "2026-11-06 09:38",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "StratCann (Canada)",
    "title": "Canopy Sees Increase in Revenue, Losses in Q2 2027 as International Sales Grow",
    "link": "https://stratcann.com/financials/canopy-growth-q2-2027/",
@@ -1049,49 +1037,9 @@
    "states": []
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "The evidence bar impacting UK medical cannabis access - Pharmafile",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORHVWS3BKSGpiWGE3YjNqeHFjRXhfX3FCWmxtMDJud0UwN051SHNxZjVzZy1mdUdHTDd4dFJkTUJzLW9LTWJfTGxRV21QM2d0ZUVLZDVPYTJLallIMWg0MkpRdDdMb0hKT0QzdW52VHlyTVBscW5XZzRVUWw1YjFpU3VpeTI2N3YwcFMwemZxQQ?oc=5",
-   "ts": 1793956806.0,
-   "date": "2026-11-06 04:20",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "9 Mind-Altering Plants | Opium, Peyote, Marijuana, Ayahuasca, Betel, Coca, Salvia, Tobacco, & Facts - Britannica",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52bkhGa3E4NmVBMm1LaFZPa1NrNFNYck9MbnBwaXM4SlZMNGRqd2RVcFBiZkNlc2pjYklBdGtjRG1DbVZ1SHBaTk82bnIyZEhsQUNkMVNCd2xyeEwtandTenhLX3I?oc=5",
-   "ts": 1793952000.0,
-   "date": "2026-11-06 03:00",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "MediPharm Labs Achieves Critical European Regulatory Milestone Supporting Commercialization of Proprietary Metered-Dose Cannabis Inhaler Platform - markets.businessinsider.com",
-   "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPRmN4SktIbVFlUWE1TUhTTnpLMnZYQTc1RGliRUxhd3BuanBmbm1zOWdzMElPb2IydlRKWi1PZ2NnV2tnRXdId3ROVTRkYjBmUG9xaUFjQjBQS0ZscDBGZmF1cVNqVEk0UTVrUHIxZjhyMGxXbGlvQWE3Z09DanA4d1JqVVlqOUJuMGVBUFdIWkNDekUtSzlDZ3NsNHFjS3AtRURsM1pkd3Q0M2lENEZ4YkRKU0RnWmVLU0NLR2htTDJoemNjWWxZYV9OalRvRVM5bnUwOF9mLUNZekdTUXNHdTdLT3l1Q24xdlRrc1d3VGdoc0M5T1NLNEFabkJNTjFMMUEtYlFqY3h2VE1RUTluaTVUUllISVltaF9VYlVaQ0VJS3N6LUlBYUFFREE?oc=5",
-   "ts": 1793926957.0,
-   "date": "2026-11-05 20:02",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "StratCann (Canada)",
    "title": "Aurora Cannabis Sees Export Surge Led by Germany and Poland Demand",
    "link": "https://stratcann.com/financials/aurora-cannabis-sees-export-surge-led-by-germany-and-poland-demand/",
-   "ts": 1793923072.0,
-   "date": "2026-11-05 18:57",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Aurora Cannabis Sees Export Surge Led by Germany and Poland Demand - StratCann",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcnc1ZmxTMVFHTGxxUzhTYVlSOUpvNGI1WkY3SWJRRUcwSGh0M213SHBmT29leHVUemYyTUtETk5UQ1RVaVZ5bkRiQlZSeERHLW5zLUZyZ1hsVXRTc3NFYlduOEFiTTliZjJsNElPVzVCNTB4bkVpdFRMS0VydGFEY1dOb1k2SW11LWdINUIzVlBFVHpJVHVBVGo2M01VTDdWX1E?oc=5",
    "ts": 1793923072.0,
    "date": "2026-11-05 18:57",
    "category": "International",
@@ -1153,16 +1101,6 @@
    "states": []
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "Canada's Cronos Q3 revenue up 75% on cannabis flower demand in Israel, Germany - TradingView",
-   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWTdXVjlFcE12eHN6dkZaQXZIbzRqZjlFYnhkYjU2V0dOdFVaMWJrN25QQ0pmOElNbHhFMFJzc1FleUo1V2ppSTc2NEpxRndodE0zcG9ZVm1Gby1BYmh5TVJ2U1E2MV9RVmlscnNVd1FGcHFOd2pqbEFJSzZmMExzZzdMVVJLYkJnaGtnWlZBTlNNYjFIbWU3NlNYN0wtbFRZQ01XS05FNlZpTjFkWkpTb3QwckVXOEwtN3pHWU1ya0pKRm1tQVl3NDFMVlBaMFJQcGNyazZNVjB0Z1dqTjcw?oc=5",
-   "ts": 1793883741.0,
-   "date": "2026-11-05 08:02",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "MJBizDaily",
    "title": "Why California-based Pax reversed course on disposable cannabis vapes",
    "link": "https://mjbizdaily.com/news/why-california-based-pax-reversed-course-on-disposable-cannabis-vapes/618914/",
@@ -1207,16 +1145,6 @@
    "states": []
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "\u2018Europe Can Lead the World on Medical Cannabis, if We Work Together\u2019 - cannabishealthnews.co.uk",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNamRrdGVtR2x5SlVCQWRud1lZZnJuWTZBalhVSTF3ZGV6Vm1HZ1JxOUxJMHkxNDFVdFk0NWk2LWRNU09WMFRUeU0wOUJSR0s2MkZDX1FNU3diWWR4a2kxME9WVXhNVG9qYXRjQXVzUDIxOVlTZTFDU2NxRHowS1FlQllqMVJ2QTgxeWRUZXZoMmlpaHVYYWc3S3d2NWJWWU94UDRfSWdDT1ZDVTdtRWJn?oc=5",
-   "ts": 1793803207.0,
-   "date": "2026-11-04 09:40",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Business of Cannabis (intl)",
    "title": "Paralab Green Adds Hefestus Pre-Roll Automation to European Equipment Portfolio",
    "link": "https://businessofcannabis.com/paralab-green-adds-hefestus-pre-roll-automation-to-european-equipment-portfolio/",
@@ -1249,26 +1177,6 @@
    ]
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "Brownstein Hyatt Faces Suit Over Flawed Cannabis Co. Deal - Law360",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVFVfOElSVi1oQzFCQy13MzNrLUdwQlA2YWVKTzVheXUxN1paOGhYbklhb2JCZVRwenlaQ1p1eDhCeEgxTmFYWldORVlSMi1EMUlvWlU2UGRsTXhHdXBGSjZCUjJOQm5RM0ROaEJ2RXI3OW0zN1VBajRSR0tyYU1mSXRab2Ftd1FqT3U2X29McWwxd2NiODU2cVJRbHLSAVZBVV95cUxNLU05ZHhvM2E5Y1hESDloUkpwNC1tcmtOY0tUMnNmcUJxVjhGZUxNR1NxbndKaXpaVDlIZzFUQXJ5REdSSUtvZEhwM3ZBU1lrUWh1dXVvdw?oc=5",
-   "ts": 1793756805.0,
-   "date": "2026-11-03 20:46",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Organigram Agrees to Buy Aurora Cannabis, Topping Curaleaf Bid - Barron's",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObmR4b0tnSjJ5SmlhaklyTDU4WmF2Zzgwbnc2UlFqY1JTVHE0RTVLTWxuYkt0V3dJLVd5RmtnQ0JCVTQ0dHI5NWpNc0FxTTZHd2JPQ2FmRlg0TDl5OFhZNVdVampnbm9nZVk2bTRrWE82dFZaaGhobEwxUlloOS0zNGxlcm4yRTB6b0lid2JlTEI?oc=5",
-   "ts": 1793750100.0,
-   "date": "2026-11-03 18:55",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "MJBizDaily",
    "title": "Massachusetts cannabis repeal is state\u2019s most expensive ballot question in midterm elections",
    "link": "https://mjbizdaily.com/news/massachusetts-cannabis-repeal-is-states-most-expensive-ballot-question-in-midterm-elections/619036/",
@@ -1293,16 +1201,6 @@
    ]
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "Organigram signs friendly deal to buy Edmonton-based Aurora Cannabis after hostile Curaleaf offer - CBC",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORk5VNVl1MnlLR0pjN09iNmt3X2lsR3lfeHBBQU5Bd0Jqb2pvbHdGV2J4X01CcU5ndW5mcDNyc1hhaEtWVWNyRzRUU0VnY3p1ZmwtYXZfRkFlV1ZpV2hicHJvQ19ueERwWm5nMmNvc1hzNjNVVjFUQUNMb2xDbzZxMXloNFFYNWRR?oc=5",
-   "ts": 1793734358.0,
-   "date": "2026-11-03 14:32",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "MJBizDaily",
    "title": "Organigram to acquire Aurora Cannabis in $400 million deal, topping Curaleaf bid",
    "link": "https://mjbizdaily.com/news/organigram-to-acquire-aurora-cannabis-in-400-million-deal-topping-curaleaf-bid/619023/",
@@ -1316,16 +1214,6 @@
    "source": "Business of Cannabis (intl)",
    "title": "Flower Prices Down 22%, SKUs Up 73%: Germany\u2019s Cannabis Market is at an Inflection Point",
    "link": "https://businessofcannabis.com/flower-prices-down-22-skus-up-73-germanys-cannabis-market-is-at-an-inflection-point/",
-   "ts": 1793716381.0,
-   "date": "2026-11-03 09:33",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "German Flower Prices Down 22% as SKUs Jump 73% - Business of Cannabis",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRmhVM3h2M0ZIdm5VS3ZzLVVnVFczbHEtVFg3bElndXN5OHgxSHF4ckxnT2dNdDJ5VzFjQTZ3YTJocW53aU40OGdLYU5SRzJGeDdOWEJwa0hJM29sNDFEdXhONy16MDJ6dzJpMlVWdmlFd19JTUNIcFFic2FuMkV3M1c1Mm00eG5PSUdHSlJGbEhZMjF2RW5oYzVRRXIxT0Q0VnFheEdVeW1BdThfNFp1RXRwZm1pUQ?oc=5",
    "ts": 1793716381.0,
    "date": "2026-11-03 09:33",
    "category": "International",
@@ -1877,5 +1765,5 @@
    "states": []
   }
  ],
- "generated": "2026-11-09 11:23 EST"
+ "generated": "2026-11-09 13:18 EST"
 }
