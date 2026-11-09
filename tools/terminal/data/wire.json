@@ -38,8 +38,8 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 119"
   },
   {
    "source": "Google News: intl cannabis",
@@ -304,19 +304,6 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Court Orders New Trial for Unlicensed Cannabis Store Operator",
-   "link": "https://stratcann.com/news/court-orders-new-trial-for-unlicensed-cannabis-store-operator/",
-   "summary": "The Supreme Court of Nova Scotia overturned the conviction in a 2025 case involving a man who operated an unlicensed cannabis store, while allowing an... The post Court Orders New Trial for Unlicensed Cannabis Store Operator appeared first on StratCann .",
-   "ts": 1794195328.0,
-   "date": "2026-11-08 22:35",
-   "category": "US federal",
-   "is_law": true,
-   "states": [
-    "New"
-   ]
-  },
-  {
    "source": "MJBizDaily",
    "title": "Medical cannabis dispensary rejected for DEA registration as more federal marijuana rescheduling details emerge",
    "link": "https://mjbizdaily.com/news/medical-cannabis-dispensary-rejected-for-dea-registration-as-more-federal-marijuana-rescheduling-details-emerge/619130/",
@@ -331,7 +318,7 @@
    "source": "MJBizDaily",
    "title": "Day 48: How Spectrum Tuning is Rewriting the Cannabis Harvest Calendar",
    "link": "https://mjbizdaily.com/sponsored/day-48-how-spectrum-tuning-is-rewriting-the-cannabis-harvest-calendar/619097/",
-   "summary": "A facility running GrowPros Chameleon 4 channel lights cut its flower cycle from 63 daysto 48. In December, blind judges decide whether the quality kept pace. Day 48: How Spectrum Tuning is Rewriting the Cannabis Harvest Calendar is a post from: MJBizDaily: Fi",
+   "summary": "A facility running GrowPros Chameleon 4 channel lights cut its flower cycle from 63 days to 48. In December, blind judges decide whether the quality kept pace. Day 48: How Spectrum Tuning is Rewriting the Cannabis Harvest Calendar is a post from: MJBizDaily: F",
    "ts": 1794000767.0,
    "date": "2026-11-06 16:32",
    "category": "Industry",
@@ -364,17 +351,6 @@
   }
  ],
  "news_intl": [
-  {
-   "source": "StratCann (Canada)",
-   "title": "SNDL receives EU-GMP Certification for Atholville Facility",
-   "link": "https://stratcann.com/news/sndl-receives-eu-gmp-certification-for-atholville-facility/",
-   "summary": "Granted on Nov. 4, 2026, the certification covers the production and packaging of cannabis flower designated for regulated medical cannabis markets. The post SNDL receives EU-GMP Certification for Atholville Facility appeared first on StratCann .",
-   "ts": 1794226800.0,
-   "date": "2026-11-09 07:20",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
   {
    "source": "Business of Cannabis (intl)",
    "title": "\u2018We Hear About the Abuse, We Don\u2019t See the Data\u2019: German Cannabis Industry Challenges Berlin\u2019s Case for Restrictions",
@@ -418,8 +394,19 @@
    "category": "International",
    "is_law": false,
    "states": []
+  },
+  {
+   "source": "Cannabis Health News (UK)",
+   "title": "Evidence, Access and the Future of Cannabinoid Medicine: Key Takeaways from Cannabis Health Symposium Frankfurt \u2013 Part 1",
+   "link": "https://cannabishealthnews.co.uk/2026/11/05/evidence-access-and-the-future-of-cannabinoid-medicine-key-takeaways-from-cannabis-health-symposium-frankfurt-part-1/",
+   "summary": "This week, the Cannabis Health Symposium came to Germany for the first time, bringing healthcare professionals, researchers, policymakers and industry operators to Mainhaus in Frankfurt on Wednesday, 4 November. Coming [\u2026]",
+   "ts": 1793892600.0,
+   "date": "2026-11-05 10:30",
+   "category": "International",
+   "is_law": true,
+   "states": []
   }
  ],
- "news_health_total": 15,
- "generated": "2026-11-09 14:45 EST"
+ "news_health_total": 14,
+ "generated": "2026-11-09 15:45 EST"
 }
