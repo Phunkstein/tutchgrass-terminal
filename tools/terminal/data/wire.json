@@ -38,8 +38,8 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 119"
   },
   {
    "source": "Google News: intl cannabis",
@@ -260,6 +260,17 @@
  "news_us": [
   {
    "source": "Marijuana Moment",
+   "title": "FDA Is 9 Months Late In Publishing Legally Mandated Hemp Guidance, And Congressional Researchers Are Calling The Agency Out",
+   "link": "https://www.marijuanamoment.net/fda-is-9-months-late-in-publishing-legally-mandated-hemp-guidance-and-congressional-researchers-are-calling-the-agency-out/",
+   "summary": "The Congressional Research Service (CRS) is continuing to point out the that Food and Drug Administration (FDA) still hasn\u2019t fulfilled a legal mandate to publish a list of known cannabinoids and guidance on hemp product containers as federal laws for the crop ",
+   "ts": 1794227091.0,
+   "date": "2026-11-09 07:24",
+   "category": "US federal",
+   "is_law": true,
+   "states": []
+  },
+  {
+   "source": "Marijuana Moment",
    "title": "DEA files final brief in cannabis rescheduling hearing (Newsletter: November 9, 2026)",
    "link": "https://www.marijuanamoment.net/dea-files-final-brief-in-cannabis-rescheduling-hearing-newsletter-november-9-2026/",
    "summary": "MA medical marijuana expansion; American Indian group wants rescheduling changes; KY lt gov talks medical cannabis; TX hemp court hearing canceled Subscribe to receive Marijuana Moment\u2019s newsletter in your inbox every weekday morning. It\u2019s the best way to make",
@@ -268,19 +279,6 @@
    "category": "US federal",
    "is_law": true,
    "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Court Orders New Trial for Unlicensed Cannabis Store Operator",
-   "link": "https://stratcann.com/news/court-orders-new-trial-for-unlicensed-cannabis-store-operator/",
-   "summary": "The Supreme Court of Nova Scotia overturned the conviction in a 2025 case involving a man who operated an unlicensed cannabis store, while allowing an... The post Court Orders New Trial for Unlicensed Cannabis Store Operator appeared first on StratCann .",
-   "ts": 1794195328.0,
-   "date": "2026-11-08 22:35",
-   "category": "US federal",
-   "is_law": true,
-   "states": [
-    "New"
-   ]
   },
   {
    "source": "MJBizDaily",
@@ -404,17 +402,6 @@
    "states": []
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "Medicinal cannabis supplies at risk as drug company goes bankrupt - BBC",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1nRXo2VDZXVm9yRWtoWlFRWWd4WFFBUzN5Z1pUZ01LMWZET2tuRkJsNFFwcUZYeVNPdFM5YVRWZzRDOE5vSUdTeTdnZFg0aG90VU5NTVRDX2xaQ28?oc=5",
-   "summary": "",
-   "ts": 1794204438.0,
-   "date": "2026-11-09 01:07",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "Business of Cannabis (intl)",
    "title": "Brains Bioceutical To List On NASDAQ Via SPAC At US$750m Valuation",
    "link": "https://businessofcannabis.com/brains-bioceutical-to-list-on-nasdaq-via-spac-at-us750m-valuation/",
@@ -435,8 +422,30 @@
    "category": "International",
    "is_law": false,
    "states": []
+  },
+  {
+   "source": "Cannabis Health News (UK)",
+   "title": "Evidence, Access and the Future of Cannabinoid Medicine: Key Takeaways from Cannabis Health Symposium Frankfurt \u2013 Part 1",
+   "link": "https://cannabishealthnews.co.uk/2026/11/05/evidence-access-and-the-future-of-cannabinoid-medicine-key-takeaways-from-cannabis-health-symposium-frankfurt-part-1/",
+   "summary": "This week, the Cannabis Health Symposium came to Germany for the first time, bringing healthcare professionals, researchers, policymakers and industry operators to Mainhaus in Frankfurt on Wednesday, 4 November. Coming [\u2026]",
+   "ts": 1793892600.0,
+   "date": "2026-11-05 10:30",
+   "category": "International",
+   "is_law": true,
+   "states": []
+  },
+  {
+   "source": "Google News: intl cannabis",
+   "title": "\u2018Europe Can Lead the World on Medical Cannabis, if We Work Together\u2019 - cannabishealthnews.co.uk",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNamRrdGVtR2x5SlVCQWRud1lZZnJuWTZBalhVSTF3ZGV6Vm1HZ1JxOUxJMHkxNDFVdFk0NWk2LWRNU09WMFRUeU0wOUJSR0s2MkZDX1FNU3diWWR4a2kxME9WVXhNVG9qYXRjQXVzUDIxOVlTZTFDU2NxRHowS1FlQllqMVJ2QTgxeWRUZXZoMmlpaHVYYWc3S3d2NWJWWU94UDRfSWdDT1ZDVTdtRWJn?oc=5",
+   "summary": "",
+   "ts": 1793803207.0,
+   "date": "2026-11-04 09:40",
+   "category": "International",
+   "is_law": false,
+   "states": []
   }
  ],
  "news_health_total": 17,
- "generated": "2026-11-09 07:03 EST"
+ "generated": "2026-11-09 07:45 EST"
 }
