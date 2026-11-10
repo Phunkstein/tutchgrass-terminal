@@ -383,7 +383,7 @@ body.fp .fp-top>.fp-offer,body.fp .fp-free{min-width:0}
 body.fp .fp-offer{margin-top:0}
 body.fp .fp-kicker{margin:0 0 8px;font:600 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
 body.fp .fp-price{margin:0 0 12px;font:600 28px/1 var(--mono);letter-spacing:-.03em}
-body.fp .fp-card-media{display:grid;grid-template-columns:minmax(220px,380px) minmax(0,1fr);padding:0;overflow:hidden;align-items:stretch}
+body.fp .fp-card-media{display:grid;grid-template-columns:minmax(220px,380px) minmax(0,1fr);padding:0;overflow:visible;align-items:stretch}
 body.fp .fp-card h1{margin:0 0 12px;font-size:32px;line-height:1.2;letter-spacing:-.025em}
 body.fp .fp-card-body{display:flex;flex-direction:column;justify-content:center;padding:28px 32px 32px}
 body.fp .fp-card-body>p{margin:0}
