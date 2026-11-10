@@ -1,6 +1,6 @@
 # Cannabis Agent Terminal: Scientist report
 
-Generated 2026-11-10 10:44 EST. Research summary, not medical advice. Talk to a doctor.
+Generated 2026-11-10 11:44 EST. Research summary, not medical advice. Talk to a doctor.
 
 _Strain names are typical examples only; the same name can test very differently by grower and batch. Go by the lab COA (THC, CBD, minor cannabinoids, terpenes), not the name._
 
@@ -14,7 +14,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** THC acts on CB1 receptors in pain pathways of the spinal cord and brain, turning down pain signaling. The AHRQ review found comparable-ratio and high-THC products gave small pain gains while low-THC/high-CBD products may not help. Low-dose vaporized THC (1.29%) still beat placebo in neuropathic pain. Beta-caryophyllene is a terpene that binds CB2 (immune/inflammation) receptors and reduced neuropathic pain in mice without tolerance; that part is animal-only.
 - **Strains that typically express this profile:** Harlequin (CBD-leaning balanced), Cannatonic (balanced), OG Kush / GSC-type cuts (THC-dominant, often caryophyllene-forward) (typically; check the COA)
 - **Cautions:** Benefits are modest; Cochrane notes harms may outweigh benefits for some people. THC causes dizziness, sleepiness, impaired driving; start low. Interactions with opioids, sedatives, and blood thinners; tell your doctor.
-- **New PubMed papers, last 30 days:** 22
+- **New PubMed papers, last 30 days:** 23
 - **Citations:**
   - [SR] Chou et al. (2026). Cannabis-Based Products for Chronic Pain : An Updated Systematic Review. *Ann Intern Med*. PMID [41429020](https://pubmed.ncbi.nlm.nih.gov/41429020/). DOI [10.7326/ANNALS-25-03152](https://doi.org/10.7326/ANNALS-25-03152)
   - [SR] Mücke et al. (2018). Cannabis-based medicines for chronic neuropathic pain in adults. *Cochrane Database Syst Rev*. PMID [29513392](https://pubmed.ncbi.nlm.nih.gov/29513392/). DOI [10.1002/14651858.CD012182.pub2](https://doi.org/10.1002/14651858.CD012182.pub2)
@@ -123,7 +123,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** CBD reduced anxiety from a simulated public-speaking test in people with social anxiety, toward healthy-control levels. In a 2024 human lab study, vaporized D-limonene added to THC selectively reduced THC-induced anxiety, so limonene-rich chemovars may make THC easier to tolerate. Linalool shows calming effects in mice only.
 - **Strains that typically express this profile:** ACDC (very high CBD), Ringo's Gift, Remedy (high CBD) (typically; check the COA)
 - **Cautions:** High THC can trigger or worsen anxiety and panic. Heavy adolescent use is linked to later depression and suicidality. CBD interacts with some antidepressants and benzodiazepines via liver enzymes.
-- **New PubMed papers, last 30 days:** 44
+- **New PubMed papers, last 30 days:** 45
 - **Citations:**
   - [SR] Han et al. (2024). Therapeutic potential of cannabidiol (CBD) in anxiety disorders: A systematic review and meta-analysis. *Psychiatry Res*. PMID [38924898](https://pubmed.ncbi.nlm.nih.gov/38924898/). DOI [10.1016/j.psychres.2024.116049](https://doi.org/10.1016/j.psychres.2024.116049)
   - [RCT] Bergamaschi et al. (2011). Cannabidiol reduces the anxiety induced by simulated public speaking in treatment-naïve social phobia patients. *Neuropsychopharmacology*. PMID [21307846](https://pubmed.ncbi.nlm.nih.gov/21307846/). DOI [10.1038/npp.2011.6](https://doi.org/10.1038/npp.2011.6)
