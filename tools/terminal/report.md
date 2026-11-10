@@ -1,6 +1,6 @@
 # Cannabis Agent Terminal: Scientist report
 
-Generated 2026-11-09 23:44 EST. Research summary, not medical advice. Talk to a doctor.
+Generated 2026-11-10 00:45 EST. Research summary, not medical advice. Talk to a doctor.
 
 _Strain names are typical examples only; the same name can test very differently by grower and batch. Go by the lab COA (THC, CBD, minor cannabinoids, terpenes), not the name._
 
@@ -100,7 +100,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** THC shortens time to fall asleep via CB1 receptors. In a crossover RCT, an oil with 10 mg/ml THC + 15 mg/ml CBD improved sleep time and quality, and 60% no longer met insomnia criteria at 2 weeks. CBN: 20 mg nightly reduced awakenings in one RCT; a single 300 mg dose improved subjective sleep and sleep onset but not wake time after sleep onset. Myrcene had sedative effects in mice only.
 - **Strains that typically express this profile:** Granddaddy Purple (often myrcene-forward), Northern Lights, Bubba Kush (typically; check the COA)
 - **Cautions:** Tolerance and rebound insomnia when stopping daily THC. Next-day grogginess; do not drive. CBD alone at 150 mg did not beat placebo on most sleep outcomes.
-- **New PubMed papers, last 30 days:** 21
+- **New PubMed papers, last 30 days:** 20
 - **Citations:**
   - [RCT] Ried et al. (2023). Medicinal cannabis improves sleep in adults with insomnia: a randomised double-blind placebo-controlled crossover study. *J Sleep Res*. PMID [36539991](https://pubmed.ncbi.nlm.nih.gov/36539991/). DOI [10.1111/jsr.13793](https://doi.org/10.1111/jsr.13793)
   - [RCT] Narayan et al. (2024). Cannabidiol for moderate-severe insomnia: a randomized controlled pilot trial of 150 mg of nightly dosing. *J Clin Sleep Med*. PMID [38174873](https://pubmed.ncbi.nlm.nih.gov/38174873/). DOI [10.5664/jcsm.10998](https://doi.org/10.5664/jcsm.10998)
@@ -146,7 +146,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** THC may weaken the replay of fear memories and suppress REM-sleep nightmares; CBD may help fear extinction. But in the veterans RCT (high-THC ~12%, high-CBD 11%, and ~8:8 THC+CBD) everyone improved including placebo. Nabilone showed the largest effect size for nightmares in a meta-analysis, from a single small study.
 - **Strains that typically express this profile:** Harlequin, Cannatonic, Pennywise (typically; check the COA)
 - **Cautions:** High THC can worsen anxiety, paranoia, and cannabis-use disorder risk, which is common in PTSD. Not a replacement for trauma-focused therapy. Psychosis risk with high-potency THC.
-- **New PubMed papers, last 30 days:** 12
+- **New PubMed papers, last 30 days:** 11
 - **Citations:**
   - [RCT] Bonn-Miller et al. (2021). The short-term impact of 3 smoked cannabis preparations versus placebo on PTSD symptoms: A randomized cross-over clinical trial. *PLoS One*. PMID [33730032](https://pubmed.ncbi.nlm.nih.gov/33730032/). DOI [10.1371/journal.pone.0246990](https://doi.org/10.1371/journal.pone.0246990)
   - [SR] Skeie-Larsen et al. (2022). The Effects of Pharmacological Treatment of Nightmares: A Systematic Literature Review and Meta-Analysis of Placebo-Controlled, Randomized Clinical Trials. *Int J Environ Res Public Health*. PMID [36613097](https://pubmed.ncbi.nlm.nih.gov/36613097/). DOI [10.3390/ijerph20010777](https://doi.org/10.3390/ijerph20010777)
