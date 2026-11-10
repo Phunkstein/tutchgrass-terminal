@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-10 11:45 EST",
+ "generated": "2026-11-10 12:46 EST",
  "window": {
   "start": "2026-10-11",
   "end": "2026-11-10",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "7cee85d475044430",
+ "fingerprint": "79603fcc448f1953",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -68,6 +68,7 @@
   ],
   "pain": [
    "42994510",
+   "43005927",
    "42968604",
    "42956528",
    "42966277",
@@ -78,8 +79,7 @@
    "42867385",
    "42864800",
    "42885647",
-   "42867128",
-   "42965212"
+   "42867128"
   ],
   "anxiety": [
    "42977215",
@@ -90,8 +90,7 @@
   "mood": [
    "42998719",
    "42963524",
-   "42929306",
-   "42905736"
+   "42929306"
   ],
   "ptsd": [
    "42891034",
@@ -136,24 +135,24 @@
  },
  "pubmed_counts": {
   "sleep": 22,
-  "pain": 30,
+  "pain": 31,
   "anxiety": 50,
-  "mood": 50,
+  "mood": 51,
   "ptsd": 13,
-  "arthritis": 3,
+  "arthritis": 4,
   "inflammation": 8,
   "nausea": 9,
   "appetite": 5,
   "focus": 12,
   "fibromyalgia": 3,
-  "ms": 5,
+  "ms": 6,
   "epilepsy": 16,
   "migraine": 3,
   "ibd": 1
  },
  "newest": {
   "sleep": "2026-11-08",
-  "pain": "2026-11-06",
+  "pain": "2026-11-10",
   "anxiety": "2026-11-03",
   "mood": "2026-11-08",
   "ptsd": "2026-11-06",
@@ -169,6 +168,26 @@
   "ibd": null
  },
  "papers": [
+  {
+   "pmid": "43005927",
+   "title": "Isoform-Selective and Context-Dependent Modulation of Nitric Oxide Synthase by Cannabidiol: A Mechanistic Review of Preclinical Evidence in Neurological and Neuropathic Disorders.",
+   "journal": "J Inflamm Res",
+   "date": "2026-11-10",
+   "pubdate": "2026-11-05",
+   "first_author": "Adnan Azeez Aboomaima et al.",
+   "doi": "10.2147/JIR.S650304",
+   "grade": "review",
+   "grade_label": "Narrative review",
+   "plain": {
+    "did": "An expert overview of existing research.",
+    "found": "The review also addresses antioxidant and anti-nitrosative benefits of CBD, pharmacokinetic challenges, and research gaps, including the need for clinical trials with biomarkers to validate NOS-related findings.",
+    "caveat": "An expert overview, not a systematic search. No new data."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43005927/",
+   "conditions": [
+    "pain"
+   ]
+  },
   {
    "pmid": "42997636",
    "title": "Rapid Eye Movement Sleep Behavior Disorder as a Prodromal Manifestation of Alpha-Synucleinopathies.",
@@ -453,26 +472,6 @@
    ]
   },
   {
-   "pmid": "42965212",
-   "title": "Normal on the Inside: A Case of Recurrent Abdominal Pain, Equivocal CT Appendicitis, and Histologically Normal Appendix in an Adolescent With Chronic Cannabis Use.",
-   "journal": "Cureus",
-   "date": "2026-10-31",
-   "pubdate": "2026-09-30",
-   "first_author": "Abdelgabar et al.",
-   "doi": "10.7759/cureus.117214",
-   "grade": "case",
-   "grade_label": "Case report",
-   "plain": {
-    "did": "A report on one or a few patients.",
-    "found": "Faecal calprotectin was 159 microg/g. When CT findings, operative appearances, and histology point in different directions, the underlying diagnosis is not resolved by surgery; it has to be reconsidered from the beginning.",
-    "caveat": "One or a few patients. Useful for safety signals, not for effect."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42965212/",
-   "conditions": [
-    "pain"
-   ]
-  },
-  {
    "pmid": "42963524",
    "title": "Factors associated with cannabis use among infertile patients and their partner.",
    "journal": "J Assist Reprod Genet",
@@ -733,26 +732,6 @@
    "url": "https://pubmed.ncbi.nlm.nih.gov/42914761/",
    "conditions": [
     "epilepsy"
-   ]
-  },
-  {
-   "pmid": "42905736",
-   "title": "Prevalence and correlates of depressive symptoms among Ethiopian and Ethiopian-Descent adults in the Seattle metropolitan area: A cross-sectional study.",
-   "journal": "PLOS Ment Health",
-   "date": "2026-10-22",
-   "pubdate": "2026-10-21",
-   "first_author": "Weldemariam et al.",
-   "doi": "10.1371/journal.pmen.0000736",
-   "grade": "obs",
-   "grade_label": "Observational",
-   "plain": {
-    "did": "Researchers looked at data on 2024 people (nobody was assigned a treatment).",
-    "found": "Clinically significant depressive symptoms were common in this sample and were associated with poorer physical health, recreational marijuana or other drug use, firearm-related exposure, and prior postpartum depression.",
-    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42905736/",
-   "conditions": [
-    "mood"
    ]
   },
   {
