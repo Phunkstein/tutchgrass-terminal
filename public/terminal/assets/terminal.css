@@ -395,7 +395,6 @@ body.fp .fp-share:hover{background:var(--gl)}
 body.fp .fp-share-status{flex:1 0 100%;margin:0;color:var(--g);font-size:13px}
 body.fp .fp-share-status:empty{display:none}
 body.fp .fp-share-status input{display:block;width:100%;max-width:100%;margin-top:6px;min-height:36px;border:1px solid var(--line);border-radius:8px;padding:0 8px;font:14px var(--sans);color:var(--txt);background:#fff}
-body.fp .fp-card-body>.fp-byline{margin-top:16px;color:var(--dim);font-size:13px}
 body.fp .fp-copy{max-width:740px;margin-top:28px}
 body.fp .fp-copy h2,body.fp .fp-preview h2{font-size:22px;line-height:1.3;letter-spacing:-.02em;margin:26px 0 10px}
 body.fp .fp-copy p{margin:0 0 12px}
@@ -431,8 +430,6 @@ body.fp .fp-secondary h2{font-size:22px;line-height:1.3;letter-spacing:-.02em;ma
 body.fp .fp-secondary>p{margin:0 0 12px}
 body.fp .fp-price-sec{font-size:22px;margin:0 0 8px}
 body.fp .fp-wait{margin:8px 0 0;color:var(--dim);font-size:13px}
-body.fp .fp-secondary .fp-byline{margin:14px 0 0;color:var(--dim);font-size:13px}
-body.fp .fp-cross{margin:14px 0 0;color:var(--dim);font-size:13.5px}
 body.fp button.fp-soon,body.fp button.fp-soon:disabled,body.fp button.fp-soon:hover,body.fp button.fp-soon:disabled:hover{background:#fff;color:var(--mute);border-color:var(--line);cursor:not-allowed;opacity:1;text-decoration:none}
 body.fp #grid-down-survival-guide,body.fp #no-heat-winter-survival,body.fp #living-in-your-vehicle,body.fp #facing-homelessness,body.fp #sample-page{scroll-margin-top:96px}
 @media(max-width:980px){body.fp .fp-top{grid-template-columns:1fr}}
