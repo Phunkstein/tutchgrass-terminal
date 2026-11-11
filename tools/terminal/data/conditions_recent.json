@@ -3,7 +3,7 @@
   "start": "2025-05-10",
   "end": "2026-11-10"
  },
- "generated": "2026-11-10 00:45 EST",
+ "generated": "2026-11-10 20:45 EST",
  "source": "NCBI PubMed E-utilities",
  "conditions": {
   "sleep": {
@@ -69,16 +69,6 @@
    ],
    "holistic": [
     {
-     "pmid": "42049276",
-     "title": "Efficacy and safety of acupuncture for breast cancer-related insomnia: a systematic review and meta-analysis.",
-     "journal": "BMJ Support Palliat Care",
-     "date": "2026-06-29",
-     "tag": "META-ANALYSIS",
-     "first_author": "Zhang et al.",
-     "doi": "10.1136/spcare-2025-006052",
-     "conclusion": "Future rigorous RCTs using validated sham controls, standardized protocols, and objective outcomes are needed to confirm efficacy and guide practice. PROSPERO Registration number (ID: CRD42024559828)."
-    },
-    {
      "pmid": "40664502",
      "title": "Effects of various exercise interventions in insomnia patients: a systematic review and network meta-analysis.",
      "journal": "BMJ Evid Based Med",
@@ -97,6 +87,16 @@
      "first_author": "Mei et al.",
      "doi": "10.3390/nu17243952",
      "conclusion": "These findings suggest that tryptophan, vitamin D, omega-3, zinc, and antioxidants may enhance sleep quality by decreasing SL, and WASO increases SE and extends TST, respectively."
+    },
+    {
+     "pmid": "41237292",
+     "title": "Nonpharmacological Interventions Improve Postoperative Sleep in Arthroplasty Patients: A Systematic Review and Meta-Analysis.",
+     "journal": "JBJS Rev",
+     "date": "2025-11-14",
+     "tag": "META-ANALYSIS",
+     "first_author": "Salmani et al.",
+     "doi": "10.2106/JBJS.RVW.25.00131",
+     "conclusion": "NPIs, particularly nursing-based interventions and environmental controls, appear effective in improving postoperative sleep after joint arthroplasty. However, heterogeneity and limited high-quality evidence warrant further randomized trials with standardized protocols and objective sleep measures."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (sleep[tiab] OR insomnia[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/10:2026/11/10[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -205,7 +205,7 @@
    "background": [
     "anxiety"
    ],
-   "cann_matches": 64,
+   "cann_matches": 65,
    "hol_matches": 412,
    "cannabinoid": [
     {
@@ -217,16 +217,6 @@
      "first_author": "Rutledge et al.",
      "doi": "10.3389/fnimg.2026.1860919",
      "conclusion": "The current literature on the putative anxiolytic effects of CBD is constrained by methodological variability and limited statistical power. Future studies should employ standardized paradigms, improve reporting practices, and include more diverse and adequately powered samples to clarify the neural correlates of CBD-related effects on stress and anxiety."
-    },
-    {
-     "pmid": "41447562",
-     "title": "The Prevalence of Cannabis Use Disorder in Individuals with Anxiety or Related Disorders: A Systematic Review.",
-     "journal": "J Dual Diagn",
-     "date": "2025-12-25",
-     "tag": "SR",
-     "first_author": "Coles et al.",
-     "doi": "10.1080/15504263.2025.2606019",
-     "conclusion": "Preliminary evidence suggests that individuals with ARDs may be susceptible to developing comorbid CUD. Current comorbidity rates may be higher among veterans with PTSD compared to adults in general population samples; however, due to the limited number of eligible studies and methodological heterogeneity, further research is needed to confirm this difference. Given the recent global increase in cannabis legalization"
     },
     {
      "pmid": "40413923",
@@ -289,7 +279,7 @@
    "emoji": "\ud83c\udf24\ufe0f",
    "goal": "mood",
    "background": [],
-   "cann_matches": 47,
+   "cann_matches": 48,
    "hol_matches": 543,
    "cannabinoid": [
     {
@@ -713,14 +703,14 @@
    ],
    "holistic": [
     {
-     "pmid": "42476307",
-     "title": "Nutritional support for cancer cachexia: A systematic review and meta-analysis of randomized controlled trials.",
-     "journal": "Clin Nutr ESPEN",
-     "date": "2026-07-20",
+     "pmid": "42341365",
+     "title": "Effects of mindfulness and mindful eating on food intake and appetite: a systematic review and meta-analysis.",
+     "journal": "Clin Psychol Rev",
+     "date": "2026-06-16",
      "tag": "META-ANALYSIS",
-     "first_author": "Santos et al.",
-     "doi": "10.1016/j.clnesp.2026.103602",
-     "conclusion": "Nutritional support in patients with cancer cachexia provides small body composition improvements. However, most body composition measures were performed through bioimpedance assessments, which limits their robustness. Additionally, this approach seem insufficient to reverse metabolic alterations or improve function alone. The certainty of this evidence highlights the need for higher quality, rigorously conducted tri"
+     "first_author": "Ahmadyar et al.",
+     "doi": "10.1016/j.cpr.2026.102780",
+     "conclusion": "Overall, findings indicate that mindfulness and mindful eating reliably reduce food intake in controlled settings, but currently there is no evidence they influence appetite. The review underscores the need for higher quality and more ecologically valid studies using sensitive, real-world measures of appetite and food intake, and further work to clarify the mechanisms of action underpinning the effects of mindfulness"
     },
     {
      "pmid": "42280300",
@@ -817,24 +807,24 @@
      "conclusion": "Findings from this meta-analysis point to potential benefits of CBT for core PPD-related symptoms and secondary outcomes. The certainty of evidence ranges from very low to moderate. Future research should prioritize high\u2011quality, long\u2011term trials of non\u2011specialist\u2011delivered digital CBT models to develop accessible perinatal mental\u2011health services."
     },
     {
-     "pmid": "41483880",
-     "title": "A meta-analysis of the intervention effect of cognitive behavioral therapy on adult ADHD.",
-     "journal": "J Affect Disord",
-     "date": "2026-01-01",
+     "pmid": "42409136",
+     "title": "Efficacy of cognitive behavioral therapy for post-stroke fatigue: A systematic review and meta-analysis.",
+     "journal": "J Stroke Cerebrovasc Dis",
+     "date": "2026-07-06",
      "tag": "META-ANALYSIS",
-     "first_author": "Liu et al.",
-     "doi": "10.1016/j.jad.2025.121107",
-     "conclusion": "CBT demonstrates efficacy for core and associated symptoms of adult ADHD, with the optimal intervention strategy varying meaningfully by outcome and modality. A symptom-guided, stepped-care approach is supported: group-based CBT formats are preferable for targeting core symptoms and executive function, while individual CBT better addresses emotional dysregulation and quality of life. The combination of CBT with medic"
+     "first_author": "Sun et al.",
+     "doi": "10.1016/j.jstrokecerebrovasdis.2026.108697",
+     "conclusion": "Current low-certainty evidence suggests CBT is a promising and scalable intervention that shows potential in managing PSF, alleviating fatigue, and improving sleep and quality of life. To maximize potential therapeutic benefits, clinical programs might consider protocols lasting more than six weeks. However, due to high statistical heterogeneity and a pervasive lack of safety reporting, these findings should be inter"
     },
     {
-     "pmid": "41214536",
-     "title": "The comprehensive impact of exercise interventions on cognitive function and quality of life in alzheimer's disease patients: a systematic review and meta-analysis.",
-     "journal": "BMC Geriatr",
-     "date": "2025-11-10",
+     "pmid": "42240717",
+     "title": "Efficacy of fully automated digital cognitive behavioral therapy for insomnia in adults: a systematic review and meta-analysis.",
+     "journal": "Sleep Breath",
+     "date": "2026-06-04",
      "tag": "META-ANALYSIS",
-     "first_author": "Li et al.",
-     "doi": "10.1186/s12877-025-06454-y",
-     "conclusion": "Evidence suggests that structured, multimodal exercise programs-combining aerobic (\u2265 150 min/week), resistance (2-3 times/week), and balance training (2-3 times/week) for at least 12 weeks with individualized intensity-may improve global cognition and quality of life in Alzheimer's disease patients."
+     "first_author": "Gao et al.",
+     "doi": "10.1007/s11325-026-03723-x",
+     "conclusion": "Fully automated dCBT-I appears to be an effective intervention for adults with insomnia. Platform-related differences were not robust in exploratory analyses and may reflect broader temporal or design-related differences across studies rather than inherent advantages or limitations of a specific delivery format. Further trials, particularly app-based studies, are needed to clarify whether platform-specific effects ex"
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (cognition[ti] OR cognitive[ti] OR memory[ti] OR attention[ti] OR ADHD[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/10:2026/11/10[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -989,14 +979,14 @@
      "conclusion": "Although the meta-analysis showed a significant inverse association between higher adherence to the MedDiet and the odds of MS, the overall body of evidence does not provide strong support for a preventive role of the MedDiet. Considering the limited number of included studies, the predominantly retrospective design, the high risk of bias in several studies, and the substantial observed heterogeneity, further well-de"
     },
     {
-     "pmid": "41014779",
-     "title": "Efficacy of the Mediterranean diet in the treatment of multiple sclerosis (RRMS): A systematic review and meta-analysis.",
+     "pmid": "41477922",
+     "title": "Effects of exercise training on some cytokine profiles in patients with multiple sclerosis: A systematic review and meta-analysis of randomized controlled trials.",
      "journal": "Mult Scler Relat Disord",
-     "date": "2025-09-08",
+     "date": "2025-12-29",
      "tag": "META-ANALYSIS",
-     "first_author": "Kong et al.",
-     "doi": "10.1016/j.msard.2025.106739",
-     "conclusion": "The study outcomes suggest that the MeD in combination with DMF therapy, may be beneficial for RRMS patients who are undergoing DMF treatment, yielding beneficial effects. The findings highlight the effect of the MeD on the relapse rate and the intensity of disability symptoms in patients with multiple sclerosis. However, our study did not draw clear conclusions about the impact of MS patients' quality of life."
+     "first_author": "Hejazi et al.",
+     "doi": "10.1016/j.msard.2025.106951",
+     "conclusion": "This meta-analysis provides robust evidence that structured exercise training can selectively modulate the inflammatory profile in patients with MS, primarily reducing the key cytokines TNF-\u03b1, IFN-\u03b3 and IL-17. These findings support the role of exercise as a complementary non-pharmacological therapy for managing inflammation in MS."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (\"multiple sclerosis\"[tiab] OR spasticity[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/10:2026/11/10[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -1121,16 +1111,6 @@
    ],
    "holistic": [
     {
-     "pmid": "42895005",
-     "title": "Resting-state fMRI correlates of acupuncture in migraine: a coordinate-based meta-analysis.",
-     "journal": "J Oral Facial Pain Headache",
-     "date": "2026-09-12",
-     "tag": "META-ANALYSIS",
-     "first_author": "Liu et al.",
-     "doi": "10.22514/jofph.2026.058",
-     "conclusion": "Acupuncture may be associated with altered spontaneous neural activity in regions of the executive control network, default mode network, and multisensory processing regions. These findings provide preliminary neuroimaging evidence for the central correlates of acupuncture in migraine. However, they should be interpreted cautiously given the limited evidence base, methodological heterogeneity, and exploratory nature "
-    },
-    {
      "pmid": "42177613",
      "title": "Utility of Acupuncture Therapy for Adult Chronic Daily Headache Prophylaxis: A Systematic Review and Meta-Analysis.",
      "journal": "Med Sci Monit",
@@ -1149,6 +1129,16 @@
      "first_author": "Gao et al.",
      "doi": "10.1097/MD.0000000000046868",
      "conclusion": "Consistent with these findings, the present study concludes that no significant association was observed between lifestyle behaviors (alcohol consumption, BMI, smoking, physical activity) and the risk of migraine or TTH. Further studies are warranted to explore this association. However, only 7 studies were included in this analysis, so the conclusion requires further verification through additional high-quality rese"
+    },
+    {
+     "pmid": "41421052",
+     "title": "Effects of mindfulness-based interventions (MBIs) on headache pain in migraine patients: A systematic review and meta-analysis.",
+     "journal": "Gen Hosp Psychiatry",
+     "date": "2025-12-16",
+     "tag": "META-ANALYSIS",
+     "first_author": "Reangsing et al.",
+     "doi": "10.1016/j.genhosppsych.2025.12.013",
+     "conclusion": "MBIs have shown effectiveness in reducing headache pain in migraines patients. Clinicians and health professionals should consider utilizing MBIs as alternative or complementary treatments to reduce the severity of headaches in these patients."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (migraine*[tiab] OR headache*[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/10:2026/11/10[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -1197,14 +1187,14 @@
      "conclusion": "The findings indicate that in animal models of UC, acupuncture may confer protection through the inhibition of inflammatory responses and the restoration of the intestinal mucosal barrier."
     },
     {
-     "pmid": "40700526",
-     "title": "Pre-Illness Index-Based Dietary Patterns and Inflammatory Bowel Disease Risk: A Systematic Review and Meta-Analysis.",
-     "journal": "Nutr Rev",
-     "date": "2025-12-01",
+     "pmid": "42437372",
+     "title": "Meta-Analysis: Crohn's Disease Exclusion Diet for Induction and Maintenance in Crohn's Disease.",
+     "journal": "Aliment Pharmacol Ther",
+     "date": "2026-07-12",
      "tag": "META-ANALYSIS",
-     "first_author": "Meng et al.",
-     "doi": "10.1093/nutrit/nuaf131",
-     "conclusion": "Pre-illness dietary patterns have a significant influence on IBD development. This meta-analysis found that dietary patterns such as the Mediterranean dietary pattern and the healthy dietary pattern reduce IBD risk in the general population, while pro-inflammatory diets increase it. Moreover, regional and other factors such as age group may further modulate these associations."
+     "first_author": "Batra et al.",
+     "doi": "10.1111/apt.70857",
+     "conclusion": "CDED-based dietary interventions appear to be efficacious for inducing remission in Crohn's disease. Well-designed randomised trials are required to further validate the use of CDED as a whole food approach in the induction and maintenance of remission in Crohn's Disease."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (Crohn*[tiab] OR colitis[tiab] OR \"inflammatory bowel\"[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/10:2026/11/10[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
