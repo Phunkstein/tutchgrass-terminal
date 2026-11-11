@@ -38,8 +38,8 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 119"
   },
   {
    "source": "Google News: intl cannabis",
@@ -232,6 +232,17 @@
  ],
  "news_us": [
   {
+   "source": "Marijuana Moment",
+   "title": "We Say We Support Veterans, But Why Is Accessing Medical Cannabis Still So Difficult? (Op-Ed)",
+   "link": "https://www.marijuanamoment.net/we-say-we-support-veterans-but-why-is-accessing-medical-cannabis-still-so-difficult-op-ed/",
+   "summary": "\u201cThis Veterans Day, let\u2019s measure our support in more than ceremonies and dispensary discounts.\u201d By Narith Panh, Dragonfly Wellness Every Veterans Day, communities across the country thank the men and women who served. We hold ceremonies, organize meals, offer",
+   "ts": 1794400142.0,
+   "date": "2026-11-11 07:29",
+   "category": "US federal",
+   "is_law": true,
+   "states": []
+  },
+  {
    "source": "MJBizDaily",
    "title": "Report: Top Trump White House chief meddled in hemp THC ban",
    "link": "https://mjbizdaily.com/news/report-top-trump-white-house-chief-meddled-in-hemp-thc-ban/619161/",
@@ -278,41 +289,15 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Rubicon Organics Announces Dedicated Genetics Facility",
-   "link": "https://stratcann.com/news/rubicon-organics-announces-dedicated-genetics-facility/",
-   "summary": "The leased facility has received a federal licence to cultivate cannabis, which the company says it expects will strengthen its genetics strategy and reinforce its... The post Rubicon Organics Announces Dedicated Genetics Facility appeared first on StratCann .",
-   "ts": 1794258367.0,
-   "date": "2026-11-09 16:06",
+   "source": "MJBizDaily",
+   "title": "Medical cannabis dispensary rejected for DEA registration as more federal marijuana rescheduling details emerge",
+   "link": "https://mjbizdaily.com/news/medical-cannabis-dispensary-rejected-for-dea-registration-as-more-federal-marijuana-rescheduling-details-emerge/619130/",
+   "summary": "Only a handful of medical cannabis operators have publicly announced the DEA recognized their dispensaries as federally legal. And no MMJ operator in D.C. can be registered, according to the DEA. Medical cannabis dispensary rejected for DEA registration as mor",
+   "ts": 1794005828.0,
+   "date": "2026-11-06 17:57",
    "category": "US federal",
-   "is_law": false,
+   "is_law": true,
    "states": []
-  },
-  {
-   "source": "Marijuana Moment",
-   "title": "Incoming Texas Lieutenant Governor Discusses Options For Cannabis Reform, Including Full Legalization Or Medical Expansion",
-   "link": "https://www.marijuanamoment.net/incoming-texas-lieutenant-governor-discusses-options-for-cannabis-reform-including-full-legalization-or-medical-expansion/",
-   "summary": "Texas\u2019s incoming Democratic lieutenant governor says there are a number of different options for how the state can move forward with enacting cannabis reform now that she and other members of her party won key victories in last week\u2019s midterm elections. In an ",
-   "ts": 1794248022.0,
-   "date": "2026-11-09 13:13",
-   "category": "US states",
-   "is_law": true,
-   "states": [
-    "Texas"
-   ]
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Court Orders New Trial for Unlicensed Cannabis Store Operator",
-   "link": "https://stratcann.com/news/court-orders-new-trial-for-unlicensed-cannabis-store-operator/",
-   "summary": "The Supreme Court of Nova Scotia overturned the conviction in a 2025 case involving a man who operated an unlicensed cannabis store, while allowing an... The post Court Orders New Trial for Unlicensed Cannabis Store Operator appeared first on StratCann .",
-   "ts": 1794195328.0,
-   "date": "2026-11-08 22:35",
-   "category": "US federal",
-   "is_law": true,
-   "states": [
-    "New"
-   ]
   },
   {
    "source": "MJBizDaily",
@@ -374,17 +359,6 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "SNDL receives EU-GMP Certification for Atholville Facility",
-   "link": "https://stratcann.com/news/sndl-receives-eu-gmp-certification-for-atholville-facility/",
-   "summary": "Granted on November 4, 2026, the certification covers the production and packaging of cannabis flower designated for regulated medical cannabis markets. The post SNDL receives EU-GMP Certification for Atholville Facility appeared first on StratCann .",
-   "ts": 1794226800.0,
-   "date": "2026-11-09 07:20",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "Business of Cannabis (intl)",
    "title": "\u2018We Hear About the Abuse, We Don\u2019t See the Data\u2019: German Cannabis Industry Challenges Berlin\u2019s Case for Restrictions",
    "link": "https://businessofcannabis.com/we-hear-about-the-abuse-we-dont-see-the-data-german-cannabis-industry-challenges-berlins-case-for-restrictions/",
@@ -405,8 +379,30 @@
    "category": "International",
    "is_law": false,
    "states": []
+  },
+  {
+   "source": "Business of Cannabis (intl)",
+   "title": "Brains Bioceutical To List On NASDAQ Via SPAC At US$750m Valuation",
+   "link": "https://businessofcannabis.com/brains-bioceutical-to-list-on-nasdaq-via-spac-at-us750m-valuation/",
+   "summary": "Brains Bioceutical Corp. has announced plans to list on Nasdaq, in what would be the first US public-market debut for a UK-based cannabinoid pharma manufacturer since GW Pharmaceuticals was acquired by Jazz in 2021. The company, headquartered in Vancouver, Bri",
+   "ts": 1793963897.0,
+   "date": "2026-11-06 06:18",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "Google News: intl cannabis",
+   "title": "The evidence bar impacting UK medical cannabis access - Pharmafile",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORHVWS3BKSGpiWGE3YjNqeHFjRXhfX3FCWmxtMDJud0UwN051SHNxZjVzZy1mdUdHTDd4dFJkTUJzLW9LTWJfTGxRV21QM2d0ZUVLZDVPYTJLallIMWg0MkpRdDdMb0hKT0QzdW52VHlyTVBscW5XZzRVUWw1YjFpU3VpeTI2N3YwcFMwemZxQQ?oc=5",
+   "summary": "",
+   "ts": 1793956806.0,
+   "date": "2026-11-06 04:20",
+   "category": "International",
+   "is_law": false,
+   "states": []
   }
  ],
  "news_health_total": 15,
- "generated": "2026-11-11 06:45 EST"
+ "generated": "2026-11-11 07:45 EST"
 }
