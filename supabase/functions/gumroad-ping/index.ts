@@ -1,11 +1,11 @@
 import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 import { cleanFirstName, secretsMatch, skipGumroadPing, sourceFromGumroad, validEmail } from "../_shared/brevo.ts";
-import { adminHeaders, brevoAdd, json, serviceKey } from "../_shared/http.ts";
+import { adminHeaders, appSecret, brevoAdd, json, serviceKey } from "../_shared/http.ts";
 
 Deno.serve(async (req) => {
   if (req.method !== "POST") return json({ ok: false }, 405);
   const provided = new URL(req.url).searchParams.get("secret") ?? "";
-  if (!secretsMatch(provided, Deno.env.get("GUMROAD_PING_SECRET"))) return json({ ok: false }, 401);
+  if (!secretsMatch(provided, await appSecret("GUMROAD_PING_SECRET"))) return json({ ok: false }, 401);
 
   const form = await req.formData().catch(() => null);
   if (!form) return json({ ok: false, error: "Expected a form post" }, 400);
