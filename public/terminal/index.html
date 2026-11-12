@@ -56,9 +56,28 @@ twq('config','rikjy');
 <h2>Facing Homelessness: Prepare, Get Help &amp; Keep Going</h2>
 <p class="fp-meta">13-page PDF. Large easy-to-read text. Works offline.</p>
 <p class="fp-blurb">A free, respectful, plain-language guide for anyone who may lose their housing soon or is already homeless.</p>
+<p class="fp-disclaimer">General information only, not legal or benefits advice. Verify current program rules with your local agency.</p>
+<form class="fp-lead" method="post" action="#facing-homelessness" novalidate>
+<div class="fp-lead-fields">
+<p class="fp-hp" aria-hidden="true">
+<label>Company website
+<input type="text" name="company" tabindex="-1" autocomplete="off" value="">
+</label>
+</p>
+<label>First name <span class="fp-opt">(optional)</span>
+<input type="text" name="name" maxlength="80" autocomplete="given-name">
+</label>
+<label>Email
+<input type="email" name="email" maxlength="320" autocomplete="email" inputmode="email" spellcheck="false" required>
+</label>
+<p class="fp-consent">We&apos;ll email you occasional prep guides. Unsubscribe anytime.</p>
+<button class="btn" type="submit">Get the free guide</button>
+<p class="fp-lead-msg" role="status" aria-live="polite"></p>
+</div>
+<div class="fp-lead-success" role="status" aria-live="polite" hidden></div>
+</form>
 <div class="fp-action">
-<a class="btn" href="https://arkitekture3.gumroad.com/l/rbpkuj" target="_blank" rel="noopener noreferrer">Get the free guide</a>
-<button type="button" class="fp-share" data-share-url="https://arkitekture3.gumroad.com/l/rbpkuj" data-share-title="Facing Homelessness: Prepare, Get Help &amp; Keep Going" aria-describedby="free-card-share">Share this free guide</button>
+<button type="button" class="fp-share" data-share-url="https://tutchgrass.co/terminal/#facing-homelessness" data-share-title="Facing Homelessness: Prepare, Get Help &amp; Keep Going" aria-describedby="free-card-share">Share this free guide</button>
 <p class="fp-share-status" id="free-card-share" role="status" aria-live="polite"></p>
 </div>
 <p class="fp-morelink"><a href="#facing-homelessness">Full listing for this guide</a></p>
@@ -141,9 +160,28 @@ twq('config','rikjy');
 <p>A free, respectful, plain-language guide for anyone who may lose their housing soon or is already homeless. Part 1 covers preparing: finding help through 211, legal aid, benefits, protecting documents, and a go-bag.</p>
 <p>Part 2 covers getting help and keeping going: shelters, food, showers, phone charging, ID and benefits without an address, personal safety, heat and cold, disasters, and a path back to housing.</p>
 <p>Sales of our paid guides help fund free resources like this one.</p>
+<p class="fp-disclaimer">General information only, not legal or benefits advice. Verify current program rules with your local agency.</p>
+<form class="fp-lead" method="post" action="#facing-homelessness" novalidate>
+<div class="fp-lead-fields">
+<p class="fp-hp" aria-hidden="true">
+<label>Company website
+<input type="text" name="company" tabindex="-1" autocomplete="off" value="">
+</label>
+</p>
+<label>First name <span class="fp-opt">(optional)</span>
+<input type="text" name="name" maxlength="80" autocomplete="given-name">
+</label>
+<label>Email
+<input type="email" name="email" maxlength="320" autocomplete="email" inputmode="email" spellcheck="false" required>
+</label>
+<p class="fp-consent">We&apos;ll email you occasional prep guides. Unsubscribe anytime.</p>
+<button class="btn" type="submit">Get the free guide</button>
+<p class="fp-lead-msg" role="status" aria-live="polite"></p>
+</div>
+<div class="fp-lead-success" role="status" aria-live="polite" hidden></div>
+</form>
 <div class="fp-action">
-<a class="btn" href="https://arkitekture3.gumroad.com/l/rbpkuj" target="_blank" rel="noopener noreferrer">Get the free guide</a>
-<button type="button" class="fp-share" data-share-url="https://arkitekture3.gumroad.com/l/rbpkuj" data-share-title="Facing Homelessness: Prepare, Get Help &amp; Keep Going" aria-describedby="free-list-share">Share this free guide</button>
+<button type="button" class="fp-share" data-share-url="https://tutchgrass.co/terminal/#facing-homelessness" data-share-title="Facing Homelessness: Prepare, Get Help &amp; Keep Going" aria-describedby="free-list-share">Share this free guide</button>
 <p class="fp-share-status" id="free-list-share" role="status" aria-live="polite"></p>
 </div>
 <p class="fp-subnote">Free guide subscribers hear first when new guides drop.</p>
@@ -213,6 +251,99 @@ twq('config','rikjy');
         return;
       }
       copyOrSelect(el,url);
+    });
+  });
+})();
+</script>
+<script>
+(function(){
+  var SB_URL="https://ckauuurdpltrqjimjgbt.supabase.co";
+  var SB_KEY="sb_publishable_hPcyV-d9mcWJdcYO44Bavw_3bjgCn22";
+  var SOURCE="facing-homelessness";
+  var PDF="https://arkitekture3.gumroad.com/l/rbpkuj";
+  var DONE="tg_fh_lead";
+  var EMAIL=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  var forms=document.querySelectorAll("form.fp-lead");
+  function showSuccess(form,focus){
+    var fields=form.querySelector(".fp-lead-fields");
+    var ok=form.querySelector(".fp-lead-success");
+    if(fields)fields.hidden=true;
+    if(!ok)return;
+    if(!ok.querySelector("a")){
+      var p=document.createElement("p");
+      p.textContent="Your guide is ready.";
+      var a=document.createElement("a");
+      a.className="btn";
+      a.href=PDF;
+      a.target="_blank";
+      a.rel="noopener noreferrer";
+      a.textContent="Download the PDF";
+      ok.appendChild(p);
+      ok.appendChild(a);
+    }
+    ok.hidden=false;
+    if(focus){
+      var link=ok.querySelector("a");
+      if(link)link.focus();
+    }
+  }
+  function say(form,text,bad){
+    var el=form.querySelector(".fp-lead-msg");
+    if(!el)return;
+    el.textContent=text||"";
+    if(bad)el.setAttribute("data-state","err");
+    else el.removeAttribute("data-state");
+  }
+  function allSuccess(){
+    forms.forEach(function(form){showSuccess(form,false);});
+  }
+  try{if(sessionStorage.getItem(DONE)==="1")allSuccess();}catch(e){}
+  forms.forEach(function(form){
+    form.addEventListener("submit",function(ev){
+      ev.preventDefault();
+      var fd=new FormData(form);
+      if(String(fd.get("company")||"").trim()){
+        try{sessionStorage.setItem(DONE,"1");}catch(e){}
+        showSuccess(form,true);
+        return;
+      }
+      var email=String(fd.get("email")||"").trim().toLowerCase();
+      var name=String(fd.get("name")||"").trim();
+      if(!email)return say(form,"Enter an email address.",true);
+      if(email.length<6||email.length>320||!EMAIL.test(email))return say(form,"That email doesn't look right.",true);
+      if(name.length>80)return say(form,"First name is too long.",true);
+      var btn=form.querySelector("button[type=submit]");
+      if(btn){btn.disabled=true;btn.textContent="Sending…";}
+      say(form,"",false);
+      var row={email:email,source:SOURCE};
+      if(name)row.name=name;
+      fetch(SB_URL+"/rest/v1/leads",{
+        method:"POST",
+        headers:{
+          apikey:SB_KEY,
+          Authorization:"Bearer "+SB_KEY,
+          "Content-Type":"application/json",
+          Prefer:"return=minimal"
+        },
+        body:JSON.stringify(row)
+      }).then(function(r){
+        if(r.status===201||r.status===204)return {ok:true};
+        return r.json().catch(function(){return {};}).then(function(j){
+          return {ok:j&&j.code==="23505"};
+        });
+      }).then(function(res){
+        if(res&&res.ok){
+          try{sessionStorage.setItem(DONE,"1");}catch(e){}
+          allSuccess();
+          showSuccess(form,true);
+          return;
+        }
+        say(form,"That didn't go through. Try again in a minute.",true);
+        if(btn){btn.disabled=false;btn.textContent="Get the free guide";}
+      }).catch(function(){
+        say(form,"That didn't go through. Try again in a minute.",true);
+        if(btn){btn.disabled=false;btn.textContent="Get the free guide";}
+      });
     });
   });
 })();
