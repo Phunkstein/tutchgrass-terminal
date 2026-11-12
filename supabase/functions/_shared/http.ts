@@ -28,8 +28,33 @@ export function adminHeaders(key: string, prefer?: string): Record<string, strin
   return headers;
 }
 
+const secretCache = new Map<string, string>();
+
+export async function appSecret(name: string): Promise<string | undefined> {
+  const fromEnv = Deno.env.get(name);
+  if (fromEnv) return fromEnv;
+  const cached = secretCache.get(name);
+  if (cached) return cached;
+  const url = Deno.env.get("SUPABASE_URL");
+  if (!url) return undefined;
+  try {
+    const res = await fetch(`${url}/rest/v1/rpc/get_app_secret`, {
+      method: "POST",
+      headers: adminHeaders(serviceKey()),
+      body: JSON.stringify({ name }),
+    });
+    if (!res.ok) return undefined;
+    const value = await res.json();
+    if (typeof value !== "string" || !value) return undefined;
+    secretCache.set(name, value);
+    return value;
+  } catch {
+    return undefined;
+  }
+}
+
 export async function brevoAdd(email: string, firstName: string, source: string): Promise<void> {
-  const key = Deno.env.get("BREVO_API_KEY");
+  const key = await appSecret("BREVO_API_KEY");
   if (!key) throw new Error("BREVO_API_KEY is not set");
   const payload = contactBody(email, firstName, source);
   let res = await postContact(key, payload);

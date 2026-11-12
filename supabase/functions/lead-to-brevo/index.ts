@@ -1,6 +1,6 @@
 import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 import { cleanFirstName, validEmail, validSource } from "../_shared/brevo.ts";
-import { adminHeaders, brevoAdd, json, serviceKey } from "../_shared/http.ts";
+import { adminHeaders, appSecret, brevoAdd, json, serviceKey } from "../_shared/http.ts";
 
 type Lead = {
   email: string;
@@ -43,7 +43,7 @@ Deno.serve(async (req) => {
       failed += 1;
     }
   }
-  const missingKey = failed > 0 && !Deno.env.get("BREVO_API_KEY");
+  const missingKey = failed > 0 && !(await appSecret("BREVO_API_KEY"));
   return json(
     { ok: failed === 0, forwarded, failed },
     missingKey ? 503 : failed > 0 && forwarded === 0 ? 502 : 200,
