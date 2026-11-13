@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-13T08:38:12-0500",
- "generated_ts": 1794577093,
+ "generated": "2026-11-13T09:48:14-0500",
+ "generated_ts": 1794581294,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "items": 0
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,19 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "senatepanelproposesextendingstatemedicalmarijuanaprotections",
+   "title": "Senate Panel Proposes Extending State Medical Marijuana Protections, Without House\u2019s Anti-Rescheduling Provision",
+   "link": "https://www.marijuanamoment.net/senate-panel-proposes-extending-state-medical-marijuana-protections-without-houses-anti-rescheduling-provision/",
+   "source": "Marijuana Moment",
+   "category": "US federal",
+   "is_law": true,
+   "states": [],
+   "published": "2026-11-13T09:44:30-0500",
+   "published_ts": 1794581070.0,
+   "first_seen": "2026-11-13T09:48:14-0500",
+   "first_seen_ts": 1794581294
+  },
   {
    "id": "incomingkansasgovernorwantstolegalizemarijuanasayingtrumpsfe",
    "title": "Incoming Kansas Governor Wants To Legalize Marijuana, Saying Trump\u2019s Federal Move Eases The Parth For State Action",
@@ -424,21 +437,6 @@
    "published_ts": 1794408765.0,
    "first_seen": "2026-11-11T09:53:14-0500",
    "first_seen_ts": 1794408795
-  },
-  {
-   "id": "iowasincominggovernorsayslegalizingmarijuanacangeneratehundr",
-   "title": "Iowa\u2019s Incoming Governor Says Legalizing Marijuana Can Generate \u2018Hundreds Of Millions Of Dollars\u2019 For The State",
-   "link": "https://www.marijuanamoment.net/iowas-incoming-governor-says-legalizing-marijuana-can-generate-hundreds-of-millions-of-dollars-for-the-state/",
-   "source": "Marijuana Moment",
-   "category": "US states",
-   "is_law": true,
-   "states": [
-    "Iowa"
-   ],
-   "published": "2026-11-11T09:33:09-0500",
-   "published_ts": 1794407589.0,
-   "first_seen": "2026-11-11T09:33:15-0500",
-   "first_seen_ts": 1794407595
   }
  ]
 }
