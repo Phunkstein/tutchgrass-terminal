@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-13 05:45 EST",
+ "generated": "2026-11-13 11:45 EST",
  "window": {
   "start": "2026-10-14",
   "end": "2026-11-13",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "04c3cffd414a5c98",
+ "fingerprint": "b46b08d683ff5ba9",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -118,6 +118,7 @@
    "42946199"
   ],
   "ms": [
+   "43022354",
    "42997457",
    "42953813"
   ],
@@ -132,18 +133,18 @@
  },
  "pubmed_counts": {
   "sleep": 26,
-  "pain": 30,
-  "anxiety": 46,
-  "mood": 54,
+  "pain": 31,
+  "anxiety": 48,
+  "mood": 56,
   "ptsd": 14,
   "arthritis": 4,
   "inflammation": 10,
-  "nausea": 7,
+  "nausea": 8,
   "appetite": 4,
   "focus": 10,
   "fibromyalgia": 3,
-  "ms": 6,
-  "epilepsy": 15,
+  "ms": 7,
+  "epilepsy": 16,
   "migraine": 4,
   "ibd": 2
  },
@@ -159,12 +160,32 @@
   "appetite": null,
   "focus": "2026-11-08",
   "fibromyalgia": "2026-10-27",
-  "ms": "2026-11-08",
+  "ms": "2026-11-13",
   "epilepsy": "2026-11-08",
   "migraine": null,
   "ibd": null
  },
  "papers": [
+  {
+   "pmid": "43022354",
+   "title": "A phase II, randomised, placebo-controlled, double-blind trial of cannabis extract for amyotrophic lateral sclerosis: the EMERALD trial.",
+   "journal": "BMJ Neurol Open",
+   "date": "2026-11-13",
+   "pubdate": "2026-11-11",
+   "first_author": "Urbi et al.",
+   "doi": "10.1136/bmjno-2026-001766",
+   "grade": "rct",
+   "grade_label": "Human RCT (placebo)",
+   "plain": {
+    "did": "A randomized trial in 17 people compared a cannabis product with placebo.",
+    "found": "This trial did not achieve the target sample size therefore was underpowered to demonstrate efficacy of cannabis in slowing ALS progression. However, exploratory analyses generated hypotheses regarding possible effects on pain and cognition which require confirmation in adequately powered studies.",
+    "caveat": "Randomized against placebo: the strongest single-study design. Check the size and dose."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43022354/",
+   "conditions": [
+    "ms"
+   ]
+  },
   {
    "pmid": "43015371",
    "title": "Cannabis-based medicinal products for post-traumatic stress disorder: a two-year prospective analysis from the UK medical cannabis registry.",
