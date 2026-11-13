@@ -1,6 +1,6 @@
 # Cannabis Agent Terminal: Scientist report
 
-Generated 2026-11-13 16:45 EST. Research summary, not medical advice. Talk to a doctor.
+Generated 2026-11-13 17:44 EST. Research summary, not medical advice. Talk to a doctor.
 
 _Strain names are typical examples only; the same name can test very differently by grower and batch. Go by the lab COA (THC, CBD, minor cannabinoids, terpenes), not the name._
 
@@ -80,7 +80,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** CBD does not work mainly through CB1; it calms over-excited neurons through several targets (e.g., GPR55, TRPV1, adenosine signaling). In trials, adding CBD cut convulsive seizures in Dravet and drop seizures in Lennox-Gastaut more than placebo, and reduced TSC-associated seizures (25 mg/kg had better safety than 50).
 - **Strains that typically express this profile:** ACDC (very high CBD), Charlotte's Web-type hemp (very high CBD), Ringo's Gift (high CBD) (typically; check the COA)
 - **Cautions:** Do not swap a prescribed anti-seizure drug for dispensary products; doses in trials were far higher and pharmaceutical-grade. Liver enzyme elevations seen with CBD, especially with valproate; drug interactions (e.g., clobazam). Store CBD oils vary widely in actual content.
-- **New PubMed papers, last 30 days:** 15
+- **New PubMed papers, last 30 days:** 16
 - **Citations:**
   - [RCT] Devinsky et al. (2017). Trial of Cannabidiol for Drug-Resistant Seizures in the Dravet Syndrome. *N Engl J Med*. PMID [28538134](https://pubmed.ncbi.nlm.nih.gov/28538134/). DOI [10.1056/NEJMoa1611618](https://doi.org/10.1056/NEJMoa1611618)
   - [RCT] Devinsky et al. (2018). Effect of Cannabidiol on Drop Seizures in the Lennox-Gastaut Syndrome. *N Engl J Med*. PMID [29768152](https://pubmed.ncbi.nlm.nih.gov/29768152/). DOI [10.1056/NEJMoa1714631](https://doi.org/10.1056/NEJMoa1714631)
