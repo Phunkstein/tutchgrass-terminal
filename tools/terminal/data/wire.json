@@ -38,8 +38,8 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "unavailable",
-   "error": "not well-formed (invalid token): line 1, column 119"
+   "status": "ok",
+   "items": 12
   },
   {
    "source": "Google News: intl cannabis",
@@ -139,6 +139,19 @@
   },
   {
    "track": "medical",
+   "pmid": "43020478",
+   "title": "What cannabis sales data can and cannot tell us about young adult risk: a critical commentary on retail trends and clinical practice.",
+   "journal": "J Addict Dis",
+   "year": "2026",
+   "first_author": "Walker",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "preclinical": false,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43020478/"
+  },
+  {
+   "track": "medical",
    "pmid": "43018041",
    "title": "High on the Heart? Cannabis Use and Cardiovascular Disease: A Systematic Review.",
    "journal": "J Am Heart Assoc",
@@ -150,19 +163,6 @@
    ],
    "preclinical": false,
    "url": "https://pubmed.ncbi.nlm.nih.gov/43018041/"
-  },
-  {
-   "track": "medical",
-   "pmid": "43015371",
-   "title": "Cannabis-based medicinal products for post-traumatic stress disorder: a two-year prospective analysis from the UK medical cannabis registry.",
-   "journal": "Psychopharmacology (Berl)",
-   "year": "2026",
-   "first_author": "Shah et al.",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "preclinical": false,
-   "url": "https://pubmed.ncbi.nlm.nih.gov/43015371/"
   }
  ],
  "papers_cultivation": [
@@ -306,19 +306,6 @@
   },
   {
    "source": "MJBizDaily",
-   "title": "Illinois THC limit prompts hemp farmer to destroy 2026 harvest",
-   "link": "https://mjbizdaily.com/news/illinois-thc-limit-prompts-hemp-farmer-to-destroy-2026-harvest/619123/",
-   "summary": "Growers without a cannabis license face civil and criminal penalties for holding flower after Nov. 12. Hemp farms are running out of time. Illinois THC limit prompts hemp farmer to destroy 2026 harvest is a post from: MJBizDaily: Financial, Legal & Cannabusine",
-   "ts": 1793996699.0,
-   "date": "2026-11-06 15:24",
-   "category": "US states",
-   "is_law": true,
-   "states": [
-    "Illinois"
-   ]
-  },
-  {
-   "source": "MJBizDaily",
    "title": "How cannabis employers are taking worker healthcare benefits into their own hands",
    "link": "https://mjbizdaily.com/news/how-cannabis-employers-are-taking-worker-healthcare-benefits-into-their-own-hands/618948/",
    "summary": "Cannabis employers may wish to consider healthcare captives when choosing employee benefits. How cannabis employers are taking worker healthcare benefits into their own hands is a post from: MJBizDaily: Financial, Legal & Cannabusiness news for cannabis entrep",
@@ -330,6 +317,17 @@
   }
  ],
  "news_intl": [
+  {
+   "source": "StratCann (Canada)",
+   "title": "MediPharm Labs Expands Brazilian Business with Commercial Launch of Cannabis Extract Oil",
+   "link": "https://stratcann.com/news/medipharm-labs-brazil-cannabis-extract-oil/",
+   "summary": "MediPharm Labs Corp. has launched a full-spectrum CBD oral oil in Brazil through its pharmaceutical partner, Alko do Brasil Ind\u00fastria e Com\u00e9rcio Ltda, \"Alko\". The post MediPharm Labs Expands Brazilian Business with Commercial Launch of Cannabis Extract Oil app",
+   "ts": 1794508003.0,
+   "date": "2026-11-12 13:26",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
   {
    "source": "Google News: intl cannabis",
    "title": "1.2 Million People in Great Britain Use Cannabis Daily, Study Estimates - High Times Magazine",
@@ -400,27 +398,16 @@
   },
   {
    "source": "Google News: intl cannabis",
-   "title": "Australia Medical Cannabis Market to Reach US$ 2,676.8 Million by 2035, Growing at 13.1% CAGR - Market.us Media",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MbjI4LTllNUZUOFhoRUx1dXgyWGFzc3A4S0cyaHlLdlNPYXRaZzRFS3JtR2tRc0ZjVDc0ZmNSV19SRy1pVWt5azctd0d3QmhjTkQxd21MbkZCdHpvN01jRmg4NXhVOFVfZWVVcHR5c2c?oc=5",
+   "title": "Cancer patients say cannabis improves symptoms, study finds - UKNow",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQc1NBVXAzd2V2WUZjSlZnc0pCTFg5NUtOOHVNUzNfOENYOWViLWkzR2ZzVWZ1Vmh5RVlKTk1vUWdPYS0wSl83QnJGb3pYejlOeGU4aFVtM1FDMUxSMi1jblgtdHpjeDJlZHIyVm5BRUJCSW5ZZU9BVmp4OU8zX0haYlFDVVRiNE40UG9MOXBrMHppUzg?oc=5",
    "summary": "",
-   "ts": 1794469359.0,
-   "date": "2026-11-12 02:42",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Key Takeaways from Cannabis Health Symposium Frankfurt \u2014 Part 2 - cannabishealthnews.co.uk",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZmFOSTdkemU5ZjRBVmJXWXhuaE55eTFMWWVPcVpWaVJvb0tYUVlDektObjNNUVU2NVZxSEcwR2FjRlp3ampfSXQxWHBtaU1pTzVKcXA2cGVrdXZUdS1mZEcycHF0VUVVUkpoUXQxdzFCREdRNVh4NjB5VXppYkZmaGg4VjBxZ09JOXV4c0ItbzFQcGNKeVZxaVZlVU1qYl9KcUFCeHZOZWxmZw?oc=5",
-   "summary": "",
-   "ts": 1794427862.0,
-   "date": "2026-11-11 15:11",
+   "ts": 1794474000.0,
+   "date": "2026-11-12 04:00",
    "category": "International",
    "is_law": false,
    "states": []
   }
  ],
- "news_health_total": 19,
- "generated": "2026-11-12 22:44 EST"
+ "news_health_total": 17,
+ "generated": "2026-11-12 23:45 EST"
 }
