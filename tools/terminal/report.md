@@ -1,6 +1,6 @@
 # Cannabis Agent Terminal: Scientist report
 
-Generated 2026-11-13 04:56 EST. Research summary, not medical advice. Talk to a doctor.
+Generated 2026-11-13 05:45 EST. Research summary, not medical advice. Talk to a doctor.
 
 _Strain names are typical examples only; the same name can test very differently by grower and batch. Go by the lab COA (THC, CBD, minor cannabinoids, terpenes), not the name._
 
@@ -14,7 +14,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** THC acts on CB1 receptors in pain pathways of the spinal cord and brain, turning down pain signaling. The AHRQ review found comparable-ratio and high-THC products gave small pain gains while low-THC/high-CBD products may not help. Low-dose vaporized THC (1.29%) still beat placebo in neuropathic pain. Beta-caryophyllene is a terpene that binds CB2 (immune/inflammation) receptors and reduced neuropathic pain in mice without tolerance; that part is animal-only.
 - **Strains that typically express this profile:** Harlequin (CBD-leaning balanced), Cannatonic (balanced), OG Kush / GSC-type cuts (THC-dominant, often caryophyllene-forward) (typically; check the COA)
 - **Cautions:** Benefits are modest; Cochrane notes harms may outweigh benefits for some people. THC causes dizziness, sleepiness, impaired driving; start low. Interactions with opioids, sedatives, and blood thinners; tell your doctor.
-- **New PubMed papers, last 30 days:** 20
+- **New PubMed papers, last 30 days:** 21
 - **Citations:**
   - [SR] Chou et al. (2026). Cannabis-Based Products for Chronic Pain : An Updated Systematic Review. *Ann Intern Med*. PMID [41429020](https://pubmed.ncbi.nlm.nih.gov/41429020/). DOI [10.7326/ANNALS-25-03152](https://doi.org/10.7326/ANNALS-25-03152)
   - [SR] Mücke et al. (2018). Cannabis-based medicines for chronic neuropathic pain in adults. *Cochrane Database Syst Rev*. PMID [29513392](https://pubmed.ncbi.nlm.nih.gov/29513392/). DOI [10.1002/14651858.CD012182.pub2](https://doi.org/10.1002/14651858.CD012182.pub2)
@@ -166,7 +166,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** Cannabinoids slow gut movement and ease cramping and pain, and CB2 activation can calm immune cells. In RCTs, THC-rich cannabis (8 weeks) and a 160/40 mg/ml CBD/THC oil both improved symptom scores, but neither healed the gut lining. Beta-caryophyllene reduced colitis in mice through CB2 and PPAR-gamma; animal-only.
 - **Strains that typically express this profile:** Harlequin (CBD-leaning), Ringo's Gift (high CBD), GSC-type (caryophyllene-forward, THC-dominant) (typically; check the COA)
 - **Cautions:** Symptom relief can mask active inflammation; keep up with your GI doctor and scopes. Not shown to induce remission. Heavy long-term use is linked to cannabinoid hyperemesis syndrome.
-- **New PubMed papers, last 30 days:** 1
+- **New PubMed papers, last 30 days:** 2
 - **Citations:**
   - [RCT] Naftali et al. (2021). Oral CBD-rich Cannabis Induces Clinical but Not Endoscopic Response in Patients with Crohn's Disease, a Randomised Controlled Trial. *J Crohns Colitis*. PMID [33858011](https://pubmed.ncbi.nlm.nih.gov/33858011/). DOI [10.1093/ecco-jcc/jjab069](https://doi.org/10.1093/ecco-jcc/jjab069)
   - [RCT] Naftali et al. (2013). Cannabis induces a clinical response in patients with Crohn's disease: a prospective placebo-controlled study. *Clin Gastroenterol Hepatol*. PMID [23648372](https://pubmed.ncbi.nlm.nih.gov/23648372/). DOI [10.1016/j.cgh.2013.04.034](https://doi.org/10.1016/j.cgh.2013.04.034)
