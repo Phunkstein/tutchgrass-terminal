@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-12 23:45 EST",
+ "generated": "2026-11-13 00:45 EST",
  "window": {
-  "start": "2026-10-13",
-  "end": "2026-11-12",
+  "start": "2026-10-14",
+  "end": "2026-11-13",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "6a93bcc72dbcf516",
+ "fingerprint": "9174c376baacd65f",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -63,7 +63,6 @@
    "42935025",
    "43015371",
    "42878934",
-   "42863850",
    "42997636",
    "42885647"
   ],
@@ -77,9 +76,9 @@
    "42929306",
    "42927589",
    "42893197",
-   "42867385",
-   "42864800",
-   "42885647"
+   "42885647",
+   "42965212",
+   "42874273"
   ],
   "anxiety": [
    "43015371",
@@ -127,26 +126,25 @@
    "42918565",
    "42997457",
    "42968542",
-   "42914761",
-   "42869231"
+   "42914761"
   ],
   "migraine": [],
   "ibd": []
  },
  "pubmed_counts": {
-  "sleep": 27,
-  "pain": 32,
-  "anxiety": 51,
-  "mood": 56,
+  "sleep": 26,
+  "pain": 29,
+  "anxiety": 46,
+  "mood": 53,
   "ptsd": 14,
   "arthritis": 4,
   "inflammation": 8,
-  "nausea": 8,
+  "nausea": 7,
   "appetite": 4,
-  "focus": 11,
+  "focus": 10,
   "fibromyalgia": 3,
   "ms": 6,
-  "epilepsy": 16,
+  "epilepsy": 15,
   "migraine": 4,
   "ibd": 1
  },
@@ -489,6 +487,26 @@
     "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
    },
    "url": "https://pubmed.ncbi.nlm.nih.gov/42966277/",
+   "conditions": [
+    "pain"
+   ]
+  },
+  {
+   "pmid": "42965212",
+   "title": "Normal on the Inside: A Case of Recurrent Abdominal Pain, Equivocal CT Appendicitis, and Histologically Normal Appendix in an Adolescent With Chronic Cannabis Use.",
+   "journal": "Cureus",
+   "date": "2026-10-31",
+   "pubdate": "2026-09-30",
+   "first_author": "Abdelgabar et al.",
+   "doi": "10.7759/cureus.117214",
+   "grade": "case",
+   "grade_label": "Case report",
+   "plain": {
+    "did": "A report on one or a few patients.",
+    "found": "Faecal calprotectin was 159 microg/g. When CT findings, operative appearances, and histology point in different directions, the underlying diagnosis is not resolved by surgery; it has to be reconsidered from the beginning.",
+    "caveat": "One or a few patients. Useful for safety signals, not for effect."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42965212/",
    "conditions": [
     "pain"
    ]
@@ -877,85 +895,25 @@
    ]
   },
   {
-   "pmid": "42863850",
-   "title": "Medical cannabis for the treatment of insomnia.",
-   "journal": "Cochrane Database Syst Rev",
-   "date": "2026-10-13",
-   "pubdate": "2026-10-13",
-   "first_author": "Varela et al.",
-   "doi": "10.1002/14651858.CD016216.pub2",
-   "grade": "meta",
-   "grade_label": "Meta-analysis / systematic review",
-   "plain": {
-    "did": "Researchers searched for and pooled the results of earlier studies.",
-    "found": "Medical cannabis may have little to no clinically meaningful effect on quality of sleep/satisfaction with sleep, total sleep time, or daytime functioning. It may lead to an improvement in quality of life, although the evidence is very uncertain.",
-    "caveat": "Pools earlier studies. Only as strong as the studies it includes."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42863850/",
-   "conditions": [
-    "sleep"
-   ]
-  },
-  {
-   "pmid": "42867385",
-   "title": "Association of Cannabis Use With Cigarette Use in People Certified for Medical Cannabis for Chronic Pain: A Secondary Analysis of a Prospective Cohort Study.",
-   "journal": "Subst Use Addctn J",
-   "date": "2026-10-13",
-   "pubdate": "2026-10-13",
-   "first_author": "Slawek et al.",
-   "doi": "10.1177/29767342261489466",
-   "grade": "obs",
-   "grade_label": "Observational",
-   "plain": {
-    "did": "Researchers looked at data on 223 people (nobody was assigned a treatment).",
-    "found": "Unregulated and non-inhaled cannabis use were implicated in the association between cannabis use and cigarette use, and pain severity moderated the effect of cannabis use on CPD. Further studies are needed to fully understand this relationship.",
-    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42867385/",
-   "conditions": [
-    "pain"
-   ]
-  },
-  {
-   "pmid": "42864800",
-   "title": "Cannabinoids for Acute Pain Management: A Contemporary Scoping Review of Evidence, Mechanisms, and Clinical Implications.",
-   "journal": "Curr Pharm Des",
-   "date": "2026-10-13",
-   "pubdate": "2026-10-05",
-   "first_author": "Akman et al.",
-   "doi": "10.2174/0113816128510427260927100857",
-   "grade": "review",
-   "grade_label": "Narrative review",
-   "plain": {
-    "did": "An expert overview of existing research.",
-    "found": "While the biological rationale for cannabinoid analgesia is compelling, the clinical evidence base for acute pain remains insufficient to support routine use. Cannabinoids may serve as adjuncts in specific populations, but require careful patient selection, dose titration, and safety monitoring.",
-    "caveat": "An expert overview, not a systematic search. No new data."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42864800/",
-   "conditions": [
-    "pain"
-   ]
-  },
-  {
-   "pmid": "42869231",
-   "title": "D2 dopamine and CB2 cannabinoid receptor cooperation restores striatal LTP in an epilepsy model.",
-   "journal": "Neurobiol Dis",
-   "date": "2026-10-13",
-   "pubdate": "2026-10-13",
-   "first_author": "Sciaccaluga et al.",
-   "doi": "10.1016/j.nbd.2026.107648",
+   "pmid": "42874273",
+   "title": "Antinociceptive interaction of \u03949-tetrahydrocannabinol and cannabidiol in a humanized mouse model of sickle cell disease.",
+   "journal": "J Pharmacol Exp Ther",
+   "date": "2026-10-14",
+   "pubdate": "2026-09-24",
+   "first_author": "Mabou Tagne et al.",
+   "doi": "10.1016/j.jpet.2026.105037",
    "grade": "mice",
    "grade_label": "Mice / rats only",
    "plain": {
     "did": "Experiments in mice or rats; no people were studied.",
-    "found": "Exposure to a dopamine D2 receptor agonist and to cannabidiol restored long-term plasticity in LD mice, suggesting a D2R- and CB2R-dependent synergic action on striatal LTP.",
+    "found": "SIGNIFICANCE STATEMENT: Chronic pain in sickle cell disease remains difficult to treat, and many patients use cannabis despite limited understanding of how its constituents interact to produce analgesia.",
     "caveat": "Animal results often do not carry over to people."
    },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42869231/",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42874273/",
    "conditions": [
-    "epilepsy"
+    "pain"
    ]
   }
  ],
- "week_start": "2026-11-05"
+ "week_start": "2026-11-06"
 }
