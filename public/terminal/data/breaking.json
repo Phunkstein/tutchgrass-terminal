@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-13T09:48:14-0500",
- "generated_ts": 1794581294,
+ "generated": "2026-11-13T10:23:14-0500",
+ "generated_ts": 1794583394,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "unavailable",
-   "items": 0
+   "status": "ok",
+   "items": 12
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,19 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "cannabisstockstodayfriday13november2026curaleaftradesat806",
+   "title": "Cannabis Stocks Today \u2014 Friday 13 November 2026: Curaleaf trades at $8.06",
+   "link": "https://businessofcannabis.com/cannabis-stocks-today-friday-13-november-2026-curaleaf-trades-at-8-06/",
+   "source": "Business of Cannabis (intl)",
+   "category": "International",
+   "is_law": false,
+   "states": [],
+   "published": "2026-11-13T10:15:39-0500",
+   "published_ts": 1794582939.0,
+   "first_seen": "2026-11-13T10:23:14-0500",
+   "first_seen_ts": 1794583394
+  },
   {
    "id": "senatepanelproposesextendingstatemedicalmarijuanaprotections",
    "title": "Senate Panel Proposes Extending State Medical Marijuana Protections, Without House\u2019s Anti-Rescheduling Provision",
@@ -424,19 +437,6 @@
    "published_ts": 1794412836.0,
    "first_seen": "2026-11-11T11:03:16-0500",
    "first_seen_ts": 1794412996
-  },
-  {
-   "id": "lowercostimportschallengeaustraliancannabisproducers",
-   "title": "Lower-Cost Imports Challenge Australian Cannabis Producers",
-   "link": "https://stratcann.com/news/lower-cost-imports-challenge-australian-cannabis-producers/",
-   "source": "StratCann (Canada)",
-   "category": "International",
-   "is_law": false,
-   "states": [],
-   "published": "2026-11-11T09:52:45-0500",
-   "published_ts": 1794408765.0,
-   "first_seen": "2026-11-11T09:53:14-0500",
-   "first_seen_ts": 1794408795
   }
  ]
 }
