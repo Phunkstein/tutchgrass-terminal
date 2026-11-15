@@ -8,8 +8,8 @@
   if (!forms.length) return;
 
   function showSuccess(form, focus) {
-    var fields = form.querySelector(".gta-fields");
-    var ok = form.querySelector(".gta-ok");
+    var fields = form.querySelector(".fields");
+    var ok = form.querySelector(".ok");
     if (fields) fields.hidden = true;
     if (!ok) return;
     ok.hidden = false;
@@ -19,7 +19,7 @@
     }
   }
   function say(form, text, bad) {
-    var el = form.querySelector(".gta-msg");
+    var el = form.querySelector(".msg");
     if (!el) return;
     el.textContent = text || "";
     if (bad) el.setAttribute("data-state", "err");
