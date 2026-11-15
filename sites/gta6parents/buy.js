@@ -1,5 +1,4 @@
-// TODO: set GUMROAD_URL to the live Gumroad product URL.
-var GUMROAD_URL = "#buy";
+var GUMROAD_URL = "https://arkitekture3.gumroad.com/l/mgfjd";
 document.querySelectorAll("[data-gumroad]").forEach(function (el) {
   el.href = GUMROAD_URL;
   el.setAttribute("data-gumroad-url", GUMROAD_URL);
