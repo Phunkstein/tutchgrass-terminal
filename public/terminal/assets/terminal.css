@@ -451,6 +451,12 @@ html:has(body.fp){scroll-behavior:smooth;scroll-padding-top:var(--fp-nav-h,140px
 @media (prefers-reduced-motion:reduce){html:has(body.fp){scroll-behavior:auto}}
 body.fp .fp-first{margin-top:0}
 body.fp .fp-group-title{margin:28px 0 0;font:650 13px/1.2 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+body.fp .fp-pagenav{position:relative;display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;background:#fff;border-bottom:1px solid var(--line);padding:4px 24px}
+body.fp .fp-pagenav::-webkit-scrollbar{display:none}
+body.fp .fp-pagenav a{color:var(--dim);font-size:13.5px;font-weight:500;padding:8px 10px;min-height:44px;display:inline-flex;align-items:center;white-space:nowrap;border-radius:7px}
+body.fp .fp-pagenav a:hover{text-decoration:none}
+@media (hover:hover){body.fp .fp-pagenav a:not([aria-current]):hover{background:var(--line2);color:var(--txt)}}
+body.fp .fp-pagenav a[aria-current=location]{color:var(--txt);background:var(--gl)}
 body.fp .top .wrap>.nav a{min-height:44px;display:inline-flex;align-items:center}
 body.fp .top .wrap>.nav a:focus-visible{outline:2px solid var(--g);outline-offset:2px}
 @media (max-width:800px){body.fp .top .wrap>.nav{flex-wrap:nowrap;overflow-x:auto}}

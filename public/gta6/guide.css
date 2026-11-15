@@ -1,0 +1,46 @@
+body.gta{background:#f6f7f5;color:#14201a}
+body.gta .gta-main{max-width:800px;margin:0 auto;padding:32px 24px 72px}
+body.gta .gta-kicker{margin:0;font:600 12px/1.3 var(--mono,ui-monospace,monospace);letter-spacing:.08em;text-transform:uppercase;color:#166534}
+body.gta h1{margin:10px 0 12px;font-size:clamp(32px,5vw,46px);line-height:1.12;letter-spacing:-.03em}
+body.gta .gta-lede{margin:0;max-width:40rem;color:#5d6a62;font-size:18px;line-height:1.5}
+body.gta .gta-figure{margin:22px 0 0}
+body.gta .gta-figure img{display:block;width:100%;height:auto;border:1px solid #e3e6e1;border-radius:12px;background:#fff}
+body.gta .gta-figure figcaption{margin-top:8px;color:#8a958e;font-size:13px}
+body.gta .gta-offer{display:flex;flex-wrap:wrap;gap:16px 24px;align-items:center;margin-top:22px;padding:16px;background:#fff;border:1px solid #e3e6e1;border-radius:12px}
+body.gta .gta-price{margin:0;font:600 32px/1 var(--mono,ui-monospace,monospace);letter-spacing:-.03em}
+body.gta .gta-offer p{margin:0;flex:1 1 220px;color:#5d6a62}
+body.gta .gta-buy{min-height:52px;padding:0 22px;font-size:17px}
+body.gta .gta-buy:focus-visible,body.gta a:focus-visible,body.gta button:focus-visible,body.gta input:focus-visible{outline:2px solid #14532d;outline-offset:3px}
+body.gta .gta-copy{margin-top:8px}
+body.gta .gta-copy h2{margin:32px 0 8px;font-size:24px;line-height:1.25;letter-spacing:-.02em}
+body.gta .gta-copy p,body.gta .gta-copy li{font-size:17px;line-height:1.55}
+body.gta .gta-copy p{margin:0 0 12px}
+body.gta .gta-copy ul{margin:0;padding-left:1.2em;display:grid;gap:8px}
+body.gta .gta-jump{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 0;padding:0;list-style:none}
+body.gta .gta-jump a{display:inline-flex;align-items:center;min-height:36px;padding:4px 10px;border:1px solid #e3e6e1;border-radius:999px;background:#fff;color:#14201a;font-size:14px}
+body.gta .gta-jump a:hover{text-decoration:none;background:#e8f3ec}
+body.gta .gta-descriptors{margin:12px 0 0;display:grid;gap:10px}
+body.gta .gta-descriptors div{background:#fff;border:1px solid #e3e6e1;border-radius:10px;padding:12px 14px}
+body.gta .gta-descriptors dt{font-weight:700}
+body.gta .gta-descriptors dd{margin:4px 0 0;color:#5d6a62}
+body.gta .gta-signup{margin-top:36px;padding:20px;background:#fff;border:1px solid #cfe3d6;border-radius:12px}
+body.gta .gta-signup h1,body.gta .gta-signup h2{margin:0 0 8px;font-size:24px;line-height:1.25;letter-spacing:-.02em}
+body.gta .gta-signup>p{margin:0 0 10px;color:#5d6a62;font-size:16px;line-height:1.5}
+body.gta .gta-signup label{margin-top:12px}
+body.gta .gta-note{margin:8px 0 0;color:#5d6a62;font-size:14px}
+body.gta .gta-msg{margin:10px 0 0;font-size:15px}
+body.gta .gta-msg[data-state=err]{color:#b42318}
+body.gta .gta-ok{margin-top:8px}
+body.gta .gta-ok p{margin:0;font-weight:700}
+body.gta .gta-hp{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+body.gta .gta-home-links{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:18px}
+body.gta .nav a[aria-current=page]{background:#e8f3ec;color:#14201a}
+body.gta .foot .gta-legal{display:block;max-width:40rem;margin-top:8px}
+body.gta .gta-quiet{color:#8a958e}
+@media (max-width:760px){
+ body.gta .gta-main{padding:22px 16px 56px}
+ body.gta .gta-lede{font-size:16.5px}
+ body.gta .gta-offer{align-items:stretch}
+ body.gta .gta-buy{width:100%}
+ body.gta .gta-copy h2,body.gta .gta-signup h2{font-size:22px}
+}
