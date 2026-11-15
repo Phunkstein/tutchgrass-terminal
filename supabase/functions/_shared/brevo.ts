@@ -1,7 +1,7 @@
 export const BREVO_LIST_ID = 3;
 export const GTA6_PARENTS_LIST_ID = 6;
 export const GTA6_PARENTS_SOURCE = "gta6-parents";
-export const GTA6_WELCOME_SUBJECT = "You're on the GTA 6 parents update list";
+export const GTA6_WELCOME_SUBJECT = "You're on the GTA 6 parent news & tips list";
 export const BREVO_CONTACTS_URL = "https://api.brevo.com/v3/contacts";
 export const BREVO_SMTP_URL = "https://api.brevo.com/v3/smtp/email";
 
@@ -89,13 +89,13 @@ export function gta6WelcomeEmail(email: string, firstName: string) {
   const text = [
     hello,
     "",
-    "You're signed up for free updates to Is GTA 6 OK for My Kid? A Parent's Guide.",
+    "You're signed up for GTA 6 parent news & tips.",
     "",
-    "What to expect: one update after launch, weekly through December 2026, plus any major change.",
+    "What to expect: launch news, rating changes, and quick tips. This list does not include the paid guide.",
     "",
-    "If GTA 6 ever opens private servers, we plan to build the most kid-friendly version possible. You'll be first to know.",
+    "Guide updates are delivered free to buyers through Gumroad: https://arkitekture3.gumroad.com/l/mgfjd",
     "",
-    "The free page: https://gta6parents.com/",
+    "The site: https://gta6parents.com/",
     "",
     "You can unsubscribe anytime by replying to this email or writing deals@tutchgrass.co with the subject Unsubscribe.",
     "",
@@ -105,9 +105,9 @@ export function gta6WelcomeEmail(email: string, firstName: string) {
   const html = [
     '<div style="max-width:560px;margin:auto;font:16px/1.5 Arial,sans-serif;color:#14201a">',
     `<p>${safeHello}</p>`,
-    '<p>You\'re signed up for free updates to <a href="https://gta6parents.com/">Is GTA 6 OK for My Kid? A Parent\'s Guide</a>.</p>',
-    "<p>What to expect: one update after launch, weekly through December 2026, plus any major change.</p>",
-    "<p>If GTA 6 ever opens private servers, we plan to build the most kid-friendly version possible. You'll be first to know.</p>",
+    '<p>You\'re signed up for <a href="https://gta6parents.com/updates/">GTA 6 parent news & tips</a>.</p>',
+    "<p>What to expect: launch news, rating changes, and quick tips. This list does not include the paid guide.</p>",
+    '<p>Guide updates are delivered free to buyers through Gumroad. <a href="https://arkitekture3.gumroad.com/l/mgfjd">Get the parent\'s guide · $9.99</a>.</p>',
     '<p style="font-size:13px;color:#5d6a62">You can unsubscribe anytime by replying to this email or writing deals@tutchgrass.co with the subject Unsubscribe.</p>',
     "<p>Tutchgrass Labs</p>",
     "</div>",
