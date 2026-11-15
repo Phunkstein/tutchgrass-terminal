@@ -1,6 +1,6 @@
 # Cannabis Agent Terminal: Scientist report
 
-Generated 2026-11-15 10:45 EST. Research summary, not medical advice. Talk to a doctor.
+Generated 2026-11-15 11:44 EST. Research summary, not medical advice. Talk to a doctor.
 
 _Strain names are typical examples only; the same name can test very differently by grower and batch. Go by the lab COA (THC, CBD, minor cannabinoids, terpenes), not the name._
 
@@ -205,7 +205,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** Sativex (THC:CBD) gave a significant analgesic effect and lowered disease activity in the first controlled RA trial (small effect). Oral CBD in hand OA and psoriatic arthritis was no better than placebo. In rats, local CBD calmed early joint inflammation and prevented later OA pain and nerve damage.
 - **Strains that typically express this profile:** Pennywise (~1:1), Harlequin, Cannatonic (typically; check the COA)
 - **Cautions:** Do not stop disease-modifying RA drugs. Falls risk in older adults with THC. Interactions with blood thinners and NSAIDs-adjacent meds; check with pharmacist.
-- **New PubMed papers, last 30 days:** 1
+- **New PubMed papers, last 30 days:** 2
 - **Citations:**
   - [RCT] Blake et al. (2006). Preliminary assessment of the efficacy, tolerability and safety of a cannabis-based medicine (Sativex) in the treatment of pain caused by rheumatoid arthritis. *Rheumatology (Oxford)*. PMID [16282192](https://pubmed.ncbi.nlm.nih.gov/16282192/). DOI [10.1093/rheumatology/kei183](https://doi.org/10.1093/rheumatology/kei183)
   - [RCT] Vela et al. (2022). Cannabidiol treatment in hand osteoarthritis and psoriatic arthritis: a randomized, double-blind, placebo-controlled trial. *Pain*. PMID [34510141](https://pubmed.ncbi.nlm.nih.gov/34510141/). DOI [10.1097/j.pain.0000000000002466](https://doi.org/10.1097/j.pain.0000000000002466)
