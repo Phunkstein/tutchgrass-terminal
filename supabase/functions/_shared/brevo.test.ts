@@ -66,8 +66,10 @@ test("gta6 welcome email confirms the list without a client secret", () => {
   assert.equal(mail.subject, GTA6_WELCOME_SUBJECT);
   assert.deepEqual(mail.sender, { name: "Tutchgrass Labs", email: "deals@tutchgrass.co" });
   assert.deepEqual(mail.to, [{ email: "parent@example.com", name: "Sam" }]);
-  assert.match(mail.textContent, /one update after launch, weekly through December 2026, plus any major change/);
-  assert.match(mail.textContent, /If GTA 6 ever opens private servers/);
+  assert.match(mail.textContent, /launch news, rating changes, and quick tips/);
+  assert.match(mail.textContent, /Guide updates are delivered free to buyers through Gumroad/);
+  assert.match(mail.textContent, /https:\/\/arkitekture3\.gumroad\.com\/l\/mgfjd/);
+  assert.doesNotMatch(mail.textContent, /free updates to the guide/i);
   assert.match(mail.textContent, /unsubscribe/i);
   assert.equal(JSON.stringify(mail).includes("api-key"), false);
   assert.equal(JSON.stringify(mail).includes("BREVO"), false);

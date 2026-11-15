@@ -94,10 +94,10 @@
           return;
         }
         say(form, "That didn't go through. Try again in a minute.", true);
-        if (btn) { btn.disabled = false; btn.textContent = "Get free updates"; }
+        if (btn) { btn.disabled = false; btn.textContent = "Get news & tips"; }
       }).catch(function () {
         say(form, "That didn't go through. Try again in a minute.", true);
-        if (btn) { btn.disabled = false; btn.textContent = "Get free updates"; }
+        if (btn) { btn.disabled = false; btn.textContent = "Get news & tips"; }
       });
     });
   });
