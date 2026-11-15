@@ -1,4 +1,10 @@
-import { BREVO_CONTACTS_URL, contactBody } from "./brevo.ts";
+import {
+  BREVO_CONTACTS_URL,
+  BREVO_SMTP_URL,
+  GTA6_PARENTS_SOURCE,
+  contactBody,
+  gta6WelcomeEmail,
+} from "./brevo.ts";
 
 export function json(body: unknown, status = 200): Response {
   return new Response(JSON.stringify(body), {
@@ -53,22 +59,37 @@ export async function appSecret(name: string): Promise<string | undefined> {
   }
 }
 
-export async function brevoAdd(email: string, firstName: string, source: string): Promise<void> {
+export async function brevoAdd(
+  email: string,
+  firstName: string,
+  source: string,
+  options?: { keepSource?: boolean },
+): Promise<void> {
   const key = await appSecret("BREVO_API_KEY");
   if (!key) throw new Error("BREVO_API_KEY is not set");
-  const payload = contactBody(email, firstName, source);
+  const payload = contactBody(email, firstName, source, options);
   let res = await postContact(key, payload);
   if (res.status === 400) {
     const text = await res.text();
-    if (/attribute/i.test(text)) {
-      await ensureSourceAttribute(key);
-      res = await postContact(key, payload);
-      if (res.status === 201 || res.status === 204) return;
-      throw new Error(await clip(res));
-    }
-    throw new Error(text.slice(0, 480));
+    if (!/attribute/i.test(text)) throw new Error(text.slice(0, 480));
+    await ensureSourceAttribute(key);
+    res = await postContact(key, payload);
   }
-  if (res.status === 201 || res.status === 204) return;
+  if (res.status !== 201 && res.status !== 204) throw new Error(await clip(res));
+  if (source === GTA6_PARENTS_SOURCE) await sendGta6Welcome(key, email, firstName);
+}
+
+async function sendGta6Welcome(key: string, email: string, firstName: string): Promise<void> {
+  const res = await fetch(BREVO_SMTP_URL, {
+    method: "POST",
+    headers: {
+      "api-key": key,
+      accept: "application/json",
+      "content-type": "application/json",
+    },
+    body: JSON.stringify(gta6WelcomeEmail(email, firstName)),
+  });
+  if (res.status === 201) return;
   throw new Error(await clip(res));
 }
 

@@ -1,5 +1,9 @@
 export const BREVO_LIST_ID = 3;
+export const GTA6_PARENTS_LIST_ID = 6;
+export const GTA6_PARENTS_SOURCE = "gta6-parents";
+export const GTA6_WELCOME_SUBJECT = "You're on the GTA 6 parents update list";
 export const BREVO_CONTACTS_URL = "https://api.brevo.com/v3/contacts";
+export const BREVO_SMTP_URL = "https://api.brevo.com/v3/smtp/email";
 
 const EMAIL = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
 const SOURCE = /^[a-z0-9][a-z0-9-]{0,78}$/;
@@ -47,12 +51,77 @@ export function sourceFromGumroad(productPermalink: string, permalink = ""): str
   return null;
 }
 
-export function contactBody(email: string, firstName: string, source: string) {
+export function listIdForSource(source: string): number {
+  return source === GTA6_PARENTS_SOURCE ? GTA6_PARENTS_LIST_ID : BREVO_LIST_ID;
+}
+
+export function contactBody(
+  email: string,
+  firstName: string,
+  source: string,
+  options?: { keepSource?: boolean },
+) {
+  const attributes: Record<string, string> = {};
+  if (options?.keepSource) {
+    if (firstName) attributes.FIRSTNAME = firstName;
+  } else {
+    attributes.FIRSTNAME = firstName;
+    attributes.SOURCE = source;
+  }
   return {
     email,
-    attributes: { FIRSTNAME: firstName, SOURCE: source },
-    listIds: [BREVO_LIST_ID],
+    attributes,
+    listIds: [listIdForSource(source)],
     updateEnabled: true as const,
+  };
+}
+
+export function escapeHtml(value: string): string {
+  return value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+export function gta6WelcomeEmail(email: string, firstName: string) {
+  const hello = firstName ? `Hi ${firstName},` : "Hi,";
+  const text = [
+    hello,
+    "",
+    "You're signed up for free updates to Is GTA 6 OK for My Kid? A Parent's Guide.",
+    "",
+    "What to expect: one update after launch, weekly through December 2026, plus any major change.",
+    "",
+    "If GTA 6 ever opens private servers, we plan to build the most kid-friendly version possible. You'll be first to know.",
+    "",
+    "The free page: https://tutchgrass.co/gta6-parents/",
+    "",
+    "You can unsubscribe anytime by replying to this email or writing deals@tutchgrass.co with the subject Unsubscribe.",
+    "",
+    "Tutchgrass Labs",
+  ].join("\n");
+  const safeHello = firstName ? `Hi ${escapeHtml(firstName)},` : "Hi,";
+  const html = [
+    '<div style="max-width:560px;margin:auto;font:16px/1.5 Arial,sans-serif;color:#14201a">',
+    `<p>${safeHello}</p>`,
+    '<p>You\'re signed up for free updates to <a href="https://tutchgrass.co/gta6-parents/">Is GTA 6 OK for My Kid? A Parent\'s Guide</a>.</p>',
+    "<p>What to expect: one update after launch, weekly through December 2026, plus any major change.</p>",
+    "<p>If GTA 6 ever opens private servers, we plan to build the most kid-friendly version possible. You'll be first to know.</p>",
+    '<p style="font-size:13px;color:#5d6a62">You can unsubscribe anytime by replying to this email or writing deals@tutchgrass.co with the subject Unsubscribe.</p>',
+    "<p>Tutchgrass Labs</p>",
+    "</div>",
+  ].join("");
+  return {
+    sender: { name: "Tutchgrass Labs", email: "deals@tutchgrass.co" },
+    to: firstName ? [{ email, name: firstName }] : [{ email }],
+    subject: GTA6_WELCOME_SUBJECT,
+    textContent: text,
+    htmlContent: html,
+    tags: [GTA6_PARENTS_SOURCE],
+    headers: {
+      "List-Unsubscribe": "<mailto:deals@tutchgrass.co?subject=Unsubscribe%20GTA%206%20parents>",
+    },
   };
 }
 

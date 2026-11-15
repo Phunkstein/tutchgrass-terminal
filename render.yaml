@@ -4,7 +4,3 @@ services:
     name: tutchgrass-terminal
     buildCommand: echo static
     staticPublishPath: public
-    routes:
-      - type: redirect
-        source: /
-        destination: /terminal/
