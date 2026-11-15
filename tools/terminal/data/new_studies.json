@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-15 00:45 EST",
+ "generated": "2026-11-15 01:45 EST",
  "window": {
   "start": "2026-10-16",
   "end": "2026-11-15",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "6705fcb914ea01f4",
+ "fingerprint": "862e48817bec54cb",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -98,6 +98,8 @@
   "inflammation": [
    "42970043",
    "42994510",
+   "43033824",
+   "43031926",
    "42943346",
    "42939750"
   ],
@@ -129,13 +131,13 @@
   "ibd": []
  },
  "pubmed_counts": {
-  "sleep": 23,
+  "sleep": 24,
   "pain": 31,
-  "anxiety": 45,
+  "anxiety": 46,
   "mood": 56,
-  "ptsd": 13,
+  "ptsd": 14,
   "arthritis": 4,
-  "inflammation": 9,
+  "inflammation": 11,
   "nausea": 7,
   "appetite": 3,
   "focus": 9,
@@ -152,7 +154,7 @@
   "mood": "2026-11-08",
   "ptsd": "2026-11-12",
   "arthritis": null,
-  "inflammation": "2026-11-06",
+  "inflammation": "2026-11-15",
   "nausea": "2026-11-05",
   "appetite": null,
   "focus": "2026-11-08",
@@ -163,6 +165,46 @@
   "ibd": null
  },
  "papers": [
+  {
+   "pmid": "43033824",
+   "title": "Cannabinoid receptor 2 promotes differentiation of T regulatory cells during allergic inflammation.",
+   "journal": "J Immunol",
+   "date": "2026-11-15",
+   "pubdate": "2026-11-02",
+   "first_author": "Danner et al.",
+   "doi": "10.1093/jimmun/vkag302",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "Blocking the CB2 receptor in human CD4+ T cells decreased endogenous TGF-\u03b2 secretion and downregulated IL-10 mRNA expression.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43033824/",
+   "conditions": [
+    "inflammation"
+   ]
+  },
+  {
+   "pmid": "43031926",
+   "title": "Early cardiac lipid overload, redox-inflammatory imbalance, fibrotic remodeling, and cannabinoid receptor up-regulation in sucrose-rich diet-fed rats: preventive effects of full-spectrum cannabis oil.",
+   "journal": "Front Nutr",
+   "date": "2026-11-15",
+   "pubdate": "2026-10-30",
+   "first_author": "Degrave et al.",
+   "doi": "10.3389/fnut.2026.1945796",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "These findings show that the myocardium is an early target of sucrose-driven metabolic overload and identify full-spectrum CO as a plant-derived bioactive intervention capable of limiting early cardiac metabolic and redox-inflammatory remodeling in this preclinical model.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43031926/",
+   "conditions": [
+    "inflammation"
+   ]
+  },
   {
    "pmid": "43022354",
    "title": "A phase II, randomised, placebo-controlled, double-blind trial of cannabis extract for amyotrophic lateral sclerosis: the EMERALD trial.",

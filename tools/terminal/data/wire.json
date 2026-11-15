@@ -4,7 +4,7 @@
   {
    "source": "PubMed newest (medical, 14 d)",
    "status": "ok",
-   "items": 6
+   "items": 7
   },
   {
    "source": "PubMed newest (cultivation, 14 d)",
@@ -32,8 +32,8 @@
   {
    "source": "Business of Cannabis (intl)",
    "url": "https://businessofcannabis.com/feed/",
-   "status": "ok",
-   "items": 30
+   "status": "unavailable",
+   "error": "no element found: line 1, column 0"
   },
   {
    "source": "StratCann (Canada)",
@@ -135,6 +135,19 @@
    ],
    "preclinical": false,
    "url": "https://pubmed.ncbi.nlm.nih.gov/43026633/"
+  },
+  {
+   "track": "medical",
+   "pmid": "43033373",
+   "title": "Systems medicine-driven drug repurposing for respiratory infections: insights into the oral-gut-lung microbial axis and the therapeutic potential of cannabidiol and aspirin.",
+   "journal": "Theory Biosci",
+   "year": "2026",
+   "first_author": "L et al.",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "preclinical": false,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43033373/"
   }
  ],
  "papers_cultivation": [
@@ -272,17 +285,6 @@
  ],
  "news_us": [
   {
-   "source": "Business of Cannabis (intl)",
-   "title": "Cannabis News Today \u2014 Friday, 13 November 2026: Hemp Enforcement Spreads to the States as Auxly Posts Record Quarter",
-   "link": "https://businessofcannabis.com/cannabis-news-today-friday-13-november-2026-hemp-enforcement-spreads-to-the-states-as-auxly-posts-record-quarter/",
-   "summary": "This week, the first phase of the federal ban on intoxicating hemp took effect. In August, a provision titled \u2018Section 781 Extension\u2019 was passed, giving certain products a month\u2019s reprieve before being criminalised. Synthetic cannabinoids, defined in the bill ",
-   "ts": 1794583916.0,
-   "date": "2026-11-13 10:31",
-   "category": "US federal",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "Marijuana Moment",
    "title": "Senate Panel Proposes Extending State Medical Marijuana Protections, Without House\u2019s Anti-Rescheduling Provision",
    "link": "https://www.marijuanamoment.net/senate-panel-proposes-extending-state-medical-marijuana-protections-without-houses-anti-rescheduling-provision/",
@@ -318,6 +320,17 @@
    "states": [
     "California"
    ]
+  },
+  {
+   "source": "MJBizDaily",
+   "title": "Report: Top Trump White House chief meddled in hemp THC ban",
+   "link": "https://mjbizdaily.com/news/report-top-trump-white-house-chief-meddled-in-hemp-thc-ban/619161/",
+   "summary": "A former advisor to Health Secretary Robert F. Kennedy Jr. accused Susie Wiles, President Trump's former chief of staff, of guiding White House policy on hemp THC. Report: Top Trump White House chief meddled in hemp THC ban is a post from: MJBizDaily: Financia",
+   "ts": 1794353100.0,
+   "date": "2026-11-10 18:25",
+   "category": "US federal",
+   "is_law": true,
+   "states": []
   },
   {
    "source": "MJBizDaily",
@@ -377,17 +390,6 @@
    "states": []
   },
   {
-   "source": "Business of Cannabis (intl)",
-   "title": "Cannabis Telemedicine in Germany: Regulation, Market Entry, Advertising and Enforcement",
-   "link": "https://businessofcannabis.com/cannabis-telemedicine-in-germany-regulation-market-entry-advertising-and-enforcement/",
-   "summary": "Written by SKW Schwarz partners Margret Knitter (Head of Medical Cannabis) and Dr Oliver St\u00f6ckel (Head of Digital Health). Digital health is transforming Germany\u2019s medical cannabis market. While technology makes treatment more accessible, the legal framework r",
-   "ts": 1794495973.0,
-   "date": "2026-11-12 10:06",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "Google News: intl cannabis",
    "title": "Australia to welcome global medicinal cannabis community to UIC 2027 - MMJDaily",
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObm9Kbk1zNE8yRFhFMjctLUVhaWs4UmQxcXM3RGFSczNQNDl2WmhDYUxyRC10SkxTWGtPdVpuOTF5dnJad25TZEVteHlIOTNBRFFYOUJON21ZNktwYTBiVm5yZlYwd0VJX014ajdUa25xbkd6cFBwZE94aU4wUWdtM3hSMmtxN0tnYUJQTm5vYjJLNVZ2OTdTclliZWJyX05xZ2NIcmtOMkhPM0dmd1gw?oc=5",
@@ -397,8 +399,30 @@
    "category": "International",
    "is_law": false,
    "states": []
+  },
+  {
+   "source": "Google News: intl cannabis",
+   "title": "Medical Cannabis in the Workplace: an Employer\u2019s Guide to Testing, Safety and Rights - cannabishealthnews.co.uk",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZ21oTkpjUGlncTVKR014dEROblJNXzJZcHI3RmFDVzFZTEFPN21qc05aTjI4cXZfMEc2NllWUDJWdGFub2FjZzBlYkpJTjNCS0QxOHduclJFcjNWSGNpb1VJeW52ZkRvYlBRS0tTNzlFWV9FalB5OUlBQ2lZRU9aMVhWX0R2LXAtQmR5aVByZkt5SHFDb1N3eDlsV1dNUExVLVFCQUFnX2xlX3JidXlXUUprUGg4UzB4bjVlLUJXSDk5RGVu?oc=5",
+   "summary": "",
+   "ts": 1794485872.0,
+   "date": "2026-11-12 07:17",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "Google News: intl cannabis",
+   "title": "Cancer patients say cannabis improves symptoms, study finds - UKNow",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQc1NBVXAzd2V2WUZjSlZnc0pCTFg5NUtOOHVNUzNfOENYOWViLWkzR2ZzVWZ1Vmh5RVlKTk1vUWdPYS0wSl83QnJGb3pYejlOeGU4aFVtM1FDMUxSMi1jblgtdHpjeDJlZHIyVm5BRUJCSW5ZZU9BVmp4OU8zX0haYlFDVVRiNE40UG9MOXBrMHppUzg?oc=5",
+   "summary": "",
+   "ts": 1794474000.0,
+   "date": "2026-11-12 04:00",
+   "category": "International",
+   "is_law": false,
+   "states": []
   }
  ],
- "news_health_total": 11,
- "generated": "2026-11-15 00:45 EST"
+ "news_health_total": 12,
+ "generated": "2026-11-15 01:45 EST"
 }
