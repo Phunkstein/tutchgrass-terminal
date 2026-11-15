@@ -7,7 +7,6 @@ a:hover{text-decoration:none}
 .top{position:sticky;top:0;z-index:2;background:#fff;border-bottom:1px solid var(--line)}
 .top-inner{max-width:880px;margin:0 auto;padding:12px 24px;display:flex;align-items:center;gap:16px}
 .brand{color:var(--ink);font-weight:750;font-size:18px;letter-spacing:-.02em;text-decoration:none}
-.credit{margin:0;color:var(--dim);font-size:13px}
 .nav{display:flex;gap:4px;margin-left:auto}
 .nav a{color:var(--dim);text-decoration:none;font-weight:600;font-size:14px;padding:8px 10px;border-radius:8px}
 .nav a[aria-current=page]{background:var(--soft);color:var(--ink)}
