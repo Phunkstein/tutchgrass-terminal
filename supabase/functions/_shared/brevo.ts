@@ -95,7 +95,7 @@ export function gta6WelcomeEmail(email: string, firstName: string) {
     "",
     "If GTA 6 ever opens private servers, we plan to build the most kid-friendly version possible. You'll be first to know.",
     "",
-    "The free page: https://tutchgrass.co/gta6-parents/",
+    "The free page: https://gta6parents.com/",
     "",
     "You can unsubscribe anytime by replying to this email or writing deals@tutchgrass.co with the subject Unsubscribe.",
     "",
@@ -105,7 +105,7 @@ export function gta6WelcomeEmail(email: string, firstName: string) {
   const html = [
     '<div style="max-width:560px;margin:auto;font:16px/1.5 Arial,sans-serif;color:#14201a">',
     `<p>${safeHello}</p>`,
-    '<p>You\'re signed up for free updates to <a href="https://tutchgrass.co/gta6-parents/">Is GTA 6 OK for My Kid? A Parent\'s Guide</a>.</p>',
+    '<p>You\'re signed up for free updates to <a href="https://gta6parents.com/">Is GTA 6 OK for My Kid? A Parent\'s Guide</a>.</p>',
     "<p>What to expect: one update after launch, weekly through December 2026, plus any major change.</p>",
     "<p>If GTA 6 ever opens private servers, we plan to build the most kid-friendly version possible. You'll be first to know.</p>",
     '<p style="font-size:13px;color:#5d6a62">You can unsubscribe anytime by replying to this email or writing deals@tutchgrass.co with the subject Unsubscribe.</p>',

@@ -4,3 +4,24 @@ services:
     name: tutchgrass-terminal
     buildCommand: echo static
     staticPublishPath: public
+    routes:
+      - type: redirect
+        source: /gta6-parents
+        destination: https://gta6parents.com/
+      - type: redirect
+        source: /gta6-parents/*
+        destination: https://gta6parents.com/
+      - type: redirect
+        source: /updates
+        destination: https://gta6parents.com/updates/
+      - type: redirect
+        source: /updates/*
+        destination: https://gta6parents.com/updates/
+  - type: web
+    runtime: static
+    name: gta6-parents
+    buildCommand: echo static
+    staticPublishPath: sites/gta6parents
+    domains:
+      - gta6parents.com
+      - www.gta6parents.com
