@@ -54,8 +54,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
 .teasers figure{margin:0}
 .teasers img{width:100%;height:auto}
 .teasers figcaption{margin-top:8px;color:var(--dim);font-size:15px}
-.lines{margin:18px 0 0;display:grid;gap:8px}
-.lines p{margin:0;color:var(--dim);font-size:17px;line-height:1.5}
+.lines{margin:18px 0 0;color:var(--dim);font-size:17px;line-height:1.5}
 @media (min-width:800px){
  .teasers{grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
 }
