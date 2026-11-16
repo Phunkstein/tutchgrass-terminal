@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-16T07:03:15-0500",
- "generated_ts": 1794830595,
+ "generated": "2026-11-16T07:43:16-0500",
+ "generated_ts": 1794832996,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "items": 0
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,19 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "senatedemocraticleadershipcandidatesonmarijuanawhereschumera",
+   "title": "Senate Democratic Leadership Candidates On Marijuana: Where Schumer And Van Hollen Stand",
+   "link": "https://www.marijuanamoment.net/senate-democratic-leadership-candidates-on-marijuana-where-schumer-and-van-hollen-stand/",
+   "source": "Marijuana Moment",
+   "category": "US federal",
+   "is_law": false,
+   "states": [],
+   "published": "2026-11-16T07:41:37-0500",
+   "published_ts": 1794832897.0,
+   "first_seen": "2026-11-16T07:43:16-0500",
+   "first_seen_ts": 1794832996
+  },
   {
    "id": "bootslaunchesprivatemedicalcannabisserviceinukhighstreetfirs",
    "title": "Boots Launches Private Medical Cannabis Service in UK High-Street First",
@@ -160,19 +173,6 @@
    "published_ts": 1794666754.0,
    "first_seen": "2026-11-14T09:33:11-0500",
    "first_seen_ts": 1794666792
-  },
-  {
-   "id": "weekinweednovember142026",
-   "title": "Week in Weed \u2013 November 14, 2026",
-   "link": "https://stratcann.com/news/week-in-weed-november-14-2026/",
-   "source": "StratCann (Canada)",
-   "category": "International",
-   "is_law": false,
-   "states": [],
-   "published": "2026-11-14T07:20:00-0500",
-   "published_ts": 1794658800.0,
-   "first_seen": "2026-11-14T07:33:22-0500",
-   "first_seen_ts": 1794659602
   }
  ]
 }
