@@ -1,15 +1,15 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-16T09:58:13-0500",
- "generated_ts": 1794841094,
+ "generated": "2026-11-16T10:28:15-0500",
+ "generated_ts": 1794842895,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
   {
    "source": "Marijuana Moment",
-   "status": "unavailable",
-   "items": 0
+   "status": "ok",
+   "items": 10
   },
   {
    "source": "MJBizDaily",
@@ -39,6 +39,19 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "deasapproachtomarijuanareschedulingiscreatingdeepuncertainty",
+   "title": "DEA\u2019s Approach To Marijuana Rescheduling Is Creating Deep Uncertainty for Regulators, Patients And Market Operators (Op-Ed)",
+   "link": "https://www.marijuanamoment.net/deas-approach-to-marijuana-rescheduling-is-creating-deep-uncertainty-for-regulators-patients-and-market-operators-op-ed/",
+   "source": "Marijuana Moment",
+   "category": "US federal",
+   "is_law": true,
+   "states": [],
+   "published": "2026-11-16T10:27:10-0500",
+   "published_ts": 1794842830.0,
+   "first_seen": "2026-11-16T10:28:15-0500",
+   "first_seen_ts": 1794842895
+  },
   {
    "id": "avicannareachesprofitabilitymilestoneasmedicalcannabisstrate",
    "title": "Avicanna Reaches Profitability Milestone as Medical Cannabis Strategy Gains Traction - The Dales Report",
