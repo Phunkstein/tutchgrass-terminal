@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-16T13:53:14-0500",
- "generated_ts": 1794855195,
+ "generated": "2026-11-16T14:23:16-0500",
+ "generated_ts": 1794856997,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -37,8 +37,36 @@
    "items": 12
   }
  ],
- "new_this_run": 1,
+ "new_this_run": 2,
  "items": [
+  {
+   "id": "ukslargestpharmacychainlaunchesonlinemedicalcannabisservice",
+   "title": "UK\u2019s Largest Pharmacy Chain Launches Online Medical Cannabis Service",
+   "link": "https://stratcann.com/news/uks-largest-pharmacy-chain-launches-online-medical-cannabis-service/",
+   "source": "StratCann (Canada)",
+   "category": "International",
+   "is_law": false,
+   "states": [],
+   "published": "2026-11-16T14:21:52-0500",
+   "published_ts": 1794856912.0,
+   "first_seen": "2026-11-16T14:23:16-0500",
+   "first_seen_ts": 1794856997
+  },
+  {
+   "id": "kentuckygovernorcallsoncongresstopassmarijuanabankingbilltos",
+   "title": "Kentucky Governor Calls On Congress To Pass Marijuana Banking Bill To Support His State\u2019s Medical Cannabis Program",
+   "link": "https://www.marijuanamoment.net/kentucky-governor-calls-on-congress-to-pass-marijuana-banking-bill-to-support-his-states-medical-cannabis-program/",
+   "source": "Marijuana Moment",
+   "category": "US federal",
+   "is_law": true,
+   "states": [
+    "Kentucky"
+   ],
+   "published": "2026-11-16T14:21:39-0500",
+   "published_ts": 1794856899.0,
+   "first_seen": "2026-11-16T14:23:16-0500",
+   "first_seen_ts": 1794856997
+  },
   {
    "id": "ukmedicalcannabistobeofferedatmainstreampharmacybootsmjbizda",
    "title": "UK medical cannabis to be offered at mainstream pharmacy Boots - MJBizDaily",
