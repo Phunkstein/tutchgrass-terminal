@@ -38,8 +38,8 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 119"
   },
   {
    "source": "Google News: intl cannabis",
@@ -137,6 +137,19 @@
   },
   {
    "track": "medical",
+   "pmid": "43037991",
+   "title": "Cannabidiol for Severe Behavioral Problems in Youths With Intellectual Disability: A Randomized Clinical Trial.",
+   "journal": "JAMA Pediatr",
+   "year": "2026",
+   "first_author": "Efron et al.",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "preclinical": false,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43037991/"
+  },
+  {
+   "track": "medical",
    "pmid": "43035867",
    "title": "The Association of Cannabis Use With Pain, Mental Health Outcomes, and Medical Cannabis Legal Status in Persons With Chronic Traumatic Brain Injury: A NIDILRR and VA TBI Model Systems Collaborative Project.",
    "journal": "J Head Trauma Rehabil",
@@ -160,19 +173,6 @@
    ],
    "preclinical": false,
    "url": "https://pubmed.ncbi.nlm.nih.gov/43035947/"
-  },
-  {
-   "track": "medical",
-   "pmid": "43033373",
-   "title": "Systems medicine-driven drug repurposing for respiratory infections: insights into the oral-gut-lung microbial axis and the therapeutic potential of cannabidiol and aspirin.",
-   "journal": "Theory Biosci",
-   "year": "2026",
-   "first_author": "L et al.",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "preclinical": false,
-   "url": "https://pubmed.ncbi.nlm.nih.gov/43033373/"
   }
  ],
  "papers_cultivation": [
@@ -392,6 +392,19 @@
   },
   {
    "source": "MJBizDaily",
+   "title": "Illinois THC limit prompts hemp farmer to destroy 2026 harvest",
+   "link": "https://mjbizdaily.com/news/illinois-thc-limit-prompts-hemp-farmer-to-destroy-2026-harvest/619123/",
+   "summary": "Growers without a cannabis license face civil and criminal penalties for holding flower after Nov. 12. Hemp farms are running out of time. Illinois THC limit prompts hemp farmer to destroy 2026 harvest is a post from: MJBizDaily: Financial, Legal & Cannabusine",
+   "ts": 1793996699.0,
+   "date": "2026-11-06 15:24",
+   "category": "US states",
+   "is_law": true,
+   "states": [
+    "Illinois"
+   ]
+  },
+  {
+   "source": "MJBizDaily",
    "title": "How cannabis employers are taking worker healthcare benefits into their own hands",
    "link": "https://mjbizdaily.com/news/how-cannabis-employers-are-taking-worker-healthcare-benefits-into-their-own-hands/618948/",
    "summary": "Cannabis employers may wish to consider healthcare captives when choosing employee benefits. How cannabis employers are taking worker healthcare benefits into their own hands is a post from: MJBizDaily: Financial, Legal & Cannabusiness news for cannabis entrep",
@@ -410,17 +423,6 @@
    "summary": "",
    "ts": 1794861370.0,
    "date": "2026-11-16 15:36",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "UK\u2019s Largest Pharmacy Chain Launches Online Medical Cannabis Service",
-   "link": "https://stratcann.com/news/uks-largest-pharmacy-chain-launches-online-medical-cannabis-service/",
-   "summary": "A national pharmacy chain in the UK has launched an online platform for providing access to medical cannabis. The post UK\u2019s Largest Pharmacy Chain Launches Online Medical Cannabis Service appeared first on StratCann .",
-   "ts": 1794856912.0,
-   "date": "2026-11-16 14:21",
    "category": "International",
    "is_law": false,
    "states": []
@@ -459,17 +461,6 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Former Bedrocan CEO Alleges Financial Sabotage and Breach of Contract by Dutch Health Ministry",
-   "link": "https://stratcann.com/news/bedrocan-alleges-financial-sabotage-breach-of-contract-dutch-health-ministry/",
-   "summary": "Bedrocan has responded to the November 6, 2026, letter from the Dutch Minister of Health, Welfare and Sport regarding the bankruptcy of Bedrocan Nederland BV. The post Former Bedrocan CEO Alleges Financial Sabotage and Breach of Contract by Dutch Health Minist",
-   "ts": 1794850614.0,
-   "date": "2026-11-16 12:36",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "Google News: intl cannabis",
    "title": "Boots to prescribe medical cannabis in first for high street pharmacy - The Independent",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdzdwNnFfLWhtelYzamJmckVkQ01Kd01ndDZ4Sko3TW0zM0hLazJqTVNsUmZib0lPSkJrOEkyTmJTcDR5TWlDS2JjRVZwMTd3R3ZIamNJYmFXakZHMkhlN2ZqZTFBcExQMElKMDBUV0tCOVRRNndTWWQ2SHlXUHRLLXd5LTJfSFlSR0JVYkd1QXprYkhkZ0UyRGNPc3c4Rmlael9VYUdjNFVhWm5T?oc=5",
@@ -490,8 +481,30 @@
    "category": "International",
    "is_law": false,
    "states": []
+  },
+  {
+   "source": "Cannabis Health News (UK)",
+   "title": "\u2018We Should Do Better\u2019: Cannabis Industry Urged to Fund Research Into Women\u2019s Pain",
+   "link": "https://cannabishealthnews.co.uk/2026/11/16/we-should-do-better-cannabis-industry-urged-to-fund-research-into-womens-pain/",
+   "summary": "Experts at the first Cannabis Health Symposium in Germany urged the industry to fund research into women\u2019s pain, with an endometriosis specialist outlining plans for a new cannabis study and appealing for \u20ac300,000 for research.",
+   "ts": 1794823234.0,
+   "date": "2026-11-16 05:00",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "Google News: intl cannabis",
+   "title": "Report: Australia Medical Cannabis Market to Reach $2.6B by 2035 - Ganjapreneur",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdEhPX296VTZEOENPOExSXzVVZ0UyZEJtMHlsaUY5WWNRYlZmalAzMlRpVUgxNGFDUmNfOVpRd1FNMFdBTVJfdmkzTVZGZVZTbGRLLWZWUEMySlBPcjUzMGpzTmI5a3dLaWJiYUNGOHdIX0VDY2ZSOE9jWWtqbjFtSnFnSFdGTWZhZS1wUzFoT1A4Zw?oc=5",
+   "summary": "",
+   "ts": 1794583276.0,
+   "date": "2026-11-13 10:21",
+   "category": "International",
+   "is_law": false,
+   "states": []
   }
  ],
- "news_health_total": 17,
- "generated": "2026-11-16 17:29 EST"
+ "news_health_total": 20,
+ "generated": "2026-11-16 17:44 EST"
 }
