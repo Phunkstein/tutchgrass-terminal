@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-16T12:02:52-0500",
- "generated_ts": 1794848572,
+ "generated": "2026-11-16T12:38:14-0500",
+ "generated_ts": 1794850695,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -39,6 +39,19 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "formerbedrocanceoallegesfinancialsabotageandbreachofcontract",
+   "title": "Former Bedrocan CEO Alleges Financial Sabotage and Breach of Contract by Dutch Health Ministry",
+   "link": "https://stratcann.com/news/bedrocan-alleges-financial-sabotage-breach-of-contract-dutch-health-ministry/",
+   "source": "StratCann (Canada)",
+   "category": "International",
+   "is_law": true,
+   "states": [],
+   "published": "2026-11-16T12:36:54-0500",
+   "published_ts": 1794850614.0,
+   "first_seen": "2026-11-16T12:38:14-0500",
+   "first_seen_ts": 1794850695
+  },
   {
    "id": "virginialegislativecommitteerecommendschangestomarijuanalega",
    "title": "Virginia Legislative Committee Recommends Changes To Marijuana Legalization Law For 2027 Session",
@@ -239,21 +252,6 @@
    "published_ts": 1794753647.0,
    "first_seen": "2026-11-15T09:43:14-0500",
    "first_seen_ts": 1794753794
-  },
-  {
-   "id": "missourihempthcproductbantakeseffectwithtemporaryexemptionfo",
-   "title": "Missouri Hemp THC Product Ban Takes Effect, With Temporary Exemption For Beverages",
-   "link": "https://www.marijuanamoment.net/missouri-hemp-thc-product-ban-takes-effect-with-temporary-exemption-for-beverages/",
-   "source": "Marijuana Moment",
-   "category": "US states",
-   "is_law": true,
-   "states": [
-    "Missouri"
-   ],
-   "published": "2026-11-14T12:26:58-0500",
-   "published_ts": 1794677218.0,
-   "first_seen": "2026-11-14T12:28:13-0500",
-   "first_seen_ts": 1794677293
   }
  ]
 }
