@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-15 11:45 EST",
+ "generated": "2026-11-16 00:45 EST",
  "window": {
-  "start": "2026-10-16",
-  "end": "2026-11-15",
+  "start": "2026-10-17",
+  "end": "2026-11-16",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "24c6c023b1758379",
+ "fingerprint": "b1a0d574de0c20b7",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -62,8 +62,7 @@
   "sleep": [
    "42935025",
    "43015371",
-   "42997636",
-   "42885647"
+   "42997636"
   ],
   "pain": [
    "42994510",
@@ -75,7 +74,7 @@
    "42929306",
    "42927589",
    "42893197",
-   "42885647"
+   "42965212"
   ],
   "anxiety": [
    "43015371",
@@ -85,8 +84,7 @@
    "42950713"
   ],
   "mood": [
-   "42998719",
-   "42963524"
+   "42998719"
   ],
   "ptsd": [
    "42891034",
@@ -131,19 +129,19 @@
   "ibd": []
  },
  "pubmed_counts": {
-  "sleep": 24,
-  "pain": 31,
-  "anxiety": 46,
-  "mood": 56,
-  "ptsd": 14,
+  "sleep": 23,
+  "pain": 29,
+  "anxiety": 45,
+  "mood": 55,
+  "ptsd": 13,
   "arthritis": 5,
   "inflammation": 11,
   "nausea": 7,
   "appetite": 3,
   "focus": 9,
   "fibromyalgia": 3,
-  "ms": 7,
-  "epilepsy": 16,
+  "ms": 5,
+  "epilepsy": 15,
   "migraine": 4,
   "ibd": 2
  },
@@ -551,6 +549,26 @@
    ]
   },
   {
+   "pmid": "42965212",
+   "title": "Normal on the Inside: A Case of Recurrent Abdominal Pain, Equivocal CT Appendicitis, and Histologically Normal Appendix in an Adolescent With Chronic Cannabis Use.",
+   "journal": "Cureus",
+   "date": "2026-10-31",
+   "pubdate": "2026-09-30",
+   "first_author": "Abdelgabar et al.",
+   "doi": "10.7759/cureus.117214",
+   "grade": "case",
+   "grade_label": "Case report",
+   "plain": {
+    "did": "A report on one or a few patients.",
+    "found": "Faecal calprotectin was 159 microg/g. When CT findings, operative appearances, and histology point in different directions, the underlying diagnosis is not resolved by surgery; it has to be reconsidered from the beginning.",
+    "caveat": "One or a few patients. Useful for safety signals, not for effect."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42965212/",
+   "conditions": [
+    "pain"
+   ]
+  },
+  {
    "pmid": "42963524",
    "title": "Factors associated with cannabis use among infertile patients and their partner.",
    "journal": "J Assist Reprod Genet",
@@ -567,8 +585,7 @@
    },
    "url": "https://pubmed.ncbi.nlm.nih.gov/42963524/",
    "conditions": [
-    "anxiety",
-    "mood"
+    "anxiety"
    ]
   },
   {
@@ -871,28 +888,7 @@
    "conditions": [
     "ptsd"
    ]
-  },
-  {
-   "pmid": "42885647",
-   "title": "Pain Severity Trajectories and Patient Profiles in Chronic Pain Patients Treated with Cannabis-Based Medicinal Products: A k-Means Clustering Analysis of the UK Medical Cannabis Registry.",
-   "journal": "J Clin Pharmacol",
-   "date": "2026-10-16",
-   "pubdate": "2026-10-01",
-   "first_author": "Erridge et al.",
-   "doi": "10.1002/jcph.70313",
-   "grade": "obs",
-   "grade_label": "Observational",
-   "plain": {
-    "did": "Researchers looked at data on 3744 people (nobody was assigned a treatment).",
-    "found": "Adverse events were reported by 14.37% (n = 538) of patients, predominantly mild or moderate. Baseline sleep quality, anxiety, and treatment indication were more strongly associated with response than product- or dose-related factors.",
-    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42885647/",
-   "conditions": [
-    "sleep",
-    "pain"
-   ]
   }
  ],
- "week_start": "2026-11-08"
+ "week_start": "2026-11-09"
 }
