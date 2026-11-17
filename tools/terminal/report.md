@@ -1,6 +1,6 @@
 # Cannabis Agent Terminal: Scientist report
 
-Generated 2026-11-17 11:45 EST. Research summary, not medical advice. Talk to a doctor.
+Generated 2026-11-17 12:45 EST. Research summary, not medical advice. Talk to a doctor.
 
 _Strain names are typical examples only; the same name can test very differently by grower and batch. Go by the lab COA (THC, CBD, minor cannabinoids, terpenes), not the name._
 
@@ -14,7 +14,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** THC acts on CB1 receptors in pain pathways of the spinal cord and brain, turning down pain signaling. The AHRQ review found comparable-ratio and high-THC products gave small pain gains while low-THC/high-CBD products may not help. Low-dose vaporized THC (1.29%) still beat placebo in neuropathic pain. Beta-caryophyllene is a terpene that binds CB2 (immune/inflammation) receptors and reduced neuropathic pain in mice without tolerance; that part is animal-only.
 - **Strains that typically express this profile:** Harlequin (CBD-leaning balanced), Cannatonic (balanced), OG Kush / GSC-type cuts (THC-dominant, often caryophyllene-forward) (typically; check the COA)
 - **Cautions:** Benefits are modest; Cochrane notes harms may outweigh benefits for some people. THC causes dizziness, sleepiness, impaired driving; start low. Interactions with opioids, sedatives, and blood thinners; tell your doctor.
-- **New PubMed papers, last 30 days:** 22
+- **New PubMed papers, last 30 days:** 23
 - **Citations:**
   - [SR] Chou et al. (2026). Cannabis-Based Products for Chronic Pain : An Updated Systematic Review. *Ann Intern Med*. PMID [41429020](https://pubmed.ncbi.nlm.nih.gov/41429020/). DOI [10.7326/ANNALS-25-03152](https://doi.org/10.7326/ANNALS-25-03152)
   - [SR] Mücke et al. (2018). Cannabis-based medicines for chronic neuropathic pain in adults. *Cochrane Database Syst Rev*. PMID [29513392](https://pubmed.ncbi.nlm.nih.gov/29513392/). DOI [10.1002/14651858.CD012182.pub2](https://doi.org/10.1002/14651858.CD012182.pub2)
@@ -37,7 +37,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** In a controlled vapor study of four pharmaceutical varieties, only the balanced one (Bediol: 13.4 mg THC / 17.8 mg CBD) gave more patients a 30% pain drop than placebo (90% vs 55%). Pure THC (Bedrocan) and pure CBD (Bedrolite) did not beat placebo on main outcomes, and CBD seemed to blunt some of THC's analgesia. Nabilone (synthetic THC) improved sleep in a small fibromyalgia trial.
 - **Strains that typically express this profile:** Pennywise (~1:1), Cannatonic (~1:1 to CBD-leaning), Harle-Tsu (CBD-leaning) (typically; check the COA)
 - **Cautions:** Single-dose and short trials; long-term benefit unknown. Nabilone tolerability was low in fibromyalgia patients. Watch for daytime drowsiness and mixing with other sedating meds.
-- **New PubMed papers, last 30 days:** 3
+- **New PubMed papers, last 30 days:** 4
 - **Citations:**
   - [RCT] van de Donk et al. (2019). An experimental randomized study on the analgesic effects of pharmaceutical-grade cannabis in chronic pain patients with fibromyalgia. *Pain*. PMID [30585986](https://pubmed.ncbi.nlm.nih.gov/30585986/). DOI [10.1097/j.pain.0000000000001464](https://doi.org/10.1097/j.pain.0000000000001464)
   - [SR] Strand et al. (2023). Cannabis for the Treatment of Fibromyalgia: A Systematic Review. *Biomedicines*. PMID [37371716](https://pubmed.ncbi.nlm.nih.gov/37371716/). DOI [10.3390/biomedicines11061621](https://doi.org/10.3390/biomedicines11061621)
@@ -58,7 +58,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** THC reduces muscle over-activity through CB1 receptors in the spinal cord; CBD in equal amounts is thought to soften THC's psychoactive side effects. In an enriched-design phase 3 trial, people who responded in the first 4 weeks kept the benefit vs placebo over 12 weeks; a 2023 meta-analysis supports add-on use for treatment-resistant spasticity.
 - **Strains that typically express this profile:** Pennywise (~1:1), Harlequin (CBD-leaning balanced), Cannatonic (typically; check the COA)
 - **Cautions:** Effects are modest (about 0.76 points on a 0-10 scale per National Academies). Dizziness and falls risk; psychiatric and nervous-system side effects slightly more common. Only about half of people respond in trials; stop if no benefit after a few weeks.
-- **New PubMed papers, last 30 days:** 3
+- **New PubMed papers, last 30 days:** 4
 - **Citations:**
   - [SR] Filippini et al. (2022). Cannabis and cannabinoids for symptomatic treatment for people with multiple sclerosis. *Cochrane Database Syst Rev*. PMID [35510826](https://pubmed.ncbi.nlm.nih.gov/35510826/). DOI [10.1002/14651858.CD013444.pub2](https://doi.org/10.1002/14651858.CD013444.pub2)
   - [RCT] Novotna et al. (2011). A randomized, double-blind, placebo-controlled, parallel-group, enriched-design study of nabiximols* (Sativex(®) ), as add-on therapy, in subjects with refractory spasticity caused by multiple sclerosis. *Eur J Neurol*. PMID [21362108](https://pubmed.ncbi.nlm.nih.gov/21362108/). DOI [10.1111/j.1468-1331.2010.03328.x](https://doi.org/10.1111/j.1468-1331.2010.03328.x)
@@ -80,7 +80,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** CBD does not work mainly through CB1; it calms over-excited neurons through several targets (e.g., GPR55, TRPV1, adenosine signaling). In trials, adding CBD cut convulsive seizures in Dravet and drop seizures in Lennox-Gastaut more than placebo, and reduced TSC-associated seizures (25 mg/kg had better safety than 50).
 - **Strains that typically express this profile:** ACDC (very high CBD), Charlotte's Web-type hemp (very high CBD), Ringo's Gift (high CBD) (typically; check the COA)
 - **Cautions:** Do not swap a prescribed anti-seizure drug for dispensary products; doses in trials were far higher and pharmaceutical-grade. Liver enzyme elevations seen with CBD, especially with valproate; drug interactions (e.g., clobazam). Store CBD oils vary widely in actual content.
-- **New PubMed papers, last 30 days:** 14
+- **New PubMed papers, last 30 days:** 15
 - **Citations:**
   - [RCT] Devinsky et al. (2017). Trial of Cannabidiol for Drug-Resistant Seizures in the Dravet Syndrome. *N Engl J Med*. PMID [28538134](https://pubmed.ncbi.nlm.nih.gov/28538134/). DOI [10.1056/NEJMoa1611618](https://doi.org/10.1056/NEJMoa1611618)
   - [RCT] Devinsky et al. (2018). Effect of Cannabidiol on Drop Seizures in the Lennox-Gastaut Syndrome. *N Engl J Med*. PMID [29768152](https://pubmed.ncbi.nlm.nih.gov/29768152/). DOI [10.1056/NEJMoa1714631](https://doi.org/10.1056/NEJMoa1714631)
@@ -123,7 +123,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** CBD reduced anxiety from a simulated public-speaking test in people with social anxiety, toward healthy-control levels. In a 2024 human lab study, vaporized D-limonene added to THC selectively reduced THC-induced anxiety, so limonene-rich chemovars may make THC easier to tolerate. Linalool shows calming effects in mice only.
 - **Strains that typically express this profile:** ACDC (very high CBD), Ringo's Gift, Remedy (high CBD) (typically; check the COA)
 - **Cautions:** High THC can trigger or worsen anxiety and panic. Heavy adolescent use is linked to later depression and suicidality. CBD interacts with some antidepressants and benzodiazepines via liver enzymes.
-- **New PubMed papers, last 30 days:** 42
+- **New PubMed papers, last 30 days:** 43
 - **Citations:**
   - [SR] Han et al. (2024). Therapeutic potential of cannabidiol (CBD) in anxiety disorders: A systematic review and meta-analysis. *Psychiatry Res*. PMID [38924898](https://pubmed.ncbi.nlm.nih.gov/38924898/). DOI [10.1016/j.psychres.2024.116049](https://doi.org/10.1016/j.psychres.2024.116049)
   - [RCT] Bergamaschi et al. (2011). Cannabidiol reduces the anxiety induced by simulated public speaking in treatment-naïve social phobia patients. *Neuropsychopharmacology*. PMID [21307846](https://pubmed.ncbi.nlm.nih.gov/21307846/). DOI [10.1038/npp.2011.6](https://doi.org/10.1038/npp.2011.6)
