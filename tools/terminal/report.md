@@ -1,6 +1,6 @@
 # Cannabis Agent Terminal: Scientist report
 
-Generated 2026-11-16 22:44 EST. Research summary, not medical advice. Talk to a doctor.
+Generated 2026-11-16 23:44 EST. Research summary, not medical advice. Talk to a doctor.
 
 _Strain names are typical examples only; the same name can test very differently by grower and batch. Go by the lab COA (THC, CBD, minor cannabinoids, terpenes), not the name._
 
@@ -14,7 +14,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** THC acts on CB1 receptors in pain pathways of the spinal cord and brain, turning down pain signaling. The AHRQ review found comparable-ratio and high-THC products gave small pain gains while low-THC/high-CBD products may not help. Low-dose vaporized THC (1.29%) still beat placebo in neuropathic pain. Beta-caryophyllene is a terpene that binds CB2 (immune/inflammation) receptors and reduced neuropathic pain in mice without tolerance; that part is animal-only.
 - **Strains that typically express this profile:** Harlequin (CBD-leaning balanced), Cannatonic (balanced), OG Kush / GSC-type cuts (THC-dominant, often caryophyllene-forward) (typically; check the COA)
 - **Cautions:** Benefits are modest; Cochrane notes harms may outweigh benefits for some people. THC causes dizziness, sleepiness, impaired driving; start low. Interactions with opioids, sedatives, and blood thinners; tell your doctor.
-- **New PubMed papers, last 30 days:** 21
+- **New PubMed papers, last 30 days:** 22
 - **Citations:**
   - [SR] Chou et al. (2026). Cannabis-Based Products for Chronic Pain : An Updated Systematic Review. *Ann Intern Med*. PMID [41429020](https://pubmed.ncbi.nlm.nih.gov/41429020/). DOI [10.7326/ANNALS-25-03152](https://doi.org/10.7326/ANNALS-25-03152)
   - [SR] Mücke et al. (2018). Cannabis-based medicines for chronic neuropathic pain in adults. *Cochrane Database Syst Rev*. PMID [29513392](https://pubmed.ncbi.nlm.nih.gov/29513392/). DOI [10.1002/14651858.CD012182.pub2](https://doi.org/10.1002/14651858.CD012182.pub2)
@@ -100,7 +100,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** THC shortens time to fall asleep via CB1 receptors. In a crossover RCT, an oil with 10 mg/ml THC + 15 mg/ml CBD improved sleep time and quality, and 60% no longer met insomnia criteria at 2 weeks. CBN: 20 mg nightly reduced awakenings in one RCT; a single 300 mg dose improved subjective sleep and sleep onset but not wake time after sleep onset. Myrcene had sedative effects in mice only.
 - **Strains that typically express this profile:** Granddaddy Purple (often myrcene-forward), Northern Lights, Bubba Kush (typically; check the COA)
 - **Cautions:** Tolerance and rebound insomnia when stopping daily THC. Next-day grogginess; do not drive. CBD alone at 150 mg did not beat placebo on most sleep outcomes.
-- **New PubMed papers, last 30 days:** 23
+- **New PubMed papers, last 30 days:** 24
 - **Citations:**
   - [RCT] Ried et al. (2023). Medicinal cannabis improves sleep in adults with insomnia: a randomised double-blind placebo-controlled crossover study. *J Sleep Res*. PMID [36539991](https://pubmed.ncbi.nlm.nih.gov/36539991/). DOI [10.1111/jsr.13793](https://doi.org/10.1111/jsr.13793)
   - [RCT] Narayan et al. (2024). Cannabidiol for moderate-severe insomnia: a randomized controlled pilot trial of 150 mg of nightly dosing. *J Clin Sleep Med*. PMID [38174873](https://pubmed.ncbi.nlm.nih.gov/38174873/). DOI [10.5664/jcsm.10998](https://doi.org/10.5664/jcsm.10998)
