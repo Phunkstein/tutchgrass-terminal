@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-16 23:46 EST",
+ "generated": "2026-11-17 00:45 EST",
  "window": {
-  "start": "2026-10-17",
-  "end": "2026-11-16",
+  "start": "2026-10-18",
+  "end": "2026-11-17",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "0497e6cbcf627757",
+ "fingerprint": "1c19df626d49b78a",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -74,7 +74,8 @@
    "42950713",
    "42929306",
    "42927589",
-   "42893197"
+   "42893197",
+   "42965212"
   ],
   "anxiety": [
    "43015371",
@@ -87,7 +88,6 @@
    "42998719"
   ],
   "ptsd": [
-   "42891034",
    "43015371",
    "42994609",
    "42945746"
@@ -131,11 +131,11 @@
   "ibd": []
  },
  "pubmed_counts": {
-  "sleep": 23,
-  "pain": 32,
+  "sleep": 22,
+  "pain": 31,
   "anxiety": 46,
-  "mood": 56,
-  "ptsd": 13,
+  "mood": 55,
+  "ptsd": 11,
   "arthritis": 6,
   "inflammation": 11,
   "nausea": 7,
@@ -591,6 +591,26 @@
    ]
   },
   {
+   "pmid": "42965212",
+   "title": "Normal on the Inside: A Case of Recurrent Abdominal Pain, Equivocal CT Appendicitis, and Histologically Normal Appendix in an Adolescent With Chronic Cannabis Use.",
+   "journal": "Cureus",
+   "date": "2026-10-31",
+   "pubdate": "2026-09-30",
+   "first_author": "Abdelgabar et al.",
+   "doi": "10.7759/cureus.117214",
+   "grade": "case",
+   "grade_label": "Case report",
+   "plain": {
+    "did": "A report on one or a few patients.",
+    "found": "Faecal calprotectin was 159 microg/g. When CT findings, operative appearances, and histology point in different directions, the underlying diagnosis is not resolved by surgery; it has to be reconsidered from the beginning.",
+    "caveat": "One or a few patients. Useful for safety signals, not for effect."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42965212/",
+   "conditions": [
+    "pain"
+   ]
+  },
+  {
    "pmid": "42963524",
    "title": "Factors associated with cannabis use among infertile patients and their partner.",
    "journal": "J Assist Reprod Genet",
@@ -890,27 +910,7 @@
    "conditions": [
     "pain"
    ]
-  },
-  {
-   "pmid": "42891034",
-   "title": "In situ delivery of cannabidiol-loaded GelMA sponge attenuates cerebral edema and neuroinflammation in traumatic brain injury.",
-   "journal": "Mater Today Bio",
-   "date": "2026-10-17",
-   "pubdate": "2026-10-01",
-   "first_author": "Li et al.",
-   "doi": "10.1016/j.mtbio.2026.103721",
-   "grade": "mice",
-   "grade_label": "Mice / rats only",
-   "plain": {
-    "did": "Experiments in mice or rats; no people were studied.",
-    "found": "Transcriptomic sequencing further showed that GM-CBD-associated differentially expressed genes were mainly involved in immune, stress, and inflammatory responses, with significant enrichment of the NF-\u03baB, PI3K-Akt, and TNF signaling pathways.",
-    "caveat": "Animal results often do not carry over to people."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42891034/",
-   "conditions": [
-    "ptsd"
-   ]
   }
  ],
- "week_start": "2026-11-09"
+ "week_start": "2026-11-10"
 }
