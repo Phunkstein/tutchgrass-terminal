@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-17T10:03:15-0500",
- "generated_ts": 1794927796,
+ "generated": "2026-11-17T10:13:14-0500",
+ "generated_ts": 1794928394,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "items": 0
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,21 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "texasshouldlegalizemarijuanaanduserevenuetofund1500economicr",
+   "title": "Texas Should Legalize Marijuana And Use Revenue To Fund $1,500 Economic Relief Checks For Every Household In The State, Lawmaker Says",
+   "link": "https://www.marijuanamoment.net/texas-should-legalize-marijuana-and-use-revenue-to-fund-1500-economic-relief-checks-for-every-household-in-the-state-lawmaker-says/",
+   "source": "Marijuana Moment",
+   "category": "US states",
+   "is_law": true,
+   "states": [
+    "Texas"
+   ],
+   "published": "2026-11-17T10:10:48-0500",
+   "published_ts": 1794928248.0,
+   "first_seen": "2026-11-17T10:13:14-0500",
+   "first_seen_ts": 1794928394
+  },
   {
    "id": "whobenefitswhencannabiscompaniesconsolidate",
    "title": "Who Benefits When Cannabis Companies Consolidate?",
