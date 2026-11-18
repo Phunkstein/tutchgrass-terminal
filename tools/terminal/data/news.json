@@ -28,17 +28,17 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 119"
   },
   {
    "source": "Google News: intl cannabis",
    "url": "https://news.google.com/rss/search?q=cannabis+(Germany+OR+Canada+OR+Thailand+OR+Europe+OR+Australia+OR+UK)+when:7d&hl=en-US&gl=US&ceid=US:en",
-   "status": "unavailable",
-   "error": "not well-formed (invalid token): line 1, column 252"
+   "status": "ok",
+   "items": 12
   }
  ],
- "total": 92,
+ "total": 91,
  "by_category": {
   "US federal": [
    {
@@ -219,19 +219,6 @@
     ]
    },
    {
-    "source": "StratCann (Canada)",
-    "title": "SQDC Reports Strong Q2 2026 Sales, Driven by New Stores and Vapes",
-    "link": "https://stratcann.com/news/sqdc-reports-strong-q2-2026-sales-driven-by-new-stores-and-vapes/",
-    "summary": "The Soci\u00e9t\u00e9 qu\u00e9b\u00e9coise du cannabis (SQDC) reported $207.5 million in sales for the three months ended September 30, 2026 (Q2 2026), gross profit of $69.4... The post SQDC Reports Strong Q2 2026 Sales, Driven by New Stores and Vapes appeared first on StratCann ",
-    "ts": 1794519122.0,
-    "date": "2026-11-12 16:32",
-    "category": "US states",
-    "is_law": false,
-    "states": [
-     "New"
-    ]
-   },
-   {
     "source": "MJBizDaily",
     "title": "Ohio cannabis store sells to out-of-state investor for record sum",
     "link": "https://mjbizdaily.com/news/ohio-cannabis-store-sells-to-out-of-state-investor-for-record-sum/619169/",
@@ -242,6 +229,19 @@
     "is_law": false,
     "states": [
      "Ohio"
+    ]
+   },
+   {
+    "source": "Business of Cannabis (intl)",
+    "title": "Vireo Growth Completes All-Share Acquisition of FLUENT, Taking Florida Network to 74 Dispensaries",
+    "link": "https://businessofcannabis.com/vireo-growth-completes-all-share-acquisition-of-fluent-taking-florida-network-to-74-dispensaries/",
+    "summary": "Vireo Growth has completed its acquisition of FLUENT Corp. in an all-share deal, issuing 6,148,780 subordinate voting shares for the whole of FLUENT\u2019s equity. Neither company attached a dollar value to the transaction, which closed on 9 November through an Ont",
+    "ts": 1794312065.0,
+    "date": "2026-11-10 07:01",
+    "category": "US states",
+    "is_law": false,
+    "states": [
+     "Florida"
     ]
    }
   ],
@@ -258,6 +258,17 @@
     "states": []
    },
    {
+    "source": "Google News: intl cannabis",
+    "title": "US Cannabis Competitiveness Abroad: Can It Win in Global Markets? - Forbes",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMkpLTHJ4YnNiZU1kWE1sM05SRDhlQlVvUkstNkZfeS1aTDhkaWRsVFZFcEowZEpRaFNKZTdsTWY0VVhidzRCd0VVdk95Rm9lcXRfUFdnd19leFBNN3JvZi12Y2pQb281MEdmbkxoNFF3Zko1NXAxMWJTYU9lWjA0eFFfX19CN09taHZFNWJQWmlLMzg3dUJDejNvVQ?oc=5",
+    "summary": "",
+    "ts": 1795003200.0,
+    "date": "2026-11-18 07:00",
+    "category": "International",
+    "is_law": false,
+    "states": []
+   },
+   {
     "source": "Business of Cannabis (intl)",
     "title": "More Tonnes, Tougher Economics: Europe\u2019s Medical Cannabis Outlook for 2027",
     "link": "https://businessofcannabis.com/more-tonnes-tougher-economics-europes-medical-cannabis-outlook-for-2027/",
@@ -269,14 +280,14 @@
     "states": []
    },
    {
-    "source": "StratCann (Canada)",
-    "title": "Provincial Court Dismisses Constitutional Challenge for Agent Representation",
-    "link": "https://stratcann.com/enforcement/provincial-court-dismisses-constitutional-challenge-for-agent-representation/",
-    "summary": "A Nova Scotia judge has dismissed an Aboriginal and Treaty rights claim that sought to allow traditional Elders and lay agents to represent an unlicensed... The post Provincial Court Dismisses Constitutional Challenge for Agent Representation appeared first on",
-    "ts": 1794943919.0,
-    "date": "2026-11-17 14:31",
+    "source": "Google News: intl cannabis",
+    "title": "ICBC Berlin Returns for 10th Anniversary as Europe\u2019s Cannabis Industry Evolves - High Times Magazine",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90VkhvRkFPLVJFVENXZkZmaE45eVNxUnU4MGlQbnZsWTlVeWRPVDloNHU1N2J1MEhsMUgxcndFOW12Y05nd2lNTTZiNVRlaGJEOGR6dEE3ajVpa2ZQTWhzbW9IRlNVZVNtSXFXVEp1d2w?oc=5",
+    "summary": "",
+    "ts": 1794937563.0,
+    "date": "2026-11-17 12:46",
     "category": "International",
-    "is_law": true,
+    "is_law": false,
     "states": []
    },
    {
@@ -286,17 +297,6 @@
     "summary": "The UK\u2019s largest pharmacy chain, with more than 1,800 stores and \u00a37.5bn in annual revenue, on Monday announced its entry into the blossoming medical cannabis sector. While the mechanics behind its new online medical cannabis service, SureLeaf, remain thin, the",
     "ts": 1794933710.0,
     "date": "2026-11-17 11:41",
-    "category": "International",
-    "is_law": false,
-    "states": []
-   },
-   {
-    "source": "StratCann (Canada)",
-    "title": "Who Benefits When Cannabis Companies Consolidate?",
-    "link": "https://stratcann.com/news/who-benefits-when-cannabis-companies-consolidate/",
-    "summary": "When two large cannabis companies combine, the deal can change how they buy, what they produce in-house, and which products they distribute. For independent growers,... The post Who Benefits When Cannabis Companies Consolidate? appeared first on StratCann .",
-    "ts": 1794927790.0,
-    "date": "2026-11-17 10:03",
     "category": "International",
     "is_law": false,
     "states": []
@@ -324,12 +324,12 @@
     "states": []
    },
    {
-    "source": "StratCann (Canada)",
-    "title": "UK\u2019s Largest Pharmacy Chain Launches Online Medical Cannabis Service",
-    "link": "https://stratcann.com/news/uks-largest-pharmacy-chain-launches-online-medical-cannabis-service/",
-    "summary": "A national pharmacy chain in the UK has launched an online platform for providing access to medical cannabis. The post UK\u2019s Largest Pharmacy Chain Launches Online Medical Cannabis Service appeared first on StratCann .",
-    "ts": 1794856912.0,
-    "date": "2026-11-16 14:21",
+    "source": "Google News: intl cannabis",
+    "title": "Boots to begin prescribing medical cannabis in UK - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTkJiNlNYMjRobE9aQVRDUzI4NHdoWjhCOUE0VkttWHIxN0pCbk5EbjNXRDBkLUxzeUNwWG90WnBNRHpBOVI4U1hrMkkyQXNVZ0d3RklOZV9KWGpLdFN0UlZMc0tGXzhSMWEzVEx2UmhXRTRSRmZjb2Y4ZU1ZVWhxQVdvM2swNjdnQ3VyT0NDdE1zbmNnVUNZUThqQUZLMmZfZTRJ?oc=5",
+    "summary": "",
+    "ts": 1794882600.0,
+    "date": "2026-11-16 21:30",
     "category": "International",
     "is_law": false,
     "states": []
@@ -452,6 +452,17 @@
    "states": []
   },
   {
+   "source": "Google News: intl cannabis",
+   "title": "US Cannabis Competitiveness Abroad: Can It Win in Global Markets? - Forbes",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMkpLTHJ4YnNiZU1kWE1sM05SRDhlQlVvUkstNkZfeS1aTDhkaWRsVFZFcEowZEpRaFNKZTdsTWY0VVhidzRCd0VVdk95Rm9lcXRfUFdnd19leFBNN3JvZi12Y2pQb281MEdmbkxoNFF3Zko1NXAxMWJTYU9lWjA0eFFfX19CN09taHZFNWJQWmlLMzg3dUJDejNvVQ?oc=5",
+   "summary": "",
+   "ts": 1795003200.0,
+   "date": "2026-11-18 07:00",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
    "source": "Marijuana Moment",
    "title": "New medical cannabis delivery plan involves USPS (Newsletter: November 18, 2026)",
    "link": "https://www.marijuanamoment.net/new-medical-cannabis-delivery-plan-involves-usps-newsletter-november-18-2026/",
@@ -514,17 +525,6 @@
    ]
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Provincial Court Dismisses Constitutional Challenge for Agent Representation",
-   "link": "https://stratcann.com/enforcement/provincial-court-dismisses-constitutional-challenge-for-agent-representation/",
-   "summary": "A Nova Scotia judge has dismissed an Aboriginal and Treaty rights claim that sought to allow traditional Elders and lay agents to represent an unlicensed... The post Provincial Court Dismisses Constitutional Challenge for Agent Representation appeared first on",
-   "ts": 1794943919.0,
-   "date": "2026-11-17 14:31",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "Marijuana Moment",
    "title": "The Election\u2019s Blue Wave Won\u2019t Save Cannabis Equity, But A New Blueprint Might (Op-Ed)",
    "link": "https://www.marijuanamoment.net/the-elections-blue-wave-wont-save-cannabis-equity-but-a-new-blueprint-might-op-ed/",
@@ -536,6 +536,17 @@
    "states": [
     "New"
    ]
+  },
+  {
+   "source": "Google News: intl cannabis",
+   "title": "ICBC Berlin Returns for 10th Anniversary as Europe\u2019s Cannabis Industry Evolves - High Times Magazine",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90VkhvRkFPLVJFVENXZkZmaE45eVNxUnU4MGlQbnZsWTlVeWRPVDloNHU1N2J1MEhsMUgxcndFOW12Y05nd2lNTTZiNVRlaGJEOGR6dEE3ajVpa2ZQTWhzbW9IRlNVZVNtSXFXVEp1d2w?oc=5",
+   "summary": "",
+   "ts": 1794937563.0,
+   "date": "2026-11-17 12:46",
+   "category": "International",
+   "is_law": false,
+   "states": []
   },
   {
    "source": "Business of Cannabis (intl)",
@@ -571,17 +582,6 @@
    "states": [
     "Texas"
    ]
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Who Benefits When Cannabis Companies Consolidate?",
-   "link": "https://stratcann.com/news/who-benefits-when-cannabis-companies-consolidate/",
-   "summary": "When two large cannabis companies combine, the deal can change how they buy, what they produce in-house, and which products they distribute. For independent growers,... The post Who Benefits When Cannabis Companies Consolidate? appeared first on StratCann .",
-   "ts": 1794927790.0,
-   "date": "2026-11-17 10:03",
-   "category": "International",
-   "is_law": false,
-   "states": []
   },
   {
    "source": "Business of Cannabis (intl)",
@@ -641,12 +641,45 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "UK\u2019s Largest Pharmacy Chain Launches Online Medical Cannabis Service",
-   "link": "https://stratcann.com/news/uks-largest-pharmacy-chain-launches-online-medical-cannabis-service/",
-   "summary": "A national pharmacy chain in the UK has launched an online platform for providing access to medical cannabis. The post UK\u2019s Largest Pharmacy Chain Launches Online Medical Cannabis Service appeared first on StratCann .",
-   "ts": 1794856912.0,
-   "date": "2026-11-16 14:21",
+   "source": "Google News: intl cannabis",
+   "title": "Boots to begin prescribing medical cannabis in UK - The Guardian",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTkJiNlNYMjRobE9aQVRDUzI4NHdoWjhCOUE0VkttWHIxN0pCbk5EbjNXRDBkLUxzeUNwWG90WnBNRHpBOVI4U1hrMkkyQXNVZ0d3RklOZV9KWGpLdFN0UlZMc0tGXzhSMWEzVEx2UmhXRTRSRmZjb2Y4ZU1ZVWhxQVdvM2swNjdnQ3VyT0NDdE1zbmNnVUNZUThqQUZLMmZfZTRJ?oc=5",
+   "summary": "",
+   "ts": 1794882600.0,
+   "date": "2026-11-16 21:30",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "Google News: intl cannabis",
+   "title": "Major UK Pharmacy to Offer Medical Cannabis Prescriptions - Cannabis Equipment News",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ2t0ZDdNVXBQLTZuX0ZnaXpOangyNG9Vb2dMc3hJTExlX2RzRFI5bGxwZk9VRGVZVTBLTVlXOHZPN0tkaVpBV3R3eXViQndNRWNScF9nNXJyQ1VnWFVCSXplUEo5MnFuN1lZbWo0czRuQldtZVNMVVEyc0I2Y0hhVTE5Uzd2YmJiY3JqUUROWHBfZVViVkJzQ2dzUU5NLTRiZi1JUVJORjdEZkhpMDNOVHBkTXJ6cFN3NmZ6MWl0SQ?oc=5",
+   "summary": "",
+   "ts": 1794875747.0,
+   "date": "2026-11-16 19:35",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "Google News: intl cannabis",
+   "title": "Mainstream UK Pharmacy Launches Medical Cannabis Service - International Cannabis Business Conference",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPS0JFc29GRUc3ZGNkeV9OV0RiR3JuSW9QREtNMk1jSm5MdkJOeTVxaWktbmcwMmxaN251WlJCU1lIYmkwUURVaWNDMUxfaHhRZVVkeWNzdXJUMzVCTmpwVjhGaFp3allPYmlmdVFzbFRVdkc3WkRfSktoSmU1RmJJTVJ5a1U4ejVzTndsbzJPWQ?oc=5",
+   "summary": "",
+   "ts": 1794874598.0,
+   "date": "2026-11-16 19:16",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "Google News: intl cannabis",
+   "title": "UK medical cannabis to be offered at mainstream pharmacy Boots - MJBizDaily",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQN1pyVTI2ZzZ6QXJid1hVcVNLeE1rNUdaUVpLclNSb1RvaXBGcmYzT2k4NGluZVc2MWt5VWc4ZjBFWi02RDhaRGY3WHZVZW5HSUFYMXJsZm5aeUtiNFg3OGE1QnBSUVpwaVRqcF9hT3YzQ0lqbDdJTlpZazc0Ry11Y1ZPS1RhWk4tNGU0R1dzMEtHYjJld2hURTNnTUVqcy11S2lEX1g1VkhQNzlXWmx0emhSNmdZTGJwYy11MHVDb0h4cGl0?oc=5",
+   "summary": "",
+   "ts": 1794854912.0,
+   "date": "2026-11-16 13:48",
    "category": "International",
    "is_law": false,
    "states": []
@@ -663,23 +696,23 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Former Bedrocan CEO Alleges Financial Sabotage and Breach of Contract by Dutch Health Ministry",
-   "link": "https://stratcann.com/news/bedrocan-alleges-financial-sabotage-breach-of-contract-dutch-health-ministry/",
-   "summary": "Bedrocan has responded to the November 6, 2026, letter from the Dutch Minister of Health, Welfare and Sport regarding the bankruptcy of Bedrocan Nederland BV. The post Former Bedrocan CEO Alleges Financial Sabotage and Breach of Contract by Dutch Health Minist",
-   "ts": 1794850614.0,
-   "date": "2026-11-16 12:36",
+   "source": "Google News: intl cannabis",
+   "title": "Boots to prescribe medical cannabis in first for high street pharmacy - The Independent",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdzdwNnFfLWhtelYzamJmckVkQ01Kd01ndDZ4Sko3TW0zM0hLazJqTVNsUmZib0lPSkJrOEkyTmJTcDR5TWlDS2JjRVZwMTd3R3ZIamNJYmFXakZHMkhlN2ZqZTFBcExQMElKMDBUV0tCOVRRNndTWWQ2SHlXUHRLLXd5LTJfSFlSR0JVYkd1QXprYkhkZ0UyRGNPc3c4Rmlael9VYUdjNFVhWm5T?oc=5",
+   "summary": "",
+   "ts": 1794838920.0,
+   "date": "2026-11-16 09:22",
    "category": "International",
-   "is_law": true,
+   "is_law": false,
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Rubicon Organics Expands International Reach and Production Capacity in 2026",
-   "link": "https://stratcann.com/financials/rubicon-organics-expands-international-reach-and-production-capacity-in-2026/",
-   "summary": "Rubicon Organics reported $23.1 million in product sales in the three months ended September 30, 2026 (Q3 2026), gross profit of $5.1 million and a... The post Rubicon Organics Expands International Reach and Production Capacity in 2026 appeared first on Strat",
-   "ts": 1794843681.0,
-   "date": "2026-11-16 10:41",
+   "source": "Google News: intl cannabis",
+   "title": "US basketball player arrested after cannabis seizure at Nigeria airport, authorities say - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX0tzZ0dwT25EMVdsdzVCM2MzSkg2OUc5Q2ZsMy1hZHJkMWd0cERkS1JtSWExb1pZcXpqX2RpMFcwTDBBQUk4OW9pdW1QVnlyS0dCQmNKTmg1SnUzR0JjMzE1dnVKelhTQW5iSWYtR2pQQkpxRVBWWHY1LUpON2Z6d0dLUzB6S1YyU3FEVUV4S1JVX0NWZmsyaU9NZFBzLU85b0xiU2d0SUZlY2dtaF9qRlZGRUZDanc2V1c0ZDd4MkNYTHpWZm5QaA?oc=5",
+   "summary": "",
+   "ts": 1794835440.0,
+   "date": "2026-11-16 08:24",
    "category": "International",
    "is_law": false,
    "states": []
@@ -703,28 +736,6 @@
    "ts": 1794828608.0,
    "date": "2026-11-16 06:30",
    "category": "Industry",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Week in Weed \u2013 November 14, 2026",
-   "link": "https://stratcann.com/news/week-in-weed-november-14-2026/",
-   "summary": "StratCann\u2019s weekly round-up o cannabis industry news for the week ending November 14, 2026. The post Week in Weed \u2013 November 14, 2026 appeared first on StratCann .",
-   "ts": 1794658800.0,
-   "date": "2026-11-14 07:20",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "BC Cannabis Wholesale, Direct Delivery Sales Both Increased in Q2",
-   "link": "https://stratcann.com/news/bc-cannabis-wholesale-direct-delivery-sales-both-increased-in-q2/",
-   "summary": "BC's cannabis distributor wholesaled $156.4 million worth of cannabis in its second fiscal quarter of 2026, ending September 30, 2026, totalling 42,254,829 grams. The post BC Cannabis Wholesale, Direct Delivery Sales Both Increased in Q2 appeared first on Stra",
-   "ts": 1794623053.0,
-   "date": "2026-11-13 21:24",
-   "category": "International",
    "is_law": false,
    "states": []
   },
@@ -753,17 +764,6 @@
    "states": [
     "Massachusetts"
    ]
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Lower Domestic Sales Offset by International Expansion for Avicanna in Q3",
-   "link": "https://stratcann.com/financials/lower-domestic-sales-offset-by-international-expansion-for-avicanna-in-q3/",
-   "summary": "Avicanna Inc. reported $5.7 million in revenue for the three months ended September 30, 2026 (Q3 2026), with a gross profit of $2.9 million and... The post Lower Domestic Sales Offset by International Expansion for Avicanna in Q3 appeared first on StratCann .",
-   "ts": 1794591017.0,
-   "date": "2026-11-13 12:30",
-   "category": "International",
-   "is_law": false,
-   "states": []
   },
   {
    "source": "Business of Cannabis (intl)",
@@ -796,6 +796,16 @@
    "link": "https://businessofcannabis.com/cannabis-stocks-today-wednesday-18-november-2026-afc-gamma-holds-above-3-50/",
    "ts": 1795003779.0,
    "date": "2026-11-18 07:09",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "Google News: intl cannabis",
+   "title": "US Cannabis Competitiveness Abroad: Can It Win in Global Markets? - Forbes",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMkpLTHJ4YnNiZU1kWE1sM05SRDhlQlVvUkstNkZfeS1aTDhkaWRsVFZFcEowZEpRaFNKZTdsTWY0VVhidzRCd0VVdk95Rm9lcXRfUFdnd19leFBNN3JvZi12Y2pQb281MEdmbkxoNFF3Zko1NXAxMWJTYU9lWjA0eFFfX19CN09taHZFNWJQWmlLMzg3dUJDejNvVQ?oc=5",
+   "ts": 1795003200.0,
+   "date": "2026-11-18 07:00",
    "category": "International",
    "is_law": false,
    "states": []
@@ -858,16 +868,6 @@
    ]
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Provincial Court Dismisses Constitutional Challenge for Agent Representation",
-   "link": "https://stratcann.com/enforcement/provincial-court-dismisses-constitutional-challenge-for-agent-representation/",
-   "ts": 1794943919.0,
-   "date": "2026-11-17 14:31",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "Marijuana Moment",
    "title": "The Election\u2019s Blue Wave Won\u2019t Save Cannabis Equity, But A New Blueprint Might (Op-Ed)",
    "link": "https://www.marijuanamoment.net/the-elections-blue-wave-wont-save-cannabis-equity-but-a-new-blueprint-might-op-ed/",
@@ -878,6 +878,16 @@
    "states": [
     "New"
    ]
+  },
+  {
+   "source": "Google News: intl cannabis",
+   "title": "ICBC Berlin Returns for 10th Anniversary as Europe\u2019s Cannabis Industry Evolves - High Times Magazine",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90VkhvRkFPLVJFVENXZkZmaE45eVNxUnU4MGlQbnZsWTlVeWRPVDloNHU1N2J1MEhsMUgxcndFOW12Y05nd2lNTTZiNVRlaGJEOGR6dEE3ajVpa2ZQTWhzbW9IRlNVZVNtSXFXVEp1d2w?oc=5",
+   "ts": 1794937563.0,
+   "date": "2026-11-17 12:46",
+   "category": "International",
+   "is_law": false,
+   "states": []
   },
   {
    "source": "Business of Cannabis (intl)",
@@ -910,16 +920,6 @@
    "states": [
     "Texas"
    ]
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Who Benefits When Cannabis Companies Consolidate?",
-   "link": "https://stratcann.com/news/who-benefits-when-cannabis-companies-consolidate/",
-   "ts": 1794927790.0,
-   "date": "2026-11-17 10:03",
-   "category": "International",
-   "is_law": false,
-   "states": []
   },
   {
    "source": "Business of Cannabis (intl)",
@@ -974,11 +974,41 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "UK\u2019s Largest Pharmacy Chain Launches Online Medical Cannabis Service",
-   "link": "https://stratcann.com/news/uks-largest-pharmacy-chain-launches-online-medical-cannabis-service/",
-   "ts": 1794856912.0,
-   "date": "2026-11-16 14:21",
+   "source": "Google News: intl cannabis",
+   "title": "Boots to begin prescribing medical cannabis in UK - The Guardian",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTkJiNlNYMjRobE9aQVRDUzI4NHdoWjhCOUE0VkttWHIxN0pCbk5EbjNXRDBkLUxzeUNwWG90WnBNRHpBOVI4U1hrMkkyQXNVZ0d3RklOZV9KWGpLdFN0UlZMc0tGXzhSMWEzVEx2UmhXRTRSRmZjb2Y4ZU1ZVWhxQVdvM2swNjdnQ3VyT0NDdE1zbmNnVUNZUThqQUZLMmZfZTRJ?oc=5",
+   "ts": 1794882600.0,
+   "date": "2026-11-16 21:30",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "Google News: intl cannabis",
+   "title": "Major UK Pharmacy to Offer Medical Cannabis Prescriptions - Cannabis Equipment News",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ2t0ZDdNVXBQLTZuX0ZnaXpOangyNG9Vb2dMc3hJTExlX2RzRFI5bGxwZk9VRGVZVTBLTVlXOHZPN0tkaVpBV3R3eXViQndNRWNScF9nNXJyQ1VnWFVCSXplUEo5MnFuN1lZbWo0czRuQldtZVNMVVEyc0I2Y0hhVTE5Uzd2YmJiY3JqUUROWHBfZVViVkJzQ2dzUU5NLTRiZi1JUVJORjdEZkhpMDNOVHBkTXJ6cFN3NmZ6MWl0SQ?oc=5",
+   "ts": 1794875747.0,
+   "date": "2026-11-16 19:35",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "Google News: intl cannabis",
+   "title": "Mainstream UK Pharmacy Launches Medical Cannabis Service - International Cannabis Business Conference",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPS0JFc29GRUc3ZGNkeV9OV0RiR3JuSW9QREtNMk1jSm5MdkJOeTVxaWktbmcwMmxaN251WlJCU1lIYmkwUURVaWNDMUxfaHhRZVVkeWNzdXJUMzVCTmpwVjhGaFp3allPYmlmdVFzbFRVdkc3WkRfSktoSmU1RmJJTVJ5a1U4ejVzTndsbzJPWQ?oc=5",
+   "ts": 1794874598.0,
+   "date": "2026-11-16 19:16",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "Google News: intl cannabis",
+   "title": "UK medical cannabis to be offered at mainstream pharmacy Boots - MJBizDaily",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQN1pyVTI2ZzZ6QXJid1hVcVNLeE1rNUdaUVpLclNSb1RvaXBGcmYzT2k4NGluZVc2MWt5VWc4ZjBFWi02RDhaRGY3WHZVZW5HSUFYMXJsZm5aeUtiNFg3OGE1QnBSUVpwaVRqcF9hT3YzQ0lqbDdJTlpZazc0Ry11Y1ZPS1RhWk4tNGU0R1dzMEtHYjJld2hURTNnTUVqcy11S2lEX1g1VkhQNzlXWmx0emhSNmdZTGJwYy11MHVDb0h4cGl0?oc=5",
+   "ts": 1794854912.0,
+   "date": "2026-11-16 13:48",
    "category": "International",
    "is_law": false,
    "states": []
@@ -994,21 +1024,21 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Former Bedrocan CEO Alleges Financial Sabotage and Breach of Contract by Dutch Health Ministry",
-   "link": "https://stratcann.com/news/bedrocan-alleges-financial-sabotage-breach-of-contract-dutch-health-ministry/",
-   "ts": 1794850614.0,
-   "date": "2026-11-16 12:36",
+   "source": "Google News: intl cannabis",
+   "title": "Boots to prescribe medical cannabis in first for high street pharmacy - The Independent",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdzdwNnFfLWhtelYzamJmckVkQ01Kd01ndDZ4Sko3TW0zM0hLazJqTVNsUmZib0lPSkJrOEkyTmJTcDR5TWlDS2JjRVZwMTd3R3ZIamNJYmFXakZHMkhlN2ZqZTFBcExQMElKMDBUV0tCOVRRNndTWWQ2SHlXUHRLLXd5LTJfSFlSR0JVYkd1QXprYkhkZ0UyRGNPc3c4Rmlael9VYUdjNFVhWm5T?oc=5",
+   "ts": 1794838920.0,
+   "date": "2026-11-16 09:22",
    "category": "International",
-   "is_law": true,
+   "is_law": false,
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Rubicon Organics Expands International Reach and Production Capacity in 2026",
-   "link": "https://stratcann.com/financials/rubicon-organics-expands-international-reach-and-production-capacity-in-2026/",
-   "ts": 1794843681.0,
-   "date": "2026-11-16 10:41",
+   "source": "Google News: intl cannabis",
+   "title": "US basketball player arrested after cannabis seizure at Nigeria airport, authorities say - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX0tzZ0dwT25EMVdsdzVCM2MzSkg2OUc5Q2ZsMy1hZHJkMWd0cERkS1JtSWExb1pZcXpqX2RpMFcwTDBBQUk4OW9pdW1QVnlyS0dCQmNKTmg1SnUzR0JjMzE1dnVKelhTQW5iSWYtR2pQQkpxRVBWWHY1LUpON2Z6d0dLUzB6S1YyU3FEVUV4S1JVX0NWZmsyaU9NZFBzLU85b0xiU2d0SUZlY2dtaF9qRlZGRUZDanc2V1c0ZDd4MkNYTHpWZm5QaA?oc=5",
+   "ts": 1794835440.0,
+   "date": "2026-11-16 08:24",
    "category": "International",
    "is_law": false,
    "states": []
@@ -1030,26 +1060,6 @@
    "ts": 1794828608.0,
    "date": "2026-11-16 06:30",
    "category": "Industry",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Week in Weed \u2013 November 14, 2026",
-   "link": "https://stratcann.com/news/week-in-weed-november-14-2026/",
-   "ts": 1794658800.0,
-   "date": "2026-11-14 07:20",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "BC Cannabis Wholesale, Direct Delivery Sales Both Increased in Q2",
-   "link": "https://stratcann.com/news/bc-cannabis-wholesale-direct-delivery-sales-both-increased-in-q2/",
-   "ts": 1794623053.0,
-   "date": "2026-11-13 21:24",
-   "category": "International",
    "is_law": false,
    "states": []
   },
@@ -1078,16 +1088,6 @@
    ]
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Lower Domestic Sales Offset by International Expansion for Avicanna in Q3",
-   "link": "https://stratcann.com/financials/lower-domestic-sales-offset-by-international-expansion-for-avicanna-in-q3/",
-   "ts": 1794591017.0,
-   "date": "2026-11-13 12:30",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Business of Cannabis (intl)",
    "title": "Dutch Cabinet to Review Prevalence of Edibles in Coffeeshop Pilot",
    "link": "https://businessofcannabis.com/dutch-cabinet-to-review-prevalence-of-edibles-in-coffeeshop-pilot/",
@@ -1105,6 +1105,16 @@
    "date": "2026-11-13 10:31",
    "category": "US federal",
    "is_law": true,
+   "states": []
+  },
+  {
+   "source": "Google News: intl cannabis",
+   "title": "Report: Australia Medical Cannabis Market to Reach $2.6B by 2035 - Ganjapreneur",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdEhPX296VTZEOENPOExSXzVVZ0UyZEJtMHlsaUY5WWNRYlZmalAzMlRpVUgxNGFDUmNfOVpRd1FNMFdBTVJfdmkzTVZGZVZTbGRLLWZWUEMySlBPcjUzMGpzTmI5a3dLaWJiYUNGOHdIX0VDY2ZSOE9jWWtqbjFtSnFnSFdGTWZhZS1wUzFoT1A4Zw?oc=5",
+   "ts": 1794583276.0,
+   "date": "2026-11-13 10:21",
+   "category": "International",
+   "is_law": false,
    "states": []
   },
   {
@@ -1130,48 +1140,6 @@
    ]
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "SQDC Reports Strong Q2 2026 Sales, Driven by New Stores and Vapes",
-   "link": "https://stratcann.com/news/sqdc-reports-strong-q2-2026-sales-driven-by-new-stores-and-vapes/",
-   "ts": 1794519122.0,
-   "date": "2026-11-12 16:32",
-   "category": "US states",
-   "is_law": false,
-   "states": [
-    "New"
-   ]
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "MediPharm Labs Expands Brazilian Business with Commercial Launch of Cannabis Extract Oil",
-   "link": "https://stratcann.com/news/medipharm-labs-brazil-cannabis-extract-oil/",
-   "ts": 1794508003.0,
-   "date": "2026-11-12 13:26",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "International Sales Drive MediPharm Labs Q3 2026 Growth",
-   "link": "https://stratcann.com/financials/international-sales-drive-medipharm-labs-q3-2026-growth/",
-   "ts": 1794507342.0,
-   "date": "2026-11-12 13:15",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Auxly Achieves Record Q3 Results With Strong Profitability",
-   "link": "https://stratcann.com/financials/auxly-achieves-record-q3-results-with-strong-profitability/",
-   "ts": 1794497553.0,
-   "date": "2026-11-12 10:32",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Business of Cannabis (intl)",
    "title": "Cannabis Telemedicine in Germany: Regulation, Market Entry, Advertising and Enforcement",
    "link": "https://businessofcannabis.com/cannabis-telemedicine-in-germany-regulation-market-entry-advertising-and-enforcement/",
@@ -1179,6 +1147,16 @@
    "date": "2026-11-12 10:06",
    "category": "International",
    "is_law": true,
+   "states": []
+  },
+  {
+   "source": "Google News: intl cannabis",
+   "title": "Australia to welcome global medicinal cannabis community to UIC 2027 - MMJDaily",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObm9Kbk1zNE8yRFhFMjctLUVhaWs4UmQxcXM3RGFSczNQNDl2WmhDYUxyRC10SkxTWGtPdVpuOTF5dnJad25TZEVteHlIOTNBRFFYOUJON21ZNktwYTBiVm5yZlYwd0VJX014ajdUa25xbkd6cFBwZE94aU4wUWdtM3hSMmtxN0tnYUJQTm5vYjJLNVZ2OTdTclliZWJyX05xZ2NIcmtOMkhPM0dmd1gw?oc=5",
+   "ts": 1794490850.0,
+   "date": "2026-11-12 08:40",
+   "category": "International",
+   "is_law": false,
    "states": []
   },
   {
@@ -1202,6 +1180,16 @@
    "states": [
     "New"
    ]
+  },
+  {
+   "source": "Google News: intl cannabis",
+   "title": "Cancer patients say cannabis improves symptoms, study finds - UKNow",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQc1NBVXAzd2V2WUZjSlZnc0pCTFg5NUtOOHVNUzNfOENYOWViLWkzR2ZzVWZ1Vmh5RVlKTk1vUWdPYS0wSl83QnJGb3pYejlOeGU4aFVtM1FDMUxSMi1jblgtdHpjeDJlZHIyVm5BRUJCSW5ZZU9BVmp4OU8zX0haYlFDVVRiNE40UG9MOXBrMHppUzg?oc=5",
+   "ts": 1794474000.0,
+   "date": "2026-11-12 04:00",
+   "category": "International",
+   "is_law": false,
+   "states": []
   },
   {
    "source": "Business of Cannabis (intl)",
@@ -1759,5 +1747,5 @@
    "states": []
   }
  ],
- "generated": "2026-11-18 07:53 EST"
+ "generated": "2026-11-18 07:58 EST"
 }
