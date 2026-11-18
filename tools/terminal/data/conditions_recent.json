@@ -3,7 +3,7 @@
   "start": "2025-05-17",
   "end": "2026-11-17"
  },
- "generated": "2026-11-17 00:45 EST",
+ "generated": "2026-11-17 21:45 EST",
  "source": "NCBI PubMed E-utilities",
  "conditions": {
   "sleep": {
@@ -14,7 +14,7 @@
     "insomnia"
    ],
    "cann_matches": 50,
-   "hol_matches": 335,
+   "hol_matches": 336,
    "cannabinoid": [
     {
      "pmid": "42863850",
@@ -69,6 +69,16 @@
    ],
    "holistic": [
     {
+     "pmid": "42049276",
+     "title": "Efficacy and safety of acupuncture for breast cancer-related insomnia: a systematic review and meta-analysis.",
+     "journal": "BMJ Support Palliat Care",
+     "date": "2026-06-29",
+     "tag": "META-ANALYSIS",
+     "first_author": "Zhang et al.",
+     "doi": "10.1136/spcare-2025-006052",
+     "conclusion": "Future rigorous RCTs using validated sham controls, standardized protocols, and objective outcomes are needed to confirm efficacy and guide practice. PROSPERO Registration number (ID: CRD42024559828)."
+    },
+    {
      "pmid": "40664502",
      "title": "Effects of various exercise interventions in insomnia patients: a systematic review and network meta-analysis.",
      "journal": "BMJ Evid Based Med",
@@ -87,16 +97,6 @@
      "first_author": "Mei et al.",
      "doi": "10.3390/nu17243952",
      "conclusion": "These findings suggest that tryptophan, vitamin D, omega-3, zinc, and antioxidants may enhance sleep quality by decreasing SL, and WASO increases SE and extends TST, respectively."
-    },
-    {
-     "pmid": "41237292",
-     "title": "Nonpharmacological Interventions Improve Postoperative Sleep in Arthroplasty Patients: A Systematic Review and Meta-Analysis.",
-     "journal": "JBJS Rev",
-     "date": "2025-11-14",
-     "tag": "META-ANALYSIS",
-     "first_author": "Salmani et al.",
-     "doi": "10.2106/JBJS.RVW.25.00131",
-     "conclusion": "NPIs, particularly nursing-based interventions and environmental controls, appear effective in improving postoperative sleep after joint arthroplasty. However, heterogeneity and limited high-quality evidence warrant further randomized trials with standardized protocols and objective sleep measures."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (sleep[tiab] OR insomnia[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/17:2026/11/17[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -109,7 +109,7 @@
    "background": [
     "chronic_neuropathic_pain"
    ],
-   "cann_matches": 31,
+   "cann_matches": 32,
    "hol_matches": 232,
    "cannabinoid": [
     {
@@ -133,6 +133,16 @@
      "conclusion": "There is no clear evidence for an effect of THC-dominant medicines on pain relief of 50% or greater, PGIC ratings of 'much' or 'very much' improved, withdrawals due to adverse events, and serious adverse events (very low-certainty evidence). There is no clear evidence for an effect of THC/CBD-balanced medicines on pain relief of 50% or greater and serious adverse events (very low-certainty evidence). They may increas"
     },
     {
+     "pmid": "42753475",
+     "title": "Exploring the potential benefits of combining cannabidiol and beta-caryophyllene for neuropathic and inflammatory pain: A systematic review.",
+     "journal": "Phytomedicine",
+     "date": "2026-09-11",
+     "tag": "SR",
+     "first_author": "Benamar",
+     "doi": "10.1016/j.phymed.2026.158798",
+     "conclusion": "The literature discussed in this review suggests that the combination of CBD and BCP can work in synergy in chronic pain without cannabinoid receptor 1 central side effects. These preclinical findings provide the rationale for future preclinical and clinical studies."
+    },
+    {
      "pmid": "42085369",
      "title": "Cannabinoids in the Treatment of Chemotherapy-Induced Peripheral Neuropathy: A Systematic Review of Randomized Controlled Trials.",
      "journal": "J Pain Palliat Care Pharmacother",
@@ -151,19 +161,19 @@
      "first_author": "Castro et al.",
      "doi": "10.1186/s42238-026-00436-6",
      "conclusion": "Their ability to stabilize inactivated channel states and reduce neuronal excitability supports their therapeutic potential in neuropathic pain. These findings highlight the relevance of phytocannabinoids as promising candidates for the development of non-opioid analgesics."
-    },
-    {
-     "pmid": "41714301",
-     "title": "Medical Cannabis for the Treatment of Peripheral Neuropathy due to Diabetes: A Systematic Review.",
-     "journal": "Cannabis Cannabinoid Res",
-     "date": "2026-02-19",
-     "tag": "SR",
-     "first_author": "Sherman et al.",
-     "doi": "10.1177/25785125261425444",
-     "conclusion": "Evidence from four small, heterogeneous RCTs suggests that cannabinoid-based therapies may reduce pain in some patients with diabetic peripheral neuropathy; however, the limited number of studies, variability in formulations and comparators, and risk of bias preclude firm conclusions regarding efficacy. Observed THC doses around 16-18 mg/day delivered via vaporized or sublingual routes should be viewed as preliminary"
     }
    ],
    "holistic": [
+    {
+     "pmid": "42303469",
+     "title": "Effects of Acupuncture on Pain in Patients With Breast Cancer: A Systematic Review and Meta-Analysis.",
+     "journal": "Pain Manag Nurs",
+     "date": "2026-06-17",
+     "tag": "META-ANALYSIS",
+     "first_author": "Liu et al.",
+     "doi": "10.1016/j.pmn.2026.05.020",
+     "conclusion": "Acupuncture-based therapy demonstrates marked effectiveness in easing pain among individuals with breast cancer. Despite significant heterogeneity, acupuncture-based therapy offers superior pain control with a favorable safety profile relative to standard treatments."
+    },
     {
      "pmid": "40705433",
      "title": "Physiotherapy for endometriosis-associated pelvic pain: a systematic review and meta-analysis.",
@@ -183,16 +193,6 @@
      "first_author": "Chacko et al.",
      "doi": "10.1002/14651858.CD011225.pub2",
      "conclusion": "The combination of manual therapy with exercise may result in a moderate increase in function but no reduction in pain when compared with placebo for primarily chronic neck pain. A large reduction in pain and moderate increase in function may result when comparing manual therapy with exercise with no treatment. Only non-serious adverse events were reported. Other outcomes had varied certainty. Data on participant-rep"
-    },
-    {
-     "pmid": "41177363",
-     "title": "Efficacy and safety of buccal acupuncture for pain management: A systematic review and meta-analysis.",
-     "journal": "Complement Ther Med",
-     "date": "2025-10-31",
-     "tag": "META-ANALYSIS",
-     "first_author": "Guo et al.",
-     "doi": "10.1016/j.ctim.2025.103297",
-     "conclusion": "BA demonstrates certain advantages over conventional acupuncture and pharmacotherapy in pain management, with benefits including a lower incidence of adverse reactions and superior pain relief. It may serve as an adjunctive therapy to conventional analgesic treatments in clinical practice. However, further validation through higher-quality, large-sample clinical RCTs is required."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (\"chronic pain\"[tiab] OR \"neuropathic pain\"[tiab] OR neuropath*[tiab] OR \"pain\"[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/17:2026/11/17[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -251,16 +251,6 @@
    ],
    "holistic": [
     {
-     "pmid": "42684440",
-     "title": "Acute exercise for anxiety reduction in children and adolescents: a meta-analysis of developmental, contextual, and modality-specific effects.",
-     "journal": "Eur J Pediatr",
-     "date": "2026-09-02",
-     "tag": "META-ANALYSIS",
-     "first_author": "Wang et al.",
-     "doi": "10.1007/s00431-026-07371-x",
-     "conclusion": "Acute exercise may reduce anxiety in children and adolescents, although the substantial heterogeneity warrants cautious interpretation. Sensitivity-adjusted subgroup analyses suggest that effects may vary according to developmental stage, exercise characteristics, and situational autonomy. These subgroup findings should be considered exploratory and require confirmation in larger, well-designed trials."
-    },
-    {
      "pmid": "41667154",
      "title": "Effect of exercise on depression and anxiety symptoms: systematic umbrella review with meta-meta-analysis.",
      "journal": "Br J Sports Med",
@@ -279,6 +269,16 @@
      "first_author": "Janssen-Aguilar et al.",
      "doi": "10.1001/jamapsychiatry.2025.3261",
      "conclusion": "In this systematic review and meta-analysis, KDs were associated with modest improvements in depressive symptoms, particularly with biochemical ketosis verification, while anxiety evidence was inconclusive. Given heterogeneity, comparators, and short follow-up, well-powered trials with standardized, verified protocols, structured support, and prespecified outcomes are needed to confirm efficacy and durability."
+    },
+    {
+     "pmid": "41327816",
+     "title": "Effects of Yoga Nidra on Stress, Anxiety, and Depression: A Systematic Review and Meta-Analysis.",
+     "journal": "Ann N Y Acad Sci",
+     "date": "2025-12-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Ghai et al.",
+     "doi": "10.1111/nyas.70149",
+     "conclusion": "However, given the low methodological quality and variability in intervention delivery, these moderate-to-large effects should be interpreted cautiously, as they likely reflect inflated estimates. Despite these limitations, YN shows potential in managing mental health symptoms, underscoring the need for high-quality, standardized research to establish its efficacy as a viable clinical intervention."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (anxiety[tiab] OR anxious[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/17:2026/11/17[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -289,8 +289,8 @@
    "emoji": "\ud83c\udf24\ufe0f",
    "goal": "mood",
    "background": [],
-   "cann_matches": 47,
-   "hol_matches": 549,
+   "cann_matches": 48,
+   "hol_matches": 550,
    "cannabinoid": [
     {
      "pmid": "41793962",
@@ -315,16 +315,6 @@
      "conclusion": "The findings of the study support that exercise based interventions, in all formats and parameters, can help mitigate depression and anxiety symptoms across all population categories. These results can help health professionals provide targeted, cost effective, evidence based support that aligns with individual profiles and preferences."
     },
     {
-     "pmid": "41636309",
-     "title": "Effects of Combined Music and Exercise Therapy on Depression: A Systematic Review and Meta-Analysis.",
-     "journal": "J Integr Complement Med",
-     "date": "2026-02-04",
-     "tag": "META-ANALYSIS",
-     "first_author": "Luo et al.",
-     "doi": "10.1177/27683605261416759",
-     "conclusion": "This meta-analysis suggests that combining music and exercise therapy is effective in reducing depressive symptoms. Combining music with aerobic exercise and tai chi is particularly beneficial for patients over 60 years of age. The quality of the evidence was limited by the heterogeneity and varying risk of bias of the included studies, and caution is warranted."
-    },
-    {
      "pmid": "41500513",
      "title": "Exercise for depression.",
      "journal": "Cochrane Database Syst Rev",
@@ -333,6 +323,16 @@
      "first_author": "Clegg et al.",
      "doi": "10.1002/14651858.CD004366.pub7",
      "conclusion": "Exercise may be moderately more effective than a control intervention for reducing symptoms of depression. Exercise appears to be no more or less effective than psychological or pharmacological treatments, though this conclusion is based on a few small trials. Long-term follow-up was rare. The addition of 35 RCTs (at least 2526 participants) to this update has had very little effect on the estimate of the benefit of "
+    },
+    {
+     "pmid": "41191382",
+     "title": "Ketogenic Diets and Depression and Anxiety: A Systematic Review and Meta-Analysis.",
+     "journal": "JAMA Psychiatry",
+     "date": "2026-01-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Janssen-Aguilar et al.",
+     "doi": "10.1001/jamapsychiatry.2025.3261",
+     "conclusion": "In this systematic review and meta-analysis, KDs were associated with modest improvements in depressive symptoms, particularly with biochemical ketosis verification, while anxiety evidence was inconclusive. Given heterogeneity, comparators, and short follow-up, well-powered trials with standardized, verified protocols, structured support, and prespecified outcomes are needed to confirm efficacy and durability."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (depression[tiab] OR depressive[tiab] OR mood[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/17:2026/11/17[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -515,7 +515,7 @@
    "emoji": "\ud83d\udd25",
    "goal": "inflammation",
    "background": [],
-   "cann_matches": 7,
+   "cann_matches": 8,
    "hol_matches": 172,
    "cannabinoid": [
     {
@@ -539,6 +539,16 @@
      "conclusion": "GRADE ratings were as follows: IL-6 very low, IL-8 moderate, IL-10 low, and TNF-\u03b1 moderate. Current RCT evidence demonstrates inconsistent, often trivial effects of phytocannabinoid interventions on circulating inflammatory biomarkers."
     },
     {
+     "pmid": "42753475",
+     "title": "Exploring the potential benefits of combining cannabidiol and beta-caryophyllene for neuropathic and inflammatory pain: A systematic review.",
+     "journal": "Phytomedicine",
+     "date": "2026-09-11",
+     "tag": "SR",
+     "first_author": "Benamar",
+     "doi": "10.1016/j.phymed.2026.158798",
+     "conclusion": "The literature discussed in this review suggests that the combination of CBD and BCP can work in synergy in chronic pain without cannabinoid receptor 1 central side effects. These preclinical findings provide the rationale for future preclinical and clinical studies."
+    },
+    {
      "pmid": "42357416",
      "title": "CBD-Containing Hemp Extracts and Isolated CBD for Acne: A Systematic Review of Anti-Inflammatory Mechanisms, Clinical Signals and Sustainability.",
      "journal": "Molecules",
@@ -557,16 +567,6 @@
      "first_author": "Jugl et al.",
      "doi": "10.1186/s42238-026-00456-2",
      "conclusion": "Current evidence is inconclusive as to whether THC-containing cannabis products might have a positive effect in IBD, given heterogenous findings and mostly low-to-moderate evidence quality. Higher quality cannabis research is needed given widespread utilization."
-    },
-    {
-     "pmid": "41604381",
-     "title": "Investigating the effects of cannabinoids for the reduction of inflammation and sickle cell disease pain (CRISP); A protocol for a randomized double-blind placebo-controlled study.",
-     "journal": "PLoS One",
-     "date": "2026-01-28",
-     "tag": "RCT",
-     "first_author": "Bellis et al.",
-     "doi": "10.1371/journal.pone.0340917",
-     "conclusion": "The study will also track biomarkers of inflammation as THC has demonstrated anti-inflammatory properties, and inflammation is a driver of SCD pain and disease severity. Results from this study have the potential to further clinical understanding of cannabinoids for pain management in Sickle Cell Disease treatment and spark new questions for research."
     }
    ],
    "holistic": [
@@ -637,16 +637,6 @@
    ],
    "holistic": [
     {
-     "pmid": "40862831",
-     "title": "High Outcome-Reporting Bias in Randomized-Controlled Trials of Acupuncture for Cancer Chemotherapy-Induced Nausea and Vomiting: A Systematic Review and Meta-Epidemiological Study.",
-     "journal": "Curr Oncol",
-     "date": "2025-08-15",
-     "tag": "META-ANALYSIS",
-     "first_author": "Penati et al.",
-     "doi": "10.3390/curroncol32080462",
-     "conclusion": "No study reported complete outcomes as planned in the published protocol. Communication about the importance of prospective trial registration, including outcome details, should be enforced to reduce the risk of selective outcome reporting bias in oncology acupuncture studies."
-    },
-    {
      "pmid": "40731916",
      "title": "Effectiveness and Safety of Acupuncture for Nausea and Vomiting in Cancer Patients: A Systematic Review and Meta-Analysis.",
      "journal": "Medicina (Kaunas)",
@@ -665,6 +655,16 @@
      "first_author": "Cao et al.",
      "doi": "10.1016/j.ctim.2026.103438",
      "conclusion": "Invasive acupuncture may be beneficial for delayed CINV. However, the certainty of the current evidence is limited by the methodological limitations of the available studies. Further large-scale, rigorously designed RCTs with adequate sample sizes are needed to confirm its efficacy for CINV."
+    },
+    {
+     "pmid": "42630154",
+     "title": "Acupuncture for nausea and vomiting during pregnancy: an overview of systematic reviews.",
+     "journal": "Front Endocrinol (Lausanne)",
+     "date": "2026-08-07",
+     "tag": "SR",
+     "first_author": "Cui et al.",
+     "doi": "10.3389/fendo.2026.1886667",
+     "conclusion": "Acupuncture appears to relieve the symptoms of NVP to a certain extent. However, the current evidence is limited by low reliability, methodological flaws, publication bias, and inaccurate data. Therefore, the true efficacy remains unclear. Although acupuncture shows preliminary clinical potential, high-quality randomized controlled trials with standardized outcome indicators are still needed to draw definite conclusi"
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (nausea[tiab] OR vomiting[tiab] OR emesis[tiab] OR antiemetic[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/17:2026/11/17[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -742,7 +742,7 @@
    "goal": "focus",
    "background": [],
    "cann_matches": 22,
-   "hol_matches": 406,
+   "hol_matches": 408,
    "cannabinoid": [
     {
      "pmid": "42704497",
@@ -797,16 +797,6 @@
    ],
    "holistic": [
     {
-     "pmid": "42409136",
-     "title": "Efficacy of cognitive behavioral therapy for post-stroke fatigue: A systematic review and meta-analysis.",
-     "journal": "J Stroke Cerebrovasc Dis",
-     "date": "2026-07-06",
-     "tag": "META-ANALYSIS",
-     "first_author": "Sun et al.",
-     "doi": "10.1016/j.jstrokecerebrovasdis.2026.108697",
-     "conclusion": "Current low-certainty evidence suggests CBT is a promising and scalable intervention that shows potential in managing PSF, alleviating fatigue, and improving sleep and quality of life. To maximize potential therapeutic benefits, clinical programs might consider protocols lasting more than six weeks. However, due to high statistical heterogeneity and a pervasive lack of safety reporting, these findings should be inter"
-    },
-    {
      "pmid": "41483880",
      "title": "A meta-analysis of the intervention effect of cognitive behavioral therapy on adult ADHD.",
      "journal": "J Affect Disord",
@@ -817,14 +807,24 @@
      "conclusion": "CBT demonstrates efficacy for core and associated symptoms of adult ADHD, with the optimal intervention strategy varying meaningfully by outcome and modality. A symptom-guided, stepped-care approach is supported: group-based CBT formats are preferable for targeting core symptoms and executive function, while individual CBT better addresses emotional dysregulation and quality of life. The combination of CBT with medic"
     },
     {
-     "pmid": "41315985",
-     "title": "Effects of emotion-oriented interventions on cognitive, behavioral, and psychological symptoms in people with dementia: a systematic review and meta-analysis of randomized controlled trials.",
+     "pmid": "41214536",
+     "title": "The comprehensive impact of exercise interventions on cognitive function and quality of life in alzheimer's disease patients: a systematic review and meta-analysis.",
      "journal": "BMC Geriatr",
-     "date": "2025-11-28",
+     "date": "2025-11-10",
      "tag": "META-ANALYSIS",
-     "first_author": "Duarte-D\u00edaz et al.",
-     "doi": "10.1186/s12877-025-06804-w",
-     "conclusion": "These interventions address not only the cognitive deficits but also the emotional and psychological well-being of people with dementia, suggesting a holistic approach to dementia care. The findings highlight the need for further research to optimize these interventions, evaluate their long-term benefits, and establish guidelines for their implementation in diverse clinical settings."
+     "first_author": "Li et al.",
+     "doi": "10.1186/s12877-025-06454-y",
+     "conclusion": "Evidence suggests that structured, multimodal exercise programs-combining aerobic (\u2265 150 min/week), resistance (2-3 times/week), and balance training (2-3 times/week) for at least 12 weeks with individualized intensity-may improve global cognition and quality of life in Alzheimer's disease patients."
+    },
+    {
+     "pmid": "40958241",
+     "title": "Mindfulness-based interventions for adults with ADHD: A systematic review and meta-analysis.",
+     "journal": "Medicine (Baltimore)",
+     "date": "2025-09-12",
+     "tag": "META-ANALYSIS",
+     "first_author": "Kim et al.",
+     "doi": "10.1097/MD.0000000000044308",
+     "conclusion": "MBIs may be effective in improving core ADHD symptoms and overall functioning in adults with ADHD. However, their effects on emotional well-being and mindfulness skills remain inconclusive. These findings support the utility of MBIs as complementary interventions for ADHD while highlighting the need for further high-quality studies to clarify their long-term effects and mechanisms of action."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (cognition[ti] OR cognitive[ti] OR memory[ti] OR attention[ti] OR ADHD[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/17:2026/11/17[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -959,6 +959,16 @@
    ],
    "holistic": [
     {
+     "pmid": "42507062",
+     "title": "Exercise and Pain in Multiple Sclerosis, Parkinson's Disease, Alzheimer's Disease, and Stroke: A Systematic Review and Meta-analysis.",
+     "journal": "Sports Med",
+     "date": "2026-07-27",
+     "tag": "META-ANALYSIS",
+     "first_author": "Baccaro et al.",
+     "doi": "10.1007/s40279-026-02490-9",
+     "conclusion": "This review provides strong evidence that exercise alleviates pain in people with MS and stroke and emphasizes its potential as a non-pharmacological analgesic strategy for managing pain in neurodegenerative diseases. More high-quality studies are needed, particularly in PD and AD."
+    },
+    {
      "pmid": "42118325",
      "title": "Oral antipyretics for fatigue alleviation and exercise enhancement in adults with multiple sclerosis: a systematic review and meta-analysis.",
      "journal": "Neurol Sci",
@@ -967,16 +977,6 @@
      "first_author": "Ibrahim et al.",
      "doi": "10.1007/s10072-026-09090-5",
      "conclusion": "Aspirin and acetaminophen may offer benefits in alleviating fatigue, enhancing thermoregulation, and improving exercise endurance in MS patients. These findings suggest that nurses should consider the potential role of aspirin in symptom management, with further research needed to confirm efficacy and safety."
-    },
-    {
-     "pmid": "42084487",
-     "title": "Effectiveness of vestibular physical therapy on balance and dizziness in people with multiple sclerosis: A systematic review and meta-analysis.",
-     "journal": "J Vestib Res",
-     "date": "2026-05-05",
-     "tag": "META-ANALYSIS",
-     "first_author": "Piatti et al.",
-     "doi": "10.1177/09574271261444952",
-     "conclusion": "The meta-analysis showed significant efficacy of VPT against control using the DHI as outcome measure (Hedges' g = 1.451, CI [0.190, 2.713]).In conclusion, VPT is a safe approach in reducing dizziness-related disability of PwMS. Further studies are needed to refine assessment methods and explore individualized approaches."
     },
     {
      "pmid": "41612786",
@@ -1187,14 +1187,14 @@
      "conclusion": "The findings indicate that in animal models of UC, acupuncture may confer protection through the inhibition of inflammatory responses and the restoration of the intestinal mucosal barrier."
     },
     {
-     "pmid": "42437372",
-     "title": "Meta-Analysis: Crohn's Disease Exclusion Diet for Induction and Maintenance in Crohn's Disease.",
-     "journal": "Aliment Pharmacol Ther",
-     "date": "2026-07-12",
+     "pmid": "40700526",
+     "title": "Pre-Illness Index-Based Dietary Patterns and Inflammatory Bowel Disease Risk: A Systematic Review and Meta-Analysis.",
+     "journal": "Nutr Rev",
+     "date": "2025-12-01",
      "tag": "META-ANALYSIS",
-     "first_author": "Batra et al.",
-     "doi": "10.1111/apt.70857",
-     "conclusion": "CDED-based dietary interventions appear to be efficacious for inducing remission in Crohn's disease. Well-designed randomised trials are required to further validate the use of CDED as a whole food approach in the induction and maintenance of remission in Crohn's Disease."
+     "first_author": "Meng et al.",
+     "doi": "10.1093/nutrit/nuaf131",
+     "conclusion": "Pre-illness dietary patterns have a significant influence on IBD development. This meta-analysis found that dietary patterns such as the Mediterranean dietary pattern and the healthy dietary pattern reduce IBD risk in the general population, while pro-inflammatory diets increase it. Moreover, regional and other factors such as age group may further modulate these associations."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (Crohn*[tiab] OR colitis[tiab] OR \"inflammatory bowel\"[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/17:2026/11/17[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
