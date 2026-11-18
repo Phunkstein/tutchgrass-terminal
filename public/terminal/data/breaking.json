@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-18T07:23:15-0500",
- "generated_ts": 1795004595,
+ "generated": "2026-11-18T07:53:13-0500",
+ "generated_ts": 1795006394,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -33,12 +33,27 @@
   },
   {
    "source": "Google News: intl cannabis",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "items": 0
   }
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "uspssaysmedicalmarijuanaisntmailableunderanycircumstancesbut",
+   "title": "USPS Says Medical Marijuana Isn\u2019t Mailable \u2018Under Any Circumstances,\u2019 But Weighs Possible Policy Change Under Rescheduling",
+   "link": "https://www.marijuanamoment.net/usps-says-medical-marijuana-isnt-mailable-under-any-circumstances-but-weighs-possible-policy-change-under-rescheduling/",
+   "source": "Marijuana Moment",
+   "category": "US federal",
+   "is_law": true,
+   "states": [
+    "Georgia"
+   ],
+   "published": "2026-11-18T07:52:19-0500",
+   "published_ts": 1795006339.0,
+   "first_seen": "2026-11-18T07:53:13-0500",
+   "first_seen_ts": 1795006394
+  },
   {
    "id": "cannabisstockstodaywednesday18november2026afcgammaholdsabove",
    "title": "Cannabis Stocks Today \u2014 Wednesday 18 November 2026: AFC Gamma holds above $3.50",
@@ -503,19 +518,6 @@
    "published_ts": 1794836525.0,
    "first_seen": "2026-11-16T08:43:14-0500",
    "first_seen_ts": 1794836594
-  },
-  {
-   "id": "senatedemocraticleadershipcandidatesonmarijuanawhereschumera",
-   "title": "Senate Democratic Leadership Candidates On Marijuana: Where Schumer And Van Hollen Stand",
-   "link": "https://www.marijuanamoment.net/senate-democratic-leadership-candidates-on-marijuana-where-schumer-and-van-hollen-stand/",
-   "source": "Marijuana Moment",
-   "category": "US federal",
-   "is_law": false,
-   "states": [],
-   "published": "2026-11-16T07:41:37-0500",
-   "published_ts": 1794832897.0,
-   "first_seen": "2026-11-16T07:43:16-0500",
-   "first_seen_ts": 1794832996
   }
  ]
 }

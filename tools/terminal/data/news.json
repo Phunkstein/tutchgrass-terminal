@@ -34,13 +34,26 @@
   {
    "source": "Google News: intl cannabis",
    "url": "https://news.google.com/rss/search?q=cannabis+(Germany+OR+Canada+OR+Thailand+OR+Europe+OR+Australia+OR+UK)+when:7d&hl=en-US&gl=US&ceid=US:en",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 252"
   }
  ],
- "total": 103,
+ "total": 92,
  "by_category": {
   "US federal": [
+   {
+    "source": "Marijuana Moment",
+    "title": "USPS Says Medical Marijuana Isn\u2019t Mailable \u2018Under Any Circumstances,\u2019 But Weighs Possible Policy Change Under Rescheduling",
+    "link": "https://www.marijuanamoment.net/usps-says-medical-marijuana-isnt-mailable-under-any-circumstances-but-weighs-possible-policy-change-under-rescheduling/",
+    "summary": "The U.S. Postal Service (USPS) is pushing back against a new program from Georgia companies that plan to use certified mail to deliver marijuana to patients in the state\u2019s medical cannabis program\u2014but it says it is actively considering a policy change in light",
+    "ts": 1795006339.0,
+    "date": "2026-11-18 07:52",
+    "category": "US federal",
+    "is_law": true,
+    "states": [
+     "Georgia"
+    ]
+   },
    {
     "source": "Marijuana Moment",
     "title": "New medical cannabis delivery plan involves USPS (Newsletter: November 18, 2026)",
@@ -96,17 +109,6 @@
     "summary": "A coalition of organizations representing military veterans is pushing Congress to call off a currently scheduled federal ban on hemp THC products that\u2019s set to take effect next month and replace it with a policy that keeps them legally available with new regu",
     "ts": 1794920363.0,
     "date": "2026-11-17 07:59",
-    "category": "US federal",
-    "is_law": true,
-    "states": []
-   },
-   {
-    "source": "Marijuana Moment",
-    "title": "Schumer vs. Van Hollen on cannabis (Newsletter: November 17, 2026)",
-    "link": "https://www.marijuanamoment.net/schumer-vs-van-hollen-on-cannabis-newsletter-november-17-2026/",
-    "summary": "WI will \u201cdefinitely\u201d legalize; Top PA senator: Marijuana not a priority; VA cannabis law tweaks; State officials org on DEA rescheduling confusion Subscribe to receive Marijuana Moment\u2019s newsletter in your inbox every weekday morning. It\u2019s the best way to make",
-    "ts": 1794913939.0,
-    "date": "2026-11-17 06:12",
     "category": "US federal",
     "is_law": true,
     "states": []
@@ -278,17 +280,6 @@
     "states": []
    },
    {
-    "source": "Google News: intl cannabis",
-    "title": "ICBC Berlin Returns for 10th Anniversary as Europe\u2019s Cannabis Industry Evolves - High Times Magazine",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90VkhvRkFPLVJFVENXZkZmaE45eVNxUnU4MGlQbnZsWTlVeWRPVDloNHU1N2J1MEhsMUgxcndFOW12Y05nd2lNTTZiNVRlaGJEOGR6dEE3ajVpa2ZQTWhzbW9IRlNVZVNtSXFXVEp1d2w?oc=5",
-    "summary": "",
-    "ts": 1794937563.0,
-    "date": "2026-11-17 12:46",
-    "category": "International",
-    "is_law": false,
-    "states": []
-   },
-   {
     "source": "Business of Cannabis (intl)",
     "title": "Is Boots\u2019 Entry into Medical Cannabis a Boon for Legitimacy or Solidification of a Flawed Framework?",
     "link": "https://businessofcannabis.com/is-boots-entry-into-medical-cannabis-a-boon-for-legitimacy-or-solidification-of-a-flawed-framework/",
@@ -328,6 +319,17 @@
     "summary": "Cannabis shares start the week on the back foot, with losses reaching Canadian producers and US operators alike. With the US session still in pre-market, 24 of the 35 cannabis-linked tickers tracked by Business of Cannabis sit below their previous close, and t",
     "ts": 1794909738.0,
     "date": "2026-11-17 05:02",
+    "category": "International",
+    "is_law": false,
+    "states": []
+   },
+   {
+    "source": "StratCann (Canada)",
+    "title": "UK\u2019s Largest Pharmacy Chain Launches Online Medical Cannabis Service",
+    "link": "https://stratcann.com/news/uks-largest-pharmacy-chain-launches-online-medical-cannabis-service/",
+    "summary": "A national pharmacy chain in the UK has launched an online platform for providing access to medical cannabis. The post UK\u2019s Largest Pharmacy Chain Launches Online Medical Cannabis Service appeared first on StratCann .",
+    "ts": 1794856912.0,
+    "date": "2026-11-16 14:21",
     "category": "International",
     "is_law": false,
     "states": []
@@ -426,6 +428,19 @@
  },
  "latest": [
   {
+   "source": "Marijuana Moment",
+   "title": "USPS Says Medical Marijuana Isn\u2019t Mailable \u2018Under Any Circumstances,\u2019 But Weighs Possible Policy Change Under Rescheduling",
+   "link": "https://www.marijuanamoment.net/usps-says-medical-marijuana-isnt-mailable-under-any-circumstances-but-weighs-possible-policy-change-under-rescheduling/",
+   "summary": "The U.S. Postal Service (USPS) is pushing back against a new program from Georgia companies that plan to use certified mail to deliver marijuana to patients in the state\u2019s medical cannabis program\u2014but it says it is actively considering a policy change in light",
+   "ts": 1795006339.0,
+   "date": "2026-11-18 07:52",
+   "category": "US federal",
+   "is_law": true,
+   "states": [
+    "Georgia"
+   ]
+  },
+  {
    "source": "Business of Cannabis (intl)",
    "title": "Cannabis Stocks Today \u2014 Wednesday 18 November 2026: AFC Gamma holds above $3.50",
    "link": "https://businessofcannabis.com/cannabis-stocks-today-wednesday-18-november-2026-afc-gamma-holds-above-3-50/",
@@ -523,17 +538,6 @@
    ]
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "ICBC Berlin Returns for 10th Anniversary as Europe\u2019s Cannabis Industry Evolves - High Times Magazine",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90VkhvRkFPLVJFVENXZkZmaE45eVNxUnU4MGlQbnZsWTlVeWRPVDloNHU1N2J1MEhsMUgxcndFOW12Y05nd2lNTTZiNVRlaGJEOGR6dEE3ajVpa2ZQTWhzbW9IRlNVZVNtSXFXVEp1d2w?oc=5",
-   "summary": "",
-   "ts": 1794937563.0,
-   "date": "2026-11-17 12:46",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Business of Cannabis (intl)",
    "title": "Is Boots\u2019 Entry into Medical Cannabis a Boon for Legitimacy or Solidification of a Flawed Framework?",
    "link": "https://businessofcannabis.com/is-boots-entry-into-medical-cannabis-a-boon-for-legitimacy-or-solidification-of-a-flawed-framework/",
@@ -626,17 +630,6 @@
    "states": []
   },
   {
-   "source": "Marijuana Moment",
-   "title": "Schumer vs. Van Hollen on cannabis (Newsletter: November 17, 2026)",
-   "link": "https://www.marijuanamoment.net/schumer-vs-van-hollen-on-cannabis-newsletter-november-17-2026/",
-   "summary": "WI will \u201cdefinitely\u201d legalize; Top PA senator: Marijuana not a priority; VA cannabis law tweaks; State officials org on DEA rescheduling confusion Subscribe to receive Marijuana Moment\u2019s newsletter in your inbox every weekday morning. It\u2019s the best way to make",
-   "ts": 1794913939.0,
-   "date": "2026-11-17 06:12",
-   "category": "US federal",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "Business of Cannabis (intl)",
    "title": "Cannabis Stocks Today \u2014 Monday 16 November 2026: Aurora sits at $4.94",
    "link": "https://businessofcannabis.com/cannabis-stocks-today-monday-16-november-2026-aurora-sits-at-4-94/",
@@ -648,56 +641,12 @@
    "states": []
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "Boots to begin prescribing medical cannabis in UK - The Guardian",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTkJiNlNYMjRobE9aQVRDUzI4NHdoWjhCOUE0VkttWHIxN0pCbk5EbjNXRDBkLUxzeUNwWG90WnBNRHpBOVI4U1hrMkkyQXNVZ0d3RklOZV9KWGpLdFN0UlZMc0tGXzhSMWEzVEx2UmhXRTRSRmZjb2Y4ZU1ZVWhxQVdvM2swNjdnQ3VyT0NDdE1zbmNnVUNZUThqQUZLMmZfZTRJ?oc=5",
-   "summary": "",
-   "ts": 1794882600.0,
-   "date": "2026-11-16 21:30",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Major UK Pharmacy to Offer Medical Cannabis Prescriptions - Cannabis Equipment News",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ2t0ZDdNVXBQLTZuX0ZnaXpOangyNG9Vb2dMc3hJTExlX2RzRFI5bGxwZk9VRGVZVTBLTVlXOHZPN0tkaVpBV3R3eXViQndNRWNScF9nNXJyQ1VnWFVCSXplUEo5MnFuN1lZbWo0czRuQldtZVNMVVEyc0I2Y0hhVTE5Uzd2YmJiY3JqUUROWHBfZVViVkJzQ2dzUU5NLTRiZi1JUVJORjdEZkhpMDNOVHBkTXJ6cFN3NmZ6MWl0SQ?oc=5",
-   "summary": "",
-   "ts": 1794875747.0,
-   "date": "2026-11-16 19:35",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Mainstream UK Pharmacy Launches Medical Cannabis Service - International Cannabis Business Conference",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPS0JFc29GRUc3ZGNkeV9OV0RiR3JuSW9QREtNMk1jSm5MdkJOeTVxaWktbmcwMmxaN251WlJCU1lIYmkwUURVaWNDMUxfaHhRZVVkeWNzdXJUMzVCTmpwVjhGaFp3allPYmlmdVFzbFRVdkc3WkRfSktoSmU1RmJJTVJ5a1U4ejVzTndsbzJPWQ?oc=5",
-   "summary": "",
-   "ts": 1794874598.0,
-   "date": "2026-11-16 19:16",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "StratCann (Canada)",
    "title": "UK\u2019s Largest Pharmacy Chain Launches Online Medical Cannabis Service",
    "link": "https://stratcann.com/news/uks-largest-pharmacy-chain-launches-online-medical-cannabis-service/",
    "summary": "A national pharmacy chain in the UK has launched an online platform for providing access to medical cannabis. The post UK\u2019s Largest Pharmacy Chain Launches Online Medical Cannabis Service appeared first on StratCann .",
    "ts": 1794856912.0,
    "date": "2026-11-16 14:21",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "UK medical cannabis to be offered at mainstream pharmacy Boots - MJBizDaily",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQN1pyVTI2ZzZ6QXJid1hVcVNLeE1rNUdaUVpLclNSb1RvaXBGcmYzT2k4NGluZVc2MWt5VWc4ZjBFWi02RDhaRGY3WHZVZW5HSUFYMXJsZm5aeUtiNFg3OGE1QnBSUVpwaVRqcF9hT3YzQ0lqbDdJTlpZazc0Ry11Y1ZPS1RhWk4tNGU0R1dzMEtHYjJld2hURTNnTUVqcy11S2lEX1g1VkhQNzlXWmx0emhSNmdZTGJwYy11MHVDb0h4cGl0?oc=5",
-   "summary": "",
-   "ts": 1794854912.0,
-   "date": "2026-11-16 13:48",
    "category": "International",
    "is_law": false,
    "states": []
@@ -736,28 +685,6 @@
    "states": []
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "Boots to prescribe medical cannabis in first for high street pharmacy - The Independent",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdzdwNnFfLWhtelYzamJmckVkQ01Kd01ndDZ4Sko3TW0zM0hLazJqTVNsUmZib0lPSkJrOEkyTmJTcDR5TWlDS2JjRVZwMTd3R3ZIamNJYmFXakZHMkhlN2ZqZTFBcExQMElKMDBUV0tCOVRRNndTWWQ2SHlXUHRLLXd5LTJfSFlSR0JVYkd1QXprYkhkZ0UyRGNPc3c4Rmlael9VYUdjNFVhWm5T?oc=5",
-   "summary": "",
-   "ts": 1794838920.0,
-   "date": "2026-11-16 09:22",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "US basketball player arrested after cannabis seizure at Nigeria airport, authorities say - Reuters",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX0tzZ0dwT25EMVdsdzVCM2MzSkg2OUc5Q2ZsMy1hZHJkMWd0cERkS1JtSWExb1pZcXpqX2RpMFcwTDBBQUk4OW9pdW1QVnlyS0dCQmNKTmg1SnUzR0JjMzE1dnVKelhTQW5iSWYtR2pQQkpxRVBWWHY1LUpON2Z6d0dLUzB6S1YyU3FEVUV4S1JVX0NWZmsyaU9NZFBzLU85b0xiU2d0SUZlY2dtaF9qRlZGRUZDanc2V1c0ZDd4MkNYTHpWZm5QaA?oc=5",
-   "summary": "",
-   "ts": 1794835440.0,
-   "date": "2026-11-16 08:24",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Business of Cannabis (intl)",
    "title": "Boots Launches Private Medical Cannabis Service in UK High-Street First",
    "link": "https://businessofcannabis.com/boots-launches-private-medical-cannabis-service-in-uk-high-street-first/",
@@ -767,9 +694,102 @@
    "category": "International",
    "is_law": false,
    "states": []
+  },
+  {
+   "source": "MJBizDaily",
+   "title": "What\u2019s the best holiday sales strategy? How cannabis retailers can prepare for Green Wednesday and beyond.",
+   "link": "https://mjbizdaily.com/news/whats-the-best-holiday-sales-strategy-how-cannabis-retailers-can-prepare-for-green-wednesday-and-beyond/619201/",
+   "summary": "The holidays bring some of the busiest days of the year for cannabis retailers, but successful fourth quarters need more than aggressive discounting to maximize the holiday rush. What\u2019s the best holiday sales strategy? How cannabis retailers can prepare for Gr",
+   "ts": 1794828608.0,
+   "date": "2026-11-16 06:30",
+   "category": "Industry",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "StratCann (Canada)",
+   "title": "Week in Weed \u2013 November 14, 2026",
+   "link": "https://stratcann.com/news/week-in-weed-november-14-2026/",
+   "summary": "StratCann\u2019s weekly round-up o cannabis industry news for the week ending November 14, 2026. The post Week in Weed \u2013 November 14, 2026 appeared first on StratCann .",
+   "ts": 1794658800.0,
+   "date": "2026-11-14 07:20",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "StratCann (Canada)",
+   "title": "BC Cannabis Wholesale, Direct Delivery Sales Both Increased in Q2",
+   "link": "https://stratcann.com/news/bc-cannabis-wholesale-direct-delivery-sales-both-increased-in-q2/",
+   "summary": "BC's cannabis distributor wholesaled $156.4 million worth of cannabis in its second fiscal quarter of 2026, ending September 30, 2026, totalling 42,254,829 grams. The post BC Cannabis Wholesale, Direct Delivery Sales Both Increased in Q2 appeared first on Stra",
+   "ts": 1794623053.0,
+   "date": "2026-11-13 21:24",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "MJBizDaily",
+   "title": "The best thing to happen to New York cannabis retailers",
+   "link": "https://mjbizdaily.com/news/the-best-thing-to-happen-to-new-york-cannabis-retailers/619196/",
+   "summary": "New York's new list of cannabis defaulters is both a warning sign and a how-to guide for retailers around the country. All stores should order smaller and smarter. The best thing to happen to New York cannabis retailers is a post from: MJBizDaily: Financial, L",
+   "ts": 1794611813.0,
+   "date": "2026-11-13 18:16",
+   "category": "US states",
+   "is_law": false,
+   "states": [
+    "New"
+   ]
+  },
+  {
+   "source": "MJBizDaily",
+   "title": "Massachusetts may require cannabis remediated with radiation to be labeled",
+   "link": "https://mjbizdaily.com/news/massachusetts-may-require-cannabis-remediated-with-radiation-to-be-labeled/619194/",
+   "summary": "Controversial among consumers and some operators, remediating cannabis with radiation may soon carry a labeling requirement in Massachusetts. Massachusetts may require cannabis remediated with radiation to be labeled is a post from: MJBizDaily: Financial, Lega",
+   "ts": 1794598354.0,
+   "date": "2026-11-13 14:32",
+   "category": "US states",
+   "is_law": false,
+   "states": [
+    "Massachusetts"
+   ]
+  },
+  {
+   "source": "StratCann (Canada)",
+   "title": "Lower Domestic Sales Offset by International Expansion for Avicanna in Q3",
+   "link": "https://stratcann.com/financials/lower-domestic-sales-offset-by-international-expansion-for-avicanna-in-q3/",
+   "summary": "Avicanna Inc. reported $5.7 million in revenue for the three months ended September 30, 2026 (Q3 2026), with a gross profit of $2.9 million and... The post Lower Domestic Sales Offset by International Expansion for Avicanna in Q3 appeared first on StratCann .",
+   "ts": 1794591017.0,
+   "date": "2026-11-13 12:30",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "Business of Cannabis (intl)",
+   "title": "Dutch Cabinet to Review Prevalence of Edibles in Coffeeshop Pilot",
+   "link": "https://businessofcannabis.com/dutch-cabinet-to-review-prevalence-of-edibles-in-coffeeshop-pilot/",
+   "summary": "This article was written by Mauro Picavet and originally published on cannabisindustrie.nl. The Dutch government will take another look at the role of edibles in its \u2018controlled cannabis supply chain experiment\u2019 amid parliamentary pressure from three Christian",
+   "ts": 1794585517.0,
+   "date": "2026-11-13 10:58",
+   "category": "International",
+   "is_law": false,
+   "states": []
   }
  ],
  "all": [
+  {
+   "source": "Marijuana Moment",
+   "title": "USPS Says Medical Marijuana Isn\u2019t Mailable \u2018Under Any Circumstances,\u2019 But Weighs Possible Policy Change Under Rescheduling",
+   "link": "https://www.marijuanamoment.net/usps-says-medical-marijuana-isnt-mailable-under-any-circumstances-but-weighs-possible-policy-change-under-rescheduling/",
+   "ts": 1795006339.0,
+   "date": "2026-11-18 07:52",
+   "category": "US federal",
+   "is_law": true,
+   "states": [
+    "Georgia"
+   ]
+  },
   {
    "source": "Business of Cannabis (intl)",
    "title": "Cannabis Stocks Today \u2014 Wednesday 18 November 2026: AFC Gamma holds above $3.50",
@@ -860,16 +880,6 @@
    ]
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "ICBC Berlin Returns for 10th Anniversary as Europe\u2019s Cannabis Industry Evolves - High Times Magazine",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90VkhvRkFPLVJFVENXZkZmaE45eVNxUnU4MGlQbnZsWTlVeWRPVDloNHU1N2J1MEhsMUgxcndFOW12Y05nd2lNTTZiNVRlaGJEOGR6dEE3ajVpa2ZQTWhzbW9IRlNVZVNtSXFXVEp1d2w?oc=5",
-   "ts": 1794937563.0,
-   "date": "2026-11-17 12:46",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Business of Cannabis (intl)",
    "title": "Is Boots\u2019 Entry into Medical Cannabis a Boon for Legitimacy or Solidification of a Flawed Framework?",
    "link": "https://businessofcannabis.com/is-boots-entry-into-medical-cannabis-a-boon-for-legitimacy-or-solidification-of-a-flawed-framework/",
@@ -954,16 +964,6 @@
    "states": []
   },
   {
-   "source": "Marijuana Moment",
-   "title": "Schumer vs. Van Hollen on cannabis (Newsletter: November 17, 2026)",
-   "link": "https://www.marijuanamoment.net/schumer-vs-van-hollen-on-cannabis-newsletter-november-17-2026/",
-   "ts": 1794913939.0,
-   "date": "2026-11-17 06:12",
-   "category": "US federal",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "Business of Cannabis (intl)",
    "title": "Cannabis Stocks Today \u2014 Monday 16 November 2026: Aurora sits at $4.94",
    "link": "https://businessofcannabis.com/cannabis-stocks-today-monday-16-november-2026-aurora-sits-at-4-94/",
@@ -974,51 +974,11 @@
    "states": []
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "Boots to begin prescribing medical cannabis in UK - The Guardian",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTkJiNlNYMjRobE9aQVRDUzI4NHdoWjhCOUE0VkttWHIxN0pCbk5EbjNXRDBkLUxzeUNwWG90WnBNRHpBOVI4U1hrMkkyQXNVZ0d3RklOZV9KWGpLdFN0UlZMc0tGXzhSMWEzVEx2UmhXRTRSRmZjb2Y4ZU1ZVWhxQVdvM2swNjdnQ3VyT0NDdE1zbmNnVUNZUThqQUZLMmZfZTRJ?oc=5",
-   "ts": 1794882600.0,
-   "date": "2026-11-16 21:30",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Major UK Pharmacy to Offer Medical Cannabis Prescriptions - Cannabis Equipment News",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ2t0ZDdNVXBQLTZuX0ZnaXpOangyNG9Vb2dMc3hJTExlX2RzRFI5bGxwZk9VRGVZVTBLTVlXOHZPN0tkaVpBV3R3eXViQndNRWNScF9nNXJyQ1VnWFVCSXplUEo5MnFuN1lZbWo0czRuQldtZVNMVVEyc0I2Y0hhVTE5Uzd2YmJiY3JqUUROWHBfZVViVkJzQ2dzUU5NLTRiZi1JUVJORjdEZkhpMDNOVHBkTXJ6cFN3NmZ6MWl0SQ?oc=5",
-   "ts": 1794875747.0,
-   "date": "2026-11-16 19:35",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Mainstream UK Pharmacy Launches Medical Cannabis Service - International Cannabis Business Conference",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPS0JFc29GRUc3ZGNkeV9OV0RiR3JuSW9QREtNMk1jSm5MdkJOeTVxaWktbmcwMmxaN251WlJCU1lIYmkwUURVaWNDMUxfaHhRZVVkeWNzdXJUMzVCTmpwVjhGaFp3allPYmlmdVFzbFRVdkc3WkRfSktoSmU1RmJJTVJ5a1U4ejVzTndsbzJPWQ?oc=5",
-   "ts": 1794874598.0,
-   "date": "2026-11-16 19:16",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "StratCann (Canada)",
    "title": "UK\u2019s Largest Pharmacy Chain Launches Online Medical Cannabis Service",
    "link": "https://stratcann.com/news/uks-largest-pharmacy-chain-launches-online-medical-cannabis-service/",
    "ts": 1794856912.0,
    "date": "2026-11-16 14:21",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "UK medical cannabis to be offered at mainstream pharmacy Boots - MJBizDaily",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQN1pyVTI2ZzZ6QXJid1hVcVNLeE1rNUdaUVpLclNSb1RvaXBGcmYzT2k4NGluZVc2MWt5VWc4ZjBFWi02RDhaRGY3WHZVZW5HSUFYMXJsZm5aeUtiNFg3OGE1QnBSUVpwaVRqcF9hT3YzQ0lqbDdJTlpZazc0Ry11Y1ZPS1RhWk4tNGU0R1dzMEtHYjJld2hURTNnTUVqcy11S2lEX1g1VkhQNzlXWmx0emhSNmdZTGJwYy11MHVDb0h4cGl0?oc=5",
-   "ts": 1794854912.0,
-   "date": "2026-11-16 13:48",
    "category": "International",
    "is_law": false,
    "states": []
@@ -1049,26 +1009,6 @@
    "link": "https://stratcann.com/financials/rubicon-organics-expands-international-reach-and-production-capacity-in-2026/",
    "ts": 1794843681.0,
    "date": "2026-11-16 10:41",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Boots to prescribe medical cannabis in first for high street pharmacy - The Independent",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdzdwNnFfLWhtelYzamJmckVkQ01Kd01ndDZ4Sko3TW0zM0hLazJqTVNsUmZib0lPSkJrOEkyTmJTcDR5TWlDS2JjRVZwMTd3R3ZIamNJYmFXakZHMkhlN2ZqZTFBcExQMElKMDBUV0tCOVRRNndTWWQ2SHlXUHRLLXd5LTJfSFlSR0JVYkd1QXprYkhkZ0UyRGNPc3c4Rmlael9VYUdjNFVhWm5T?oc=5",
-   "ts": 1794838920.0,
-   "date": "2026-11-16 09:22",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "US basketball player arrested after cannabis seizure at Nigeria airport, authorities say - Reuters",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX0tzZ0dwT25EMVdsdzVCM2MzSkg2OUc5Q2ZsMy1hZHJkMWd0cERkS1JtSWExb1pZcXpqX2RpMFcwTDBBQUk4OW9pdW1QVnlyS0dCQmNKTmg1SnUzR0JjMzE1dnVKelhTQW5iSWYtR2pQQkpxRVBWWHY1LUpON2Z6d0dLUzB6S1YyU3FEVUV4S1JVX0NWZmsyaU9NZFBzLU85b0xiU2d0SUZlY2dtaF9qRlZGRUZDanc2V1c0ZDd4MkNYTHpWZm5QaA?oc=5",
-   "ts": 1794835440.0,
-   "date": "2026-11-16 08:24",
    "category": "International",
    "is_law": false,
    "states": []
@@ -1168,16 +1108,6 @@
    "states": []
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "Report: Australia Medical Cannabis Market to Reach $2.6B by 2035 - Ganjapreneur",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdEhPX296VTZEOENPOExSXzVVZ0UyZEJtMHlsaUY5WWNRYlZmalAzMlRpVUgxNGFDUmNfOVpRd1FNMFdBTVJfdmkzTVZGZVZTbGRLLWZWUEMySlBPcjUzMGpzTmI5a3dLaWJiYUNGOHdIX0VDY2ZSOE9jWWtqbjFtSnFnSFdGTWZhZS1wUzFoT1A4Zw?oc=5",
-   "ts": 1794583276.0,
-   "date": "2026-11-13 10:21",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Business of Cannabis (intl)",
    "title": "Cannabis Stocks Today \u2014 Friday 13 November 2026: Curaleaf trades at $8.06",
    "link": "https://businessofcannabis.com/cannabis-stocks-today-friday-13-november-2026-curaleaf-trades-at-8-06/",
@@ -1252,26 +1182,6 @@
    "states": []
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "Australia to welcome global medicinal cannabis community to UIC 2027 - MMJDaily",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObm9Kbk1zNE8yRFhFMjctLUVhaWs4UmQxcXM3RGFSczNQNDl2WmhDYUxyRC10SkxTWGtPdVpuOTF5dnJad25TZEVteHlIOTNBRFFYOUJON21ZNktwYTBiVm5yZlYwd0VJX014ajdUa25xbkd6cFBwZE94aU4wUWdtM3hSMmtxN0tnYUJQTm5vYjJLNVZ2OTdTclliZWJyX05xZ2NIcmtOMkhPM0dmd1gw?oc=5",
-   "ts": 1794490850.0,
-   "date": "2026-11-12 08:40",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Medical Cannabis in the Workplace: an Employer\u2019s Guide to Testing, Safety and Rights - cannabishealthnews.co.uk",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZ21oTkpjUGlncTVKR014dEROblJNXzJZcHI3RmFDVzFZTEFPN21qc05aTjI4cXZfMEc2NllWUDJWdGFub2FjZzBlYkpJTjNCS0QxOHduclJFcjNWSGNpb1VJeW52ZkRvYlBRS0tTNzlFWV9FalB5OUlBQ2lZRU9aMVhWX0R2LXAtQmR5aVByZkt5SHFDb1N3eDlsV1dNUExVLVFCQUFnX2xlX3JidXlXUUprUGg4UzB4bjVlLUJXSDk5RGVu?oc=5",
-   "ts": 1794485872.0,
-   "date": "2026-11-12 07:17",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "MJBizDaily",
    "title": "The cannabis packaging mistakes putting operators and retailers at risk",
    "link": "https://mjbizdaily.com/news/the-cannabis-packaging-mistakes-putting-operators-and-retailers-at-risk/619125/",
@@ -1292,16 +1202,6 @@
    "states": [
     "New"
    ]
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Cancer patients say cannabis improves symptoms, study finds - UKNow",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQc1NBVXAzd2V2WUZjSlZnc0pCTFg5NUtOOHVNUzNfOENYOWViLWkzR2ZzVWZ1Vmh5RVlKTk1vUWdPYS0wSl83QnJGb3pYejlOeGU4aFVtM1FDMUxSMi1jblgtdHpjeDJlZHIyVm5BRUJCSW5ZZU9BVmp4OU8zX0haYlFDVVRiNE40UG9MOXBrMHppUzg?oc=5",
-   "ts": 1794474000.0,
-   "date": "2026-11-12 04:00",
-   "category": "International",
-   "is_law": false,
-   "states": []
   },
   {
    "source": "Business of Cannabis (intl)",
@@ -1859,5 +1759,5 @@
    "states": []
   }
  ],
- "generated": "2026-11-18 07:23 EST"
+ "generated": "2026-11-18 07:53 EST"
 }
