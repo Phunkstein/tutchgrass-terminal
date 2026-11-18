@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-18 05:45 EST",
+ "generated": "2026-11-18 11:44 EST",
  "window": {
   "start": "2026-10-19",
   "end": "2026-11-18",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "fd6aa4ccdeac9ec5",
+ "fingerprint": "12a8c9e94fffdce4",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -62,12 +62,14 @@
   "sleep": [
    "42935025",
    "43015371",
+   "43047344",
    "42997636"
   ],
   "pain": [
    "43035867",
    "42994510",
    "43005927",
+   "43047344",
    "42968604",
    "42956528",
    "42966277",
@@ -81,8 +83,7 @@
    "43015371",
    "42977215",
    "42968604",
-   "42963524",
-   "43044250"
+   "42963524"
   ],
   "mood": [
    "42998719"
@@ -104,6 +105,7 @@
    "42939750"
   ],
   "nausea": [
+   "43047344",
    "42983225",
    "42899270"
   ],
@@ -131,14 +133,14 @@
   "ibd": []
  },
  "pubmed_counts": {
-  "sleep": 21,
-  "pain": 29,
-  "anxiety": 47,
-  "mood": 56,
-  "ptsd": 11,
+  "sleep": 22,
+  "pain": 30,
+  "anxiety": 49,
+  "mood": 58,
+  "ptsd": 12,
   "arthritis": 5,
   "inflammation": 12,
-  "nausea": 7,
+  "nausea": 8,
   "appetite": 3,
   "focus": 9,
   "fibromyalgia": 3,
@@ -148,14 +150,14 @@
   "ibd": 2
  },
  "newest": {
-  "sleep": "2026-11-12",
-  "pain": "2026-11-16",
-  "anxiety": "2026-11-17",
+  "sleep": "2026-11-18",
+  "pain": "2026-11-18",
+  "anxiety": "2026-11-12",
   "mood": "2026-11-08",
   "ptsd": "2026-11-12",
   "arthritis": "2026-11-16",
   "inflammation": "2026-11-15",
-  "nausea": "2026-11-05",
+  "nausea": "2026-11-18",
   "appetite": null,
   "focus": "2026-11-08",
   "fibromyalgia": "2026-10-27",
@@ -166,23 +168,25 @@
  },
  "papers": [
   {
-   "pmid": "43044250",
-   "title": "Anxiolytic effects of cannabigerol: Hype or hope?",
-   "journal": "J Pharmacol Exp Ther",
-   "date": "2026-11-17",
-   "pubdate": "2026-10-26",
-   "first_author": "Rahimian et al.",
-   "doi": "10.1016/j.jpet.2026.105055",
-   "grade": "review",
-   "grade_label": "Narrative review",
+   "pmid": "43047344",
+   "title": "Effectiveness and safety of different administration routes of medical cannabis or cannabinoids for chronic pain in adults: a systematic review and network meta-analysis with GRADE assessment.",
+   "journal": "Front Pharmacol",
+   "date": "2026-11-18",
+   "pubdate": "2026-11-03",
+   "first_author": "Zhao et al.",
+   "doi": "10.3389/fphar.2026.1895235",
+   "grade": "meta",
+   "grade_label": "Meta-analysis / systematic review",
    "plain": {
-    "did": "An expert overview of existing research.",
-    "found": "This review integrates pharmacokinetic, mechanistic, preclinical, and clinical findings to show that CBG produces context-dependent effects that vary according to exposure profile, biological state, and behavioral domain.",
-    "caveat": "An expert overview, not a systematic search. No new data."
+    "did": "Researchers searched for and pooled the results of earlier studies.",
+    "found": "This study suggested that medical cannabis or cannabinoids might have certain efficacy for adult chronic pain. PEA and THC provided pain relief, while the THC/CBD combination showed a potential benefit for sleep quality improvement.",
+    "caveat": "Pools earlier studies. Only as strong as the studies it includes."
    },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/43044250/",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43047344/",
    "conditions": [
-    "anxiety"
+    "sleep",
+    "pain",
+    "nausea"
    ]
   },
   {
