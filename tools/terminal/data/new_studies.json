@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-18 11:44 EST",
+ "generated": "2026-11-18 17:45 EST",
  "window": {
   "start": "2026-10-19",
   "end": "2026-11-18",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "12a8c9e94fffdce4",
+ "fingerprint": "de938775f84d172e",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -86,6 +86,7 @@
    "42963524"
   ],
   "mood": [
+   "43050331",
    "42998719"
   ],
   "ptsd": [
@@ -136,7 +137,7 @@
   "sleep": 22,
   "pain": 30,
   "anxiety": 49,
-  "mood": 58,
+  "mood": 59,
   "ptsd": 12,
   "arthritis": 5,
   "inflammation": 12,
@@ -153,7 +154,7 @@
   "sleep": "2026-11-18",
   "pain": "2026-11-18",
   "anxiety": "2026-11-12",
-  "mood": "2026-11-08",
+  "mood": "2026-11-18",
   "ptsd": "2026-11-12",
   "arthritis": "2026-11-16",
   "inflammation": "2026-11-15",
@@ -187,6 +188,26 @@
     "sleep",
     "pain",
     "nausea"
+   ]
+  },
+  {
+   "pmid": "43050331",
+   "title": "Resilience Factors Are Associated With Mental Health Outcomes Among Middle-Age and Older People With and Without HIV in the U.S. Deep South: A Quantitative Study.",
+   "journal": "J Assoc Nurses AIDS Care",
+   "date": "2026-11-18",
+   "pubdate": "2026-11-18",
+   "first_author": "Delgadillo et al.",
+   "doi": "10.1097/JNC.0000000000000717",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at data on 105 people (nobody was assigned a treatment).",
+    "found": "Moderation analyses revealed that higher self-rated successful aging was associated with not having clinically relevant depressive symptoms among people without HIV, not PWH.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43050331/",
+   "conditions": [
+    "mood"
    ]
   },
   {
