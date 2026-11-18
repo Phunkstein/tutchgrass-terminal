@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-17 23:41 EST",
+ "generated": "2026-11-18 00:44 EST",
  "window": {
-  "start": "2026-10-18",
-  "end": "2026-11-17",
+  "start": "2026-10-19",
+  "end": "2026-11-18",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "7070c3a0164f08e1",
+ "fingerprint": "9e37d62f21bee424",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -74,8 +74,8 @@
    "42950713",
    "42929306",
    "42927589",
-   "42893197",
-   "42965212"
+   "42965212",
+   "43035804"
   ],
   "anxiety": [
    "43015371",
@@ -131,17 +131,17 @@
   "ibd": []
  },
  "pubmed_counts": {
-  "sleep": 22,
-  "pain": 31,
-  "anxiety": 48,
-  "mood": 57,
+  "sleep": 21,
+  "pain": 29,
+  "anxiety": 46,
+  "mood": 56,
   "ptsd": 11,
-  "arthritis": 6,
+  "arthritis": 5,
   "inflammation": 12,
   "nausea": 7,
   "appetite": 3,
   "focus": 9,
-  "fibromyalgia": 4,
+  "fibromyalgia": 3,
   "ms": 6,
   "epilepsy": 16,
   "migraine": 4,
@@ -201,6 +201,26 @@
     "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
    },
    "url": "https://pubmed.ncbi.nlm.nih.gov/43035867/",
+   "conditions": [
+    "pain"
+   ]
+  },
+  {
+   "pmid": "43035804",
+   "title": "Navigating chronic pain: a qualitative inquiry of experiences, impacts and treatments among medical cannabis patients in Pennsylvania.",
+   "journal": "J Cannabis Res",
+   "date": "2026-11-16",
+   "pubdate": "2026-08-18",
+   "first_author": "Fedorova et al.",
+   "doi": "10.1186/s42238-026-00472-2",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at existing data on people (nobody was assigned a treatment).",
+    "found": "Perceived pain relief with medical cannabis and/or in combination with other treatments varied according to cannabis forms, terpene and minor cannabinoid content and pain type.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43035804/",
    "conditions": [
     "pain"
    ]
@@ -909,27 +929,7 @@
    "conditions": [
     "nausea"
    ]
-  },
-  {
-   "pmid": "42893197",
-   "title": "Cannabidiol (CBD) for Pain: A Narrative Review of Evidence to Date.",
-   "journal": "Cureus",
-   "date": "2026-10-18",
-   "pubdate": "2026-10-17",
-   "first_author": "Raffa et al.",
-   "doi": "10.7759/cureus.118057",
-   "grade": "review",
-   "grade_label": "Narrative review",
-   "plain": {
-    "did": "An expert overview of existing research.",
-    "found": "Despite strong biological plausibility and considerable consumer use, current high-quality evidence does not support CBD monotherapy as an effective analgesic across most pain conditions studied to date. Safety monitoring, particularly of liver enzymes at higher doses, is warranted.",
-    "caveat": "An expert overview, not a systematic search. No new data."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42893197/",
-   "conditions": [
-    "pain"
-   ]
   }
  ],
- "week_start": "2026-11-10"
+ "week_start": "2026-11-11"
 }
