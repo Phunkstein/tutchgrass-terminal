@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-18T11:08:26-0500",
- "generated_ts": 1795018107,
+ "generated": "2026-11-18T11:13:24-0500",
+ "generated_ts": 1795018404,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "unavailable",
-   "items": 0
+   "status": "ok",
+   "items": 12
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,19 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "oppraidunlicensedcannabisoperationarresttwointyendinagatowns",
+   "title": "OPP Raid Unlicensed Cannabis Operation, Arrest Two in Tyendinaga Township",
+   "link": "https://stratcann.com/enforcement/opp-raid-unlicensed-cannabis-operation-arrest-two-in-tyendinaga-township/",
+   "source": "StratCann (Canada)",
+   "category": "International",
+   "is_law": false,
+   "states": [],
+   "published": "2026-11-18T11:12:53-0500",
+   "published_ts": 1795018373.0,
+   "first_seen": "2026-11-18T11:13:24-0500",
+   "first_seen_ts": 1795018404
+  },
   {
    "id": "cannabisstockcgcloses26inamonthshouldyoubuythediptradingview",
    "title": "Cannabis Stock CGC Loses 26% in a Month: Should You Buy the Dip? - TradingView",
