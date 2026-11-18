@@ -1,6 +1,6 @@
 {
  "agent": "Recall & Safety",
- "checked": "2026-11-18 14:21 EST",
+ "checked": "2026-11-18 15:22 EST",
  "sources_ok": 10,
  "sources_total": 11,
  "sources": [
@@ -80,7 +80,7 @@
    "name": "FDA warning letters: CBD/cannabis products",
    "url": "https://www.fda.gov/news-events/public-health-focus/warning-letters-and-test-results-cannabidiol-related-products",
    "status": "unavailable",
-   "error": "HTTP 401",
+   "error": "network error (curl 28)",
    "kept": 15
   }
  ],
@@ -2233,5 +2233,5 @@
   }
  ],
  "what_to_do": "If you have a product that matches a listed batch/lot, stop using it and follow the instructions in the official notice (usually return it to the retailer or dispose of it). Check the official link for exact batch numbers.",
- "generated": "2026-11-18 14:21 EST"
+ "generated": "2026-11-18 15:22 EST"
 }
