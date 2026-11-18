@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-17 17:45 EST",
+ "generated": "2026-11-17 23:41 EST",
  "window": {
   "start": "2026-10-18",
   "end": "2026-11-17",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "ce7ae6cdd010cf90",
+ "fingerprint": "7070c3a0164f08e1",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -82,7 +82,7 @@
    "42977215",
    "42968604",
    "42963524",
-   "42950713"
+   "43044250"
   ],
   "mood": [
    "42998719"
@@ -133,7 +133,7 @@
  "pubmed_counts": {
   "sleep": 22,
   "pain": 31,
-  "anxiety": 47,
+  "anxiety": 48,
   "mood": 57,
   "ptsd": 11,
   "arthritis": 6,
@@ -150,7 +150,7 @@
  "newest": {
   "sleep": "2026-11-12",
   "pain": "2026-11-16",
-  "anxiety": "2026-11-12",
+  "anxiety": "2026-11-17",
   "mood": "2026-11-08",
   "ptsd": "2026-11-12",
   "arthritis": "2026-11-16",
@@ -165,6 +165,26 @@
   "ibd": null
  },
  "papers": [
+  {
+   "pmid": "43044250",
+   "title": "Anxiolytic effects of cannabigerol: Hype or hope?",
+   "journal": "J Pharmacol Exp Ther",
+   "date": "2026-11-17",
+   "pubdate": "2026-10-26",
+   "first_author": "Rahimian et al.",
+   "doi": "10.1016/j.jpet.2026.105055",
+   "grade": "review",
+   "grade_label": "Narrative review",
+   "plain": {
+    "did": "An expert overview of existing research.",
+    "found": "This review integrates pharmacokinetic, mechanistic, preclinical, and clinical findings to show that CBG produces context-dependent effects that vary according to exposure profile, biological state, and behavioral domain.",
+    "caveat": "An expert overview, not a systematic search. No new data."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43044250/",
+   "conditions": [
+    "anxiety"
+   ]
+  },
   {
    "pmid": "43035867",
    "title": "The Association of Cannabis Use With Pain, Mental Health Outcomes, and Medical Cannabis Legal Status in Persons With Chronic Traumatic Brain Injury: A NIDILRR and VA TBI Model Systems Collaborative Project.",
@@ -687,8 +707,7 @@
    },
    "url": "https://pubmed.ncbi.nlm.nih.gov/42950713/",
    "conditions": [
-    "pain",
-    "anxiety"
+    "pain"
    ]
   },
   {
