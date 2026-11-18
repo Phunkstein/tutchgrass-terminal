@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-18T11:13:24-0500",
- "generated_ts": 1795018404,
+ "generated": "2026-11-18T11:28:15-0500",
+ "generated_ts": 1795019296,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "items": 0
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,21 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "topoklahomagopsenatorfilesbilltoprotectmedicalmarijuanapatie",
+   "title": "Top Oklahoma GOP Senator Files Bill To Protect Medical Marijuana Patients\u2019 Gun Rights",
+   "link": "https://www.marijuanamoment.net/top-oklahoma-gop-senator-files-bill-to-protect-medical-marijuana-patients-gun-rights/",
+   "source": "Marijuana Moment",
+   "category": "US federal",
+   "is_law": true,
+   "states": [
+    "Oklahoma"
+   ],
+   "published": "2026-11-18T11:26:41-0500",
+   "published_ts": 1795019201.0,
+   "first_seen": "2026-11-18T11:28:15-0500",
+   "first_seen_ts": 1795019296
+  },
   {
    "id": "oppraidunlicensedcannabisoperationarresttwointyendinagatowns",
    "title": "OPP Raid Unlicensed Cannabis Operation, Arrest Two in Tyendinaga Township",
