@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-19 05:45 EST",
+ "generated": "2026-11-19 11:45 EST",
  "window": {
   "start": "2026-10-20",
   "end": "2026-11-19",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "3af9fed3b153439e",
+ "fingerprint": "df967c13426c0a8a",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -129,6 +129,7 @@
    "42918565",
    "42997457",
    "42968542",
+   "43054266",
    "42914761"
   ],
   "migraine": [],
@@ -139,7 +140,7 @@
   "pain": 30,
   "anxiety": 49,
   "mood": 60,
-  "ptsd": 12,
+  "ptsd": 13,
   "arthritis": 5,
   "inflammation": 12,
   "nausea": 8,
@@ -147,7 +148,7 @@
   "focus": 10,
   "fibromyalgia": 3,
   "ms": 7,
-  "epilepsy": 16,
+  "epilepsy": 17,
   "migraine": 4,
   "ibd": 2
  },
@@ -164,11 +165,31 @@
   "focus": "2026-11-08",
   "fibromyalgia": "2026-10-27",
   "ms": "2026-11-18",
-  "epilepsy": "2026-11-08",
+  "epilepsy": "2026-11-19",
   "migraine": null,
   "ibd": null
  },
  "papers": [
+  {
+   "pmid": "43054266",
+   "title": "Association between immediate and early seizures and pre-injury alcohol and marijuana use: A traumatic brain injury model systems national database analysis.",
+   "journal": "Neurotrauma Rep",
+   "date": "2026-11-19",
+   "pubdate": "2026-10-30",
+   "first_author": "Acosta et al.",
+   "doi": "10.1177/2689288X261503861",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at data on 3,875 people (nobody was assigned a treatment).",
+    "found": "This study illustrated a possible priming effect of pre-injury alcohol use on post-injury brains, showing a stronger association between the development of early compared to immediate seizures.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43054266/",
+   "conditions": [
+    "epilepsy"
+   ]
+  },
   {
    "pmid": "43047344",
    "title": "Effectiveness and safety of different administration routes of medical cannabis or cannabinoids for chronic pain in adults: a systematic review and network meta-analysis with GRADE assessment.",
