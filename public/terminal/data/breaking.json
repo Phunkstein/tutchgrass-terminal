@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-19T12:23:15-0500",
- "generated_ts": 1795108995,
+ "generated": "2026-11-19T12:28:18-0500",
+ "generated_ts": 1795109298,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "items": 0
   },
   {
    "source": "Google News: intl cannabis",
@@ -37,8 +37,23 @@
    "items": 12
   }
  ],
- "new_this_run": 3,
+ "new_this_run": 1,
  "items": [
+  {
+   "id": "texaslawmakersshouldnotmissthechancetomodernizethestatescann",
+   "title": "Texas Lawmakers Should Not Miss The Chance To Modernize The State\u2019s Cannabis Laws In 2027 (Op-Ed)",
+   "link": "https://www.marijuanamoment.net/texas-lawmakers-should-not-miss-the-chance-to-modernize-the-states-cannabis-laws-in-2027-op-ed/",
+   "source": "Marijuana Moment",
+   "category": "US states",
+   "is_law": true,
+   "states": [
+    "Texas"
+   ],
+   "published": "2026-11-19T12:23:59-0500",
+   "published_ts": 1795109039.0,
+   "first_seen": "2026-11-19T12:28:18-0500",
+   "first_seen_ts": 1795109298
+  },
   {
    "id": "bedrocanwhatwentwrongtheadministratorsaccount",
    "title": "Bedrocan: What Went Wrong? \u2013 The Administrators\u2019 Account",
