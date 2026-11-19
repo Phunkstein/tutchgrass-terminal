@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-19T18:23:12-0500",
- "generated_ts": 1795130592,
+ "generated": "2026-11-19T18:43:26-0500",
+ "generated_ts": 1795131806,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,17 +28,32 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "items": 0
   },
   {
    "source": "Google News: intl cannabis",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "items": 0
   }
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "massachusettscannabiscommissionseeksoversightofintoxicatingh",
+   "title": "Massachusetts cannabis commission seeks oversight of intoxicating hemp",
+   "link": "https://mjbizdaily.com/news/massachusetts-cannabis-commission-seeks-oversight-of-intoxicating-hemp/619266/",
+   "source": "MJBizDaily",
+   "category": "US states",
+   "is_law": true,
+   "states": [
+    "Massachusetts"
+   ],
+   "published": "2026-11-19T18:41:26-0500",
+   "published_ts": 1795131686.0,
+   "first_seen": "2026-11-19T18:43:26-0500",
+   "first_seen_ts": 1795131806
+  },
   {
    "id": "californiacannabissalesrecoveringaftertaxhikestumble",
    "title": "California cannabis sales recovering after tax hike stumble",
