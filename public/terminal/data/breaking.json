@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-19T11:23:28-0500",
- "generated_ts": 1795105408,
+ "generated": "2026-11-19T12:23:15-0500",
+ "generated_ts": 1795108995,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "unavailable",
-   "items": 0
+   "status": "ok",
+   "items": 12
   },
   {
    "source": "Google News: intl cannabis",
@@ -37,8 +37,47 @@
    "items": 12
   }
  ],
- "new_this_run": 1,
+ "new_this_run": 3,
  "items": [
+  {
+   "id": "bedrocanwhatwentwrongtheadministratorsaccount",
+   "title": "Bedrocan: What Went Wrong? \u2013 The Administrators\u2019 Account",
+   "link": "https://businessofcannabis.com/bedrocan-what-went-wrong-the-administrators-account/",
+   "source": "Business of Cannabis (intl)",
+   "category": "International",
+   "is_law": true,
+   "states": [],
+   "published": "2026-11-19T11:54:13-0500",
+   "published_ts": 1795107253.0,
+   "first_seen": "2026-11-19T12:23:15-0500",
+   "first_seen_ts": 1795108995
+  },
+  {
+   "id": "bedrocanwhatwentwrongthefoundersaccount",
+   "title": "Bedrocan: What Went Wrong? \u2013 The Founder\u2019s Account",
+   "link": "https://businessofcannabis.com/bedrocan-what-went-wrong-the-founders-account/",
+   "source": "Business of Cannabis (intl)",
+   "category": "International",
+   "is_law": true,
+   "states": [],
+   "published": "2026-11-19T11:52:15-0500",
+   "published_ts": 1795107135.0,
+   "first_seen": "2026-11-19T12:23:15-0500",
+   "first_seen_ts": 1795108995
+  },
+  {
+   "id": "bedrocanwhatwentwrongthehealthministersaccount",
+   "title": "Bedrocan: What Went Wrong? \u2013 The Health Minister\u2019s Account",
+   "link": "https://businessofcannabis.com/bedrocan-what-went-wrong-the-health-ministers-account/",
+   "source": "Business of Cannabis (intl)",
+   "category": "International",
+   "is_law": true,
+   "states": [],
+   "published": "2026-11-19T11:50:58-0500",
+   "published_ts": 1795107058.0,
+   "first_seen": "2026-11-19T12:23:15-0500",
+   "first_seen_ts": 1795108995
+  },
   {
    "id": "cannabisstockstodaythursday19november2026imcannabistradesat0",
    "title": "Cannabis Stocks Today \u2014 Thursday 19 November 2026: IM Cannabis trades at $0.54",
@@ -470,19 +509,6 @@
    "published_ts": 1794937563.0,
    "first_seen": "2026-11-17T12:53:15-0500",
    "first_seen_ts": 1794937996
-  },
-  {
-   "id": "isbootsentryintomedicalcannabisaboonforlegitimacyorsolidific",
-   "title": "Is Boots\u2019 Entry into Medical Cannabis a Boon for Legitimacy or Solidification of a Flawed Framework?",
-   "link": "https://businessofcannabis.com/is-boots-entry-into-medical-cannabis-a-boon-for-legitimacy-or-solidification-of-a-flawed-framework/",
-   "source": "Business of Cannabis (intl)",
-   "category": "International",
-   "is_law": false,
-   "states": [],
-   "published": "2026-11-17T11:41:50-0500",
-   "published_ts": 1794933710.0,
-   "first_seen": "2026-11-17T11:53:18-0500",
-   "first_seen_ts": 1794934398
   }
  ]
 }
