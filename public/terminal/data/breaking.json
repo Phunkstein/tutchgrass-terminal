@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-18T19:43:14-0500",
- "generated_ts": 1795048994,
+ "generated": "2026-11-19T06:13:20-0500",
+ "generated_ts": 1795086801,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "items": 0
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,21 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "hempdebatecouldupendfederalfundinglegislationnewsletternovem",
+   "title": "Hemp debate could upend federal funding legislation (Newsletter: November 19, 2026)",
+   "link": "https://www.marijuanamoment.net/hemp-debate-could-upend-federal-funding-legislation-newsletter-november-19-2026/",
+   "source": "Marijuana Moment",
+   "category": "US federal",
+   "is_law": true,
+   "states": [
+    "New"
+   ],
+   "published": "2026-11-19T06:12:01-0500",
+   "published_ts": 1795086721.0,
+   "first_seen": "2026-11-19T06:13:20-0500",
+   "first_seen_ts": 1795086801
+  },
   {
    "id": "imcannabiscorpimccstockpricenewsquotehistoryyahoofinancecana",
    "title": "IM Cannabis Corp. (IMCC) Stock Price, News, Quote & History - Yahoo! Finance Canada",
@@ -480,45 +495,6 @@
    "published_ts": 1794919271.0,
    "first_seen": "2026-11-17T07:43:12-0500",
    "first_seen_ts": 1794919392
-  },
-  {
-   "id": "schumervsvanhollenoncannabisnewsletternovember172026",
-   "title": "Schumer vs. Van Hollen on cannabis (Newsletter: November 17, 2026)",
-   "link": "https://www.marijuanamoment.net/schumer-vs-van-hollen-on-cannabis-newsletter-november-17-2026/",
-   "source": "Marijuana Moment",
-   "category": "US federal",
-   "is_law": true,
-   "states": [],
-   "published": "2026-11-17T06:12:19-0500",
-   "published_ts": 1794913939.0,
-   "first_seen": "2026-11-17T06:13:17-0500",
-   "first_seen_ts": 1794913997
-  },
-  {
-   "id": "cannabisstockstodaymonday16november2026aurorasitsat494",
-   "title": "Cannabis Stocks Today \u2014 Monday 16 November 2026: Aurora sits at $4.94",
-   "link": "https://businessofcannabis.com/cannabis-stocks-today-monday-16-november-2026-aurora-sits-at-4-94/",
-   "source": "Business of Cannabis (intl)",
-   "category": "International",
-   "is_law": false,
-   "states": [],
-   "published": "2026-11-17T05:02:18-0500",
-   "published_ts": 1794909738.0,
-   "first_seen": "2026-11-17T05:23:14-0500",
-   "first_seen_ts": 1794910994
-  },
-  {
-   "id": "mainstreamukpharmacylaunchesmedicalcannabisserviceinternatio",
-   "title": "Mainstream UK Pharmacy Launches Medical Cannabis Service - International Cannabis Business Conference",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPS0JFc29GRUc3ZGNkeV9OV0RiR3JuSW9QREtNMk1jSm5MdkJOeTVxaWktbmcwMmxaN251WlJCU1lIYmkwUURVaWNDMUxfaHhRZVVkeWNzdXJUMzVCTmpwVjhGaFp3allPYmlmdVFzbFRVdkc3WkRfSktoSmU1RmJJTVJ5a1U4ejVzTndsbzJPWQ?oc=5",
-   "source": "Google News: intl cannabis",
-   "category": "International",
-   "is_law": false,
-   "states": [],
-   "published": "2026-11-16T19:16:38-0500",
-   "published_ts": 1794874598.0,
-   "first_seen": "2026-11-16T23:13:12-0500",
-   "first_seen_ts": 1794888792
   }
  ]
 }
