@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-19T18:43:26-0500",
- "generated_ts": 1795131806,
+ "generated": "2026-11-19T22:03:13-0500",
+ "generated_ts": 1795143793,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,17 +28,30 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "unavailable",
-   "items": 0
+   "status": "ok",
+   "items": 12
   },
   {
    "source": "Google News: intl cannabis",
-   "status": "unavailable",
-   "items": 0
+   "status": "ok",
+   "items": 12
   }
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "tilrayhasmorecashthandebtand71growthineuropeisthiscannabisst",
+   "title": "Tilray Has More Cash Than Debt and 71% Growth in Europe. Is This Cannabis Stock a Buy? - The Motley Fool",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQ0JrS2pleWY1Q2JleWcyenZlR0w1VlhrRW9jUjhGaDNnWndGbjlMTjFtQWczcm5DdnA1NXJ2LVc4MjJDcjRjYjVPQU5udXA1aHFuZGdReWdRZHFIbXBFbVZiZmVSNFd0N015dG84bTVnc3QwSkxtcTAySVZZOHRjdC1LVjhQX29rb09NSzMyZUp3dGxWcHphbUVhcmxDWkozS3NjV1VWajdxQm4weXFFZE5vRU9YelFLWnctNFlNZUZMTTNj?oc=5",
+   "source": "Google News: intl cannabis",
+   "category": "International",
+   "is_law": false,
+   "states": [],
+   "published": "2026-11-19T21:26:00-0500",
+   "published_ts": 1795141560.0,
+   "first_seen": "2026-11-19T22:03:13-0500",
+   "first_seen_ts": 1795143793
+  },
   {
    "id": "massachusettscannabiscommissionseeksoversightofintoxicatingh",
    "title": "Massachusetts cannabis commission seeks oversight of intoxicating hemp",
@@ -485,21 +498,6 @@
    "published_ts": 1794997863.0,
    "first_seen": "2026-11-18T05:43:12-0500",
    "first_seen_ts": 1794998593
-  },
-  {
-   "id": "georgiamedicalcannabisshippedviausmailsasmarketcontinuesrapi",
-   "title": "Georgia medical cannabis shipped via US mails as market continues rapid growth",
-   "link": "https://mjbizdaily.com/news/georgia-medical-cannabis-shipped-via-us-mails-as-market-continues-rapid-growth/619224/",
-   "source": "MJBizDaily",
-   "category": "US states",
-   "is_law": false,
-   "states": [
-    "Georgia"
-   ],
-   "published": "2026-11-17T19:16:42-0500",
-   "published_ts": 1794961002.0,
-   "first_seen": "2026-11-17T19:18:13-0500",
-   "first_seen_ts": 1794961093
   }
  ]
 }
