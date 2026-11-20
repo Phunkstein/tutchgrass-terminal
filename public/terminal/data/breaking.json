@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-20T13:28:13-0500",
- "generated_ts": 1795199293,
+ "generated": "2026-11-20T14:53:14-0500",
+ "generated_ts": 1795204395,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "unavailable",
-   "items": 0
+   "status": "ok",
+   "items": 12
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,19 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "thefederalhempbanwillcreateapetsafetyproblemandnooneistalkin",
+   "title": "The federal hemp ban will create a pet-safety problem \u2013 and no one is talking about it",
+   "link": "https://mjbizdaily.com/news/the-federal-hemp-ban-will-create-a-pet-safety-problem-and-no-one-is-talking-about-it/619298/",
+   "source": "MJBizDaily",
+   "category": "US federal",
+   "is_law": true,
+   "states": [],
+   "published": "2026-11-20T14:52:38-0500",
+   "published_ts": 1795204358.0,
+   "first_seen": "2026-11-20T14:53:14-0500",
+   "first_seen_ts": 1795204395
+  },
   {
    "id": "southcarolinaofficialsareviolatingthelawbynotallowingmedical",
    "title": "South Carolina Officials Are \u2018Violating\u2019 The Law By Not Allowing Medical Marijuana In Line With Federal Rescheduling, GOP Senator Says",
@@ -483,21 +496,6 @@
    "published_ts": 1795036565.0,
    "first_seen": "2026-11-18T16:18:13-0500",
    "first_seen_ts": 1795036694
-  },
-  {
-   "id": "texashasaclearpathtolegalizingmarijuanain2027advocatessayeve",
-   "title": "Texas Has A \u2018Clear Path\u2019 To Legalizing Marijuana In 2027, Advocates Say, Even As Obstacles Remain",
-   "link": "https://www.marijuanamoment.net/texas-has-a-clear-path-to-legalizing-marijuana-in-2027-advocates-say-even-as-obstacles-remain/",
-   "source": "Marijuana Moment",
-   "category": "US federal",
-   "is_law": true,
-   "states": [
-    "Texas"
-   ],
-   "published": "2026-11-18T13:56:50-0500",
-   "published_ts": 1795028210.0,
-   "first_seen": "2026-11-18T13:58:14-0500",
-   "first_seen_ts": 1795028294
   }
  ]
 }
