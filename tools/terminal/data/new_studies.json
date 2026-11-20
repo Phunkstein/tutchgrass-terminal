@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-20 04:45 EST",
+ "generated": "2026-11-20 05:45 EST",
  "window": {
   "start": "2026-10-21",
   "end": "2026-11-20",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "166bad5c33ddae0e",
+ "fingerprint": "d241ba88ecfa91b0",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -77,6 +77,7 @@
    "42929306",
    "42927589",
    "42965212",
+   "43058948",
    "43035804"
   ],
   "anxiety": [
@@ -137,14 +138,14 @@
   "ibd": []
  },
  "pubmed_counts": {
-  "sleep": 24,
-  "pain": 29,
+  "sleep": 25,
+  "pain": 30,
   "anxiety": 49,
-  "mood": 58,
+  "mood": 59,
   "ptsd": 13,
   "arthritis": 5,
   "inflammation": 13,
-  "nausea": 8,
+  "nausea": 9,
   "appetite": 4,
   "focus": 10,
   "fibromyalgia": 3,
@@ -155,7 +156,7 @@
  },
  "newest": {
   "sleep": "2026-11-18",
-  "pain": "2026-11-18",
+  "pain": "2026-11-20",
   "anxiety": "2026-11-12",
   "mood": "2026-11-18",
   "ptsd": "2026-11-12",
@@ -171,6 +172,26 @@
   "ibd": null
  },
  "papers": [
+  {
+   "pmid": "43058948",
+   "title": "Cannabis to reduce chronic postsurgical pain following total knee arthroplasty: a pilot randomized controlled trial.",
+   "journal": "J Cannabis Res",
+   "date": "2026-11-20",
+   "pubdate": "2026-08-25",
+   "first_author": "Busse et al.",
+   "doi": "10.1186/s42238-026-00492-y",
+   "grade": "rct",
+   "grade_label": "Human RCT (placebo)",
+   "plain": {
+    "did": "A randomized trial in 37 people compared a cannabis product with placebo.",
+    "found": "Modifications to our study protocol will be required to ensure feasibility of a definitive trial of cannabis versus placebo to reduce CPSP among TKA patients.",
+    "caveat": "Randomized against placebo: the strongest single-study design. Check the size and dose."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43058948/",
+   "conditions": [
+    "pain"
+   ]
+  },
   {
    "pmid": "43058040",
    "title": "Cortical Hypoperfusion in Acute Anorexia Nervosa Is Graded Along the Sensorimotor-Association Hierarchy.",
