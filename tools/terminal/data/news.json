@@ -28,8 +28,8 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 119"
   },
   {
    "source": "Google News: intl cannabis",
@@ -38,9 +38,22 @@
    "items": 12
   }
  ],
- "total": 102,
+ "total": 91,
  "by_category": {
   "US federal": [
+   {
+    "source": "Marijuana Moment",
+    "title": "South Carolina Officials Are \u2018Violating\u2019 The Law By Not Allowing Medical Marijuana In Line With Federal Rescheduling, GOP Senator Says",
+    "link": "https://www.marijuanamoment.net/south-carolina-officials-are-violating-the-law-by-not-allowing-medical-marijuana-in-line-with-federal-rescheduling-gop-senator-says/",
+    "summary": "A Republican South Carolina senator is waring health officials that they are out of compliance with state law by not taking steps to provide for legal access to medical marijuana, a move he says should have been triggered automatically by the Trump administrat",
+    "ts": 1795198999.0,
+    "date": "2026-11-20 13:23",
+    "category": "US federal",
+    "is_law": true,
+    "states": [
+     "South Carolina"
+    ]
+   },
    {
     "source": "Business of Cannabis (intl)",
     "title": "French Senate Demands Answers on Medical Cannabis Delays",
@@ -84,19 +97,6 @@
     "category": "US federal",
     "is_law": true,
     "states": []
-   },
-   {
-    "source": "Marijuana Moment",
-    "title": "Senate Panel Wants To Keep Blocking DC From Legal Marijuana Sales, While Pushing Feds To Continue Cannabis Drug Testing Under Rescheduling",
-    "link": "https://www.marijuanamoment.net/senate-panel-wants-to-keep-blocking-dc-from-legal-marijuana-sales-while-pushing-feds-to-continue-cannabis-drug-testing-under-rescheduling/",
-    "summary": "A key U.S. Senate committee has released spending bills and attached reports that would keep blocking local officials in Washington, D.C. from legalizing recreational marijuana sales and direct federal officials to continue drug testing safety sensitive worker",
-    "ts": 1795091850.0,
-    "date": "2026-11-19 07:37",
-    "category": "US federal",
-    "is_law": true,
-    "states": [
-     "Washington"
-    ]
    },
    {
     "source": "MJBizDaily",
@@ -269,17 +269,6 @@
     "states": []
    },
    {
-    "source": "StratCann (Canada)",
-    "title": "From Reactive to Strategic: What 10 Years in Cannabis Marketing Has Taught Me",
-    "link": "https://stratcann.com/news/from-reactive-to-strategic-10-years-in-cannabis-marketing/",
-    "summary": "After a decade in cannabis marketing, Marigold PR CEO Katie Pringle reflects on the industry's shift from last-minute tactics to intentional, community-driven brand building. The post From Reactive to Strategic: What 10 Years in Cannabis Marketing Has Taught M",
-    "ts": 1795180500.0,
-    "date": "2026-11-20 08:15",
-    "category": "International",
-    "is_law": false,
-    "states": []
-   },
-   {
     "source": "Google News: intl cannabis",
     "title": "IM Cannabis Corp. (IMCC) Stock Price, News, Quote & History - Yahoo! Finance Canada",
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OaVFUaWNnaWNjWGxlRV9oSjM4VmdMeDFiQmxzNkhubmpJcDgyRE50REtuMmJqd0ZsVy02NTE5NXhaZG1CTmdYNGNoQ1NYVjhxc0E?oc=5",
@@ -332,6 +321,17 @@
     "date": "2026-11-19 11:50",
     "category": "International",
     "is_law": true,
+    "states": []
+   },
+   {
+    "source": "Business of Cannabis (intl)",
+    "title": "Cannabis Stocks Today \u2014 Thursday 19 November 2026: IM Cannabis trades at $0.54",
+    "link": "https://businessofcannabis.com/cannabis-stocks-today-thursday-19-november-2026-im-cannabis-trades-at-0-54/",
+    "summary": "Cannabis stocks sit lower on Thursday, 19 November, with the latest quotes from Finnhub largely reflecting Wednesday\u2019s trading. The AdvisorShares Pure US Cannabis ETF (MSOS) trades at $3.58, down 1.9%, while the Amplify Alternative Harvest ETF (MJ) sits at $20",
+    "ts": 1795104263.0,
+    "date": "2026-11-19 11:04",
+    "category": "International",
+    "is_law": false,
     "states": []
    }
   ],
@@ -428,6 +428,19 @@
  },
  "latest": [
   {
+   "source": "Marijuana Moment",
+   "title": "South Carolina Officials Are \u2018Violating\u2019 The Law By Not Allowing Medical Marijuana In Line With Federal Rescheduling, GOP Senator Says",
+   "link": "https://www.marijuanamoment.net/south-carolina-officials-are-violating-the-law-by-not-allowing-medical-marijuana-in-line-with-federal-rescheduling-gop-senator-says/",
+   "summary": "A Republican South Carolina senator is waring health officials that they are out of compliance with state law by not taking steps to provide for legal access to medical marijuana, a move he says should have been triggered automatically by the Trump administrat",
+   "ts": 1795198999.0,
+   "date": "2026-11-20 13:23",
+   "category": "US federal",
+   "is_law": true,
+   "states": [
+    "South Carolina"
+   ]
+  },
+  {
    "source": "MJBizDaily",
    "title": "Cannabiz Seed: An emerging global cannabis seed brand putting genetics and community first",
    "link": "https://mjbizdaily.com/sponsored/cannabiz-seed-global-cannabis-seed-brand/",
@@ -498,17 +511,6 @@
    "date": "2026-11-20 09:02",
    "category": "US federal",
    "is_law": true,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "From Reactive to Strategic: What 10 Years in Cannabis Marketing Has Taught Me",
-   "link": "https://stratcann.com/news/from-reactive-to-strategic-10-years-in-cannabis-marketing/",
-   "summary": "After a decade in cannabis marketing, Marigold PR CEO Katie Pringle reflects on the industry's shift from last-minute tactics to intentional, community-driven brand building. The post From Reactive to Strategic: What 10 Years in Cannabis Marketing Has Taught M",
-   "ts": 1795180500.0,
-   "date": "2026-11-20 08:15",
-   "category": "International",
-   "is_law": false,
    "states": []
   },
   {
@@ -666,17 +668,6 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Decibel Cannabis Reports Q3 Revenue Growth Driven by International Sales",
-   "link": "https://stratcann.com/financials/decibel-cannabis-reports-q3-revenue-growth-driven-by-international-sales/",
-   "summary": "Decibel Cannabis reported net revenue of $35.1 million for the three months ended September 30, 2026 (Q3 2026), gross profit of $18.3 million, and income... The post Decibel Cannabis Reports Q3 Revenue Growth Driven by International Sales appeared first on Str",
-   "ts": 1795098258.0,
-   "date": "2026-11-19 09:24",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Marijuana Moment",
    "title": "Indiana Voters Should Be Able To Decide On Legalizing Marijuana, New Secretary Of State Says",
    "link": "https://www.marijuanamoment.net/indiana-voters-should-be-able-to-decide-on-legalizing-marijuana-new-secretary-of-state-says/",
@@ -691,19 +682,6 @@
    ]
   },
   {
-   "source": "Marijuana Moment",
-   "title": "Senate Panel Wants To Keep Blocking DC From Legal Marijuana Sales, While Pushing Feds To Continue Cannabis Drug Testing Under Rescheduling",
-   "link": "https://www.marijuanamoment.net/senate-panel-wants-to-keep-blocking-dc-from-legal-marijuana-sales-while-pushing-feds-to-continue-cannabis-drug-testing-under-rescheduling/",
-   "summary": "A key U.S. Senate committee has released spending bills and attached reports that would keep blocking local officials in Washington, D.C. from legalizing recreational marijuana sales and direct federal officials to continue drug testing safety sensitive worker",
-   "ts": 1795091850.0,
-   "date": "2026-11-19 07:37",
-   "category": "US federal",
-   "is_law": true,
-   "states": [
-    "Washington"
-   ]
-  },
-  {
    "source": "MJBizDaily",
    "title": "What cannabis shoppers want \u2013 and what retailers might be missing",
    "link": "https://mjbizdaily.com/news/what-cannabis-shoppers-want-and-what-retailers-might-be-missing/619042/",
@@ -711,17 +689,6 @@
    "ts": 1795087827.0,
    "date": "2026-11-19 06:30",
    "category": "Industry",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Ewing Morris Completes Acquisition of Decibel Cannabis Company Shares",
-   "link": "https://stratcann.com/news/ewing-morris-completes-acquisition-of-decibel-cannabis-company-shares/",
-   "summary": "Investment firm Ewing Morris has announced the completion of its all-cash offer to acquire a number of common shares in the capital of Decibel Cannabis... The post Ewing Morris Completes Acquisition of Decibel Cannabis Company Shares appeared first on StratCan",
-   "ts": 1795044126.0,
-   "date": "2026-11-18 18:22",
-   "category": "International",
    "is_law": false,
    "states": []
   },
@@ -750,17 +717,6 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "OPP Raid Unlicensed Cannabis Operation, Arrest Two in Tyendinaga Township",
-   "link": "https://stratcann.com/enforcement/opp-raid-unlicensed-cannabis-operation-arrest-two-in-tyendinaga-township/",
-   "summary": "Police in Ontario have seized hundreds of cannabis plants and hundreds of kilograms of finished cannabis, arresting two at a facility in Tyendinaga Township The post OPP Raid Unlicensed Cannabis Operation, Arrest Two in Tyendinaga Township appeared first on St",
-   "ts": 1795018373.0,
-   "date": "2026-11-18 11:12",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Google News: intl cannabis",
    "title": "Can Employers Restrict Cannabis Use Outside The Workplace? - Legal 500",
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUWxENFQ1ZWlSV1BqeTJXWm1HNzZwOU1HWnNXMHBaY2pvLUpYUlZrVVJJZ29TN2Z1VEZMdVNoNVNadFFheHR4R1FOaG1qWF9KWGMtUWRsVERueGZxTjU4dkFSOVo0cTVITkFIMy15ZjBUdmRYNFc3SndhaTFCbnh3cnFYYjZ6WEh1Y09JZTNpR0xyMXJXTXdfLW5GcEZidkJVV29NR3FnOS1BOU83WU5aYUJlLVRiY0k?oc=5",
@@ -781,9 +737,67 @@
    "category": "International",
    "is_law": false,
    "states": []
+  },
+  {
+   "source": "Business of Cannabis (intl)",
+   "title": "Cannabis Stocks Today \u2014 Wednesday 18 November 2026: AFC Gamma holds above $3.50",
+   "link": "https://businessofcannabis.com/cannabis-stocks-today-wednesday-18-november-2026-afc-gamma-holds-above-3-50/",
+   "summary": "Cannabis equities sit modestly lower on Wednesday, with US markets still in pre-market trading, so the quotes below reflect Tuesday\u2019s closing levels and some over-the-counter names may lag by a further day. The AdvisorShares Pure US Cannabis ETF (MSOS) trades ",
+   "ts": 1795003779.0,
+   "date": "2026-11-18 07:09",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "Business of Cannabis (intl)",
+   "title": "More Tonnes, Tougher Economics: Europe\u2019s Medical Cannabis Outlook for 2027",
+   "link": "https://businessofcannabis.com/more-tonnes-tougher-economics-europes-medical-cannabis-outlook-for-2027/",
+   "summary": "Written for Business of Cannabis by Oskar Fletcher, Chief Executive of pharmaceutical contract manufacturing operator Blossom Pharma. As Germany\u2019s medical cannabis import figures arrive, the industry\u2019s attention inevitably turns to growth. How much flower ente",
+   "ts": 1794997863.0,
+   "date": "2026-11-18 05:31",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "MJBizDaily",
+   "title": "Georgia medical cannabis shipped via US mails as market continues rapid growth",
+   "link": "https://mjbizdaily.com/news/georgia-medical-cannabis-shipped-via-us-mails-as-market-continues-rapid-growth/619224/",
+   "summary": "Medical cannabis shipments via the USPS are happening in Georgia. Georgia medical cannabis shipped via US mails as market continues rapid growth is a post from: MJBizDaily: Financial, Legal & Cannabusiness news for cannabis entrepreneurs",
+   "ts": 1794961002.0,
+   "date": "2026-11-17 19:16",
+   "category": "US states",
+   "is_law": false,
+   "states": [
+    "Georgia"
+   ]
+  },
+  {
+   "source": "Google News: intl cannabis",
+   "title": "ICBC Berlin Returns for 10th Anniversary as Europe\u2019s Cannabis Industry Evolves - High Times Magazine",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90VkhvRkFPLVJFVENXZkZmaE45eVNxUnU4MGlQbnZsWTlVeWRPVDloNHU1N2J1MEhsMUgxcndFOW12Y05nd2lNTTZiNVRlaGJEOGR6dEE3ajVpa2ZQTWhzbW9IRlNVZVNtSXFXVEp1d2w?oc=5",
+   "summary": "",
+   "ts": 1794937563.0,
+   "date": "2026-11-17 12:46",
+   "category": "International",
+   "is_law": false,
+   "states": []
   }
  ],
  "all": [
+  {
+   "source": "Marijuana Moment",
+   "title": "South Carolina Officials Are \u2018Violating\u2019 The Law By Not Allowing Medical Marijuana In Line With Federal Rescheduling, GOP Senator Says",
+   "link": "https://www.marijuanamoment.net/south-carolina-officials-are-violating-the-law-by-not-allowing-medical-marijuana-in-line-with-federal-rescheduling-gop-senator-says/",
+   "ts": 1795198999.0,
+   "date": "2026-11-20 13:23",
+   "category": "US federal",
+   "is_law": true,
+   "states": [
+    "South Carolina"
+   ]
+  },
   {
    "source": "MJBizDaily",
    "title": "Cannabiz Seed: An emerging global cannabis seed brand putting genetics and community first",
@@ -849,16 +863,6 @@
    "date": "2026-11-20 09:02",
    "category": "US federal",
    "is_law": true,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "From Reactive to Strategic: What 10 Years in Cannabis Marketing Has Taught Me",
-   "link": "https://stratcann.com/news/from-reactive-to-strategic-10-years-in-cannabis-marketing/",
-   "ts": 1795180500.0,
-   "date": "2026-11-20 08:15",
-   "category": "International",
-   "is_law": false,
    "states": []
   },
   {
@@ -1003,16 +1007,6 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Decibel Cannabis Reports Q3 Revenue Growth Driven by International Sales",
-   "link": "https://stratcann.com/financials/decibel-cannabis-reports-q3-revenue-growth-driven-by-international-sales/",
-   "ts": 1795098258.0,
-   "date": "2026-11-19 09:24",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Marijuana Moment",
    "title": "Indiana Voters Should Be Able To Decide On Legalizing Marijuana, New Secretary Of State Says",
    "link": "https://www.marijuanamoment.net/indiana-voters-should-be-able-to-decide-on-legalizing-marijuana-new-secretary-of-state-says/",
@@ -1026,34 +1020,12 @@
    ]
   },
   {
-   "source": "Marijuana Moment",
-   "title": "Senate Panel Wants To Keep Blocking DC From Legal Marijuana Sales, While Pushing Feds To Continue Cannabis Drug Testing Under Rescheduling",
-   "link": "https://www.marijuanamoment.net/senate-panel-wants-to-keep-blocking-dc-from-legal-marijuana-sales-while-pushing-feds-to-continue-cannabis-drug-testing-under-rescheduling/",
-   "ts": 1795091850.0,
-   "date": "2026-11-19 07:37",
-   "category": "US federal",
-   "is_law": true,
-   "states": [
-    "Washington"
-   ]
-  },
-  {
    "source": "MJBizDaily",
    "title": "What cannabis shoppers want \u2013 and what retailers might be missing",
    "link": "https://mjbizdaily.com/news/what-cannabis-shoppers-want-and-what-retailers-might-be-missing/619042/",
    "ts": 1795087827.0,
    "date": "2026-11-19 06:30",
    "category": "Industry",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Ewing Morris Completes Acquisition of Decibel Cannabis Company Shares",
-   "link": "https://stratcann.com/news/ewing-morris-completes-acquisition-of-decibel-cannabis-company-shares/",
-   "ts": 1795044126.0,
-   "date": "2026-11-18 18:22",
-   "category": "International",
    "is_law": false,
    "states": []
   },
@@ -1080,16 +1052,6 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "OPP Raid Unlicensed Cannabis Operation, Arrest Two in Tyendinaga Township",
-   "link": "https://stratcann.com/enforcement/opp-raid-unlicensed-cannabis-operation-arrest-two-in-tyendinaga-township/",
-   "ts": 1795018373.0,
-   "date": "2026-11-18 11:12",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Google News: intl cannabis",
    "title": "Can Employers Restrict Cannabis Use Outside The Workplace? - Legal 500",
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUWxENFQ1ZWlSV1BqeTJXWm1HNzZwOU1HWnNXMHBaY2pvLUpYUlZrVVJJZ29TN2Z1VEZMdVNoNVNadFFheHR4R1FOaG1qWF9KWGMtUWRsVERueGZxTjU4dkFSOVo0cTVITkFIMy15ZjBUdmRYNFc3SndhaTFCbnh3cnFYYjZ6WEh1Y09JZTNpR0xyMXJXTXdfLW5GcEZidkJVV29NR3FnOS1BOU83WU5aYUJlLVRiY0k?oc=5",
@@ -1105,16 +1067,6 @@
    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9nMjVNRVVXNzk3cERTaVRfUS1Pb2s0cThYX0pFS2pKZXZZMEVta1pCUUpwNVp1MWZWMTA4MTFWazJocG45Qnk2S2JUblU5YkhjY09IdFpNZVRtMVR1cVdZZ3dXa1R3bXl5MnV6LWdjcUFPOXV2Y2c?oc=5",
    "ts": 1795017600.0,
    "date": "2026-11-18 11:00",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Curaleaf Laboratories and PURPLEFARM Announce Manufacturing and Distribution Agreement for the UK Market",
-   "link": "https://stratcann.com/news/curaleaf-laboratories-purplefarm-uk-cannabis/",
-   "ts": 1795010400.0,
-   "date": "2026-11-18 09:00",
    "category": "International",
    "is_law": false,
    "states": []
@@ -1152,16 +1104,6 @@
    ]
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Provincial Court Dismisses Constitutional Challenge for Agent Representation",
-   "link": "https://stratcann.com/enforcement/provincial-court-dismisses-constitutional-challenge-for-agent-representation/",
-   "ts": 1794943919.0,
-   "date": "2026-11-17 14:31",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "Google News: intl cannabis",
    "title": "ICBC Berlin Returns for 10th Anniversary as Europe\u2019s Cannabis Industry Evolves - High Times Magazine",
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90VkhvRkFPLVJFVENXZkZmaE45eVNxUnU4MGlQbnZsWTlVeWRPVDloNHU1N2J1MEhsMUgxcndFOW12Y05nd2lNTTZiNVRlaGJEOGR6dEE3ajVpa2ZQTWhzbW9IRlNVZVNtSXFXVEp1d2w?oc=5",
@@ -1192,21 +1134,11 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Who Benefits When Cannabis Companies Consolidate?",
-   "link": "https://stratcann.com/news/who-benefits-when-cannabis-companies-consolidate/",
-   "ts": 1794927790.0,
-   "date": "2026-11-17 10:03",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Snoop Dogg\u2019s Tha Dogg House Opens a Members-Only Cannabis Club in Barcelona - Cannabis Now",
-   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE44OG1HTElsTU9jOWJ6aFdid01HMnZHSEladTBxN25ZdE5Sb1I4ZnUtTDV1S2NRT2otRUM1bWMzSmRxZTFTYmtPbmdEeE9rMkM3aFRidkJudWZBM2pnTTFtYU85R3RRLXdwR245Y09HTUs5bTFPVkVBT2Rn?oc=5",
-   "ts": 1794918111.0,
-   "date": "2026-11-17 07:21",
+   "source": "Business of Cannabis (intl)",
+   "title": "Curaleaf Laboratories and PURPLEFARM Announce Manufacturing and Distribution Agreement for the UK Market",
+   "link": "https://businessofcannabis.com/curaleaf-laboratories-and-purplefarm-announce-manufacturing-and-distribution-agreement-for-the-uk-market/",
+   "ts": 1794924940.0,
+   "date": "2026-11-17 09:15",
    "category": "International",
    "is_law": false,
    "states": []
@@ -1217,6 +1149,16 @@
    "link": "https://businessofcannabis.com/cannabis-stocks-today-monday-16-november-2026-aurora-sits-at-4-94/",
    "ts": 1794909738.0,
    "date": "2026-11-17 05:02",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "Google News: intl cannabis",
+   "title": "UK Pharmacy Chain Boots Moves Into Medical Cannabis - Cannabis Wire",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQlpfdjFfVjA1T013Mm9YWEV3RWpTbklCZE41OEU4c1Z0cVlEM3BzakoxY0pna0k5el90WTlCZ2NMZUMyREVHYWZoaVpBVFdxdVlDZFNNZFNCU1F0Wm91US1TU3VFNjdqVEFVaUNxUTlmSFNidUhtc1FlUVhXMUtQVHpNSHozcU9pS3JveTVSS1dfaEk?oc=5",
+   "ts": 1794902400.0,
+   "date": "2026-11-17 03:00",
    "category": "International",
    "is_law": false,
    "states": []
@@ -1242,16 +1184,6 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "UK\u2019s Largest Pharmacy Chain Launches Online Medical Cannabis Service",
-   "link": "https://stratcann.com/news/uks-largest-pharmacy-chain-launches-online-medical-cannabis-service/",
-   "ts": 1794856912.0,
-   "date": "2026-11-16 14:21",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Google News: intl cannabis",
    "title": "UK medical cannabis to be offered at mainstream pharmacy Boots - MJBizDaily",
    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQN1pyVTI2ZzZ6QXJid1hVcVNLeE1rNUdaUVpLclNSb1RvaXBGcmYzT2k4NGluZVc2MWt5VWc4ZjBFWi02RDhaRGY3WHZVZW5HSUFYMXJsZm5aeUtiNFg3OGE1QnBSUVpwaVRqcF9hT3YzQ0lqbDdJTlpZazc0Ry11Y1ZPS1RhWk4tNGU0R1dzMEtHYjJld2hURTNnTUVqcy11S2lEX1g1VkhQNzlXWmx0emhSNmdZTGJwYy11MHVDb0h4cGl0?oc=5",
@@ -1272,31 +1204,11 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Former Bedrocan CEO Alleges Financial Sabotage and Breach of Contract by Dutch Health Ministry",
-   "link": "https://stratcann.com/news/bedrocan-alleges-financial-sabotage-breach-of-contract-dutch-health-ministry/",
-   "ts": 1794850614.0,
-   "date": "2026-11-16 12:36",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "Google News: intl cannabis",
    "title": "Boots to sell medicinal cannabis - The Telegraph",
    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZUYzM0tRc2R5c0xuMVFKXzA2QlNCRm1oLVl1X0RnbG13aF9zRFFRWEhFc0hsczlWNUptYWVXRWlHb2lIX0xDckFtckI0R0xVbFJLa3FZams1V0ZnbEZBTkV2NWlmZGtsZFBQbkVTa0prRzZXTUVnNGJXMnJYN3hkazhfaWJLUUJ3?oc=5",
    "ts": 1794845040.0,
    "date": "2026-11-16 11:04",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Rubicon Organics Expands International Reach and Production Capacity in 2026",
-   "link": "https://stratcann.com/financials/rubicon-organics-expands-international-reach-and-production-capacity-in-2026/",
-   "ts": 1794843681.0,
-   "date": "2026-11-16 10:41",
    "category": "International",
    "is_law": false,
    "states": []
@@ -1318,26 +1230,6 @@
    "ts": 1794828608.0,
    "date": "2026-11-16 06:30",
    "category": "Industry",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Week in Weed \u2013 November 14, 2026",
-   "link": "https://stratcann.com/news/week-in-weed-november-14-2026/",
-   "ts": 1794658800.0,
-   "date": "2026-11-14 07:20",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "BC Cannabis Wholesale, Direct Delivery Sales Both Increased in Q2",
-   "link": "https://stratcann.com/news/bc-cannabis-wholesale-direct-delivery-sales-both-increased-in-q2/",
-   "ts": 1794623053.0,
-   "date": "2026-11-13 21:24",
-   "category": "International",
    "is_law": false,
    "states": []
   },
@@ -1871,5 +1763,5 @@
    "states": []
   }
  ],
- "generated": "2026-11-20 12:38 EST"
+ "generated": "2026-11-20 13:28 EST"
 }

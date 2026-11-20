@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-20T12:38:14-0500",
- "generated_ts": 1795196294,
+ "generated": "2026-11-20T13:28:13-0500",
+ "generated_ts": 1795199293,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "items": 0
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,21 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "southcarolinaofficialsareviolatingthelawbynotallowingmedical",
+   "title": "South Carolina Officials Are \u2018Violating\u2019 The Law By Not Allowing Medical Marijuana In Line With Federal Rescheduling, GOP Senator Says",
+   "link": "https://www.marijuanamoment.net/south-carolina-officials-are-violating-the-law-by-not-allowing-medical-marijuana-in-line-with-federal-rescheduling-gop-senator-says/",
+   "source": "Marijuana Moment",
+   "category": "US federal",
+   "is_law": true,
+   "states": [
+    "South Carolina"
+   ],
+   "published": "2026-11-20T13:23:19-0500",
+   "published_ts": 1795198999.0,
+   "first_seen": "2026-11-20T13:28:13-0500",
+   "first_seen_ts": 1795199293
+  },
   {
    "id": "cannabizseedanemergingglobalcannabisseedbrandputtinggenetics",
    "title": "Cannabiz Seed: An emerging global cannabis seed brand putting genetics and community first",
