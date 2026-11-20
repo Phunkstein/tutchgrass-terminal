@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-19 17:45 EST",
+ "generated": "2026-11-19 23:45 EST",
  "window": {
   "start": "2026-10-20",
   "end": "2026-11-19",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "d7abdbd5fdcbf595",
+ "fingerprint": "c04da9125f6a1a44",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -80,8 +80,8 @@
    "43035804"
   ],
   "anxiety": [
-   "43015371",
    "42977215",
+   "43015371",
    "42968604",
    "42963524"
   ],
@@ -110,7 +110,9 @@
    "42983225",
    "42899270"
   ],
-  "appetite": [],
+  "appetite": [
+   "43058040"
+  ],
   "focus": [
    "42997626",
    "42997000",
@@ -144,7 +146,7 @@
   "arthritis": 5,
   "inflammation": 13,
   "nausea": 8,
-  "appetite": 3,
+  "appetite": 4,
   "focus": 10,
   "fibromyalgia": 3,
   "ms": 7,
@@ -161,7 +163,7 @@
   "arthritis": "2026-11-16",
   "inflammation": "2026-11-15",
   "nausea": "2026-11-18",
-  "appetite": null,
+  "appetite": "2026-11-19",
   "focus": "2026-11-08",
   "fibromyalgia": "2026-10-27",
   "ms": "2026-11-18",
@@ -170,6 +172,26 @@
   "ibd": null
  },
  "papers": [
+  {
+   "pmid": "43058040",
+   "title": "Cortical Hypoperfusion in Acute Anorexia Nervosa Is Graded Along the Sensorimotor-Association Hierarchy.",
+   "journal": "Int J Eat Disord",
+   "date": "2026-11-19",
+   "pubdate": "2026-11-19",
+   "first_author": "Collantoni et al.",
+   "doi": "10.1002/eat.70278",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at data on 45 people (nobody was assigned a treatment).",
+    "found": "Hypoperfusion was greater where D1, CB1, mGluR5, M1, 5-HT2A, and \u03bc-opioid systems are dense, the dopaminergic, cannabinoid, glutamatergic, and muscarinic ones persisting after gradient adjustment.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43058040/",
+   "conditions": [
+    "appetite"
+   ]
+  },
   {
    "pmid": "43054266",
    "title": "Association between immediate and early seizures and pre-injury alcohol and marijuana use: A traumatic brain injury model systems national database analysis.",
