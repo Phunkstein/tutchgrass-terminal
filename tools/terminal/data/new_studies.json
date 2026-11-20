@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-20 05:45 EST",
+ "generated": "2026-11-20 11:44 EST",
  "window": {
   "start": "2026-10-21",
   "end": "2026-11-20",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "d241ba88ecfa91b0",
+ "fingerprint": "6af0b04fbb1aa5ce",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -63,9 +63,11 @@
    "42935025",
    "43015371",
    "43047344",
+   "43060641",
    "42997636"
   ],
   "pain": [
+   "43061767",
    "43035867",
    "42994510",
    "43005927",
@@ -75,16 +77,12 @@
    "42966277",
    "42950713",
    "42929306",
-   "42927589",
-   "42965212",
-   "43058948",
-   "43035804"
+   "42927589"
   ],
   "anxiety": [
    "42977215",
    "43015371",
-   "42968604",
-   "42963524"
+   "42968604"
   ],
   "mood": [
    "43050331",
@@ -93,6 +91,7 @@
   "ptsd": [
    "43015371",
    "42994609",
+   "43060820",
    "42945746"
   ],
   "arthritis": [
@@ -138,28 +137,28 @@
   "ibd": []
  },
  "pubmed_counts": {
-  "sleep": 25,
-  "pain": 30,
-  "anxiety": 49,
-  "mood": 59,
-  "ptsd": 13,
+  "sleep": 29,
+  "pain": 33,
+  "anxiety": 51,
+  "mood": 61,
+  "ptsd": 15,
   "arthritis": 5,
   "inflammation": 13,
-  "nausea": 9,
-  "appetite": 4,
+  "nausea": 11,
+  "appetite": 5,
   "focus": 10,
   "fibromyalgia": 3,
   "ms": 7,
-  "epilepsy": 17,
-  "migraine": 4,
+  "epilepsy": 18,
+  "migraine": 5,
   "ibd": 2
  },
  "newest": {
-  "sleep": "2026-11-18",
+  "sleep": "2026-11-20",
   "pain": "2026-11-20",
   "anxiety": "2026-11-12",
   "mood": "2026-11-18",
-  "ptsd": "2026-11-12",
+  "ptsd": "2026-11-20",
   "arthritis": "2026-11-16",
   "inflammation": "2026-11-15",
   "nausea": "2026-11-18",
@@ -173,23 +172,63 @@
  },
  "papers": [
   {
-   "pmid": "43058948",
-   "title": "Cannabis to reduce chronic postsurgical pain following total knee arthroplasty: a pilot randomized controlled trial.",
-   "journal": "J Cannabis Res",
+   "pmid": "43060641",
+   "title": "Associations Between Cannabis Use and Sleep Outcomes in a Sample of Pregnant Women.",
+   "journal": "medRxiv",
    "date": "2026-11-20",
-   "pubdate": "2026-08-25",
-   "first_author": "Busse et al.",
-   "doi": "10.1186/s42238-026-00492-y",
+   "pubdate": "2026-11-02",
+   "first_author": "Gorelik et al.",
+   "doi": "10.64898/2026.10.30.26366959",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at data on 441 people (nobody was assigned a treatment).",
+    "found": "Elevated third trimester insomnia symptoms among pregnant women using cannabis compared to women who did not use cannabis suggest a potential trimester-sensitive association.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43060641/",
+   "conditions": [
+    "sleep"
+   ]
+  },
+  {
+   "pmid": "43061767",
+   "title": "Low Prevalence of Adverse Outcomes in an 18-Month Follow-Up of Individuals With Chronic Pain Recently Certified for Medical Cannabis.",
+   "journal": "Subst Use Addctn J",
+   "date": "2026-11-20",
+   "pubdate": "2026-11-20",
+   "first_author": "Zolotov et al.",
+   "doi": "10.1177/29767342261496711",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at data on 223 people (nobody was assigned a treatment).",
+    "found": "In this cohort of adults with chronic pain newly certified for medical cannabis, adverse outcomes were infrequent during the 18-month follow-up, despite participants reporting regular use throughout the study.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43061767/",
+   "conditions": [
+    "pain"
+   ]
+  },
+  {
+   "pmid": "43060820",
+   "title": "Adjunctive delta-9-tetrahydrocannabinol during prolonged exposure therapy for PTSD: A randomized, double-blind feasibility pilot trial with mechanistic assessment of extinction recall.",
+   "journal": "Res Sq",
+   "date": "2026-11-20",
+   "pubdate": "2026-11-05",
+   "first_author": "Rabinak et al.",
+   "doi": "10.21203/rs.3.rs-11423157/v1",
    "grade": "rct",
    "grade_label": "Human RCT (placebo)",
    "plain": {
-    "did": "A randomized trial in 37 people compared a cannabis product with placebo.",
-    "found": "Modifications to our study protocol will be required to ensure feasibility of a definitive trial of cannabis versus placebo to reduce CPSP among TKA patients.",
+    "did": "A randomized trial in people compared a cannabis product with placebo.",
+    "found": "During extinction recall, THC was associated with greater hippocampal differentiation between extinguished and unextinguished threat cues, whereas behavioral and psychophysiological measures did not differ between groups.",
     "caveat": "Randomized against placebo: the strongest single-study design. Check the size and dose."
    },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/43058948/",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43060820/",
    "conditions": [
-    "pain"
+    "ptsd"
    ]
   },
   {
@@ -310,26 +349,6 @@
     "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
    },
    "url": "https://pubmed.ncbi.nlm.nih.gov/43035867/",
-   "conditions": [
-    "pain"
-   ]
-  },
-  {
-   "pmid": "43035804",
-   "title": "Navigating chronic pain: a qualitative inquiry of experiences, impacts and treatments among medical cannabis patients in Pennsylvania.",
-   "journal": "J Cannabis Res",
-   "date": "2026-11-16",
-   "pubdate": "2026-08-18",
-   "first_author": "Fedorova et al.",
-   "doi": "10.1186/s42238-026-00472-2",
-   "grade": "obs",
-   "grade_label": "Observational",
-   "plain": {
-    "did": "Researchers looked at existing data on people (nobody was assigned a treatment).",
-    "found": "Perceived pain relief with medical cannabis and/or in combination with other treatments varied according to cannabis forms, terpene and minor cannabinoid content and pain type.",
-    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/43035804/",
    "conditions": [
     "pain"
    ]
@@ -737,46 +756,6 @@
    "url": "https://pubmed.ncbi.nlm.nih.gov/42966277/",
    "conditions": [
     "pain"
-   ]
-  },
-  {
-   "pmid": "42965212",
-   "title": "Normal on the Inside: A Case of Recurrent Abdominal Pain, Equivocal CT Appendicitis, and Histologically Normal Appendix in an Adolescent With Chronic Cannabis Use.",
-   "journal": "Cureus",
-   "date": "2026-10-31",
-   "pubdate": "2026-09-30",
-   "first_author": "Abdelgabar et al.",
-   "doi": "10.7759/cureus.117214",
-   "grade": "case",
-   "grade_label": "Case report",
-   "plain": {
-    "did": "A report on one or a few patients.",
-    "found": "Faecal calprotectin was 159 microg/g. When CT findings, operative appearances, and histology point in different directions, the underlying diagnosis is not resolved by surgery; it has to be reconsidered from the beginning.",
-    "caveat": "One or a few patients. Useful for safety signals, not for effect."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42965212/",
-   "conditions": [
-    "pain"
-   ]
-  },
-  {
-   "pmid": "42963524",
-   "title": "Factors associated with cannabis use among infertile patients and their partner.",
-   "journal": "J Assist Reprod Genet",
-   "date": "2026-10-31",
-   "pubdate": "2026-10-31",
-   "first_author": "Steckler et al.",
-   "doi": "10.1007/s10815-026-04065-z",
-   "grade": "obs",
-   "grade_label": "Observational",
-   "plain": {
-    "did": "Researchers looked at data on 1531 people (nobody was assigned a treatment).",
-    "found": "Cannabis use increased over the study period and clustered with other behavioral and psychosocial factors. Younger, non-married individuals and those reporting tobacco use or anxiety/depression may benefit from targeted cannabis screening and preconception counseling.",
-    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42963524/",
-   "conditions": [
-    "anxiety"
    ]
   },
   {
