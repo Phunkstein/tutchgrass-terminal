@@ -44,8 +44,8 @@
   {
    "source": "Google News: intl cannabis",
    "url": "https://news.google.com/rss/search?q=cannabis+(Germany+OR+Canada+OR+Thailand+OR+Europe+OR+Australia+OR+UK)+when:7d&hl=en-US&gl=US&ceid=US:en",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 252"
   },
   {
    "source": "Cannabis Health News (UK)",
@@ -497,6 +497,6 @@
    "states": []
   }
  ],
- "news_health_total": 20,
- "generated": "2026-11-19 20:45 EST"
+ "news_health_total": 21,
+ "generated": "2026-11-19 21:34 EST"
 }
