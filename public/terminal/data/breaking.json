@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-20T17:08:13-0500",
- "generated_ts": 1795212494,
+ "generated": "2026-11-21T01:18:15-0500",
+ "generated_ts": 1795241895,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "items": 0
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,19 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "thailandrevoked24cannabisshoplicencesandsuspended105duringfi",
+   "title": "Thailand revoked 24 cannabis shop licences and suspended 105 during fiscal 2026 - Nation Thailand",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9sLV9fR2huSUlEdzdhZkVvclBBSjBqQmlnSnBIREEzVDRGaUZXT2dPOWlLTjhFdWFHZk5WUUlpRFUtVGIzbFQ5d0tPUUVoQzlneVJiMXQ1bVVWeGp4MHpWOTRn?oc=5",
+   "source": "Google News: intl cannabis",
+   "category": "International",
+   "is_law": false,
+   "states": [],
+   "published": "2026-11-21T00:51:00-0500",
+   "published_ts": 1795240260.0,
+   "first_seen": "2026-11-21T01:18:15-0500",
+   "first_seen_ts": 1795241895
+  },
   {
    "id": "caniflyfromcawithmedicalmarijuanaduringthanksgivingseetravel",
    "title": "Can I fly from CA with medical marijuana during Thanksgiving? See travel guidelines - Sacramento Bee",
@@ -457,60 +470,6 @@
    "published_ts": 1795086721.0,
    "first_seen": "2026-11-19T06:13:20-0500",
    "first_seen_ts": 1795086801
-  },
-  {
-   "id": "imcannabiscorpimccstockpricenewsquotehistoryyahoofinancecana",
-   "title": "IM Cannabis Corp. (IMCC) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OaVFUaWNnaWNjWGxlRV9oSjM4VmdMeDFiQmxzNkhubmpJcDgyRE50REtuMmJqd0ZsVy02NTE5NXhaZG1CTmdYNGNoQ1NYVjhxc0E?oc=5",
-   "source": "Google News: intl cannabis",
-   "category": "International",
-   "is_law": false,
-   "states": [],
-   "published": "2026-11-18T16:02:28-0500",
-   "published_ts": 1795035748.0,
-   "first_seen": "2026-11-18T19:43:14-0500",
-   "first_seen_ts": 1795048994
-  },
-  {
-   "id": "ewingmorriscompletesacquisitionofdecibelcannabiscompanyshare",
-   "title": "Ewing Morris Completes Acquisition of Decibel Cannabis Company Shares",
-   "link": "https://stratcann.com/news/ewing-morris-completes-acquisition-of-decibel-cannabis-company-shares/",
-   "source": "StratCann (Canada)",
-   "category": "International",
-   "is_law": false,
-   "states": [],
-   "published": "2026-11-18T18:22:06-0500",
-   "published_ts": 1795044126.0,
-   "first_seen": "2026-11-18T18:23:15-0500",
-   "first_seen_ts": 1795044195
-  },
-  {
-   "id": "nebraskamedicalmarijuanamarketlaunchdatestillunknownmorethan",
-   "title": "Nebraska medical marijuana market launch date still unknown more than two years after legalization",
-   "link": "https://mjbizdaily.com/news/nebraska-medical-marijuana-market-launch-date-still-unknown-more-than-two-years-after-legalization/619254/",
-   "source": "MJBizDaily",
-   "category": "US states",
-   "is_law": true,
-   "states": [
-    "Nebraska"
-   ],
-   "published": "2026-11-18T18:13:15-0500",
-   "published_ts": 1795043595.0,
-   "first_seen": "2026-11-18T18:18:24-0500",
-   "first_seen_ts": 1795043904
-  },
-  {
-   "id": "bipartisanbillseekstoreplacehempthcbanwithfederalregulations",
-   "title": "Bipartisan bill seeks to replace hemp THC ban with federal regulations",
-   "link": "https://mjbizdaily.com/news/bipartisan-bill-seeks-to-replace-hemp-thc-ban-with-federal-regulations/619241/",
-   "source": "MJBizDaily",
-   "category": "US federal",
-   "is_law": true,
-   "states": [],
-   "published": "2026-11-18T17:57:30-0500",
-   "published_ts": 1795042650.0,
-   "first_seen": "2026-11-18T17:58:16-0500",
-   "first_seen_ts": 1795042696
   }
  ]
 }
