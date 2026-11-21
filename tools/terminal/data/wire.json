@@ -38,8 +38,8 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "unavailable",
-   "error": "not well-formed (invalid token): line 1, column 119"
+   "status": "ok",
+   "items": 12
   },
   {
    "source": "Google News: intl cannabis",
@@ -137,6 +137,19 @@
   },
   {
    "track": "medical",
+   "pmid": "43064628",
+   "title": "Cannabis Use Among U.S. Adults Reporting Pain: A Qualitative Study.",
+   "journal": "Pain Manag Nurs",
+   "year": "2026",
+   "first_author": "Vera et al.",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "preclinical": false,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43064628/"
+  },
+  {
+   "track": "medical",
    "pmid": "43062776",
    "title": "Cannabinoid Receptor Agonism with WIN 55,212-2 Differentially Reshapes Behavioral and Neurobiological Responses to Chronic Unpredictable Stress.",
    "journal": "J Neuroimmune Pharmacol",
@@ -147,22 +160,22 @@
    ],
    "preclinical": true,
    "url": "https://pubmed.ncbi.nlm.nih.gov/43062776/"
-  },
+  }
+ ],
+ "papers_cultivation": [
   {
-   "track": "medical",
-   "pmid": "43061767",
-   "title": "Low Prevalence of Adverse Outcomes in an 18-Month Follow-Up of Individuals With Chronic Pain Recently Certified for Medical Cannabis.",
-   "journal": "Subst Use Addctn J",
+   "track": "cultivation",
+   "pmid": "43064287",
+   "title": "Mercury accumulation in industrial hemp: translocation after foliar uptake and phytomanagement potential.",
+   "journal": "Environ Pollut",
    "year": "2026",
-   "first_author": "Zolotov et al.",
+   "first_author": "Delemazure et al.",
    "pubtypes": [
     "Journal Article"
    ],
    "preclinical": false,
-   "url": "https://pubmed.ncbi.nlm.nih.gov/43061767/"
-  }
- ],
- "papers_cultivation": [
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43064287/"
+  },
   {
    "track": "cultivation",
    "pmid": "43050357",
@@ -279,20 +292,6 @@
    ],
    "preclinical": false,
    "url": "https://pubmed.ncbi.nlm.nih.gov/43028950/"
-  },
-  {
-   "track": "cultivation",
-   "pmid": "42999331",
-   "title": "Cannabis sativa phytoligands as potential EGFR inhibitors for lung cancer treatment.",
-   "journal": "Res Sq",
-   "year": "2026",
-   "first_author": "Owoloye et al.",
-   "pubtypes": [
-    "Journal Article",
-    "Preprint"
-   ],
-   "preclinical": false,
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42999331/"
   }
  ],
  "news_us": [
@@ -508,5 +507,5 @@
   }
  ],
  "news_health_total": 21,
- "generated": "2026-11-20 22:44 EST"
+ "generated": "2026-11-20 23:45 EST"
 }
