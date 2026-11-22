@@ -2,16 +2,16 @@
  "schema": "deals/3",
  "test": true,
  "region": "United States (all legal markets)",
- "checked": "2026-11-22 13:42 EST",
- "count": 571,
- "chains": 57,
- "states_with_deals": 27,
+ "checked": "2026-11-22 18:47 EST",
+ "count": 596,
+ "chains": 61,
+ "states_with_deals": 28,
  "by_state": {
   "AK": 3,
   "AL": 0,
   "AR": 10,
-  "AZ": 31,
-  "CA": 25,
+  "AZ": 18,
+  "CA": 35,
   "CO": 24,
   "CT": 8,
   "DC": 10,
@@ -26,7 +26,7 @@
   "MA": 33,
   "MD": 16,
   "ME": 3,
-  "MI": 221,
+  "MI": 222,
   "MN": 0,
   "MO": 29,
   "MS": 6,
@@ -35,25 +35,26 @@
   "NH": 0,
   "NJ": 11,
   "NM": 8,
-  "NV": 10,
+  "NV": 20,
   "NY": 11,
-  "OH": 14,
+  "OH": 17,
   "OK": 0,
   "OR": 10,
-  "PA": 0,
+  "PA": 10,
   "RI": 1,
   "SD": 10,
   "TX": 0,
   "UT": 0,
   "VA": 3,
   "VT": 0,
-  "WA": 18,
+  "WA": 22,
   "WV": 6
  },
  "by_chain": {
   "The Fire Station": 10,
   "King of Budz": 15,
   "Cannabis Club": 8,
+  "Exclusive": 1,
   "Stay Lifted": 5,
   "Lettuce": 4,
   "Planet Jane": 2,
@@ -64,10 +65,10 @@
   "Catalyst Cannabis Co.": 3,
   "Good Day Farm": 10,
   "Nirvana Cannabis": 13,
-  "The Superior Dispensary": 10,
-  "YiLo": 8,
+  "YiLo": 5,
   "The Artist Tree": 10,
   "From the Earth": 5,
+  "Gemme Verdi": 10,
   "Urbn Leaf": 10,
   "Lightshade": 4,
   "Del Mundo": 10,
@@ -98,14 +99,17 @@
   "Valley Wellness": 1,
   "1UP Dispensary": 8,
   "Planet 13": 10,
+  "Inyo": 10,
   "Green Genius": 8,
   "Housing Works Cannabis Co.": 3,
-  "Pure Ohio Wellness": 4,
+  "Pure Ohio Wellness": 7,
   "Bridge City Collective": 10,
+  "Vytal Options": 10,
   "Slater Center": 1,
   "Good Company Cannabis": 10,
   "Zen Leaf": 9,
   "Craft Cannabis": 2,
+  "Kaleafa": 4,
   "Mary Mart": 10,
   "Clear Choice": 6
  },
@@ -115,12 +119,12 @@
   "Inkster, MI": 3,
   "Monroe, MI": 13,
   "New Buffalo, MI": 18,
+  "Ann Arbor, MI": 11,
   "Jackson, MI": 9,
   "Ypsilanti, MI": 12,
   "Lansing, MI": 10,
   "Grand Rapids, MI": 10,
   "Kalamazoo, MI": 10,
-  "Ann Arbor, MI": 10,
   "Center Line, MI": 10,
   "Garden City, MI": 10,
   "Saginaw, MI": 10,
@@ -132,7 +136,7 @@
   "Monticello, AR": 10,
   "Texarkana, AR": 10,
   "Van Buren, AR": 10,
-  "Phoenix, AZ": 31,
+  "Phoenix, AZ": 18,
   "El Sobrante, CA": 10,
   "Fresno, CA": 10,
   "Hawthorne, CA": 10,
@@ -143,6 +147,7 @@
   "West Hollywood, CA": 10,
   "Santa Ana, CA": 5,
   "Port Hueneme, CA": 5,
+  "San Francisco, CA": 10,
   "San Diego, CA": 10,
   "Denver, CO": 24,
   "Aurora, CO": 4,
@@ -181,16 +186,25 @@
   "Lakehurst, NJ": 10,
   "Raritan, NJ": 1,
   "Albuquerque, NM": 8,
-  "Las Vegas, NV": 10,
+  "Las Vegas, NV": 20,
   "New York (Manhattan), NY": 11,
-  "Dayton, OH": 4,
-  "London, OH": 4,
-  "Tallmadge, OH": 4,
+  "Dayton, OH": 7,
+  "London, OH": 7,
+  "Tallmadge, OH": 7,
   "Portland, OR": 10,
+  "Harrisburg, PA": 10,
+  "Kennett Square, PA": 10,
+  "State College, PA": 10,
+  "Lancaster, PA": 10,
+  "Lansdale, PA": 10,
+  "Fogelsville, PA": 10,
   "Providence, RI": 1,
   "Sioux Falls, SD": 10,
   "Norfolk, VA": 3,
   "Vancouver, WA": 2,
+  "Aberdeen, WA": 4,
+  "Des Moines, WA": 1,
+  "Oak Harbor, WA": 1,
   "Tacoma, WA": 16,
   "Morgantown, WV": 6
  },
@@ -213,7 +227,7 @@
    "code": "AZ",
    "name": "Arizona",
    "market": "adult-use + medical",
-   "deals": 31,
+   "deals": 18,
    "sources": 5
   },
   {
@@ -227,7 +241,7 @@
    "code": "CA",
    "name": "California",
    "market": "adult-use + medical",
-   "deals": 25,
+   "deals": 35,
    "sources": 4
   },
   {
@@ -332,7 +346,7 @@
    "code": "MI",
    "name": "Michigan",
    "market": "adult-use + medical",
-   "deals": 221,
+   "deals": 222,
    "sources": 35
   },
   {
@@ -367,7 +381,7 @@
    "code": "NV",
    "name": "Nevada",
    "market": "adult-use + medical",
-   "deals": 10,
+   "deals": 20,
    "sources": 2
   },
   {
@@ -409,7 +423,7 @@
    "code": "OH",
    "name": "Ohio",
    "market": "adult-use + medical",
-   "deals": 14,
+   "deals": 17,
    "sources": 2
   },
   {
@@ -430,7 +444,7 @@
    "code": "PA",
    "name": "Pennsylvania",
    "market": "medical only",
-   "deals": 0,
+   "deals": 10,
    "sources": 1
   },
   {
@@ -479,7 +493,7 @@
    "code": "WA",
    "name": "Washington",
    "market": "adult-use + medical",
-   "deals": 18,
+   "deals": 22,
    "sources": 4
   },
   {
@@ -585,8 +599,8 @@
    "name": "Exclusive Ann Arbor",
    "url": "https://exclusivemi.com/dispensaries/locations/ann-arbor/",
    "robots": "allowed",
-   "status": "error: HTTP 403",
-   "deals": 0
+   "status": "ok",
+   "deals": 1
   },
   {
    "state": "MI",
@@ -821,16 +835,15 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 83
+   "more": 87
   },
   {
    "state": "AZ",
    "name": "The Superior Dispensary",
    "url": "https://thesuperiordispensary.com/shop-deals/",
    "robots": "allowed",
-   "status": "ok",
-   "deals": 10,
-   "more": 38
+   "status": "error: network error (curl 28)",
+   "deals": 0
   },
   {
    "state": "AZ",
@@ -846,7 +859,7 @@
    "url": "https://yilo.com/specials",
    "robots": "allowed",
    "status": "ok",
-   "deals": 8
+   "deals": 5
   },
   {
    "state": "CA",
@@ -870,8 +883,9 @@
    "name": "Gemme Verdi",
    "url": "https://www.gemmeverdi.com/san-francisco-cannabis-deals/",
    "robots": "allowed",
-   "status": "error: network error (curl 28)",
-   "deals": 0
+   "status": "ok",
+   "deals": 10,
+   "more": 37
   },
   {
    "state": "CA",
@@ -963,7 +977,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 6
+   "more": 7
   },
   {
    "state": "IL",
@@ -988,7 +1002,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 3
+   "more": 8
   },
   {
    "state": "MA",
@@ -1104,7 +1118,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 62
+   "more": 63
   },
   {
    "state": "MO",
@@ -1204,15 +1218,16 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 9
+   "more": 8
   },
   {
    "state": "NV",
    "name": "Inyo \u2013 Inyo Fine Cannabis",
    "url": "https://inyolasvegas.com/deals",
    "robots": "allowed",
-   "status": "error: network error (curl 28)",
-   "deals": 0
+   "status": "ok",
+   "deals": 10,
+   "more": 7
   },
   {
    "state": "NY",
@@ -1253,7 +1268,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 5
+   "more": 4
   },
   {
    "state": "OH",
@@ -1261,7 +1276,7 @@
    "url": "https://pureohiowellness.com/",
    "robots": "allowed",
    "status": "ok",
-   "deals": 4
+   "deals": 7
   },
   {
    "state": "OR",
@@ -1284,8 +1299,9 @@
    "name": "Vytal Options",
    "url": "https://vytaloptions.com/weekly-deals/",
    "robots": "allowed",
-   "status": "error: HTTP 403",
-   "deals": 0
+   "status": "ok",
+   "deals": 10,
+   "more": 17
   },
   {
    "state": "RI",
@@ -1324,8 +1340,8 @@
    "name": "Kaleafa \u2013 Kaleafa (Washington stores)",
    "url": "https://kaleafa.com/deals",
    "robots": "allowed",
-   "status": "error: HTTP 403",
-   "deals": 0
+   "status": "ok",
+   "deals": 4
   },
   {
    "state": "WA",
@@ -1477,6 +1493,31 @@
    "city": "Upper Peninsula",
    "cities": [],
    "state": "MI",
+   "deal": "KSHN Deals \u2013 33% Off KSHN on Tuesdays & Saturdays \u2014 Get 33% off KSHN pouches on Tuesdays and Saturdays at The Fire Station. Offer valid from 11/21/26 to 12/29/26 while supplies last at all TFS locations. Not stackable with other discounts.",
+   "valid": "11/21/26 \u2013 12/29/26",
+   "until": "2026-12-29",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://thefirestation.com/event/kshn-deals-33-off-kshn-on-tuesdays-saturdays/",
+   "region": {
+    "name": "Upper Peninsula",
+    "bbox": [
+     45.08,
+     -90.42,
+     47.5,
+     -83.35
+    ]
+   },
+   "loc": [],
+   "geo": "statewide"
+  },
+  {
+   "chain": "The Fire Station",
+   "store": "All TFS locations",
+   "city": "Upper Peninsula",
+   "cities": [],
+   "state": "MI",
    "deal": "November Deals \u2013 710 Labs Buy One, Get One 50% Off \u2014 Buy any 710 Labs product and get one for 50% off. Offer valid from 11/13/26 to 11/22/26 while supplies last at all TFS locations. Not stackable with other discounts.",
    "valid": "11/13/26 \u2013 11/22/26",
    "until": "2026-11-22",
@@ -1509,31 +1550,6 @@
    "note": "",
    "collected": "2026-11-22",
    "url": "https://thefirestation.com/event/bulk-deal-6-20-infused-pre-rolls/",
-   "region": {
-    "name": "Upper Peninsula",
-    "bbox": [
-     45.08,
-     -90.42,
-     47.5,
-     -83.35
-    ]
-   },
-   "loc": [],
-   "geo": "statewide"
-  },
-  {
-   "chain": "The Fire Station",
-   "store": "All TFS locations",
-   "city": "Upper Peninsula",
-   "cities": [],
-   "state": "MI",
-   "deal": "Detroit Edibles \u2013 Friday Bites BOGO Sale \u2014 Save on Detroit Edible Bites on Friday in November. Buy any Detroit Edible Barracuda Bite and get one for $0.01. Offer valid on 11/6/26, 11/13/26, and 11/20/26 while supplies last at all TFS locations. Not stackable with other discounts.",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-22",
-   "url": "https://thefirestation.com/event/detroit-edibles-friday-bites-bogo-sale/",
    "region": {
     "name": "Upper Peninsula",
     "bbox": [
@@ -1989,7 +2005,7 @@
     "Monroe"
    ],
    "state": "MI",
-   "deal": "Yum Yum 3.5g Prepack 2/$43 (Buy 2 for $43 Top 5 3.5g Prepack 2/$58 Buy 2 for $58 Creme Cultivation 3.5g Prepacks 4 For $66 Buy 4 for $66 Goodlyfe Funhouse Oceana Gardens AND OG Farms 2 For $56 Buy 2 for $56 20% OFF DELI 20% Off Local Grove 3.5g 2/$60 Buy 2 for $60 Euphoria 28g Prepacks 2 for $155 (Excludes Special Reserve) Buy 2 for $155 Euphoria 3.5g Prepacks 2 for $20 (Excludes Special Reserve) Buy 2 for $20 Chronicles - 28g Prepack - 2 for $170 Buy 2 for $170 Hytek 3.5 Prepack 3/$60 Buy 3 for $60 Vaporizers Deals ( 19 ) Pressure Pack - 2g Disposable (Non Collabs) - 2 for $25 Buy 2 for $25 Mitten Extracts 1g Disposables 2/$18 Buy 2 for $18 MKX - 2g Live Resin Disposable - (Deep Sleep) - 2 for $35 Buy 2 for $35 Fly 1g Carts 15/$66 Buy 15 for $66 Amnesia 1G Disposables 5 For $54 Buy 5 for $54 Pro Gro 1G Live Resin Disposables 4 For $100 Buy 4 for $100 Sauce Reserve 1G Disposables 2 For $54 Buy 2 for $54 Go Kartz, Berry Green)",
+   "deal": "Yum Yum 3.5g Prepack 2/$43 (Buy 2 for $43 Top 5 3.5g Prepack 2/$58 Buy 2 for $58 Creme Cultivation 3.5g Prepacks 4 For $66 Buy 4 for $66 Goodlyfe Funhouse Oceana Gardens AND OG Farms 2 For $56 Buy 2 for $56 20% OFF DELI 20% Off Local Grove 3.5g 2/$60 Buy 2 for $60 Euphoria 28g Prepacks 2 for $155 (Excludes Special Reserve) Buy 2 for $155 Euphoria 3.5g Prepacks 2 for $20 (Excludes Special Reserve) Buy 2 for $20 Chronicles - 28g Prepack - 2 for $170 Buy 2 for $170 Hytek 3.5 Prepack 3/$60 Buy 3 for $60 Vaporizers Deals ( 20 ) Pressure Pack - 2g Disposable (Non Collabs) - 2 for $25 Buy 2 for $25 Storewide - Budderface - BOGO Buy 1, Get 1 Free Mitten Extracts 1g Disposables 2/$18 Buy 2 for $18 MKX - 2g Live Resin Disposable - (Deep Sleep) - 2 for $35 Buy 2 for $35 Fly 1g Carts 15/$66 Buy 15 for $66 Amnesia 1G Disposables 5 For $54 Buy 5 for $54 Pro Gro 1G Live Resin Disposables 4 For $100 Buy 4 for $100 Sauce Reserve 1G Disposables 2 For $54 Buy 2 for $54 Go Kartz, Berry Green)",
    "valid": "page said \u201c15 for $67\u201d when checked",
    "until": "",
    "kind": "limited",
@@ -2182,6 +2198,26 @@
    "geo": "city"
   },
   {
+   "chain": "Exclusive",
+   "store": "Exclusive Ann Arbor",
+   "city": "Ann Arbor",
+   "cities": [
+    "Ann Arbor"
+   ],
+   "state": "MI",
+   "deal": "Celebrating a birthday? Get an extra 25% off to make your day even better. Plus, students and veterans enjoy 10% off their entire purchase every single day.",
+   "valid": "every day (per page)",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://exclusivemi.com/dispensaries/locations/ann-arbor/",
+   "loc": [
+    5
+   ],
+   "geo": "store"
+  },
+  {
    "chain": "Stay Lifted",
    "store": "Stay Lifted Jackson",
    "city": "Jackson",
@@ -2197,7 +2233,7 @@
    "collected": "2026-11-22",
    "url": "https://staylifted420.com/",
    "loc": [
-    5
+    6
    ],
    "geo": "store"
   },
@@ -2217,7 +2253,7 @@
    "collected": "2026-11-22",
    "url": "https://staylifted420.com/",
    "loc": [
-    5
+    6
    ],
    "geo": "store"
   },
@@ -2237,7 +2273,7 @@
    "collected": "2026-11-22",
    "url": "https://staylifted420.com/",
    "loc": [
-    5
+    6
    ],
    "geo": "store"
   },
@@ -2257,7 +2293,7 @@
    "collected": "2026-11-22",
    "url": "https://staylifted420.com/",
    "loc": [
-    5
+    6
    ],
    "geo": "store"
   },
@@ -2277,7 +2313,7 @@
    "collected": "2026-11-22",
    "url": "https://staylifted420.com/",
    "loc": [
-    5
+    6
    ],
    "geo": "store"
   },
@@ -2297,7 +2333,7 @@
    "collected": "2026-11-22",
    "url": "https://lettucedispo.com/",
    "loc": [
-    6
+    7
    ],
    "geo": "store"
   },
@@ -2317,7 +2353,7 @@
    "collected": "2026-11-22",
    "url": "https://lettucedispo.com/",
    "loc": [
-    6
+    7
    ],
    "geo": "store"
   },
@@ -2337,7 +2373,7 @@
    "collected": "2026-11-22",
    "url": "https://lettucedispo.com/",
    "loc": [
-    6
+    7
    ],
    "geo": "store"
   },
@@ -2357,7 +2393,7 @@
    "collected": "2026-11-22",
    "url": "https://lettucedispo.com/",
    "loc": [
-    6
+    7
    ],
    "geo": "store"
   },
@@ -2377,7 +2413,7 @@
    "collected": "2026-11-22",
    "url": "https://planet-jane.com/",
    "loc": [
-    7
+    8
    ],
    "geo": "store"
   },
@@ -2397,7 +2433,7 @@
    "collected": "2026-11-22",
    "url": "https://planet-jane.com/",
    "loc": [
-    7
+    8
    ],
    "geo": "store"
   },
@@ -2417,7 +2453,7 @@
    "collected": "2026-11-22",
    "url": "https://shop420dank.com/daily-deals-about-us/",
    "loc": [
-    8
+    9
    ],
    "geo": "store"
   },
@@ -2437,7 +2473,7 @@
    "collected": "2026-11-22",
    "url": "https://shop420dank.com/daily-deals-about-us/",
    "loc": [
-    8
+    9
    ],
    "geo": "store"
   },
@@ -2457,7 +2493,7 @@
    "collected": "2026-11-22",
    "url": "https://shop420dank.com/daily-deals-about-us/",
    "loc": [
-    8
+    9
    ],
    "geo": "store"
   },
@@ -2477,7 +2513,7 @@
    "collected": "2026-11-22",
    "url": "https://shop420dank.com/daily-deals-about-us/",
    "loc": [
-    8
+    9
    ],
    "geo": "store"
   },
@@ -2497,7 +2533,7 @@
    "collected": "2026-11-22",
    "url": "https://shop420dank.com/daily-deals-about-us/",
    "loc": [
-    8
+    9
    ],
    "geo": "store"
   },
@@ -2517,7 +2553,7 @@
    "collected": "2026-11-22",
    "url": "https://shop420dank.com/daily-deals-about-us/",
    "loc": [
-    8
+    9
    ],
    "geo": "store"
   },
@@ -2537,8 +2573,8 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-gratiot",
    "loc": [
-    9,
-    10
+    10,
+    11
    ],
    "geo": "store"
   },
@@ -2558,8 +2594,8 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-gratiot",
    "loc": [
-    9,
-    10
+    10,
+    11
    ],
    "geo": "store"
   },
@@ -2579,8 +2615,8 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-gratiot",
    "loc": [
-    9,
-    10
+    10,
+    11
    ],
    "geo": "store"
   },
@@ -2600,8 +2636,8 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-gratiot",
    "loc": [
-    9,
-    10
+    10,
+    11
    ],
    "geo": "store"
   },
@@ -2621,8 +2657,8 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-gratiot",
    "loc": [
-    9,
-    10
+    10,
+    11
    ],
    "geo": "store"
   },
@@ -2642,8 +2678,8 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-gratiot",
    "loc": [
-    9,
-    10
+    10,
+    11
    ],
    "geo": "store"
   },
@@ -2663,8 +2699,8 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-gratiot",
    "loc": [
-    9,
-    10
+    10,
+    11
    ],
    "geo": "store"
   },
@@ -2684,8 +2720,8 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-gratiot",
    "loc": [
-    9,
-    10
+    10,
+    11
    ],
    "geo": "store"
   },
@@ -2705,8 +2741,8 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-gratiot",
    "loc": [
-    9,
-    10
+    10,
+    11
    ],
    "geo": "store"
   },
@@ -2726,8 +2762,8 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-gratiot",
    "loc": [
-    9,
-    10
+    10,
+    11
    ],
    "geo": "store"
   },
@@ -2747,7 +2783,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-recreational-cannabis-8-mile",
    "loc": [
-    9
+    10
    ],
    "geo": "store"
   },
@@ -2767,7 +2803,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-recreational-cannabis-8-mile",
    "loc": [
-    9
+    10
    ],
    "geo": "store"
   },
@@ -2787,7 +2823,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-recreational-cannabis-8-mile",
    "loc": [
-    9
+    10
    ],
    "geo": "store"
   },
@@ -2807,7 +2843,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-recreational-cannabis-8-mile",
    "loc": [
-    9
+    10
    ],
    "geo": "store"
   },
@@ -2827,7 +2863,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-recreational-cannabis-8-mile",
    "loc": [
-    9
+    10
    ],
    "geo": "store"
   },
@@ -2847,7 +2883,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-recreational-cannabis-8-mile",
    "loc": [
-    9
+    10
    ],
    "geo": "store"
   },
@@ -2867,7 +2903,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-recreational-cannabis-8-mile",
    "loc": [
-    9
+    10
    ],
    "geo": "store"
   },
@@ -2887,7 +2923,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-recreational-cannabis-8-mile",
    "loc": [
-    9
+    10
    ],
    "geo": "store"
   },
@@ -2907,7 +2943,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-recreational-cannabis-8-mile",
    "loc": [
-    9
+    10
    ],
    "geo": "store"
   },
@@ -2927,7 +2963,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-recreational-cannabis-8-mile",
    "loc": [
-    9
+    10
    ],
    "geo": "store"
   },
@@ -2947,7 +2983,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-woodward",
    "loc": [
-    11
+    12
    ],
    "geo": "store"
   },
@@ -2967,7 +3003,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-woodward",
    "loc": [
-    11
+    12
    ],
    "geo": "store"
   },
@@ -2987,7 +3023,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-woodward",
    "loc": [
-    11
+    12
    ],
    "geo": "store"
   },
@@ -3007,7 +3043,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-woodward",
    "loc": [
-    11
+    12
    ],
    "geo": "store"
   },
@@ -3027,7 +3063,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-woodward",
    "loc": [
-    11
+    12
    ],
    "geo": "store"
   },
@@ -3047,7 +3083,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-woodward",
    "loc": [
-    11
+    12
    ],
    "geo": "store"
   },
@@ -3067,7 +3103,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-woodward",
    "loc": [
-    11
+    12
    ],
    "geo": "store"
   },
@@ -3087,7 +3123,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-woodward",
    "loc": [
-    11
+    12
    ],
    "geo": "store"
   },
@@ -3107,7 +3143,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-woodward",
    "loc": [
-    11
+    12
    ],
    "geo": "store"
   },
@@ -3127,7 +3163,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-woodward",
    "loc": [
-    11
+    12
    ],
    "geo": "store"
   },
@@ -3147,7 +3183,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-recreational-cannabis-fort-st",
    "loc": [
-    10
+    11
    ],
    "geo": "store"
   },
@@ -3167,7 +3203,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-recreational-cannabis-fort-st",
    "loc": [
-    10
+    11
    ],
    "geo": "store"
   },
@@ -3187,7 +3223,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-recreational-cannabis-fort-st",
    "loc": [
-    10
+    11
    ],
    "geo": "store"
   },
@@ -3207,7 +3243,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-recreational-cannabis-fort-st",
    "loc": [
-    10
+    11
    ],
    "geo": "store"
   },
@@ -3227,7 +3263,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-recreational-cannabis-fort-st",
    "loc": [
-    10
+    11
    ],
    "geo": "store"
   },
@@ -3247,7 +3283,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-recreational-cannabis-fort-st",
    "loc": [
-    10
+    11
    ],
    "geo": "store"
   },
@@ -3267,7 +3303,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-recreational-cannabis-fort-st",
    "loc": [
-    10
+    11
    ],
    "geo": "store"
   },
@@ -3287,7 +3323,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-recreational-cannabis-fort-st",
    "loc": [
-    10
+    11
    ],
    "geo": "store"
   },
@@ -3307,7 +3343,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-recreational-cannabis-fort-st",
    "loc": [
-    10
+    11
    ],
    "geo": "store"
   },
@@ -3327,7 +3363,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-recreational-cannabis-fort-st",
    "loc": [
-    10
+    11
    ],
    "geo": "store"
   },
@@ -3347,7 +3383,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-lansing",
    "loc": [
-    12
+    13
    ],
    "geo": "store"
   },
@@ -3367,7 +3403,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-lansing",
    "loc": [
-    12
+    13
    ],
    "geo": "store"
   },
@@ -3387,7 +3423,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-lansing",
    "loc": [
-    12
+    13
    ],
    "geo": "store"
   },
@@ -3407,7 +3443,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-lansing",
    "loc": [
-    12
+    13
    ],
    "geo": "store"
   },
@@ -3427,7 +3463,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-lansing",
    "loc": [
-    12
+    13
    ],
    "geo": "store"
   },
@@ -3447,7 +3483,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-lansing",
    "loc": [
-    12
+    13
    ],
    "geo": "store"
   },
@@ -3467,7 +3503,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-lansing",
    "loc": [
-    12
+    13
    ],
    "geo": "store"
   },
@@ -3487,7 +3523,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-lansing",
    "loc": [
-    12
+    13
    ],
    "geo": "store"
   },
@@ -3507,7 +3543,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-lansing",
    "loc": [
-    12
+    13
    ],
    "geo": "store"
   },
@@ -3527,7 +3563,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-lansing",
    "loc": [
-    12
+    13
    ],
    "geo": "store"
   },
@@ -3547,7 +3583,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-grand-rapids",
    "loc": [
-    13
+    14
    ],
    "geo": "city"
   },
@@ -3567,7 +3603,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-grand-rapids",
    "loc": [
-    13
+    14
    ],
    "geo": "city"
   },
@@ -3587,7 +3623,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-grand-rapids",
    "loc": [
-    13
+    14
    ],
    "geo": "city"
   },
@@ -3607,7 +3643,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-grand-rapids",
    "loc": [
-    13
+    14
    ],
    "geo": "city"
   },
@@ -3627,7 +3663,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-grand-rapids",
    "loc": [
-    13
+    14
    ],
    "geo": "city"
   },
@@ -3647,7 +3683,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-grand-rapids",
    "loc": [
-    13
+    14
    ],
    "geo": "city"
   },
@@ -3667,7 +3703,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-grand-rapids",
    "loc": [
-    13
+    14
    ],
    "geo": "city"
   },
@@ -3687,7 +3723,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-grand-rapids",
    "loc": [
-    13
+    14
    ],
    "geo": "city"
   },
@@ -3707,7 +3743,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-grand-rapids",
    "loc": [
-    13
+    14
    ],
    "geo": "city"
   },
@@ -3727,7 +3763,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-grand-rapids",
    "loc": [
-    13
+    14
    ],
    "geo": "city"
   },
@@ -3747,7 +3783,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-kalamazoo-rec",
    "loc": [
-    14
+    15
    ],
    "geo": "store"
   },
@@ -3767,7 +3803,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-kalamazoo-rec",
    "loc": [
-    14
+    15
    ],
    "geo": "store"
   },
@@ -3787,7 +3823,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-kalamazoo-rec",
    "loc": [
-    14
+    15
    ],
    "geo": "store"
   },
@@ -3807,7 +3843,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-kalamazoo-rec",
    "loc": [
-    14
+    15
    ],
    "geo": "store"
   },
@@ -3827,7 +3863,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-kalamazoo-rec",
    "loc": [
-    14
+    15
    ],
    "geo": "store"
   },
@@ -3847,7 +3883,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-kalamazoo-rec",
    "loc": [
-    14
+    15
    ],
    "geo": "store"
   },
@@ -3867,7 +3903,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-kalamazoo-rec",
    "loc": [
-    14
+    15
    ],
    "geo": "store"
   },
@@ -3887,7 +3923,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-kalamazoo-rec",
    "loc": [
-    14
+    15
    ],
    "geo": "store"
   },
@@ -3907,7 +3943,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-kalamazoo-rec",
    "loc": [
-    14
+    15
    ],
    "geo": "store"
   },
@@ -3927,7 +3963,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-kalamazoo-rec",
    "loc": [
-    14
+    15
    ],
    "geo": "store"
   },
@@ -3947,7 +3983,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-ann-arbor-rec",
    "loc": [
-    15
+    16
    ],
    "geo": "store"
   },
@@ -3967,7 +4003,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-ann-arbor-rec",
    "loc": [
-    15
+    16
    ],
    "geo": "store"
   },
@@ -3987,7 +4023,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-ann-arbor-rec",
    "loc": [
-    15
+    16
    ],
    "geo": "store"
   },
@@ -4007,7 +4043,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-ann-arbor-rec",
    "loc": [
-    15
+    16
    ],
    "geo": "store"
   },
@@ -4027,7 +4063,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-ann-arbor-rec",
    "loc": [
-    15
+    16
    ],
    "geo": "store"
   },
@@ -4047,7 +4083,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-ann-arbor-rec",
    "loc": [
-    15
+    16
    ],
    "geo": "store"
   },
@@ -4067,7 +4103,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-ann-arbor-rec",
    "loc": [
-    15
+    16
    ],
    "geo": "store"
   },
@@ -4087,7 +4123,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-ann-arbor-rec",
    "loc": [
-    15
+    16
    ],
    "geo": "store"
   },
@@ -4107,7 +4143,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-ann-arbor-rec",
    "loc": [
-    15
+    16
    ],
    "geo": "store"
   },
@@ -4127,7 +4163,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-ann-arbor-rec",
    "loc": [
-    15
+    16
    ],
    "geo": "store"
   },
@@ -4147,7 +4183,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-ypsilanti",
    "loc": [
-    16
+    17
    ],
    "geo": "store"
   },
@@ -4167,7 +4203,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-ypsilanti",
    "loc": [
-    16
+    17
    ],
    "geo": "store"
   },
@@ -4187,7 +4223,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-ypsilanti",
    "loc": [
-    16
+    17
    ],
    "geo": "store"
   },
@@ -4207,7 +4243,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-ypsilanti",
    "loc": [
-    16
+    17
    ],
    "geo": "store"
   },
@@ -4227,7 +4263,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-ypsilanti",
    "loc": [
-    16
+    17
    ],
    "geo": "store"
   },
@@ -4247,7 +4283,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-ypsilanti",
    "loc": [
-    16
+    17
    ],
    "geo": "store"
   },
@@ -4267,7 +4303,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-ypsilanti",
    "loc": [
-    16
+    17
    ],
    "geo": "store"
   },
@@ -4287,7 +4323,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-ypsilanti",
    "loc": [
-    16
+    17
    ],
    "geo": "store"
   },
@@ -4307,7 +4343,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-ypsilanti",
    "loc": [
-    16
+    17
    ],
    "geo": "store"
   },
@@ -4327,7 +4363,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-ypsilanti",
    "loc": [
-    16
+    17
    ],
    "geo": "store"
   },
@@ -4347,7 +4383,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-centerline",
    "loc": [
-    17
+    18
    ],
    "geo": "store"
   },
@@ -4367,7 +4403,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-centerline",
    "loc": [
-    17
+    18
    ],
    "geo": "store"
   },
@@ -4387,7 +4423,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-centerline",
    "loc": [
-    17
+    18
    ],
    "geo": "store"
   },
@@ -4407,7 +4443,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-centerline",
    "loc": [
-    17
+    18
    ],
    "geo": "store"
   },
@@ -4427,7 +4463,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-centerline",
    "loc": [
-    17
+    18
    ],
    "geo": "store"
   },
@@ -4447,7 +4483,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-centerline",
    "loc": [
-    17
+    18
    ],
    "geo": "store"
   },
@@ -4467,7 +4503,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-centerline",
    "loc": [
-    17
+    18
    ],
    "geo": "store"
   },
@@ -4487,7 +4523,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-centerline",
    "loc": [
-    17
+    18
    ],
    "geo": "store"
   },
@@ -4507,7 +4543,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-centerline",
    "loc": [
-    17
+    18
    ],
    "geo": "store"
   },
@@ -4527,7 +4563,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-centerline",
    "loc": [
-    17
+    18
    ],
    "geo": "store"
   },
@@ -4547,7 +4583,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-garden-city",
    "loc": [
-    18
+    19
    ],
    "geo": "store"
   },
@@ -4567,7 +4603,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-garden-city",
    "loc": [
-    18
+    19
    ],
    "geo": "store"
   },
@@ -4587,7 +4623,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-garden-city",
    "loc": [
-    18
+    19
    ],
    "geo": "store"
   },
@@ -4607,7 +4643,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-garden-city",
    "loc": [
-    18
+    19
    ],
    "geo": "store"
   },
@@ -4627,7 +4663,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-garden-city",
    "loc": [
-    18
+    19
    ],
    "geo": "store"
   },
@@ -4647,7 +4683,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-garden-city",
    "loc": [
-    18
+    19
    ],
    "geo": "store"
   },
@@ -4667,7 +4703,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-garden-city",
    "loc": [
-    18
+    19
    ],
    "geo": "store"
   },
@@ -4687,7 +4723,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-garden-city",
    "loc": [
-    18
+    19
    ],
    "geo": "store"
   },
@@ -4707,7 +4743,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-garden-city",
    "loc": [
-    18
+    19
    ],
    "geo": "store"
   },
@@ -4727,7 +4763,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-garden-city",
    "loc": [
-    18
+    19
    ],
    "geo": "store"
   },
@@ -4747,7 +4783,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-saginaw",
    "loc": [
-    19
+    20
    ],
    "geo": "store"
   },
@@ -4767,7 +4803,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-saginaw",
    "loc": [
-    19
+    20
    ],
    "geo": "store"
   },
@@ -4787,7 +4823,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-saginaw",
    "loc": [
-    19
+    20
    ],
    "geo": "store"
   },
@@ -4807,7 +4843,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-saginaw",
    "loc": [
-    19
+    20
    ],
    "geo": "store"
   },
@@ -4827,7 +4863,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-saginaw",
    "loc": [
-    19
+    20
    ],
    "geo": "store"
   },
@@ -4847,7 +4883,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-saginaw",
    "loc": [
-    19
+    20
    ],
    "geo": "store"
   },
@@ -4867,7 +4903,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-saginaw",
    "loc": [
-    19
+    20
    ],
    "geo": "store"
   },
@@ -4887,7 +4923,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-saginaw",
    "loc": [
-    19
+    20
    ],
    "geo": "store"
   },
@@ -4907,7 +4943,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-saginaw",
    "loc": [
-    19
+    20
    ],
    "geo": "store"
   },
@@ -4927,7 +4963,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-saginaw",
    "loc": [
-    19
+    20
    ],
    "geo": "store"
   },
@@ -4947,7 +4983,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-traverse-city-rec",
    "loc": [
-    20
+    21
    ],
    "geo": "store"
   },
@@ -4967,7 +5003,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-traverse-city-rec",
    "loc": [
-    20
+    21
    ],
    "geo": "store"
   },
@@ -4987,7 +5023,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-traverse-city-rec",
    "loc": [
-    20
+    21
    ],
    "geo": "store"
   },
@@ -5007,7 +5043,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-traverse-city-rec",
    "loc": [
-    20
+    21
    ],
    "geo": "store"
   },
@@ -5027,7 +5063,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-traverse-city-rec",
    "loc": [
-    20
+    21
    ],
    "geo": "store"
   },
@@ -5047,7 +5083,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-traverse-city-rec",
    "loc": [
-    20
+    21
    ],
    "geo": "store"
   },
@@ -5067,7 +5103,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-traverse-city-rec",
    "loc": [
-    20
+    21
    ],
    "geo": "store"
   },
@@ -5087,7 +5123,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-traverse-city-rec",
    "loc": [
-    20
+    21
    ],
    "geo": "store"
   },
@@ -5107,7 +5143,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-traverse-city-rec",
    "loc": [
-    20
+    21
    ],
    "geo": "store"
   },
@@ -5127,7 +5163,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-traverse-city-rec",
    "loc": [
-    20
+    21
    ],
    "geo": "store"
   },
@@ -5147,7 +5183,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-lapeer",
    "loc": [
-    21
+    22
    ],
    "geo": "store"
   },
@@ -5167,7 +5203,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-lapeer",
    "loc": [
-    21
+    22
    ],
    "geo": "store"
   },
@@ -5187,7 +5223,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-lapeer",
    "loc": [
-    21
+    22
    ],
    "geo": "store"
   },
@@ -5207,7 +5243,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-lapeer",
    "loc": [
-    21
+    22
    ],
    "geo": "store"
   },
@@ -5227,7 +5263,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-lapeer",
    "loc": [
-    21
+    22
    ],
    "geo": "store"
   },
@@ -5247,7 +5283,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-lapeer",
    "loc": [
-    21
+    22
    ],
    "geo": "store"
   },
@@ -5267,7 +5303,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-lapeer",
    "loc": [
-    21
+    22
    ],
    "geo": "store"
   },
@@ -5287,7 +5323,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-lapeer",
    "loc": [
-    21
+    22
    ],
    "geo": "store"
   },
@@ -5307,7 +5343,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-lapeer",
    "loc": [
-    21
+    22
    ],
    "geo": "store"
   },
@@ -5327,7 +5363,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-lapeer",
    "loc": [
-    21
+    22
    ],
    "geo": "store"
   },
@@ -5347,7 +5383,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-monroe-laplaisance",
    "loc": [
-    22
+    23
    ],
    "geo": "city"
   },
@@ -5367,7 +5403,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-monroe-laplaisance",
    "loc": [
-    22
+    23
    ],
    "geo": "city"
   },
@@ -5387,7 +5423,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-monroe-laplaisance",
    "loc": [
-    22
+    23
    ],
    "geo": "city"
   },
@@ -5407,7 +5443,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-monroe-laplaisance",
    "loc": [
-    22
+    23
    ],
    "geo": "city"
   },
@@ -5427,7 +5463,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-monroe-laplaisance",
    "loc": [
-    22
+    23
    ],
    "geo": "city"
   },
@@ -5447,7 +5483,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-monroe-laplaisance",
    "loc": [
-    22
+    23
    ],
    "geo": "city"
   },
@@ -5467,7 +5503,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-monroe-laplaisance",
    "loc": [
-    22
+    23
    ],
    "geo": "city"
   },
@@ -5487,7 +5523,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-monroe-laplaisance",
    "loc": [
-    22
+    23
    ],
    "geo": "city"
   },
@@ -5507,7 +5543,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-monroe-laplaisance",
    "loc": [
-    22
+    23
    ],
    "geo": "city"
   },
@@ -5527,7 +5563,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-monroe-laplaisance",
    "loc": [
-    22
+    23
    ],
    "geo": "city"
   },
@@ -5547,7 +5583,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-new-buffalo",
    "loc": [
-    23
+    24
    ],
    "geo": "city"
   },
@@ -5567,7 +5603,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-new-buffalo",
    "loc": [
-    23
+    24
    ],
    "geo": "city"
   },
@@ -5587,7 +5623,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-new-buffalo",
    "loc": [
-    23
+    24
    ],
    "geo": "city"
   },
@@ -5607,7 +5643,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-new-buffalo",
    "loc": [
-    23
+    24
    ],
    "geo": "city"
   },
@@ -5627,7 +5663,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-new-buffalo",
    "loc": [
-    23
+    24
    ],
    "geo": "city"
   },
@@ -5647,7 +5683,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-new-buffalo",
    "loc": [
-    23
+    24
    ],
    "geo": "city"
   },
@@ -5667,7 +5703,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-new-buffalo",
    "loc": [
-    23
+    24
    ],
    "geo": "city"
   },
@@ -5687,7 +5723,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-new-buffalo",
    "loc": [
-    23
+    24
    ],
    "geo": "city"
   },
@@ -5707,7 +5743,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-new-buffalo",
    "loc": [
-    23
+    24
    ],
    "geo": "city"
   },
@@ -5727,7 +5763,7 @@
    "collected": "2026-11-22",
    "url": "https://shophod.com/stores/house-of-dank-new-buffalo",
    "loc": [
-    23
+    24
    ],
    "geo": "city"
   },
@@ -5747,7 +5783,7 @@
    "collected": "2026-11-22",
    "url": "https://waynereleaf.com/specials/",
    "loc": [
-    24
+    25
    ],
    "geo": "city"
   },
@@ -5767,7 +5803,7 @@
    "collected": "2026-11-22",
    "url": "https://waynereleaf.com/specials/",
    "loc": [
-    24
+    25
    ],
    "geo": "city"
   },
@@ -5787,7 +5823,7 @@
    "collected": "2026-11-22",
    "url": "https://waynereleaf.com/specials/",
    "loc": [
-    24
+    25
    ],
    "geo": "city"
   },
@@ -5807,7 +5843,7 @@
    "collected": "2026-11-22",
    "url": "https://waynereleaf.com/specials/",
    "loc": [
-    24
+    25
    ],
    "geo": "city"
   },
@@ -5827,7 +5863,7 @@
    "collected": "2026-11-22",
    "url": "https://waynereleaf.com/specials/",
    "loc": [
-    24
+    25
    ],
    "geo": "city"
   },
@@ -5847,7 +5883,7 @@
    "collected": "2026-11-22",
    "url": "https://waynereleaf.com/specials/",
    "loc": [
-    24
+    25
    ],
    "geo": "city"
   },
@@ -5867,7 +5903,7 @@
    "collected": "2026-11-22",
    "url": "https://waynereleaf.com/specials/",
    "loc": [
-    24
+    25
    ],
    "geo": "city"
   },
@@ -5887,7 +5923,7 @@
    "collected": "2026-11-22",
    "url": "https://waynereleaf.com/specials/",
    "loc": [
-    24
+    25
    ],
    "geo": "city"
   },
@@ -5907,7 +5943,7 @@
    "collected": "2026-11-22",
    "url": "https://waynereleaf.com/specials/",
    "loc": [
-    24
+    25
    ],
    "geo": "city"
   },
@@ -5927,7 +5963,7 @@
    "collected": "2026-11-22",
    "url": "https://waynereleaf.com/specials/",
    "loc": [
-    24
+    25
    ],
    "geo": "city"
   },
@@ -5947,7 +5983,7 @@
    "collected": "2026-11-22",
    "url": "https://www.flavorsdetroit.com/post/halloween-at-flavors-detroit-new-flower-10-eighths-5-concentrates-85-ounces",
    "loc": [
-    25
+    26
    ],
    "geo": "store"
   },
@@ -5967,10 +6003,10 @@
    "collected": "2026-11-22",
    "url": "https://www.catalystcannabisco.com/dailydeals",
    "loc": [
-    26,
     27,
     28,
-    29
+    29,
+    30
    ],
    "geo": "store"
   },
@@ -5990,10 +6026,10 @@
    "collected": "2026-11-22",
    "url": "https://www.catalystcannabisco.com/dailydeals",
    "loc": [
-    26,
     27,
     28,
-    29
+    29,
+    30
    ],
    "geo": "store"
   },
@@ -6013,10 +6049,10 @@
    "collected": "2026-11-22",
    "url": "https://www.catalystcannabisco.com/dailydeals",
    "loc": [
-    26,
     27,
     28,
-    29
+    29,
+    30
    ],
    "geo": "store"
   },
@@ -6040,12 +6076,12 @@
    "collected": "2026-11-22",
    "url": "https://gooddayfarmdispensary.com/specials/",
    "loc": [
-    30,
     31,
     32,
     33,
     34,
-    35
+    35,
+    36
    ],
    "geo": "store"
   },
@@ -6069,12 +6105,12 @@
    "collected": "2026-11-22",
    "url": "https://gooddayfarmdispensary.com/specials/",
    "loc": [
-    30,
     31,
     32,
     33,
     34,
-    35
+    35,
+    36
    ],
    "geo": "store"
   },
@@ -6098,12 +6134,12 @@
    "collected": "2026-11-22",
    "url": "https://gooddayfarmdispensary.com/specials/",
    "loc": [
-    30,
     31,
     32,
     33,
     34,
-    35
+    35,
+    36
    ],
    "geo": "store"
   },
@@ -6127,12 +6163,12 @@
    "collected": "2026-11-22",
    "url": "https://gooddayfarmdispensary.com/specials/",
    "loc": [
-    30,
     31,
     32,
     33,
     34,
-    35
+    35,
+    36
    ],
    "geo": "store"
   },
@@ -6156,12 +6192,12 @@
    "collected": "2026-11-22",
    "url": "https://gooddayfarmdispensary.com/specials/",
    "loc": [
-    30,
     31,
     32,
     33,
     34,
-    35
+    35,
+    36
    ],
    "geo": "store"
   },
@@ -6185,12 +6221,12 @@
    "collected": "2026-11-22",
    "url": "https://gooddayfarmdispensary.com/specials/",
    "loc": [
-    30,
     31,
     32,
     33,
     34,
-    35
+    35,
+    36
    ],
    "geo": "store"
   },
@@ -6214,12 +6250,12 @@
    "collected": "2026-11-22",
    "url": "https://gooddayfarmdispensary.com/specials/",
    "loc": [
-    30,
     31,
     32,
     33,
     34,
-    35
+    35,
+    36
    ],
    "geo": "store"
   },
@@ -6243,12 +6279,12 @@
    "collected": "2026-11-22",
    "url": "https://gooddayfarmdispensary.com/specials/",
    "loc": [
-    30,
     31,
     32,
     33,
     34,
-    35
+    35,
+    36
    ],
    "geo": "store"
   },
@@ -6272,12 +6308,12 @@
    "collected": "2026-11-22",
    "url": "https://gooddayfarmdispensary.com/specials/",
    "loc": [
-    30,
     31,
     32,
     33,
     34,
-    35
+    35,
+    36
    ],
    "geo": "store"
   },
@@ -6301,12 +6337,12 @@
    "collected": "2026-11-22",
    "url": "https://gooddayfarmdispensary.com/specials/",
    "loc": [
-    30,
     31,
     32,
     33,
     34,
-    35
+    35,
+    36
    ],
    "geo": "store"
   },
@@ -6326,9 +6362,9 @@
    "collected": "2026-11-22",
    "url": "https://nirvanacannabis.com/deals/west-phoenix-az/",
    "loc": [
-    36,
     37,
-    38
+    38,
+    39
    ],
    "geo": "store"
   },
@@ -6348,9 +6384,9 @@
    "collected": "2026-11-22",
    "url": "https://nirvanacannabis.com/deals/west-phoenix-az/",
    "loc": [
-    36,
     37,
-    38
+    38,
+    39
    ],
    "geo": "store"
   },
@@ -6370,9 +6406,9 @@
    "collected": "2026-11-22",
    "url": "https://nirvanacannabis.com/deals/west-phoenix-az/",
    "loc": [
-    36,
     37,
-    38
+    38,
+    39
    ],
    "geo": "store"
   },
@@ -6392,9 +6428,9 @@
    "collected": "2026-11-22",
    "url": "https://nirvanacannabis.com/deals/north-phoenix-az/",
    "loc": [
-    36,
     37,
-    38
+    38,
+    39
    ],
    "geo": "store"
   },
@@ -6414,9 +6450,9 @@
    "collected": "2026-11-22",
    "url": "https://nirvanacannabis.com/deals/north-phoenix-az/",
    "loc": [
-    36,
     37,
-    38
+    38,
+    39
    ],
    "geo": "store"
   },
@@ -6436,9 +6472,9 @@
    "collected": "2026-11-22",
    "url": "https://nirvanacannabis.com/deals/north-phoenix-az/",
    "loc": [
-    36,
     37,
-    38
+    38,
+    39
    ],
    "geo": "store"
   },
@@ -6458,9 +6494,9 @@
    "collected": "2026-11-22",
    "url": "https://nirvanacannabis.com/deals/north-phoenix-az/",
    "loc": [
-    36,
     37,
-    38
+    38,
+    39
    ],
    "geo": "store"
   },
@@ -6480,9 +6516,9 @@
    "collected": "2026-11-22",
    "url": "https://nirvanacannabis.com/deals/north-phoenix-az/",
    "loc": [
-    36,
     37,
-    38
+    38,
+    39
    ],
    "geo": "store"
   },
@@ -6502,9 +6538,9 @@
    "collected": "2026-11-22",
    "url": "https://nirvanacannabis.com/deals/north-phoenix-az/",
    "loc": [
-    36,
     37,
-    38
+    38,
+    39
    ],
    "geo": "store"
   },
@@ -6524,9 +6560,9 @@
    "collected": "2026-11-22",
    "url": "https://nirvanacannabis.com/deals/north-phoenix-az/",
    "loc": [
-    36,
     37,
-    38
+    38,
+    39
    ],
    "geo": "store"
   },
@@ -6546,9 +6582,9 @@
    "collected": "2026-11-22",
    "url": "https://nirvanacannabis.com/deals/north-phoenix-az/",
    "loc": [
-    36,
     37,
-    38
+    38,
+    39
    ],
    "geo": "store"
   },
@@ -6568,9 +6604,9 @@
    "collected": "2026-11-22",
    "url": "https://nirvanacannabis.com/deals/north-phoenix-az/",
    "loc": [
-    36,
     37,
-    38
+    38,
+    39
    ],
    "geo": "store"
   },
@@ -6590,208 +6626,8 @@
    "collected": "2026-11-22",
    "url": "https://nirvanacannabis.com/deals/north-phoenix-az/",
    "loc": [
-    36,
     37,
-    38
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "The Superior Dispensary",
-   "store": "The Superior Dispensary",
-   "city": "Phoenix",
-   "cities": [
-    "Phoenix"
-   ],
-   "state": "AZ",
-   "deal": "Vital Gummies BOGO",
-   "valid": "Sunday, November 22nd",
-   "until": "2026-11-22",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-22",
-   "url": "https://thesuperiordispensary.com/shop-deals/",
-   "loc": [
-    39
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "The Superior Dispensary",
-   "store": "The Superior Dispensary",
-   "city": "Phoenix",
-   "cities": [
-    "Phoenix"
-   ],
-   "state": "AZ",
-   "deal": "Smoken Promises 40% OFF",
-   "valid": "Sunday, November 22nd",
-   "until": "2026-11-22",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-22",
-   "url": "https://thesuperiordispensary.com/shop-deals/",
-   "loc": [
-    39
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "The Superior Dispensary",
-   "store": "The Superior Dispensary",
-   "city": "Phoenix",
-   "cities": [
-    "Phoenix"
-   ],
-   "state": "AZ",
-   "deal": "Connected/Alien Labs 10g Jar 30% OFF",
-   "valid": "Sunday, November 22nd",
-   "until": "2026-11-22",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-22",
-   "url": "https://thesuperiordispensary.com/shop-deals/",
-   "loc": [
-    39
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "The Superior Dispensary",
-   "store": "The Superior Dispensary",
-   "city": "Phoenix",
-   "cities": [
-    "Phoenix"
-   ],
-   "state": "AZ",
-   "deal": "Drip Extract BOGO",
-   "valid": "Monday, November 23rd",
-   "until": "2026-11-23",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-22",
-   "url": "https://thesuperiordispensary.com/shop-deals/",
-   "loc": [
-    39
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "The Superior Dispensary",
-   "store": "The Superior Dispensary",
-   "city": "Phoenix",
-   "cities": [
-    "Phoenix"
-   ],
-   "state": "AZ",
-   "deal": "On The Rocks BOGO",
-   "valid": "Monday, November 23rd",
-   "until": "2026-11-23",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-22",
-   "url": "https://thesuperiordispensary.com/shop-deals/",
-   "loc": [
-    39
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "The Superior Dispensary",
-   "store": "The Superior Dispensary",
-   "city": "Phoenix",
-   "cities": [
-    "Phoenix"
-   ],
-   "state": "AZ",
-   "deal": "Presidential 50% OFF",
-   "valid": "Monday, November 23rd",
-   "until": "2026-11-23",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-22",
-   "url": "https://thesuperiordispensary.com/shop-deals/",
-   "loc": [
-    39
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "The Superior Dispensary",
-   "store": "The Superior Dispensary",
-   "city": "Phoenix",
-   "cities": [
-    "Phoenix"
-   ],
-   "state": "AZ",
-   "deal": "Grow Sciences 1g Flower Preroll BOGO",
-   "valid": "Monday, November 23rd",
-   "until": "2026-11-23",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-22",
-   "url": "https://thesuperiordispensary.com/shop-deals/",
-   "loc": [
-    39
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "The Superior Dispensary",
-   "store": "The Superior Dispensary",
-   "city": "Phoenix",
-   "cities": [
-    "Phoenix"
-   ],
-   "state": "AZ",
-   "deal": "Mfused Select Vapes/Prerolls 50% OFF**",
-   "valid": "Monday, November 23rd",
-   "until": "2026-11-23",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-22",
-   "url": "https://thesuperiordispensary.com/shop-deals/",
-   "loc": [
-    39
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "The Superior Dispensary",
-   "store": "The Superior Dispensary",
-   "city": "Phoenix",
-   "cities": [
-    "Phoenix"
-   ],
-   "state": "AZ",
-   "deal": "Alien Labs/Connected Prerolls 2/$24 | 4/$40",
-   "valid": "Monday, November 23rd",
-   "until": "2026-11-23",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-22",
-   "url": "https://thesuperiordispensary.com/shop-deals/",
-   "loc": [
-    39
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "The Superior Dispensary",
-   "store": "The Superior Dispensary",
-   "city": "Phoenix",
-   "cities": [
-    "Phoenix"
-   ],
-   "state": "AZ",
-   "deal": "Mfused 25% OFF Vapes | 50% OFF Prerolls",
-   "valid": "Monday, November 23rd",
-   "until": "2026-11-23",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-22",
-   "url": "https://thesuperiordispensary.com/shop-deals/",
-   "loc": [
+    38,
     39
    ],
    "geo": "store"
@@ -6805,90 +6641,6 @@
    ],
    "state": "AZ",
    "deal": "25% OFF YiLo Ounces",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-22",
-   "url": "https://yilo.com/specials",
-   "loc": [
-    40,
-    41
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "YiLo",
-   "store": "YiLo Superstore",
-   "city": "Phoenix",
-   "cities": [
-    "Phoenix"
-   ],
-   "state": "AZ",
-   "deal": "High West BOGO",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-22",
-   "url": "https://yilo.com/specials",
-   "loc": [
-    40,
-    41
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "YiLo",
-   "store": "YiLo Superstore",
-   "city": "Phoenix",
-   "cities": [
-    "Phoenix"
-   ],
-   "state": "AZ",
-   "deal": "Presidential BOGO Weekends",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-22",
-   "url": "https://yilo.com/specials",
-   "loc": [
-    40,
-    41
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "YiLo",
-   "store": "YiLo Superstore",
-   "city": "Phoenix",
-   "cities": [
-    "Phoenix"
-   ],
-   "state": "AZ",
-   "deal": "Weekends just got an upgrade ?? Buy one, get one FREE on all Presidential infused pre rolls and infused blunts every Friday & Saturday!",
-   "valid": "",
-   "until": "",
-   "kind": "everyday",
-   "note": "",
-   "collected": "2026-11-22",
-   "url": "https://yilo.com/specials",
-   "loc": [
-    40,
-    41
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "YiLo",
-   "store": "YiLo Superstore",
-   "city": "Phoenix",
-   "cities": [
-    "Phoenix"
-   ],
-   "state": "AZ",
-   "deal": "Packed with potent distillate and dusted in kief, these heavy-hitters are built for next level sessions. Whether you\u2019re rolling into the weekend or keeping the vibe going, this BOGO deal makes it easy to double up.",
    "valid": "",
    "until": "",
    "kind": "limited",
@@ -6952,6 +6704,27 @@
    ],
    "state": "AZ",
    "deal": "Reserve Eighth 2 for $60",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://yilo.com/specials",
+   "loc": [
+    40,
+    41
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "YiLo",
+   "store": "YiLo Superstore",
+   "city": "Phoenix",
+   "cities": [
+    "Phoenix"
+   ],
+   "state": "AZ",
+   "deal": "INFUSED FIVE BOGO",
    "valid": "",
    "until": "",
    "kind": "limited",
@@ -7435,6 +7208,206 @@
    "geo": "store"
   },
   {
+   "chain": "Gemme Verdi",
+   "store": "Gemme Verdi",
+   "city": "San Francisco",
+   "cities": [
+    "San Francisco"
+   ],
+   "state": "CA",
+   "deal": "Stiiizy 40s quarter ounce, Buy 2 Get 1 for $1 every day.",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://www.gemmeverdi.com/san-francisco-cannabis-deals/",
+   "loc": [
+    54
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Gemme Verdi",
+   "store": "Gemme Verdi",
+   "city": "San Francisco",
+   "cities": [
+    "San Francisco"
+   ],
+   "state": "CA",
+   "deal": "Buy 2, Get 1 for $1 offers across flower, vapes, pre-rolls, and edibles.",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://www.gemmeverdi.com/san-francisco-cannabis-deals/",
+   "loc": [
+    54
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Gemme Verdi",
+   "store": "Gemme Verdi",
+   "city": "San Francisco",
+   "cities": [
+    "San Francisco"
+   ],
+   "state": "CA",
+   "deal": "Kwik Ease happy hour, 30% off daily from 3pm to 6pm.",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://www.gemmeverdi.com/san-francisco-cannabis-deals/",
+   "loc": [
+    54
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Gemme Verdi",
+   "store": "Gemme Verdi",
+   "city": "San Francisco",
+   "cities": [
+    "San Francisco"
+   ],
+   "state": "CA",
+   "deal": "Everyday Cannabis Deals: Buy 1 Get 1 50% Off",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://www.gemmeverdi.com/san-francisco-cannabis-deals/",
+   "loc": [
+    54
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Gemme Verdi",
+   "store": "Gemme Verdi",
+   "city": "San Francisco",
+   "cities": [
+    "San Francisco"
+   ],
+   "state": "CA",
+   "deal": "Everyday Cannabis Deals: Mix and Match any 4 for $199.99",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://www.gemmeverdi.com/san-francisco-cannabis-deals/",
+   "loc": [
+    54
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Gemme Verdi",
+   "store": "Gemme Verdi",
+   "city": "San Francisco",
+   "cities": [
+    "San Francisco"
+   ],
+   "state": "CA",
+   "deal": "Everyday Cannabis Deals: Buy 2 Get 1 for $1",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://www.gemmeverdi.com/san-francisco-cannabis-deals/",
+   "loc": [
+    54
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Gemme Verdi",
+   "store": "Gemme Verdi",
+   "city": "San Francisco",
+   "cities": [
+    "San Francisco"
+   ],
+   "state": "CA",
+   "deal": "Everyday Cannabis Deals: 5 for $20",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://www.gemmeverdi.com/san-francisco-cannabis-deals/",
+   "loc": [
+    54
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Gemme Verdi",
+   "store": "Gemme Verdi",
+   "city": "San Francisco",
+   "cities": [
+    "San Francisco"
+   ],
+   "state": "CA",
+   "deal": "Buy 1 Get 1 for $1 (Pre-Rolls + Pre-Roll Packs)",
+   "valid": "Everyday Cannabis Deals",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://www.gemmeverdi.com/san-francisco-cannabis-deals/",
+   "loc": [
+    54
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Gemme Verdi",
+   "store": "Gemme Verdi",
+   "city": "San Francisco",
+   "cities": [
+    "San Francisco"
+   ],
+   "state": "CA",
+   "deal": "Everyday Cannabis Deals: Buy 2 Get 2 for $1 each",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://www.gemmeverdi.com/san-francisco-cannabis-deals/",
+   "loc": [
+    54
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Gemme Verdi",
+   "store": "Gemme Verdi",
+   "city": "San Francisco",
+   "cities": [
+    "San Francisco"
+   ],
+   "state": "CA",
+   "deal": "Everyday Cannabis Deals: Buy 1 Get 1 for $1",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://www.gemmeverdi.com/san-francisco-cannabis-deals/",
+   "loc": [
+    54
+   ],
+   "geo": "store"
+  },
+  {
    "chain": "Urbn Leaf",
    "store": "Urbn Leaf",
    "city": "San Diego",
@@ -7450,8 +7423,8 @@
    "collected": "2026-11-22",
    "url": "https://www.urbnleaf.com/deals",
    "loc": [
-    54,
-    55
+    55,
+    56
    ],
    "geo": "store"
   },
@@ -7471,8 +7444,8 @@
    "collected": "2026-11-22",
    "url": "https://www.urbnleaf.com/deals",
    "loc": [
-    54,
-    55
+    55,
+    56
    ],
    "geo": "store"
   },
@@ -7492,8 +7465,8 @@
    "collected": "2026-11-22",
    "url": "https://www.urbnleaf.com/deals",
    "loc": [
-    54,
-    55
+    55,
+    56
    ],
    "geo": "store"
   },
@@ -7513,8 +7486,8 @@
    "collected": "2026-11-22",
    "url": "https://www.urbnleaf.com/deals",
    "loc": [
-    54,
-    55
+    55,
+    56
    ],
    "geo": "store"
   },
@@ -7534,8 +7507,8 @@
    "collected": "2026-11-22",
    "url": "https://www.urbnleaf.com/deals",
    "loc": [
-    54,
-    55
+    55,
+    56
    ],
    "geo": "store"
   },
@@ -7555,8 +7528,8 @@
    "collected": "2026-11-22",
    "url": "https://www.urbnleaf.com/deals",
    "loc": [
-    54,
-    55
+    55,
+    56
    ],
    "geo": "store"
   },
@@ -7576,8 +7549,8 @@
    "collected": "2026-11-22",
    "url": "https://www.urbnleaf.com/deals",
    "loc": [
-    54,
-    55
+    55,
+    56
    ],
    "geo": "store"
   },
@@ -7597,8 +7570,8 @@
    "collected": "2026-11-22",
    "url": "https://www.urbnleaf.com/deals",
    "loc": [
-    54,
-    55
+    55,
+    56
    ],
    "geo": "store"
   },
@@ -7618,8 +7591,8 @@
    "collected": "2026-11-22",
    "url": "https://www.urbnleaf.com/deals",
    "loc": [
-    54,
-    55
+    55,
+    56
    ],
    "geo": "store"
   },
@@ -7639,8 +7612,8 @@
    "collected": "2026-11-22",
    "url": "https://www.urbnleaf.com/deals",
    "loc": [
-    54,
-    55
+    55,
+    56
    ],
    "geo": "store"
   },
@@ -7662,9 +7635,9 @@
    "collected": "2026-11-22",
    "url": "https://lightshade.com/",
    "loc": [
-    56,
     57,
-    58
+    58,
+    59
    ],
    "geo": "city"
   },
@@ -7686,9 +7659,9 @@
    "collected": "2026-11-22",
    "url": "https://lightshade.com/",
    "loc": [
-    56,
     57,
-    58
+    58,
+    59
    ],
    "geo": "city"
   },
@@ -7710,9 +7683,9 @@
    "collected": "2026-11-22",
    "url": "https://lightshade.com/",
    "loc": [
-    56,
     57,
-    58
+    58,
+    59
    ],
    "geo": "city"
   },
@@ -7734,9 +7707,9 @@
    "collected": "2026-11-22",
    "url": "https://lightshade.com/",
    "loc": [
-    56,
     57,
-    58
+    58,
+    59
    ],
    "geo": "city"
   },
@@ -7756,8 +7729,8 @@
    "collected": "2026-11-22",
    "url": "https://www.delmundocannabis.com/deals/",
    "loc": [
-    59,
-    60
+    60,
+    61
    ],
    "geo": "store"
   },
@@ -7777,8 +7750,8 @@
    "collected": "2026-11-22",
    "url": "https://www.delmundocannabis.com/deals/",
    "loc": [
-    59,
-    60
+    60,
+    61
    ],
    "geo": "store"
   },
@@ -7798,8 +7771,8 @@
    "collected": "2026-11-22",
    "url": "https://www.delmundocannabis.com/deals/",
    "loc": [
-    59,
-    60
+    60,
+    61
    ],
    "geo": "store"
   },
@@ -7819,8 +7792,8 @@
    "collected": "2026-11-22",
    "url": "https://www.delmundocannabis.com/deals/",
    "loc": [
-    59,
-    60
+    60,
+    61
    ],
    "geo": "store"
   },
@@ -7840,8 +7813,8 @@
    "collected": "2026-11-22",
    "url": "https://www.delmundocannabis.com/deals/",
    "loc": [
-    59,
-    60
+    60,
+    61
    ],
    "geo": "store"
   },
@@ -7861,8 +7834,8 @@
    "collected": "2026-11-22",
    "url": "https://www.delmundocannabis.com/deals/",
    "loc": [
-    59,
-    60
+    60,
+    61
    ],
    "geo": "store"
   },
@@ -7882,8 +7855,8 @@
    "collected": "2026-11-22",
    "url": "https://www.delmundocannabis.com/deals/",
    "loc": [
-    59,
-    60
+    60,
+    61
    ],
    "geo": "store"
   },
@@ -7903,8 +7876,8 @@
    "collected": "2026-11-22",
    "url": "https://www.delmundocannabis.com/deals/",
    "loc": [
-    59,
-    60
+    60,
+    61
    ],
    "geo": "store"
   },
@@ -7924,8 +7897,8 @@
    "collected": "2026-11-22",
    "url": "https://www.delmundocannabis.com/deals/",
    "loc": [
-    59,
-    60
+    60,
+    61
    ],
    "geo": "store"
   },
@@ -7945,8 +7918,8 @@
    "collected": "2026-11-22",
    "url": "https://www.delmundocannabis.com/deals/",
    "loc": [
-    59,
-    60
+    60,
+    61
    ],
    "geo": "store"
   },
@@ -7966,7 +7939,7 @@
    "collected": "2026-11-22",
    "url": "https://simplypure.com/discounts/",
    "loc": [
-    61
+    62
    ],
    "geo": "store"
   },
@@ -7986,7 +7959,7 @@
    "collected": "2026-11-22",
    "url": "https://simplypure.com/discounts/",
    "loc": [
-    61
+    62
    ],
    "geo": "store"
   },
@@ -8006,7 +7979,7 @@
    "collected": "2026-11-22",
    "url": "https://simplypure.com/discounts/",
    "loc": [
-    61
+    62
    ],
    "geo": "store"
   },
@@ -8026,7 +7999,7 @@
    "collected": "2026-11-22",
    "url": "https://simplypure.com/discounts/",
    "loc": [
-    61
+    62
    ],
    "geo": "store"
   },
@@ -8046,7 +8019,7 @@
    "collected": "2026-11-22",
    "url": "https://simplypure.com/discounts/",
    "loc": [
-    61
+    62
    ],
    "geo": "store"
   },
@@ -8066,7 +8039,7 @@
    "collected": "2026-11-22",
    "url": "https://simplypure.com/discounts/",
    "loc": [
-    61
+    62
    ],
    "geo": "store"
   },
@@ -8086,7 +8059,7 @@
    "collected": "2026-11-22",
    "url": "https://simplypure.com/discounts/",
    "loc": [
-    61
+    62
    ],
    "geo": "store"
   },
@@ -8106,7 +8079,7 @@
    "collected": "2026-11-22",
    "url": "https://simplypure.com/discounts/",
    "loc": [
-    61
+    62
    ],
    "geo": "store"
   },
@@ -8126,7 +8099,7 @@
    "collected": "2026-11-22",
    "url": "https://simplypure.com/discounts/",
    "loc": [
-    61
+    62
    ],
    "geo": "store"
   },
@@ -8146,7 +8119,7 @@
    "collected": "2026-11-22",
    "url": "https://simplypure.com/discounts/",
    "loc": [
-    61
+    62
    ],
    "geo": "store"
   },
@@ -8182,7 +8155,7 @@
    "collected": "2026-11-22",
    "url": "https://shangriladispensaries.com/stores/shangri-la-waterbury",
    "loc": [
-    62
+    63
    ],
    "geo": "city"
   },
@@ -8202,7 +8175,7 @@
    "collected": "2026-11-22",
    "url": "https://shangriladispensaries.com/stores/shangri-la-waterbury",
    "loc": [
-    62
+    63
    ],
    "geo": "city"
   },
@@ -8222,7 +8195,7 @@
    "collected": "2026-11-22",
    "url": "https://shangriladispensaries.com/stores/shangri-la-waterbury",
    "loc": [
-    62
+    63
    ],
    "geo": "city"
   },
@@ -8242,7 +8215,7 @@
    "collected": "2026-11-22",
    "url": "https://shangriladispensaries.com/stores/shangri-la-waterbury",
    "loc": [
-    62
+    63
    ],
    "geo": "city"
   },
@@ -8262,7 +8235,7 @@
    "collected": "2026-11-22",
    "url": "https://shangriladispensaries.com/stores/shangri-la-waterbury",
    "loc": [
-    62
+    63
    ],
    "geo": "city"
   },
@@ -8282,7 +8255,7 @@
    "collected": "2026-11-22",
    "url": "https://shangriladispensaries.com/stores/shangri-la-waterbury",
    "loc": [
-    62
+    63
    ],
    "geo": "city"
   },
@@ -8302,7 +8275,7 @@
    "collected": "2026-11-22",
    "url": "https://shangriladispensaries.com/stores/shangri-la-waterbury",
    "loc": [
-    62
+    63
    ],
    "geo": "city"
   },
@@ -8322,7 +8295,7 @@
    "collected": "2026-11-22",
    "url": "https://www.firehousedc.com/daily-deals/",
    "loc": [
-    63
+    64
    ],
    "geo": "city"
   },
@@ -8342,7 +8315,7 @@
    "collected": "2026-11-22",
    "url": "https://www.firehousedc.com/daily-deals/",
    "loc": [
-    63
+    64
    ],
    "geo": "city"
   },
@@ -8362,7 +8335,7 @@
    "collected": "2026-11-22",
    "url": "https://www.firehousedc.com/daily-deals/",
    "loc": [
-    63
+    64
    ],
    "geo": "city"
   },
@@ -8382,7 +8355,7 @@
    "collected": "2026-11-22",
    "url": "https://www.firehousedc.com/daily-deals/",
    "loc": [
-    63
+    64
    ],
    "geo": "city"
   },
@@ -8402,7 +8375,7 @@
    "collected": "2026-11-22",
    "url": "https://www.firehousedc.com/daily-deals/",
    "loc": [
-    63
+    64
    ],
    "geo": "city"
   },
@@ -8422,7 +8395,7 @@
    "collected": "2026-11-22",
    "url": "https://www.firehousedc.com/daily-deals/",
    "loc": [
-    63
+    64
    ],
    "geo": "city"
   },
@@ -8442,7 +8415,7 @@
    "collected": "2026-11-22",
    "url": "https://www.firehousedc.com/daily-deals/",
    "loc": [
-    63
+    64
    ],
    "geo": "city"
   },
@@ -8462,7 +8435,7 @@
    "collected": "2026-11-22",
    "url": "https://www.firehousedc.com/daily-deals/",
    "loc": [
-    63
+    64
    ],
    "geo": "city"
   },
@@ -8482,7 +8455,7 @@
    "collected": "2026-11-22",
    "url": "https://www.firehousedc.com/daily-deals/",
    "loc": [
-    63
+    64
    ],
    "geo": "city"
   },
@@ -8502,9 +8475,25 @@
    "collected": "2026-11-22",
    "url": "https://dc.cookies.co/specials/",
    "loc": [
-    64
+    65
    ],
    "geo": "city"
+  },
+  {
+   "chain": "Trulieve",
+   "store": "Trulieve (Florida stores)",
+   "city": "",
+   "cities": [],
+   "state": "FL",
+   "deal": "Shop select 3.5g Minis 3 for $45. Stock up on Modern Flower, Sunshine Cannabis and other indoor-grown favorites.",
+   "valid": "Valid 11/22\u201311/23",
+   "until": "2026-11-23",
+   "kind": "limited",
+   "note": "Statewide promotions page; check your store.",
+   "collected": "2026-11-22",
+   "url": "https://www.trulieve.com/discover/promotions/florida",
+   "loc": [],
+   "geo": "statewide"
   },
   {
    "chain": "Trulieve",
@@ -8529,8 +8518,8 @@
    "cities": [],
    "state": "FL",
    "deal": "2 for $60 Clutch or Prism",
-   "valid": "",
-   "until": "",
+   "valid": "Valid 11/22",
+   "until": "2026-11-22",
    "kind": "limited",
    "note": "Statewide promotions page; check your store.",
    "collected": "2026-11-22",
@@ -8651,22 +8640,6 @@
    "geo": "statewide"
   },
   {
-   "chain": "Trulieve",
-   "store": "Trulieve (Florida stores)",
-   "city": "",
-   "cities": [],
-   "state": "FL",
-   "deal": "We\u2019re excited you\u2019re here! Get 60% off your first order, 50% off on your second, and 40% off your third order. It\u2019s our way to welcome you to the community!",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "Statewide promotions page; check your store.",
-   "collected": "2026-11-22",
-   "url": "https://www.trulieve.com/discover/promotions/florida",
-   "loc": [],
-   "geo": "statewide"
-  },
-  {
    "chain": "Bud & Rita's",
    "store": "Bud & Rita's",
    "city": "Chicago \u00b7 Niles \u00b7 Wadsworth \u00b7 Sycamore \u00b7 Forsyth",
@@ -8686,13 +8659,13 @@
    "collected": "2026-11-22",
    "url": "https://budandritas.com/specials/",
    "loc": [
-    65,
     66,
     67,
     68,
     69,
     70,
-    71
+    71,
+    72
    ],
    "geo": "store"
   },
@@ -8716,13 +8689,13 @@
    "collected": "2026-11-22",
    "url": "https://budandritas.com/specials/",
    "loc": [
-    65,
     66,
     67,
     68,
     69,
     70,
-    71
+    71,
+    72
    ],
    "geo": "store"
   },
@@ -8746,13 +8719,13 @@
    "collected": "2026-11-22",
    "url": "https://budandritas.com/specials/",
    "loc": [
-    65,
     66,
     67,
     68,
     69,
     70,
-    71
+    71,
+    72
    ],
    "geo": "store"
   },
@@ -8776,13 +8749,13 @@
    "collected": "2026-11-22",
    "url": "https://budandritas.com/specials/",
    "loc": [
-    65,
     66,
     67,
     68,
     69,
     70,
-    71
+    71,
+    72
    ],
    "geo": "store"
   },
@@ -8806,13 +8779,13 @@
    "collected": "2026-11-22",
    "url": "https://budandritas.com/specials/",
    "loc": [
-    65,
     66,
     67,
     68,
     69,
     70,
-    71
+    71,
+    72
    ],
    "geo": "store"
   },
@@ -8836,13 +8809,13 @@
    "collected": "2026-11-22",
    "url": "https://budandritas.com/specials/",
    "loc": [
-    65,
     66,
     67,
     68,
     69,
     70,
-    71
+    71,
+    72
    ],
    "geo": "store"
   },
@@ -8866,13 +8839,13 @@
    "collected": "2026-11-22",
    "url": "https://budandritas.com/specials/",
    "loc": [
-    65,
     66,
     67,
     68,
     69,
     70,
-    71
+    71,
+    72
    ],
    "geo": "store"
   },
@@ -8896,13 +8869,13 @@
    "collected": "2026-11-22",
    "url": "https://budandritas.com/specials/",
    "loc": [
-    65,
     66,
     67,
     68,
     69,
     70,
-    71
+    71,
+    72
    ],
    "geo": "store"
   },
@@ -8922,7 +8895,7 @@
    "collected": "2026-11-22",
    "url": "https://shop.altiusdispensary.com/locations/IL/round-lake-beach/menu/discounts",
    "loc": [
-    72
+    73
    ],
    "geo": "city"
   },
@@ -8942,7 +8915,7 @@
    "collected": "2026-11-22",
    "url": "https://shop.altiusdispensary.com/locations/IL/round-lake-beach/menu/discounts",
    "loc": [
-    72
+    73
    ],
    "geo": "city"
   },
@@ -8962,7 +8935,7 @@
    "collected": "2026-11-22",
    "url": "https://shop.altiusdispensary.com/locations/IL/round-lake-beach/menu/discounts",
    "loc": [
-    72
+    73
    ],
    "geo": "city"
   },
@@ -8982,7 +8955,7 @@
    "collected": "2026-11-22",
    "url": "https://shop.altiusdispensary.com/locations/IL/round-lake-beach/menu/discounts",
    "loc": [
-    72
+    73
    ],
    "geo": "city"
   },
@@ -9002,7 +8975,7 @@
    "collected": "2026-11-22",
    "url": "https://shop.altiusdispensary.com/locations/IL/round-lake-beach/menu/discounts",
    "loc": [
-    72
+    73
    ],
    "geo": "city"
   },
@@ -9022,7 +8995,7 @@
    "collected": "2026-11-22",
    "url": "https://shop.altiusdispensary.com/locations/IL/round-lake-beach/menu/discounts",
    "loc": [
-    72
+    73
    ],
    "geo": "city"
   },
@@ -9042,7 +9015,7 @@
    "collected": "2026-11-22",
    "url": "https://shop.altiusdispensary.com/locations/IL/round-lake-beach/menu/discounts",
    "loc": [
-    72
+    73
    ],
    "geo": "city"
   },
@@ -9062,7 +9035,7 @@
    "collected": "2026-11-22",
    "url": "https://shop.altiusdispensary.com/locations/IL/round-lake-beach/menu/discounts",
    "loc": [
-    72
+    73
    ],
    "geo": "city"
   },
@@ -9074,7 +9047,7 @@
     "Round Lake Beach"
    ],
    "state": "IL",
-   "deal": "25% Off Airo (Batteries not included)",
+   "deal": "25% Off Breez, Journeyman, Keef, Artet & CQ 25mg",
    "valid": "Daily, till November 22",
    "until": "2026-11-22",
    "kind": "limited",
@@ -9082,7 +9055,7 @@
    "collected": "2026-11-22",
    "url": "https://shop.altiusdispensary.com/locations/IL/round-lake-beach/menu/discounts",
    "loc": [
-    72
+    73
    ],
    "geo": "city"
   },
@@ -9094,7 +9067,7 @@
     "Round Lake Beach"
    ],
    "state": "IL",
-   "deal": "30% Off Sticky Greens & Trippy Sips",
+   "deal": "25% Off Fernway 0.5g & 1g",
    "valid": "Daily, till November 22",
    "until": "2026-11-22",
    "kind": "limited",
@@ -9102,7 +9075,7 @@
    "collected": "2026-11-22",
    "url": "https://shop.altiusdispensary.com/locations/IL/round-lake-beach/menu/discounts",
    "loc": [
-    72
+    73
    ],
    "geo": "city"
   },
@@ -9123,8 +9096,8 @@
    "collected": "2026-11-22",
    "url": "https://carolinescannabis.com/specials",
    "loc": [
-    73,
-    74
+    74,
+    75
    ],
    "geo": "store"
   },
@@ -9145,8 +9118,8 @@
    "collected": "2026-11-22",
    "url": "https://carolinescannabis.com/specials",
    "loc": [
-    73,
-    74
+    74,
+    75
    ],
    "geo": "store"
   },
@@ -9167,8 +9140,8 @@
    "collected": "2026-11-22",
    "url": "https://carolinescannabis.com/specials",
    "loc": [
-    73,
-    74
+    74,
+    75
    ],
    "geo": "store"
   },
@@ -9189,8 +9162,8 @@
    "collected": "2026-11-22",
    "url": "https://carolinescannabis.com/specials",
    "loc": [
-    73,
-    74
+    74,
+    75
    ],
    "geo": "store"
   },
@@ -9211,8 +9184,8 @@
    "collected": "2026-11-22",
    "url": "https://carolinescannabis.com/specials",
    "loc": [
-    73,
-    74
+    74,
+    75
    ],
    "geo": "store"
   },
@@ -9233,8 +9206,8 @@
    "collected": "2026-11-22",
    "url": "https://carolinescannabis.com/specials",
    "loc": [
-    73,
-    74
+    74,
+    75
    ],
    "geo": "store"
   },
@@ -9255,8 +9228,8 @@
    "collected": "2026-11-22",
    "url": "https://carolinescannabis.com/specials",
    "loc": [
-    73,
-    74
+    74,
+    75
    ],
    "geo": "store"
   },
@@ -9277,8 +9250,8 @@
    "collected": "2026-11-22",
    "url": "https://carolinescannabis.com/specials",
    "loc": [
-    73,
-    74
+    74,
+    75
    ],
    "geo": "store"
   },
@@ -9299,8 +9272,8 @@
    "collected": "2026-11-22",
    "url": "https://carolinescannabis.com/specials",
    "loc": [
-    73,
-    74
+    74,
+    75
    ],
    "geo": "store"
   },
@@ -9321,8 +9294,8 @@
    "collected": "2026-11-22",
    "url": "https://carolinescannabis.com/specials",
    "loc": [
-    73,
-    74
+    74,
+    75
    ],
    "geo": "store"
   },
@@ -9344,9 +9317,9 @@
    "collected": "2026-11-22",
    "url": "https://temescalwellness.com/",
    "loc": [
-    75,
     76,
-    77
+    77,
+    78
    ],
    "geo": "store"
   },
@@ -9368,9 +9341,9 @@
    "collected": "2026-11-22",
    "url": "https://temescalwellness.com/",
    "loc": [
-    75,
     76,
-    77
+    77,
+    78
    ],
    "geo": "store"
   },
@@ -9391,8 +9364,8 @@
    "collected": "2026-11-22",
    "url": "https://cometobask.com/specials/",
    "loc": [
-    78,
-    79
+    79,
+    80
    ],
    "geo": "store"
   },
@@ -9413,8 +9386,8 @@
    "collected": "2026-11-22",
    "url": "https://cometobask.com/specials/",
    "loc": [
-    78,
-    79
+    79,
+    80
    ],
    "geo": "store"
   },
@@ -9435,8 +9408,8 @@
    "collected": "2026-11-22",
    "url": "https://cometobask.com/specials/",
    "loc": [
-    78,
-    79
+    79,
+    80
    ],
    "geo": "store"
   },
@@ -9457,8 +9430,8 @@
    "collected": "2026-11-22",
    "url": "https://cometobask.com/specials/",
    "loc": [
-    78,
-    79
+    79,
+    80
    ],
    "geo": "store"
   },
@@ -9479,8 +9452,8 @@
    "collected": "2026-11-22",
    "url": "https://cometobask.com/specials/",
    "loc": [
-    78,
-    79
+    79,
+    80
    ],
    "geo": "store"
   },
@@ -9501,8 +9474,8 @@
    "collected": "2026-11-22",
    "url": "https://cometobask.com/specials/",
    "loc": [
-    78,
-    79
+    79,
+    80
    ],
    "geo": "store"
   },
@@ -9523,8 +9496,8 @@
    "collected": "2026-11-22",
    "url": "https://cometobask.com/specials/",
    "loc": [
-    78,
-    79
+    79,
+    80
    ],
    "geo": "store"
   },
@@ -9545,8 +9518,8 @@
    "collected": "2026-11-22",
    "url": "https://cometobask.com/specials/",
    "loc": [
-    78,
-    79
+    79,
+    80
    ],
    "geo": "store"
   },
@@ -9567,8 +9540,8 @@
    "collected": "2026-11-22",
    "url": "https://cometobask.com/specials/",
    "loc": [
-    78,
-    79
+    79,
+    80
    ],
    "geo": "store"
   },
@@ -9589,8 +9562,8 @@
    "collected": "2026-11-22",
    "url": "https://cometobask.com/specials/",
    "loc": [
-    78,
-    79
+    79,
+    80
    ],
    "geo": "store"
   },
@@ -9612,9 +9585,9 @@
    "collected": "2026-11-22",
    "url": "https://commcan.com/weekly-deals-news/",
    "loc": [
-    80,
     81,
-    82
+    82,
+    83
    ],
    "geo": "store"
   },
@@ -9636,9 +9609,9 @@
    "collected": "2026-11-22",
    "url": "https://commcan.com/weekly-deals-news/",
    "loc": [
-    80,
     81,
-    82
+    82,
+    83
    ],
    "geo": "store"
   },
@@ -9660,9 +9633,9 @@
    "collected": "2026-11-22",
    "url": "https://commcan.com/weekly-deals-news/",
    "loc": [
-    80,
     81,
-    82
+    82,
+    83
    ],
    "geo": "store"
   },
@@ -9684,9 +9657,9 @@
    "collected": "2026-11-22",
    "url": "https://commcan.com/weekly-deals-news/",
    "loc": [
-    80,
     81,
-    82
+    82,
+    83
    ],
    "geo": "store"
   },
@@ -9708,9 +9681,9 @@
    "collected": "2026-11-22",
    "url": "https://commcan.com/weekly-deals-news/",
    "loc": [
-    80,
     81,
-    82
+    82,
+    83
    ],
    "geo": "store"
   },
@@ -9732,9 +9705,9 @@
    "collected": "2026-11-22",
    "url": "https://commcan.com/weekly-deals-news/",
    "loc": [
-    80,
     81,
-    82
+    82,
+    83
    ],
    "geo": "store"
   },
@@ -9756,9 +9729,9 @@
    "collected": "2026-11-22",
    "url": "https://commcan.com/weekly-deals-news/",
    "loc": [
-    80,
     81,
-    82
+    82,
+    83
    ],
    "geo": "store"
   },
@@ -9780,9 +9753,9 @@
    "collected": "2026-11-22",
    "url": "https://commcan.com/weekly-deals-news/",
    "loc": [
-    80,
     81,
-    82
+    82,
+    83
    ],
    "geo": "store"
   },
@@ -9803,8 +9776,8 @@
    "collected": "2026-11-22",
    "url": "https://www.netacare.org/specials",
    "loc": [
-    83,
-    84
+    84,
+    85
    ],
    "geo": "store"
   },
@@ -9825,8 +9798,8 @@
    "collected": "2026-11-22",
    "url": "https://www.netacare.org/specials",
    "loc": [
-    83,
-    84
+    84,
+    85
    ],
    "geo": "store"
   },
@@ -9847,8 +9820,8 @@
    "collected": "2026-11-22",
    "url": "https://www.netacare.org/specials",
    "loc": [
-    83,
-    84
+    84,
+    85
    ],
    "geo": "store"
   },
@@ -9866,7 +9839,7 @@
    "collected": "2026-11-22",
    "url": "https://jennysmaryland.com/specials",
    "loc": [
-    85
+    86
    ],
    "geo": "store"
   },
@@ -9884,7 +9857,7 @@
    "collected": "2026-11-22",
    "url": "https://jennysmaryland.com/specials",
    "loc": [
-    85
+    86
    ],
    "geo": "store"
   },
@@ -9902,7 +9875,7 @@
    "collected": "2026-11-22",
    "url": "https://jennysmaryland.com/specials",
    "loc": [
-    85
+    86
    ],
    "geo": "store"
   },
@@ -9920,7 +9893,7 @@
    "collected": "2026-11-22",
    "url": "https://jennysmaryland.com/specials",
    "loc": [
-    85
+    86
    ],
    "geo": "store"
   },
@@ -9938,7 +9911,7 @@
    "collected": "2026-11-22",
    "url": "https://jennysmaryland.com/specials",
    "loc": [
-    85
+    86
    ],
    "geo": "store"
   },
@@ -9956,7 +9929,7 @@
    "collected": "2026-11-22",
    "url": "https://jennysmaryland.com/specials",
    "loc": [
-    85
+    86
    ],
    "geo": "store"
   },
@@ -10138,9 +10111,9 @@
    "collected": "2026-11-22",
    "url": "https://greentruckfarm.com/specials/",
    "loc": [
-    86,
     87,
-    88
+    88,
+    89
    ],
    "geo": "store"
   },
@@ -10162,9 +10135,9 @@
    "collected": "2026-11-22",
    "url": "https://greentruckfarm.com/specials/",
    "loc": [
-    86,
     87,
-    88
+    88,
+    89
    ],
    "geo": "store"
   },
@@ -10186,9 +10159,9 @@
    "collected": "2026-11-22",
    "url": "https://greentruckfarm.com/specials/",
    "loc": [
-    86,
     87,
-    88
+    88,
+    89
    ],
    "geo": "store"
   },
@@ -10206,7 +10179,6 @@
    "collected": "2026-11-22",
    "url": "https://greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    89,
     90,
     91,
     92,
@@ -10221,7 +10193,8 @@
     101,
     102,
     103,
-    104
+    104,
+    105
    ],
    "geo": "store"
   },
@@ -10239,7 +10212,6 @@
    "collected": "2026-11-22",
    "url": "https://greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    89,
     90,
     91,
     92,
@@ -10254,7 +10226,8 @@
     101,
     102,
     103,
-    104
+    104,
+    105
    ],
    "geo": "store"
   },
@@ -10272,7 +10245,6 @@
    "collected": "2026-11-22",
    "url": "https://greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    89,
     90,
     91,
     92,
@@ -10287,7 +10259,8 @@
     101,
     102,
     103,
-    104
+    104,
+    105
    ],
    "geo": "store"
   },
@@ -10305,7 +10278,6 @@
    "collected": "2026-11-22",
    "url": "https://greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    89,
     90,
     91,
     92,
@@ -10320,7 +10292,8 @@
     101,
     102,
     103,
-    104
+    104,
+    105
    ],
    "geo": "store"
   },
@@ -10338,7 +10311,6 @@
    "collected": "2026-11-22",
    "url": "https://greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    89,
     90,
     91,
     92,
@@ -10353,7 +10325,8 @@
     101,
     102,
     103,
-    104
+    104,
+    105
    ],
    "geo": "store"
   },
@@ -10371,7 +10344,6 @@
    "collected": "2026-11-22",
    "url": "https://greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    89,
     90,
     91,
     92,
@@ -10386,7 +10358,8 @@
     101,
     102,
     103,
-    104
+    104,
+    105
    ],
    "geo": "store"
   },
@@ -10404,7 +10377,6 @@
    "collected": "2026-11-22",
    "url": "https://greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    89,
     90,
     91,
     92,
@@ -10419,7 +10391,8 @@
     101,
     102,
     103,
-    104
+    104,
+    105
    ],
    "geo": "store"
   },
@@ -10437,7 +10410,6 @@
    "collected": "2026-11-22",
    "url": "https://greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    89,
     90,
     91,
     92,
@@ -10452,7 +10424,8 @@
     101,
     102,
     103,
-    104
+    104,
+    105
    ],
    "geo": "store"
   },
@@ -10470,7 +10443,6 @@
    "collected": "2026-11-22",
    "url": "https://greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    89,
     90,
     91,
     92,
@@ -10485,7 +10457,8 @@
     101,
     102,
     103,
-    104
+    104,
+    105
    ],
    "geo": "store"
   },
@@ -10503,7 +10476,6 @@
    "collected": "2026-11-22",
    "url": "https://greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    89,
     90,
     91,
     92,
@@ -10518,7 +10490,8 @@
     101,
     102,
     103,
-    104
+    104,
+    105
    ],
    "geo": "store"
   },
@@ -10538,8 +10511,8 @@
    "collected": "2026-11-22",
    "url": "https://codesdispensary.com/specials/",
    "loc": [
-    105,
-    106
+    106,
+    107
    ],
    "geo": "store"
   },
@@ -10559,8 +10532,8 @@
    "collected": "2026-11-22",
    "url": "https://codesdispensary.com/specials/",
    "loc": [
-    105,
-    106
+    106,
+    107
    ],
    "geo": "store"
   },
@@ -10580,8 +10553,8 @@
    "collected": "2026-11-22",
    "url": "https://codesdispensary.com/specials/",
    "loc": [
-    105,
-    106
+    106,
+    107
    ],
    "geo": "store"
   },
@@ -10601,8 +10574,8 @@
    "collected": "2026-11-22",
    "url": "https://codesdispensary.com/specials/",
    "loc": [
-    105,
-    106
+    106,
+    107
    ],
    "geo": "store"
   },
@@ -10622,8 +10595,8 @@
    "collected": "2026-11-22",
    "url": "https://codesdispensary.com/specials/",
    "loc": [
-    105,
-    106
+    106,
+    107
    ],
    "geo": "store"
   },
@@ -10643,8 +10616,8 @@
    "collected": "2026-11-22",
    "url": "https://codesdispensary.com/specials/",
    "loc": [
-    105,
-    106
+    106,
+    107
    ],
    "geo": "store"
   },
@@ -10664,8 +10637,8 @@
    "collected": "2026-11-22",
    "url": "https://codesdispensary.com/specials/",
    "loc": [
-    105,
-    106
+    106,
+    107
    ],
    "geo": "store"
   },
@@ -10685,8 +10658,8 @@
    "collected": "2026-11-22",
    "url": "https://codesdispensary.com/specials/",
    "loc": [
-    105,
-    106
+    106,
+    107
    ],
    "geo": "store"
   },
@@ -10706,8 +10679,8 @@
    "collected": "2026-11-22",
    "url": "https://codesdispensary.com/specials/",
    "loc": [
-    105,
-    106
+    106,
+    107
    ],
    "geo": "store"
   },
@@ -10727,8 +10700,8 @@
    "collected": "2026-11-22",
    "url": "https://codesdispensary.com/specials/",
    "loc": [
-    105,
-    106
+    106,
+    107
    ],
    "geo": "store"
   },
@@ -10892,7 +10865,7 @@
    "collected": "2026-11-22",
    "url": "https://www.starbuds.us/oxford",
    "loc": [
-    107
+    108
    ],
    "geo": "city"
   },
@@ -10912,7 +10885,7 @@
    "collected": "2026-11-22",
    "url": "https://www.starbuds.us/oxford",
    "loc": [
-    107
+    108
    ],
    "geo": "city"
   },
@@ -10932,7 +10905,7 @@
    "collected": "2026-11-22",
    "url": "https://www.starbuds.us/oxford",
    "loc": [
-    107
+    108
    ],
    "geo": "city"
   },
@@ -10952,7 +10925,7 @@
    "collected": "2026-11-22",
    "url": "https://www.starbuds.us/oxford",
    "loc": [
-    107
+    108
    ],
    "geo": "city"
   },
@@ -10972,7 +10945,7 @@
    "collected": "2026-11-22",
    "url": "https://www.starbuds.us/oxford",
    "loc": [
-    107
+    108
    ],
    "geo": "city"
   },
@@ -10992,7 +10965,7 @@
    "collected": "2026-11-22",
    "url": "https://www.starbuds.us/oxford",
    "loc": [
-    107
+    108
    ],
    "geo": "city"
   },
@@ -11010,7 +10983,6 @@
    "collected": "2026-11-22",
    "url": "https://www.hi-line.co/daily-deals/",
    "loc": [
-    108,
     109,
     110,
     111,
@@ -11019,7 +10991,8 @@
     114,
     115,
     116,
-    117
+    117,
+    118
    ],
    "geo": "store"
   },
@@ -11037,7 +11010,6 @@
    "collected": "2026-11-22",
    "url": "https://www.hi-line.co/daily-deals/",
    "loc": [
-    108,
     109,
     110,
     111,
@@ -11046,7 +11018,8 @@
     114,
     115,
     116,
-    117
+    117,
+    118
    ],
    "geo": "store"
   },
@@ -11064,7 +11037,6 @@
    "collected": "2026-11-22",
    "url": "https://www.hi-line.co/daily-deals/",
    "loc": [
-    108,
     109,
     110,
     111,
@@ -11073,7 +11045,8 @@
     114,
     115,
     116,
-    117
+    117,
+    118
    ],
    "geo": "store"
   },
@@ -11094,8 +11067,8 @@
    "collected": "2026-11-22",
    "url": "https://www.missionmountainorganics.com/deals",
    "loc": [
-    118,
-    119
+    119,
+    120
    ],
    "geo": "store"
   },
@@ -11116,8 +11089,8 @@
    "collected": "2026-11-22",
    "url": "https://www.missionmountainorganics.com/deals",
    "loc": [
-    118,
-    119
+    119,
+    120
    ],
    "geo": "store"
   },
@@ -11138,8 +11111,8 @@
    "collected": "2026-11-22",
    "url": "https://www.missionmountainorganics.com/deals",
    "loc": [
-    118,
-    119
+    119,
+    120
    ],
    "geo": "store"
   },
@@ -11160,8 +11133,8 @@
    "collected": "2026-11-22",
    "url": "https://www.missionmountainorganics.com/deals",
    "loc": [
-    118,
-    119
+    119,
+    120
    ],
    "geo": "store"
   },
@@ -11182,8 +11155,8 @@
    "collected": "2026-11-22",
    "url": "https://www.missionmountainorganics.com/deals",
    "loc": [
-    118,
-    119
+    119,
+    120
    ],
    "geo": "store"
   },
@@ -11204,8 +11177,8 @@
    "collected": "2026-11-22",
    "url": "https://www.missionmountainorganics.com/deals",
    "loc": [
-    118,
-    119
+    119,
+    120
    ],
    "geo": "store"
   },
@@ -11226,8 +11199,8 @@
    "collected": "2026-11-22",
    "url": "https://www.missionmountainorganics.com/deals",
    "loc": [
-    118,
-    119
+    119,
+    120
    ],
    "geo": "store"
   },
@@ -11248,8 +11221,8 @@
    "collected": "2026-11-22",
    "url": "https://www.missionmountainorganics.com/deals",
    "loc": [
-    118,
-    119
+    119,
+    120
    ],
    "geo": "store"
   },
@@ -11270,8 +11243,8 @@
    "collected": "2026-11-22",
    "url": "https://www.missionmountainorganics.com/deals",
    "loc": [
-    118,
-    119
+    119,
+    120
    ],
    "geo": "store"
   },
@@ -11292,8 +11265,8 @@
    "collected": "2026-11-22",
    "url": "https://www.missionmountainorganics.com/deals",
    "loc": [
-    118,
-    119
+    119,
+    120
    ],
    "geo": "store"
   },
@@ -11313,7 +11286,7 @@
    "collected": "2026-11-22",
    "url": "https://www.spark1mt.com/deals",
    "loc": [
-    120
+    121
    ],
    "geo": "store"
   },
@@ -11333,7 +11306,7 @@
    "collected": "2026-11-22",
    "url": "https://www.spark1mt.com/deals",
    "loc": [
-    120
+    121
    ],
    "geo": "store"
   },
@@ -11353,7 +11326,7 @@
    "collected": "2026-11-22",
    "url": "https://www.spark1mt.com/deals",
    "loc": [
-    120
+    121
    ],
    "geo": "store"
   },
@@ -11373,7 +11346,7 @@
    "collected": "2026-11-22",
    "url": "https://www.spark1mt.com/deals",
    "loc": [
-    120
+    121
    ],
    "geo": "store"
   },
@@ -11393,7 +11366,7 @@
    "collected": "2026-11-22",
    "url": "https://www.spark1mt.com/deals",
    "loc": [
-    120
+    121
    ],
    "geo": "store"
   },
@@ -11413,7 +11386,7 @@
    "collected": "2026-11-22",
    "url": "https://www.spark1mt.com/deals",
    "loc": [
-    120
+    121
    ],
    "geo": "store"
   },
@@ -11433,7 +11406,7 @@
    "collected": "2026-11-22",
    "url": "https://www.spark1mt.com/deals",
    "loc": [
-    120
+    121
    ],
    "geo": "store"
   },
@@ -11455,9 +11428,9 @@
    "collected": "2026-11-22",
    "url": "https://topshelfbotanicals.com/daily-deals/",
    "loc": [
-    121,
     122,
-    123
+    123,
+    124
    ],
    "geo": "city"
   },
@@ -11479,9 +11452,9 @@
    "collected": "2026-11-22",
    "url": "https://topshelfbotanicals.com/daily-deals/",
    "loc": [
-    121,
     122,
-    123
+    123,
+    124
    ],
    "geo": "city"
   },
@@ -11502,8 +11475,8 @@
    "collected": "2026-11-22",
    "url": "https://earthandivy.co/discounts/",
    "loc": [
-    124,
-    125
+    125,
+    126
    ],
    "geo": "store"
   },
@@ -11524,8 +11497,8 @@
    "collected": "2026-11-22",
    "url": "https://earthandivy.co/discounts/",
    "loc": [
-    124,
-    125
+    125,
+    126
    ],
    "geo": "store"
   },
@@ -11546,8 +11519,8 @@
    "collected": "2026-11-22",
    "url": "https://earthandivy.co/discounts/",
    "loc": [
-    124,
-    125
+    125,
+    126
    ],
    "geo": "store"
   },
@@ -11568,8 +11541,8 @@
    "collected": "2026-11-22",
    "url": "https://earthandivy.co/discounts/",
    "loc": [
-    124,
-    125
+    125,
+    126
    ],
    "geo": "store"
   },
@@ -11590,8 +11563,8 @@
    "collected": "2026-11-22",
    "url": "https://earthandivy.co/discounts/",
    "loc": [
-    124,
-    125
+    125,
+    126
    ],
    "geo": "store"
   },
@@ -11612,8 +11585,8 @@
    "collected": "2026-11-22",
    "url": "https://earthandivy.co/discounts/",
    "loc": [
-    124,
-    125
+    125,
+    126
    ],
    "geo": "store"
   },
@@ -11634,8 +11607,8 @@
    "collected": "2026-11-22",
    "url": "https://earthandivy.co/discounts/",
    "loc": [
-    124,
-    125
+    125,
+    126
    ],
    "geo": "store"
   },
@@ -11656,8 +11629,8 @@
    "collected": "2026-11-22",
    "url": "https://earthandivy.co/discounts/",
    "loc": [
-    124,
-    125
+    125,
+    126
    ],
    "geo": "store"
   },
@@ -11678,8 +11651,8 @@
    "collected": "2026-11-22",
    "url": "https://earthandivy.co/discounts/",
    "loc": [
-    124,
-    125
+    125,
+    126
    ],
    "geo": "store"
   },
@@ -11700,8 +11673,8 @@
    "collected": "2026-11-22",
    "url": "https://earthandivy.co/discounts/",
    "loc": [
-    124,
-    125
+    125,
+    126
    ],
    "geo": "store"
   },
@@ -11721,7 +11694,7 @@
    "collected": "2026-11-22",
    "url": "https://valleywellnessnj.com/",
    "loc": [
-    126
+    127
    ],
    "geo": "city"
   },
@@ -11741,7 +11714,7 @@
    "collected": "2026-11-22",
    "url": "https://1upabq.com/deals-/-specials",
    "loc": [
-    127
+    128
    ],
    "geo": "store"
   },
@@ -11761,7 +11734,7 @@
    "collected": "2026-11-22",
    "url": "https://1upabq.com/deals-/-specials",
    "loc": [
-    127
+    128
    ],
    "geo": "store"
   },
@@ -11781,7 +11754,7 @@
    "collected": "2026-11-22",
    "url": "https://1upabq.com/deals-/-specials",
    "loc": [
-    127
+    128
    ],
    "geo": "store"
   },
@@ -11801,7 +11774,7 @@
    "collected": "2026-11-22",
    "url": "https://1upabq.com/deals-/-specials",
    "loc": [
-    127
+    128
    ],
    "geo": "store"
   },
@@ -11821,7 +11794,7 @@
    "collected": "2026-11-22",
    "url": "https://1upabq.com/deals-/-specials",
    "loc": [
-    127
+    128
    ],
    "geo": "store"
   },
@@ -11841,7 +11814,7 @@
    "collected": "2026-11-22",
    "url": "https://1upabq.com/deals-/-specials",
    "loc": [
-    127
+    128
    ],
    "geo": "store"
   },
@@ -11861,7 +11834,7 @@
    "collected": "2026-11-22",
    "url": "https://1upabq.com/deals-/-specials",
    "loc": [
-    127
+    128
    ],
    "geo": "store"
   },
@@ -11881,7 +11854,7 @@
    "collected": "2026-11-22",
    "url": "https://1upabq.com/deals-/-specials",
    "loc": [
-    127
+    128
    ],
    "geo": "store"
   },
@@ -11901,7 +11874,7 @@
    "collected": "2026-11-22",
    "url": "https://planet13.com/deals",
    "loc": [
-    128
+    129
    ],
    "geo": "store"
   },
@@ -11921,7 +11894,7 @@
    "collected": "2026-11-22",
    "url": "https://planet13.com/deals",
    "loc": [
-    128
+    129
    ],
    "geo": "store"
   },
@@ -11941,7 +11914,7 @@
    "collected": "2026-11-22",
    "url": "https://planet13.com/deals",
    "loc": [
-    128
+    129
    ],
    "geo": "store"
   },
@@ -11961,7 +11934,7 @@
    "collected": "2026-11-22",
    "url": "https://planet13.com/deals",
    "loc": [
-    128
+    129
    ],
    "geo": "store"
   },
@@ -11981,7 +11954,7 @@
    "collected": "2026-11-22",
    "url": "https://planet13.com/deals",
    "loc": [
-    128
+    129
    ],
    "geo": "store"
   },
@@ -12001,7 +11974,7 @@
    "collected": "2026-11-22",
    "url": "https://planet13.com/deals",
    "loc": [
-    128
+    129
    ],
    "geo": "store"
   },
@@ -12021,7 +11994,7 @@
    "collected": "2026-11-22",
    "url": "https://planet13.com/deals",
    "loc": [
-    128
+    129
    ],
    "geo": "store"
   },
@@ -12041,7 +12014,7 @@
    "collected": "2026-11-22",
    "url": "https://planet13.com/deals",
    "loc": [
-    128
+    129
    ],
    "geo": "store"
   },
@@ -12061,7 +12034,7 @@
    "collected": "2026-11-22",
    "url": "https://planet13.com/deals",
    "loc": [
-    128
+    129
    ],
    "geo": "store"
   },
@@ -12073,7 +12046,7 @@
     "Las Vegas"
    ],
    "state": "NV",
-   "deal": "2 for $50 Stiiizy Infused Preroll Multipacks",
+   "deal": "2 for $45.5g Live Rosin (Khalifa Kush) *Khalifa Kush",
    "valid": "",
    "until": "",
    "kind": "limited",
@@ -12081,9 +12054,209 @@
    "collected": "2026-11-22",
    "url": "https://planet13.com/deals",
    "loc": [
-    128
+    129
    ],
    "geo": "store"
+  },
+  {
+   "chain": "Inyo",
+   "store": "Inyo Fine Cannabis",
+   "city": "Las Vegas",
+   "cities": [
+    "Las Vegas"
+   ],
+   "state": "NV",
+   "deal": "$10 Prerolls Select 1G Prerolls",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://inyolasvegas.com/deals",
+   "loc": [
+    130
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "Inyo",
+   "store": "Inyo Fine Cannabis",
+   "city": "Las Vegas",
+   "cities": [
+    "Las Vegas"
+   ],
+   "state": "NV",
+   "deal": "5 for $35 Select 1G Prerolls",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://inyolasvegas.com/deals",
+   "loc": [
+    130
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "Inyo",
+   "store": "Inyo Fine Cannabis",
+   "city": "Las Vegas",
+   "cities": [
+    "Las Vegas"
+   ],
+   "state": "NV",
+   "deal": "$10 Prerolls Stiiizy 1G Prerolls",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://inyolasvegas.com/deals",
+   "loc": [
+    130
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "Inyo",
+   "store": "Inyo Fine Cannabis",
+   "city": "Las Vegas",
+   "cities": [
+    "Las Vegas"
+   ],
+   "state": "NV",
+   "deal": "6 for $45 Stiiizy 1G Prerolls",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://inyolasvegas.com/deals",
+   "loc": [
+    130
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "Inyo",
+   "store": "Inyo Fine Cannabis",
+   "city": "Las Vegas",
+   "cities": [
+    "Las Vegas"
+   ],
+   "state": "NV",
+   "deal": "$40/EA or 2/$70 Stiiizy 40\u2019S 4-PACK BLUNTS",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://inyolasvegas.com/deals",
+   "loc": [
+    130
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "Inyo",
+   "store": "Inyo Fine Cannabis",
+   "city": "Las Vegas",
+   "cities": [
+    "Las Vegas"
+   ],
+   "state": "NV",
+   "deal": "3 for $25 Stiiizy 1G Prerolls",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://inyolasvegas.com/deals",
+   "loc": [
+    130
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "Inyo",
+   "store": "Inyo Fine Cannabis",
+   "city": "Las Vegas",
+   "cities": [
+    "Las Vegas"
+   ],
+   "state": "NV",
+   "deal": "10 for $60 Stiiizy 1G Prerolls",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://inyolasvegas.com/deals",
+   "loc": [
+    130
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "Inyo",
+   "store": "Inyo Fine Cannabis",
+   "city": "Las Vegas",
+   "cities": [
+    "Las Vegas"
+   ],
+   "state": "NV",
+   "deal": "$35/EA or 2/$60 Stiiizy 40\u2019S 4-PACK Prerolls",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://inyolasvegas.com/deals",
+   "loc": [
+    130
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "Inyo",
+   "store": "Inyo Fine Cannabis",
+   "city": "Las Vegas",
+   "cities": [
+    "Las Vegas"
+   ],
+   "state": "NV",
+   "deal": "$25/EA or 2/$40 AMA 1G Concentrate",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://inyolasvegas.com/deals",
+   "loc": [
+    130
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "Inyo",
+   "store": "Inyo Fine Cannabis",
+   "city": "Las Vegas",
+   "cities": [
+    "Las Vegas"
+   ],
+   "state": "NV",
+   "deal": "4/$40 or 6/$54 SIPS Drinks",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://inyolasvegas.com/deals",
+   "loc": [
+    130
+   ],
+   "geo": "city"
   },
   {
    "chain": "Green Genius",
@@ -12101,7 +12274,7 @@
    "collected": "2026-11-22",
    "url": "https://greengeniusnyc.com/deals/",
    "loc": [
-    129
+    131
    ],
    "geo": "store"
   },
@@ -12121,7 +12294,7 @@
    "collected": "2026-11-22",
    "url": "https://greengeniusnyc.com/deals/",
    "loc": [
-    129
+    131
    ],
    "geo": "store"
   },
@@ -12141,7 +12314,7 @@
    "collected": "2026-11-22",
    "url": "https://greengeniusnyc.com/deals/",
    "loc": [
-    129
+    131
    ],
    "geo": "store"
   },
@@ -12161,7 +12334,7 @@
    "collected": "2026-11-22",
    "url": "https://greengeniusnyc.com/deals/",
    "loc": [
-    129
+    131
    ],
    "geo": "store"
   },
@@ -12181,7 +12354,7 @@
    "collected": "2026-11-22",
    "url": "https://greengeniusnyc.com/deals/",
    "loc": [
-    129
+    131
    ],
    "geo": "store"
   },
@@ -12201,7 +12374,7 @@
    "collected": "2026-11-22",
    "url": "https://greengeniusnyc.com/deals/",
    "loc": [
-    129
+    131
    ],
    "geo": "store"
   },
@@ -12221,7 +12394,7 @@
    "collected": "2026-11-22",
    "url": "https://greengeniusnyc.com/deals/",
    "loc": [
-    129
+    131
    ],
    "geo": "store"
   },
@@ -12241,7 +12414,7 @@
    "collected": "2026-11-22",
    "url": "https://greengeniusnyc.com/deals/",
    "loc": [
-    129
+    131
    ],
    "geo": "store"
   },
@@ -12261,7 +12434,7 @@
    "collected": "2026-11-22",
    "url": "https://hwcannabis.co/deals/broadway/",
    "loc": [
-    130
+    132
    ],
    "geo": "city"
   },
@@ -12281,7 +12454,7 @@
    "collected": "2026-11-22",
    "url": "https://hwcannabis.co/deals/broadway/",
    "loc": [
-    130
+    132
    ],
    "geo": "city"
   },
@@ -12301,7 +12474,7 @@
    "collected": "2026-11-22",
    "url": "https://hwcannabis.co/deals/broadway/",
    "loc": [
-    130
+    132
    ],
    "geo": "city"
   },
@@ -12319,12 +12492,12 @@
    "collected": "2026-11-22",
    "url": "https://ohio.greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    131,
-    132,
     133,
     134,
     135,
-    136
+    136,
+    137,
+    138
    ],
    "geo": "store"
   },
@@ -12342,12 +12515,12 @@
    "collected": "2026-11-22",
    "url": "https://ohio.greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    131,
-    132,
     133,
     134,
     135,
-    136
+    136,
+    137,
+    138
    ],
    "geo": "store"
   },
@@ -12365,12 +12538,12 @@
    "collected": "2026-11-22",
    "url": "https://ohio.greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    131,
-    132,
     133,
     134,
     135,
-    136
+    136,
+    137,
+    138
    ],
    "geo": "store"
   },
@@ -12388,12 +12561,12 @@
    "collected": "2026-11-22",
    "url": "https://ohio.greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    131,
-    132,
     133,
     134,
     135,
-    136
+    136,
+    137,
+    138
    ],
    "geo": "store"
   },
@@ -12411,12 +12584,12 @@
    "collected": "2026-11-22",
    "url": "https://ohio.greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    131,
-    132,
     133,
     134,
     135,
-    136
+    136,
+    137,
+    138
    ],
    "geo": "store"
   },
@@ -12434,12 +12607,12 @@
    "collected": "2026-11-22",
    "url": "https://ohio.greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    131,
-    132,
     133,
     134,
     135,
-    136
+    136,
+    137,
+    138
    ],
    "geo": "store"
   },
@@ -12457,12 +12630,12 @@
    "collected": "2026-11-22",
    "url": "https://ohio.greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    131,
-    132,
     133,
     134,
     135,
-    136
+    136,
+    137,
+    138
    ],
    "geo": "store"
   },
@@ -12480,12 +12653,12 @@
    "collected": "2026-11-22",
    "url": "https://ohio.greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    131,
-    132,
     133,
     134,
     135,
-    136
+    136,
+    137,
+    138
    ],
    "geo": "store"
   },
@@ -12503,12 +12676,12 @@
    "collected": "2026-11-22",
    "url": "https://ohio.greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    131,
-    132,
     133,
     134,
     135,
-    136
+    136,
+    137,
+    138
    ],
    "geo": "store"
   },
@@ -12526,12 +12699,12 @@
    "collected": "2026-11-22",
    "url": "https://ohio.greenlightdispensary.com/greenlight-marijuana-specials/",
    "loc": [
-    131,
-    132,
     133,
     134,
     135,
-    136
+    136,
+    137,
+    138
    ],
    "geo": "store"
   },
@@ -12553,9 +12726,9 @@
    "collected": "2026-11-22",
    "url": "https://pureohiowellness.com/",
    "loc": [
-    137,
-    138,
-    139
+    139,
+    140,
+    141
    ],
    "geo": "store"
   },
@@ -12577,9 +12750,9 @@
    "collected": "2026-11-22",
    "url": "https://pureohiowellness.com/",
    "loc": [
-    137,
-    138,
-    139
+    139,
+    140,
+    141
    ],
    "geo": "store"
   },
@@ -12601,9 +12774,9 @@
    "collected": "2026-11-22",
    "url": "https://pureohiowellness.com/",
    "loc": [
-    137,
-    138,
-    139
+    139,
+    140,
+    141
    ],
    "geo": "store"
   },
@@ -12617,7 +12790,7 @@
     "Tallmadge"
    ],
    "state": "OH",
-   "deal": "30% Off Edibles!",
+   "deal": "Get 30% off all Later Days & Kynd!",
    "valid": "",
    "until": "",
    "kind": "limited",
@@ -12625,9 +12798,81 @@
    "collected": "2026-11-22",
    "url": "https://pureohiowellness.com/",
    "loc": [
-    137,
-    138,
-    139
+    139,
+    140,
+    141
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Pure Ohio Wellness",
+   "store": "Pure Ohio Wellness",
+   "city": "Dayton \u00b7 London \u00b7 Tallmadge",
+   "cities": [
+    "Dayton",
+    "London",
+    "Tallmadge"
+   ],
+   "state": "OH",
+   "deal": "30% Off, Gron Edibles!",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://pureohiowellness.com/",
+   "loc": [
+    139,
+    140,
+    141
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Pure Ohio Wellness",
+   "store": "Pure Ohio Wellness",
+   "city": "Dayton \u00b7 London \u00b7 Tallmadge",
+   "cities": [
+    "Dayton",
+    "London",
+    "Tallmadge"
+   ],
+   "state": "OH",
+   "deal": "30% off Cresco products!",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://pureohiowellness.com/",
+   "loc": [
+    139,
+    140,
+    141
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Pure Ohio Wellness",
+   "store": "Pure Ohio Wellness",
+   "city": "Dayton \u00b7 London \u00b7 Tallmadge",
+   "cities": [
+    "Dayton",
+    "London",
+    "Tallmadge"
+   ],
+   "state": "OH",
+   "deal": "Find Wellspring Fields products 30% Off!",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://pureohiowellness.com/",
+   "loc": [
+    139,
+    140,
+    141
    ],
    "geo": "store"
   },
@@ -12647,8 +12892,8 @@
    "collected": "2026-11-22",
    "url": "https://bridgecitycollective.com/deals",
    "loc": [
-    140,
-    141
+    142,
+    143
    ],
    "geo": "store"
   },
@@ -12668,8 +12913,8 @@
    "collected": "2026-11-22",
    "url": "https://bridgecitycollective.com/deals",
    "loc": [
-    140,
-    141
+    142,
+    143
    ],
    "geo": "store"
   },
@@ -12689,8 +12934,8 @@
    "collected": "2026-11-22",
    "url": "https://bridgecitycollective.com/deals",
    "loc": [
-    140,
-    141
+    142,
+    143
    ],
    "geo": "store"
   },
@@ -12710,8 +12955,8 @@
    "collected": "2026-11-22",
    "url": "https://bridgecitycollective.com/deals",
    "loc": [
-    140,
-    141
+    142,
+    143
    ],
    "geo": "store"
   },
@@ -12731,8 +12976,8 @@
    "collected": "2026-11-22",
    "url": "https://bridgecitycollective.com/deals",
    "loc": [
-    140,
-    141
+    142,
+    143
    ],
    "geo": "store"
   },
@@ -12752,8 +12997,8 @@
    "collected": "2026-11-22",
    "url": "https://bridgecitycollective.com/deals",
    "loc": [
-    140,
-    141
+    142,
+    143
    ],
    "geo": "store"
   },
@@ -12773,8 +13018,8 @@
    "collected": "2026-11-22",
    "url": "https://bridgecitycollective.com/deals",
    "loc": [
-    140,
-    141
+    142,
+    143
    ],
    "geo": "store"
   },
@@ -12794,8 +13039,8 @@
    "collected": "2026-11-22",
    "url": "https://bridgecitycollective.com/deals",
    "loc": [
-    140,
-    141
+    142,
+    143
    ],
    "geo": "store"
   },
@@ -12815,8 +13060,8 @@
    "collected": "2026-11-22",
    "url": "https://bridgecitycollective.com/deals",
    "loc": [
-    140,
-    141
+    142,
+    143
    ],
    "geo": "store"
   },
@@ -12836,8 +13081,308 @@
    "collected": "2026-11-22",
    "url": "https://bridgecitycollective.com/deals",
    "loc": [
-    140,
-    141
+    142,
+    143
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Vytal Options",
+   "store": "Vytal Options",
+   "city": "Harrisburg \u00b7 Kennett Square \u00b7 State College \u00b7 Lancaster \u00b7 Lansdale \u00b7 Fogelsville",
+   "cities": [
+    "Harrisburg",
+    "Kennett Square",
+    "State College",
+    "Lancaster",
+    "Lansdale",
+    "Fogelsville"
+   ],
+   "state": "PA",
+   "deal": "\ud83d\udc7b50% OFF | mood by Vytal Halloween cartridges (while supplies last)",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://vytaloptions.com/weekly-deals/",
+   "loc": [
+    144,
+    145,
+    146,
+    147,
+    148,
+    149
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Vytal Options",
+   "store": "Vytal Options",
+   "city": "Harrisburg \u00b7 Kennett Square \u00b7 State College \u00b7 Lancaster \u00b7 Lansdale \u00b7 Fogelsville",
+   "cities": [
+    "Harrisburg",
+    "Kennett Square",
+    "State College",
+    "Lancaster",
+    "Lansdale",
+    "Fogelsville"
+   ],
+   "state": "PA",
+   "deal": "\ud83c\udf0e25% OFF | CannaSphere, purchase 2 or more (while supplies last)",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://vytaloptions.com/weekly-deals/",
+   "loc": [
+    144,
+    145,
+    146,
+    147,
+    148,
+    149
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Vytal Options",
+   "store": "Vytal Options",
+   "city": "Harrisburg \u00b7 Kennett Square \u00b7 State College \u00b7 Lancaster \u00b7 Lansdale \u00b7 Fogelsville",
+   "cities": [
+    "Harrisburg",
+    "Kennett Square",
+    "State College",
+    "Lancaster",
+    "Lansdale",
+    "Fogelsville"
+   ],
+   "state": "PA",
+   "deal": "\ud83d\udc7d2 FOR $100 | Strane Reserve 14g flower (select strains: Super Gremlin & Gas Smack, while supplies last)",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://vytaloptions.com/weekly-deals/",
+   "loc": [
+    144,
+    145,
+    146,
+    147,
+    148,
+    149
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Vytal Options",
+   "store": "Vytal Options",
+   "city": "Harrisburg \u00b7 Kennett Square \u00b7 State College \u00b7 Lancaster \u00b7 Lansdale \u00b7 Fogelsville",
+   "cities": [
+    "Harrisburg",
+    "Kennett Square",
+    "State College",
+    "Lancaster",
+    "Lansdale",
+    "Fogelsville"
+   ],
+   "state": "PA",
+   "deal": "\ud83c\udf4f2 FOR $100 | Good Green 14g flower (while supplies last)",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://vytaloptions.com/weekly-deals/",
+   "loc": [
+    144,
+    145,
+    146,
+    147,
+    148,
+    149
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Vytal Options",
+   "store": "Vytal Options",
+   "city": "Harrisburg \u00b7 Kennett Square \u00b7 State College \u00b7 Lancaster \u00b7 Lansdale \u00b7 Fogelsville",
+   "cities": [
+    "Harrisburg",
+    "Kennett Square",
+    "State College",
+    "Lancaster",
+    "Lansdale",
+    "Fogelsville"
+   ],
+   "state": "PA",
+   "deal": "\ud83d\udce6 2 FOR $100 | Mix & match ANY Stash 14g flower",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://vytaloptions.com/weekly-deals/",
+   "loc": [
+    144,
+    145,
+    146,
+    147,
+    148,
+    149
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Vytal Options",
+   "store": "Vytal Options",
+   "city": "Harrisburg \u00b7 Kennett Square \u00b7 State College \u00b7 Lancaster \u00b7 Lansdale \u00b7 Fogelsville",
+   "cities": [
+    "Harrisburg",
+    "Kennett Square",
+    "State College",
+    "Lancaster",
+    "Lansdale",
+    "Fogelsville"
+   ],
+   "state": "PA",
+   "deal": "\u272860% OFF | Kynd, Revel, HAZE, Seven Hills, Origyn, & Later Days products (while supplies last)",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://vytaloptions.com/weekly-deals/",
+   "loc": [
+    144,
+    145,
+    146,
+    147,
+    148,
+    149
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Vytal Options",
+   "store": "Vytal Options",
+   "city": "Harrisburg \u00b7 Kennett Square \u00b7 State College \u00b7 Lancaster \u00b7 Lansdale \u00b7 Fogelsville",
+   "cities": [
+    "Harrisburg",
+    "Kennett Square",
+    "State College",
+    "Lancaster",
+    "Lansdale",
+    "Fogelsville"
+   ],
+   "state": "PA",
+   "deal": "\ud83d\udca560% OFF | Whole Plants, Gratitude Gardens, Cheetah, Shaka, Springtime, & Zone products (while supplies last)",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://vytaloptions.com/weekly-deals/",
+   "loc": [
+    144,
+    145,
+    146,
+    147,
+    148,
+    149
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Vytal Options",
+   "store": "Vytal Options",
+   "city": "Harrisburg \u00b7 Kennett Square \u00b7 State College \u00b7 Lancaster \u00b7 Lansdale \u00b7 Fogelsville",
+   "cities": [
+    "Harrisburg",
+    "Kennett Square",
+    "State College",
+    "Lancaster",
+    "Lansdale",
+    "Fogelsville"
+   ],
+   "state": "PA",
+   "deal": "\u26a160% OFF | Jushi, The Bank, The Lab, & SeCHe products (while supplies last)",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://vytaloptions.com/weekly-deals/",
+   "loc": [
+    144,
+    145,
+    146,
+    147,
+    148,
+    149
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Vytal Options",
+   "store": "Vytal Options",
+   "city": "Harrisburg \u00b7 Kennett Square \u00b7 State College \u00b7 Lancaster \u00b7 Lansdale \u00b7 Fogelsville",
+   "cities": [
+    "Harrisburg",
+    "Kennett Square",
+    "State College",
+    "Lancaster",
+    "Lansdale",
+    "Fogelsville"
+   ],
+   "state": "PA",
+   "deal": "\ud83d\udd2535% OFF | Cresco, Supply, Good News, Wonder, & Remedi products (excludes Floracal, Bloom, Good News extra strength troches & Supply infused ground flower)",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://vytaloptions.com/weekly-deals/",
+   "loc": [
+    144,
+    145,
+    146,
+    147,
+    148,
+    149
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Vytal Options",
+   "store": "Vytal Options",
+   "city": "Harrisburg \u00b7 Kennett Square \u00b7 State College \u00b7 Lancaster \u00b7 Lansdale \u00b7 Fogelsville",
+   "cities": [
+    "Harrisburg",
+    "Kennett Square",
+    "State College",
+    "Lancaster",
+    "Lansdale",
+    "Fogelsville"
+   ],
+   "state": "PA",
+   "deal": "\ud83c\udf4335% OFF | Grassroots, Find, Select, Curaleaf, & JAMS products",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://vytaloptions.com/weekly-deals/",
+   "loc": [
+    144,
+    145,
+    146,
+    147,
+    148,
+    149
    ],
    "geo": "store"
   },
@@ -12857,7 +13402,7 @@
    "collected": "2026-11-22",
    "url": "https://slatercenter.com/",
    "loc": [
-    142
+    150
    ],
    "geo": "store"
   },
@@ -12877,7 +13422,7 @@
    "collected": "2026-11-22",
    "url": "https://shop.cannacaresf.com/stores/cannacare-sioux-falls",
    "loc": [
-    143
+    151
    ],
    "geo": "city"
   },
@@ -12897,7 +13442,7 @@
    "collected": "2026-11-22",
    "url": "https://shop.cannacaresf.com/stores/cannacare-sioux-falls",
    "loc": [
-    143
+    151
    ],
    "geo": "city"
   },
@@ -12917,7 +13462,7 @@
    "collected": "2026-11-22",
    "url": "https://shop.cannacaresf.com/stores/cannacare-sioux-falls",
    "loc": [
-    143
+    151
    ],
    "geo": "city"
   },
@@ -12937,7 +13482,7 @@
    "collected": "2026-11-22",
    "url": "https://shop.cannacaresf.com/stores/cannacare-sioux-falls",
    "loc": [
-    143
+    151
    ],
    "geo": "city"
   },
@@ -12957,7 +13502,7 @@
    "collected": "2026-11-22",
    "url": "https://shop.cannacaresf.com/stores/cannacare-sioux-falls",
    "loc": [
-    143
+    151
    ],
    "geo": "city"
   },
@@ -12977,7 +13522,7 @@
    "collected": "2026-11-22",
    "url": "https://shop.cannacaresf.com/stores/cannacare-sioux-falls",
    "loc": [
-    143
+    151
    ],
    "geo": "city"
   },
@@ -12997,7 +13542,7 @@
    "collected": "2026-11-22",
    "url": "https://shop.cannacaresf.com/stores/cannacare-sioux-falls",
    "loc": [
-    143
+    151
    ],
    "geo": "city"
   },
@@ -13017,7 +13562,7 @@
    "collected": "2026-11-22",
    "url": "https://shop.cannacaresf.com/stores/cannacare-sioux-falls",
    "loc": [
-    143
+    151
    ],
    "geo": "city"
   },
@@ -13037,7 +13582,7 @@
    "collected": "2026-11-22",
    "url": "https://shop.cannacaresf.com/stores/cannacare-sioux-falls",
    "loc": [
-    143
+    151
    ],
    "geo": "city"
   },
@@ -13057,7 +13602,7 @@
    "collected": "2026-11-22",
    "url": "https://shop.cannacaresf.com/stores/cannacare-sioux-falls",
    "loc": [
-    143
+    151
    ],
    "geo": "city"
   },
@@ -13077,7 +13622,7 @@
    "collected": "2026-11-22",
    "url": "https://zenleafdispensaries.com/locations/norfolk/menu/medical/menu",
    "loc": [
-    144
+    152
    ],
    "geo": "store"
   },
@@ -13097,7 +13642,7 @@
    "collected": "2026-11-22",
    "url": "https://zenleafdispensaries.com/locations/norfolk/menu/medical/menu",
    "loc": [
-    144
+    152
    ],
    "geo": "store"
   },
@@ -13117,7 +13662,7 @@
    "collected": "2026-11-22",
    "url": "https://zenleafdispensaries.com/locations/norfolk/menu/medical/menu",
    "loc": [
-    144
+    152
    ],
    "geo": "store"
   },
@@ -13137,7 +13682,7 @@
    "collected": "2026-11-22",
    "url": "https://www.craftcannabis.com/deals",
    "loc": [
-    145
+    153
    ],
    "geo": "store"
   },
@@ -13157,7 +13702,91 @@
    "collected": "2026-11-22",
    "url": "https://www.craftcannabis.com/deals",
    "loc": [
-    145
+    153
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Kaleafa",
+   "store": "Kaleafa (Washington stores)",
+   "city": "Aberdeen \u00b7 Des Moines \u00b7 Oak Harbor",
+   "cities": [
+    "Aberdeen",
+    "Des Moines",
+    "Oak Harbor"
+   ],
+   "state": "WA",
+   "deal": "20% Off The Entire Store!",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://kaleafa.com/deals",
+   "loc": [
+    154,
+    155,
+    156
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Kaleafa",
+   "store": "Kaleafa Aberdeen",
+   "city": "Aberdeen",
+   "cities": [
+    "Aberdeen"
+   ],
+   "state": "WA",
+   "deal": "MONDAY: 30% off Flower // 30% off Full Spec",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://kaleafa.com/deals",
+   "loc": [
+    154
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Kaleafa",
+   "store": "Kaleafa Aberdeen",
+   "city": "Aberdeen",
+   "cities": [
+    "Aberdeen"
+   ],
+   "state": "WA",
+   "deal": "FRIDAY: 30% off Paraphernalia // 30% off Dank Czar & Mama J's",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://kaleafa.com/deals",
+   "loc": [
+    154
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Kaleafa",
+   "store": "Kaleafa Aberdeen",
+   "city": "Aberdeen",
+   "cities": [
+    "Aberdeen"
+   ],
+   "state": "WA",
+   "deal": "SUNDAY: 30% off Storewide",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-22",
+   "url": "https://kaleafa.com/deals",
+   "loc": [
+    154
    ],
    "geo": "store"
   },
@@ -13177,7 +13806,7 @@
    "collected": "2026-11-22",
    "url": "https://marymart.com/deals",
    "loc": [
-    146
+    157
    ],
    "geo": "store"
   },
@@ -13197,7 +13826,7 @@
    "collected": "2026-11-22",
    "url": "https://marymart.com/deals",
    "loc": [
-    146
+    157
    ],
    "geo": "store"
   },
@@ -13217,7 +13846,7 @@
    "collected": "2026-11-22",
    "url": "https://marymart.com/deals",
    "loc": [
-    146
+    157
    ],
    "geo": "store"
   },
@@ -13237,7 +13866,7 @@
    "collected": "2026-11-22",
    "url": "https://marymart.com/deals",
    "loc": [
-    146
+    157
    ],
    "geo": "store"
   },
@@ -13257,7 +13886,7 @@
    "collected": "2026-11-22",
    "url": "https://marymart.com/deals",
    "loc": [
-    146
+    157
    ],
    "geo": "store"
   },
@@ -13277,7 +13906,7 @@
    "collected": "2026-11-22",
    "url": "https://marymart.com/deals",
    "loc": [
-    146
+    157
    ],
    "geo": "store"
   },
@@ -13297,7 +13926,7 @@
    "collected": "2026-11-22",
    "url": "https://marymart.com/deals",
    "loc": [
-    146
+    157
    ],
    "geo": "store"
   },
@@ -13317,7 +13946,7 @@
    "collected": "2026-11-22",
    "url": "https://marymart.com/deals",
    "loc": [
-    146
+    157
    ],
    "geo": "store"
   },
@@ -13337,7 +13966,7 @@
    "collected": "2026-11-22",
    "url": "https://marymart.com/deals",
    "loc": [
-    146
+    157
    ],
    "geo": "store"
   },
@@ -13357,7 +13986,7 @@
    "collected": "2026-11-22",
    "url": "https://marymart.com/deals",
    "loc": [
-    146
+    157
    ],
    "geo": "store"
   },
@@ -13377,8 +14006,8 @@
    "collected": "2026-11-22",
    "url": "https://findclearchoice.com/tacoma-deals/",
    "loc": [
-    147,
-    148
+    158,
+    159
    ],
    "geo": "store"
   },
@@ -13398,8 +14027,8 @@
    "collected": "2026-11-22",
    "url": "https://findclearchoice.com/tacoma-deals/",
    "loc": [
-    147,
-    148
+    158,
+    159
    ],
    "geo": "store"
   },
@@ -13419,8 +14048,8 @@
    "collected": "2026-11-22",
    "url": "https://findclearchoice.com/tacoma-deals/",
    "loc": [
-    147,
-    148
+    158,
+    159
    ],
    "geo": "store"
   },
@@ -13440,8 +14069,8 @@
    "collected": "2026-11-22",
    "url": "https://findclearchoice.com/tacoma-deals/",
    "loc": [
-    147,
-    148
+    158,
+    159
    ],
    "geo": "store"
   },
@@ -13461,8 +14090,8 @@
    "collected": "2026-11-22",
    "url": "https://findclearchoice.com/tacoma-deals/",
    "loc": [
-    147,
-    148
+    158,
+    159
    ],
    "geo": "store"
   },
@@ -13482,8 +14111,8 @@
    "collected": "2026-11-22",
    "url": "https://findclearchoice.com/tacoma-deals/",
    "loc": [
-    147,
-    148
+    158,
+    159
    ],
    "geo": "store"
   },
@@ -13503,7 +14132,7 @@
    "collected": "2026-11-22",
    "url": "https://zenleafdispensaries.com/locations/morgantown/medical-menu/menu/discounts",
    "loc": [
-    149
+    160
    ],
    "geo": "store"
   },
@@ -13523,7 +14152,7 @@
    "collected": "2026-11-22",
    "url": "https://zenleafdispensaries.com/locations/morgantown/medical-menu/menu/discounts",
    "loc": [
-    149
+    160
    ],
    "geo": "store"
   },
@@ -13543,7 +14172,7 @@
    "collected": "2026-11-22",
    "url": "https://zenleafdispensaries.com/locations/morgantown/medical-menu/menu/discounts",
    "loc": [
-    149
+    160
    ],
    "geo": "store"
   },
@@ -13563,7 +14192,7 @@
    "collected": "2026-11-22",
    "url": "https://zenleafdispensaries.com/locations/morgantown/medical-menu/menu/discounts",
    "loc": [
-    149
+    160
    ],
    "geo": "store"
   },
@@ -13583,7 +14212,7 @@
    "collected": "2026-11-22",
    "url": "https://zenleafdispensaries.com/locations/morgantown/medical-menu/menu/discounts",
    "loc": [
-    149
+    160
    ],
    "geo": "store"
   },
@@ -13603,7 +14232,7 @@
    "collected": "2026-11-22",
    "url": "https://zenleafdispensaries.com/locations/morgantown/medical-menu/menu/discounts",
    "loc": [
-    149
+    160
    ],
    "geo": "store"
   }
@@ -13658,6 +14287,16 @@
    "lat": 41.79,
    "lon": -86.74,
    "precision": "city"
+  },
+  {
+   "chain": "Exclusive",
+   "name": "Exclusive Ann Arbor",
+   "addr": "3820 Varsity Dr",
+   "city": "Ann Arbor",
+   "state": "MI",
+   "lat": 42.2322,
+   "lon": -83.72596,
+   "precision": "address"
   },
   {
    "chain": "Stay Lifted",
@@ -14000,16 +14639,6 @@
    "precision": "address"
   },
   {
-   "chain": "The Superior Dispensary",
-   "name": "The Superior Dispensary Phoenix",
-   "addr": "211 South 57th Drive",
-   "city": "Phoenix",
-   "state": "AZ",
-   "lat": 33.44609,
-   "lon": -112.18305,
-   "precision": "address"
-  },
-  {
    "chain": "YiLo",
    "name": "YiLo Phoenix",
    "addr": "2841 W Thunderbird Rd Ste B",
@@ -14147,6 +14776,16 @@
    "state": "CA",
    "lat": 34.17817,
    "lon": -119.19517,
+   "precision": "address"
+  },
+  {
+   "chain": "Gemme Verdi",
+   "name": "Gemme Verdi San Francisco",
+   "addr": "899 Columbus Ave",
+   "city": "San Francisco",
+   "state": "CA",
+   "lat": 37.80266,
+   "lon": -122.41371,
    "precision": "address"
   },
   {
@@ -14900,6 +15539,16 @@
    "precision": "address"
   },
   {
+   "chain": "Inyo",
+   "name": "Inyo Fine Cannabis",
+   "addr": "",
+   "city": "Las Vegas",
+   "state": "NV",
+   "lat": 36.23,
+   "lon": -115.26,
+   "precision": "city"
+  },
+  {
    "chain": "Green Genius",
    "name": "Green Genius New York",
    "addr": "214 3rd Ave",
@@ -15030,6 +15679,66 @@
    "precision": "address"
   },
   {
+   "chain": "Vytal Options",
+   "name": "Vytal Options Harrisburg",
+   "addr": "4711 Queen Ave, #101",
+   "city": "Harrisburg",
+   "state": "PA",
+   "lat": 40.30226,
+   "lon": -76.81009,
+   "precision": "address"
+  },
+  {
+   "chain": "Vytal Options",
+   "name": "Vytal Options Kennett Square",
+   "addr": "716 W Baltimore Pike",
+   "city": "Kennett Square",
+   "state": "PA",
+   "lat": 39.84498,
+   "lon": -75.72398,
+   "precision": "address"
+  },
+  {
+   "chain": "Vytal Options",
+   "name": "Vytal Options State College",
+   "addr": "1653 N Atherton St",
+   "city": "State College",
+   "state": "PA",
+   "lat": 40.80815,
+   "lon": -77.89651,
+   "precision": "address"
+  },
+  {
+   "chain": "Vytal Options",
+   "name": "Vytal Options Lancaster",
+   "addr": "39 E Chestnut St",
+   "city": "Lancaster",
+   "state": "PA",
+   "lat": 40.04133,
+   "lon": -76.30488,
+   "precision": "address"
+  },
+  {
+   "chain": "Vytal Options",
+   "name": "Vytal Options Lansdale",
+   "addr": "850 S Valley Forge Rd, Ste P",
+   "city": "Lansdale",
+   "state": "PA",
+   "lat": 40.24025,
+   "lon": -75.30354,
+   "precision": "address"
+  },
+  {
+   "chain": "Vytal Options",
+   "name": "Vytal Options Fogelsville",
+   "addr": "7720 Main St",
+   "city": "Fogelsville",
+   "state": "PA",
+   "lat": 40.58414,
+   "lon": -75.62807,
+   "precision": "address"
+  },
+  {
    "chain": "Slater Center",
    "name": "Slater Center Providence",
    "addr": "1 Corliss Street",
@@ -15068,6 +15777,36 @@
    "lat": 45.68469,
    "lon": -122.60214,
    "precision": "address"
+  },
+  {
+   "chain": "Kaleafa",
+   "name": "Kaleafa Aberdeen",
+   "addr": "401 S. Boone St. #8508",
+   "city": "Aberdeen",
+   "state": "WA",
+   "lat": 46.96649,
+   "lon": -123.80247,
+   "precision": "address"
+  },
+  {
+   "chain": "Kaleafa",
+   "name": "Kaleafa Des Moines",
+   "addr": "",
+   "city": "Des Moines",
+   "state": "WA",
+   "lat": 47.39,
+   "lon": -122.32,
+   "precision": "city"
+  },
+  {
+   "chain": "Kaleafa",
+   "name": "Kaleafa Oak Harbor",
+   "addr": "",
+   "city": "Oak Harbor",
+   "state": "WA",
+   "lat": 48.29,
+   "lon": -122.63,
+   "precision": "city"
   },
   {
    "chain": "Mary Mart",
@@ -15111,11 +15850,11 @@
   }
  ],
  "geo": {
-  "locations": 150,
-  "store_points": 124,
-  "city_points": 26,
-  "deals_store": 427,
-  "deals_city": 104,
+  "locations": 161,
+  "store_points": 132,
+  "city_points": 29,
+  "deals_store": 442,
+  "deals_city": 114,
   "deals_statewide": 40
  },
  "geo_note": "Store addresses come from each chain's own site and were geocoded with the US Census Bureau geocoder (OpenStreetMap Nominatim as a fallback). 'city' locations are the city centre where the exact store address isn't known. Distances are worked out in your browser; your location stays on your device.",
@@ -15127,5 +15866,5 @@
   "note": "Paid placement slot (not live). Sponsored deals will always be labeled and kept separate from, never ranked above, the free list."
  },
  "disclaimer": "21+ only. For adults 21 and older (or registered medical patients). Deals change often and can differ by store: always confirm with the store before you go. Listed from each dispensary's own public page; not an endorsement.",
- "generated": "2026-11-22 13:42 EST"
+ "generated": "2026-11-22 18:47 EST"
 }
