@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-22 00:44 EST",
+ "generated": "2026-11-22 01:44 EST",
  "window": {
   "start": "2026-10-23",
   "end": "2026-11-22",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "d5de303a9464a3d9",
+ "fingerprint": "176f0a2511f2c19b",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -73,6 +73,7 @@
    "42994510",
    "43005927",
    "43047344",
+   "43066616",
    "42968604",
    "42956528",
    "42966277",
@@ -139,7 +140,7 @@
  },
  "pubmed_counts": {
   "sleep": 27,
-  "pain": 34,
+  "pain": 35,
   "anxiety": 51,
   "mood": 58,
   "ptsd": 15,
@@ -156,7 +157,7 @@
  },
  "newest": {
   "sleep": "2026-11-20",
-  "pain": "2026-11-20",
+  "pain": "2026-11-22",
   "anxiety": "2026-11-12",
   "mood": "2026-11-18",
   "ptsd": "2026-11-20",
@@ -172,6 +173,26 @@
   "ibd": null
  },
  "papers": [
+  {
+   "pmid": "43066616",
+   "title": "Radial Pressure Wave Therapy Attenuates Chronic Postoperative Pain via Spinal CB1/CB2 Receptors and Is Associated With Increased 2-AG Levels.",
+   "journal": "Clin Exp Pharmacol Physiol",
+   "date": "2026-11-22",
+   "pubdate": "2026-11-01",
+   "first_author": "Malta et al.",
+   "doi": "10.1111/1440-1681.70178",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "Together, these findings demonstrate that RPWT transiently attenuates mechanical hypersensitivity in a mouse model of chronic postoperative pain through mechanisms requiring spinal CB1 and CB2 receptor signalling.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43066616/",
+   "conditions": [
+    "pain"
+   ]
+  },
   {
    "pmid": "43060641",
    "title": "Associations Between Cannabis Use and Sleep Outcomes in a Sample of Pregnant Women.",
