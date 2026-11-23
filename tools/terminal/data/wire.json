@@ -38,14 +38,14 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "unavailable",
-   "error": "not well-formed (invalid token): line 1, column 119"
+   "status": "ok",
+   "items": 12
   },
   {
    "source": "Google News: intl cannabis",
    "url": "https://news.google.com/rss/search?q=cannabis+(Germany+OR+Canada+OR+Thailand+OR+Europe+OR+Australia+OR+UK)+when:7d&hl=en-US&gl=US&ceid=US:en",
-   "status": "unavailable",
-   "error": "not well-formed (invalid token): line 1, column 252"
+   "status": "ok",
+   "items": 12
   },
   {
    "source": "Cannabis Health News (UK)",
@@ -297,6 +297,17 @@
  "news_us": [
   {
    "source": "Marijuana Moment",
+   "title": "Congress Must Act To Make Sure Cannabis Rescheduling Actually Improves Patients\u2019 Access Instead Of Undermining It (Op-Ed)",
+   "link": "https://www.marijuanamoment.net/congress-must-act-to-make-sure-cannabis-rescheduling-actually-improves-patients-access-instead-of-undermining-it-op-ed/",
+   "summary": "\u201cFederal registration is meaningful only if patients can obtain medicine through a functioning, authorized supply chain.\u201d By Steph Sherer, Americans for Safe Access When Attorney General Todd Blanche issued a cannabis rescheduling order in April, Americans for",
+   "ts": 1795438091.0,
+   "date": "2026-11-23 07:48",
+   "category": "US federal",
+   "is_law": true,
+   "states": []
+  },
+  {
+   "source": "Marijuana Moment",
    "title": "Texas governor wants to put cannabis on the ballot (Newsletter: November 23, 2026)",
    "link": "https://www.marijuanamoment.net/texas-governor-wants-to-put-cannabis-on-the-ballot-newsletter-november-23-2026/",
    "summary": "Another marijuana biz lawsuit vs DEA; TX congressman: Voters punished GOP over THC; SC lawmaker pushes medical cannabis access; Police & legalization Subscribe to receive Marijuana Moment\u2019s newsletter in your inbox every weekday morning. It\u2019s the best way to m",
@@ -368,17 +379,6 @@
    "states": []
   },
   {
-   "source": "Marijuana Moment",
-   "title": "Cannabis companies sue DEA over rescheduling requirements (Newsletter: November 20, 2026)",
-   "link": "https://www.marijuanamoment.net/cannabis-companies-sue-dea-over-rescheduling-requirements-newsletter-november-20-2026/",
-   "summary": "Senate panel\u2019s new marijuana & psychedelics stances; IN secretary of state: Allow cannabis on ballot; Philadelphia officials: PA should legalize Subscribe to receive Marijuana Moment\u2019s newsletter in your inbox every weekday morning. It\u2019s the best way to make s",
-   "ts": 1795173175.0,
-   "date": "2026-11-20 06:12",
-   "category": "US federal",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "MJBizDaily",
    "title": "What cannabis shoppers want \u2013 and what retailers might be missing",
    "link": "https://mjbizdaily.com/news/what-cannabis-shoppers-want-and-what-retailers-might-be-missing/619042/",
@@ -404,17 +404,30 @@
   },
   {
    "source": "MJBizDaily",
-   "title": "Bipartisan bill seeks to replace hemp THC ban with federal regulations",
-   "link": "https://mjbizdaily.com/news/bipartisan-bill-seeks-to-replace-hemp-thc-ban-with-federal-regulations/619241/",
-   "summary": "The Hemp Guardrails Act would ban delta-8, delta-10 and THC-O products and keep qualifying CBD products on the market. Bipartisan bill seeks to replace hemp THC ban with federal regulations is a post from: MJBizDaily: Financial, Legal & Cannabusiness news for ",
-   "ts": 1795042650.0,
-   "date": "2026-11-18 17:57",
-   "category": "US federal",
-   "is_law": true,
-   "states": []
+   "title": "Georgia medical cannabis shipped via US mails as market continues rapid growth",
+   "link": "https://mjbizdaily.com/news/georgia-medical-cannabis-shipped-via-us-mails-as-market-continues-rapid-growth/619224/",
+   "summary": "Medical cannabis shipments via the USPS are happening in Georgia. Georgia medical cannabis shipped via US mails as market continues rapid growth is a post from: MJBizDaily: Financial, Legal & Cannabusiness news for cannabis entrepreneurs",
+   "ts": 1794961002.0,
+   "date": "2026-11-17 19:16",
+   "category": "US states",
+   "is_law": false,
+   "states": [
+    "Georgia"
+   ]
   }
  ],
  "news_intl": [
+  {
+   "source": "Google News: intl cannabis",
+   "title": "More Canadians are using cannabis daily than are drinking alcohol daily: study - CBC",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZ2pYYkRYeWJFYUlOeDhjUUNldGxfUkh0dV9yMVExZXRoUmJSS2ROUkVxTjhlUG1lV1c1NjNpRzJqT0s4UmhmWk5OaGc4WXdQMHJGOFFfUGt4VEQ0Mi1GVFA1b0hPT2ZzYmVrWEpMQk04NWliLWlXeTRZVDQzeDNyVEpXVTRNczFQdjlxNXBB?oc=5",
+   "summary": "",
+   "ts": 1795424400.0,
+   "date": "2026-11-23 04:00",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
   {
    "source": "Marijuana Moment",
    "title": "New Mexico Officials Move To Ease Medical Psilocybin Rules Following Pushback",
@@ -495,19 +508,8 @@
    "category": "International",
    "is_law": false,
    "states": []
-  },
-  {
-   "source": "Cannabis Health News (UK)",
-   "title": "Cannabis Health Symposium London: Complete Session Guide \u2014 Who\u2019s Speaking and Why it Matters",
-   "link": "https://cannabishealthnews.co.uk/2026/11/19/cannabis-health-symposium-london-complete-session-guide/",
-   "summary": "Everything you need to know about the Cannabis Health Symposium in London next week.",
-   "ts": 1795090891.0,
-   "date": "2026-11-19 07:21",
-   "category": "International",
-   "is_law": false,
-   "states": []
   }
  ],
- "news_health_total": 22,
- "generated": "2026-11-23 07:44 EST"
+ "news_health_total": 19,
+ "generated": "2026-11-23 08:45 EST"
 }
