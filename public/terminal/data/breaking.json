@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-23T10:38:20-0500",
- "generated_ts": 1795448301,
+ "generated": "2026-11-23T10:58:15-0500",
+ "generated_ts": 1795449495,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "unavailable",
-   "items": 0
+   "status": "ok",
+   "items": 12
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,21 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "wisconsindemocratsandrepublicanstalkbipartisancooperationonm",
+   "title": "Wisconsin Democrats And Republicans Talk Bipartisan Cooperation On Marijuana Legalization",
+   "link": "https://www.marijuanamoment.net/wisconsin-democrats-and-republicans-talk-bipartisan-cooperation-on-marijuana-legalization/",
+   "source": "Marijuana Moment",
+   "category": "US federal",
+   "is_law": true,
+   "states": [
+    "Wisconsin"
+   ],
+   "published": "2026-11-23T10:57:14-0500",
+   "published_ts": 1795449434.0,
+   "first_seen": "2026-11-23T10:58:15-0500",
+   "first_seen_ts": 1795449495
+  },
   {
    "id": "notesfromascalinghealthcarebusinessclinicalresponsibility",
    "title": "Notes from a Scaling Healthcare Business: Clinical Responsibility",
