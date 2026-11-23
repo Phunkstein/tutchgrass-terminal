@@ -3,7 +3,7 @@
   "start": "2025-05-22",
   "end": "2026-11-22"
  },
- "generated": "2026-11-22 00:45 EST",
+ "generated": "2026-11-22 20:45 EST",
  "source": "NCBI PubMed E-utilities",
  "conditions": {
   "sleep": {
@@ -175,6 +175,16 @@
      "conclusion": "Physiotherapy techniques are effective in reducing pain in women with endometriosis, especially when applied locally."
     },
     {
+     "pmid": "42878220",
+     "title": "Mantra Meditation for Pain Conditions: A Systematic Review and Meta-Analysis.",
+     "journal": "Pain Res Manag",
+     "date": "2026-01-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Coitinho Biurra et al.",
+     "doi": "10.1155/prm/7796640",
+     "conclusion": "Further high-quality randomised controlled trials are required to determine the efficacy of MM in pain management. Current evidence suggests MM may improve selected psychological outcomes, including mental QoL, negative mood states and depression in chronic pain. These findings indicate that MM has potential as an adjuvant intervention within holistic, interdisciplinary approaches to pain management."
+    },
+    {
      "pmid": "41363159",
      "title": "Manual therapy with exercise for neck pain.",
      "journal": "Cochrane Database Syst Rev",
@@ -183,16 +193,6 @@
      "first_author": "Chacko et al.",
      "doi": "10.1002/14651858.CD011225.pub2",
      "conclusion": "The combination of manual therapy with exercise may result in a moderate increase in function but no reduction in pain when compared with placebo for primarily chronic neck pain. A large reduction in pain and moderate increase in function may result when comparing manual therapy with exercise with no treatment. Only non-serious adverse events were reported. Other outcomes had varied certainty. Data on participant-rep"
-    },
-    {
-     "pmid": "41177363",
-     "title": "Efficacy and safety of buccal acupuncture for pain management: A systematic review and meta-analysis.",
-     "journal": "Complement Ther Med",
-     "date": "2025-10-31",
-     "tag": "META-ANALYSIS",
-     "first_author": "Guo et al.",
-     "doi": "10.1016/j.ctim.2025.103297",
-     "conclusion": "BA demonstrates certain advantages over conventional acupuncture and pharmacotherapy in pain management, with benefits including a lower incidence of adverse reactions and superior pain relief. It may serve as an adjunctive therapy to conventional analgesic treatments in clinical practice. However, further validation through higher-quality, large-sample clinical RCTs is required."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (\"chronic pain\"[tiab] OR \"neuropathic pain\"[tiab] OR neuropath*[tiab] OR \"pain\"[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/22:2026/11/22[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -206,7 +206,7 @@
     "anxiety"
    ],
    "cann_matches": 65,
-   "hol_matches": 426,
+   "hol_matches": 427,
    "cannabinoid": [
     {
      "pmid": "42494831",
@@ -219,14 +219,14 @@
      "conclusion": "The current literature on the putative anxiolytic effects of CBD is constrained by methodological variability and limited statistical power. Future studies should employ standardized paradigms, improve reporting practices, and include more diverse and adequately powered samples to clarify the neural correlates of CBD-related effects on stress and anxiety."
     },
     {
-     "pmid": "41447562",
-     "title": "The Prevalence of Cannabis Use Disorder in Individuals with Anxiety or Related Disorders: A Systematic Review.",
-     "journal": "J Dual Diagn",
-     "date": "2025-12-25",
-     "tag": "SR",
-     "first_author": "Coles et al.",
-     "doi": "10.1080/15504263.2025.2606019",
-     "conclusion": "Preliminary evidence suggests that individuals with ARDs may be susceptible to developing comorbid CUD. Current comorbidity rates may be higher among veterans with PTSD compared to adults in general population samples; however, due to the limited number of eligible studies and methodological heterogeneity, further research is needed to confirm this difference. Given the recent global increase in cannabis legalization"
+     "pmid": "41864773",
+     "title": "Physical Activity Level Moderates Cannabis-Associated Reductions in Negative Affect in Anxious Individuals.",
+     "journal": "Clin Ther",
+     "date": "2026-03-20",
+     "tag": "RCT",
+     "first_author": "Lisano et al.",
+     "doi": "10.1016/j.clinthera.2026.02.007",
+     "conclusion": "This study is the first to describe cannabis associated reductions in negative affect being moderated by physical activity. These findings suggest that this association is dependent upon the cannabinoid concentration in the cannabis product being used."
     },
     {
      "pmid": "41752306",
@@ -280,7 +280,7 @@
    "goal": "mood",
    "background": [],
    "cann_matches": 49,
-   "hol_matches": 553,
+   "hol_matches": 554,
    "cannabinoid": [
     {
      "pmid": "41793962",
@@ -627,6 +627,16 @@
    ],
    "holistic": [
     {
+     "pmid": "43012770",
+     "title": "Efficacy of ginger on chemotherapy-induced nausea and vomiting in breast cancer: A meta-analysis.",
+     "journal": "Medicine (Baltimore)",
+     "date": "2026-10-30",
+     "tag": "META-ANALYSIS",
+     "first_author": "Tian et al.",
+     "doi": "10.1097/MD.0000000000051071",
+     "conclusion": "Ginger appears to be safe for BC patients; however, its inhibitory effect on CINV remains inconclusive. Due to the limited number of available studies, accurate conclusions regarding the effectiveness of ginger in managing CINV in BC patients cannot be drawn. More rigorously designed, large-sample, high-quality randomized controlled trials are needed to validate the specific effects of ginger in this patient populati"
+    },
+    {
      "pmid": "40862831",
      "title": "High Outcome-Reporting Bias in Randomized-Controlled Trials of Acupuncture for Cancer Chemotherapy-Induced Nausea and Vomiting: A Systematic Review and Meta-Epidemiological Study.",
      "journal": "Curr Oncol",
@@ -645,16 +655,6 @@
      "first_author": "Kim et al.",
      "doi": "10.3390/medicina61071287",
      "conclusion": "Clinicians can anticipate optimal benefits from at least five days of treatment, particularly using acupoints PC6, ST36, CV12, LI4, LR3, and ST25. Further high-quality studies are needed to establish standardized treatment regimens and explore its comprehensive effects on NV."
-    },
-    {
-     "pmid": "42772702",
-     "title": "Acupuncture for chemotherapy-induced nausea and vomiting: An umbrella review of systematic reviews.",
-     "journal": "Complement Ther Med",
-     "date": "2026-09-23",
-     "tag": "SR",
-     "first_author": "Cao et al.",
-     "doi": "10.1016/j.ctim.2026.103438",
-     "conclusion": "Invasive acupuncture may be beneficial for delayed CINV. However, the certainty of the current evidence is limited by the methodological limitations of the available studies. Further large-scale, rigorously designed RCTs with adequate sample sizes are needed to confirm its efficacy for CINV."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (nausea[tiab] OR vomiting[tiab] OR emesis[tiab] OR antiemetic[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/22:2026/11/22[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -732,7 +732,7 @@
    "goal": "focus",
    "background": [],
    "cann_matches": 22,
-   "hol_matches": 405,
+   "hol_matches": 406,
    "cannabinoid": [
     {
      "pmid": "42704497",
@@ -787,24 +787,14 @@
    ],
    "holistic": [
     {
-     "pmid": "42810280",
-     "title": "Effectiveness of cognitive behavioral therapy for postpartum depression: a systematic review and meta\u2011analysis.",
-     "journal": "Psychiatry Res",
-     "date": "2026-09-25",
+     "pmid": "41664658",
+     "title": "Effects of exercise interventions on memory in depression: a three-level meta-analysis.",
+     "journal": "PeerJ",
+     "date": "2026-02-05",
      "tag": "META-ANALYSIS",
-     "first_author": "Wang et al.",
-     "doi": "10.1016/j.psychres.2026.117471",
-     "conclusion": "Findings from this meta-analysis point to potential benefits of CBT for core PPD-related symptoms and secondary outcomes. The certainty of evidence ranges from very low to moderate. Future research should prioritize high\u2011quality, long\u2011term trials of non\u2011specialist\u2011delivered digital CBT models to develop accessible perinatal mental\u2011health services."
-    },
-    {
-     "pmid": "41666965",
-     "title": "Effects of different dietary restriction regimens on cognitive function and pathological markers in Alzheimer's disease mouse models: A systematic review and meta-analysis.",
-     "journal": "Neurosci Biobehav Rev",
-     "date": "2026-02-08",
-     "tag": "META-ANALYSIS",
-     "first_author": "Sun et al.",
-     "doi": "10.1016/j.neubiorev.2026.106601",
-     "conclusion": "The fasting-mimicking diet showed the largest effect size. From a geroscience perspective, these findings support a precision nutrition framework for Alzheimer's disease, suggesting that future interventions should be tailored to individual pathological profile, inflammatory status, and impaired cognitive subdomains to optimize therapeutic efficacy."
+     "first_author": "Zhu et al.",
+     "doi": "10.7717/peerj.20750",
+     "conclusion": "Exercise may confer a small improvement in verbal memory among adults with depression, while no clear effect was observed for visual memory. However, further randomized controlled trials are needed to explore the impact of exercise on memory in patients with depression. Research plan was registered in international system evaluation platform PROSPERO (https://www.crd.york.ac.uk/PROSPERO/) (CRD42023473393)."
     },
     {
      "pmid": "41483880",
@@ -815,6 +805,16 @@
      "first_author": "Liu et al.",
      "doi": "10.1016/j.jad.2025.121107",
      "conclusion": "CBT demonstrates efficacy for core and associated symptoms of adult ADHD, with the optimal intervention strategy varying meaningfully by outcome and modality. A symptom-guided, stepped-care approach is supported: group-based CBT formats are preferable for targeting core symptoms and executive function, while individual CBT better addresses emotional dysregulation and quality of life. The combination of CBT with medic"
+    },
+    {
+     "pmid": "41315985",
+     "title": "Effects of emotion-oriented interventions on cognitive, behavioral, and psychological symptoms in people with dementia: a systematic review and meta-analysis of randomized controlled trials.",
+     "journal": "BMC Geriatr",
+     "date": "2025-11-28",
+     "tag": "META-ANALYSIS",
+     "first_author": "Duarte-D\u00edaz et al.",
+     "doi": "10.1186/s12877-025-06804-w",
+     "conclusion": "These interventions address not only the cognitive deficits but also the emotional and psychological well-being of people with dementia, suggesting a holistic approach to dementia care. The findings highlight the need for further research to optimize these interventions, evaluate their long-term benefits, and establish guidelines for their implementation in diverse clinical settings."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (cognition[ti] OR cognitive[ti] OR memory[ti] OR attention[ti] OR ADHD[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/22:2026/11/22[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -873,14 +873,14 @@
      "conclusion": "Additionally, aerobic exercise and resistance training are recommended for their proven effectiveness in reducing pain, enhancing physical function, and providing long-term benefits. Emerging therapies, such as transcranial magnetic stimulation (TMS) and nutritional supplements, show promise but require further research due to low-certainty evidence."
     },
     {
-     "pmid": "42264849",
-     "title": "A systematic review and meta-analysis on the benefits of resistance exercise in patients with fibromyalgia.",
-     "journal": "J Bodyw Mov Ther",
-     "date": "2026-05-14",
+     "pmid": "42551246",
+     "title": "Effects of resistance exercise dose on pain intensity and disease impact among individuals with fibromyalgia: a systematic review with meta-analysis.",
+     "journal": "Ann Phys Rehabil Med",
+     "date": "2026-08-04",
      "tag": "META-ANALYSIS",
-     "first_author": "Rech et al.",
-     "doi": "10.1016/j.jbmt.2026.05.010",
-     "conclusion": "Resistance-based exercise programs provide modest but meaningful benefits for managing multiple symptoms of fibromyalgia. A low-dose, moderate-intensity protocol may be sufficient to yield improvements and should be recommended as part of a multidisciplinary treatment approach."
+     "first_author": "Casanova-Rodr\u00edguez et al.",
+     "doi": "10.1016/j.rehab.2026.102155",
+     "conclusion": "Resistance exercise may be an effective strategy for reducing pain intensity and the impact of the disease in fibromyalgia when appropriately prescribed and progressed over time. Exercise programs should be individualized, emphasizing personal preferences to maximize long-term adherence and benefits."
     },
     {
      "pmid": "41906320",
@@ -949,6 +949,16 @@
    ],
    "holistic": [
     {
+     "pmid": "42507062",
+     "title": "Exercise and Pain in Multiple Sclerosis, Parkinson's Disease, Alzheimer's Disease, and Stroke: A Systematic Review and Meta-analysis.",
+     "journal": "Sports Med",
+     "date": "2026-07-27",
+     "tag": "META-ANALYSIS",
+     "first_author": "Baccaro et al.",
+     "doi": "10.1007/s40279-026-02490-9",
+     "conclusion": "This review provides strong evidence that exercise alleviates pain in people with MS and stroke and emphasizes its potential as a non-pharmacological analgesic strategy for managing pain in neurodegenerative diseases. More high-quality studies are needed, particularly in PD and AD."
+    },
+    {
      "pmid": "42118325",
      "title": "Oral antipyretics for fatigue alleviation and exercise enhancement in adults with multiple sclerosis: a systematic review and meta-analysis.",
      "journal": "Neurol Sci",
@@ -957,16 +967,6 @@
      "first_author": "Ibrahim et al.",
      "doi": "10.1007/s10072-026-09090-5",
      "conclusion": "Aspirin and acetaminophen may offer benefits in alleviating fatigue, enhancing thermoregulation, and improving exercise endurance in MS patients. These findings suggest that nurses should consider the potential role of aspirin in symptom management, with further research needed to confirm efficacy and safety."
-    },
-    {
-     "pmid": "42084487",
-     "title": "Effectiveness of vestibular physical therapy on balance and dizziness in people with multiple sclerosis: A systematic review and meta-analysis.",
-     "journal": "J Vestib Res",
-     "date": "2026-05-05",
-     "tag": "META-ANALYSIS",
-     "first_author": "Piatti et al.",
-     "doi": "10.1177/09574271261444952",
-     "conclusion": "The meta-analysis showed significant efficacy of VPT against control using the DHI as outcome measure (Hedges' g = 1.451, CI [0.190, 2.713]).In conclusion, VPT is a safe approach in reducing dizziness-related disability of PwMS. Further studies are needed to refine assessment methods and explore individualized approaches."
     },
     {
      "pmid": "41612786",
@@ -1101,16 +1101,6 @@
    ],
    "holistic": [
     {
-     "pmid": "42895005",
-     "title": "Resting-state fMRI correlates of acupuncture in migraine: a coordinate-based meta-analysis.",
-     "journal": "J Oral Facial Pain Headache",
-     "date": "2026-09-12",
-     "tag": "META-ANALYSIS",
-     "first_author": "Liu et al.",
-     "doi": "10.22514/jofph.2026.058",
-     "conclusion": "Acupuncture may be associated with altered spontaneous neural activity in regions of the executive control network, default mode network, and multisensory processing regions. These findings provide preliminary neuroimaging evidence for the central correlates of acupuncture in migraine. However, they should be interpreted cautiously given the limited evidence base, methodological heterogeneity, and exploratory nature "
-    },
-    {
      "pmid": "42177613",
      "title": "Utility of Acupuncture Therapy for Adult Chronic Daily Headache Prophylaxis: A Systematic Review and Meta-Analysis.",
      "journal": "Med Sci Monit",
@@ -1119,6 +1109,16 @@
      "first_author": "Nie et al.",
      "doi": "10.12659/MSM.952359",
      "conclusion": "Subgroup analyses revealed consistent efficacy across various CDH subtypes, including chronic migraine and chronic tension-type headache, treatment durations (4-12 weeks), and intervention strategies (acupuncture alone or combined with medication), indicating broad clinical applicability. CONCLUSIONS Acupuncture yields clinically meaningful, sustained improvements in CDH, supporting its role as an effective routine a"
+    },
+    {
+     "pmid": "41465923",
+     "title": "The relationship between lifestyle behaviors and tension-type headache and migraine: A systematic review and meta-analysis.",
+     "journal": "Medicine (Baltimore)",
+     "date": "2025-12-26",
+     "tag": "META-ANALYSIS",
+     "first_author": "Gao et al.",
+     "doi": "10.1097/MD.0000000000046868",
+     "conclusion": "Consistent with these findings, the present study concludes that no significant association was observed between lifestyle behaviors (alcohol consumption, BMI, smoking, physical activity) and the risk of migraine or TTH. Further studies are warranted to explore this association. However, only 7 studies were included in this analysis, so the conclusion requires further verification through additional high-quality rese"
     },
     {
      "pmid": "41421052",
