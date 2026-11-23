@@ -1,7 +1,7 @@
 {
  "product": "Cannabis Agent Terminal",
- "generated": "2026-11-23 13:45:33 EST",
- "generated_ts": 1795459533.2008781,
+ "generated": "2026-11-23 14:45:02 EST",
+ "generated_ts": 1795463102.9595144,
  "disclaimer": "Research summary, not medical advice. Talk to a doctor.",
  "agents": {
   "scientist": {
@@ -10,8 +10,8 @@
    "badge": "LIVE",
    "rule": "cite only retrieved PubMed records",
    "status": "12 conditions \u00b7 54 citations \u00b7 0 unverified dropped",
-   "ts": 1795459533.2008781,
-   "secs": 6.2
+   "ts": 1795463102.9595144,
+   "secs": 8.4
   },
   "lab": {
    "name": "Terpene & Cannabinoid Lab",
@@ -19,7 +19,7 @@
    "badge": "UPDATE",
    "rule": "health angle + grow/preserve angle",
    "status": "today: THCV (tetrahydrocannabivarin) \u00b7 8 compounds in rotation",
-   "ts": 1795459533.2008781,
+   "ts": 1795463102.9595144,
    "secs": 0.0
   },
   "holistic": {
@@ -28,7 +28,7 @@
    "badge": "UPDATE",
    "rule": "guidelines, SRs, RCTs only",
    "status": "12 conditions \u00b7 6 interaction/caution notes",
-   "ts": 1795459533.2008781,
+   "ts": 1795463102.9595144,
    "secs": 0.0
   },
   "wire": {
@@ -37,16 +37,16 @@
    "badge": "LIVE",
    "rule": "US + international; health filter",
    "status": "7 medical + 10 cultivation papers (14 d) \u00b7 18 news \u00b7 8/9 sources ok",
-   "ts": 1795459533.2008781,
-   "secs": 35.7
+   "ts": 1795463102.9595144,
+   "secs": 5.7
   },
   "social": {
    "name": "Social",
    "job": "what people ask on X",
    "badge": "READ",
    "rule": "read-only; nothing posted",
-   "status": "16 posts \u00b7 0 X News stories \u00b7 cached 2026-11-23 13:44 EST",
-   "ts": 1795459533.2008781
+   "status": "16 posts \u00b7 0 X News stories \u00b7 cached 2026-11-23 14:44 EST",
+   "ts": 1795463102.9595144
   },
   "grower": {
    "name": "Grower Notes",
@@ -54,13 +54,13 @@
    "badge": "UPDATE",
    "rule": "studies cited; anecdotal flagged",
    "status": "8 studied factors \u00b7 1 anecdotal practice flagged",
-   "ts": 1795459533.2008781,
+   "ts": 1795463102.9595144,
    "secs": 0.0
   }
  },
  "scientist": {
   "agent": "scientist",
-  "generated": "2026-11-23 13:44 EST",
+  "generated": "2026-11-23 14:44 EST",
   "disclaimer": "Research summary, not medical advice. Talk to a doctor.",
   "strain_note": "Strain names are typical examples only; the same name can test very differently by grower and batch. Go by the lab COA (THC, CBD, minor cannabinoids, terpenes), not the name.",
   "method": "PubMed E-utilities esearch+efetch (queries in cache/pubmed.json) plus National Academies 2017 report; syntheses written from retrieved abstracts only.",
@@ -1014,7 +1014,7 @@
  },
  "lab": {
   "agent": "lab",
-  "generated": "2026-11-23 13:44 EST",
+  "generated": "2026-11-23 14:44 EST",
   "spotlight_id": "thcv",
   "spotlight_rule": "rotates daily (day-of-year mod 8)",
   "compounds": [
@@ -2705,8 +2705,8 @@
    {
     "source": "Marijuana Moment",
     "url": "https://www.marijuanamoment.net/feed/",
-    "status": "unavailable",
-    "error": "curl 28"
+    "status": "ok",
+    "items": 10
    },
    {
     "source": "MJBizDaily",
@@ -2729,8 +2729,8 @@
    {
     "source": "StratCann (Canada)",
     "url": "https://stratcann.com/feed/",
-    "status": "ok",
-    "items": 12
+    "status": "unavailable",
+    "error": "not well-formed (invalid token): line 1, column 119"
    },
    {
     "source": "Google News: intl cannabis",
@@ -2974,6 +2974,68 @@
   ],
   "news_us": [
    {
+    "source": "Marijuana Moment",
+    "title": "Missouri Officials Seek Feedback On Marijuana Research Obstacles As New License Program Launches",
+    "link": "https://www.marijuanamoment.net/missouri-officials-seek-feedback-on-marijuana-research-obstacles-as-new-license-program-launches/",
+    "summary": "\u201cWe\u2019re all very interested in any research on cannabis and safety or its impact on the human body.\u201d By Rebecca Rivas, Missouri Independent Missouri cannabis regulators are asking prospective marijuana research license applicants what they want to study and wha",
+    "ts": 1795459638.0,
+    "date": "2026-11-23 13:47",
+    "category": "US states",
+    "is_law": true,
+    "states": [
+     "Missouri",
+     "New"
+    ]
+   },
+   {
+    "source": "Marijuana Moment",
+    "title": "Wisconsin Democrats And Republicans Talk Bipartisan Cooperation On Marijuana Legalization",
+    "link": "https://www.marijuanamoment.net/wisconsin-democrats-and-republicans-talk-bipartisan-cooperation-on-marijuana-legalization/",
+    "summary": "While efforts to legalize marijuana for medical or recreational use in Wisconsin have stalled for years under longtime Republican control of the legislature, leaders of the incoming Democratic majorities in the Senate and Assembly following this month\u2019s electi",
+    "ts": 1795449434.0,
+    "date": "2026-11-23 10:57",
+    "category": "US federal",
+    "is_law": true,
+    "states": [
+     "Wisconsin"
+    ]
+   },
+   {
+    "source": "Marijuana Moment",
+    "title": "DoorDash Lobbies Congress To Keep Hemp THC Products Legal So It Can Keep Delivering Them",
+    "link": "https://www.marijuanamoment.net/doordash-lobbies-congress-to-keep-hemp-thc-products-legal-so-it-can-keep-delivering-them/",
+    "summary": "The on-demand delivery platform DoorDash is pushing Congress to keep hemp THC products federally legal. Last year, the company announced it was expanding its offerings in select states to include delivery of hemp-derived THC and CBD products, including gummies",
+    "ts": 1795446819.0,
+    "date": "2026-11-23 10:13",
+    "category": "US federal",
+    "is_law": false,
+    "states": []
+   },
+   {
+    "source": "Marijuana Moment",
+    "title": "Congress Must Act To Make Sure Cannabis Rescheduling Actually Improves Patients\u2019 Access Instead Of Undermining It (Op-Ed)",
+    "link": "https://www.marijuanamoment.net/congress-must-act-to-make-sure-cannabis-rescheduling-actually-improves-patients-access-instead-of-undermining-it-op-ed/",
+    "summary": "\u201cFederal registration is meaningful only if patients can obtain medicine through a functioning, authorized supply chain.\u201d By Steph Sherer, Americans for Safe Access When Attorney General Todd Blanche issued a cannabis rescheduling order in April, Americans for",
+    "ts": 1795438091.0,
+    "date": "2026-11-23 07:48",
+    "category": "US federal",
+    "is_law": true,
+    "states": []
+   },
+   {
+    "source": "Marijuana Moment",
+    "title": "Texas governor wants to put cannabis on the ballot (Newsletter: November 23, 2026)",
+    "link": "https://www.marijuanamoment.net/texas-governor-wants-to-put-cannabis-on-the-ballot-newsletter-november-23-2026/",
+    "summary": "Another marijuana biz lawsuit vs DEA; TX congressman: Voters punished GOP over THC; SC lawmaker pushes medical cannabis access; Police & legalization Subscribe to receive Marijuana Moment\u2019s newsletter in your inbox every weekday morning. It\u2019s the best way to m",
+    "ts": 1795432330.0,
+    "date": "2026-11-23 06:12",
+    "category": "US federal",
+    "is_law": true,
+    "states": [
+     "Texas"
+    ]
+   },
+   {
     "source": "MJBizDaily",
     "title": "The smell test: Class-action lawsuit against California cannabis cultivator goes to trial",
     "link": "https://mjbizdaily.com/news/the-smell-test-class-action-lawsuit-against-california-cannabis-cultivator-goes-to-trial/619306/",
@@ -3031,79 +3093,9 @@
     "category": "Industry",
     "is_law": false,
     "states": []
-   },
-   {
-    "source": "MJBizDaily",
-    "title": "Nebraska medical marijuana market launch date still unknown more than two years after legalization",
-    "link": "https://mjbizdaily.com/news/nebraska-medical-marijuana-market-launch-date-still-unknown-more-than-two-years-after-legalization/619254/",
-    "summary": "Moving the launch of Nebraska medical cannabis sales forward is now in the hands of state officials whom advocates believe want to thwart the process. Nebraska medical marijuana market launch date still unknown more than two years after legalization is a post ",
-    "ts": 1795043595.0,
-    "date": "2026-11-18 18:13",
-    "category": "US states",
-    "is_law": true,
-    "states": [
-     "Nebraska"
-    ]
-   },
-   {
-    "source": "MJBizDaily",
-    "title": "Bipartisan bill seeks to replace hemp THC ban with federal regulations",
-    "link": "https://mjbizdaily.com/news/bipartisan-bill-seeks-to-replace-hemp-thc-ban-with-federal-regulations/619241/",
-    "summary": "The Hemp Guardrails Act would ban delta-8, delta-10 and THC-O products and keep qualifying CBD products on the market. Bipartisan bill seeks to replace hemp THC ban with federal regulations is a post from: MJBizDaily: Financial, Legal & Cannabusiness news for ",
-    "ts": 1795042650.0,
-    "date": "2026-11-18 17:57",
-    "category": "US federal",
-    "is_law": true,
-    "states": []
-   },
-   {
-    "source": "MJBizDaily",
-    "title": "Georgia medical cannabis shipped via US mails as market continues rapid growth",
-    "link": "https://mjbizdaily.com/news/georgia-medical-cannabis-shipped-via-us-mails-as-market-continues-rapid-growth/619224/",
-    "summary": "Medical cannabis shipments via the USPS are happening in Georgia. Georgia medical cannabis shipped via US mails as market continues rapid growth is a post from: MJBizDaily: Financial, Legal & Cannabusiness news for cannabis entrepreneurs",
-    "ts": 1794961002.0,
-    "date": "2026-11-17 19:16",
-    "category": "US states",
-    "is_law": false,
-    "states": [
-     "Georgia"
-    ]
-   },
-   {
-    "source": "Business of Cannabis (intl)",
-    "title": "Cannabis News Today \u2014 Friday, 13 November 2026: Hemp Enforcement Spreads to the States as Auxly Posts Record Quarter",
-    "link": "https://businessofcannabis.com/cannabis-news-today-friday-13-november-2026-hemp-enforcement-spreads-to-the-states-as-auxly-posts-record-quarter/",
-    "summary": "This week, the first phase of the federal ban on intoxicating hemp took effect. In August, a provision titled \u2018Section 781 Extension\u2019 was passed, giving certain products a month\u2019s reprieve before being criminalised. Synthetic cannabinoids, defined in the bill ",
-    "ts": 1794583916.0,
-    "date": "2026-11-13 10:31",
-    "category": "US federal",
-    "is_law": true,
-    "states": []
-   },
-   {
-    "source": "MJBizDaily",
-    "title": "Report: Top Trump White House chief meddled in hemp THC ban",
-    "link": "https://mjbizdaily.com/news/report-top-trump-white-house-chief-meddled-in-hemp-thc-ban/619161/",
-    "summary": "A former advisor to Health Secretary Robert F. Kennedy Jr. accused Susie Wiles, President Trump's former chief of staff, of guiding White House policy on hemp THC. Report: Top Trump White House chief meddled in hemp THC ban is a post from: MJBizDaily: Financia",
-    "ts": 1794353100.0,
-    "date": "2026-11-10 18:25",
-    "category": "US federal",
-    "is_law": true,
-    "states": []
    }
   ],
   "news_intl": [
-   {
-    "source": "StratCann (Canada)",
-    "title": "\u201cGenerational Shift\u201d Leads to Higher Daily Cannabis Than Alcohol Rates",
-    "link": "https://stratcann.com/news/generational-shift-leads-to-higher-daily-cannabis-than-alcohol-rates/",
-    "summary": "A new study shows more people in Canada now report daily cannabis use than daily alcohol use. The post \u201cGenerational Shift\u201d Leads to Higher Daily Cannabis Than Alcohol Rates appeared first on StratCann .",
-    "ts": 1795450285.0,
-    "date": "2026-11-23 11:11",
-    "category": "International",
-    "is_law": false,
-    "states": []
-   },
    {
     "source": "Business of Cannabis (intl)",
     "title": "Notes from a Scaling Healthcare Business: Clinical Responsibility",
@@ -3111,6 +3103,17 @@
     "summary": "In the second of our three-part \u2018Notes from a Scaling Health Care Business\u2019 series, Graham Woodward, Chief Medical Officer at Releaf, takes Business of Cannabis inside what scaling a UK medical cannabis clinic from three patients to tens of thousands has requi",
     "ts": 1795447685.0,
     "date": "2026-11-23 10:28",
+    "category": "International",
+    "is_law": false,
+    "states": []
+   },
+   {
+    "source": "Google News: intl cannabis",
+    "title": "Boots is moving into medical cannabis \u2013 will pharmacies make it mainstream? - The Conversation",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQREFsZEdJX295aG5IWkt3dlViZlpjRm9ZRjV0QXRvRXl1YUNMOHNkTUdZeGg1c0VJbkFVUXdmVmJkMzZtRUhMRkd6UEtoaHZUNElFUjBzaUJ5bk9IUXJkYTFkQ25VRUhicGRrc01MdUFWMGpmV0JhaEZzcndNeVpkUGlmQXY1NWFkLUtlVUZHd2xnbTVGZEI4ZVA3QnFBTC1LTUVkeV95R1UwRDA?oc=5",
+    "summary": "",
+    "ts": 1795445907.0,
+    "date": "2026-11-23 09:58",
     "category": "International",
     "is_law": false,
     "states": []
@@ -3136,6 +3139,19 @@
     "category": "International",
     "is_law": false,
     "states": []
+   },
+   {
+    "source": "Marijuana Moment",
+    "title": "New Mexico Officials Move To Ease Medical Psilocybin Rules Following Pushback",
+    "link": "https://www.marijuanamoment.net/new-mexico-officials-move-to-ease-medical-psilocybin-rules-following-pushback/",
+    "summary": "\u201cNew Mexico is modeling how government, health experts, and community stakeholders can build something together.\u201d By Jack Gorsline, Psychedelic State(s) of America Following significant pushback from grassroots psychedelic advocates and state lawmakers alike, ",
+    "ts": 1795280026.0,
+    "date": "2026-11-21 11:53",
+    "category": "International",
+    "is_law": true,
+    "states": [
+     "New"
+    ]
    },
    {
     "source": "MJBizDaily",
@@ -3171,26 +3187,15 @@
     "category": "International",
     "is_law": true,
     "states": []
-   },
-   {
-    "source": "Business of Cannabis (intl)",
-    "title": "Bedrocan: What Went Wrong? \u2013 The Founder\u2019s Account",
-    "link": "https://businessofcannabis.com/bedrocan-what-went-wrong-the-founders-account/",
-    "summary": "This is the second in a three-part series examining the various, conflicting accounts of Bedrocan\u2019s bankruptcy declaration. The Health Minister Sophie Hermans\u2019s account, and the initial findings of its administrators, are covered in Part 1 and Part 3. Tjalling",
-    "ts": 1795107135.0,
-    "date": "2026-11-19 11:52",
-    "category": "International",
-    "is_law": true,
-    "states": []
    }
   ],
   "news_health_total": 22,
-  "generated": "2026-11-23 13:45 EST"
+  "generated": "2026-11-23 14:45 EST"
  },
  "social": {
   "agent": "social",
   "mode": "free",
-  "generated": "2026-11-23 13:44 EST",
+  "generated": "2026-11-23 14:44 EST",
   "platforms": [
    "Bluesky"
   ],
@@ -3211,9 +3216,10 @@
    "terpenes cannabis grow"
   ],
   "topic_counts": {
-   "sleep": 8,
+   "sleep": 7,
+   "migraine": 1,
    "pain": 4,
-   "anxiety": 4
+   "anxiety": 3
   },
   "posts": [
    {
@@ -3222,10 +3228,21 @@
     "handle": "collburns.bsky.social",
     "platform": "Bluesky",
     "date": "Nov 23 11:37 AM",
-    "likes": 23,
+    "likes": 28,
     "views": 0,
     "text": "This boomer uses it to sleep. Being left with Chronic insomnia, i wasnt left with many choices other than pills. I use CBN oil and gummies that have helped significantly. Who knew I would be actively involved in cannabis use more as a senior than in my teenage years\ud83e\udd37\u200d\u2640\ufe0f",
     "url": "https://bsky.app/profile/collburns.bsky.social/post/3n2ykvqihxk2u"
+   },
+   {
+    "audience": "health",
+    "topic": "migraine",
+    "handle": "bluemel2.bsky.social",
+    "platform": "Bluesky",
+    "date": "Nov 20 04:37 PM",
+    "likes": 23,
+    "views": 0,
+    "text": "Day two of a wicked migraine. Time to bring out the big guns. Wojo Donny Double, Wise Guys Happy Ending, and ProGro Candy Cartel. All three mixed together is nice. #cannabis #weed #mmj #cannabiscommunity",
+    "url": "https://bsky.app/profile/bluemel2.bsky.social/post/3n2rkargog22r"
    },
    {
     "audience": "health",
@@ -3285,6 +3302,17 @@
    {
     "audience": "health",
     "topic": "sleep",
+    "handle": "minibubbly.bsky.social",
+    "platform": "Bluesky",
+    "date": "Nov 23 11:40 AM",
+    "likes": 6,
+    "views": 0,
+    "text": "same, when I was younger, I tried meds and had too many side effects, not too fond of alcohol, so I talked to my doctor about Cannabis and they agreed it would work, if taken in small doses and he gave me a recommended amount, it helps with my insomnia",
+    "url": "https://bsky.app/profile/minibubbly.bsky.social/post/3n2yl2a7xkk2l"
+   },
+   {
+    "audience": "health",
+    "topic": "sleep",
     "handle": "omnimedical.bsky.social",
     "platform": "Bluesky",
     "date": "Nov 20 09:34 AM",
@@ -3306,17 +3334,6 @@
    },
    {
     "audience": "health",
-    "topic": "sleep",
-    "handle": "minibubbly.bsky.social",
-    "platform": "Bluesky",
-    "date": "Nov 23 11:40 AM",
-    "likes": 5,
-    "views": 0,
-    "text": "same, when I was younger, I tried meds and had too many side effects, not too fond of alcohol, so I talked to my doctor about Cannabis and they agreed it would work, if taken in small doses and he gave me a recommended amount, it helps with my insomnia",
-    "url": "https://bsky.app/profile/minibubbly.bsky.social/post/3n2yl2a7xkk2l"
-   },
-   {
-    "audience": "health",
     "topic": "sleep / pain",
     "handle": "fenbeast.bsky.social",
     "platform": "Bluesky",
@@ -3325,17 +3342,6 @@
     "views": 0,
     "text": "It\u2019s not that I won\u2019t have a large dog pressed against my body as I sleep tonight, because Holly will be more than happy to take that job now that Angus is gone. I\u2019m even expecting to sleep better since I am not listening for any sounds that suggest Angus is in pain and needs CBD or flexprofen.",
     "url": "https://bsky.app/profile/fenbeast.bsky.social/post/3n2kbilwp422f"
-   },
-   {
-    "audience": "health",
-    "topic": "sleep / anxiety",
-    "handle": "johnwilde.bsky.social",
-    "platform": "Bluesky",
-    "date": "Nov 21 10:40 PM",
-    "likes": 3,
-    "views": 0,
-    "text": "The End Times are coming! \ud83d\ude00 If congress does nothing, which is their specialty, the Delta-9 gummies that I sometimes use to help with sleep will be federally illegal on December 11. \ud83d\ude21 They also help with mood and anxiety. The alcohol lobby hates any form of cannabis, because it's competition.",
-    "url": "https://bsky.app/profile/johnwilde.bsky.social/post/3n2uoyypgv22l"
    },
    {
     "audience": "grow",
@@ -3399,256 +3405,256 @@
  },
  "feed": [
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Chronic pain / neuropathic pain",
    "reason": "moderate evidence; top pick: Low-dose THC or 1:1 THC:CBD; beta-caryophyllene-rich chemovars (6 citations, 26 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Fibromyalgia",
    "reason": "limited evidence; top pick: Balanced ~1:1 THC:CBD flower (Bediol-type) (4 citations, 3 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Multiple sclerosis spasticity",
    "reason": "strong evidence; top pick: 1:1 THC:CBD (nabiximols-type) (5 citations, 5 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Epilepsy (Dravet, Lennox-Gastaut, TSC)",
    "reason": "strong evidence; top pick: High-CBD, near-zero THC (pharmaceutical CBD) (4 citations, 10 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Insomnia",
    "reason": "limited evidence; top pick: Evening 2:3 THC:CBD oil; myrcene-forward chemovars (6 citations, 28 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Anxiety",
    "reason": "limited evidence; top pick: CBD-dominant, low THC; limonene-forward (6 citations, 40 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "scientist",
    "kind": "PICK",
    "what": "PTSD",
    "reason": "limited evidence; top pick: Balanced or CBD-leaning; nabilone-type THC for nightmares (with a doctor) (4 citations, 12 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Crohn's disease / IBD",
    "reason": "limited evidence; top pick: 4:1 CBD:THC oral oil for symptoms; caryophyllene-rich (4 citations, 2 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Migraine (acute attacks)",
    "reason": "limited evidence; top pick: ~1:2 THC:CBD vaporized flower at attack onset (2 citations, 5 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Arthritis (rheumatoid and osteoarthritis)",
    "reason": "limited evidence; top pick: 1:1 THC:CBD (nabiximols-type); topical CBD unproven in humans (4 citations, 3 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Chemotherapy-induced nausea and vomiting",
    "reason": "strong evidence; top pick: 1:1 THC:CBD low-dose capsules alongside standard antiemetics (3 citations, 2 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Appetite loss / cachexia (cancer, HIV)",
    "reason": "limited evidence; top pick: THC-dominant, low/no THCV (6 citations, 3 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "lab",
    "kind": "SPOTLIGHT",
    "what": "THCV (tetrahydrocannabivarin)",
    "reason": "daily rotation (day-of-year mod 8); evidence: preclinical; 3 citations"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "holistic",
    "kind": "CAUTION",
    "what": "CBD + warfarin (blood thinner)",
    "reason": "Case reports: starting CBD required about a 30% cut in warfarin dose to keep INR in range. Very low-quality data suggest both THC and CBD can raise INR. Get INR monitored"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "holistic",
    "kind": "CAUTION",
    "what": "CYP450 interactions",
    "reason": "THC and CBD interact with drugs using common CYP450 pathways; Penn State's free CANN-DIR checker (cann-dir.psu.edu) screens them. Interactions matter mainly above ~30 mg/"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "holistic",
    "kind": "CAUTION",
    "what": "CBD + clobazam / valproate",
    "reason": "CBD raises clobazam levels and adds sedation. With valproate it is linked to liver-enzyme rises."
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "holistic",
    "kind": "CAUTION",
    "what": "Heart risk",
    "reason": "Meta-analysis of real-world data: cannabis use associated with major adverse cardiovascular events (cohort RR 1.32). Use more than 4\u00d7/month was associated with MI history"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "holistic",
    "kind": "CAUTION",
    "what": "Cannabinoid hyperemesis",
    "reason": "Cyclic vomiting with heavy, frequent use that eases with hot showers. Stopping cannabis is the best treatment."
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "holistic",
    "kind": "CAUTION",
    "what": "Start low, go slow",
    "reason": "Sparse pharmacology data support a 'start low and go slow' approach to cannabis medicines."
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "grower",
    "kind": "FACTOR",
    "what": "Harvest timing",
    "reason": "2 horticulture citations: In 25 genotypes, 22 hit peak cannabinoid concentration between 'mostly amber' and 'fully amber' stigma (pistil) color; a"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "grower",
    "kind": "FACTOR",
    "what": "UV-B supplementation",
    "reason": "1 horticulture citations: UV-B exposure did not raise yield or THC/CBD; total terpene content fell as UV dose rose, and THC/CBD fell in one cultiv"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "grower",
    "kind": "FACTOR",
    "what": "Light spectrum",
    "reason": "3 horticulture citations: LED spectra changed cannabinoid concentrations vs HPS (one LED gave the highest CBG) without changing total cannabinoid "
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "grower",
    "kind": "FACTOR",
    "what": "Light intensity",
    "reason": "2 horticulture citations: Indoors, flower yield rose linearly with canopy light up to 1,800 \u00b5mol\u00b7m\u207b\u00b2\u00b7s\u207b\u00b9 with no change in cannabinoid potency and"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "grower",
    "kind": "FACTOR",
    "what": "Drying",
    "reason": "3 horticulture citations: Drying temperature, rate and storage all affect what survives. In a microwave-drying study across 40\u201380 \u00b0C, 50 \u00b0C best k"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "grower",
    "kind": "FACTOR",
    "what": "Curing & storage",
    "reason": "5 horticulture citations: Glass jars retained the starting volatile profile better than open trays or plastic boxes, though acid cannabinoids slow"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "grower",
    "kind": "FACTOR",
    "what": "Water, nutrients & stress",
    "reason": "4 horticulture citations: Water stress in CBD-type plants lowered CBD, raised THC under veg-stage stress and raised CBN; main terpenes stayed geno"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "grower",
    "kind": "FACTOR",
    "what": "Genetics beat everything",
    "reason": "4 horticulture citations: The THC:CBD ratio follows CBDAS genotype (predictable codominant inheritance). CBG dominance is a single recessive trait"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "grower",
    "kind": "ANECDOTAL",
    "what": "Jar humidity (grower practice)",
    "reason": "grower practice, no study retrieved: Common grower practice: cure in jars with a hygrometer, settling around 58\u201362% RH, burping when high. This is ANECDOTAL "
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "wire",
    "kind": "PAPER",
    "what": "Exploring the Association Between Cannabis Use and Male Reproductive Parameters: A Systematic Review and Meta-",
    "reason": "newest PubMed (medical); Int Braz J Urol"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "wire",
    "kind": "PAPER",
    "what": "Cannabidiol abrogates the atypical enlargement of mitochondria in Tafazzin-deficient B-lymphoblastoid cells.",
    "reason": "newest PubMed (medical); Biochem Biophys Res Commun"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "wire",
    "kind": "PAPER",
    "what": "Added value of mindfulness in a digital cannabis intervention: Three-arm randomized trial.",
    "reason": "newest PubMed (medical); Internet Interv"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "wire",
    "kind": "PAPER",
    "what": "Mercury accumulation in industrial hemp: translocation after foliar uptake and phytomanagement potential.",
    "reason": "newest PubMed (cultivation); Environ Pollut"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "wire",
    "kind": "PAPER",
    "what": "Unlocking the antioxidant potential of hemp seed proteins.",
    "reason": "newest PubMed (cultivation); FEBS Open Bio; animal/cell study"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "wire",
    "kind": "PAPER",
    "what": "CannSelect: A high-quality genotyping platform for Cannabis sativa.",
    "reason": "newest PubMed (cultivation); PLoS One"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "wire",
    "kind": "SKIP",
-   "what": "Marijuana Moment",
-   "reason": "source unavailable: curl 28"
+   "what": "StratCann (Canada)",
+   "reason": "source unavailable: not well-formed (invalid token): line 1, column 119"
   },
   {
-   "ts": "2026-11-23 13:45:33",
+   "ts": "2026-11-23 14:45:02",
    "agent": "social",
    "kind": "READ",
    "what": "X search (cached)",
-   "reason": "Bluesky public search (top posts, 7-day window, 114 read this run); topics: sleep 8, pain 4, anxiety 4"
+   "reason": "Bluesky public search (top posts, 7-day window, 114 read this run); topics: sleep 7, pain 4, anxiety 3, migraine 1"
   }
  ],
  "source_status": {
@@ -3670,8 +3676,8 @@
    {
     "source": "Marijuana Moment",
     "url": "https://www.marijuanamoment.net/feed/",
-    "status": "unavailable",
-    "error": "curl 28"
+    "status": "ok",
+    "items": 10
    },
    {
     "source": "MJBizDaily",
@@ -3694,8 +3700,8 @@
    {
     "source": "StratCann (Canada)",
     "url": "https://stratcann.com/feed/",
-    "status": "ok",
-    "items": 12
+    "status": "unavailable",
+    "error": "not well-formed (invalid token): line 1, column 119"
    },
    {
     "source": "Google News: intl cannabis",
