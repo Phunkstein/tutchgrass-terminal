@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-23T07:23:15-0500",
- "generated_ts": 1795436595,
+ "generated": "2026-11-23T07:48:13-0500",
+ "generated_ts": 1795438093,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "unavailable",
-   "items": 0
+   "status": "ok",
+   "items": 12
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,19 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "congressmustacttomakesurecannabisreschedulingactuallyimprove",
+   "title": "Congress Must Act To Make Sure Cannabis Rescheduling Actually Improves Patients\u2019 Access Instead Of Undermining It (Op-Ed)",
+   "link": "https://www.marijuanamoment.net/congress-must-act-to-make-sure-cannabis-rescheduling-actually-improves-patients-access-instead-of-undermining-it-op-ed/",
+   "source": "Marijuana Moment",
+   "category": "US federal",
+   "is_law": true,
+   "states": [],
+   "published": "2026-11-23T07:48:11-0500",
+   "published_ts": 1795438091.0,
+   "first_seen": "2026-11-23T07:48:13-0500",
+   "first_seen_ts": 1795438093
+  },
   {
    "id": "morecanadiansareusingcannabisdailythanaredrinkingalcoholdail",
    "title": "More Canadians are using cannabis daily than are drinking alcohol daily: study - CBC",
