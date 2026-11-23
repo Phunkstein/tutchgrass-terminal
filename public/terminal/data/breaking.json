@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-23T06:13:13-0500",
- "generated_ts": 1795432394,
+ "generated": "2026-11-23T07:23:15-0500",
+ "generated_ts": 1795436595,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "items": 0
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,19 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "morecanadiansareusingcannabisdailythanaredrinkingalcoholdail",
+   "title": "More Canadians are using cannabis daily than are drinking alcohol daily: study - CBC",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZ2pYYkRYeWJFYUlOeDhjUUNldGxfUkh0dV9yMVExZXRoUmJSS2ROUkVxTjhlUG1lV1c1NjNpRzJqT0s4UmhmWk5OaGc4WXdQMHJGOFFfUGt4VEQ0Mi1GVFA1b0hPT2ZzYmVrWEpMQk04NWliLWlXeTRZVDQzeDNyVEpXVTRNczFQdjlxNXBB?oc=5",
+   "source": "Google News: intl cannabis",
+   "category": "International",
+   "is_law": false,
+   "states": [],
+   "published": "2026-11-23T04:00:00-0500",
+   "published_ts": 1795424400.0,
+   "first_seen": "2026-11-23T07:23:15-0500",
+   "first_seen_ts": 1795436595
+  },
   {
    "id": "texasgovernorwantstoputcannabisontheballotnewsletternovember",
    "title": "Texas governor wants to put cannabis on the ballot (Newsletter: November 23, 2026)",
@@ -126,19 +139,6 @@
    "published_ts": 1795269027.0,
    "first_seen": "2026-11-21T08:53:14-0500",
    "first_seen_ts": 1795269194
-  },
-  {
-   "id": "weekinweednovember212026",
-   "title": "Week in Weed \u2013 November 21, 2026",
-   "link": "https://stratcann.com/news/week-in-weed-november-21-2026/",
-   "source": "StratCann (Canada)",
-   "category": "International",
-   "is_law": false,
-   "states": [],
-   "published": "2026-11-21T06:20:00-0500",
-   "published_ts": 1795260000.0,
-   "first_seen": "2026-11-21T06:33:11-0500",
-   "first_seen_ts": 1795260792
   }
  ]
 }
