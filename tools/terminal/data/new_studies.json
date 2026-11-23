@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-22 23:45 EST",
+ "generated": "2026-11-23 03:08 EST",
  "window": {
-  "start": "2026-10-23",
-  "end": "2026-11-22",
+  "start": "2026-10-24",
+  "end": "2026-11-23",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "8f182a28ff6e30af",
+ "fingerprint": "c53dc8a37ca64eb5",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -84,7 +84,8 @@
   "anxiety": [
    "42977215",
    "43015371",
-   "42968604"
+   "42968604",
+   "42963524"
   ],
   "mood": [
    "43050331",
@@ -129,29 +130,27 @@
    "42953813"
   ],
   "epilepsy": [
-   "42918565",
    "42997457",
    "42968542",
-   "43054266",
-   "42914761"
+   "43054266"
   ],
   "migraine": [],
   "ibd": []
  },
  "pubmed_counts": {
-  "sleep": 27,
+  "sleep": 25,
   "pain": 35,
-  "anxiety": 52,
-  "mood": 59,
-  "ptsd": 15,
+  "anxiety": 47,
+  "mood": 53,
+  "ptsd": 13,
   "arthritis": 5,
   "inflammation": 14,
   "nausea": 10,
   "appetite": 5,
-  "focus": 11,
+  "focus": 10,
   "fibromyalgia": 3,
   "ms": 7,
-  "epilepsy": 18,
+  "epilepsy": 14,
   "migraine": 5,
   "ibd": 2
  },
@@ -801,6 +800,26 @@
    ]
   },
   {
+   "pmid": "42963524",
+   "title": "Factors associated with cannabis use among infertile patients and their partner.",
+   "journal": "J Assist Reprod Genet",
+   "date": "2026-10-31",
+   "pubdate": "2026-10-31",
+   "first_author": "Steckler et al.",
+   "doi": "10.1007/s10815-026-04065-z",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at data on 1531 people (nobody was assigned a treatment).",
+    "found": "Cannabis use increased over the study period and clustered with other behavioral and psychosocial factors. Younger, non-married individuals and those reporting tobacco use or anxiety/depression may benefit from targeted cannabis screening and preconception counseling.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42963524/",
+   "conditions": [
+    "anxiety"
+   ]
+  },
+  {
    "pmid": "42956528",
    "title": "Lipid-based nanoencapsulation prolongs the antinociceptive effect of cannabidiol in experimental neuropathic pain.",
    "journal": "Biomed Pharmacother",
@@ -999,47 +1018,7 @@
    "conditions": [
     "pain"
    ]
-  },
-  {
-   "pmid": "42918565",
-   "title": "Modulation of postictal hypoxia: Sex- and route-specific effects of acute and chronic cannabidiol and Delta9-tetrahydrocannabinol.",
-   "journal": "Neuropharmacology",
-   "date": "2026-10-23",
-   "pubdate": "2026-10-23",
-   "first_author": "Rha et al.",
-   "doi": "10.1016/j.neuropharm.2026.111235",
-   "grade": "mice",
-   "grade_label": "Mice / rats only",
-   "plain": {
-    "did": "Experiments in mice or rats; no people were studied.",
-    "found": "These results demonstrate that acutely and chronically administered phytocannabinoids attenuate postictal hypoxia in a route-, sex-, and time-dependent manner.",
-    "caveat": "Animal results often do not carry over to people."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42918565/",
-   "conditions": [
-    "epilepsy"
-   ]
-  },
-  {
-   "pmid": "42914761",
-   "title": "Cannabidiol in pediatric drug-resistant epilepsies: A systematic review and meta-analysis of seizure responder rates and neurobehavioral outcome reporting.",
-   "journal": "Epilepsy Res",
-   "date": "2026-10-23",
-   "pubdate": "2026-10-15",
-   "first_author": "Pratic\u00f2",
-   "doi": "10.1016/j.eplepsyres.2026.107935",
-   "grade": "meta",
-   "grade_label": "Meta-analysis / systematic review",
-   "plain": {
-    "did": "Researchers searched for and pooled the results of earlier studies.",
-    "found": "Approximately half of children with drug-resistant epilepsies treated with adjunctive cannabidiol achieve a \u2265 50% seizure reduction in the available, predominantly observational literature;",
-    "caveat": "Pools earlier studies. Only as strong as the studies it includes."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42914761/",
-   "conditions": [
-    "epilepsy"
-   ]
   }
  ],
- "week_start": "2026-11-15"
+ "week_start": "2026-11-16"
 }
