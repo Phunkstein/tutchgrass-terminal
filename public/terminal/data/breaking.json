@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-23T21:03:18-0500",
- "generated_ts": 1795485799,
+ "generated": "2026-11-24T04:38:13-0500",
+ "generated_ts": 1795513094,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "unavailable",
-   "items": 0
+   "status": "ok",
+   "items": 12
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,19 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "auroracannabisincacbtostockpricenewsquotehistoryyahoofinance",
+   "title": "Aurora Cannabis Inc. (ACB.TO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SVWFjUE1hT2xZV0N3ZVI3b24zQ3JpTE1GWlJPRFFpU1JhTmY1b08wdXpSU3liUkR4RE1uWWRueTVoTmlVdWdieUZDdDU1UEdBZ2hxSg?oc=5",
+   "source": "Google News: intl cannabis",
+   "category": "International",
+   "is_law": false,
+   "states": [],
+   "published": "2026-11-23T19:51:52-0500",
+   "published_ts": 1795481512.0,
+   "first_seen": "2026-11-24T04:38:13-0500",
+   "first_seen_ts": 1795513094
+  },
   {
    "id": "cannabisuseapressingpublichealthissueincanadahealthexec",
    "title": "Cannabis use a \u2018pressing public health issue\u2019 in Canada - HealthExec",
