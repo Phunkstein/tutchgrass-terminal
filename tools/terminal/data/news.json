@@ -28,8 +28,8 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 119"
   },
   {
    "source": "Google News: intl cannabis",
@@ -38,9 +38,20 @@
    "items": 12
   }
  ],
- "total": 103,
+ "total": 91,
  "by_category": {
   "US federal": [
+   {
+    "source": "Marijuana Moment",
+    "title": "DEA Adjusts Cannabis-Related And Psychedelic Drug Production Quotas For 2026 While Reviewing Medical Marijuana Levels",
+    "link": "https://www.marijuanamoment.net/dea-adjusts-cannabis-related-and-psychedelic-drug-production-quotas-for-2026-while-reviewing-medical-marijuana-levels/",
+    "summary": "The Drug Enforcement Administration (DEA) is making adjustments to its quotas for legal manufacturing of certain cannabis-related and psychedelic compounds in 2026 for medical, scientific, research and industrial purposes\u2014while also previewing forthcoming new ",
+    "ts": 1795534625.0,
+    "date": "2026-11-24 10:37",
+    "category": "US federal",
+    "is_law": false,
+    "states": []
+   },
    {
     "source": "Marijuana Moment",
     "title": "DEA\u2019s Medical Marijuana Business Restrictions Under Rescheduling Are Now Facing A Third Lawsuit",
@@ -121,17 +132,6 @@
     "states": [
      "Wisconsin"
     ]
-   },
-   {
-    "source": "Marijuana Moment",
-    "title": "DoorDash Lobbies Congress To Keep Hemp THC Products Legal So It Can Keep Delivering Them",
-    "link": "https://www.marijuanamoment.net/doordash-lobbies-congress-to-keep-hemp-thc-products-legal-so-it-can-keep-delivering-them/",
-    "summary": "The on-demand delivery platform DoorDash is pushing Congress to keep hemp THC products federally legal. Last year, the company announced it was expanding its offerings in select states to include delivery of hemp-derived THC and CBD products, including gummies",
-    "ts": 1795446819.0,
-    "date": "2026-11-23 10:13",
-    "category": "US federal",
-    "is_law": false,
-    "states": []
    }
   ],
   "US states": [
@@ -160,19 +160,6 @@
     "states": [
      "Missouri",
      "New"
-    ]
-   },
-   {
-    "source": "Marijuana Moment",
-    "title": "Virginia Lawmakers Consider Using Marijuana Revenue To Fund Substance Misuse Services In Schools",
-    "link": "https://www.marijuanamoment.net/virginia-lawmakers-consider-using-marijuana-revenue-to-fund-substance-misuse-services-in-schools/",
-    "summary": "\u201cI don\u2019t want to wait until 2028 to find out that we should have done something this year.\u201d By Markus Schmidt, Virginia Mercury Virginia lawmakers on Monday discussed using future marijuana tax revenue to expand substance use prevention and counseling in publi",
-    "ts": 1795440372.0,
-    "date": "2026-11-23 08:26",
-    "category": "US states",
-    "is_law": true,
-    "states": [
-     "Virginia"
     ]
    },
    {
@@ -239,20 +226,22 @@
     "states": [
      "Georgia"
     ]
+   },
+   {
+    "source": "MJBizDaily",
+    "title": "The best thing to happen to New York cannabis retailers",
+    "link": "https://mjbizdaily.com/news/the-best-thing-to-happen-to-new-york-cannabis-retailers/619196/",
+    "summary": "New York's new list of cannabis defaulters is both a warning sign and a how-to guide for retailers around the country. All stores should order smaller and smarter. The best thing to happen to New York cannabis retailers is a post from: MJBizDaily: Financial, L",
+    "ts": 1794611813.0,
+    "date": "2026-11-13 18:16",
+    "category": "US states",
+    "is_law": false,
+    "states": [
+     "New"
+    ]
    }
   ],
   "International": [
-   {
-    "source": "StratCann (Canada)",
-    "title": "The Vancity Cannabis Brand and Cadoxa Cultivation Group Join Forces to Make Premium BC Craft Cannabis More Affordable",
-    "link": "https://stratcann.com/news/vancity-cannabis-brand-cadoxa-cultivation-group-join-forces/",
-    "summary": "Vancity\u00ae Cannabis and Cadoxa Cultivation Group announce a strategic alliance to bring affordable, premium B.C. craft cannabis to Canadian retailers. The post The Vancity Cannabis Brand and Cadoxa Cultivation Group Join Forces to Make Premium BC Craft Cannabis ",
-    "ts": 1795527900.0,
-    "date": "2026-11-24 08:45",
-    "category": "International",
-    "is_law": false,
-    "states": []
-   },
    {
     "source": "Business of Cannabis (intl)",
     "title": "Is Cannabis Legal in Thailand? Boom, Backlash and the Medical-Only Bill",
@@ -276,12 +265,12 @@
     "states": []
    },
    {
-    "source": "StratCann (Canada)",
-    "title": "BC Government Shifts Cannabis Oversight in Cabinet Shakeup",
-    "link": "https://stratcann.com/news/bc-government-shifts-cannabis-oversight-in-cabinet-shakeup/",
-    "summary": "The newly sworn-in BC government has made two changes to who will now be managing the cannabis file. The post BC Government Shifts Cannabis Oversight in Cabinet Shakeup appeared first on StratCann .",
-    "ts": 1795479548.0,
-    "date": "2026-11-23 19:19",
+    "source": "Google News: intl cannabis",
+    "title": "Aurora Cannabis Inc. (ACB.TO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SVWFjUE1hT2xZV0N3ZVI3b24zQ3JpTE1GWlJPRFFpU1JhTmY1b08wdXpSU3liUkR4RE1uWWRueTVoTmlVdWdieUZDdDU1UEdBZ2hxSg?oc=5",
+    "summary": "",
+    "ts": 1795481512.0,
+    "date": "2026-11-23 19:51",
     "category": "International",
     "is_law": false,
     "states": []
@@ -292,17 +281,6 @@
     "link": "https://businessofcannabis.com/cannabis-has-an-innovation-problem-and-consumers-deserve-better/",
     "summary": "Written by Sean McLean, CEO & Co-Founder, Peregrine Precision Systems. Seven years after the cannabis market bubble burst, the industry remains heavily dependent on the same products, the same consumers, and the same growth strategies. Its next chapter will re",
     "ts": 1795450298.0,
-    "date": "2026-11-23 11:11",
-    "category": "International",
-    "is_law": false,
-    "states": []
-   },
-   {
-    "source": "StratCann (Canada)",
-    "title": "\u201cGenerational Shift\u201d Leads to Higher Daily Cannabis Than Alcohol Rates",
-    "link": "https://stratcann.com/news/generational-shift-leads-to-higher-daily-cannabis-than-alcohol-rates/",
-    "summary": "A new study shows more people in Canada now report daily cannabis use than daily alcohol use. The post \u201cGenerational Shift\u201d Leads to Higher Daily Cannabis Than Alcohol Rates appeared first on StratCann .",
-    "ts": 1795450285.0,
     "date": "2026-11-23 11:11",
     "category": "International",
     "is_law": false,
@@ -329,6 +307,30 @@
     "category": "International",
     "is_law": false,
     "states": []
+   },
+   {
+    "source": "Business of Cannabis (intl)",
+    "title": "Cannabis Stocks Today \u2014 Monday 23 November 2026: Tilray sits below $2",
+    "link": "https://businessofcannabis.com/cannabis-stocks-today-monday-23-november-2026-tilray-sits-below-2/",
+    "summary": "The US session is in pre-market, so the quotes tracked by Business of Cannabis reflect the last completed trade, and OTC names can lag by a further day. Cannabis stocks sit lower before Monday\u2019s US open, with Tilray Brands (TLRY) at $1.89, down 8.7% against it",
+    "ts": 1795442469.0,
+    "date": "2026-11-23 09:01",
+    "category": "International",
+    "is_law": false,
+    "states": []
+   },
+   {
+    "source": "MJBizDaily",
+    "title": "Daily cannabis use exceeds alcohol consumption in Canada, study finds",
+    "link": "https://mjbizdaily.com/news/daily-cannabis-use-exceeds-alcohol-consumption-in-canada-study-finds/619327/",
+    "summary": "New CMAJ research finds 5.7% of Canadians, about 1.8 million people, use cannabis daily, compared with 5.2% who drink alcohol daily. Daily cannabis use exceeds alcohol consumption in Canada, study finds is a post from: MJBizDaily: Financial, Legal & Cannabusin",
+    "ts": 1795434442.0,
+    "date": "2026-11-23 06:47",
+    "category": "International",
+    "is_law": false,
+    "states": [
+     "New"
+    ]
    }
   ],
   "Industry": [
@@ -425,6 +427,17 @@
  "latest": [
   {
    "source": "Marijuana Moment",
+   "title": "DEA Adjusts Cannabis-Related And Psychedelic Drug Production Quotas For 2026 While Reviewing Medical Marijuana Levels",
+   "link": "https://www.marijuanamoment.net/dea-adjusts-cannabis-related-and-psychedelic-drug-production-quotas-for-2026-while-reviewing-medical-marijuana-levels/",
+   "summary": "The Drug Enforcement Administration (DEA) is making adjustments to its quotas for legal manufacturing of certain cannabis-related and psychedelic compounds in 2026 for medical, scientific, research and industrial purposes\u2014while also previewing forthcoming new ",
+   "ts": 1795534625.0,
+   "date": "2026-11-24 10:37",
+   "category": "US federal",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "Marijuana Moment",
    "title": "DEA\u2019s Medical Marijuana Business Restrictions Under Rescheduling Are Now Facing A Third Lawsuit",
    "link": "https://www.marijuanamoment.net/deas-medical-marijuana-business-restrictions-under-rescheduling-are-now-facing-a-third-lawsuit/",
    "summary": "The Drug Enforcement Administration (DEA) is now facing a third legal challenge to restrictions the agency is placing on cannabis businesses in conjunction with the Trump administration\u2019s federal rescheduling move. On Monday, lawyers for PennAlt Organics, Inc.",
@@ -446,17 +459,6 @@
    "states": [
     "North Carolina"
    ]
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "The Vancity Cannabis Brand and Cadoxa Cultivation Group Join Forces to Make Premium BC Craft Cannabis More Affordable",
-   "link": "https://stratcann.com/news/vancity-cannabis-brand-cadoxa-cultivation-group-join-forces/",
-   "summary": "Vancity\u00ae Cannabis and Cadoxa Cultivation Group announce a strategic alliance to bring affordable, premium B.C. craft cannabis to Canadian retailers. The post The Vancity Cannabis Brand and Cadoxa Cultivation Group Join Forces to Make Premium BC Craft Cannabis ",
-   "ts": 1795527900.0,
-   "date": "2026-11-24 08:45",
-   "category": "International",
-   "is_law": false,
-   "states": []
   },
   {
    "source": "Marijuana Moment",
@@ -503,12 +505,12 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "BC Government Shifts Cannabis Oversight in Cabinet Shakeup",
-   "link": "https://stratcann.com/news/bc-government-shifts-cannabis-oversight-in-cabinet-shakeup/",
-   "summary": "The newly sworn-in BC government has made two changes to who will now be managing the cannabis file. The post BC Government Shifts Cannabis Oversight in Cabinet Shakeup appeared first on StratCann .",
-   "ts": 1795479548.0,
-   "date": "2026-11-23 19:19",
+   "source": "Google News: intl cannabis",
+   "title": "Aurora Cannabis Inc. (ACB.TO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SVWFjUE1hT2xZV0N3ZVI3b24zQ3JpTE1GWlJPRFFpU1JhTmY1b08wdXpSU3liUkR4RE1uWWRueTVoTmlVdWdieUZDdDU1UEdBZ2hxSg?oc=5",
+   "summary": "",
+   "ts": 1795481512.0,
+   "date": "2026-11-23 19:51",
    "category": "International",
    "is_law": false,
    "states": []
@@ -568,17 +570,6 @@
    "link": "https://businessofcannabis.com/cannabis-has-an-innovation-problem-and-consumers-deserve-better/",
    "summary": "Written by Sean McLean, CEO & Co-Founder, Peregrine Precision Systems. Seven years after the cannabis market bubble burst, the industry remains heavily dependent on the same products, the same consumers, and the same growth strategies. Its next chapter will re",
    "ts": 1795450298.0,
-   "date": "2026-11-23 11:11",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "\u201cGenerational Shift\u201d Leads to Higher Daily Cannabis Than Alcohol Rates",
-   "link": "https://stratcann.com/news/generational-shift-leads-to-higher-daily-cannabis-than-alcohol-rates/",
-   "summary": "A new study shows more people in Canada now report daily cannabis use than daily alcohol use. The post \u201cGenerational Shift\u201d Leads to Higher Daily Cannabis Than Alcohol Rates appeared first on StratCann .",
-   "ts": 1795450285.0,
    "date": "2026-11-23 11:11",
    "category": "International",
    "is_law": false,
@@ -653,19 +644,6 @@
    "states": []
   },
   {
-   "source": "Marijuana Moment",
-   "title": "Virginia Lawmakers Consider Using Marijuana Revenue To Fund Substance Misuse Services In Schools",
-   "link": "https://www.marijuanamoment.net/virginia-lawmakers-consider-using-marijuana-revenue-to-fund-substance-misuse-services-in-schools/",
-   "summary": "\u201cI don\u2019t want to wait until 2028 to find out that we should have done something this year.\u201d By Markus Schmidt, Virginia Mercury Virginia lawmakers on Monday discussed using future marijuana tax revenue to expand substance use prevention and counseling in publi",
-   "ts": 1795440372.0,
-   "date": "2026-11-23 08:26",
-   "category": "US states",
-   "is_law": true,
-   "states": [
-    "Virginia"
-   ]
-  },
-  {
    "source": "MJBizDaily",
    "title": "Daily cannabis use exceeds alcohol consumption in Canada, study finds",
    "link": "https://mjbizdaily.com/news/daily-cannabis-use-exceeds-alcohol-consumption-in-canada-study-finds/619327/",
@@ -701,25 +679,12 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Canopy Growth CEO Luc Mongeau Sees New Era of Disciplined Growth for Canadian Cannabis",
-   "link": "https://stratcann.com/news/canopy-growth-ceo-luc-mongeau-new-era-disciplined-growth-canadian-cannabis/",
-   "summary": "Luc Mongeau, the CEO of Canopy Growth Corporation, says he sees a new era in the Canadian cannabis industry as companies learn the lessons of... The post Canopy Growth CEO Luc Mongeau Sees New Era of Disciplined Growth for Canadian Cannabis appeared first on S",
-   "ts": 1795390383.0,
-   "date": "2026-11-22 18:33",
-   "category": "International",
-   "is_law": false,
-   "states": [
-    "New"
-   ]
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Week in Weed \u2013 November 21, 2026",
-   "link": "https://stratcann.com/news/week-in-weed-november-21-2026/",
-   "summary": "StratCann\u2019s weekly round-up o cannabis industry news for the week ending November 21, 2026. The post Week in Weed \u2013 November 21, 2026 appeared first on StratCann .",
-   "ts": 1795260000.0,
-   "date": "2026-11-21 06:20",
+   "source": "Google News: intl cannabis",
+   "title": "Daily cannabis use surpasses daily drinking among Canadians under 50, survey finds - Medical Xpress",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbEhqZk1NZW9kMkMzRnhMcksxVWlmS1hVX1JfS3pxemRpTkJpUlN4SUN1UmgzQU9DRlpQdXBRdENzMmRwLVNNYllCeHpNT3NJY2Q4RUJGbHg3Q2xWNFYzMUVTbDFDVEpyWExJclhscnBpZDVybmp2SnhVN2U0ZlVYTnVFbnotb3VZZ25pNVp3?oc=5",
+   "summary": "",
+   "ts": 1795410601.0,
+   "date": "2026-11-23 00:10",
    "category": "International",
    "is_law": false,
    "states": []
@@ -749,17 +714,6 @@
    ]
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "Can I fly from CA with medical marijuana during Thanksgiving? See travel guidelines - Sacramento Bee",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE50dEwtNlMtSEF2Y2hSdjVwalR3OW1mbFByOHVlU2xFbGlIemtGa0I1TkdiYk94d2tLQUphejlRMExHLVNUWmhqZFJ0MWxwclppQnNpNk5CMnlwTDloZ1BZV3JZbFVualZVTVZzSDdwa2hZQVpxRWRaUkYyWjHSAXxBVV95cUxNam43QWxRVVhvWFdjVHc1Z2V1YUgzbFNQODNTNWVUNFFmZER0V0ZlRldHdUMzZGFkM245dTFrcExIMkVVV0tMSXFMamQ2NG1jaE5ySFUzME9rV19ESzdpTVJDZ0doeUxjRVlmamZuSUhKOWVxN1djQk1HZVVq?oc=5",
-   "summary": "",
-   "ts": 1795208100.0,
-   "date": "2026-11-20 15:55",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "MJBizDaily",
    "title": "The federal hemp ban will create a pet-safety problem \u2013 and no one is talking about it",
    "link": "https://mjbizdaily.com/news/the-federal-hemp-ban-will-create-a-pet-safety-problem-and-no-one-is-talking-about-it/619298/",
@@ -769,9 +723,67 @@
    "category": "US federal",
    "is_law": true,
    "states": []
+  },
+  {
+   "source": "MJBizDaily",
+   "title": "Cannabiz Seed: An emerging global cannabis seed brand putting genetics and community first",
+   "link": "https://mjbizdaily.com/sponsored/cannabiz-seed-global-cannabis-seed-brand/619214/",
+   "summary": "With a growing presence across North America, Australia, and Europe, Cannabiz Seed is building its reputation through quality cannabis genetics, customer-focused service, and a commitment to connecting growers worldwide. The cannabis seed industry continues to",
+   "ts": 1795196014.0,
+   "date": "2026-11-20 12:33",
+   "category": "International",
+   "is_law": false,
+   "states": [
+    "North"
+   ]
+  },
+  {
+   "source": "MJBizDaily",
+   "title": "Cannabis operators ask court to block DEA supply rules",
+   "link": "https://mjbizdaily.com/news/cannabis-operators-ask-court-to-block-dea-supply-rules/619303/",
+   "summary": "Four Pennsylvania medical cannabis companies asked the D.C. Circuit to block DEA guidance that bars growers from supplying their own stores after Nov. 29. Cannabis operators ask court to block DEA supply rules is a post from: MJBizDaily: Financial, Legal & Can",
+   "ts": 1795191154.0,
+   "date": "2026-11-20 11:12",
+   "category": "US federal",
+   "is_law": true,
+   "states": [
+    "Pennsylvania"
+   ]
+  },
+  {
+   "source": "Business of Cannabis (intl)",
+   "title": "Cannabis Stocks Today \u2014 Friday 20 November 2026: Tilray trades at $2.07",
+   "link": "https://businessofcannabis.com/cannabis-stocks-today-friday-20-november-2026-tilray-trades-at-2-07/",
+   "summary": "Cannabis stocks sit lower on Friday 20 November. Tilray Brands trades at $2.07, down 8.0% against its previous close, and the four sector ETFs tracked by Business of Cannabis each sit between 5.6% and 6.0% lower. Our previous report, \u201cCannabis Stocks Today \u2014 T",
+   "ts": 1795189268.0,
+   "date": "2026-11-20 10:41",
+   "category": "International",
+   "is_law": false,
+   "states": []
+  },
+  {
+   "source": "Business of Cannabis (intl)",
+   "title": "French Senate Demands Answers on Medical Cannabis Delays",
+   "link": "https://businessofcannabis.com/french-senate-demands-answers-on-medical-cannabis-delays/",
+   "summary": "France\u2019s government may soon be held accountable for the continuous delays to the rollout of its permanent national medical cannabis framework, as pressure builds to finalise implementation. On November 16, the Senate ordered the government to justify why the ",
+   "ts": 1795183431.0,
+   "date": "2026-11-20 09:03",
+   "category": "US federal",
+   "is_law": false,
+   "states": []
   }
  ],
  "all": [
+  {
+   "source": "Marijuana Moment",
+   "title": "DEA Adjusts Cannabis-Related And Psychedelic Drug Production Quotas For 2026 While Reviewing Medical Marijuana Levels",
+   "link": "https://www.marijuanamoment.net/dea-adjusts-cannabis-related-and-psychedelic-drug-production-quotas-for-2026-while-reviewing-medical-marijuana-levels/",
+   "ts": 1795534625.0,
+   "date": "2026-11-24 10:37",
+   "category": "US federal",
+   "is_law": false,
+   "states": []
+  },
   {
    "source": "Marijuana Moment",
    "title": "DEA\u2019s Medical Marijuana Business Restrictions Under Rescheduling Are Now Facing A Third Lawsuit",
@@ -793,16 +805,6 @@
    "states": [
     "North Carolina"
    ]
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "The Vancity Cannabis Brand and Cadoxa Cultivation Group Join Forces to Make Premium BC Craft Cannabis More Affordable",
-   "link": "https://stratcann.com/news/vancity-cannabis-brand-cadoxa-cultivation-group-join-forces/",
-   "ts": 1795527900.0,
-   "date": "2026-11-24 08:45",
-   "category": "International",
-   "is_law": false,
-   "states": []
   },
   {
    "source": "Marijuana Moment",
@@ -845,11 +847,11 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "BC Government Shifts Cannabis Oversight in Cabinet Shakeup",
-   "link": "https://stratcann.com/news/bc-government-shifts-cannabis-oversight-in-cabinet-shakeup/",
-   "ts": 1795479548.0,
-   "date": "2026-11-23 19:19",
+   "source": "Google News: intl cannabis",
+   "title": "Aurora Cannabis Inc. (ACB.TO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SVWFjUE1hT2xZV0N3ZVI3b24zQ3JpTE1GWlJPRFFpU1JhTmY1b08wdXpSU3liUkR4RE1uWWRueTVoTmlVdWdieUZDdDU1UEdBZ2hxSg?oc=5",
+   "ts": 1795481512.0,
+   "date": "2026-11-23 19:51",
    "category": "International",
    "is_law": false,
    "states": []
@@ -904,16 +906,6 @@
    "title": "Cannabis Has an Innovation Problem, and Consumers Deserve Better",
    "link": "https://businessofcannabis.com/cannabis-has-an-innovation-problem-and-consumers-deserve-better/",
    "ts": 1795450298.0,
-   "date": "2026-11-23 11:11",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "\u201cGenerational Shift\u201d Leads to Higher Daily Cannabis Than Alcohol Rates",
-   "link": "https://stratcann.com/news/generational-shift-leads-to-higher-daily-cannabis-than-alcohol-rates/",
-   "ts": 1795450285.0,
    "date": "2026-11-23 11:11",
    "category": "International",
    "is_law": false,
@@ -982,18 +974,6 @@
    "states": []
   },
   {
-   "source": "Marijuana Moment",
-   "title": "Virginia Lawmakers Consider Using Marijuana Revenue To Fund Substance Misuse Services In Schools",
-   "link": "https://www.marijuanamoment.net/virginia-lawmakers-consider-using-marijuana-revenue-to-fund-substance-misuse-services-in-schools/",
-   "ts": 1795440372.0,
-   "date": "2026-11-23 08:26",
-   "category": "US states",
-   "is_law": true,
-   "states": [
-    "Virginia"
-   ]
-  },
-  {
    "source": "MJBizDaily",
    "title": "Daily cannabis use exceeds alcohol consumption in Canada, study finds",
    "link": "https://mjbizdaily.com/news/daily-cannabis-use-exceeds-alcohol-consumption-in-canada-study-finds/619327/",
@@ -1026,23 +1006,11 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Canopy Growth CEO Luc Mongeau Sees New Era of Disciplined Growth for Canadian Cannabis",
-   "link": "https://stratcann.com/news/canopy-growth-ceo-luc-mongeau-new-era-disciplined-growth-canadian-cannabis/",
-   "ts": 1795390383.0,
-   "date": "2026-11-22 18:33",
-   "category": "International",
-   "is_law": false,
-   "states": [
-    "New"
-   ]
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Week in Weed \u2013 November 21, 2026",
-   "link": "https://stratcann.com/news/week-in-weed-november-21-2026/",
-   "ts": 1795260000.0,
-   "date": "2026-11-21 06:20",
+   "source": "Google News: intl cannabis",
+   "title": "Daily cannabis use surpasses daily drinking among Canadians under 50, survey finds - Medical Xpress",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbEhqZk1NZW9kMkMzRnhMcksxVWlmS1hVX1JfS3pxemRpTkJpUlN4SUN1UmgzQU9DRlpQdXBRdENzMmRwLVNNYllCeHpNT3NJY2Q4RUJGbHg3Q2xWNFYzMUVTbDFDVEpyWExJclhscnBpZDVybmp2SnhVN2U0ZlVYTnVFbnotb3VZZ25pNVp3?oc=5",
+   "ts": 1795410601.0,
+   "date": "2026-11-23 00:10",
    "category": "International",
    "is_law": false,
    "states": []
@@ -1068,16 +1036,6 @@
    "states": [
     "California"
    ]
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Can I fly from CA with medical marijuana during Thanksgiving? See travel guidelines - Sacramento Bee",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE50dEwtNlMtSEF2Y2hSdjVwalR3OW1mbFByOHVlU2xFbGlIemtGa0I1TkdiYk94d2tLQUphejlRMExHLVNUWmhqZFJ0MWxwclppQnNpNk5CMnlwTDloZ1BZV3JZbFVualZVTVZzSDdwa2hZQVpxRWRaUkYyWjHSAXxBVV95cUxNam43QWxRVVhvWFdjVHc1Z2V1YUgzbFNQODNTNWVUNFFmZER0V0ZlRldHdUMzZGFkM245dTFrcExIMkVVV0tMSXFMamQ2NG1jaE5ySFUzME9rV19ESzdpTVJDZ0doeUxjRVlmamZuSUhKOWVxN1djQk1HZVVq?oc=5",
-   "ts": 1795208100.0,
-   "date": "2026-11-20 15:55",
-   "category": "International",
-   "is_law": false,
-   "states": []
   },
   {
    "source": "MJBizDaily",
@@ -1124,32 +1082,12 @@
    "states": []
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "UK Pharmacy Giant Boots Launches Medical Cannabis Service: Who Is Eligible? - High Times Magazine",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQ2xqVndwMkpXSDQyUDhTMVEwV0lRQ25CbkVja2ZKY3pReUtIQ0hYT0dlVVZOMUMxajFEbnNRaElmdEMtdFJkSnY5UTBUUUZtVGdSdEhEQ1JQWHZTQ0tEWXNwajRuNkhUM2JDYWt2empySGhxek9BcEV3ZHhBdldhWER6R1p4a1h4N1pseDBaOWdDaEVubDV5TUNaQ21Oblp1M0dzdlYwbVp1RzR4RE1tejNvRU9rSXIya2ZtN2Nn?oc=5",
-   "ts": 1795185452.0,
-   "date": "2026-11-20 09:37",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Business of Cannabis (intl)",
    "title": "French Senate Demands Answers on Medical Cannabis Delays",
    "link": "https://businessofcannabis.com/french-senate-demands-answers-on-medical-cannabis-delays/",
    "ts": 1795183431.0,
    "date": "2026-11-20 09:03",
    "category": "US federal",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "From Reactive to Strategic: What 10 Years in Cannabis Marketing Has Taught Me",
-   "link": "https://stratcann.com/insight/from-reactive-to-strategic-10-years-in-cannabis-marketing/",
-   "ts": 1795180500.0,
-   "date": "2026-11-20 08:15",
-   "category": "International",
    "is_law": false,
    "states": []
   },
@@ -1238,32 +1176,12 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Decibel Cannabis Reports Q3 Revenue Growth Driven by International Sales",
-   "link": "https://stratcann.com/financials/decibel-cannabis-reports-q3-revenue-growth-driven-by-international-sales/",
-   "ts": 1795098258.0,
-   "date": "2026-11-19 09:24",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "MJBizDaily",
    "title": "What cannabis shoppers want \u2013 and what retailers might be missing",
    "link": "https://mjbizdaily.com/news/what-cannabis-shoppers-want-and-what-retailers-might-be-missing/619042/",
    "ts": 1795087827.0,
    "date": "2026-11-19 06:30",
    "category": "Industry",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Ewing Morris Completes Acquisition of Decibel Cannabis Company Shares",
-   "link": "https://stratcann.com/news/ewing-morris-completes-acquisition-of-decibel-cannabis-company-shares/",
-   "ts": 1795044126.0,
-   "date": "2026-11-18 18:22",
-   "category": "International",
    "is_law": false,
    "states": []
   },
@@ -1290,41 +1208,11 @@
    "states": []
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "OPP Raid Unlicensed Cannabis Operation, Arrest Two in Tyendinaga Township",
-   "link": "https://stratcann.com/enforcement/opp-raid-unlicensed-cannabis-operation-arrest-two-in-tyendinaga-township/",
-   "ts": 1795018373.0,
-   "date": "2026-11-18 11:12",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Curaleaf Laboratories and PURPLEFARM Announce Manufacturing and Distribution Agreement for the UK Market",
-   "link": "https://stratcann.com/news/curaleaf-laboratories-purplefarm-uk-cannabis/",
-   "ts": 1795010400.0,
-   "date": "2026-11-18 09:00",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Business of Cannabis (intl)",
    "title": "Cannabis Stocks Today \u2014 Wednesday 18 November 2026: AFC Gamma holds above $3.50",
    "link": "https://businessofcannabis.com/cannabis-stocks-today-wednesday-18-november-2026-afc-gamma-holds-above-3-50/",
    "ts": 1795003779.0,
    "date": "2026-11-18 07:09",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "Google News: intl cannabis",
-   "title": "Mintz Earns Multiple Rankings in 2027 Edition of The Legal 500 Canada - Mintz",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVk9nYV9RVERvOTFwenh5Tm16S0FMYkhUb1F0Z2N5WXE2STdLLXZNUlRYTjNiRFZaLU5MODBoZjEwcXFLelJSYUNJUXZjTFdrQjZWbTdkaXZTU1gxYWlSV01nWHY2SWwxWUp3b2IzbHZ1cm51SjZIYWpJMzAwOFBCUU1BNVVvb3B5N2VBNHRUam5wcl84ZWYxSUlvS01IUGp5ZWRkUmpIRkk2aTE3?oc=5",
-   "ts": 1795003200.0,
-   "date": "2026-11-18 07:00",
    "category": "International",
    "is_law": false,
    "states": []
@@ -1352,13 +1240,13 @@
    ]
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "Provincial Court Dismisses Constitutional Challenge for Agent Representation",
-   "link": "https://stratcann.com/enforcement/provincial-court-dismisses-constitutional-challenge-for-agent-representation/",
-   "ts": 1794943919.0,
-   "date": "2026-11-17 14:31",
+   "source": "Google News: intl cannabis",
+   "title": "ICBC Berlin Returns for 10th Anniversary as Europe\u2019s Cannabis Industry Evolves - High Times Magazine",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90VkhvRkFPLVJFVENXZkZmaE45eVNxUnU4MGlQbnZsWTlVeWRPVDloNHU1N2J1MEhsMUgxcndFOW12Y05nd2lNTTZiNVRlaGJEOGR6dEE3ajVpa2ZQTWhzbW9IRlNVZVNtSXFXVEp1d2w?oc=5",
+   "ts": 1794937563.0,
+   "date": "2026-11-17 12:46",
    "category": "International",
-   "is_law": true,
+   "is_law": false,
    "states": []
   },
   {
@@ -1372,21 +1260,11 @@
    "states": []
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "US basketball player arrested after cannabis seizure at Nigeria airport, authorities say - Reuters",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX0tzZ0dwT25EMVdsdzVCM2MzSkg2OUc5Q2ZsMy1hZHJkMWd0cERkS1JtSWExb1pZcXpqX2RpMFcwTDBBQUk4OW9pdW1QVnlyS0dCQmNKTmg1SnUzR0JjMzE1dnVKelhTQW5iSWYtR2pQQkpxRVBWWHY1LUpON2Z6d0dLUzB6S1YyU3FEVUV4S1JVX0NWZmsyaU9NZFBzLU85b0xiU2d0SUZlY2dtaF9qRlZGRUZDanc2V1c0ZDd4MkNYTHpWZm5QaA?oc=5",
-   "ts": 1794927795.0,
-   "date": "2026-11-17 10:03",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Who Benefits When Cannabis Companies Consolidate?",
-   "link": "https://stratcann.com/news/who-benefits-when-cannabis-companies-consolidate/",
-   "ts": 1794927790.0,
-   "date": "2026-11-17 10:03",
+   "source": "Business of Cannabis (intl)",
+   "title": "Curaleaf Laboratories and PURPLEFARM Announce Manufacturing and Distribution Agreement for the UK Market",
+   "link": "https://businessofcannabis.com/curaleaf-laboratories-and-purplefarm-announce-manufacturing-and-distribution-agreement-for-the-uk-market/",
+   "ts": 1794924940.0,
+   "date": "2026-11-17 09:15",
    "category": "International",
    "is_law": false,
    "states": []
@@ -1863,5 +1741,5 @@
    "states": []
   }
  ],
- "generated": "2026-11-24 09:08 EST"
+ "generated": "2026-11-24 10:38 EST"
 }

@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-24T09:08:14-0500",
- "generated_ts": 1795529294,
+ "generated": "2026-11-24T10:38:13-0500",
+ "generated_ts": 1795534694,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "items": 0
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,19 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "deaadjustscannabisrelatedandpsychedelicdrugproductionquotasf",
+   "title": "DEA Adjusts Cannabis-Related And Psychedelic Drug Production Quotas For 2026 While Reviewing Medical Marijuana Levels",
+   "link": "https://www.marijuanamoment.net/dea-adjusts-cannabis-related-and-psychedelic-drug-production-quotas-for-2026-while-reviewing-medical-marijuana-levels/",
+   "source": "Marijuana Moment",
+   "category": "US federal",
+   "is_law": false,
+   "states": [],
+   "published": "2026-11-24T10:37:05-0500",
+   "published_ts": 1795534625.0,
+   "first_seen": "2026-11-24T10:38:13-0500",
+   "first_seen_ts": 1795534694
+  },
   {
    "id": "deasmedicalmarijuanabusinessrestrictionsunderreschedulingare",
    "title": "DEA\u2019s Medical Marijuana Business Restrictions Under Rescheduling Are Now Facing A Third Lawsuit",
@@ -404,21 +417,6 @@
    "published_ts": 1795390383.0,
    "first_seen": "2026-11-22T18:33:13-0500",
    "first_seen_ts": 1795390393
-  },
-  {
-   "id": "nextmonthsfederalhempbanisaselfinflictedwoundonanindustrytha",
-   "title": "Next Month\u2019s Federal Hemp Ban Is A \u2018Self-Inflicted Wound\u2019 On An Industry That Refused To Regulate Itself (Op-Ed)",
-   "link": "https://www.marijuanamoment.net/next-months-federal-hemp-ban-is-a-self-inflicted-wound-on-an-industry-that-refused-to-regulate-itself-op-ed/",
-   "source": "Marijuana Moment",
-   "category": "US federal",
-   "is_law": true,
-   "states": [
-    "Kentucky"
-   ],
-   "published": "2026-11-22T10:37:10-0500",
-   "published_ts": 1795361830.0,
-   "first_seen": "2026-11-22T10:38:12-0500",
-   "first_seen_ts": 1795361892
   }
  ]
 }
