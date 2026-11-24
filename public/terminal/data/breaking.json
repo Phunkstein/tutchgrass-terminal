@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-23T19:23:15-0500",
- "generated_ts": 1795479795,
+ "generated": "2026-11-23T21:03:18-0500",
+ "generated_ts": 1795485799,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "items": 0
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,19 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "cannabisuseapressingpublichealthissueincanadahealthexec",
+   "title": "Cannabis use a \u2018pressing public health issue\u2019 in Canada - HealthExec",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQb3VHblhIcEpWVmJFSk9nd0VydHRpRGRRSS1QTzBwV2FzS0JNRWxvbVVIS0Q0UzJOVjhocDYtM3dSZF9ncmpaV3ZXNFBHaXB3b1U2MXJVcXRjWXdXWG5ZNTlMaUJ0ci1MZkFBZ2Fza3dGMHhrajZWQmJ6OG5jckxCbGRpdnZWSkN0Rk1MeUV2QV9qMFNRN0ZZaDc5TDhKd243aGQyV1U5WTgzZVNtaTdOYVp3YmdxSkpjN1E?oc=5",
+   "source": "Google News: intl cannabis",
+   "category": "International",
+   "is_law": false,
+   "states": [],
+   "published": "2026-11-23T20:50:40-0500",
+   "published_ts": 1795485040.0,
+   "first_seen": "2026-11-23T21:03:18-0500",
+   "first_seen_ts": 1795485799
+  },
   {
    "id": "bcgovernmentshiftscannabisoversightincabinetshakeup",
    "title": "BC Government Shifts Cannabis Oversight in Cabinet Shakeup",
