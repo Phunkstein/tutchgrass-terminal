@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-24T10:38:13-0500",
- "generated_ts": 1795534694,
+ "generated": "2026-11-24T11:33:13-0500",
+ "generated_ts": 1795537993,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "unavailable",
-   "items": 0
+   "status": "ok",
+   "items": 12
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,19 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "canadiancannabisfarmreceiptsreach14billioninfirsthalfof2026",
+   "title": "Canadian Cannabis Farm Receipts Reach $1.4 Billion in First Half of 2026",
+   "link": "https://stratcann.com/news/canadian-cannabis-farm-receipts-reach-1-4-billion-in-first-half-of-2026/",
+   "source": "StratCann (Canada)",
+   "category": "International",
+   "is_law": true,
+   "states": [],
+   "published": "2026-11-24T11:32:01-0500",
+   "published_ts": 1795537921.0,
+   "first_seen": "2026-11-24T11:33:13-0500",
+   "first_seen_ts": 1795537993
+  },
   {
    "id": "deaadjustscannabisrelatedandpsychedelicdrugproductionquotasf",
    "title": "DEA Adjusts Cannabis-Related And Psychedelic Drug Production Quotas For 2026 While Reviewing Medical Marijuana Levels",
