@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-25T06:58:17-0500",
- "generated_ts": 1795607898,
+ "generated": "2026-11-25T07:28:22-0500",
+ "generated_ts": 1795609702,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "items": 0
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,21 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "southcarolinahealthofficialspromisetoaddresssenatorsmedicalm",
+   "title": "South Carolina Health Officials Promise To Address Senator\u2019s Medical Marijuana Access Concerns Within 30 Days",
+   "link": "https://www.marijuanamoment.net/south-carolina-health-officials-promise-to-address-senators-medical-marijuana-access-concerns-within-30-days/",
+   "source": "Marijuana Moment",
+   "category": "US federal",
+   "is_law": true,
+   "states": [
+    "South Carolina"
+   ],
+   "published": "2026-11-25T07:24:21-0500",
+   "published_ts": 1795609461.0,
+   "first_seen": "2026-11-25T07:28:22-0500",
+   "first_seen_ts": 1795609702
+  },
   {
    "id": "ciccallsforexpandednursingrolesinukmedicalcannabisaheadoflon",
    "title": "CIC Calls for Expanded Nursing Roles in UK Medical Cannabis Ahead of London Symposium",
@@ -495,19 +510,6 @@
    "published_ts": 1795438091.0,
    "first_seen": "2026-11-23T07:48:13-0500",
    "first_seen_ts": 1795438093
-  },
-  {
-   "id": "morecanadiansareusingcannabisdailythanaredrinkingalcoholdail",
-   "title": "More Canadians are using cannabis daily than are drinking alcohol daily: study - CBC",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZ2pYYkRYeWJFYUlOeDhjUUNldGxfUkh0dV9yMVExZXRoUmJSS2ROUkVxTjhlUG1lV1c1NjNpRzJqT0s4UmhmWk5OaGc4WXdQMHJGOFFfUGt4VEQ0Mi1GVFA1b0hPT2ZzYmVrWEpMQk04NWliLWlXeTRZVDQzeDNyVEpXVTRNczFQdjlxNXBB?oc=5",
-   "source": "Google News: intl cannabis",
-   "category": "International",
-   "is_law": false,
-   "states": [],
-   "published": "2026-11-23T04:00:00-0500",
-   "published_ts": 1795424400.0,
-   "first_seen": "2026-11-23T07:23:15-0500",
-   "first_seen_ts": 1795436595
   }
  ]
 }
