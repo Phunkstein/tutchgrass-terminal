@@ -3,7 +3,7 @@
   "start": "2025-05-24",
   "end": "2026-11-24"
  },
- "generated": "2026-11-24 00:45 EST",
+ "generated": "2026-11-24 20:45 EST",
  "source": "NCBI PubMed E-utilities",
  "conditions": {
   "sleep": {
@@ -25,6 +25,16 @@
      "first_author": "Varela et al.",
      "doi": "10.1002/14651858.CD016216.pub2",
      "conclusion": "Medical cannabis may have little to no clinically meaningful effect on quality of sleep/satisfaction with sleep, total sleep time, or daytime functioning. It may lead to an improvement in quality of life, although the evidence is very uncertain. Medical cannabis may result in a slight increase in adverse events, but the certainty of this evidence is low. Future research must address the substantial uncertainty in the"
+    },
+    {
+     "pmid": "42574897",
+     "title": "Efficacy of cannabinoids for insomnia and sleep disturbance: A systematic review and meta-analysis of randomized controlled trials.",
+     "journal": "Sleep Med",
+     "date": "2026-08-06",
+     "tag": "META-ANALYSIS",
+     "first_author": "Asim et al.",
+     "doi": "10.1016/j.sleep.2026.109193",
+     "conclusion": "Cannabinoids improve sleep quality and duration with acceptable safety, offering a potential alternative for managing insomnia. Larger, long-term trials are warranted to define optimal dosing and sustained efficacy."
     },
     {
      "pmid": "41187699",
@@ -55,16 +65,6 @@
      "first_author": "da Silva et al.",
      "doi": "10.1016/j.smrv.2025.102156",
      "conclusion": "Cannabinoids, particularly non-CBD formulations, improve sleep quality, justifying further investigation as therapeutic options for insomnia or poor sleep."
-    },
-    {
-     "pmid": "42584385",
-     "title": "Acute Effects of Cannabis Inhalation on Cardiac Ectopy, Physical Activity, Sleep, and Glucose.",
-     "journal": "J Am Coll Cardiol",
-     "date": "2026-08-12",
-     "tag": "RCT",
-     "first_author": "Elias et al.",
-     "doi": "10.1016/j.jacc.2026.07.014",
-     "conclusion": "In a pragmatic crossover design including habitual cannabis users, randomization to inhaled cannabis was associated with less cardiac ectopy, driven by fewer premature atrial contractions. Potential withdrawal effects, moderate adherence, and co-intervention limit interpretation of causal mechanism. (Marijuana and Acute Risk of Arrhythmia-Joint Abstinence and Exposure [MARY-JANE]; NCT06021613)."
     }
    ],
    "holistic": [
@@ -79,6 +79,16 @@
      "conclusion": "Exercise is an effective treatment for improving sleep in patients with insomnia. Among the various exercise interventions, yoga, Tai Chi and walking or jogging are more effective than other exercises. To further validate and strengthen these conclusions, large-scale, high-quality and well-designed RCTs are needed."
     },
     {
+     "pmid": "41835420",
+     "title": "From passive monitoring to active engagement: a systematic review and meta-analysis of digital health technologies for improving objective physical activity and cardiorespiratory fitness in patients with obstructive sleep apnea.",
+     "journal": "Front Public Health",
+     "date": "2026-02-27",
+     "tag": "META-ANALYSIS",
+     "first_author": "Xia et al.",
+     "doi": "10.3389/fpubh.2026.1760571",
+     "conclusion": "Current evidence suggests that the application of digital health technology alone may be insufficient to significantly alter objective step counts or clinical outcomes in OSA patients, which might be largely attributed to the prevalence of passive monitoring modes lacking deep interaction in current studies14. Nevertheless, the physiological benefits observed in VO2max reveal the unique value of these interventions, "
+    },
+    {
      "pmid": "41470897",
      "title": "Dietary Supplement Interventions and Sleep Quality Improvement: A Systematic Review and Meta-Analysis.",
      "journal": "Nutrients",
@@ -87,16 +97,6 @@
      "first_author": "Mei et al.",
      "doi": "10.3390/nu17243952",
      "conclusion": "These findings suggest that tryptophan, vitamin D, omega-3, zinc, and antioxidants may enhance sleep quality by decreasing SL, and WASO increases SE and extends TST, respectively."
-    },
-    {
-     "pmid": "41237292",
-     "title": "Nonpharmacological Interventions Improve Postoperative Sleep in Arthroplasty Patients: A Systematic Review and Meta-Analysis.",
-     "journal": "JBJS Rev",
-     "date": "2025-11-14",
-     "tag": "META-ANALYSIS",
-     "first_author": "Salmani et al.",
-     "doi": "10.2106/JBJS.RVW.25.00131",
-     "conclusion": "NPIs, particularly nursing-based interventions and environmental controls, appear effective in improving postoperative sleep after joint arthroplasty. However, heterogeneity and limited high-quality evidence warrant further randomized trials with standardized protocols and objective sleep measures."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (sleep[tiab] OR insomnia[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/24:2026/11/24[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -206,7 +206,7 @@
     "anxiety"
    ],
    "cann_matches": 67,
-   "hol_matches": 427,
+   "hol_matches": 428,
    "cannabinoid": [
     {
      "pmid": "42494831",
@@ -217,16 +217,6 @@
      "first_author": "Rutledge et al.",
      "doi": "10.3389/fnimg.2026.1860919",
      "conclusion": "The current literature on the putative anxiolytic effects of CBD is constrained by methodological variability and limited statistical power. Future studies should employ standardized paradigms, improve reporting practices, and include more diverse and adequately powered samples to clarify the neural correlates of CBD-related effects on stress and anxiety."
-    },
-    {
-     "pmid": "41447562",
-     "title": "The Prevalence of Cannabis Use Disorder in Individuals with Anxiety or Related Disorders: A Systematic Review.",
-     "journal": "J Dual Diagn",
-     "date": "2025-12-25",
-     "tag": "SR",
-     "first_author": "Coles et al.",
-     "doi": "10.1080/15504263.2025.2606019",
-     "conclusion": "Preliminary evidence suggests that individuals with ARDs may be susceptible to developing comorbid CUD. Current comorbidity rates may be higher among veterans with PTSD compared to adults in general population samples; however, due to the limited number of eligible studies and methodological heterogeneity, further research is needed to confirm this difference. Given the recent global increase in cannabis legalization"
     },
     {
      "pmid": "41752306",
@@ -251,6 +241,16 @@
      "conclusion": "The findings of the study support that exercise based interventions, in all formats and parameters, can help mitigate depression and anxiety symptoms across all population categories. These results can help health professionals provide targeted, cost effective, evidence based support that aligns with individual profiles and preferences."
     },
     {
+     "pmid": "41191382",
+     "title": "Ketogenic Diets and Depression and Anxiety: A Systematic Review and Meta-Analysis.",
+     "journal": "JAMA Psychiatry",
+     "date": "2026-01-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Janssen-Aguilar et al.",
+     "doi": "10.1001/jamapsychiatry.2025.3261",
+     "conclusion": "In this systematic review and meta-analysis, KDs were associated with modest improvements in depressive symptoms, particularly with biochemical ketosis verification, while anxiety evidence was inconclusive. Given heterogeneity, comparators, and short follow-up, well-powered trials with standardized, verified protocols, structured support, and prespecified outcomes are needed to confirm efficacy and durability."
+    },
+    {
      "pmid": "41327816",
      "title": "Effects of Yoga Nidra on Stress, Anxiety, and Depression: A Systematic Review and Meta-Analysis.",
      "journal": "Ann N Y Acad Sci",
@@ -259,16 +259,6 @@
      "first_author": "Ghai et al.",
      "doi": "10.1111/nyas.70149",
      "conclusion": "However, given the low methodological quality and variability in intervention delivery, these moderate-to-large effects should be interpreted cautiously, as they likely reflect inflated estimates. Despite these limitations, YN shows potential in managing mental health symptoms, underscoring the need for high-quality, standardized research to establish its efficacy as a viable clinical intervention."
-    },
-    {
-     "pmid": "40620766",
-     "title": "Integrating mindfulness and physical activity: a meta-analysis of mindful movement interventions for symptoms of anxiety and depression among university students.",
-     "journal": "PeerJ",
-     "date": "2025-07-01",
-     "tag": "META-ANALYSIS",
-     "first_author": "Xu et al.",
-     "doi": "10.7717/peerj.19640",
-     "conclusion": "Mindful movement interventions are associated with enhanced mental health among university students, with no significant differences in the effects of yoga, tai chi, and qigong on reducing symptoms of anxiety and depression. It supports treating mindful movement as a unified approach to analyzing its impact on mental health. Residual heterogeneity highlights the need for further research on specific intervention elem"
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (anxiety[tiab] OR anxious[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/24:2026/11/24[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -280,7 +270,7 @@
    "goal": "mood",
    "background": [],
    "cann_matches": 51,
-   "hol_matches": 553,
+   "hol_matches": 554,
    "cannabinoid": [
     {
      "pmid": "41793962",
@@ -315,14 +305,14 @@
      "conclusion": "Exercise may be moderately more effective than a control intervention for reducing symptoms of depression. Exercise appears to be no more or less effective than psychological or pharmacological treatments, though this conclusion is based on a few small trials. Long-term follow-up was rare. The addition of 35 RCTs (at least 2526 participants) to this update has had very little effect on the estimate of the benefit of "
     },
     {
-     "pmid": "41327816",
-     "title": "Effects of Yoga Nidra on Stress, Anxiety, and Depression: A Systematic Review and Meta-Analysis.",
-     "journal": "Ann N Y Acad Sci",
-     "date": "2025-12-01",
+     "pmid": "41191382",
+     "title": "Ketogenic Diets and Depression and Anxiety: A Systematic Review and Meta-Analysis.",
+     "journal": "JAMA Psychiatry",
+     "date": "2026-01-01",
      "tag": "META-ANALYSIS",
-     "first_author": "Ghai et al.",
-     "doi": "10.1111/nyas.70149",
-     "conclusion": "However, given the low methodological quality and variability in intervention delivery, these moderate-to-large effects should be interpreted cautiously, as they likely reflect inflated estimates. Despite these limitations, YN shows potential in managing mental health symptoms, underscoring the need for high-quality, standardized research to establish its efficacy as a viable clinical intervention."
+     "first_author": "Janssen-Aguilar et al.",
+     "doi": "10.1001/jamapsychiatry.2025.3261",
+     "conclusion": "In this systematic review and meta-analysis, KDs were associated with modest improvements in depressive symptoms, particularly with biochemical ketosis verification, while anxiety evidence was inconclusive. Given heterogeneity, comparators, and short follow-up, well-powered trials with standardized, verified protocols, structured support, and prespecified outcomes are needed to confirm efficacy and durability."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (depression[tiab] OR depressive[tiab] OR mood[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/24:2026/11/24[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -477,16 +467,6 @@
      "conclusion": "The updated EULAR recommendations for PA should guide the development, conduct and evaluation of PA interventions and promotion, including the reduction of SB, in people with IA and OA. These recommendations should be implemented with consideration of individual needs, environmental conditions, and the broader national health care context."
     },
     {
-     "pmid": "42827396",
-     "title": "Effects of Yoga on Rheumatoid Arthritis: A Systematic Review and Meta-Analysis.",
-     "journal": "Int J Rheum Dis",
-     "date": "2026-10-01",
-     "tag": "META-ANALYSIS",
-     "first_author": "Suresh et al.",
-     "doi": "10.1111/1756-185x.70896",
-     "conclusion": "This meta-analysis indicates that yoga significantly improves mental health by reducing stress, anxiety, depression & lowers inflammation through reduced IL-6 levels. However, its effect on physical health and TNF-\u03b1 was not consistent, suggesting more research is needed. Further large-scale studies are needed to validate and standardize its use."
-    },
-    {
      "pmid": "41702669",
      "title": "Effectiveness of exercise therapy for osteoarthritis: an overview of systematic reviews and randomised controlled trials.",
      "journal": "RMD Open",
@@ -495,6 +475,16 @@
      "first_author": "Schleimer et al.",
      "doi": "10.1136/rmdopen-2025-006275",
      "conclusion": "Evidence on exercise for osteoarthritis remains largely inconclusive, suggesting negligible or short-lasting small effects comparable to, or less effective than, other treatments. These findings question its universal promotion and highlight the need to revisit research priorities and clinical discussions around its worthwhileness."
+    },
+    {
+     "pmid": "41415257",
+     "title": "Effectiveness of telemedicine-delivered exercise interventions in older adult patients with osteoarthritis: a systematic review and meta-analysis.",
+     "journal": "Front Public Health",
+     "date": "2025-12-03",
+     "tag": "META-ANALYSIS",
+     "first_author": "Zhu et al.",
+     "doi": "10.3389/fpubh.2025.1719841",
+     "conclusion": "Remote exercise rehabilitation interventions have been shown to effectively alleviate pain, improve quality of life, and enhance physical function in older adult individuals with OA. This approach offers a viable alternative to traditional face-to-face exercise rehabilitation for older adult patients suffering from OA."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (arthritis[tiab] OR osteoarthritis[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/24:2026/11/24[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -787,14 +777,14 @@
    ],
    "holistic": [
     {
-     "pmid": "42240717",
-     "title": "Efficacy of fully automated digital cognitive behavioral therapy for insomnia in adults: a systematic review and meta-analysis.",
-     "journal": "Sleep Breath",
-     "date": "2026-06-04",
+     "pmid": "42409136",
+     "title": "Efficacy of cognitive behavioral therapy for post-stroke fatigue: A systematic review and meta-analysis.",
+     "journal": "J Stroke Cerebrovasc Dis",
+     "date": "2026-07-06",
      "tag": "META-ANALYSIS",
-     "first_author": "Gao et al.",
-     "doi": "10.1007/s11325-026-03723-x",
-     "conclusion": "Fully automated dCBT-I appears to be an effective intervention for adults with insomnia. Platform-related differences were not robust in exploratory analyses and may reflect broader temporal or design-related differences across studies rather than inherent advantages or limitations of a specific delivery format. Further trials, particularly app-based studies, are needed to clarify whether platform-specific effects ex"
+     "first_author": "Sun et al.",
+     "doi": "10.1016/j.jstrokecerebrovasdis.2026.108697",
+     "conclusion": "Current low-certainty evidence suggests CBT is a promising and scalable intervention that shows potential in managing PSF, alleviating fatigue, and improving sleep and quality of life. To maximize potential therapeutic benefits, clinical programs might consider protocols lasting more than six weeks. However, due to high statistical heterogeneity and a pervasive lack of safety reporting, these findings should be inter"
     },
     {
      "pmid": "41483880",
@@ -807,14 +797,14 @@
      "conclusion": "CBT demonstrates efficacy for core and associated symptoms of adult ADHD, with the optimal intervention strategy varying meaningfully by outcome and modality. A symptom-guided, stepped-care approach is supported: group-based CBT formats are preferable for targeting core symptoms and executive function, while individual CBT better addresses emotional dysregulation and quality of life. The combination of CBT with medic"
     },
     {
-     "pmid": "41531400",
-     "title": "Effects of cognitive behavioral therapy on sleep quality and insomnia severity index in women with menopausal insomnia: a systematic review and meta-analysis.",
-     "journal": "Womens Health Nurs",
-     "date": "2025-12-31",
+     "pmid": "41315985",
+     "title": "Effects of emotion-oriented interventions on cognitive, behavioral, and psychological symptoms in people with dementia: a systematic review and meta-analysis of randomized controlled trials.",
+     "journal": "BMC Geriatr",
+     "date": "2025-11-28",
      "tag": "META-ANALYSIS",
-     "first_author": "Moon et al.",
-     "doi": "10.4069/whn.2025.09.07",
-     "conclusion": "CBT-I is an effective non-pharmacological intervention for improving sleep quality and reducing insomnia severity in menopausal women. These findings support the integration of CBT-I into clinical practice, particularly as a nurse-led intervention that can be delivered in both face-to-face and remote formats. To enable broader implementation, standardized CBT-I training programs and clinical protocols should be devel"
+     "first_author": "Duarte-D\u00edaz et al.",
+     "doi": "10.1186/s12877-025-06804-w",
+     "conclusion": "These interventions address not only the cognitive deficits but also the emotional and psychological well-being of people with dementia, suggesting a holistic approach to dementia care. The findings highlight the need for further research to optimize these interventions, evaluate their long-term benefits, and establish guidelines for their implementation in diverse clinical settings."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (cognition[ti] OR cognitive[ti] OR memory[ti] OR attention[ti] OR ADHD[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/24:2026/11/24[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
