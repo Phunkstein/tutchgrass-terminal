@@ -38,8 +38,8 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 119"
   },
   {
    "source": "Google News: intl cannabis",
@@ -296,6 +296,17 @@
  ],
  "news_us": [
   {
+   "source": "Marijuana Moment",
+   "title": "GOP-Led States Take Marijuana Businesses\u2019 Side In Legal Challenge To Restrictive DEA Rules Under Rescheduling",
+   "link": "https://www.marijuanamoment.net/gop-led-states-take-marijuana-businesses-side-in-legal-challenge-to-restrictive-dea-rules-under-rescheduling/",
+   "summary": "Three Republican-led states have filed a brief in federal court arguing that restrictions the Drug Enforcement Administration (DEA) is placing on medical marijuana operators in conjunction with the Trump administration\u2019s federal rescheduling move will harm sta",
+   "ts": 1795566561.0,
+   "date": "2026-11-24 19:29",
+   "category": "US federal",
+   "is_law": true,
+   "states": []
+  },
+  {
    "source": "MJBizDaily",
    "title": "Trump administration asks Congress to save CBD, hemp THC still at risk",
    "link": "https://mjbizdaily.com/news/trump-administration-asks-congress-to-save-cbd-hemp-thc-still-at-risk/619353/",
@@ -391,17 +402,6 @@
    ]
   },
   {
-   "source": "Marijuana Moment",
-   "title": "DoorDash Lobbies Congress To Keep Hemp THC Products Legal So It Can Keep Delivering Them",
-   "link": "https://www.marijuanamoment.net/doordash-lobbies-congress-to-keep-hemp-thc-products-legal-so-it-can-keep-delivering-them/",
-   "summary": "The on-demand delivery platform DoorDash is pushing Congress to keep hemp THC products federally legal. Last year, the company announced it was expanding its offerings in select states to include delivery of hemp-derived THC and CBD products, including gummies",
-   "ts": 1795446819.0,
-   "date": "2026-11-23 10:13",
-   "category": "US federal",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "MJBizDaily",
    "title": "The smell test: Class-action lawsuit against California cannabis cultivator goes to trial",
    "link": "https://mjbizdaily.com/news/the-smell-test-class-action-lawsuit-against-california-cannabis-cultivator-goes-to-trial/619306/",
@@ -416,17 +416,6 @@
   }
  ],
  "news_intl": [
-  {
-   "source": "StratCann (Canada)",
-   "title": "The Vancity Cannabis Brand and Cadoxa Cultivation Group Join Forces to Make Premium BC Craft Cannabis More Affordable",
-   "link": "https://stratcann.com/news/vancity-cannabis-brand-cadoxa-cultivation-group-join-forces/",
-   "summary": "Vancity\u00ae Cannabis and Cadoxa Cultivation Group announce a strategic alliance to bring affordable, premium B.C. craft cannabis to Canadian retailers. The post The Vancity Cannabis Brand and Cadoxa Cultivation Group Join Forces to Make Premium BC Craft Cannabis ",
-   "ts": 1795527900.0,
-   "date": "2026-11-24 08:45",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
   {
    "source": "Business of Cannabis (intl)",
    "title": "Is Cannabis Legal in Thailand? Boom, Backlash and the Medical-Only Bill",
@@ -463,17 +452,6 @@
    ]
   },
   {
-   "source": "StratCann (Canada)",
-   "title": "\u201cGenerational Shift\u201d Leads to Higher Daily Cannabis Than Alcohol Rates",
-   "link": "https://stratcann.com/news/generational-shift-leads-to-higher-daily-cannabis-than-alcohol-rates/",
-   "summary": "A new study shows more people in Canada now report daily cannabis use than daily alcohol use. The post \u201cGenerational Shift\u201d Leads to Higher Daily Cannabis Than Alcohol Rates appeared first on StratCann .",
-   "ts": 1795450285.0,
-   "date": "2026-11-23 11:11",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
    "source": "Business of Cannabis (intl)",
    "title": "Notes from a Scaling Healthcare Business: Clinical Responsibility",
    "link": "https://businessofcannabis.com/notes-from-a-scaling-healthcare-business-clinical-responsibility/",
@@ -505,8 +483,19 @@
    "category": "International",
    "is_law": false,
    "states": []
+  },
+  {
+   "source": "Google News: intl cannabis",
+   "title": "Daily cannabis use exceeds alcohol consumption in Canada, study finds - MJBizDaily",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYVRCVjFWd3pYa1NhWUNkNTNseFRPTG5sZDJNV2ZLUjAycHFiQzVIczFnN09lSVE5V0RxVzA1VjdrVWpHeDlMZzhmWmhralZWNlkwVkU1ZWIwWUNCQW1LR2tUcFpGSnhVSnpVNXpaeHdLRTlCaW9Uc0hJZEI5RXpfWmR2dy1OTU1WZE9LMDZMdmpYMVRRcTJoSy1JaElval9QNm1kdExwaw?oc=5",
+   "summary": "",
+   "ts": 1795420800.0,
+   "date": "2026-11-23 03:00",
+   "category": "International",
+   "is_law": false,
+   "states": []
   }
  ],
- "news_health_total": 23,
- "generated": "2026-11-24 18:44 EST"
+ "news_health_total": 22,
+ "generated": "2026-11-24 19:44 EST"
 }
