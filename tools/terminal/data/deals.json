@@ -2,15 +2,15 @@
  "schema": "deals/3",
  "test": true,
  "region": "United States (all legal markets)",
- "checked": "2026-11-25 15:40 EST",
- "count": 657,
+ "checked": "2026-11-25 18:46 EST",
+ "count": 663,
  "chains": 62,
  "states_with_deals": 28,
  "by_state": {
   "AK": 3,
   "AL": 0,
   "AR": 10,
-  "AZ": 26,
+  "AZ": 33,
   "CA": 31,
   "CO": 30,
   "CT": 8,
@@ -48,7 +48,7 @@
   "VA": 7,
   "VT": 0,
   "WA": 22,
-  "WV": 10
+  "WV": 9
  },
  "by_chain": {
   "The Fire Station": 10,
@@ -64,7 +64,7 @@
   "Flavors Detroit": 1,
   "Catalyst Cannabis Co.": 3,
   "Good Day Farm": 10,
-  "Nirvana Cannabis": 13,
+  "Nirvana Cannabis": 20,
   "The Superior Dispensary": 10,
   "YiLo": 3,
   "The Artist Tree": 10,
@@ -108,7 +108,7 @@
   "Vytal Options": 10,
   "Slater Center": 1,
   "Good Company Cannabis": 10,
-  "Zen Leaf": 17,
+  "Zen Leaf": 16,
   "Craft Cannabis": 2,
   "Kaleafa": 4,
   "Mary Mart": 10,
@@ -137,7 +137,7 @@
   "Monticello, AR": 10,
   "Texarkana, AR": 10,
   "Van Buren, AR": 10,
-  "Phoenix, AZ": 26,
+  "Phoenix, AZ": 33,
   "El Sobrante, CA": 10,
   "Fresno, CA": 10,
   "Hawthorne, CA": 10,
@@ -207,7 +207,7 @@
   "Des Moines, WA": 1,
   "Oak Harbor, WA": 1,
   "Tacoma, WA": 16,
-  "Morgantown, WV": 10
+  "Morgantown, WV": 9
  },
  "states": [
   {
@@ -228,7 +228,7 @@
    "code": "AZ",
    "name": "Arizona",
    "market": "adult-use + medical",
-   "deals": 26,
+   "deals": 33,
    "sources": 5
   },
   {
@@ -501,7 +501,7 @@
    "code": "WV",
    "name": "West Virginia",
    "market": "medical only",
-   "deals": 10,
+   "deals": 9,
    "sources": 1
   }
  ],
@@ -530,7 +530,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 9
+   "more": 10
   },
   {
    "state": "MI",
@@ -832,7 +832,8 @@
    "url": "https://nirvanacannabis.com/deals/west-phoenix-az/",
    "robots": "allowed",
    "status": "ok",
-   "deals": 3
+   "deals": 10,
+   "more": 79
   },
   {
    "state": "AZ",
@@ -841,7 +842,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 86
+   "more": 85
   },
   {
    "state": "AZ",
@@ -1375,7 +1376,7 @@
    "url": "https://zenleafdispensaries.com/locations/morgantown/medical-menu/menu/discounts",
    "robots": "allowed",
    "status": "ok",
-   "deals": 10
+   "deals": 9
   }
  ],
  "not_used": [
@@ -1755,7 +1756,7 @@
    ],
    "state": "MI",
    "deal": "Batch - 4g Disposables - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -1775,7 +1776,7 @@
    ],
    "state": "MI",
    "deal": "Hyman - 1g AND 2g Disposables - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -1794,108 +1795,8 @@
     "Detroit"
    ],
    "state": "MI",
-   "deal": "Zaaz - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-25",
-   "url": "https://www.kingofbudz.com/michigan/detroit/deals/zaaz-bogo",
-   "loc": [
-    0
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Detroit",
-   "city": "Detroit",
-   "cities": [
-    "Detroit"
-   ],
-   "state": "MI",
-   "deal": "Weed Snobs 200mg Gummies AND 1.2g Infused Prerolls B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-25",
-   "url": "https://www.kingofbudz.com/michigan/detroit/deals/weed-snobs-200mg-gummies-and-12g-infused-prerolls-b2g1",
-   "loc": [
-    0
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Detroit",
-   "city": "Detroit",
-   "cities": [
-    "Detroit"
-   ],
-   "state": "MI",
-   "deal": "Mac Pharms (Exclude Deli) - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c5 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-25",
-   "url": "https://www.kingofbudz.com/michigan/detroit/deals/mac-pharms-exclude-deli-bogo",
-   "loc": [
-    0
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Detroit",
-   "city": "Detroit",
-   "cities": [
-    "Detroit"
-   ],
-   "state": "MI",
-   "deal": "Lit Labs - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-25",
-   "url": "https://www.kingofbudz.com/michigan/detroit/deals/lit-labs-bogo",
-   "loc": [
-    0
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Detroit",
-   "city": "Detroit",
-   "cities": [
-    "Detroit"
-   ],
-   "state": "MI",
-   "deal": "Gold Crown - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-25",
-   "url": "https://www.kingofbudz.com/michigan/detroit/deals/gold-crown-bogo",
-   "loc": [
-    0
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Detroit",
-   "city": "Detroit",
-   "cities": [
-    "Detroit"
-   ],
-   "state": "MI",
    "deal": "Spyder Legs - 40% OFF",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -1914,8 +1815,28 @@
     "Detroit"
    ],
    "state": "MI",
+   "deal": "Zaaz - BOGO (Buy 1, Get 1 Free)",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://www.kingofbudz.com/michigan/detroit/deals/zaaz-bogo",
+   "loc": [
+    0
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Detroit",
+   "city": "Detroit",
+   "cities": [
+    "Detroit"
+   ],
+   "state": "MI",
    "deal": "BAMN - Prerolls / Concetrates / Vapes - 25% OFF",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -1935,12 +1856,92 @@
    ],
    "state": "MI",
    "deal": "Flower Power - 3.5 Pre-Packs / 1g Prerolls / 1g Donuts- 25% OFF",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
    "collected": "2026-11-25",
    "url": "https://www.kingofbudz.com/michigan/detroit/deals/flower-power-35-pre-packs-1g-prerolls-1g-donuts-25-percent-off",
+   "loc": [
+    0
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Detroit",
+   "city": "Detroit",
+   "cities": [
+    "Detroit"
+   ],
+   "state": "MI",
+   "deal": "Weed Snobs 200mg Gummies AND 1.2g Infused Prerolls B2G1 (Buy 2, Get 1 Free)",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://www.kingofbudz.com/michigan/detroit/deals/weed-snobs-200mg-gummies-and-12g-infused-prerolls-b2g1",
+   "loc": [
+    0
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Detroit",
+   "city": "Detroit",
+   "cities": [
+    "Detroit"
+   ],
+   "state": "MI",
+   "deal": "Michigrown 14g Prepack AND 1g Prerolls - 30% OFF",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://www.kingofbudz.com/michigan/detroit/deals/michigrown-14g-prepack-and-1g-prerolls-30-percent-off",
+   "loc": [
+    0
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Detroit",
+   "city": "Detroit",
+   "cities": [
+    "Detroit"
+   ],
+   "state": "MI",
+   "deal": "Mac Pharms (Exclude Deli) - BOGO (Buy 1, Get 1 Free)",
+   "valid": "page said \u201c2 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://www.kingofbudz.com/michigan/detroit/deals/mac-pharms-exclude-deli-bogo",
+   "loc": [
+    0
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Detroit",
+   "city": "Detroit",
+   "cities": [
+    "Detroit"
+   ],
+   "state": "MI",
+   "deal": "MKX 25% OFF",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://www.kingofbudz.com/michigan/detroit/deals/mkx-25-percent-off",
    "loc": [
     0
    ],
@@ -1955,7 +1956,7 @@
    ],
    "state": "MI",
    "deal": "Batch - 4g Disposables - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -1975,7 +1976,7 @@
    ],
    "state": "MI",
    "deal": "Hyman - 1g AND 2g Disposables - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -1994,8 +1995,88 @@
     "Ferndale"
    ],
    "state": "MI",
+   "deal": "Zaaz - BOGO (Buy 1, Get 1 Free)",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://www.kingofbudz.com/michigan/ferndale/deals/zaaz-bogo",
+   "loc": [
+    1
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Ferndale",
+   "city": "Ferndale",
+   "cities": [
+    "Ferndale"
+   ],
+   "state": "MI",
+   "deal": "Weed Snobs 200mg Gummies AND 1.2g Infused Prerolls B2G1 (Buy 2, Get 1 Free)",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://www.kingofbudz.com/michigan/ferndale/deals/weed-snobs-200mg-gummies-and-12g-infused-prerolls-b2g1",
+   "loc": [
+    1
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Ferndale",
+   "city": "Ferndale",
+   "cities": [
+    "Ferndale"
+   ],
+   "state": "MI",
+   "deal": "Mac Pharms (Exclude Deli) - BOGO (Buy 1, Get 1 Free)",
+   "valid": "page said \u201c2 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://www.kingofbudz.com/michigan/ferndale/deals/mac-pharms-exclude-deli-bogo",
+   "loc": [
+    1
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Ferndale",
+   "city": "Ferndale",
+   "cities": [
+    "Ferndale"
+   ],
+   "state": "MI",
+   "deal": "Gold Crown - BOGO (Buy 1, Get 1 Free)",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://www.kingofbudz.com/michigan/ferndale/deals/gold-crown-bogo",
+   "loc": [
+    1
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Ferndale",
+   "city": "Ferndale",
+   "cities": [
+    "Ferndale"
+   ],
+   "state": "MI",
    "deal": "Breeze - 40% OFF",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2015,7 +2096,7 @@
    ],
    "state": "MI",
    "deal": "Spyder Legs - 40% OFF",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2034,28 +2115,8 @@
     "Ferndale"
    ],
    "state": "MI",
-   "deal": "Zaaz - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-25",
-   "url": "https://www.kingofbudz.com/michigan/ferndale/deals/zaaz-bogo",
-   "loc": [
-    1
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Ferndale",
-   "city": "Ferndale",
-   "cities": [
-    "Ferndale"
-   ],
-   "state": "MI",
    "deal": "BAMN - Prerolls / Concetrates / Vapes - 25% OFF",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2075,72 +2136,12 @@
    ],
    "state": "MI",
    "deal": "Flower Power - 3.5 Pre-Packs / 1g Prerolls / 1g Donuts- 25% OFF",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
    "collected": "2026-11-25",
    "url": "https://www.kingofbudz.com/michigan/ferndale/deals/flower-power-35-pre-packs-1g-prerolls-1g-donuts-25-percent-off",
-   "loc": [
-    1
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Ferndale",
-   "city": "Ferndale",
-   "cities": [
-    "Ferndale"
-   ],
-   "state": "MI",
-   "deal": "Weed Snobs 200mg Gummies AND 1.2g Infused Prerolls B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-25",
-   "url": "https://www.kingofbudz.com/michigan/ferndale/deals/weed-snobs-200mg-gummies-and-12g-infused-prerolls-b2g1",
-   "loc": [
-    1
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Ferndale",
-   "city": "Ferndale",
-   "cities": [
-    "Ferndale"
-   ],
-   "state": "MI",
-   "deal": "Michigrown 14g Prepack AND 1g Prerolls - 30% OFF",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-25",
-   "url": "https://www.kingofbudz.com/michigan/ferndale/deals/michigrown-14g-prepack-and-1g-prerolls-30-percent-off",
-   "loc": [
-    1
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Ferndale",
-   "city": "Ferndale",
-   "cities": [
-    "Ferndale"
-   ],
-   "state": "MI",
-   "deal": "Mac Pharms (Exclude Deli) - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c5 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-25",
-   "url": "https://www.kingofbudz.com/michigan/ferndale/deals/mac-pharms-exclude-deli-bogo",
    "loc": [
     1
    ],
@@ -2155,7 +2156,7 @@
    ],
    "state": "MI",
    "deal": "Hyman - 1g AND 2g Disposables - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2174,128 +2175,8 @@
     "Inkster"
    ],
    "state": "MI",
-   "deal": "Zaaz - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-25",
-   "url": "https://www.kingofbudz.com/michigan/inkster/deals/zaaz-bogo",
-   "loc": [
-    2
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Inkster",
-   "city": "Inkster",
-   "cities": [
-    "Inkster"
-   ],
-   "state": "MI",
-   "deal": "Weed Snobs 200mg Gummies AND 1.2g Infused Prerolls B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-25",
-   "url": "https://www.kingofbudz.com/michigan/inkster/deals/weed-snobs-200mg-gummies-and-12g-infused-prerolls-b2g1",
-   "loc": [
-    2
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Inkster",
-   "city": "Inkster",
-   "cities": [
-    "Inkster"
-   ],
-   "state": "MI",
-   "deal": "Mac Pharms (Exclude Deli) - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c5 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-25",
-   "url": "https://www.kingofbudz.com/michigan/inkster/deals/mac-pharms-exclude-deli-bogo",
-   "loc": [
-    2
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Inkster",
-   "city": "Inkster",
-   "cities": [
-    "Inkster"
-   ],
-   "state": "MI",
-   "deal": "Lit Labs - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-25",
-   "url": "https://www.kingofbudz.com/michigan/inkster/deals/lit-labs-bogo",
-   "loc": [
-    2
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Inkster",
-   "city": "Inkster",
-   "cities": [
-    "Inkster"
-   ],
-   "state": "MI",
-   "deal": "Gold Crown - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-25",
-   "url": "https://www.kingofbudz.com/michigan/inkster/deals/gold-crown-bogo",
-   "loc": [
-    2
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Inkster",
-   "city": "Inkster",
-   "cities": [
-    "Inkster"
-   ],
-   "state": "MI",
-   "deal": "Tonic - BOGO (11/25) (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-25",
-   "url": "https://www.kingofbudz.com/michigan/inkster/deals/tonic-bogo-1125",
-   "loc": [
-    2
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Inkster",
-   "city": "Inkster",
-   "cities": [
-    "Inkster"
-   ],
-   "state": "MI",
    "deal": "Breeze - 40% OFF",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2315,7 +2196,7 @@
    ],
    "state": "MI",
    "deal": "Spyder Legs - 40% OFF",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2334,13 +2215,133 @@
     "Inkster"
    ],
    "state": "MI",
+   "deal": "Zaaz - BOGO (Buy 1, Get 1 Free)",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://www.kingofbudz.com/michigan/inkster/deals/zaaz-bogo",
+   "loc": [
+    2
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Inkster",
+   "city": "Inkster",
+   "cities": [
+    "Inkster"
+   ],
+   "state": "MI",
    "deal": "BAMN - Prerolls / Concetrates / Vapes - 25% OFF",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
    "collected": "2026-11-25",
    "url": "https://www.kingofbudz.com/michigan/inkster/deals/bamn-prerolls-concetrates-vapes-25-percent-off",
+   "loc": [
+    2
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Inkster",
+   "city": "Inkster",
+   "cities": [
+    "Inkster"
+   ],
+   "state": "MI",
+   "deal": "Flower Power - 3.5 Pre-Packs / 1g Prerolls / 1g Donuts- 25% OFF",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://www.kingofbudz.com/michigan/inkster/deals/flower-power-35-pre-packs-1g-prerolls-1g-donuts-25-percent-off",
+   "loc": [
+    2
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Inkster",
+   "city": "Inkster",
+   "cities": [
+    "Inkster"
+   ],
+   "state": "MI",
+   "deal": "Weed Snobs 200mg Gummies AND 1.2g Infused Prerolls B2G1 (Buy 2, Get 1 Free)",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://www.kingofbudz.com/michigan/inkster/deals/weed-snobs-200mg-gummies-and-12g-infused-prerolls-b2g1",
+   "loc": [
+    2
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Inkster",
+   "city": "Inkster",
+   "cities": [
+    "Inkster"
+   ],
+   "state": "MI",
+   "deal": "Michigrown 14g Prepack AND 1g Prerolls - 30% OFF",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://www.kingofbudz.com/michigan/inkster/deals/michigrown-14g-prepack-and-1g-prerolls-30-percent-off",
+   "loc": [
+    2
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Inkster",
+   "city": "Inkster",
+   "cities": [
+    "Inkster"
+   ],
+   "state": "MI",
+   "deal": "Mac Pharms (Exclude Deli) - BOGO (Buy 1, Get 1 Free)",
+   "valid": "page said \u201c2 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://www.kingofbudz.com/michigan/inkster/deals/mac-pharms-exclude-deli-bogo",
+   "loc": [
+    2
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Inkster",
+   "city": "Inkster",
+   "cities": [
+    "Inkster"
+   ],
+   "state": "MI",
+   "deal": "Berry Green (Exclude 15g Baller Buckets) - 50% OFF",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://www.kingofbudz.com/michigan/inkster/deals/berry-green-exclude-15g-baller-buckets-50-percent-off",
    "loc": [
     2
    ],
@@ -2355,7 +2356,7 @@
    ],
    "state": "MI",
    "deal": "Batch - 4g Disposables - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2375,7 +2376,7 @@
    ],
    "state": "MI",
    "deal": "Hyman - 1g AND 2g Disposables - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2394,8 +2395,28 @@
     "Monroe"
    ],
    "state": "MI",
+   "deal": "Breeze - 40% OFF",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/breeze-40-percent-off",
+   "loc": [
+    3
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Monroe",
+   "city": "Monroe",
+   "cities": [
+    "Monroe"
+   ],
+   "state": "MI",
    "deal": "Zaaz - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2414,8 +2435,48 @@
     "Monroe"
    ],
    "state": "MI",
+   "deal": "BAMN - Prerolls / Concetrates / Vapes - 25% OFF",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/bamn-prerolls-concetrates-vapes-25-percent-off",
+   "loc": [
+    3
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Monroe",
+   "city": "Monroe",
+   "cities": [
+    "Monroe"
+   ],
+   "state": "MI",
+   "deal": "Flower Power - 3.5 Pre-Packs / 1g Prerolls / 1g Donuts- 25% OFF",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/flower-power-35-pre-packs-1g-prerolls-1g-donuts-25-percent-off",
+   "loc": [
+    3
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "King of Budz",
+   "store": "King of Budz Monroe",
+   "city": "Monroe",
+   "cities": [
+    "Monroe"
+   ],
+   "state": "MI",
    "deal": "Weed Snobs 200mg Gummies AND 1.2g Infused Prerolls B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2435,7 +2496,7 @@
    ],
    "state": "MI",
    "deal": "Mac Pharms (Exclude Deli) - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c5 Hours Left\u201d when checked",
+   "valid": "page said \u201c2 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2454,13 +2515,13 @@
     "Monroe"
    ],
    "state": "MI",
-   "deal": "Lit Labs - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "deal": "Berry Green (Exclude 15g Baller Buckets) - 50% OFF",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
    "collected": "2026-11-25",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/lit-labs-bogo",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/berry-green-exclude-15g-baller-buckets-50-percent-off",
    "loc": [
     3
    ],
@@ -2474,73 +2535,13 @@
     "Monroe"
    ],
    "state": "MI",
-   "deal": "Gold Crown - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "deal": "MKX 25% OFF",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
    "collected": "2026-11-25",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/gold-crown-bogo",
-   "loc": [
-    3
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Monroe",
-   "city": "Monroe",
-   "cities": [
-    "Monroe"
-   ],
-   "state": "MI",
-   "deal": "Minntz (Excludes DELI) - 25% OFF",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-25",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/minntz-excludes-deli-25-percent-off",
-   "loc": [
-    3
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Monroe",
-   "city": "Monroe",
-   "cities": [
-    "Monroe"
-   ],
-   "state": "MI",
-   "deal": "Fly 1g Carts 15 for 50$",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-25",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/fly-1g-carts-15-for-50",
-   "loc": [
-    3
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "King of Budz",
-   "store": "King of Budz Monroe",
-   "city": "Monroe",
-   "cities": [
-    "Monroe"
-   ],
-   "state": "MI",
-   "deal": "Tonic - BOGO (11/25) (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-25",
-   "url": "https://www.kingofbudz.com/michigan/monroe/deals/tonic-bogo-1125",
+   "url": "https://www.kingofbudz.com/michigan/monroe/deals/mkx-25-percent-off",
    "loc": [
     3
    ],
@@ -2555,7 +2556,7 @@
    ],
    "state": "MI",
    "deal": "Batch - 4g Disposables - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2575,7 +2576,7 @@
    ],
    "state": "MI",
    "deal": "Hyman - 1g AND 2g Disposables - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2595,7 +2596,7 @@
    ],
    "state": "MI",
    "deal": "Breeze - 40% OFF",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2615,7 +2616,7 @@
    ],
    "state": "MI",
    "deal": "Spyder Legs - 40% OFF",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2635,7 +2636,7 @@
    ],
    "state": "MI",
    "deal": "Zaaz - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2655,7 +2656,7 @@
    ],
    "state": "MI",
    "deal": "BAMN - Prerolls / Concetrates / Vapes - 25% OFF",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2675,7 +2676,7 @@
    ],
    "state": "MI",
    "deal": "Flower Power - 3.5 Pre-Packs / 1g Prerolls / 1g Donuts- 25% OFF",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2695,7 +2696,7 @@
    ],
    "state": "MI",
    "deal": "Weed Snobs 200mg Gummies AND 1.2g Infused Prerolls B2G1 (Buy 2, Get 1 Free)",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2715,7 +2716,7 @@
    ],
    "state": "MI",
    "deal": "Michigrown 14g Prepack AND 1g Prerolls - 30% OFF",
-   "valid": "page said \u201c7 Hours Left\u201d when checked",
+   "valid": "page said \u201c4 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -2735,7 +2736,7 @@
    ],
    "state": "MI",
    "deal": "Mac Pharms (Exclude Deli) - BOGO (Buy 1, Get 1 Free)",
-   "valid": "page said \u201c5 Hours Left\u201d when checked",
+   "valid": "page said \u201c2 Hours Left\u201d when checked",
    "until": "",
    "kind": "limited",
    "note": "",
@@ -7063,9 +7064,9 @@
     "Phoenix"
    ],
    "state": "AZ",
-   "deal": "1st Visit - 40% Off any Regular Priced Medicated Item (up to 3.5g)",
-   "valid": "",
-   "until": "",
+   "deal": "60% Off \u2013 Lunchbox 14g Flower ($40)",
+   "valid": "Wednesday, November 25th \u2013 Green Wednesday",
+   "until": "2026-11-25",
    "kind": "limited",
    "note": "",
    "collected": "2026-11-25",
@@ -7085,9 +7086,9 @@
     "Phoenix"
    ],
    "state": "AZ",
-   "deal": "15% Off Military",
-   "valid": "",
-   "until": "",
+   "deal": "60% Off \u2013 Loud Pax & Nirvana 14g bag ($40)",
+   "valid": "Wednesday, November 25th \u2013 Green Wednesday",
+   "until": "2026-11-25",
    "kind": "limited",
    "note": "",
    "collected": "2026-11-25",
@@ -7107,9 +7108,163 @@
     "Phoenix"
    ],
    "state": "AZ",
-   "deal": "10% Off With Referral",
-   "valid": "",
-   "until": "",
+   "deal": "60% Off \u2013 Seed Junky 3.5g",
+   "valid": "Wednesday, November 25th \u2013 Green Wednesday",
+   "until": "2026-11-25",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://nirvanacannabis.com/deals/west-phoenix-az/",
+   "loc": [
+    38,
+    39,
+    40
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Nirvana Cannabis",
+   "store": "Nirvana West Phoenix",
+   "city": "Phoenix",
+   "cities": [
+    "Phoenix"
+   ],
+   "state": "AZ",
+   "deal": "50% Off \u2013 Premium Deli Flower",
+   "valid": "Wednesday, November 25th \u2013 Green Wednesday",
+   "until": "2026-11-25",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://nirvanacannabis.com/deals/west-phoenix-az/",
+   "loc": [
+    38,
+    39,
+    40
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Nirvana Cannabis",
+   "store": "Nirvana West Phoenix",
+   "city": "Phoenix",
+   "cities": [
+    "Phoenix"
+   ],
+   "state": "AZ",
+   "deal": "50% Off \u2013 Infused Deli Flower",
+   "valid": "Wednesday, November 25th \u2013 Green Wednesday",
+   "until": "2026-11-25",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://nirvanacannabis.com/deals/west-phoenix-az/",
+   "loc": [
+    38,
+    39,
+    40
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Nirvana Cannabis",
+   "store": "Nirvana West Phoenix",
+   "city": "Phoenix",
+   "cities": [
+    "Phoenix"
+   ],
+   "state": "AZ",
+   "deal": "50% Off Loud pax 3.5g Infused Asteroids",
+   "valid": "Wednesday, November 25th \u2013 Green Wednesday",
+   "until": "2026-11-25",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://nirvanacannabis.com/deals/west-phoenix-az/",
+   "loc": [
+    38,
+    39,
+    40
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Nirvana Cannabis",
+   "store": "Nirvana West Phoenix",
+   "city": "Phoenix",
+   "cities": [
+    "Phoenix"
+   ],
+   "state": "AZ",
+   "deal": "50% Off Loud Pax 3.5g Frost Bites",
+   "valid": "Wednesday, November 25th \u2013 Green Wednesday",
+   "until": "2026-11-25",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://nirvanacannabis.com/deals/west-phoenix-az/",
+   "loc": [
+    38,
+    39,
+    40
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Nirvana Cannabis",
+   "store": "Nirvana West Phoenix",
+   "city": "Phoenix",
+   "cities": [
+    "Phoenix"
+   ],
+   "state": "AZ",
+   "deal": "50% Off \u2013 Clout King 3.5g ( $22.50)",
+   "valid": "Wednesday, November 25th \u2013 Green Wednesday",
+   "until": "2026-11-25",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://nirvanacannabis.com/deals/west-phoenix-az/",
+   "loc": [
+    38,
+    39,
+    40
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Nirvana Cannabis",
+   "store": "Nirvana West Phoenix",
+   "city": "Phoenix",
+   "cities": [
+    "Phoenix"
+   ],
+   "state": "AZ",
+   "deal": "50% Off \u2013 Clout King 7g Cloutlettes ($30)",
+   "valid": "Wednesday, November 25th \u2013 Green Wednesday",
+   "until": "2026-11-25",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-25",
+   "url": "https://nirvanacannabis.com/deals/west-phoenix-az/",
+   "loc": [
+    38,
+    39,
+    40
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Nirvana Cannabis",
+   "store": "Nirvana West Phoenix",
+   "city": "Phoenix",
+   "cities": [
+    "Phoenix"
+   ],
+   "state": "AZ",
+   "deal": "50% Off \u2013 Alien Labs & Connected",
+   "valid": "Wednesday, November 25th \u2013 Green Wednesday",
+   "until": "2026-11-25",
    "kind": "limited",
    "note": "",
    "collected": "2026-11-25",
@@ -11108,10 +11263,10 @@
    "city": "",
    "cities": [],
    "state": "MO",
-   "deal": "First 25 Customers: FREE Greenlight Bubbler with purchase of any CORE Cannabis or Greenlight Flower product.",
-   "valid": "GREEN WEDNESDAY | November 25",
-   "until": "2026-11-25",
-   "kind": "limited",
+   "deal": "FREE Greenlight Beanie with any $100 purchase, while supplies last.",
+   "valid": "Wed-Wed",
+   "until": "",
+   "kind": "everyday",
    "note": "",
    "collected": "2026-11-25",
    "url": "https://greenlightdispensary.com/greenlight-marijuana-specials/",
@@ -11141,10 +11296,10 @@
    "city": "",
    "cities": [],
    "state": "MO",
-   "deal": "35% Off ROVE: Includes in-stock accessories, cartridges, pods & disposables, and infused prerolls & preroll packs. Selection may vary by location.",
-   "valid": "GREEN WEDNESDAY | November 25",
-   "until": "2026-11-25",
-   "kind": "limited",
+   "deal": "30% Off Hillfire Brands: Includes Hillfire, Heir and Highlander Farms, and Edie Parker products. Non-stacking with other discounts or promos.",
+   "valid": "Wed-Wed",
+   "until": "",
+   "kind": "everyday",
    "note": "",
    "collected": "2026-11-25",
    "url": "https://greenlightdispensary.com/greenlight-marijuana-specials/",
@@ -11174,10 +11329,10 @@
    "city": "",
    "cities": [],
    "state": "MO",
-   "deal": "40% Off STiiiZY: Includes in-stock accessories, pods & disposables, edibles & gummies, flower, and infused & non-infused prerolls & preroll packs. Selection may vary by location.",
-   "valid": "GREEN WEDNESDAY | November 25",
-   "until": "2026-11-25",
-   "kind": "limited",
+   "deal": "40% Off Greenlight Flower: Includes all in-stock weights.",
+   "valid": "Wed-Wed",
+   "until": "",
+   "kind": "everyday",
    "note": "",
    "collected": "2026-11-25",
    "url": "https://greenlightdispensary.com/greenlight-marijuana-specials/",
@@ -11207,10 +11362,10 @@
    "city": "",
    "cities": [],
    "state": "MO",
-   "deal": "40% Off Greenlight Flower: Includes all weights. Selection may vary by location.",
-   "valid": "GREEN WEDNESDAY | November 25",
-   "until": "2026-11-25",
-   "kind": "limited",
+   "deal": "$20 OR 5/$98 Select Strane 8ths (3.5g): Mix & match. Selections include BTY OG, LAB, Legend Moon Arc, Lemon Maraschino, Toronja. While supplies last.",
+   "valid": "Wed-Wed",
+   "until": "",
+   "kind": "everyday",
    "note": "",
    "collected": "2026-11-25",
    "url": "https://greenlightdispensary.com/greenlight-marijuana-specials/",
@@ -11240,10 +11395,10 @@
    "city": "",
    "cities": [],
    "state": "MO",
-   "deal": "40% Off CORE Cannabis Flower: Includes all weights. Selection may vary by location.",
-   "valid": "GREEN WEDNESDAY | November 25",
-   "until": "2026-11-25",
-   "kind": "limited",
+   "deal": "$20 OR 5/$98 Select In The Flow 8ths (3.5g): Mix & match. Selections include Truffle Hound, Kept Secret. While supplies last.",
+   "valid": "Wed-Wed",
+   "until": "",
+   "kind": "everyday",
    "note": "",
    "collected": "2026-11-25",
    "url": "https://greenlightdispensary.com/greenlight-marijuana-specials/",
@@ -11273,10 +11428,10 @@
    "city": "",
    "cities": [],
    "state": "MO",
-   "deal": "5/$10 Greenlight Slap & Tickle Prerolls (1g): Must purchase 5 minimum for offer.",
-   "valid": "GREEN WEDNESDAY | November 25",
-   "until": "2026-11-25",
-   "kind": "limited",
+   "deal": "$25 OR 4/$98 Select In The Flow 8ths (3.5g): Mix & match. Selections include Shoki, Donny Burger, Mercy. While Supplies last.",
+   "valid": "Wed-Wed",
+   "until": "",
+   "kind": "everyday",
    "note": "",
    "collected": "2026-11-25",
    "url": "https://greenlightdispensary.com/greenlight-marijuana-specials/",
@@ -11306,10 +11461,10 @@
    "city": "",
    "cities": [],
    "state": "MO",
-   "deal": "40% Off Greenlight Prerolls (1g): Selection may vary by location.",
-   "valid": "GREEN WEDNESDAY | November 25",
-   "until": "2026-11-25",
-   "kind": "limited",
+   "deal": "Wed-Wed: $20 Off (the) Essence Quarters (7g)",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
    "note": "",
    "collected": "2026-11-25",
    "url": "https://greenlightdispensary.com/greenlight-marijuana-specials/",
@@ -11339,10 +11494,10 @@
    "city": "",
    "cities": [],
    "state": "MO",
-   "deal": "40% Off CORE Cannabis Prerolls and Preroll Packs: Selection may vary by location.",
-   "valid": "GREEN WEDNESDAY | November 25",
-   "until": "2026-11-25",
-   "kind": "limited",
+   "deal": "Wed-Wed: $35 Off Savvy Half-Ounces (14g)",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
    "note": "",
    "collected": "2026-11-25",
    "url": "https://greenlightdispensary.com/greenlight-marijuana-specials/",
@@ -11372,10 +11527,10 @@
    "city": "",
    "cities": [],
    "state": "MO",
-   "deal": "30% Off Dogwalkers Preroll 5pks: Includes Infused and non-infused options. Selection may vary by location.",
-   "valid": "GREEN WEDNESDAY | November 25",
-   "until": "2026-11-25",
-   "kind": "limited",
+   "deal": "Wed-Wed: 20% Off Airo Batteries, Pods and Disposables",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
    "note": "",
    "collected": "2026-11-25",
    "url": "https://greenlightdispensary.com/greenlight-marijuana-specials/",
@@ -11405,10 +11560,10 @@
    "city": "",
    "cities": [],
    "state": "MO",
-   "deal": "$13.50 OR 2/$20 Prime Cannabis Infused Prerolls (1g)",
-   "valid": "GREEN WEDNESDAY | November 25",
-   "until": "2026-11-25",
-   "kind": "limited",
+   "deal": "2/$70 OR 4/$135 AltSol Permanent Marker Cartridges (1g)",
+   "valid": "Wed-Wed",
+   "until": "",
+   "kind": "everyday",
    "note": "",
    "collected": "2026-11-25",
    "url": "https://greenlightdispensary.com/greenlight-marijuana-specials/",
@@ -15381,26 +15536,6 @@
     "Morgantown"
    ],
    "state": "WV",
-   "deal": "3.5g Flower: 4-for-25% Off",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-25",
-   "url": "https://zenleafdispensaries.com/locations/morgantown/medical-menu/menu/discounts",
-   "loc": [
-    162
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "Zen Leaf",
-   "store": "Zen Leaf Morgantown",
-   "city": "Morgantown",
-   "cities": [
-    "Morgantown"
-   ],
-   "state": "WV",
    "deal": "Black White: 30% Off",
    "valid": "",
    "until": "",
@@ -17090,7 +17225,7 @@
   "locations": 163,
   "store_points": 134,
   "city_points": 29,
-  "deals_store": 482,
+  "deals_store": 488,
   "deals_city": 135,
   "deals_statewide": 40
  },
@@ -17103,5 +17238,5 @@
   "note": "Paid placement slot (not live). Sponsored deals will always be labeled and kept separate from, never ranked above, the free list."
  },
  "disclaimer": "21+ only. For adults 21 and older (or registered medical patients). Deals change often and can differ by store: always confirm with the store before you go. Listed from each dispensary's own public page; not an endorsement.",
- "generated": "2026-11-25 15:40 EST"
+ "generated": "2026-11-25 18:46 EST"
 }
