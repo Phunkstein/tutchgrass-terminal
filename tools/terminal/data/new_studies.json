@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-25 00:45 EST",
+ "generated": "2026-11-25 05:45 EST",
  "window": {
   "start": "2026-10-26",
   "end": "2026-11-25",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "bf0b85903d4797aa",
+ "fingerprint": "ec401e0b4340ca6b",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -64,7 +64,8 @@
    "43015371",
    "43047344",
    "43060641",
-   "42997636"
+   "42997636",
+   "43079676"
   ],
   "pain": [
    "43064628",
@@ -82,11 +83,12 @@
   ],
   "anxiety": [
    "42977215",
+   "43079000",
    "43015371",
-   "42968604",
-   "42963524"
+   "42968604"
   ],
   "mood": [
+   "43079000",
    "43050331",
    "42998719"
   ],
@@ -97,7 +99,8 @@
    "42945746"
   ],
   "arthritis": [
-   "43035947"
+   "43035947",
+   "43079676"
   ],
   "inflammation": [
    "42970043",
@@ -116,6 +119,7 @@
   ],
   "focus": [
    "42997626",
+   "43079910",
    "42997000",
    "42971927"
   ],
@@ -137,16 +141,16 @@
   "ibd": []
  },
  "pubmed_counts": {
-  "sleep": 24,
-  "pain": 33,
-  "anxiety": 45,
-  "mood": 49,
+  "sleep": 25,
+  "pain": 34,
+  "anxiety": 46,
+  "mood": 50,
   "ptsd": 13,
-  "arthritis": 5,
+  "arthritis": 6,
   "inflammation": 15,
   "nausea": 10,
   "appetite": 5,
-  "focus": 9,
+  "focus": 10,
   "fibromyalgia": 3,
   "ms": 7,
   "epilepsy": 14,
@@ -154,16 +158,16 @@
   "ibd": 2
  },
  "newest": {
-  "sleep": "2026-11-20",
+  "sleep": "2026-11-25",
   "pain": "2026-11-22",
-  "anxiety": "2026-11-12",
-  "mood": "2026-11-18",
+  "anxiety": "2026-11-25",
+  "mood": "2026-11-25",
   "ptsd": "2026-11-20",
-  "arthritis": "2026-11-16",
+  "arthritis": "2026-11-25",
   "inflammation": "2026-11-15",
   "nausea": "2026-11-18",
   "appetite": "2026-11-19",
-  "focus": "2026-11-08",
+  "focus": "2026-11-25",
   "fibromyalgia": "2026-10-27",
   "ms": "2026-11-18",
   "epilepsy": "2026-11-19",
@@ -171,6 +175,68 @@
   "ibd": null
  },
  "papers": [
+  {
+   "pmid": "43079676",
+   "title": "Cannabidiol for chronic pain in rheumatoid arthritis and ankylosing spondylitis: a randomized, placebo-controlled trial with exploratory tetrahydrocannabinol add-on.",
+   "journal": "J Cannabis Res",
+   "date": "2026-11-25",
+   "pubdate": "2026-08-31",
+   "first_author": "Hendricks et al.",
+   "doi": "10.1186/s42238-026-00496-8",
+   "grade": "rct",
+   "grade_label": "Human RCT (placebo)",
+   "plain": {
+    "did": "A randomized trial in 66 people compared a cannabis product with placebo.",
+    "found": "Low-dose CBD did not yield meaningful pain relief. The addition of low-dose THC was associated with improvements in pain and sleep quality. These findings should be regarded as hypothesis-generating and require confirmation in blinded randomized controlled trials.",
+    "caveat": "Randomized against placebo: the strongest single-study design. Check the size and dose."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43079676/",
+   "conditions": [
+    "sleep",
+    "arthritis"
+   ]
+  },
+  {
+   "pmid": "43079000",
+   "title": "Sex-specific reprogramming of immune and endocannabinoid networks in the placenta following prenatal cannabinoid exposure.",
+   "journal": "Mol Psychiatry",
+   "date": "2026-11-25",
+   "pubdate": "2026-11-24",
+   "first_author": "Bara et al.",
+   "doi": "10.1038/s41380-026-03964-y",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "In the human cohort, immune network suppression was associated with increased anxiety-related behaviors, whereas phospholipid metabolism modules correlated with depressive symptom measures.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43079000/",
+   "conditions": [
+    "anxiety",
+    "mood"
+   ]
+  },
+  {
+   "pmid": "43079910",
+   "title": "Sex-selective effects of prenatal \u03949-tetrahydrocannabinol exposure and early-life stress on cognitive function mediated by prefrontal-hippocampal circuitry.",
+   "journal": "Br J Pharmacol",
+   "date": "2026-11-25",
+   "pubdate": "2026-11-24",
+   "first_author": "P\u00e9rez-Valenzuela et al.",
+   "doi": "10.1111/bph.70734",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "Thus, PCE induces sensory motor gating impairments in both sexes' offspring, whereas the PCE + ELS combination selectively impaired working and spatial memory in males, demonstrating sex-selective effects of PCE and early-life stressors.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43079910/",
+   "conditions": [
+    "focus"
+   ]
+  },
   {
    "pmid": "43066616",
    "title": "Radial Pressure Wave Therapy Attenuates Chronic Postoperative Pain via Spinal CB1/CB2 Receptors and Is Associated With Increased 2-AG Levels.",
@@ -796,26 +862,6 @@
    "url": "https://pubmed.ncbi.nlm.nih.gov/42966277/",
    "conditions": [
     "pain"
-   ]
-  },
-  {
-   "pmid": "42963524",
-   "title": "Factors associated with cannabis use among infertile patients and their partner.",
-   "journal": "J Assist Reprod Genet",
-   "date": "2026-10-31",
-   "pubdate": "2026-10-31",
-   "first_author": "Steckler et al.",
-   "doi": "10.1007/s10815-026-04065-z",
-   "grade": "obs",
-   "grade_label": "Observational",
-   "plain": {
-    "did": "Researchers looked at data on 1531 people (nobody was assigned a treatment).",
-    "found": "Cannabis use increased over the study period and clustered with other behavioral and psychosocial factors. Younger, non-married individuals and those reporting tobacco use or anxiety/depression may benefit from targeted cannabis screening and preconception counseling.",
-    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42963524/",
-   "conditions": [
-    "anxiety"
    ]
   },
   {
