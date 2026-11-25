@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-24 17:45 EST",
+ "generated": "2026-11-25 00:45 EST",
  "window": {
-  "start": "2026-10-25",
-  "end": "2026-11-24",
+  "start": "2026-10-26",
+  "end": "2026-11-25",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "3f11d1dd392a4278",
+ "fingerprint": "bf0b85903d4797aa",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -78,13 +78,13 @@
    "42956528",
    "42966277",
    "42950713",
-   "42929306",
-   "42927589"
+   "42929306"
   ],
   "anxiety": [
    "42977215",
    "43015371",
-   "42968604"
+   "42968604",
+   "42963524"
   ],
   "mood": [
    "43050331",
@@ -137,20 +137,20 @@
   "ibd": []
  },
  "pubmed_counts": {
-  "sleep": 27,
-  "pain": 35,
-  "anxiety": 48,
-  "mood": 53,
+  "sleep": 24,
+  "pain": 33,
+  "anxiety": 45,
+  "mood": 49,
   "ptsd": 13,
   "arthritis": 5,
   "inflammation": 15,
   "nausea": 10,
   "appetite": 5,
-  "focus": 10,
+  "focus": 9,
   "fibromyalgia": 3,
   "ms": 7,
   "epilepsy": 14,
-  "migraine": 5,
+  "migraine": 4,
   "ibd": 2
  },
  "newest": {
@@ -799,6 +799,26 @@
    ]
   },
   {
+   "pmid": "42963524",
+   "title": "Factors associated with cannabis use among infertile patients and their partner.",
+   "journal": "J Assist Reprod Genet",
+   "date": "2026-10-31",
+   "pubdate": "2026-10-31",
+   "first_author": "Steckler et al.",
+   "doi": "10.1007/s10815-026-04065-z",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at data on 1531 people (nobody was assigned a treatment).",
+    "found": "Cannabis use increased over the study period and clustered with other behavioral and psychosocial factors. Younger, non-married individuals and those reporting tobacco use or anxiety/depression may benefit from targeted cannabis screening and preconception counseling.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42963524/",
+   "conditions": [
+    "anxiety"
+   ]
+  },
+  {
    "pmid": "42956528",
    "title": "Lipid-based nanoencapsulation prolongs the antinociceptive effect of cannabidiol in experimental neuropathic pain.",
    "journal": "Biomed Pharmacother",
@@ -977,27 +997,7 @@
    "conditions": [
     "pain"
    ]
-  },
-  {
-   "pmid": "42927589",
-   "title": "The role of hope and its association with quality of life in individuals with chronic pain - insights from a daily diary study.",
-   "journal": "Qual Life Res",
-   "date": "2026-10-25",
-   "pubdate": "2026-10-25",
-   "first_author": "Joo et al.",
-   "doi": "10.1007/s11136-026-04413-7",
-   "grade": "obs",
-   "grade_label": "Observational",
-   "plain": {
-    "did": "Researchers looked at existing data on people (nobody was assigned a treatment).",
-    "found": "Our daily diary study found that previous-day hope frequency - both stable individual differences and day-to-day fluctuations - was associated with next-day QoL in individuals with chronic pain who were co-using cannabis and opioids.",
-    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42927589/",
-   "conditions": [
-    "pain"
-   ]
   }
  ],
- "week_start": "2026-11-17"
+ "week_start": "2026-11-18"
 }
