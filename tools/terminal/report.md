@@ -1,6 +1,6 @@
 # Cannabis Agent Terminal: Scientist report
 
-Generated 2026-11-25 10:53 EST. Research summary, not medical advice. Talk to a doctor.
+Generated 2026-11-25 11:45 EST. Research summary, not medical advice. Talk to a doctor.
 
 _Strain names are typical examples only; the same name can test very differently by grower and batch. Go by the lab COA (THC, CBD, minor cannabinoids, terpenes), not the name._
 
@@ -58,7 +58,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** THC reduces muscle over-activity through CB1 receptors in the spinal cord; CBD in equal amounts is thought to soften THC's psychoactive side effects. In an enriched-design phase 3 trial, people who responded in the first 4 weeks kept the benefit vs placebo over 12 weeks; a 2023 meta-analysis supports add-on use for treatment-resistant spasticity.
 - **Strains that typically express this profile:** Pennywise (~1:1), Harlequin (CBD-leaning balanced), Cannatonic (typically; check the COA)
 - **Cautions:** Effects are modest (about 0.76 points on a 0-10 scale per National Academies). Dizziness and falls risk; psychiatric and nervous-system side effects slightly more common. Only about half of people respond in trials; stop if no benefit after a few weeks.
-- **New PubMed papers, last 30 days:** 5
+- **New PubMed papers, last 30 days:** 6
 - **Citations:**
   - [SR] Filippini et al. (2022). Cannabis and cannabinoids for symptomatic treatment for people with multiple sclerosis. *Cochrane Database Syst Rev*. PMID [35510826](https://pubmed.ncbi.nlm.nih.gov/35510826/). DOI [10.1002/14651858.CD013444.pub2](https://doi.org/10.1002/14651858.CD013444.pub2)
   - [RCT] Novotna et al. (2011). A randomized, double-blind, placebo-controlled, parallel-group, enriched-design study of nabiximols* (Sativex(®) ), as add-on therapy, in subjects with refractory spasticity caused by multiple sclerosis. *Eur J Neurol*. PMID [21362108](https://pubmed.ncbi.nlm.nih.gov/21362108/). DOI [10.1111/j.1468-1331.2010.03328.x](https://doi.org/10.1111/j.1468-1331.2010.03328.x)
