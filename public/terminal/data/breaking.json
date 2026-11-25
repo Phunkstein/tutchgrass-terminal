@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-25T07:28:22-0500",
- "generated_ts": 1795609702,
+ "generated": "2026-11-25T08:13:12-0500",
+ "generated_ts": 1795612393,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -28,8 +28,8 @@
   },
   {
    "source": "StratCann (Canada)",
-   "status": "unavailable",
-   "items": 0
+   "status": "ok",
+   "items": 12
   },
   {
    "source": "Google News: intl cannabis",
@@ -39,6 +39,21 @@
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "marijuanaopponentssaytrumpsaudaciousreschedulingmoveisillega",
+   "title": "Marijuana Opponents Say Trump\u2019s \u2018Audacious\u2019 Rescheduling Move Is Illegal And Must Be Overturned In New Lawsuit Brief",
+   "link": "https://www.marijuanamoment.net/marijuana-opponents-say-trumps-audacious-rescheduling-move-is-illegal-and-must-be-overturned-in-new-lawsuit-brief/",
+   "source": "Marijuana Moment",
+   "category": "US federal",
+   "is_law": true,
+   "states": [
+    "New"
+   ],
+   "published": "2026-11-25T08:12:04-0500",
+   "published_ts": 1795612324.0,
+   "first_seen": "2026-11-25T08:13:12-0500",
+   "first_seen_ts": 1795612393
+  },
   {
    "id": "southcarolinahealthofficialspromisetoaddresssenatorsmedicalm",
    "title": "South Carolina Health Officials Promise To Address Senator\u2019s Medical Marijuana Access Concerns Within 30 Days",
@@ -497,19 +512,6 @@
    "published_ts": 1795440372.0,
    "first_seen": "2026-11-23T08:28:12-0500",
    "first_seen_ts": 1795440492
-  },
-  {
-   "id": "congressmustacttomakesurecannabisreschedulingactuallyimprove",
-   "title": "Congress Must Act To Make Sure Cannabis Rescheduling Actually Improves Patients\u2019 Access Instead Of Undermining It (Op-Ed)",
-   "link": "https://www.marijuanamoment.net/congress-must-act-to-make-sure-cannabis-rescheduling-actually-improves-patients-access-instead-of-undermining-it-op-ed/",
-   "source": "Marijuana Moment",
-   "category": "US federal",
-   "is_law": true,
-   "states": [],
-   "published": "2026-11-23T07:48:11-0500",
-   "published_ts": 1795438091.0,
-   "first_seen": "2026-11-23T07:48:13-0500",
-   "first_seen_ts": 1795438093
   }
  ]
 }
