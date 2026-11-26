@@ -1,8 +1,8 @@
 {
  "agent": "news-wire",
  "about": "Items the News Wire saw for the first time in the last 48 hours, newest first. first_seen = when our 5-minute check first saw it; published = the feed's own pubDate. Older stories that a feed re-surfaces are not listed.",
- "generated": "2026-11-26T12:28:19-0500",
- "generated_ts": 1795714100,
+ "generated": "2026-11-26T15:53:14-0500",
+ "generated_ts": 1795726394,
  "window_hours": 48,
  "check_every_minutes": 5,
  "sources": [
@@ -34,11 +34,24 @@
   {
    "source": "Google News: intl cannabis",
    "status": "ok",
-   "items": 0
+   "items": 12
   }
  ],
  "new_this_run": 1,
  "items": [
+  {
+   "id": "shatterrecalledduetolabellingissuerelatedtobotanicalterps",
+   "title": "Shatter Recalled Due to Labelling Issue Related to Botanical Terps",
+   "link": "https://stratcann.com/recall/shatter-recalled-due-to-labelling-issue-related-to-botanical-terps/",
+   "source": "StratCann (Canada)",
+   "category": "International",
+   "is_law": false,
+   "states": [],
+   "published": "2026-11-26T15:52:52-0500",
+   "published_ts": 1795726372.0,
+   "first_seen": "2026-11-26T15:53:14-0500",
+   "first_seen_ts": 1795726394
+  },
   {
    "id": "borderofficersandrcmpinterceptillegalcannabisinontario",
    "title": "Border Officers and RCMP Intercept Illegal Cannabis in Ontario",
@@ -375,21 +388,6 @@
    "published_ts": 1795554180.0,
    "first_seen": "2026-11-24T16:33:13-0500",
    "first_seen_ts": 1795555993
-  },
-  {
-   "id": "voiceoftheplantthenewyorkcannabisnurserycontroversyandanoppo",
-   "title": "Voice of the Plant: The New York cannabis nursery controversy \u2013 and an opportunity to become the genetics capital of the world",
-   "link": "https://mjbizdaily.com/news/voice-of-the-plant-the-new-york-cannabis-nursery-controversy-and-an-opportunity-to-become-the-genetics-capital-of-the-world/619346/",
-   "source": "MJBizDaily",
-   "category": "International",
-   "is_law": false,
-   "states": [
-    "New"
-   ],
-   "published": "2026-11-24T15:44:45-0500",
-   "published_ts": 1795553085.0,
-   "first_seen": "2026-11-24T15:48:19-0500",
-   "first_seen_ts": 1795553300
   }
  ]
 }
