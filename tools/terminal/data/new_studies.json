@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-26 00:45 EST",
+ "generated": "2026-11-26 05:45 EST",
  "window": {
   "start": "2026-10-27",
   "end": "2026-11-26",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "318f5d7140f05856",
+ "fingerprint": "fd5146318e9e537e",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -64,8 +64,7 @@
    "43015371",
    "43047344",
    "43060641",
-   "42997636",
-   "43079676"
+   "42997636"
   ],
   "pain": [
    "43064628",
@@ -84,8 +83,7 @@
   "anxiety": [
    "42977215",
    "43079000",
-   "43015371",
-   "42968604"
+   "43015371"
   ],
   "mood": [
    "43079000",
@@ -141,10 +139,10 @@
   "ibd": []
  },
  "pubmed_counts": {
-  "sleep": 24,
-  "pain": 33,
-  "anxiety": 47,
-  "mood": 50,
+  "sleep": 27,
+  "pain": 34,
+  "anxiety": 48,
+  "mood": 51,
   "ptsd": 13,
   "arthritis": 6,
   "inflammation": 15,
@@ -153,12 +151,12 @@
   "focus": 10,
   "fibromyalgia": 3,
   "ms": 8,
-  "epilepsy": 14,
+  "epilepsy": 17,
   "migraine": 4,
   "ibd": 2
  },
  "newest": {
-  "sleep": "2026-11-25",
+  "sleep": "2026-11-20",
   "pain": "2026-11-22",
   "anxiety": "2026-11-25",
   "mood": "2026-11-25",
@@ -175,27 +173,6 @@
   "ibd": null
  },
  "papers": [
-  {
-   "pmid": "43079676",
-   "title": "Cannabidiol for chronic pain in rheumatoid arthritis and ankylosing spondylitis: a randomized, placebo-controlled trial with exploratory tetrahydrocannabinol add-on.",
-   "journal": "J Cannabis Res",
-   "date": "2026-11-25",
-   "pubdate": "2026-08-31",
-   "first_author": "Hendricks et al.",
-   "doi": "10.1186/s42238-026-00496-8",
-   "grade": "rct",
-   "grade_label": "Human RCT (placebo)",
-   "plain": {
-    "did": "A randomized trial in 66 people compared a cannabis product with placebo.",
-    "found": "Low-dose CBD did not yield meaningful pain relief. The addition of low-dose THC was associated with improvements in pain and sleep quality. These findings should be regarded as hypothesis-generating and require confirmation in blinded randomized controlled trials.",
-    "caveat": "Randomized against placebo: the strongest single-study design. Check the size and dose."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/43079676/",
-   "conditions": [
-    "sleep",
-    "arthritis"
-   ]
-  },
   {
    "pmid": "43079000",
    "title": "Sex-specific reprogramming of immune and endocannabinoid networks in the placenta following prenatal cannabinoid exposure.",
@@ -215,6 +192,26 @@
    "conditions": [
     "anxiety",
     "mood"
+   ]
+  },
+  {
+   "pmid": "43079676",
+   "title": "Cannabidiol for chronic pain in rheumatoid arthritis and ankylosing spondylitis: a randomized, placebo-controlled trial with exploratory tetrahydrocannabinol add-on.",
+   "journal": "J Cannabis Res",
+   "date": "2026-11-25",
+   "pubdate": "2026-08-31",
+   "first_author": "Hendricks et al.",
+   "doi": "10.1186/s42238-026-00496-8",
+   "grade": "rct",
+   "grade_label": "Human RCT (placebo)",
+   "plain": {
+    "did": "A randomized trial in 66 people compared a cannabis product with placebo.",
+    "found": "Low-dose CBD did not yield meaningful pain relief. The addition of low-dose THC was associated with improvements in pain and sleep quality. These findings should be regarded as hypothesis-generating and require confirmation in blinded randomized controlled trials.",
+    "caveat": "Randomized against placebo: the strongest single-study design. Check the size and dose."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43079676/",
+   "conditions": [
+    "arthritis"
    ]
   },
   {
@@ -780,8 +777,7 @@
    },
    "url": "https://pubmed.ncbi.nlm.nih.gov/42968604/",
    "conditions": [
-    "pain",
-    "anxiety"
+    "pain"
    ]
   },
   {
