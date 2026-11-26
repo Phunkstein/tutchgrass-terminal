@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-25 23:45 EST",
+ "generated": "2026-11-26 00:45 EST",
  "window": {
-  "start": "2026-10-26",
-  "end": "2026-11-25",
+  "start": "2026-10-27",
+  "end": "2026-11-26",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "3f09495ca333fc10",
+ "fingerprint": "318f5d7140f05856",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -79,7 +79,7 @@
    "42956528",
    "42966277",
    "42950713",
-   "42929306"
+   "42965212"
   ],
   "anxiety": [
    "42977215",
@@ -141,10 +141,10 @@
   "ibd": []
  },
  "pubmed_counts": {
-  "sleep": 25,
-  "pain": 34,
+  "sleep": 24,
+  "pain": 33,
   "anxiety": 47,
-  "mood": 52,
+  "mood": 50,
   "ptsd": 13,
   "arthritis": 6,
   "inflammation": 15,
@@ -865,6 +865,26 @@
    ]
   },
   {
+   "pmid": "42965212",
+   "title": "Normal on the Inside: A Case of Recurrent Abdominal Pain, Equivocal CT Appendicitis, and Histologically Normal Appendix in an Adolescent With Chronic Cannabis Use.",
+   "journal": "Cureus",
+   "date": "2026-10-31",
+   "pubdate": "2026-09-30",
+   "first_author": "Abdelgabar et al.",
+   "doi": "10.7759/cureus.117214",
+   "grade": "case",
+   "grade_label": "Case report",
+   "plain": {
+    "did": "A report on one or a few patients.",
+    "found": "Faecal calprotectin was 159 microg/g. When CT findings, operative appearances, and histology point in different directions, the underlying diagnosis is not resolved by surgery; it has to be reconsidered from the beginning.",
+    "caveat": "One or a few patients. Useful for safety signals, not for effect."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42965212/",
+   "conditions": [
+    "pain"
+   ]
+  },
+  {
    "pmid": "42956528",
    "title": "Lipid-based nanoencapsulation prolongs the antinociceptive effect of cannabidiol in experimental neuropathic pain.",
    "journal": "Biomed Pharmacother",
@@ -1023,27 +1043,7 @@
    "conditions": [
     "fibromyalgia"
    ]
-  },
-  {
-   "pmid": "42929306",
-   "title": "Polygenic prediction of cannabis-related outcomes: Evidence from the Avon Longitudinal Study of Parents and Children longitudinal cohort and the European gene-environment interaction case-control study.",
-   "journal": "Addiction",
-   "date": "2026-10-26",
-   "pubdate": "2026-10-26",
-   "first_author": "Spinazzola et al.",
-   "doi": "10.1111/add.70628",
-   "grade": "obs",
-   "grade_label": "Observational",
-   "plain": {
-    "did": "Researchers looked at existing data on people (nobody was assigned a treatment).",
-    "found": "SUMMARY: Genetic liability, measured by polygenic risk scores, to cannabis use disorder, major depressive disorder, and chronic pain appears to be associated with heavier and more problematic cannabis use.",
-    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42929306/",
-   "conditions": [
-    "pain"
-   ]
   }
  ],
- "week_start": "2026-11-18"
+ "week_start": "2026-11-19"
 }
