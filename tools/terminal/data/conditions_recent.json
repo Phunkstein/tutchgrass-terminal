@@ -3,7 +3,7 @@
   "start": "2025-05-25",
   "end": "2026-11-25"
  },
- "generated": "2026-11-25 00:45 EST",
+ "generated": "2026-11-25 20:45 EST",
  "source": "NCBI PubMed E-utilities",
  "conditions": {
   "sleep": {
@@ -219,6 +219,16 @@
      "conclusion": "The current literature on the putative anxiolytic effects of CBD is constrained by methodological variability and limited statistical power. Future studies should employ standardized paradigms, improve reporting practices, and include more diverse and adequately powered samples to clarify the neural correlates of CBD-related effects on stress and anxiety."
     },
     {
+     "pmid": "41864773",
+     "title": "Physical Activity Level Moderates Cannabis-Associated Reductions in Negative Affect in Anxious Individuals.",
+     "journal": "Clin Ther",
+     "date": "2026-03-20",
+     "tag": "RCT",
+     "first_author": "Lisano et al.",
+     "doi": "10.1016/j.clinthera.2026.02.007",
+     "conclusion": "This study is the first to describe cannabis associated reductions in negative affect being moderated by physical activity. These findings suggest that this association is dependent upon the cannabinoid concentration in the cannabis product being used."
+    },
+    {
      "pmid": "41752306",
      "title": "Therapeutically Motivated Cannabis Use for Anxiety: Daily and Longitudinal Reductions Vary Between Flower and Edible Products.",
      "journal": "Int J Environ Res Public Health",
@@ -230,16 +240,6 @@
     }
    ],
    "holistic": [
-    {
-     "pmid": "42094888",
-     "title": "Optimal dose of aerobic exercise for improving postpartum depression, anxiety, and quality of life: a meta-analysis of randomized controlled trials and dose-response analysis.",
-     "journal": "Front Public Health",
-     "date": "2026-04-21",
-     "tag": "META-ANALYSIS",
-     "first_author": "Cai et al.",
-     "doi": "10.3389/fpubh.2026.1807903",
-     "conclusion": "Aerobic exercise reduces postpartum depressive symptoms and improves HRQoL. Optimal effects were observed at approximately 570 MET minutes per week for depression and 420 MET minutes per week for HRQoL, suggesting that a weekly volume of 400 to 600 MET minutes may be a practical target in postpartum care. Evidence remains insufficient to confirm anxiolytic effects."
-    },
     {
      "pmid": "41667154",
      "title": "Effect of exercise on depression and anxiety symptoms: systematic umbrella review with meta-meta-analysis.",
@@ -259,6 +259,16 @@
      "first_author": "Janssen-Aguilar et al.",
      "doi": "10.1001/jamapsychiatry.2025.3261",
      "conclusion": "In this systematic review and meta-analysis, KDs were associated with modest improvements in depressive symptoms, particularly with biochemical ketosis verification, while anxiety evidence was inconclusive. Given heterogeneity, comparators, and short follow-up, well-powered trials with standardized, verified protocols, structured support, and prespecified outcomes are needed to confirm efficacy and durability."
+    },
+    {
+     "pmid": "41327816",
+     "title": "Effects of Yoga Nidra on Stress, Anxiety, and Depression: A Systematic Review and Meta-Analysis.",
+     "journal": "Ann N Y Acad Sci",
+     "date": "2025-12-01",
+     "tag": "META-ANALYSIS",
+     "first_author": "Ghai et al.",
+     "doi": "10.1111/nyas.70149",
+     "conclusion": "However, given the low methodological quality and variability in intervention delivery, these moderate-to-large effects should be interpreted cautiously, as they likely reflect inflated estimates. Despite these limitations, YN shows potential in managing mental health symptoms, underscoring the need for high-quality, standardized research to establish its efficacy as a viable clinical intervention."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (anxiety[tiab] OR anxious[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/25:2026/11/25[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -269,7 +279,7 @@
    "emoji": "\ud83c\udf24\ufe0f",
    "goal": "mood",
    "background": [],
-   "cann_matches": 51,
+   "cann_matches": 52,
    "hol_matches": 554,
    "cannabinoid": [
     {
@@ -467,16 +477,6 @@
      "conclusion": "The updated EULAR recommendations for PA should guide the development, conduct and evaluation of PA interventions and promotion, including the reduction of SB, in people with IA and OA. These recommendations should be implemented with consideration of individual needs, environmental conditions, and the broader national health care context."
     },
     {
-     "pmid": "42827396",
-     "title": "Effects of Yoga on Rheumatoid Arthritis: A Systematic Review and Meta-Analysis.",
-     "journal": "Int J Rheum Dis",
-     "date": "2026-10-01",
-     "tag": "META-ANALYSIS",
-     "first_author": "Suresh et al.",
-     "doi": "10.1111/1756-185x.70896",
-     "conclusion": "This meta-analysis indicates that yoga significantly improves mental health by reducing stress, anxiety, depression & lowers inflammation through reduced IL-6 levels. However, its effect on physical health and TNF-\u03b1 was not consistent, suggesting more research is needed. Further large-scale studies are needed to validate and standardize its use."
-    },
-    {
      "pmid": "41702669",
      "title": "Effectiveness of exercise therapy for osteoarthritis: an overview of systematic reviews and randomised controlled trials.",
      "journal": "RMD Open",
@@ -485,6 +485,16 @@
      "first_author": "Schleimer et al.",
      "doi": "10.1136/rmdopen-2025-006275",
      "conclusion": "Evidence on exercise for osteoarthritis remains largely inconclusive, suggesting negligible or short-lasting small effects comparable to, or less effective than, other treatments. These findings question its universal promotion and highlight the need to revisit research priorities and clinical discussions around its worthwhileness."
+    },
+    {
+     "pmid": "41415257",
+     "title": "Effectiveness of telemedicine-delivered exercise interventions in older adult patients with osteoarthritis: a systematic review and meta-analysis.",
+     "journal": "Front Public Health",
+     "date": "2025-12-03",
+     "tag": "META-ANALYSIS",
+     "first_author": "Zhu et al.",
+     "doi": "10.3389/fpubh.2025.1719841",
+     "conclusion": "Remote exercise rehabilitation interventions have been shown to effectively alleviate pain, improve quality of life, and enhance physical function in older adult individuals with OA. This approach offers a viable alternative to traditional face-to-face exercise rehabilitation for older adult patients suffering from OA."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (arthritis[tiab] OR osteoarthritis[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/25:2026/11/25[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -683,16 +693,6 @@
    ],
    "holistic": [
     {
-     "pmid": "42341365",
-     "title": "Effects of mindfulness and mindful eating on food intake and appetite: a systematic review and meta-analysis.",
-     "journal": "Clin Psychol Rev",
-     "date": "2026-06-16",
-     "tag": "META-ANALYSIS",
-     "first_author": "Ahmadyar et al.",
-     "doi": "10.1016/j.cpr.2026.102780",
-     "conclusion": "Overall, findings indicate that mindfulness and mindful eating reliably reduce food intake in controlled settings, but currently there is no evidence they influence appetite. The review underscores the need for higher quality and more ecologically valid studies using sensitive, real-world measures of appetite and food intake, and further work to clarify the mechanisms of action underpinning the effects of mindfulness"
-    },
-    {
      "pmid": "42280300",
      "title": "Beyond Recovery: Effects of Post-Exercise Milk and Milk-Based Beverages on Appetite Regulation and Energy Intake-A Systematic Review and Meta-Analysis.",
      "journal": "Nutrients",
@@ -711,6 +711,16 @@
      "first_author": "Yin et al.",
      "doi": "10.1186/s12888-026-08110-0",
      "conclusion": "Supervised physical activity, particularly resistance training, shows promise as a safe adjunct to standard care in anorexia nervosa. Pooled results indicate significant gains in muscle strength, whereas no statistically significant between-group differences were detected for body weight, BMI, body fat percentage, or quality of life. Due to the limitations of the available data, future studies should include larger m"
+    },
+    {
+     "pmid": "40840552",
+     "title": "Acute Exercise Effects on Appetite and Energy Intake in People Living With Overweight and Obesity: A Systematic Review and Meta-Analysis.",
+     "journal": "Int J Sport Nutr Exerc Metab",
+     "date": "2025-09-04",
+     "tag": "META-ANALYSIS",
+     "first_author": "Li et al.",
+     "doi": "10.1123/ijsnem.2025-0078",
+     "conclusion": "Exercise may be an effective short-term intervention for reducing appetite and energy intake among people living with overweight and obesity. Registration: PROSPERO CRD42024623903."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (appetite[tiab] OR cachexia[tiab] OR anorexia[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/25:2026/11/25[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -722,7 +732,7 @@
    "goal": "focus",
    "background": [],
    "cann_matches": 22,
-   "hol_matches": 406,
+   "hol_matches": 407,
    "cannabinoid": [
     {
      "pmid": "42704497",
@@ -777,26 +787,6 @@
    ],
    "holistic": [
     {
-     "pmid": "42810280",
-     "title": "Effectiveness of cognitive behavioral therapy for postpartum depression: a systematic review and meta\u2011analysis.",
-     "journal": "Psychiatry Res",
-     "date": "2026-09-25",
-     "tag": "META-ANALYSIS",
-     "first_author": "Wang et al.",
-     "doi": "10.1016/j.psychres.2026.117471",
-     "conclusion": "Findings from this meta-analysis point to potential benefits of CBT for core PPD-related symptoms and secondary outcomes. The certainty of evidence ranges from very low to moderate. Future research should prioritize high\u2011quality, long\u2011term trials of non\u2011specialist\u2011delivered digital CBT models to develop accessible perinatal mental\u2011health services."
-    },
-    {
-     "pmid": "42574777",
-     "title": "The effects of meditation-based interventions on sleep quality among adults aged \u2265 55 with mild cognitive impairment: A systematic review and meta-analysis.",
-     "journal": "Geriatr Nurs",
-     "date": "2026-08-10",
-     "tag": "META-ANALYSIS",
-     "first_author": "Lim et al.",
-     "doi": "10.1016/j.gerinurse.2026.104213",
-     "conclusion": "Integrating meditation-based strategies could be explored as a potential, supportive approach within gerontological nursing and community programs, but caution is warranted given the limited and heterogeneous evidence base. Larger, multi-site RCTs with standardized protocols, including both objective and subjective sleep assessments, are needed to strengthen generalizability and guide evidence-based practice."
-    },
-    {
      "pmid": "41483880",
      "title": "A meta-analysis of the intervention effect of cognitive behavioral therapy on adult ADHD.",
      "journal": "J Affect Disord",
@@ -805,6 +795,26 @@
      "first_author": "Liu et al.",
      "doi": "10.1016/j.jad.2025.121107",
      "conclusion": "CBT demonstrates efficacy for core and associated symptoms of adult ADHD, with the optimal intervention strategy varying meaningfully by outcome and modality. A symptom-guided, stepped-care approach is supported: group-based CBT formats are preferable for targeting core symptoms and executive function, while individual CBT better addresses emotional dysregulation and quality of life. The combination of CBT with medic"
+    },
+    {
+     "pmid": "41214536",
+     "title": "The comprehensive impact of exercise interventions on cognitive function and quality of life in alzheimer's disease patients: a systematic review and meta-analysis.",
+     "journal": "BMC Geriatr",
+     "date": "2025-11-10",
+     "tag": "META-ANALYSIS",
+     "first_author": "Li et al.",
+     "doi": "10.1186/s12877-025-06454-y",
+     "conclusion": "Evidence suggests that structured, multimodal exercise programs-combining aerobic (\u2265 150 min/week), resistance (2-3 times/week), and balance training (2-3 times/week) for at least 12 weeks with individualized intensity-may improve global cognition and quality of life in Alzheimer's disease patients."
+    },
+    {
+     "pmid": "40958241",
+     "title": "Mindfulness-based interventions for adults with ADHD: A systematic review and meta-analysis.",
+     "journal": "Medicine (Baltimore)",
+     "date": "2025-09-12",
+     "tag": "META-ANALYSIS",
+     "first_author": "Kim et al.",
+     "doi": "10.1097/MD.0000000000044308",
+     "conclusion": "MBIs may be effective in improving core ADHD symptoms and overall functioning in adults with ADHD. However, their effects on emotional well-being and mindfulness skills remain inconclusive. These findings support the utility of MBIs as complementary interventions for ADHD while highlighting the need for further high-quality studies to clarify their long-term effects and mechanisms of action."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (cognition[ti] OR cognitive[ti] OR memory[ti] OR attention[ti] OR ADHD[ti]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/25:2026/11/25[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -873,14 +883,14 @@
      "conclusion": "Resistance exercise may be an effective strategy for reducing pain intensity and the impact of the disease in fibromyalgia when appropriately prescribed and progressed over time. Exercise programs should be individualized, emphasizing personal preferences to maximize long-term adherence and benefits."
     },
     {
-     "pmid": "41906320",
-     "title": "A Systematic Review and Meta-Analysis Examining the Effect of Mindfulness Based Stress Reduction on Pain Severity and Quality of Life in People Living With Fibromyalgia.",
-     "journal": "Eur J Pain",
-     "date": "2026-04-01",
+     "pmid": "42264849",
+     "title": "A systematic review and meta-analysis on the benefits of resistance exercise in patients with fibromyalgia.",
+     "journal": "J Bodyw Mov Ther",
+     "date": "2026-05-14",
      "tag": "META-ANALYSIS",
-     "first_author": "Walsh et al.",
-     "doi": "10.1002/ejp.70239",
-     "conclusion": "MBSR improves pain catastrophising and quality of life in people with FM at short and long term follow up; pain severity and depression were not significantly alleviated versus active control. OSF Registration: DOI 10.17605/OSF.IO/TJ5HX."
+     "first_author": "Rech et al.",
+     "doi": "10.1016/j.jbmt.2026.05.010",
+     "conclusion": "Resistance-based exercise programs provide modest but meaningful benefits for managing multiple symptoms of fibromyalgia. A low-dose, moderate-intensity protocol may be sufficient to yield improvements and should be recommended as part of a multidisciplinary treatment approach."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (fibromyalgia[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/25:2026/11/25[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -939,6 +949,16 @@
    ],
    "holistic": [
     {
+     "pmid": "42507062",
+     "title": "Exercise and Pain in Multiple Sclerosis, Parkinson's Disease, Alzheimer's Disease, and Stroke: A Systematic Review and Meta-analysis.",
+     "journal": "Sports Med",
+     "date": "2026-07-27",
+     "tag": "META-ANALYSIS",
+     "first_author": "Baccaro et al.",
+     "doi": "10.1007/s40279-026-02490-9",
+     "conclusion": "This review provides strong evidence that exercise alleviates pain in people with MS and stroke and emphasizes its potential as a non-pharmacological analgesic strategy for managing pain in neurodegenerative diseases. More high-quality studies are needed, particularly in PD and AD."
+    },
+    {
      "pmid": "42118325",
      "title": "Oral antipyretics for fatigue alleviation and exercise enhancement in adults with multiple sclerosis: a systematic review and meta-analysis.",
      "journal": "Neurol Sci",
@@ -949,24 +969,14 @@
      "conclusion": "Aspirin and acetaminophen may offer benefits in alleviating fatigue, enhancing thermoregulation, and improving exercise endurance in MS patients. These findings suggest that nurses should consider the potential role of aspirin in symptom management, with further research needed to confirm efficacy and safety."
     },
     {
-     "pmid": "42089766",
-     "title": "Efficacy of Manual Massage Therapy on Spasticity in Patients with Stroke and Cerebral Palsy: A Systematic Review and Meta-Analysis.",
-     "journal": "NeuroRehabilitation",
-     "date": "2026-05-06",
+     "pmid": "41612786",
+     "title": "Association between Mediterranean Diet and Development of Multiple Sclerosis: A Systematic Review and Meta-Analysis.",
+     "journal": "Brain Behav",
+     "date": "2026-02-01",
      "tag": "META-ANALYSIS",
-     "first_author": "Park et al.",
-     "doi": "10.1177/10538135261447895",
-     "conclusion": "Despite spasticity reductions, downstream functional outcomes were not consistently improved.ConclusionsManual massage may be considered as a preparatory adjunct for reducing spasticity, particularly in children with cerebral palsy. However, the evidence base remains limited, most included interventions were delivered alongside conventional rehabilitation, and functional benefits were not consistently demonstrated."
-    },
-    {
-     "pmid": "42084487",
-     "title": "Effectiveness of vestibular physical therapy on balance and dizziness in people with multiple sclerosis: A systematic review and meta-analysis.",
-     "journal": "J Vestib Res",
-     "date": "2026-05-05",
-     "tag": "META-ANALYSIS",
-     "first_author": "Piatti et al.",
-     "doi": "10.1177/09574271261444952",
-     "conclusion": "The meta-analysis showed significant efficacy of VPT against control using the DHI as outcome measure (Hedges' g = 1.451, CI [0.190, 2.713]).In conclusion, VPT is a safe approach in reducing dizziness-related disability of PwMS. Further studies are needed to refine assessment methods and explore individualized approaches."
+     "first_author": "Shakouri et al.",
+     "doi": "10.1002/brb3.71205",
+     "conclusion": "Although the meta-analysis showed a significant inverse association between higher adherence to the MedDiet and the odds of MS, the overall body of evidence does not provide strong support for a preventive role of the MedDiet. Considering the limited number of included studies, the predominantly retrospective design, the high risk of bias in several studies, and the substantial observed heterogeneity, further well-de"
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (\"multiple sclerosis\"[tiab] OR spasticity[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/25:2026/11/25[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
@@ -1101,6 +1111,16 @@
      "conclusion": "Acupuncture may be associated with altered spontaneous neural activity in regions of the executive control network, default mode network, and multisensory processing regions. These findings provide preliminary neuroimaging evidence for the central correlates of acupuncture in migraine. However, they should be interpreted cautiously given the limited evidence base, methodological heterogeneity, and exploratory nature "
     },
     {
+     "pmid": "42177613",
+     "title": "Utility of Acupuncture Therapy for Adult Chronic Daily Headache Prophylaxis: A Systematic Review and Meta-Analysis.",
+     "journal": "Med Sci Monit",
+     "date": "2026-05-24",
+     "tag": "META-ANALYSIS",
+     "first_author": "Nie et al.",
+     "doi": "10.12659/MSM.952359",
+     "conclusion": "Subgroup analyses revealed consistent efficacy across various CDH subtypes, including chronic migraine and chronic tension-type headache, treatment durations (4-12 weeks), and intervention strategies (acupuncture alone or combined with medication), indicating broad clinical applicability. CONCLUSIONS Acupuncture yields clinically meaningful, sustained improvements in CDH, supporting its role as an effective routine a"
+    },
+    {
      "pmid": "41465923",
      "title": "The relationship between lifestyle behaviors and tension-type headache and migraine: A systematic review and meta-analysis.",
      "journal": "Medicine (Baltimore)",
@@ -1109,16 +1129,6 @@
      "first_author": "Gao et al.",
      "doi": "10.1097/MD.0000000000046868",
      "conclusion": "Consistent with these findings, the present study concludes that no significant association was observed between lifestyle behaviors (alcohol consumption, BMI, smoking, physical activity) and the risk of migraine or TTH. Further studies are warranted to explore this association. However, only 7 studies were included in this analysis, so the conclusion requires further verification through additional high-quality rese"
-    },
-    {
-     "pmid": "41421052",
-     "title": "Effects of mindfulness-based interventions (MBIs) on headache pain in migraine patients: A systematic review and meta-analysis.",
-     "journal": "Gen Hosp Psychiatry",
-     "date": "2025-12-16",
-     "tag": "META-ANALYSIS",
-     "first_author": "Reangsing et al.",
-     "doi": "10.1016/j.genhosppsych.2025.12.013",
-     "conclusion": "MBIs have shown effectiveness in reducing headache pain in migraines patients. Clinicians and health professionals should consider utilizing MBIs as alternative or complementary treatments to reduce the severity of headaches in these patients."
     }
    ],
    "cann_query": "(cannabis[tiab] OR cannabinoid*[tiab] OR cannabidiol[tiab] OR THC[tiab] OR tetrahydrocannabinol[tiab] OR marijuana[tiab] OR dronabinol[tiab] OR nabiximols[tiab] OR nabilone[tiab] OR cannabigerol[tiab]) AND (migraine*[tiab] OR headache*[tiab]) AND (randomized controlled trial[pt] OR clinical trial[pt] OR systematic review[pt] OR meta-analysis[pt]) AND 2025/05/25:2026/11/25[dp] AND english[la] NOT (animals[mh] NOT humans[mh])",
