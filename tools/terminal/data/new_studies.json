@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-26 23:45 EST",
+ "generated": "2026-11-27 00:44 EST",
  "window": {
-  "start": "2026-10-27",
-  "end": "2026-11-26",
+  "start": "2026-10-28",
+  "end": "2026-11-27",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "3d7d4eab8d0620ef",
+ "fingerprint": "d26f465b8c750358",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -60,11 +60,11 @@
  },
  "by_condition": {
   "sleep": [
-   "42935025",
    "43015371",
    "43047344",
    "43060641",
-   "42997636"
+   "42997636",
+   "43079676"
   ],
   "pain": [
    "43064628",
@@ -78,12 +78,16 @@
    "42956528",
    "42966277",
    "42950713",
-   "42965212"
+   "42965212",
+   "43086949",
+   "43079676",
+   "43058948"
   ],
   "anxiety": [
    "42977215",
    "43079000",
-   "43015371"
+   "43015371",
+   "42968604"
   ],
   "mood": [
    "43079000",
@@ -91,7 +95,6 @@
    "42998719"
   ],
   "ptsd": [
-   "42945746",
    "43015371",
    "42994609",
    "43060820"
@@ -104,9 +107,7 @@
    "42970043",
    "42994510",
    "43033824",
-   "43031926",
-   "42943346",
-   "42939750"
+   "43031926"
   ],
   "nausea": [
    "43047344",
@@ -121,9 +122,7 @@
    "42997000",
    "42971927"
   ],
-  "fibromyalgia": [
-   "42946199"
-  ],
+  "fibromyalgia": [],
   "ms": [
    "43051379",
    "43022354",
@@ -139,25 +138,25 @@
   "ibd": []
  },
  "pubmed_counts": {
-  "sleep": 27,
-  "pain": 34,
-  "anxiety": 48,
+  "sleep": 25,
+  "pain": 31,
+  "anxiety": 44,
   "mood": 51,
-  "ptsd": 13,
-  "arthritis": 6,
-  "inflammation": 15,
+  "ptsd": 12,
+  "arthritis": 4,
+  "inflammation": 11,
   "nausea": 11,
-  "appetite": 5,
-  "focus": 11,
-  "fibromyalgia": 3,
+  "appetite": 4,
+  "focus": 10,
+  "fibromyalgia": 2,
   "ms": 8,
-  "epilepsy": 17,
+  "epilepsy": 14,
   "migraine": 4,
   "ibd": 2
  },
  "newest": {
-  "sleep": "2026-11-20",
-  "pain": "2026-11-22",
+  "sleep": "2026-11-25",
+  "pain": "2026-11-26",
   "anxiety": "2026-11-25",
   "mood": "2026-11-25",
   "ptsd": "2026-11-20",
@@ -166,7 +165,7 @@
   "nausea": "2026-11-18",
   "appetite": "2026-11-19",
   "focus": "2026-11-25",
-  "fibromyalgia": "2026-10-27",
+  "fibromyalgia": null,
   "ms": "2026-11-18",
   "epilepsy": "2026-11-19",
   "migraine": null,
@@ -174,24 +173,23 @@
  },
  "papers": [
   {
-   "pmid": "43079000",
-   "title": "Sex-specific reprogramming of immune and endocannabinoid networks in the placenta following prenatal cannabinoid exposure.",
-   "journal": "Mol Psychiatry",
-   "date": "2026-11-25",
-   "pubdate": "2026-11-24",
-   "first_author": "Bara et al.",
-   "doi": "10.1038/s41380-026-03964-y",
-   "grade": "mice",
-   "grade_label": "Mice / rats only",
+   "pmid": "43086949",
+   "title": "Chronic pain in Italy: exploring patient perspectives on care gaps and opportunities.",
+   "journal": "BMC Health Serv Res",
+   "date": "2026-11-26",
+   "pubdate": "2026-09-02",
+   "first_author": "Consoletti et al.",
+   "doi": "10.1186/s12913-026-15505-y",
+   "grade": "review",
+   "grade_label": "Narrative review",
    "plain": {
-    "did": "Experiments in mice or rats; no people were studied.",
-    "found": "In the human cohort, immune network suppression was associated with increased anxiety-related behaviors, whereas phospholipid metabolism modules correlated with depressive symptom measures.",
-    "caveat": "Animal results often do not carry over to people."
+    "did": "An expert overview of existing research.",
+    "found": "This study reveals substantial gaps in chronic pain management in Italy, characterized by high rates of untreated pain, limited specialist involvement, poor care continuity, inadequate legal awareness, and perceived institutional neglect.",
+    "caveat": "An expert overview, not a systematic search. No new data."
    },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/43079000/",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43086949/",
    "conditions": [
-    "anxiety",
-    "mood"
+    "pain"
    ]
   },
   {
@@ -211,7 +209,30 @@
    },
    "url": "https://pubmed.ncbi.nlm.nih.gov/43079676/",
    "conditions": [
+    "sleep",
+    "pain",
     "arthritis"
+   ]
+  },
+  {
+   "pmid": "43079000",
+   "title": "Sex-specific reprogramming of immune and endocannabinoid networks in the placenta following prenatal cannabinoid exposure.",
+   "journal": "Mol Psychiatry",
+   "date": "2026-11-25",
+   "pubdate": "2026-11-24",
+   "first_author": "Bara et al.",
+   "doi": "10.1038/s41380-026-03964-y",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "In the human cohort, immune network suppression was associated with increased anxiety-related behaviors, whereas phospholipid metabolism modules correlated with depressive symptom measures.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43079000/",
+   "conditions": [
+    "anxiety",
+    "mood"
    ]
   },
   {
@@ -310,6 +331,26 @@
     "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
    },
    "url": "https://pubmed.ncbi.nlm.nih.gov/43061767/",
+   "conditions": [
+    "pain"
+   ]
+  },
+  {
+   "pmid": "43058948",
+   "title": "Cannabis to reduce chronic postsurgical pain following total knee arthroplasty: a pilot randomized controlled trial.",
+   "journal": "J Cannabis Res",
+   "date": "2026-11-20",
+   "pubdate": "2026-08-25",
+   "first_author": "Busse et al.",
+   "doi": "10.1186/s42238-026-00492-y",
+   "grade": "rct",
+   "grade_label": "Human RCT (placebo)",
+   "plain": {
+    "did": "A randomized trial in 37 people compared a cannabis product with placebo.",
+    "found": "Modifications to our study protocol will be required to ensure feasibility of a definitive trial of cannabis versus placebo to reduce CPSP among TKA patients.",
+    "caveat": "Randomized against placebo: the strongest single-study design. Check the size and dose."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43058948/",
    "conditions": [
     "pain"
    ]
@@ -777,7 +818,8 @@
    },
    "url": "https://pubmed.ncbi.nlm.nih.gov/42968604/",
    "conditions": [
-    "pain"
+    "pain",
+    "anxiety"
    ]
   },
   {
@@ -939,107 +981,7 @@
    "conditions": [
     "pain"
    ]
-  },
-  {
-   "pmid": "42935025",
-   "title": "UK Medical Cannabis Registry: A Two-Year Prospective Observational Cohort Study of Clinical Outcomes in Insomnia.",
-   "journal": "Neuropsychopharmacol Rep",
-   "date": "2026-10-27",
-   "pubdate": "2026-12-01",
-   "first_author": "Koye et al.",
-   "doi": "10.1002/npr2.70180",
-   "grade": "obs",
-   "grade_label": "Observational",
-   "plain": {
-    "did": "Researchers looked at existing data on people (nobody was assigned a treatment).",
-    "found": "Initiation of CBMPs was associated with improvements in self-reported sleep quality across 2 years, with the largest associations observed in those with the most severe impairment.",
-    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42935025/",
-   "conditions": [
-    "sleep"
-   ]
-  },
-  {
-   "pmid": "42945746",
-   "title": "The blunt truth: The role of marijuana in PTSD after intentional traumatic injury.",
-   "journal": "Injury",
-   "date": "2026-10-27",
-   "pubdate": "2026-10-23",
-   "first_author": "Kern et al.",
-   "doi": "10.1016/j.injury.2026.113789",
-   "grade": "obs",
-   "grade_label": "Observational",
-   "plain": {
-    "did": "Researchers looked at data on 105 people (nobody was assigned a treatment).",
-    "found": "PTSD and marijuana use were closely associated in survivors of interpersonal violence. Screening efforts should account for marijuana use specifically.",
-    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42945746/",
-   "conditions": [
-    "ptsd"
-   ]
-  },
-  {
-   "pmid": "42943346",
-   "title": "Dose-Related Effects of Cannabidiol on Inflammatory and Redox Responses, Bacterial Dissemination, and Multiorgan Injury in CLP-Induced Septic Rats.",
-   "journal": "Pharmaceuticals (Basel)",
-   "date": "2026-10-27",
-   "pubdate": "2026-10-19",
-   "first_author": "\u00dclker et al.",
-   "doi": "10.3390/ph19101649",
-   "grade": "mice",
-   "grade_label": "Mice / rats only",
-   "plain": {
-    "did": "Experiments in mice or rats; no people were studied.",
-    "found": "The microbial summaries suggested lower recoverable burdens, but require animal-level verification of non-detect handling. These findings support pharmacokinetic, safety, mechanistic, survival, and prospectively powered confirmatory studies;",
-    "caveat": "Animal results often do not carry over to people."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42943346/",
-   "conditions": [
-    "inflammation"
-   ]
-  },
-  {
-   "pmid": "42939750",
-   "title": "Enhancement of Endocannabinoid Signaling by Dual MAGL/ABHD6 Inhibition Reduces Neurodegeneration and Neuro-Inflammation Following AMPA-Mediated Excitotoxicity.",
-   "journal": "Biomolecules",
-   "date": "2026-10-27",
-   "pubdate": "2026-10-14",
-   "first_author": "Spyridakos et al.",
-   "doi": "10.3390/biom16101496",
-   "grade": "mice",
-   "grade_label": "Mice / rats only",
-   "plain": {
-    "did": "Experiments in mice or rats; no people were studied.",
-    "found": "In vitro, AM11920 suppressed microglial activation by reducing CD68 expression and attenuated interleukin-6 (IL-6) expression, while also protecting primary neurons and OPCs from AMPA-induced cell death via a CB1R-dependent mechanism.",
-    "caveat": "Animal results often do not carry over to people."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42939750/",
-   "conditions": [
-    "inflammation"
-   ]
-  },
-  {
-   "pmid": "42946199",
-   "title": "Are Cannabis and Cannabinoids a Valid Treatment Option in Patients with Rheumatic Diseases? A narrative review.",
-   "journal": "Joint Bone Spine",
-   "date": "2026-10-27",
-   "pubdate": "2026-10-27",
-   "first_author": "Perrot",
-   "doi": "10.1016/j.jbspin.2026.106154",
-   "grade": "review",
-   "grade_label": "Narrative review",
-   "plain": {
-    "did": "An expert overview of existing research.",
-    "found": "Some studies suggest short-term symptomatic benefits of cannabinoid-based therapies, particularly in fibromyalgia, but the findings are inconsistent and limited by small samples, heterogeneous formulations, and risk of bias.",
-    "caveat": "An expert overview, not a systematic search. No new data."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42946199/",
-   "conditions": [
-    "fibromyalgia"
-   ]
   }
  ],
- "week_start": "2026-11-19"
+ "week_start": "2026-11-20"
 }
