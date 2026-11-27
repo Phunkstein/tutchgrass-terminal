@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-27 05:45 EST",
+ "generated": "2026-11-27 11:45 EST",
  "window": {
   "start": "2026-10-28",
   "end": "2026-11-27",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "6dd107e978543b03",
+ "fingerprint": "1c27299d87651c3a",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -88,6 +88,7 @@
    "43015371"
   ],
   "mood": [
+   "43102452",
    "43079000",
    "43050331",
    "42998719"
@@ -103,6 +104,7 @@
   ],
   "inflammation": [
    "42970043",
+   "43102200",
    "42994510",
    "43033824",
    "43031926"
@@ -139,13 +141,13 @@
   "sleep": 25,
   "pain": 32,
   "anxiety": 45,
-  "mood": 52,
-  "ptsd": 12,
+  "mood": 53,
+  "ptsd": 13,
   "arthritis": 4,
-  "inflammation": 11,
+  "inflammation": 12,
   "nausea": 12,
   "appetite": 4,
-  "focus": 10,
+  "focus": 11,
   "fibromyalgia": 2,
   "ms": 8,
   "epilepsy": 16,
@@ -156,10 +158,10 @@
   "sleep": "2026-11-25",
   "pain": "2026-11-26",
   "anxiety": "2026-11-25",
-  "mood": "2026-11-25",
+  "mood": "2026-11-27",
   "ptsd": "2026-11-20",
   "arthritis": "2026-11-25",
-  "inflammation": "2026-11-15",
+  "inflammation": "2026-11-27",
   "nausea": "2026-11-18",
   "appetite": "2026-11-19",
   "focus": "2026-11-25",
@@ -170,6 +172,46 @@
   "ibd": null
  },
  "papers": [
+  {
+   "pmid": "43102452",
+   "title": "Substance Use, Mental Health, and Health care Disparities in Transgender Adolescents.",
+   "journal": "J Adolesc Health",
+   "date": "2026-11-27",
+   "pubdate": "2026-11-27",
+   "first_author": "Nsang et al.",
+   "doi": "10.1016/j.jadohealth.2026.09.029",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at existing data on people (nobody was assigned a treatment).",
+    "found": "DISCUSSION: TGD adolescents demonstrated disproportionate health-care utilization and higher rates of SUDs and MHDs. Depression mediated most observed disparities, with cannabis and hallucinogen use as exceptions.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43102452/",
+   "conditions": [
+    "mood"
+   ]
+  },
+  {
+   "pmid": "43102200",
+   "title": "Machine Learning-Guided Discovery of Cannabidiolic Acid Ethyl Ester as a Bioactive Anti-Inflammatory Cannabinoid from CBD-Depleted Hemp Extract.",
+   "journal": "J Nat Prod",
+   "date": "2026-11-27",
+   "pubdate": "2026-11-27",
+   "first_author": "Gu et al.",
+   "doi": "10.1021/acs.jnatprod.6c00674",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "Validation studies confirmed that CBDA-EE modulates oxylipin production in stimulated macrophage cells, significantly reducing proinflammatory prostaglandins, including prostaglandin E2, while maintaining levels of prostaglandin D2 (PGD2) and its downstream metabolite 15-deoxy-PGD2.",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43102200/",
+   "conditions": [
+    "inflammation"
+   ]
+  },
   {
    "pmid": "43086949",
    "title": "Chronic pain in Italy: exploring patient perspectives on care gaps and opportunities.",
