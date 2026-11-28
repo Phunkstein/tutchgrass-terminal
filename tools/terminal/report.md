@@ -1,6 +1,6 @@
 # Cannabis Agent Terminal: Scientist report
 
-Generated 2026-11-28 10:44 EST. Research summary, not medical advice. Talk to a doctor.
+Generated 2026-11-28 11:45 EST. Research summary, not medical advice. Talk to a doctor.
 
 _Strain names are typical examples only; the same name can test very differently by grower and batch. Go by the lab COA (THC, CBD, minor cannabinoids, terpenes), not the name._
 
@@ -100,7 +100,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** THC shortens time to fall asleep via CB1 receptors. In a crossover RCT, an oil with 10 mg/ml THC + 15 mg/ml CBD improved sleep time and quality, and 60% no longer met insomnia criteria at 2 weeks. CBN: 20 mg nightly reduced awakenings in one RCT; a single 300 mg dose improved subjective sleep and sleep onset but not wake time after sleep onset. Myrcene had sedative effects in mice only.
 - **Strains that typically express this profile:** Granddaddy Purple (often myrcene-forward), Northern Lights, Bubba Kush (typically; check the COA)
 - **Cautions:** Tolerance and rebound insomnia when stopping daily THC. Next-day grogginess; do not drive. CBD alone at 150 mg did not beat placebo on most sleep outcomes.
-- **New PubMed papers, last 30 days:** 29
+- **New PubMed papers, last 30 days:** 30
 - **Citations:**
   - [RCT] Ried et al. (2023). Medicinal cannabis improves sleep in adults with insomnia: a randomised double-blind placebo-controlled crossover study. *J Sleep Res*. PMID [36539991](https://pubmed.ncbi.nlm.nih.gov/36539991/). DOI [10.1111/jsr.13793](https://doi.org/10.1111/jsr.13793)
   - [RCT] Narayan et al. (2024). Cannabidiol for moderate-severe insomnia: a randomized controlled pilot trial of 150 mg of nightly dosing. *J Clin Sleep Med*. PMID [38174873](https://pubmed.ncbi.nlm.nih.gov/38174873/). DOI [10.5664/jcsm.10998](https://doi.org/10.5664/jcsm.10998)
@@ -166,7 +166,7 @@ Evidence tags: SR = systematic review/meta-analysis, RCT = human randomized tria
 - **Why (plain words):** Cannabinoids slow gut movement and ease cramping and pain, and CB2 activation can calm immune cells. In RCTs, THC-rich cannabis (8 weeks) and a 160/40 mg/ml CBD/THC oil both improved symptom scores, but neither healed the gut lining. Beta-caryophyllene reduced colitis in mice through CB2 and PPAR-gamma; animal-only.
 - **Strains that typically express this profile:** Harlequin (CBD-leaning), Ringo's Gift (high CBD), GSC-type (caryophyllene-forward, THC-dominant) (typically; check the COA)
 - **Cautions:** Symptom relief can mask active inflammation; keep up with your GI doctor and scopes. Not shown to induce remission. Heavy long-term use is linked to cannabinoid hyperemesis syndrome.
-- **New PubMed papers, last 30 days:** 3
+- **New PubMed papers, last 30 days:** 4
 - **Citations:**
   - [RCT] Naftali et al. (2021). Oral CBD-rich Cannabis Induces Clinical but Not Endoscopic Response in Patients with Crohn's Disease, a Randomised Controlled Trial. *J Crohns Colitis*. PMID [33858011](https://pubmed.ncbi.nlm.nih.gov/33858011/). DOI [10.1093/ecco-jcc/jjab069](https://doi.org/10.1093/ecco-jcc/jjab069)
   - [RCT] Naftali et al. (2013). Cannabis induces a clinical response in patients with Crohn's disease: a prospective placebo-controlled study. *Clin Gastroenterol Hepatol*. PMID [23648372](https://pubmed.ncbi.nlm.nih.gov/23648372/). DOI [10.1016/j.cgh.2013.04.034](https://doi.org/10.1016/j.cgh.2013.04.034)

@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-28 05:45 EST",
+ "generated": "2026-11-28 11:45 EST",
  "window": {
   "start": "2026-10-29",
   "end": "2026-11-28",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "706d40f718717ff6",
+ "fingerprint": "2b861a60b7e4a3be",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -63,8 +63,7 @@
    "43015371",
    "43047344",
    "43060641",
-   "42997636",
-   "43079676"
+   "42997636"
   ],
   "pain": [
    "43064628",
@@ -138,10 +137,12 @@
    "43054266"
   ],
   "migraine": [],
-  "ibd": []
+  "ibd": [
+   "43105421"
+  ]
  },
  "pubmed_counts": {
-  "sleep": 26,
+  "sleep": 27,
   "pain": 30,
   "anxiety": 44,
   "mood": 53,
@@ -155,14 +156,14 @@
   "ms": 8,
   "epilepsy": 16,
   "migraine": 4,
-  "ibd": 2
+  "ibd": 3
  },
  "newest": {
-  "sleep": "2026-11-25",
+  "sleep": "2026-11-20",
   "pain": "2026-11-26",
   "anxiety": "2026-11-25",
   "mood": "2026-11-27",
-  "ptsd": "2026-11-27",
+  "ptsd": "2026-11-28",
   "arthritis": "2026-11-25",
   "inflammation": "2026-11-27",
   "nausea": "2026-11-18",
@@ -172,9 +173,49 @@
   "ms": "2026-11-18",
   "epilepsy": "2026-11-19",
   "migraine": null,
-  "ibd": null
+  "ibd": "2026-11-28"
  },
  "papers": [
+  {
+   "pmid": "43103175",
+   "title": "Trends in reimbursement authorizations for cannabis for medical purposes and profiles of Canadian Veterans: A population-based repeated cross-sectional study.",
+   "journal": "J Psychiatr Res",
+   "date": "2026-11-28",
+   "pubdate": "2026-11-19",
+   "first_author": "Kendzerska et al.",
+   "doi": "10.1016/j.jpsychires.2026.11.030",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at data on 116,815 people (nobody was assigned a treatment).",
+    "found": "Veterans with PTSD were authorized for higher daily quantities of CMP than those without PTSD. These findings may inform medical cannabis policy and future research.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43103175/",
+   "conditions": [
+    "ptsd"
+   ]
+  },
+  {
+   "pmid": "43105421",
+   "title": "Delta-8-tetrahydrocannabinol attenuates colitis and is associated with changes in myeloid cell phenotypes and let-7a-5p expression.",
+   "journal": "Front Pharmacol",
+   "date": "2026-11-28",
+   "pubdate": "2026-11-13",
+   "first_author": "Garcia-Sanchez et al.",
+   "doi": "10.3389/fphar.2026.1973874",
+   "grade": "mice",
+   "grade_label": "Mice / rats only",
+   "plain": {
+    "did": "Experiments in mice or rats; no people were studied.",
+    "found": "Computational analyses predicted a potential let-7a-5p-Cd86 interaction. Together, these findings demonstrate that \u03948-THC attenuates colitis, which is associated with increased let-7a-5p expression in the colon, and support a potential role for this miRNA in regulating macrophage-associated \u2026",
+    "caveat": "Animal results often do not carry over to people."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43105421/",
+   "conditions": [
+    "ibd"
+   ]
+  },
   {
    "pmid": "43102452",
    "title": "Substance Use, Mental Health, and Health care Disparities in Transgender Adolescents.",
@@ -193,26 +234,6 @@
    "url": "https://pubmed.ncbi.nlm.nih.gov/43102452/",
    "conditions": [
     "mood"
-   ]
-  },
-  {
-   "pmid": "43103175",
-   "title": "Trends in reimbursement authorizations for cannabis for medical purposes and profiles of Canadian Veterans: A population-based repeated cross-sectional study.",
-   "journal": "J Psychiatr Res",
-   "date": "2026-11-27",
-   "pubdate": "2026-11-19",
-   "first_author": "Kendzerska et al.",
-   "doi": "10.1016/j.jpsychires.2026.11.030",
-   "grade": "obs",
-   "grade_label": "Observational",
-   "plain": {
-    "did": "Researchers looked at data on 116,815 people (nobody was assigned a treatment).",
-    "found": "Veterans with PTSD were authorized for higher daily quantities of CMP than those without PTSD. These findings may inform medical cannabis policy and future research.",
-    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/43103175/",
-   "conditions": [
-    "ptsd"
    ]
   },
   {
@@ -292,7 +313,6 @@
    },
    "url": "https://pubmed.ncbi.nlm.nih.gov/43079676/",
    "conditions": [
-    "sleep",
     "pain",
     "arthritis"
    ]
