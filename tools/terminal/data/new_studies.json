@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-28 00:45 EST",
+ "generated": "2026-11-28 05:45 EST",
  "window": {
   "start": "2026-10-29",
   "end": "2026-11-28",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "f51279e032cc98c3",
+ "fingerprint": "706d40f718717ff6",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -95,6 +95,7 @@
    "42998719"
   ],
   "ptsd": [
+   "43103175",
    "43015371",
    "42994609",
    "43060820"
@@ -140,11 +141,11 @@
   "ibd": []
  },
  "pubmed_counts": {
-  "sleep": 25,
+  "sleep": 26,
   "pain": 30,
   "anxiety": 44,
   "mood": 53,
-  "ptsd": 13,
+  "ptsd": 14,
   "arthritis": 4,
   "inflammation": 13,
   "nausea": 12,
@@ -161,7 +162,7 @@
   "pain": "2026-11-26",
   "anxiety": "2026-11-25",
   "mood": "2026-11-27",
-  "ptsd": "2026-11-20",
+  "ptsd": "2026-11-27",
   "arthritis": "2026-11-25",
   "inflammation": "2026-11-27",
   "nausea": "2026-11-18",
@@ -192,6 +193,26 @@
    "url": "https://pubmed.ncbi.nlm.nih.gov/43102452/",
    "conditions": [
     "mood"
+   ]
+  },
+  {
+   "pmid": "43103175",
+   "title": "Trends in reimbursement authorizations for cannabis for medical purposes and profiles of Canadian Veterans: A population-based repeated cross-sectional study.",
+   "journal": "J Psychiatr Res",
+   "date": "2026-11-27",
+   "pubdate": "2026-11-19",
+   "first_author": "Kendzerska et al.",
+   "doi": "10.1016/j.jpsychires.2026.11.030",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at data on 116,815 people (nobody was assigned a treatment).",
+    "found": "Veterans with PTSD were authorized for higher daily quantities of CMP than those without PTSD. These findings may inform medical cannabis policy and future research.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43103175/",
+   "conditions": [
+    "ptsd"
    ]
   },
   {
