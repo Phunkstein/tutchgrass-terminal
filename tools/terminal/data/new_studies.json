@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-27 17:45 EST",
+ "generated": "2026-11-28 00:45 EST",
  "window": {
-  "start": "2026-10-28",
-  "end": "2026-11-27",
+  "start": "2026-10-29",
+  "end": "2026-11-28",
   "days": 30
  },
  "source": "NCBI PubMed E-utilities (Entrez date)",
- "fingerprint": "19ee2df3a26affde",
+ "fingerprint": "f51279e032cc98c3",
  "grades": {
   "meta": {
    "label": "Meta-analysis / systematic review",
@@ -77,10 +77,11 @@
    "42968604",
    "42956528",
    "42966277",
-   "42950713",
    "42965212",
    "43086949",
-   "43079676"
+   "43079676",
+   "43058948",
+   "43035804"
   ],
   "anxiety": [
    "42977215",
@@ -140,8 +141,8 @@
  },
  "pubmed_counts": {
   "sleep": 25,
-  "pain": 32,
-  "anxiety": 45,
+  "pain": 30,
+  "anxiety": 44,
   "mood": 53,
   "ptsd": 13,
   "arthritis": 4,
@@ -397,6 +398,26 @@
    ]
   },
   {
+   "pmid": "43058948",
+   "title": "Cannabis to reduce chronic postsurgical pain following total knee arthroplasty: a pilot randomized controlled trial.",
+   "journal": "J Cannabis Res",
+   "date": "2026-11-20",
+   "pubdate": "2026-08-25",
+   "first_author": "Busse et al.",
+   "doi": "10.1186/s42238-026-00492-y",
+   "grade": "rct",
+   "grade_label": "Human RCT (placebo)",
+   "plain": {
+    "did": "A randomized trial in 37 people compared a cannabis product with placebo.",
+    "found": "Modifications to our study protocol will be required to ensure feasibility of a definitive trial of cannabis versus placebo to reduce CPSP among TKA patients.",
+    "caveat": "Randomized against placebo: the strongest single-study design. Check the size and dose."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43058948/",
+   "conditions": [
+    "pain"
+   ]
+  },
+  {
    "pmid": "43060820",
    "title": "Adjunctive delta-9-tetrahydrocannabinol during prolonged exposure therapy for PTSD: A randomized, double-blind feasibility pilot trial with mechanistic assessment of extinction recall.",
    "journal": "Res Sq",
@@ -534,6 +555,26 @@
     "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
    },
    "url": "https://pubmed.ncbi.nlm.nih.gov/43035867/",
+   "conditions": [
+    "pain"
+   ]
+  },
+  {
+   "pmid": "43035804",
+   "title": "Navigating chronic pain: a qualitative inquiry of experiences, impacts and treatments among medical cannabis patients in Pennsylvania.",
+   "journal": "J Cannabis Res",
+   "date": "2026-11-16",
+   "pubdate": "2026-08-18",
+   "first_author": "Fedorova et al.",
+   "doi": "10.1186/s42238-026-00472-2",
+   "grade": "obs",
+   "grade_label": "Observational",
+   "plain": {
+    "did": "Researchers looked at existing data on people (nobody was assigned a treatment).",
+    "found": "Perceived pain relief with medical cannabis and/or in combination with other treatments varied according to cannabis forms, terpene and minor cannabinoid content and pain type.",
+    "caveat": "Shows a link, not cause and effect. People who choose cannabis can differ in other ways."
+   },
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43035804/",
    "conditions": [
     "pain"
    ]
@@ -1001,27 +1042,7 @@
    "conditions": [
     "ms"
    ]
-  },
-  {
-   "pmid": "42950713",
-   "title": "The orexinergic-endocannabinoid interface: mechanistic and therapeutic perspectives in Alzheimer's disease, anxiety, and visceral pain.",
-   "journal": "Neuropeptides",
-   "date": "2026-10-28",
-   "pubdate": "2026-10-26",
-   "first_author": "Bodke et al.",
-   "doi": "10.1016/j.npep.2026.102665",
-   "grade": "review",
-   "grade_label": "Narrative review",
-   "plain": {
-    "did": "An expert overview of existing research.",
-    "found": "In rodent models of visceral pain, CB1 and CB2 antagonists block the visceral hyposensitivity induced by centrally administered orexin, indicating that endocannabinoid signalling is required for this effect.",
-    "caveat": "An expert overview, not a systematic search. No new data."
-   },
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42950713/",
-   "conditions": [
-    "pain"
-   ]
   }
  ],
- "week_start": "2026-11-20"
+ "week_start": "2026-11-21"
 }
