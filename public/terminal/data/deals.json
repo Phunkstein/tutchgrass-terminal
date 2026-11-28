@@ -2,8 +2,8 @@
  "schema": "deals/3",
  "test": true,
  "region": "United States (all legal markets)",
- "checked": "2026-11-28 06:46 EST",
- "count": 657,
+ "checked": "2026-11-28 12:46 EST",
+ "count": 666,
  "chains": 62,
  "states_with_deals": 28,
  "by_state": {
@@ -11,7 +11,7 @@
   "AL": 0,
   "AR": 10,
   "AZ": 39,
-  "CA": 31,
+  "CA": 40,
   "CO": 29,
   "CT": 8,
   "DC": 17,
@@ -68,7 +68,7 @@
   "The Superior Dispensary": 10,
   "YiLo": 9,
   "The Artist Tree": 10,
-  "From the Earth": 1,
+  "From the Earth": 10,
   "Gemme Verdi": 10,
   "Urbn Leaf": 10,
   "Lightshade": 9,
@@ -146,8 +146,8 @@
   "Laguna Woods, CA": 10,
   "Oxnard, CA": 10,
   "West Hollywood, CA": 10,
-  "Santa Ana, CA": 1,
-  "Port Hueneme, CA": 1,
+  "Santa Ana, CA": 10,
+  "Port Hueneme, CA": 10,
   "San Francisco, CA": 10,
   "San Diego, CA": 10,
   "Denver, CO": 29,
@@ -242,7 +242,7 @@
    "code": "CA",
    "name": "California",
    "market": "adult-use + medical",
-   "deals": 31,
+   "deals": 40,
    "sources": 4
   },
   {
@@ -664,7 +664,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 81
+   "more": 55
   },
   {
    "state": "MI",
@@ -673,7 +673,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 95
+   "more": 73
   },
   {
    "state": "MI",
@@ -691,7 +691,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 80
+   "more": 67
   },
   {
    "state": "MI",
@@ -700,7 +700,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 53
+   "more": 54
   },
   {
    "state": "MI",
@@ -709,7 +709,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 84
+   "more": 62
   },
   {
    "state": "MI",
@@ -718,7 +718,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 73
+   "more": 52
   },
   {
    "state": "MI",
@@ -727,7 +727,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 34
+   "more": 57
   },
   {
    "state": "MI",
@@ -736,7 +736,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 85
+   "more": 41
   },
   {
    "state": "MI",
@@ -745,7 +745,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 44
+   "more": 45
   },
   {
    "state": "MI",
@@ -754,7 +754,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 85
+   "more": 83
   },
   {
    "state": "MI",
@@ -763,7 +763,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 76
+   "more": 55
   },
   {
    "state": "MI",
@@ -772,7 +772,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 68
+   "more": 56
   },
   {
    "state": "MI",
@@ -790,7 +790,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 64
+   "more": 99
   },
   {
    "state": "MI",
@@ -833,7 +833,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 75
+   "more": 69
   },
   {
    "state": "AZ",
@@ -842,7 +842,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 93
+   "more": 95
   },
   {
    "state": "AZ",
@@ -884,7 +884,7 @@
    "url": "https://fromtheearth.com/deals",
    "robots": "allowed",
    "status": "ok",
-   "deals": 1
+   "deals": 10
   },
   {
    "state": "CA",
@@ -1036,7 +1036,7 @@
    "robots": "allowed",
    "status": "ok",
    "deals": 10,
-   "more": 4
+   "more": 11
   },
   {
    "state": "MA",
@@ -3523,26 +3523,6 @@
     "Detroit"
    ],
    "state": "MI",
-   "deal": "40% OFF - SPYDER LEGS",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-28",
-   "url": "https://shophod.com/stores/house-of-dank-recreational-cannabis-8-mile",
-   "loc": [
-    11
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "House of Dank",
-   "store": "House of Dank 8 Mile",
-   "city": "Detroit",
-   "cities": [
-    "Detroit"
-   ],
-   "state": "MI",
    "deal": "30% OFF - MONOPOLY MELTS HASH HOLES (EXCL. FRACTAL, PRESSURE PACK) (WEDNESDAYS + SATURDAYS ONLY)",
    "valid": "",
    "until": "",
@@ -3663,7 +3643,27 @@
     "Detroit"
    ],
    "state": "MI",
-   "deal": "B2G1 - MICHIGROWN PRE ROLLS",
+   "deal": "25% OFF - CRUDE BOYS DISPOSABLE 2G",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://shophod.com/stores/house-of-dank-recreational-cannabis-8-mile",
+   "loc": [
+    11
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "House of Dank",
+   "store": "House of Dank 8 Mile",
+   "city": "Detroit",
+   "cities": [
+    "Detroit"
+   ],
+   "state": "MI",
+   "deal": "25% OFF - DRIP DISPOSABLE 2G",
    "valid": "",
    "until": "",
    "kind": "limited",
@@ -4123,6 +4123,26 @@
     "Lansing"
    ],
    "state": "MI",
+   "deal": "MONDAY-THURSDAY | OPEN-12PM | IN-STORE & CURBSIDE: 50% OFF - MKX",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://shophod.com/stores/house-of-dank-lansing",
+   "loc": [
+    14
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "House of Dank",
+   "store": "House of Dank Lansing",
+   "city": "Lansing",
+   "cities": [
+    "Lansing"
+   ],
+   "state": "MI",
    "deal": "25% OFF - CRUDE BOYS DISPOSABLE 2G",
    "valid": "",
    "until": "",
@@ -4163,47 +4183,7 @@
     "Lansing"
    ],
    "state": "MI",
-   "deal": "30% OFF - DOJA PAK",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-28",
-   "url": "https://shophod.com/stores/house-of-dank-lansing",
-   "loc": [
-    14
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "House of Dank",
-   "store": "House of Dank Lansing",
-   "city": "Lansing",
-   "cities": [
-    "Lansing"
-   ],
-   "state": "MI",
-   "deal": "30% OFF - FEAR OF BOOF",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-28",
-   "url": "https://shophod.com/stores/house-of-dank-lansing",
-   "loc": [
-    14
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "House of Dank",
-   "store": "House of Dank Lansing",
-   "city": "Lansing",
-   "cities": [
-    "Lansing"
-   ],
-   "state": "MI",
-   "deal": "30% OFF - HUMBLEBEE LIVE RESIN CART 1G",
+   "deal": "25% OFF - BAMN CONCENTRATES",
    "valid": "",
    "until": "",
    "kind": "limited",
@@ -4263,7 +4243,27 @@
     "Lansing"
    ],
    "state": "MI",
-   "deal": "30% OFF - SUPER DOPE",
+   "deal": "30% OFF - UNIQ PRESSURE",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://shophod.com/stores/house-of-dank-lansing",
+   "loc": [
+    14
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "House of Dank",
+   "store": "House of Dank Lansing",
+   "city": "Lansing",
+   "cities": [
+    "Lansing"
+   ],
+   "state": "MI",
+   "deal": "40% OFF - APEX SOLVENTLESS",
    "valid": "",
    "until": "",
    "kind": "limited",
@@ -4286,6 +4286,26 @@
    "deal": "50% OFF FIRST VISIT",
    "valid": "",
    "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://shophod.com/stores/house-of-dank-grand-rapids",
+   "loc": [
+    15
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "House of Dank",
+   "store": "House of Dank Grand Rapids",
+   "city": "Grand Rapids",
+   "cities": [
+    "Grand Rapids"
+   ],
+   "state": "MI",
+   "deal": "PROMO: B2G1 gummies and prepacked 8ths",
+   "valid": "SATURDAY, NOVEMBER 28, 2026",
+   "until": "2026-11-28",
    "kind": "limited",
    "note": "",
    "collected": "2026-11-28",
@@ -4457,26 +4477,6 @@
   },
   {
    "chain": "House of Dank",
-   "store": "House of Dank Grand Rapids",
-   "city": "Grand Rapids",
-   "cities": [
-    "Grand Rapids"
-   ],
-   "state": "MI",
-   "deal": "30% OFF POPPY CANNA",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-28",
-   "url": "https://shophod.com/stores/house-of-dank-grand-rapids",
-   "loc": [
-    15
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "House of Dank",
    "store": "House of Dank Kalamazoo",
    "city": "Kalamazoo",
    "cities": [
@@ -4563,86 +4563,6 @@
     "Kalamazoo"
    ],
    "state": "MI",
-   "deal": "30% OFF - DOJA PAK",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-28",
-   "url": "https://shophod.com/stores/house-of-dank-kalamazoo-rec",
-   "loc": [
-    16
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "House of Dank",
-   "store": "House of Dank Kalamazoo",
-   "city": "Kalamazoo",
-   "cities": [
-    "Kalamazoo"
-   ],
-   "state": "MI",
-   "deal": "30% OFF - FEAR OF BOOF",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-28",
-   "url": "https://shophod.com/stores/house-of-dank-kalamazoo-rec",
-   "loc": [
-    16
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "House of Dank",
-   "store": "House of Dank Kalamazoo",
-   "city": "Kalamazoo",
-   "cities": [
-    "Kalamazoo"
-   ],
-   "state": "MI",
-   "deal": "30% OFF - HUMBLEBEE LIVE RESIN CART 1G",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-28",
-   "url": "https://shophod.com/stores/house-of-dank-kalamazoo-rec",
-   "loc": [
-    16
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "House of Dank",
-   "store": "House of Dank Kalamazoo",
-   "city": "Kalamazoo",
-   "cities": [
-    "Kalamazoo"
-   ],
-   "state": "MI",
-   "deal": "30% OFF - MUHA MEDS",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-28",
-   "url": "https://shophod.com/stores/house-of-dank-kalamazoo-rec",
-   "loc": [
-    16
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "House of Dank",
-   "store": "House of Dank Kalamazoo",
-   "city": "Kalamazoo",
-   "cities": [
-    "Kalamazoo"
-   ],
-   "state": "MI",
    "deal": "30% OFF - MAD PACKS DELI FLOWER",
    "valid": "",
    "until": "",
@@ -4664,6 +4584,86 @@
    ],
    "state": "MI",
    "deal": "30% OFF - POPPY CANNA",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://shophod.com/stores/house-of-dank-kalamazoo-rec",
+   "loc": [
+    16
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "House of Dank",
+   "store": "House of Dank Kalamazoo",
+   "city": "Kalamazoo",
+   "cities": [
+    "Kalamazoo"
+   ],
+   "state": "MI",
+   "deal": "30% OFF - UNIQ PRESSURE",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://shophod.com/stores/house-of-dank-kalamazoo-rec",
+   "loc": [
+    16
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "House of Dank",
+   "store": "House of Dank Kalamazoo",
+   "city": "Kalamazoo",
+   "cities": [
+    "Kalamazoo"
+   ],
+   "state": "MI",
+   "deal": "40% OFF - APEX SOLVENTLESS",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://shophod.com/stores/house-of-dank-kalamazoo-rec",
+   "loc": [
+    16
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "House of Dank",
+   "store": "House of Dank Kalamazoo",
+   "city": "Kalamazoo",
+   "cities": [
+    "Kalamazoo"
+   ],
+   "state": "MI",
+   "deal": "40% OFF - BREEZE CANNA",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://shophod.com/stores/house-of-dank-kalamazoo-rec",
+   "loc": [
+    16
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "House of Dank",
+   "store": "House of Dank Kalamazoo",
+   "city": "Kalamazoo",
+   "cities": [
+    "Kalamazoo"
+   ],
+   "state": "MI",
+   "deal": "40% OFF - BUBBLEMAN",
    "valid": "",
    "until": "",
    "kind": "limited",
@@ -4763,86 +4763,6 @@
     "Ann Arbor"
    ],
    "state": "MI",
-   "deal": "30% OFF - DOJA PAK",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-28",
-   "url": "https://shophod.com/stores/house-of-dank-ann-arbor-rec",
-   "loc": [
-    17
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "House of Dank",
-   "store": "House of Dank Ann Arbor",
-   "city": "Ann Arbor",
-   "cities": [
-    "Ann Arbor"
-   ],
-   "state": "MI",
-   "deal": "30% OFF - FEAR OF BOOF",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-28",
-   "url": "https://shophod.com/stores/house-of-dank-ann-arbor-rec",
-   "loc": [
-    17
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "House of Dank",
-   "store": "House of Dank Ann Arbor",
-   "city": "Ann Arbor",
-   "cities": [
-    "Ann Arbor"
-   ],
-   "state": "MI",
-   "deal": "30% OFF - HUMBLEBEE LIVE RESIN CART 1G",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-28",
-   "url": "https://shophod.com/stores/house-of-dank-ann-arbor-rec",
-   "loc": [
-    17
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "House of Dank",
-   "store": "House of Dank Ann Arbor",
-   "city": "Ann Arbor",
-   "cities": [
-    "Ann Arbor"
-   ],
-   "state": "MI",
-   "deal": "30% OFF - MUHA MEDS",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-28",
-   "url": "https://shophod.com/stores/house-of-dank-ann-arbor-rec",
-   "loc": [
-    17
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "House of Dank",
-   "store": "House of Dank Ann Arbor",
-   "city": "Ann Arbor",
-   "cities": [
-    "Ann Arbor"
-   ],
-   "state": "MI",
    "deal": "30% OFF - MAD PACKS DELI FLOWER",
    "valid": "",
    "until": "",
@@ -4864,6 +4784,86 @@
    ],
    "state": "MI",
    "deal": "30% OFF - POPPY CANNA",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://shophod.com/stores/house-of-dank-ann-arbor-rec",
+   "loc": [
+    17
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "House of Dank",
+   "store": "House of Dank Ann Arbor",
+   "city": "Ann Arbor",
+   "cities": [
+    "Ann Arbor"
+   ],
+   "state": "MI",
+   "deal": "30% OFF - UNIQ PRESSURE",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://shophod.com/stores/house-of-dank-ann-arbor-rec",
+   "loc": [
+    17
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "House of Dank",
+   "store": "House of Dank Ann Arbor",
+   "city": "Ann Arbor",
+   "cities": [
+    "Ann Arbor"
+   ],
+   "state": "MI",
+   "deal": "40% OFF - APEX SOLVENTLESS",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://shophod.com/stores/house-of-dank-ann-arbor-rec",
+   "loc": [
+    17
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "House of Dank",
+   "store": "House of Dank Ann Arbor",
+   "city": "Ann Arbor",
+   "cities": [
+    "Ann Arbor"
+   ],
+   "state": "MI",
+   "deal": "40% OFF - BREEZE CANNA",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://shophod.com/stores/house-of-dank-ann-arbor-rec",
+   "loc": [
+    17
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "House of Dank",
+   "store": "House of Dank Ann Arbor",
+   "city": "Ann Arbor",
+   "cities": [
+    "Ann Arbor"
+   ],
+   "state": "MI",
+   "deal": "40% OFF - BUBBLEMAN",
    "valid": "",
    "until": "",
    "kind": "limited",
@@ -5123,7 +5123,7 @@
     "Center Line"
    ],
    "state": "MI",
-   "deal": "25% OFF - DRIP DISPOSABLE 2G",
+   "deal": "25% OFF -DRIP DISPOSABLE 2G",
    "valid": "",
    "until": "",
    "kind": "limited",
@@ -5163,47 +5163,7 @@
     "Center Line"
    ],
    "state": "MI",
-   "deal": "30% OFF - DOJA PAK",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-28",
-   "url": "https://shophod.com/stores/house-of-dank-centerline",
-   "loc": [
-    19
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "House of Dank",
-   "store": "House of Dank Center Line",
-   "city": "Center Line",
-   "cities": [
-    "Center Line"
-   ],
-   "state": "MI",
-   "deal": "30% OFF - FEAR OF BOOF",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-28",
-   "url": "https://shophod.com/stores/house-of-dank-centerline",
-   "loc": [
-    19
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "House of Dank",
-   "store": "House of Dank Center Line",
-   "city": "Center Line",
-   "cities": [
-    "Center Line"
-   ],
-   "state": "MI",
-   "deal": "30% OFF - HUMBLEBEE LIVE RESIN CART 1G",
+   "deal": "30% OFF - JEETER VAPES (EXCL. DISPOSABLE 2G)",
    "valid": "",
    "until": "",
    "kind": "limited",
@@ -5243,7 +5203,7 @@
     "Center Line"
    ],
    "state": "MI",
-   "deal": "30% OFF - MUHA MEDS",
+   "deal": "30% OFF - POPPY CANNA",
    "valid": "",
    "until": "",
    "kind": "limited",
@@ -5263,7 +5223,47 @@
     "Center Line"
    ],
    "state": "MI",
-   "deal": "30% OFF - POPPY CANNA",
+   "deal": "30% OFF - UNIQ PRESSURE",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://shophod.com/stores/house-of-dank-centerline",
+   "loc": [
+    19
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "House of Dank",
+   "store": "House of Dank Center Line",
+   "city": "Center Line",
+   "cities": [
+    "Center Line"
+   ],
+   "state": "MI",
+   "deal": "40% OFF - APEX SOLVENTLESS",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://shophod.com/stores/house-of-dank-centerline",
+   "loc": [
+    19
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "House of Dank",
+   "store": "House of Dank Center Line",
+   "city": "Center Line",
+   "cities": [
+    "Center Line"
+   ],
+   "state": "MI",
+   "deal": "40% OFF - BREEZE CANNA",
    "valid": "",
    "until": "",
    "kind": "limited",
@@ -5323,10 +5323,10 @@
     "Garden City"
    ],
    "state": "MI",
-   "deal": "25% OFF -CRUDE BOYS DISPOSABLE 2G",
+   "deal": "\ud83c\udf89 SATURDAY \ud83c\udf89: 25% OFF -CRUDE BOYS DISPOSABLE 2G",
    "valid": "",
    "until": "",
-   "kind": "limited",
+   "kind": "everyday",
    "note": "",
    "collected": "2026-11-28",
    "url": "https://shophod.com/stores/house-of-dank-garden-city",
@@ -5343,10 +5343,10 @@
     "Garden City"
    ],
    "state": "MI",
-   "deal": "25% OFF -DRIP DISPOSABLE 2G",
+   "deal": "\ud83c\udf89 SATURDAY \ud83c\udf89: 25% OFF -DRIP DISPOSABLE 2G",
    "valid": "",
    "until": "",
-   "kind": "limited",
+   "kind": "everyday",
    "note": "",
    "collected": "2026-11-28",
    "url": "https://shophod.com/stores/house-of-dank-garden-city",
@@ -5363,10 +5363,10 @@
     "Garden City"
    ],
    "state": "MI",
-   "deal": "30% OFF -HUMBLEBEE LIVE RESIN CART 1G",
-   "valid": "",
+   "deal": "30% OFF -JEETER VAPES (EXCL. LIQUID DIAMOND DISPOSABLE 2G)",
+   "valid": "\ud83c\udf89 SATURDAY \ud83c\udf89",
    "until": "",
-   "kind": "limited",
+   "kind": "everyday",
    "note": "",
    "collected": "2026-11-28",
    "url": "https://shophod.com/stores/house-of-dank-garden-city",
@@ -5383,10 +5383,10 @@
     "Garden City"
    ],
    "state": "MI",
-   "deal": "30% OFF -MUHA MEDS",
+   "deal": "\ud83c\udf89 SATURDAY \ud83c\udf89: 30% OFF -POPPY CANNA",
    "valid": "",
    "until": "",
-   "kind": "limited",
+   "kind": "everyday",
    "note": "",
    "collected": "2026-11-28",
    "url": "https://shophod.com/stores/house-of-dank-garden-city",
@@ -5403,10 +5403,10 @@
     "Garden City"
    ],
    "state": "MI",
-   "deal": "30% OFF -POPPY CANNA",
+   "deal": "\ud83c\udf89 SATURDAY \ud83c\udf89: 30% OFF -UNIQ PRESSURE",
    "valid": "",
    "until": "",
-   "kind": "limited",
+   "kind": "everyday",
    "note": "",
    "collected": "2026-11-28",
    "url": "https://shophod.com/stores/house-of-dank-garden-city",
@@ -5423,10 +5423,10 @@
     "Garden City"
    ],
    "state": "MI",
-   "deal": "30% OFF -UNIQ PRESSURE",
+   "deal": "\ud83c\udf89 SATURDAY \ud83c\udf89: 40% OFF -BREEZE CANNA",
    "valid": "",
    "until": "",
-   "kind": "limited",
+   "kind": "everyday",
    "note": "",
    "collected": "2026-11-28",
    "url": "https://shophod.com/stores/house-of-dank-garden-city",
@@ -5443,10 +5443,10 @@
     "Garden City"
    ],
    "state": "MI",
-   "deal": "40% OFF -BREEZE CANNA",
-   "valid": "",
+   "deal": "40% OFF -BOUTIQ SNACK PACK INFUSED PRE-ROLL.5G 5PK",
+   "valid": "\ud83c\udf89 SATURDAY \ud83c\udf89",
    "until": "",
-   "kind": "limited",
+   "kind": "everyday",
    "note": "",
    "collected": "2026-11-28",
    "url": "https://shophod.com/stores/house-of-dank-garden-city",
@@ -5463,10 +5463,10 @@
     "Garden City"
    ],
    "state": "MI",
-   "deal": "40% OFF -CLOUT KING",
+   "deal": "\ud83c\udf89 SATURDAY \ud83c\udf89: 40% OFF -CLOUT KING",
    "valid": "",
    "until": "",
-   "kind": "limited",
+   "kind": "everyday",
    "note": "",
    "collected": "2026-11-28",
    "url": "https://shophod.com/stores/house-of-dank-garden-city",
@@ -5484,46 +5484,6 @@
    ],
    "state": "MI",
    "deal": "50% OFF FIRST VISIT",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-28",
-   "url": "https://shophod.com/stores/house-of-dank-saginaw",
-   "loc": [
-    21
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "House of Dank",
-   "store": "House of Dank Saginaw",
-   "city": "Saginaw",
-   "cities": [
-    "Saginaw"
-   ],
-   "state": "MI",
-   "deal": "PROMO: 40% off All STIIIZY Products",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-28",
-   "url": "https://shophod.com/stores/house-of-dank-saginaw",
-   "loc": [
-    21
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "House of Dank",
-   "store": "House of Dank Saginaw",
-   "city": "Saginaw",
-   "cities": [
-    "Saginaw"
-   ],
-   "state": "MI",
-   "deal": "PROMO: Edible Gems, BOGO",
    "valid": "",
    "until": "",
    "kind": "limited",
@@ -5677,6 +5637,46 @@
   },
   {
    "chain": "House of Dank",
+   "store": "House of Dank Saginaw",
+   "city": "Saginaw",
+   "cities": [
+    "Saginaw"
+   ],
+   "state": "MI",
+   "deal": "30% OFF -MAD PACKS DELI FLOWER",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://shophod.com/stores/house-of-dank-saginaw",
+   "loc": [
+    21
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "House of Dank",
+   "store": "House of Dank Saginaw",
+   "city": "Saginaw",
+   "cities": [
+    "Saginaw"
+   ],
+   "state": "MI",
+   "deal": "30% OFF -POPPY CANNA",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://shophod.com/stores/house-of-dank-saginaw",
+   "loc": [
+    21
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "House of Dank",
    "store": "House of Dank Traverse City",
    "city": "Traverse City",
    "cities": [
@@ -5743,67 +5743,7 @@
     "Traverse City"
    ],
    "state": "MI",
-   "deal": "30% OFF - BAMN CONCENTRATES",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-28",
-   "url": "https://shophod.com/stores/house-of-dank-traverse-city-rec",
-   "loc": [
-    22
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "House of Dank",
-   "store": "House of Dank Traverse City",
-   "city": "Traverse City",
-   "cities": [
-    "Traverse City"
-   ],
-   "state": "MI",
-   "deal": "30% OFF - DOJA PAK",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-28",
-   "url": "https://shophod.com/stores/house-of-dank-traverse-city-rec",
-   "loc": [
-    22
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "House of Dank",
-   "store": "House of Dank Traverse City",
-   "city": "Traverse City",
-   "cities": [
-    "Traverse City"
-   ],
-   "state": "MI",
-   "deal": "30% OFF - FEAR OF BOOF",
-   "valid": "",
-   "until": "",
-   "kind": "limited",
-   "note": "",
-   "collected": "2026-11-28",
-   "url": "https://shophod.com/stores/house-of-dank-traverse-city-rec",
-   "loc": [
-    22
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "House of Dank",
-   "store": "House of Dank Traverse City",
-   "city": "Traverse City",
-   "cities": [
-    "Traverse City"
-   ],
-   "state": "MI",
-   "deal": "30% OFF -HUMBLEBEE LIVE RESIN CART 1G",
+   "deal": "30% OFF -BAMN CONCENTRATES",
    "valid": "",
    "until": "",
    "kind": "limited",
@@ -5843,7 +5783,7 @@
     "Traverse City"
    ],
    "state": "MI",
-   "deal": "30% OFF -MUHA MEDS",
+   "deal": "30% OFF -POPPY CANNA",
    "valid": "",
    "until": "",
    "kind": "limited",
@@ -5863,7 +5803,67 @@
     "Traverse City"
    ],
    "state": "MI",
-   "deal": "30% OFF -POPPY CANNA",
+   "deal": "30% OFF -UNIQ PRESSURE",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://shophod.com/stores/house-of-dank-traverse-city-rec",
+   "loc": [
+    22
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "House of Dank",
+   "store": "House of Dank Traverse City",
+   "city": "Traverse City",
+   "cities": [
+    "Traverse City"
+   ],
+   "state": "MI",
+   "deal": "40% OFF -APEX SOLVENTLESS",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://shophod.com/stores/house-of-dank-traverse-city-rec",
+   "loc": [
+    22
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "House of Dank",
+   "store": "House of Dank Traverse City",
+   "city": "Traverse City",
+   "cities": [
+    "Traverse City"
+   ],
+   "state": "MI",
+   "deal": "40% OFF -BREEZE CANNA",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://shophod.com/stores/house-of-dank-traverse-city-rec",
+   "loc": [
+    22
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "House of Dank",
+   "store": "House of Dank Traverse City",
+   "city": "Traverse City",
+   "cities": [
+    "Traverse City"
+   ],
+   "state": "MI",
+   "deal": "40% OFF -BUBBLEMAN",
    "valid": "",
    "until": "",
    "kind": "limited",
@@ -6323,7 +6323,7 @@
     "New Buffalo"
    ],
    "state": "MI",
-   "deal": "MONDAY-THURSDAY | OPEN-12PM | IN-STORE & CURBSIDE: PROMO: 30% off",
+   "deal": "MONDAY-THURSDAY | OPEN-12PM | IN-STORE & CURBSIDE: PROMO: - Apex Solventless / Cypher - 25% off",
    "valid": "",
    "until": "",
    "kind": "everyday",
@@ -6343,7 +6343,7 @@
     "New Buffalo"
    ],
    "state": "MI",
-   "deal": "MONDAY-THURSDAY | OPEN-12PM | IN-STORE & CURBSIDE: $48 OR 2/$75 - STIIIZY 40'S THCA FLOWER 7G",
+   "deal": "MONDAY-THURSDAY | OPEN-12PM | IN-STORE & CURBSIDE: Grasshopper Farms - 25% off",
    "valid": "",
    "until": "",
    "kind": "everyday",
@@ -6363,27 +6363,7 @@
     "New Buffalo"
    ],
    "state": "MI",
-   "deal": "$13.75 OR 3/$35 - HYMAN ECLAIR MINI.7G HASH HOLE",
-   "valid": "MONDAY-THURSDAY | OPEN-12PM | IN-STORE & CURBSIDE",
-   "until": "",
-   "kind": "everyday",
-   "note": "",
-   "collected": "2026-11-28",
-   "url": "https://shophod.com/stores/house-of-dank-new-buffalo",
-   "loc": [
-    25
-   ],
-   "geo": "city"
-  },
-  {
-   "chain": "House of Dank",
-   "store": "House of Dank New Buffalo",
-   "city": "New Buffalo",
-   "cities": [
-    "New Buffalo"
-   ],
-   "state": "MI",
-   "deal": "MONDAY-THURSDAY | OPEN-12PM | IN-STORE & CURBSIDE: 5/$95 - MAD LABS 2G DISPOSABLE",
+   "deal": "MONDAY-THURSDAY | OPEN-12PM | IN-STORE & CURBSIDE: PROMO: 40% off All Stiiizy",
    "valid": "",
    "until": "",
    "kind": "everyday",
@@ -6403,10 +6383,10 @@
     "New Buffalo"
    ],
    "state": "MI",
-   "deal": "5/$35 - MAD PACKS BOOM CHAKA LAKA 1.3G TARANTULA",
-   "valid": "MONDAY-THURSDAY | OPEN-12PM | IN-STORE & CURBSIDE",
+   "deal": "25% OFF - CRUDE BOYS DISPOSABLE 2G",
+   "valid": "",
    "until": "",
-   "kind": "everyday",
+   "kind": "limited",
    "note": "",
    "collected": "2026-11-28",
    "url": "https://shophod.com/stores/house-of-dank-new-buffalo",
@@ -6423,10 +6403,10 @@
     "New Buffalo"
    ],
    "state": "MI",
-   "deal": "MONDAY-THURSDAY | OPEN-12PM | IN-STORE & CURBSIDE: 25% OFF - CRUDE BOYS DISPOSABLE 2G",
+   "deal": "25% OFF - DRIP DISPOSABLE 2G",
    "valid": "",
    "until": "",
-   "kind": "everyday",
+   "kind": "limited",
    "note": "",
    "collected": "2026-11-28",
    "url": "https://shophod.com/stores/house-of-dank-new-buffalo",
@@ -6443,10 +6423,10 @@
     "New Buffalo"
    ],
    "state": "MI",
-   "deal": "MONDAY-THURSDAY | OPEN-12PM | IN-STORE & CURBSIDE: 25% OFF - DRIP DISPOSABLE 2G",
+   "deal": "30% OFF - BAMN CONCENTRATES",
    "valid": "",
    "until": "",
-   "kind": "everyday",
+   "kind": "limited",
    "note": "",
    "collected": "2026-11-28",
    "url": "https://shophod.com/stores/house-of-dank-new-buffalo",
@@ -6463,10 +6443,30 @@
     "New Buffalo"
    ],
    "state": "MI",
-   "deal": "MONDAY-THURSDAY | OPEN-12PM | IN-STORE & CURBSIDE: 30% OFF - BAMN CONCENTRATES",
+   "deal": "30% OFF - DOJA PAK",
    "valid": "",
    "until": "",
-   "kind": "everyday",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://shophod.com/stores/house-of-dank-new-buffalo",
+   "loc": [
+    25
+   ],
+   "geo": "city"
+  },
+  {
+   "chain": "House of Dank",
+   "store": "House of Dank New Buffalo",
+   "city": "New Buffalo",
+   "cities": [
+    "New Buffalo"
+   ],
+   "state": "MI",
+   "deal": "30% OFF - FEAR OF BOOF",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
    "note": "",
    "collected": "2026-11-28",
    "url": "https://shophod.com/stores/house-of-dank-new-buffalo",
@@ -7260,7 +7260,7 @@
     "Phoenix"
    ],
    "state": "AZ",
-   "deal": "Saturday November, 28th: 50% Off \u2013 Preferred Gardens 3.5g",
+   "deal": "Saturday November, 28th: 50% Off \u2013 Project Packs 3.5g",
    "valid": "",
    "until": "",
    "kind": "everyday",
@@ -8253,6 +8253,204 @@
    ],
    "state": "CA",
    "deal": "CLEARANCE 50% OFF",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://fromtheearth.com/deals",
+   "loc": [
+    54,
+    55
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "From the Earth",
+   "store": "From the Earth",
+   "city": "Santa Ana \u00b7 Port Hueneme",
+   "cities": [
+    "Santa Ana",
+    "Port Hueneme"
+   ],
+   "state": "CA",
+   "deal": "710 LABS DEAL - 25% OFF ALL 710 LABS PRODUCTS EVERY SATURDAY",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://fromtheearth.com/deals",
+   "loc": [
+    54,
+    55
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "From the Earth",
+   "store": "From the Earth",
+   "city": "Santa Ana \u00b7 Port Hueneme",
+   "cities": [
+    "Santa Ana",
+    "Port Hueneme"
+   ],
+   "state": "CA",
+   "deal": "FIG FARMS DEAL - 30% OFF - SATURDAY",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://fromtheearth.com/deals",
+   "loc": [
+    54,
+    55
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "From the Earth",
+   "store": "From the Earth",
+   "city": "Santa Ana \u00b7 Port Hueneme",
+   "cities": [
+    "Santa Ana",
+    "Port Hueneme"
+   ],
+   "state": "CA",
+   "deal": "BIRDIES DEAL - BUY 2 GET 1 - SATURDAY",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://fromtheearth.com/deals",
+   "loc": [
+    54,
+    55
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "From the Earth",
+   "store": "From the Earth",
+   "city": "Santa Ana \u00b7 Port Hueneme",
+   "cities": [
+    "Santa Ana",
+    "Port Hueneme"
+   ],
+   "state": "CA",
+   "deal": "STIIIZY DEAL - 30% OFF - THUR + FRI + SAT",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://fromtheearth.com/deals",
+   "loc": [
+    54,
+    55
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "From the Earth",
+   "store": "From the Earth",
+   "city": "Santa Ana \u00b7 Port Hueneme",
+   "cities": [
+    "Santa Ana",
+    "Port Hueneme"
+   ],
+   "state": "CA",
+   "deal": "SOLVENTLESS DEAL - 20% OFF - SATURDAY",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://fromtheearth.com/deals",
+   "loc": [
+    54,
+    55
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "From the Earth",
+   "store": "From the Earth",
+   "city": "Santa Ana \u00b7 Port Hueneme",
+   "cities": [
+    "Santa Ana",
+    "Port Hueneme"
+   ],
+   "state": "CA",
+   "deal": "AHTI FARMS DEAL - 30% OFF - SATURDAY",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://fromtheearth.com/deals",
+   "loc": [
+    54,
+    55
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "From the Earth",
+   "store": "From the Earth",
+   "city": "Santa Ana \u00b7 Port Hueneme",
+   "cities": [
+    "Santa Ana",
+    "Port Hueneme"
+   ],
+   "state": "CA",
+   "deal": "DABWOODS DEAL - 30% OFF - SATURDAY",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://fromtheearth.com/deals",
+   "loc": [
+    54,
+    55
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "From the Earth",
+   "store": "From the Earth",
+   "city": "Santa Ana \u00b7 Port Hueneme",
+   "cities": [
+    "Santa Ana",
+    "Port Hueneme"
+   ],
+   "state": "CA",
+   "deal": "LUCID & FRIENDS DEAL - 25% OFF - MONDAY + SATURDAY",
+   "valid": "",
+   "until": "",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://fromtheearth.com/deals",
+   "loc": [
+    54,
+    55
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "From the Earth",
+   "store": "From the Earth",
+   "city": "Santa Ana \u00b7 Port Hueneme",
+   "cities": [
+    "Santa Ana",
+    "Port Hueneme"
+   ],
+   "state": "CA",
+   "deal": "SMOKIEZ DEAL - BUY 2 GET 1 - SATURDAY",
    "valid": "",
    "until": "",
    "kind": "limited",
@@ -9835,7 +10033,7 @@
    "city": "",
    "cities": [],
    "state": "FL",
-   "deal": "Build your 2 for $60 bundle with Co2lors and Sunshine Cannabis. Choose from 1g Vape Carts and Live Sauz Carts.",
+   "deal": "Build your 2 for $60 bundle with Co2lors and Sunshine Cannabis 1g Vape Carts or any 1g Live Sauz Carts.",
    "valid": "Valid 11/28",
    "until": "2026-11-28",
    "kind": "limited",
@@ -10644,6 +10842,94 @@
     "Fairhaven"
    ],
    "state": "MA",
+   "deal": "Overgrown Pre-Rolls: 5 for $20 / 15 for $50",
+   "valid": "Dime Industries: See Menu Pricing 11/25\u201311/29",
+   "until": "2026-11-29",
+   "kind": "limited",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://cometobask.com/specials/",
+   "loc": [
+    81,
+    82
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Bask",
+   "store": "Bask",
+   "city": "Taunton \u00b7 Fairhaven",
+   "cities": [
+    "Taunton",
+    "Fairhaven"
+   ],
+   "state": "MA",
+   "deal": "All $6 1g Pre-Rolls: 3 For $15 Everyday",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://cometobask.com/specials/",
+   "loc": [
+    81,
+    82
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Bask",
+   "store": "Bask",
+   "city": "Taunton \u00b7 Fairhaven",
+   "cities": [
+    "Taunton",
+    "Fairhaven"
+   ],
+   "state": "MA",
+   "deal": "All $7 1g Pre-Rolls: 3 For $18 Everyday",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://cometobask.com/specials/",
+   "loc": [
+    81,
+    82
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Bask",
+   "store": "Bask",
+   "city": "Taunton \u00b7 Fairhaven",
+   "cities": [
+    "Taunton",
+    "Fairhaven"
+   ],
+   "state": "MA",
+   "deal": "All $8 1g Pre-Rolls: 3 For $20 Everyday",
+   "valid": "",
+   "until": "",
+   "kind": "everyday",
+   "note": "",
+   "collected": "2026-11-28",
+   "url": "https://cometobask.com/specials/",
+   "loc": [
+    81,
+    82
+   ],
+   "geo": "store"
+  },
+  {
+   "chain": "Bask",
+   "store": "Bask",
+   "city": "Taunton \u00b7 Fairhaven",
+   "cities": [
+    "Taunton",
+    "Fairhaven"
+   ],
+   "state": "MA",
    "deal": "Everyday Drink Bundles: 6 for $28 / 12 for $55 / 24 for $100",
    "valid": "",
    "until": "",
@@ -10755,94 +11041,6 @@
    ],
    "state": "MA",
    "deal": "All Cali Blaze 1g Tarantulas & 1.2g Donuts: 2 For $20 Everyday",
-   "valid": "",
-   "until": "",
-   "kind": "everyday",
-   "note": "",
-   "collected": "2026-11-28",
-   "url": "https://cometobask.com/specials/",
-   "loc": [
-    81,
-    82
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "Bask",
-   "store": "Bask",
-   "city": "Taunton \u00b7 Fairhaven",
-   "cities": [
-    "Taunton",
-    "Fairhaven"
-   ],
-   "state": "MA",
-   "deal": "All Betty\u2019s Eddies: 2 For $30 Everyday",
-   "valid": "",
-   "until": "",
-   "kind": "everyday",
-   "note": "",
-   "collected": "2026-11-28",
-   "url": "https://cometobask.com/specials/",
-   "loc": [
-    81,
-    82
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "Bask",
-   "store": "Bask",
-   "city": "Taunton \u00b7 Fairhaven",
-   "cities": [
-    "Taunton",
-    "Fairhaven"
-   ],
-   "state": "MA",
-   "deal": "Mix & Match Cultivators Classic 1g 510 Carts: 2 for $32 Everyday",
-   "valid": "",
-   "until": "",
-   "kind": "everyday",
-   "note": "",
-   "collected": "2026-11-28",
-   "url": "https://cometobask.com/specials/",
-   "loc": [
-    81,
-    82
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "Bask",
-   "store": "Bask",
-   "city": "Taunton \u00b7 Fairhaven",
-   "cities": [
-    "Taunton",
-    "Fairhaven"
-   ],
-   "state": "MA",
-   "deal": "Mix & Match Rythm 1g 510 Carts: 2 for $50 Everyday",
-   "valid": "",
-   "until": "",
-   "kind": "everyday",
-   "note": "",
-   "collected": "2026-11-28",
-   "url": "https://cometobask.com/specials/",
-   "loc": [
-    81,
-    82
-   ],
-   "geo": "store"
-  },
-  {
-   "chain": "Bask",
-   "store": "Bask",
-   "city": "Taunton \u00b7 Fairhaven",
-   "cities": [
-    "Taunton",
-    "Fairhaven"
-   ],
-   "state": "MA",
-   "deal": "Everyday Flower Bundles: All $25 3.5g\u2019s: 2 for $40 / 4 for $75 & All $30 3.5g\u2019s: 2 for $50 / 4 for $90",
    "valid": "",
    "until": "",
    "kind": "everyday",
@@ -17119,7 +17317,7 @@
   "locations": 163,
   "store_points": 134,
   "city_points": 29,
-  "deals_store": 479,
+  "deals_store": 488,
   "deals_city": 140,
   "deals_statewide": 38
  },
@@ -17132,5 +17330,5 @@
   "note": "Paid placement slot (not live). Sponsored deals will always be labeled and kept separate from, never ranked above, the free list."
  },
  "disclaimer": "21+ only. For adults 21 and older (or registered medical patients). Deals change often and can differ by store: always confirm with the store before you go. Listed from each dispensary's own public page; not an endorsement.",
- "generated": "2026-11-28 06:46 EST"
+ "generated": "2026-11-28 12:46 EST"
 }
