@@ -1,7 +1,7 @@
 {
  "product": "Cannabis Agent Terminal",
- "generated": "2026-11-28 11:45:20 EST",
- "generated_ts": 1795884320.429571,
+ "generated": "2026-11-28 12:45:12 EST",
+ "generated_ts": 1795887912.707956,
  "disclaimer": "Research summary, not medical advice. Talk to a doctor.",
  "agents": {
   "scientist": {
@@ -10,8 +10,8 @@
    "badge": "LIVE",
    "rule": "cite only retrieved PubMed records",
    "status": "12 conditions \u00b7 54 citations \u00b7 0 unverified dropped",
-   "ts": 1795884320.429571,
-   "secs": 6.1
+   "ts": 1795887912.707956,
+   "secs": 8.5
   },
   "lab": {
    "name": "Terpene & Cannabinoid Lab",
@@ -19,7 +19,7 @@
    "badge": "UPDATE",
    "rule": "health angle + grow/preserve angle",
    "status": "today: Alpha-pinene \u00b7 8 compounds in rotation",
-   "ts": 1795884320.429571,
+   "ts": 1795887912.707956,
    "secs": 0.0
   },
   "holistic": {
@@ -28,7 +28,7 @@
    "badge": "UPDATE",
    "rule": "guidelines, SRs, RCTs only",
    "status": "12 conditions \u00b7 6 interaction/caution notes",
-   "ts": 1795884320.429571,
+   "ts": 1795887912.707956,
    "secs": 0.0
   },
   "wire": {
@@ -37,16 +37,16 @@
    "badge": "LIVE",
    "rule": "US + international; health filter",
    "status": "5 medical + 9 cultivation papers (14 d) \u00b7 17 news \u00b7 9/9 sources ok",
-   "ts": 1795884320.429571,
-   "secs": 4.1
+   "ts": 1795887912.707956,
+   "secs": 12.1
   },
   "social": {
    "name": "Social",
    "job": "what people ask on X",
    "badge": "READ",
    "rule": "read-only; nothing posted",
-   "status": "16 posts \u00b7 0 X News stories \u00b7 cached 2026-11-28 11:45 EST",
-   "ts": 1795884320.429571
+   "status": "16 posts \u00b7 0 X News stories \u00b7 cached 2026-11-28 12:44 EST",
+   "ts": 1795887912.707956
   },
   "grower": {
    "name": "Grower Notes",
@@ -54,13 +54,13 @@
    "badge": "UPDATE",
    "rule": "studies cited; anecdotal flagged",
    "status": "8 studied factors \u00b7 1 anecdotal practice flagged",
-   "ts": 1795884320.429571,
+   "ts": 1795887912.707956,
    "secs": 0.0
   }
  },
  "scientist": {
   "agent": "scientist",
-  "generated": "2026-11-28 11:45 EST",
+  "generated": "2026-11-28 12:45 EST",
   "disclaimer": "Research summary, not medical advice. Talk to a doctor.",
   "strain_note": "Strain names are typical examples only; the same name can test very differently by grower and batch. Go by the lab COA (THC, CBD, minor cannabinoids, terpenes), not the name.",
   "method": "PubMed E-utilities esearch+efetch (queries in cache/pubmed.json) plus National Academies 2017 report; syntheses written from retrieved abstracts only.",
@@ -1014,7 +1014,7 @@
  },
  "lab": {
   "agent": "lab",
-  "generated": "2026-11-28 11:45 EST",
+  "generated": "2026-11-28 12:44 EST",
   "spotlight_id": "alpha_pinene",
   "spotlight_rule": "rotates daily (day-of-year mod 8)",
   "compounds": [
@@ -3135,17 +3135,17 @@
     "states": []
    }
   ],
-  "news_health_total": 18,
-  "generated": "2026-11-28 11:45 EST"
+  "news_health_total": 19,
+  "generated": "2026-11-28 12:45 EST"
  },
  "social": {
   "agent": "social",
   "mode": "free",
-  "generated": "2026-11-28 11:45 EST",
+  "generated": "2026-11-28 12:44 EST",
   "platforms": [
    "Bluesky"
   ],
-  "source": "Bluesky public search (top posts, 7-day window, 75 read this run)",
+  "source": "Bluesky public search (top posts, 7-day window, 83 read this run)",
   "queries": 12,
   "query_list": [
    "cannabis sleep",
@@ -3162,11 +3162,11 @@
    "terpenes cannabis grow"
   ],
   "topic_counts": {
-   "sleep": 7,
-   "pain": 4,
+   "sleep": 6,
    "PTSD": 1,
    "nightmares": 1,
-   "anxiety": 3,
+   "anxiety": 4,
+   "pain": 4,
    "appetite": 1
   },
   "posts": [
@@ -3180,17 +3180,6 @@
     "views": 0,
     "text": "This boomer uses it to sleep. Being left with Chronic insomnia, i wasnt left with many choices other than pills. I use CBN oil and gummies that have helped significantly. Who knew I would be actively involved in cannabis use more as a senior than in my teenage years\ud83e\udd37\u200d\u2640\ufe0f",
     "url": "https://bsky.app/profile/collburns.bsky.social/post/3n2ykvqihxk2u"
-   },
-   {
-    "audience": "health",
-    "topic": "sleep / pain",
-    "handle": "loueyville.bsky.social",
-    "platform": "Bluesky",
-    "date": "Nov 24 07:33 PM",
-    "likes": 15,
-    "views": 0,
-    "text": "Re: Dec 11 Hemp Ban-- common misconceptions: 1) It is not \"closing a loophole\" in the 2018 Farm Bill. www.marijuanamoment.net/its-not-a-lo... 2) It's not a ban on \"intoxicating\" products-- it's a ban on all products with ANY THC, including all full-spectrum CBD used for sleep, pain, and stress...",
-    "url": "https://bsky.app/profile/loueyville.bsky.social/post/3n33vxewg522k"
    },
    {
     "audience": "health",
@@ -3260,14 +3249,14 @@
    },
    {
     "audience": "health",
-    "topic": "sleep",
-    "handle": "shoren18.bsky.social",
+    "topic": "sleep / pain",
+    "handle": "igloochik.bsky.social",
     "platform": "Bluesky",
-    "date": "Nov 28 04:54 AM",
-    "likes": 10,
+    "date": "Nov 28 02:37 AM",
+    "likes": 7,
     "views": 0,
-    "text": "Took some CBD to help me get back to sleep. Leftovers are calling to me, as if I haven't gained enough weight back in the past month.",
-    "url": "https://bsky.app/profile/shoren18.bsky.social/post/3n3ego5mmms2a"
+    "text": "You know, if you mess with the #seniors and the #veterans pain relief and sleep aides, you're going to lose a significant chunk of the tiny sliver of what's left of the Republican base.... #legalizeit4all #cannabis \ud83e\udd66\ud83c\udf31\ud83d\udc9a",
+    "url": "https://bsky.app/profile/igloochik.bsky.social/post/3n3e6zfqzi22z"
    },
    {
     "audience": "health",
@@ -3282,14 +3271,25 @@
    },
    {
     "audience": "health",
-    "topic": "sleep / pain",
-    "handle": "igloochik.bsky.social",
+    "topic": "anxiety",
+    "handle": "neurovoice.bsky.social",
     "platform": "Bluesky",
-    "date": "Nov 28 02:37 AM",
+    "date": "Nov 23 03:00 PM",
+    "likes": 3,
+    "views": 0,
+    "text": "Does #cannabis use increase the prevalence of mental disorders? For psychosis, yes. Regular cannabis use is a contributory cause of psychosis. For other disorders like anxiety & depression, the high rates of comorbidity with cannabis use disorder warrants further research \u27a1\ufe0f",
+    "url": "https://bsky.app/profile/neurovoice.bsky.social/post/3n2yw6z7qjs2w"
+   },
+   {
+    "audience": "health",
+    "topic": "sleep / pain",
+    "handle": "gta-eastlady.bsky.social",
+    "platform": "Bluesky",
+    "date": "Nov 24 04:54 PM",
     "likes": 6,
     "views": 0,
-    "text": "You know, if you mess with the #seniors and the #veterans pain relief and sleep aides, you're going to lose a significant chunk of the tiny sliver of what's left of the Republican base.... #legalizeit4all #cannabis \ud83e\udd66\ud83c\udf31\ud83d\udc9a",
-    "url": "https://bsky.app/profile/igloochik.bsky.social/post/3n3e6zfqzi22z"
+    "text": "Legal in Canada since 2018. I haven't noticed any difference in society other than we seem to have a lot of pot shops in every town/city.As a senior I appreciate cannabis' help with sleeplessness and knee pain. I still like my beer and wine to get a buzz. \ud83d\ude42\ud83c\udf7b\ud83c\udde8\ud83c\udde6",
+    "url": "https://bsky.app/profile/gta-eastlady.bsky.social/post/3n33n2cqprs2n"
    },
    {
     "audience": "grow",
@@ -3326,6 +3326,17 @@
    },
    {
     "audience": "grow",
+    "topic": "trichomes",
+    "handle": "newmexicobart.bsky.social",
+    "platform": "Bluesky",
+    "date": "Nov 28 04:29 AM",
+    "likes": 1,
+    "views": 0,
+    "text": "We are enriched with $41 ozs of Zack's Cake, Brain Freeze, Banana Cake, and Chapel of Love. Indoor grown, crazy with trichomes. Helps mitigate the horrors of the last Bronco game.",
+    "url": "https://bsky.app/profile/newmexicobart.bsky.social/post/3n3efbszwqk2w"
+   },
+   {
+    "audience": "grow",
     "topic": "harvest timing",
     "handle": "merlintrader.bsky.social",
     "platform": "Bluesky",
@@ -3334,17 +3345,6 @@
     "views": 0,
     "text": "Next catalyst for $TRLV: Trulieve's full-year 2026 results, date not yet announced, will include Harvest only through June 3. Full FREE hub: www.merlintrader.com/trulieve-trl... Free newsletter: merlintrader.beehiiv.com/subscribe",
     "url": "https://bsky.app/profile/merlintrader.bsky.social/post/3n36ibsac6c2b"
-   },
-   {
-    "audience": "grow",
-    "topic": "harvest timing",
-    "handle": "chycho.bsky.social",
-    "platform": "Bluesky",
-    "date": "Nov 23 12:34 PM",
-    "likes": 0,
-    "views": 0,
-    "text": "Tobacco & Cannabis Harvest for 2026 [ASMR Gardening] Video on BitChute: www.bitchute.com/video/neg7YV... Video on Rumble: rumble.com/v7is99q-toba... Video on Odysee: odysee.com/@chycho:6/Ha... Video on Patreon: www.patreon.com/chycho/posts... Video on Substack: chycho.substack.com/p/tobacco-an...",
-    "url": "https://bsky.app/profile/chycho.bsky.social/post/3n2yo3lzvfk22"
    }
   ],
   "threads": [],
@@ -3353,249 +3353,249 @@
  },
  "feed": [
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Chronic pain / neuropathic pain",
    "reason": "moderate evidence; top pick: Low-dose THC or 1:1 THC:CBD; beta-caryophyllene-rich chemovars (6 citations, 21 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Fibromyalgia",
    "reason": "limited evidence; top pick: Balanced ~1:1 THC:CBD flower (Bediol-type) (4 citations, 2 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Multiple sclerosis spasticity",
    "reason": "strong evidence; top pick: 1:1 THC:CBD (nabiximols-type) (5 citations, 6 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Epilepsy (Dravet, Lennox-Gastaut, TSC)",
    "reason": "strong evidence; top pick: High-CBD, near-zero THC (pharmaceutical CBD) (4 citations, 10 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Insomnia",
    "reason": "limited evidence; top pick: Evening 2:3 THC:CBD oil; myrcene-forward chemovars (6 citations, 30 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Anxiety",
    "reason": "limited evidence; top pick: CBD-dominant, low THC; limonene-forward (6 citations, 39 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "scientist",
    "kind": "PICK",
    "what": "PTSD",
    "reason": "limited evidence; top pick: Balanced or CBD-leaning; nabilone-type THC for nightmares (with a doctor) (4 citations, 12 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Crohn's disease / IBD",
    "reason": "limited evidence; top pick: 4:1 CBD:THC oral oil for symptoms; caryophyllene-rich (4 citations, 4 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Migraine (acute attacks)",
    "reason": "limited evidence; top pick: ~1:2 THC:CBD vaporized flower at attack onset (2 citations, 4 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Arthritis (rheumatoid and osteoarthritis)",
    "reason": "limited evidence; top pick: 1:1 THC:CBD (nabiximols-type); topical CBD unproven in humans (4 citations, 3 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Chemotherapy-induced nausea and vomiting",
    "reason": "strong evidence; top pick: 1:1 THC:CBD low-dose capsules alongside standard antiemetics (3 citations, 3 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "scientist",
    "kind": "PICK",
    "what": "Appetite loss / cachexia (cancer, HIV)",
    "reason": "limited evidence; top pick: THC-dominant, low/no THCV (6 citations, 2 new PubMed papers in 30 d)"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "lab",
    "kind": "SPOTLIGHT",
    "what": "Alpha-pinene",
    "reason": "daily rotation (day-of-year mod 8); evidence: preclinical; 3 citations"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "holistic",
    "kind": "CAUTION",
    "what": "CBD + warfarin (blood thinner)",
    "reason": "Case reports: starting CBD required about a 30% cut in warfarin dose to keep INR in range. Very low-quality data suggest both THC and CBD can raise INR. Get INR monitored"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "holistic",
    "kind": "CAUTION",
    "what": "CYP450 interactions",
    "reason": "THC and CBD interact with drugs using common CYP450 pathways; Penn State's free CANN-DIR checker (cann-dir.psu.edu) screens them. Interactions matter mainly above ~30 mg/"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "holistic",
    "kind": "CAUTION",
    "what": "CBD + clobazam / valproate",
    "reason": "CBD raises clobazam levels and adds sedation. With valproate it is linked to liver-enzyme rises."
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "holistic",
    "kind": "CAUTION",
    "what": "Heart risk",
    "reason": "Meta-analysis of real-world data: cannabis use associated with major adverse cardiovascular events (cohort RR 1.32). Use more than 4\u00d7/month was associated with MI history"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "holistic",
    "kind": "CAUTION",
    "what": "Cannabinoid hyperemesis",
    "reason": "Cyclic vomiting with heavy, frequent use that eases with hot showers. Stopping cannabis is the best treatment."
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "holistic",
    "kind": "CAUTION",
    "what": "Start low, go slow",
    "reason": "Sparse pharmacology data support a 'start low and go slow' approach to cannabis medicines."
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "grower",
    "kind": "FACTOR",
    "what": "Harvest timing",
    "reason": "2 horticulture citations: In 25 genotypes, 22 hit peak cannabinoid concentration between 'mostly amber' and 'fully amber' stigma (pistil) color; a"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "grower",
    "kind": "FACTOR",
    "what": "UV-B supplementation",
    "reason": "1 horticulture citations: UV-B exposure did not raise yield or THC/CBD; total terpene content fell as UV dose rose, and THC/CBD fell in one cultiv"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "grower",
    "kind": "FACTOR",
    "what": "Light spectrum",
    "reason": "3 horticulture citations: LED spectra changed cannabinoid concentrations vs HPS (one LED gave the highest CBG) without changing total cannabinoid "
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "grower",
    "kind": "FACTOR",
    "what": "Light intensity",
    "reason": "2 horticulture citations: Indoors, flower yield rose linearly with canopy light up to 1,800 \u00b5mol\u00b7m\u207b\u00b2\u00b7s\u207b\u00b9 with no change in cannabinoid potency and"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "grower",
    "kind": "FACTOR",
    "what": "Drying",
    "reason": "3 horticulture citations: Drying temperature, rate and storage all affect what survives. In a microwave-drying study across 40\u201380 \u00b0C, 50 \u00b0C best k"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "grower",
    "kind": "FACTOR",
    "what": "Curing & storage",
    "reason": "5 horticulture citations: Glass jars retained the starting volatile profile better than open trays or plastic boxes, though acid cannabinoids slow"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "grower",
    "kind": "FACTOR",
    "what": "Water, nutrients & stress",
    "reason": "4 horticulture citations: Water stress in CBD-type plants lowered CBD, raised THC under veg-stage stress and raised CBN; main terpenes stayed geno"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "grower",
    "kind": "FACTOR",
    "what": "Genetics beat everything",
    "reason": "4 horticulture citations: The THC:CBD ratio follows CBDAS genotype (predictable codominant inheritance). CBG dominance is a single recessive trait"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "grower",
    "kind": "ANECDOTAL",
    "what": "Jar humidity (grower practice)",
    "reason": "grower practice, no study retrieved: Common grower practice: cure in jars with a hygrometer, settling around 58\u201362% RH, burping when high. This is ANECDOTAL "
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "wire",
    "kind": "PAPER",
    "what": "The experiences of midwives providing care to individuals who use cannabis during pregnancy in Ontario, Canada",
    "reason": "newest PubMed (medical); Midwifery"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "wire",
    "kind": "PAPER",
    "what": "Effects of Palmitoylethanolamide on the Retinal Endocannabinoid System in Amyloidosis Mice.",
    "reason": "newest PubMed (medical); FASEB J; animal/cell study"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "wire",
    "kind": "PAPER",
    "what": "Cannabinoid Compounds in Binge Eating Disorder: From Neurobiological Mechanisms to Therapeutic Potential.",
    "reason": "newest PubMed (medical); Pharmacol Res"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "wire",
    "kind": "PAPER",
    "what": "Genetic Diversity and Population Structure of Septoria cannabis in U.S. Hemp Production.",
    "reason": "newest PubMed (cultivation); Phytopathology"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "wire",
    "kind": "PAPER",
    "what": "Mercury accumulation in industrial hemp: translocation after foliar uptake and phytomanagement potential.",
    "reason": "newest PubMed (cultivation); Environ Pollut"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "wire",
    "kind": "PAPER",
    "what": "Unlocking the antioxidant potential of hemp seed proteins.",
    "reason": "newest PubMed (cultivation); FEBS Open Bio; animal/cell study"
   },
   {
-   "ts": "2026-11-28 11:45:20",
+   "ts": "2026-11-28 12:45:12",
    "agent": "social",
    "kind": "READ",
    "what": "X search (cached)",
-   "reason": "Bluesky public search (top posts, 7-day window, 75 read this run); topics: sleep 7, pain 4, anxiety 3, PTSD 1, nightmares 1, appetite 1"
+   "reason": "Bluesky public search (top posts, 7-day window, 83 read this run); topics: sleep 6, anxiety 4, pain 4, PTSD 1, nightmares 1, appetite 1"
   }
  ],
  "source_status": {
