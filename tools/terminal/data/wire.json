@@ -20,8 +20,8 @@
   {
    "source": "MJBizDaily",
    "url": "https://mjbizdaily.com/feed/",
-   "status": "unavailable",
-   "error": "not well-formed (invalid token): line 1, column 1341"
+   "status": "ok",
+   "items": 30
   },
   {
    "source": "New Cannabis Ventures",
@@ -38,14 +38,14 @@
   {
    "source": "StratCann (Canada)",
    "url": "https://stratcann.com/feed/",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 119"
   },
   {
    "source": "Google News: intl cannabis",
    "url": "https://news.google.com/rss/search?q=cannabis+(Germany+OR+Canada+OR+Thailand+OR+Europe+OR+Australia+OR+UK)+when:7d&hl=en-US&gl=US&ceid=US:en",
-   "status": "ok",
-   "items": 12
+   "status": "unavailable",
+   "error": "not well-formed (invalid token): line 1, column 252"
   },
   {
    "source": "Cannabis Health News (UK)",
@@ -318,6 +318,19 @@
    ]
   },
   {
+   "source": "MJBizDaily",
+   "title": "Indiana MMJ push gains bipartisan support ahead of 2027",
+   "link": "https://mjbizdaily.com/indiana-mmj-push-gains-bipartisan-support-ahead-of-2027/619369/",
+   "summary": "A Democrat and a Republican are each drafting Indiana medical cannabis bills, but the GOP still controls both chambers. Indiana MMJ push gains bipartisan support ahead of 2027 is a post from: MJBizDaily: Financial, Legal & Cannabusiness news for cannabis entre",
+   "ts": 1795658057.0,
+   "date": "2026-11-25 20:54",
+   "category": "US states",
+   "is_law": true,
+   "states": [
+    "Indiana"
+   ]
+  },
+  {
    "source": "Marijuana Moment",
    "title": "Federal Court Pauses DEA Medical Marijuana Rules That Companies And States Say Will Upend Markets And Patient Access",
    "link": "https://www.marijuanamoment.net/federal-court-pauses-dea-medical-marijuana-rules-that-companies-and-states-say-will-upend-markets-and-patient-access/",
@@ -353,6 +366,17 @@
    ]
   },
   {
+   "source": "MJBizDaily",
+   "title": "Rescheduling\u2019s two tracks: Why state program design may decide who gets DEA registration",
+   "link": "https://mjbizdaily.com/sponsored/reschedulings-two-tracks-why-state-program-design-may-decide-who-gets-dea-registration/619268/",
+   "summary": "The Justice Department\u2019s April 23 order moved only part of the cannabis market to Schedule III: marijuana covered by a state medical marijuana license. Recent DEA actions suggest the line between the two tracks may be drawn less by the operator than by the sta",
+   "ts": 1795621735.0,
+   "date": "2026-11-25 10:48",
+   "category": "US federal",
+   "is_law": true,
+   "states": []
+  },
+  {
    "source": "Marijuana Moment",
    "title": "Marijuana Opponents Say Trump\u2019s \u2018Audacious\u2019 Rescheduling Move Is Illegal And Must Be Overturned In New Lawsuit Brief",
    "link": "https://www.marijuanamoment.net/marijuana-opponents-say-trumps-audacious-rescheduling-move-is-illegal-and-must-be-overturned-in-new-lawsuit-brief/",
@@ -364,33 +388,9 @@
    "states": [
     "New"
    ]
-  },
-  {
-   "source": "Marijuana Moment",
-   "title": "South Carolina Health Officials Promise To Address Senator\u2019s Medical Marijuana Access Concerns Within 30 Days",
-   "link": "https://www.marijuanamoment.net/south-carolina-health-officials-promise-to-address-senators-medical-marijuana-access-concerns-within-30-days/",
-   "summary": "South Carolina officials are pledging to respond to a GOP senator\u2019s letter that claimed they are out of compliance with state law by not taking steps to provide for legal access to medical marijuana in line with the Trump administration\u2019s federal rescheduling ",
-   "ts": 1795609461.0,
-   "date": "2026-11-25 07:24",
-   "category": "US federal",
-   "is_law": true,
-   "states": [
-    "South Carolina"
-   ]
   }
  ],
  "news_intl": [
-  {
-   "source": "StratCann (Canada)",
-   "title": "OPP Dismantle Illegal Cannabis Production Site in Leeds County",
-   "link": "https://stratcann.com/enforcement/opp-dismantle-illegal-cannabis-production-site-leeds-county/",
-   "summary": "Two individuals have been charged following the seizure of hundreds of cannabis plants and hundreds of kilograms of processed flower and the dismantling of a... The post OPP Dismantle Illegal Cannabis Production Site in Leeds County appeared first on StratCann",
-   "ts": 1795811799.0,
-   "date": "2026-11-27 15:36",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
   {
    "source": "Business of Cannabis (intl)",
    "title": "Cannabis Health Symposium: London 2026 \u2013 Key Takeaways Part 2",
@@ -400,28 +400,6 @@
    "date": "2026-11-27 11:12",
    "category": "International",
    "is_law": true,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Australia\u2019s Cannatrek Group Agrees to Multi-Million Penalty for Unlawful Medical Cannabis Advertising",
-   "link": "https://stratcann.com/news/australias-cannatrek-group-agrees-to-multi-million-penalty-for-unlawful-medical-cannabis-advertising/",
-   "summary": "An Australian medicinal cannabis corporate group and its former CEO have agreed to a nearly A$8 million fine for unlawful advertising. The post Australia\u2019s Cannatrek Group Agrees to Multi-Million Penalty for Unlawful Medical Cannabis Advertising appeared first",
-   "ts": 1795795075.0,
-   "date": "2026-11-27 10:57",
-   "category": "International",
-   "is_law": false,
-   "states": []
-  },
-  {
-   "source": "StratCann (Canada)",
-   "title": "Shatter Recalled Due to Labelling Issue Related to Botanical Terps",
-   "link": "https://stratcann.com/recall/shatter-recalled-due-to-labelling-issue-related-to-botanical-terps/",
-   "summary": "While the printed label listed the ingredients in the product as cannabis extract, the actual content should have also included botanical terpenes. The label also... The post Shatter Recalled Due to Labelling Issue Related to Botanical Terps appeared first on ",
-   "ts": 1795726372.0,
-   "date": "2026-11-26 15:52",
-   "category": "International",
-   "is_law": false,
    "states": []
   },
   {
@@ -447,17 +425,6 @@
    "states": []
   },
   {
-   "source": "Google News: intl cannabis",
-   "title": "Germany's Cannabis Legalization Not Linked To Higher Use, Study Finds - Forbes",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVXdwMTdKN1FZR2JBZkdmWnhxaWhtQll5N2tXaUIxVDdlellNYzkzUmFSMnFUeUR5aEFJRjlzT2Fnb2I1VVBXX3ZwYWZCYWNRRVo1Nnk3VkJ6ajRyRHJzdUQwb1VTNU5lM0tUWUswMkk2ZGNmRGJ6Q1QyNV83RS1BaWNLT0x4NzcxOHV0Wnl5VXdoQ1llTFNscFJiSWtDZkxSTnRkU3ZpX1RBbkVEc3VGS1ZXdXgzaEktVzhuQ3l3?oc=5",
-   "summary": "",
-   "ts": 1795690838.0,
-   "date": "2026-11-26 06:00",
-   "category": "International",
-   "is_law": true,
-   "states": []
-  },
-  {
    "source": "Business of Cannabis (intl)",
    "title": "CIC Calls for Expanded Nursing Roles in UK Medical Cannabis Ahead of London Symposium",
    "link": "https://businessofcannabis.com/cic-calls-for-expanded-nursing-roles-in-uk-medical-cannabis-ahead-of-london-symposium/",
@@ -467,8 +434,56 @@
    "category": "International",
    "is_law": true,
    "states": []
+  },
+  {
+   "source": "Business of Cannabis (intl)",
+   "title": "Where Does the UK Medical Cannabis Journey Actually Break Down?",
+   "link": "https://businessofcannabis.com/where-does-the-uk-medical-cannabis-journey-actually-break-down/",
+   "summary": "\u201cPatients rarely stop because of the medicine. They stop because of the experience,\u201d Cyrus Sadaghiani, Chief Revenue Officer of Retail North, told Business of Cannabis. A poor patient experience, he argues, is the key reason why too many UK patients quietly en",
+   "ts": 1795602927.0,
+   "date": "2026-11-25 05:35",
+   "category": "International",
+   "is_law": false,
+   "states": [
+    "North"
+   ]
+  },
+  {
+   "source": "Business of Cannabis (intl)",
+   "title": "Is Cannabis Legal in Thailand? Boom, Backlash and the Medical-Only Bill",
+   "link": "https://businessofcannabis.com/is-cannabis-legal-in-thailand-boom-backlash-and-the-medical-only-bill/",
+   "summary": "Is cannabis legal in Thailand in 2026? Cannabis is decriminalised in Thailand but no longer freely sold. On June 26, 2025, a ministerial notification significantly restricted access to cannabis flower, in theory requiring a prescription to obtain it. In practi",
+   "ts": 1795519519.0,
+   "date": "2026-11-24 06:25",
+   "category": "International",
+   "is_law": true,
+   "states": []
+  },
+  {
+   "source": "MJBizDaily",
+   "title": "Daily cannabis use exceeds alcohol consumption in Canada, study finds",
+   "link": "https://mjbizdaily.com/news/daily-cannabis-use-exceeds-alcohol-consumption-in-canada-study-finds/619327/",
+   "summary": "New CMAJ research finds 5.7% of Canadians, about 1.8 million people, use cannabis daily, compared with 5.2% who drink alcohol daily. Daily cannabis use exceeds alcohol consumption in Canada, study finds is a post from: MJBizDaily: Financial, Legal & Cannabusin",
+   "ts": 1795477642.0,
+   "date": "2026-11-23 18:47",
+   "category": "International",
+   "is_law": false,
+   "states": [
+    "New"
+   ]
+  },
+  {
+   "source": "Business of Cannabis (intl)",
+   "title": "Notes from a Scaling Healthcare Business: Clinical Responsibility",
+   "link": "https://businessofcannabis.com/notes-from-a-scaling-healthcare-business-clinical-responsibility/",
+   "summary": "In the second of our three-part \u2018Notes from a Scaling Health Care Business\u2019 series, Graham Woodward, Chief Medical Officer at Releaf, takes Business of Cannabis inside what scaling a UK medical cannabis clinic from three patients to tens of thousands has requi",
+   "ts": 1795447685.0,
+   "date": "2026-11-23 10:28",
+   "category": "International",
+   "is_law": false,
+   "states": []
   }
  ],
- "news_health_total": 17,
- "generated": "2026-11-27 22:45 EST"
+ "news_health_total": 25,
+ "generated": "2026-11-27 23:44 EST"
 }
